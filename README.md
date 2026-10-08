@@ -14,10 +14,10 @@ Darmowy kanał cen dla projektu „Bot tradingowy giełda”. GitHub Actions co 
 
 CSV: `Datetime_UTC,Open,High,Low,Close,Volume`, od najstarszego.
 
-Klucze: `nq` (NQ=F), `ndx` (^NDX), `gold` (GC=F), `xauusd` (XAUUSD=X), `silver` (SI=F), `xagusd` (XAGUSD=X), `wti` (CL=F), `ng` (NG=F), `coffee` (KC=F), `cocoa` (CC=F), `dxy` (DX-Y.NYB), `us10y` (^TNX), `vix` (^VIX).
+Klucze: `nq` (NQ=F), `ndx` (^NDX), `gold` (GC=F), `silver` (SI=F), `wti` (CL=F), `ng` (NG=F), `coffee` (KC=F), `cocoa` (CC=F), `dxy` (DX-Y.NYB), `us10y` (^TNX), `vix` (^VIX).
 
 ## Uwagi
 
 - Futures z Yahoo mają opóźnienie do ~10–15 min; GitHub dodatkowo potrafi opóźnić start harmonogramu. Zawsze sprawdzaj `czas_notowania_utc`.
-- Ceny CFD u brokera różnią się od futures (rollover, spread). Spot złota/srebra i indeks ^NDX są bliżej CFD.
+- Ceny CFD u brokera różnią się od futures (rollover, spread). Indeks ^NDX jest bliżej US100 CFD; Yahoo nie podaje spotu XAU/XAG (XAUUSD=X zwraca pustą odpowiedź).
 - Ręczne odświeżenie: zakładka Actions → „Ceny Yahoo” → Run workflow.
