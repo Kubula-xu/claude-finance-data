@@ -6,6 +6,8 @@ Wynik:
   data/<klucz>_15m.csv      świece 15-minutowe (ostatnie ~10 dni)
   data/<klucz>_1h.csv       świece godzinowe (ostatnie ~60 dni)
   data/<klucz>_1d.csv       świece dzienne (ostatni rok)
+  data/xauusd_*.csv, xagusd_*.csv   spot złota/srebra: świece futures przesunięte o bazę spot - futures
+  data/spot_log.csv         każdy odczyt spotu (Swissquote / gold-api.com) z bazą względem futures
   data/status.json          kiedy działał skrypt i które pobrania się nie udały
 
 Gdy pobranie instrumentu się nie uda, poprzednie pliki zostają bez zmian.
@@ -15,6 +17,7 @@ import json
 import os
 import sys
 import time
+import urllib.request
 
 import pandas as pd
 import yfinance as yf
@@ -35,6 +38,15 @@ TICKERS = {
     "us10y":     ("^TNX",     "Rentowność US 10Y (x10)"),
     "vix":       ("^VIX",     "VIX"),
 }
+
+# Spot XAU/XAG: Yahoo go nie podaje, więc bierzemy bieżącą cenę z darmowych źródeł bez klucza
+# (Swissquote, zapasowo gold-api.com), liczymy bazę spot - futures i przesuwamy o nią świece futures.
+SPOT = {
+    "xauusd": ("XAU", "gold",   "Złoto spot XAU/USD (jak XAUUSD w TradingView)"),
+    "xagusd": ("XAG", "silver", "Srebro spot XAG/USD (jak XAGUSD w TradingView)"),
+}
+SPOT_LOG_KEEP = 2000   # wierszy w data/spot_log.csv (~3 tygodnie przy co 15 min)
+BASIS_WINDOW = 8       # mediana bazy z ostatnich N odczytów (~2 h) wygładza opóźnienie futures z Yahoo
 
 # interwał -> okres pobierany z Yahoo (limity Yahoo: 15m do 60 dni, 1h do 730 dni)
 INTERVALS = {"15m": "10d", "1h": "60d", "1d": "1y"}
@@ -62,6 +74,92 @@ def to_csv(df, path):
     df = df.dropna(subset=["Close"]).round(6)
     df.to_csv(path)
     return df
+
+
+def http_json(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 claude-finance-data"})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.load(r)
+
+
+def spot_swissquote(metal):
+    data = http_json(f"https://forex-data-feed.swissquote.com/public-quotes/bboquotes/instrument/{metal}/USD")
+    best = None
+    for platform in data:
+        for prof in platform.get("spreadProfilePrices", []):
+            bid, ask = float(prof["bid"]), float(prof["ask"])
+            if bid > 0 and ask >= bid and (best is None or ask - bid < best[1] - best[0]):
+                best = (bid, ask, platform.get("ts"))
+    if best is None:
+        raise RuntimeError("brak cen w odpowiedzi")
+    bid, ask, ts = best
+    when = dt.datetime.fromtimestamp(ts / 1000, dt.timezone.utc) if ts else dt.datetime.now(dt.timezone.utc)
+    return {"cena": round((bid + ask) / 2, 4), "bid": bid, "ask": ask,
+            "czas_notowania_utc": when.strftime("%Y-%m-%dT%H:%M:%SZ"), "zrodlo": "Swissquote (bid/ask)"}
+
+
+def spot_goldapi(metal):
+    data = http_json(f"https://api.gold-api.com/price/{metal}")
+    price = float(data["price"])
+    if price <= 0:
+        raise RuntimeError("cena <= 0")
+    return {"cena": price, "czas_notowania_utc": str(data.get("updatedAt", ""))[:19] + "Z", "zrodlo": "gold-api.com"}
+
+
+def spot_quote(metal):
+    errs = []
+    for fn in (spot_swissquote, spot_goldapi):
+        try:
+            return fn(metal)
+        except Exception as e:
+            errs.append(f"{fn.__name__}: {type(e).__name__}: {e}"[:150])
+    raise RuntimeError(" | ".join(errs))
+
+
+def update_spot(latest, errors, now):
+    """Dopisuje odczyt spotu do spot_log.csv i buduje <klucz>_{15m,1h,1d}.csv = świece futures + baza."""
+    log_path = os.path.join(OUT, "spot_log.csv")
+    try:
+        log = pd.read_csv(log_path)
+    except Exception:
+        log = pd.DataFrame(columns=["Datetime_UTC", "klucz", "spot", "futures", "futures_czas_utc", "baza", "zrodlo"])
+    for key, (metal, fut_key, desc) in SPOT.items():
+        fut = latest["instrumenty"].get(fut_key)
+        try:
+            q = spot_quote(metal)
+        except Exception as e:
+            errors[f"{key}_spot"] = str(e)[:300]
+            continue
+        row = {"Datetime_UTC": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "klucz": key, "spot": q["cena"],
+               "futures": fut["cena"] if fut else None, "futures_czas_utc": fut["czas_notowania_utc"] if fut else None,
+               "baza": round(q["cena"] - fut["cena"], 4) if fut else None, "zrodlo": q["zrodlo"]}
+        log = pd.concat([log, pd.DataFrame([row])], ignore_index=True)
+        entry = {"symbol": f"{metal}/USD spot", "opis": desc, **q}
+        recent = log[(log["klucz"] == key)]["baza"].dropna().astype(float).tail(BASIS_WINDOW)
+        if fut and len(recent):
+            basis = float(recent.median())
+            entry["baza_vs_futures"] = round(basis, 3)
+            entry["futures"] = fut["symbol"]
+            for interval in INTERVALS:
+                src = os.path.join(OUT, f"{fut_key}_{interval}.csv")
+                try:
+                    df = pd.read_csv(src, index_col="Datetime_UTC")
+                    for c in ("Open", "High", "Low", "Close"):
+                        df[c] = (df[c] + basis).round(4)
+                    df.to_csv(os.path.join(OUT, f"{key}_{interval}.csv"))
+                except Exception as e:
+                    errors[f"{key}_{interval}"] = f"{type(e).__name__}: {e}"[:200]
+            if "dzien" in fut:
+                d = fut["dzien"]
+                entry["dzien"] = {"data": d["data"], **{k: round(d[k] + basis, 4) for k in ("open", "high", "low")}}
+                entry["dzien"]["high"] = max(entry["dzien"]["high"], q["cena"])
+                entry["dzien"]["low"] = min(entry["dzien"]["low"], q["cena"])
+            if "poprzednie_zamkniecie" in fut:
+                pc = fut["poprzednie_zamkniecie"] + basis
+                entry["poprzednie_zamkniecie"] = round(pc, 4)
+                entry["zmiana_pct"] = round((q["cena"] / pc - 1) * 100, 3)
+        latest["instrumenty"][key] = entry
+    log.tail(SPOT_LOG_KEEP).to_csv(log_path, index=False)
 
 
 def main():
@@ -97,13 +195,15 @@ def main():
                               "high": float(today["High"]), "low": float(today["Low"])}
         latest["instrumenty"][key] = entry
 
+    update_spot(latest, errors, now)
+
     latest["zrodlo"] = "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić"
     latest["zaktualizowano_utc"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
     json.dump(latest, open(latest_path, "w"), ensure_ascii=False, indent=1)
     json.dump({"uruchomiono_utc": latest["zaktualizowano_utc"], "bledy": errors},
               open(os.path.join(OUT, "status.json"), "w"), ensure_ascii=False, indent=1)
 
-    ok = len(TICKERS) * len(INTERVALS) - len(errors)
+    ok = len(TICKERS) * len(INTERVALS) - len([k for k in errors if k.split("_")[0] in TICKERS])
     print(f"OK {ok}, błędy {len(errors)}")
     for k, v in errors.items():
         print(f"  {k}: {v}")

@@ -10,14 +10,17 @@ Darmowy kanał cen dla projektu „Bot tradingowy giełda”. GitHub Actions co 
 | `<klucz>_15m.csv` | świece 15 min, ~10 dni |
 | `<klucz>_1h.csv` | świece 1 h, ~60 dni |
 | `<klucz>_1d.csv` | świece dzienne, 1 rok |
+| `spot_log.csv` | każdy odczyt spotu XAU/XAG z bazą względem futures |
 | `status.json` | czas ostatniego przebiegu i lista nieudanych pobrań |
 
 CSV: `Datetime_UTC,Open,High,Low,Close,Volume`, od najstarszego.
 
 Klucze: `nq` (NQ=F), `ndx` (^NDX), `gold` (GC=F), `silver` (SI=F), `wti` (CL=F), `ng` (NG=F), `coffee` (KC=F), `cocoa` (CC=F), `dxy` (DX-Y.NYB), `us10y` (^TNX), `vix` (^VIX).
 
+Spot: `xauusd` (złoto XAU/USD) i `xagusd` (srebro XAG/USD), czyli to samo co XAUUSD/XAGUSD w TradingView. Bieżąca cena (bid/ask) pochodzi z darmowego kanału Swissquote (zapasowo gold-api.com), bez klucza. Świece `xauusd_*.csv` i `xagusd_*.csv` to świece futures GC=F/SI=F przesunięte o bazę spot − futures (mediana z ostatnich ~2 h odczytów, w `latest.json` pole `baza_vs_futures`). Ostatnie świece są więc dokładne do kilku dolarów, a starsze przybliżone (baza zmienia się powoli, skacze przy rolowaniu kontraktu).
+
 ## Uwagi
 
 - Futures z Yahoo mają opóźnienie do ~10–15 min; GitHub dodatkowo potrafi opóźnić start harmonogramu. Zawsze sprawdzaj `czas_notowania_utc`.
-- Ceny CFD u brokera różnią się od futures (rollover, spread). Indeks ^NDX jest bliżej US100 CFD; Yahoo nie podaje spotu XAU/XAG (XAUUSD=X zwraca pustą odpowiedź).
+- Ceny CFD u brokera różnią się od futures (rollover, spread). Indeks ^NDX jest bliżej US100 CFD; Spot XAU/XAG bierzemy spoza Yahoo (patrz wyżej), bo XAUUSD=X zwraca pustą odpowiedź.
 - Ręczne odświeżenie: zakładka Actions → „Ceny Yahoo” → Run workflow.
