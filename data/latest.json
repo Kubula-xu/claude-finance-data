@@ -115,10 +115,10 @@
   "dxy": {
    "symbol": "DX-Y.NYB",
    "opis": "Indeks dolara DXY",
-   "cena": 102.108002,
-   "czas_notowania_utc": "2026-10-08T21:15:00Z",
+   "cena": 102.100998,
+   "czas_notowania_utc": "2026-10-08T21:45:00Z",
    "poprzednie_zamkniecie": 102.239998,
-   "zmiana_pct": -0.129,
+   "zmiana_pct": -0.136,
    "dzien": {
     "data": "2026-10-08",
     "open": 102.232002,
@@ -194,5 +194,5 @@
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-08T21:30:25Z"
+ "zaktualizowano_utc": "2026-10-08T21:56:57Z"
 }
