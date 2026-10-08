@@ -42,7 +42,7 @@ TICKERS = {
 INTERVALS = {"15m": "10d", "1h": "60d", "1d": "1y"}
 
 
-def history(symbol, interval, period, tries=3):
+def history(symbol, interval, period, tries=2):
     last = None
     for i in range(tries):
         try:
@@ -52,7 +52,7 @@ def history(symbol, interval, period, tries=3):
             last = "pusta odpowiedź"
         except Exception as e:  # yfinance zgłasza różne wyjątki przy limitach Yahoo
             last = f"{type(e).__name__}: {e}"
-        time.sleep(2 * (i + 1))
+        time.sleep(3)
     raise RuntimeError(last)
 
 
