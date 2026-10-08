@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude Finance · pulpit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: pulpit dealera; najpierw werdykt, potem wykresy z poziomami, potem głosy agentów i dziennik */
+:root{
+  --bg:#f3f5f8; --panel:#ffffff; --fg:#17202b; --muted:#5a6676; --line:#dbe1e9; --grid:#e9edf2;
+  --accent:#2b5cab; --long:#11845b; --long-bg:#e3f4ec; --short:#c2372f; --short-bg:#fbe7e5;
+  --neutral:#6b7686; --neutral-bg:#eceff3; --warn:#9a6a00; --warn-bg:#fbf1d6;
+  --candle-up:#11845b; --candle-dn:#c2372f;
+  --f-disp:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10151c; --panel:#171e27; --fg:#e4e9f0; --muted:#94a0b0; --line:#2a3542; --grid:#212b36;
+  --accent:#7fa8ec; --long:#45c48f; --long-bg:#143326; --short:#f0766d; --short-bg:#3a1c1a;
+  --neutral:#9aa5b4; --neutral-bg:#232c37; --warn:#e2b44a; --warn-bg:#352a10;
+  --candle-up:#45c48f; --candle-dn:#f0766d; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10151c; --panel:#171e27; --fg:#e4e9f0; --muted:#94a0b0; --line:#2a3542; --grid:#212b36;
+  --accent:#7fa8ec; --long:#45c48f; --long-bg:#143326; --short:#f0766d; --short-bg:#3a1c1a;
+  --neutral:#9aa5b4; --neutral-bg:#232c37; --warn:#e2b44a; --warn-bg:#352a10;
+  --candle-up:#45c48f; --candle-dn:#f0766d; color-scheme:dark}
+*{box-sizing:border-box} [hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--f-body);margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:grid;gap:28px}
+h1,h2{font-family:var(--f-disp);text-wrap:balance;margin:0}
+h1{font-size:1.9rem;font-weight:700;letter-spacing:-.01em}
+h2{font-size:1.25rem;font-weight:600}
+.num,td.n,.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+header{display:grid;gap:10px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;color:var(--muted);font-size:.85rem}
+.meta b{color:var(--fg);font-weight:500}
+.bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+button{font:500 .85rem var(--f-body);color:var(--accent);background:transparent;border:1px solid var(--accent);border-radius:6px;padding:6px 12px;cursor:pointer}
+button:hover{background:var(--accent);color:var(--panel)}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+#live{font-size:.82rem;color:var(--muted)}
+.sec{display:grid;gap:12px}
+.sec>p.lead{margin:0;color:var(--muted);max-width:70ch;font-size:.9rem}
+.tbl{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th{font:600 .72rem var(--f-body);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px 12px;border-bottom:1px solid var(--grid);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.n{text-align:right;white-space:nowrap}
+.pill{display:inline-block;font:600 .72rem var(--f-mono);letter-spacing:.04em;padding:3px 8px;border-radius:4px;white-space:nowrap}
+.LONG{color:var(--long);background:var(--long-bg)} .SHORT{color:var(--short);background:var(--short-bg)}
+.NEUTRAL,.BRAK{color:var(--neutral);background:var(--neutral-bg)} .WARN{color:var(--warn);background:var(--warn-bg)}
+.dots{font-family:var(--f-mono);letter-spacing:1px;color:var(--muted);font-size:.8rem}
+.why{color:var(--muted);font-size:.84rem;min-width:300px;max-width:52ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;display:grid;gap:8px;min-width:0}
+.card h3{font:600 1.05rem var(--f-disp);margin:0;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.card .px{font:500 1.05rem var(--f-mono)}
+.card .sub{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 10px;color:var(--muted);font-size:.78rem}
+.card svg{width:100%;height:auto;display:block}
+.legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.75rem;color:var(--muted)}
+.legend i{display:inline-block;width:14px;height:0;border-top:2px solid;vertical-align:middle;margin-right:4px}
+.note{font-size:.8rem;color:var(--muted);margin:0}
+.src{font-size:.8rem;color:var(--muted);display:grid;gap:4px;max-width:90ch}
+.src a{color:var(--accent)}
+.ok{color:var(--long)} .bad{color:var(--short)}
+.brand{display:flex;align-items:center;gap:10px}
+.mark{display:grid;place-items:center;width:34px;height:34px;border-radius:7px;background:var(--fg);color:var(--bg);font:700 .9rem var(--f-disp);letter-spacing:.02em}
+.firm{display:block;font:700 1.05rem var(--f-disp);letter-spacing:.01em}
+.desk{display:block;font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.tile{background:var(--panel);padding:14px;display:grid;gap:2px;min-width:0}
+.tile .k{font:600 .7rem var(--f-body);text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.tile .v{font:500 1.3rem var(--f-mono);font-variant-numeric:tabular-nums}
+.tile .s{font-size:.78rem;color:var(--muted)}
+.quotes{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.q{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:grid;gap:8px;margin:0;min-width:0}
+.q blockquote{margin:0;font:500 1rem/1.45 var(--f-disp);text-wrap:pretty}
+.q blockquote::before{content:"„"} .q blockquote::after{content:"”"}
+.q .who{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;font-size:.78rem;color:var(--muted)}
+.q .role{font:600 .72rem var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}
+.q .eff{font-size:.82rem;border-top:1px solid var(--grid);padding-top:8px}
+.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;display:flex;gap:4px;overflow-x:auto;background:var(--bg);padding-block:8px;border-bottom:1px solid var(--line);scrollbar-width:thin}
+.tabs button{border:0;border-radius:6px;color:var(--muted);background:transparent;white-space:nowrap;padding:8px 12px}
+.tabs button:hover{background:var(--neutral-bg);color:var(--fg)}
+.tabs button[aria-selected="true"]{background:var(--fg);color:var(--bg)}
+.reports{display:grid;gap:14px}
+.rep{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;display:grid;gap:8px;min-width:0}
+.rep h3{margin:0;font:600 1.1rem var(--f-disp)}
+.rep summary{cursor:pointer;display:grid;gap:2px;list-style:none}
+.rep summary::-webkit-details-marker{display:none}
+.rep summary h3::after{content:" ▾";color:var(--muted);font-size:.9rem}
+.rep:not([open]) summary h3::after{content:" ▸"}
+.rep-body{display:grid;gap:10px;max-width:80ch;min-width:0;padding-top:8px;border-top:1px solid var(--grid)}
+.rep-body h1{font:700 1.4rem/1.25 var(--f-disp);margin:8px 0 0;text-wrap:balance}
+.rep-body h2{font:600 1.1rem var(--f-disp);margin:12px 0 0}
+.rep-body p,.rep-body ul,.rep-body ol{margin:0}
+.rep-body ul,.rep-body ol{padding-left:1.2em;display:grid;gap:4px}
+.rep-body blockquote{margin:0;padding:8px 12px;border-left:3px solid var(--accent);background:var(--neutral-bg);border-radius:0 6px 6px 0}
+.rep-body table{display:block;overflow-x:auto;font-size:.85rem}
+.rep-body section,.rep-body header,.rep-body footer,.rep-body div{display:grid;gap:8px;min-width:0}
+.rep-body footer{color:var(--muted);font-size:.8rem}
+.rep pre{margin:0;white-space:pre-wrap;font:inherit;font-size:.9rem;max-width:80ch}
+.books{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px}
+.book{display:grid;gap:10px;min-width:0}
+.book h3{margin:0;font:600 .78rem var(--f-body);text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.ord{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;gap:6px}
+.ord .top{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.ord .lv{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.ord .lv span{display:grid;font-size:.95rem}
+.ord .lv small{font:600 .66rem var(--f-body);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.CZEKA{color:var(--warn);background:var(--warn-bg)}
+@media (prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--accent)}}
+@media (max-width:420px){.grid{grid-template-columns:1fr}h1{font-size:1.5rem}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <div class="brand"><span class="mark" aria-hidden="true">CF</span><span><span class="firm">Claude Finance</span><span class="desk">Desk towarowo-indeksowy · konto papierowe</span></span></div>
+    <h1>Pulpit sygnałów</h1>
+    <div class="meta" id="meta"></div>
+    <div class="bar"><button id="refresh" type="button">Odśwież teraz</button><span id="live">Ładuję najnowsze dane…</span></div>
+  </header>
+  <nav class="tabs" role="tablist" aria-label="Sekcje pulpitu">
+    <button type="button" role="tab" data-t="przeglad">Przegląd</button>
+    <button type="button" role="tab" data-t="pozycje">Otwarte pozycje</button>
+    <button type="button" role="tab" data-t="intraday">Intraday</button>
+    <button type="button" role="tab" data-t="swing">Swing</button>
+    <button type="button" role="tab" data-t="wykresy">Wykresy</button>
+    <button type="button" role="tab" data-t="sala">Sala transakcyjna</button>
+    <button type="button" role="tab" data-t="dziennik">Dziennik</button>
+    <button type="button" role="tab" data-t="raporty">Raporty</button>
+  </nav>
+
+  <section class="sec" data-tab="przeglad">
+    <h2>Konto papierowe</h2>
+    <div class="tiles" id="account"></div>
+  </section>
+
+  <section class="sec" data-tab="przeglad">
+    <h2>Decyzja na dziś</h2>
+    <p class="lead" id="lead"></p>
+    <div class="tbl"><table id="final"></table></div>
+  </section>
+
+  <section class="sec" data-tab="pozycje">
+    <h2>Otwarte pozycje</h2>
+    <p class="lead" id="poz-lead"></p>
+    <div class="tiles" id="poz-tiles"></div>
+    <div class="grid" id="poz"></div>
+  </section>
+
+  <section class="sec" data-tab="intraday">
+    <h2>Księga intraday</h2>
+    <p class="lead">Płynne rynki: US100, złoto, srebro, WTI, gaz. Zlecenia limit z wejściem po odrzuceniu na M15, wszystko zamknięte do 22:30 PL. Poziomy WTI są z kontraktu futures, a złota w cenach spot (XAUUSD). Cena CFD u brokera może się różnić, więc przed wejściem przesuń poziomy o tę różnicę.</p>
+    <div class="books" id="book-intraday"></div>
+  </section>
+
+  <section class="sec" data-tab="swing">
+    <h2>Księga swing</h2>
+    <p class="lead">Kawa i kakao, horyzont 1–2 tygodnie. Noc i weekend dozwolone, stop czasowy 10 sesji (ryzyko.md, sekcja 10a).</p>
+    <div class="books" id="book-swing"></div>
+  </section>
+
+  <section class="sec" data-tab="raporty">
+    <h2>Raporty dla inwestorów</h2>
+    <p class="lead">Listy i reportaże działu PR, w całości tutaj. Kliknij tytuł, żeby zwinąć albo rozwinąć.</p>
+    <div class="reports" id="reports"></div>
+  </section>
+
+  <section class="sec" data-tab="sala">
+    <h2>Z sali transakcyjnej</h2>
+    <p class="lead">Zdania z notatek agentów, które przesądziły o decyzjach. Cytaty są dosłowne, z plików w folderze agenci/. Pod każdym: co z tego wynikło.</p>
+    <div class="quotes" id="quotes"></div>
+  </section>
+
+  <section class="sec" data-tab="wykresy">
+    <h2>Wykresy H1</h2>
+    <p class="lead">Świece godzinowe z ostatnich ok. 3 dni sesji (futures z Yahoo Finance przez repo claude-finance-data). Szare linie to pivoty dnia (S1, P, R1). Wejście, SL i TP widać przy aktywnych zleceniach i pozycjach.</p>
+    <div class="legend"><span><i style="border-color:var(--muted);border-top-style:dashed"></i>pivoty dnia</span><span><i style="border-color:var(--accent)"></i>wejście</span><span><i style="border-color:var(--short)"></i>SL</span><span><i style="border-color:var(--long)"></i>TP1 / TP2</span></div>
+    <div class="grid" id="charts"></div>
+  </section>
+
+  <section class="sec" data-tab="dziennik">
+    <h2>Dziennik paper trading</h2>
+    <p class="lead">Z pliku agenci/paper_trading.md. Wielkość liczona dla kapitału konta: ryzyko w USD podzielone przez odległość do SL. Kontrakty to standardowe futures (zaokrąglamy w dół), jednostki CFD przy 1 USD na 1 punkt ceny (kawa: 1 lb). Pozycje odtwarzasz ręcznie w TradingView.</p>
+    <div class="tbl"><table id="journal"></table></div>
+  </section>
+
+  <section class="sec" data-tab="przeglad">
+    <h2>Źródła danych</h2>
+    <div class="src" id="src"></div>
+  </section>
+</div>
+
+<script id="snapshot" type="application/json">__PANEL_DATA__</script>
+<script>
+const SNAP = JSON.parse(document.getElementById('snapshot').textContent);
+const NS = 'http://www.w3.org/2000/svg';
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt = (v, d) => v == null || isNaN(v) ? '–' : Number(v).toLocaleString('pl-PL', {minimumFractionDigits:d, maximumFractionDigits:d, useGrouping:'always'});
+const pill = k => `<span class="pill ${esc(k)}">${esc((typeof pillLabel !== 'undefined' && pillLabel[k]) || k)}</span>`;
+const dots = n => '●'.repeat(n) + '○'.repeat(5 - n);
+const fmtTime = iso => { try { return new Date(iso).toLocaleString('pl-PL', {dateStyle:'medium', timeStyle:'short', timeZone:'Europe/Warsaw'}) + ' czasu PL'; } catch { return iso; } };
+
+const usd = (v, d = 0) => v == null ? '–' : '$' + fmt(v, d);
+const ACTIVE = st => /^(oczekuje|otwarta)/.test(st || '');
+const pillLabel = {BRAK: 'BEZ POZYCJI', CZEKA: 'CZEKA NA H1'};
+let LIVE = null;
+const lbl = r => r.date ? r.date.slice(5).split('-').reverse().join('.') : new Date(r.t).toLocaleString('pl-PL', {day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Warsaw'});
+function render(D) {
+  LIVE = D.live;
+  const S = D.sygnaly, I = S.instrumenty, KAP = S.kapital || 0, J = D.dziennik || [];
+  $('#meta').innerHTML = `${D.live ? `<span>Ceny: <b>repo claude-finance-data (futures Yahoo, spot złota i srebra Swissquote), odczyt ${esc(fmtTime(D.live.zaktualizowano_utc))}</b></span>` : ''}<span>Horyzont: <b>${esc(S.horyzont || '')}</b></span><span>Dane D1: <b>${esc(D.zrodlo_danych)}</b></span><span>Sygnały: <b>${esc(fmtTime(S.aktualizacja))}</b></span><span>Panel zbudowany: <b>${esc(fmtTime(D.zbudowano))}</b></span>`;
+
+  const realized = J.filter(r => /^zamknięta/.test(r.Status || '')).reduce((a, r) => a + (r._wynik_usd || 0), 0);
+  const P = D.pozycje || [];
+  const unreal = P.reduce((a, p) => a + p.pnl_usd, 0), openRisk = P.reduce((a, p) => a + p.ryzyko_usd, 0);
+  const pend = J.filter(r => /^oczekuje/.test(r.Status || ''));
+  const closed = J.filter(r => /^zamknięta/.test(r.Status || ''));
+  const tile = (k, v, s) => `<div class="tile"><span class="k">${k}</span><span class="v">${v}</span><span class="s">${s}</span></div>`;
+  const signed = v => `<span class="${v > 0 ? 'ok' : v < 0 ? 'bad' : ''}">${v >= 0 ? '+' : '−'}${usd(Math.abs(v))}</span>`;
+  const liveT = D.live ? fmtTime(D.live.zaktualizowano_utc) : 'brak odczytu';
+  $('#account').innerHTML =
+    tile('Kapitał startowy', usd(KAP), 'konto papierowe Claude Finance') +
+    tile('Wartość konta', usd(KAP + realized + unreal), `z wynikiem niezrealizowanym, odczyt ${liveT}`) +
+    tile('Wynik niezrealizowany', signed(unreal), `${P.length} otwartych pozycji`) +
+    tile('Wynik zrealizowany', signed(realized), `${closed.length} zamkniętych transakcji`) +
+    tile('Ryzyko otwartych', usd(openRisk), `${fmt(KAP ? openRisk / KAP * 100 : 0, 2)}% kapitału · ${pend.length} zleceń oczekuje`);
+  $('#poz-lead').textContent = D.live
+    ? `Ceny z repo claude-finance-data (futures z Yahoo Finance z opóźnieniem do 15 min), ostatni odczyt ${liveT}. Złoto liczone z ceny spot XAU/USD (Swissquote, bid/ask), jak XAUUSD w TradingView. Świece spot to futures przesunięte o bazę, więc starsze świece są przybliżone.`
+    : 'Brak odczytu cen z repo, wyniki niedostępne.';
+  $('#poz-tiles').innerHTML = tile('Wynik niezrealizowany', signed(unreal), `${(unreal / KAP * 100).toFixed(2).replace('.', ',')}% kapitału`) + tile('Ryzyko do SL', usd(openRisk), `${P.length} pozycje`) + tile('Wartość konta', usd(KAP + realized + unreal), 'kapitał 10 mln USD');
+  const pz = $('#poz'); pz.textContent = '';
+  P.forEach(p => {
+    const x = I.find(i => i.id === p.id), el = document.createElement('div'); el.className = 'card';
+    const dir = p.kierunek === 'LONG' ? 1 : -1, d = x ? x.dec : 2;
+    el.innerHTML = `<h3><span>${esc(p.instrument)} ${pill(p.kierunek)}</span><span class="px ${p.pnl_usd >= 0 ? 'ok' : 'bad'}">${p.pnl_usd >= 0 ? '+' : '−'}${usd(Math.abs(p.pnl_usd))}</span></h3>
+      <div class="sub"><span>${fmt(p.jednostki, 0)} ${esc(p.jedn)} · ${p.r != null ? (p.r >= 0 ? '+' : '') + fmt(p.r, 2) + 'R' : ''}</span><span>teraz ${fmt(p.cena, d)}${p.spot_offset ? ` (spot szacunkowo, z futures ${fmt(p.cena_futures, d)})` : ` (${esc(p.symbol)}, ${esc(p.zrodlo)})`} · ${esc(fmtTime(p.czas))}</span></div>
+      <div class="lv" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;font-family:var(--f-mono)"><span style="display:grid"><small class="k" style="font:600 .66rem var(--f-body);color:var(--muted);text-transform:uppercase">Wejście</small>${fmt(p.wejscie, d)}</span><span style="display:grid"><small style="font:600 .66rem var(--f-body);color:var(--muted);text-transform:uppercase">SL</small>${fmt(p.sl, d)}</span><span style="display:grid"><small style="font:600 .66rem var(--f-body);color:var(--muted);text-transform:uppercase">TP1</small>${fmt(p.tp1, d)}</span><span style="display:grid"><small style="font:600 .66rem var(--f-body);color:var(--muted);text-transform:uppercase">TP2</small>${fmt(p.tp2, d)}</span></div>`;
+    if (x) {
+      const rows = (D.live && (D.live.h1[p.h1_key] || D.live.h1[p.id])) || x.ohlc;
+      const off = p.spot_offset || 0;
+      el.appendChild(svgChart(x, rows.slice(-36), {wejscie: p.wejscie + off, sl: p.sl + off, tp1: p.tp1 + off, tp2: p.tp2 + off}, true, true, p.h1_key !== p.id));
+      if (off) { const n = document.createElement('p'); n.className = 'note'; n.textContent = `Wykres H1 to futures. Poziomy spot przesunięte o +${fmt(off, 1)} USD, żeby pasowały do wykresu.`; el.appendChild(n); } else if (p.h1_key !== p.id) { const n = document.createElement('p'); n.className = 'note'; n.textContent = 'Wykres H1 w cenach spot (świece futures przesunięte o bazę spot − futures).'; el.appendChild(n); }
+    }
+    const u = document.createElement('p'); u.className = 'note'; u.textContent = `Status: ${p.status}. ${p.uwagi}`; el.appendChild(u);
+    pz.appendChild(el);
+  });
+  if (!P.length) pz.innerHTML = '<p class="note">Brak otwartych pozycji.</p>';
+
+  $('#lead').textContent = 'Finalny głos należy do koordynatora, poziomy zatwierdza agent ryzyka. ' + (S.portfel || '');
+  const opis = S.agenci_opis || {};
+  const ag = ['makro', 'sentyment', 'technika'];
+  $('#final').innerHTML = `<thead><tr><th>Instrument</th><th>Decyzja</th>${ag.map(a => `<th>${a}${opis[a] ? `<br><span class="note" style="text-transform:none;letter-spacing:0">${esc(opis[a])}</span>` : ''}</th>`).join('')}<th>Ostatnia cena</th><th>Poziomy dnia S1 · P · R1</th><th>Wielkość przy aktywnym zleceniu</th><th>Dlaczego</th></tr></thead><tbody>` +
+    I.map(x => {
+      const s = x.setup, last = x.ohlc[x.ohlc.length - 1], pv = x.pivoty, w = x.wielkosc, act = ACTIVE(s.status);
+      return `<tr><td><b>${esc(x.nazwa)}</b><br><span class="note mono">${esc(x.ticker_tv)}</span></td>
+        <td>${pill(x.final.kierunek)}${x.final.pewnosc ? ` <span class="dots">${x.final.pewnosc}/5</span>` : ''}${act && s.ksiega ? `<br><span class="note">księga ${esc(s.ksiega)}</span>` : ''}</td>
+        ${ag.map(a => { const v = x.agenci[a]; return `<td>${pill(v[0])} <span class="dots">${v[1]}/5</span></td>`; }).join('')}
+        <td class="n">${LIVE && LIVE.ceny[x.id] ? `${fmt(LIVE.ceny[x.id].cena, x.dec)}<br><span class="note">${esc(LIVE.ceny[x.id].symbol)}, ${esc(fmtTime(LIVE.ceny[x.id].czas_notowania_utc))}</span>` : x.ostatnia_cena ? `${fmt(x.ostatnia_cena.cena, x.dec)}<br><span class="note">${esc(x.ostatnia_cena.czas)}, ${esc(x.ostatnia_cena.zrodlo.split(' (')[0])}</span>` : `${fmt(last.c, x.dec)}<br><span class="note">${esc(last.date)}</span>`}</td>
+        <td class="n">${pv ? `${fmt(pv.S1, x.dec)} · ${fmt(pv.P, x.dec)} · ${fmt(pv.R1, x.dec)}<br><span class="note">ATR H1 ≈ ${fmt(pv.ATR_H1, x.dec)}</span>` : '<span class="note">brak</span>'}</td>
+        <td class="n">${act && w ? `${Math.floor(w.kontrakty)} × ${esc(x.kontrakt.nazwa.split(' (')[0])}<br><span class="note">ryzyko ${usd(w.ryzyko_usd)} · nominał ${usd(w.nominal_usd)}</span>` : `<span class="note">brak aktywnego zlecenia</span>`}</td>
+        <td class="why">${esc(x.final.powod)}</td></tr>`;
+    }).join('') + '</tbody>';
+
+  const books = {intraday: 'Księga intraday', swing: 'Księga swing (1–2 tygodnie)'};
+  Object.entries(books).forEach(([k, t]) => {
+    const xs = I.filter(x => (ACTIVE(x.setup.status) || /^nie zrealizowane/.test(x.setup.status || '')) && (x.setup.ksiega || 'intraday') === k);
+    const live = xs.filter(x => ACTIVE(x.setup.status));
+    const risk = live.reduce((a, x) => a + (x.wielkosc ? x.wielkosc.ryzyko_usd : 0), 0);
+    document.getElementById('book-' + k).innerHTML = `<div class="book"><h3>${t} · ryzyko aktywnych ${usd(risk)}</h3>${xs.map(x => { const s = x.setup, w = x.wielkosc, dead = !ACTIVE(s.status); return `<div class="ord"${dead ? ' style="opacity:.6"' : ''}><div class="top"><b>${esc(x.nazwa)} ${pill(s.kierunek)}</b><span class="note">${esc(s.status)}</span></div>
+      <div class="lv"><span><small>Wejście</small>${fmt(s.wejscie, x.dec)}</span><span><small>SL</small>${fmt(s.sl, x.dec)}</span><span><small>TP1</small>${fmt(s.tp1, x.dec)}</span><span><small>TP2</small>${fmt(s.tp2, x.dec)}</span></div>
+      <span class="note">${w && !dead ? `Ryzyko ${usd(w.ryzyko_usd)} (${fmt(s.ryzyko_pct, 2)}%) · ${Math.floor(w.kontrakty)} kontr. ${esc(x.kontrakt.nazwa.split(' (')[1] ? x.kontrakt.nazwa.split(' (')[1].split(')')[0] : '')} · ${fmt(w.jednostki_cfd, 0)} ${esc(x.kontrakt.jedn_cfd)} CFD` : ''}</span>
+      <span class="note">${esc(s.uwagi || '')}</span></div>`; }).join('') || '<p class="note">Brak aktywnych zleceń.</p>'}</div>`;
+  });
+
+  const R = D.raporty || [];
+  $('#reports').innerHTML = R.length ? R.map((r, i) => `<details class="rep"${i === 0 ? ' open' : ''}><summary><h3>${esc(r.tytul)}</h3><span class="note">${esc(fmtTime(r.zmieniono))}</span></summary><div class="rep-body">${r.html != null ? r.html : `<pre>${esc(r.tekst)}</pre>`}</div></details>`).join('')
+    : '<p class="note">Agent PR nie zapisał jeszcze żadnego raportu.</p>';
+
+  $('#quotes').innerHTML = (S.cytaty || []).map(q => `<figure class="q"><div class="who"><span class="role">${esc(q.kto)}</span><span>${esc(q.temat)} · ${esc(q.kiedy)}</span></div><blockquote>${esc(q.tekst)}</blockquote><figcaption class="eff">${esc(q.skutek)}</figcaption></figure>`).join('') || '<p class="note">Brak cytatów.</p>';
+
+  const ch = $('#charts'); ch.textContent = '';
+  I.forEach(x => ch.appendChild(card(x)));
+
+  const cols = ['#', 'Data otwarcia (UTC)', 'Instrument', 'Kierunek', 'Wejście', 'SL', 'TP', 'Ryzyko %'].concat(J.length && 'Wielkość' in J[0] ? ['Wielkość'] : []);
+  const hasW = cols.includes('Wielkość');
+  const tail = ['Status', 'Zamknięcie', 'Wynik (R)', 'Uwagi'];
+  $('#journal').innerHTML = J.length
+    ? `<thead><tr>${cols.map(c => `<th>${esc(c)}</th>`).join('')}<th>Ryzyko USD</th>${hasW ? '' : '<th>Kontrakty</th><th>Jednostki CFD</th>'}${tail.map(c => `<th>${esc(c)}</th>`).join('')}<th>Wynik USD</th></tr></thead><tbody>${J.map(r => {
+        const cell = c => c === 'Kierunek' ? `<td>${pill(r[c])}</td>` : `<td class="${/^[\d\s,./–-]+$/.test(r[c] || '') && r[c] ? 'n' : ''}">${esc(r[c])}</td>`;
+        const ann = /^anulowana/.test(r.Status || '');
+        return `<tr${ann ? ' style="opacity:.6"' : ''}>${cols.map(cell).join('')}<td class="n">${usd(r._ryzyko_usd)}</td>${hasW ? '' : `<td class="n">${r._kontrakty != null ? `${Math.floor(r._kontrakty)} <span class="note">(${fmt(r._kontrakty, 2)})</span>` : '–'}</td><td class="n">${r._jednostki != null ? `${fmt(r._jednostki, 0)} ${esc(r._jedn)}` : '–'}</td>`}${tail.map(cell).join('')}<td class="n">${r._wynik_usd != null ? usd(r._wynik_usd) : '–'}</td></tr>`;
+      }).join('')}</tbody>`
+    : '<tbody><tr><td>Brak wpisów. Pierwsze zlecenia pojawią się po decyzji koordynatora.</td></tr></tbody>';
+
+  $('#src').innerHTML = `<p style="margin:0">${esc(D.readme).replace(/\n+/g, '<br>')}</p>
+    <p style="margin:0">Pivoty dnia: ${esc(D.pivoty_plik || 'brak')} (agent techniki, z OHLC 7.10). ATR H1 to w większości szacunek ATR D1 / 5, nie pomiar ze świec H1.</p>
+    <p style="margin:0">ATR(14) D1 policzony w panelu z tych samych świec zgadza się z wartościami agenta techniki: ${I.map(x => `${esc(x.nazwa)} ${fmt(x.atr_obliczony, x.dec)}`).join(', ')}.</p>
+    <p style="margin:0">Specyfikacje kontraktów: NQ 20 USD/pkt, GC 100 oz, SI 5 000 oz, CL 1 000 bbl, NG 10 000 MMBtu, KC 37 500 lb, CC 10 t (CME, ICE). Analizy i źródła agentów (Fed H.15, CFTC COT, EIA, FXEmpire, Sucden, Trading Economics) są w plikach agenci/*.md. Claude Finance to eksperyment na koncie papierowym, nie porada inwestycyjna.</p>`;
+}
+
+function card(x) {
+  const el = document.createElement('div'); el.className = 'card';
+  const h1 = LIVE && LIVE.h1 && LIVE.h1[x.id];
+  const rows = h1 && h1.length ? h1 : x.ohlc, last = rows[rows.length - 1], first = rows[0], s = x.setup, act = ACTIVE(s.status) || /^otwarta/.test(s.status || '');
+  const chg = (last.c / first.c - 1) * 100;
+  el.innerHTML = `<h3><span>${esc(x.nazwa)} ${pill(x.final.kierunek)}</span><span class="px">${fmt(last.c, x.dec)}</span></h3>
+    <div class="sub"><span>${esc(x.jedn)} · ${h1 ? 'H1' : 'D1'}, ostatnia świeca ${esc(lbl(last))}</span><span class="${chg >= 0 ? 'ok' : 'bad'}">${chg >= 0 ? '+' : ''}${fmt(chg, 1)}% od ${esc(lbl(first))}</span><span>ATR14 ${fmt(x.atr_obliczony, x.dec)}</span></div>`;
+  el.appendChild(svgChart(x, rows, s, act));
+  if (act && s.ceny === 'spot') { const n = document.createElement('p'); n.className = 'note'; n.textContent = 'Poziomy zlecenia są w cenach spot, a wykres to futures, więc linii nie nanoszę.'; el.appendChild(n); }
+  return el;
+}
+
+function svgChart(x, rows, s, act, force, noPiv) {
+  const W = 440, H = 230, L = 6, R = 92, T = 10, B = 22;
+  const lv = [['WEJ', s.wejscie, 'var(--accent)'], ['SL', s.sl, 'var(--short)'], ['TP1', s.tp1, 'var(--long)'], ['TP2', s.tp2, 'var(--long)']];
+  let lo = Math.min(...rows.map(r => r.l)), hi = Math.max(...rows.map(r => r.h));
+  const pv = noPiv ? {} : (x.pivoty || {});
+  const spot = s.ceny === 'spot';
+  const shown = (force ? lv.filter(([, v]) => v != null) : act && !spot ? lv.filter(([, v]) => v != null) : []).concat([['S1', pv.S1, 'var(--muted)'], ['P', pv.P, 'var(--muted)'], ['R1', pv.R1, 'var(--muted)']].filter(([, v]) => v != null));
+  shown.forEach(([, v]) => { lo = Math.min(lo, v); hi = Math.max(hi, v); });
+  const pad = (hi - lo) * .05; lo -= pad; hi += pad;
+  const y = v => T + (hi - v) / (hi - lo) * (H - T - B);
+  const step = (W - L - R) / rows.length, bw = Math.max(2, step * .6);
+  const svg = document.createElementNS(NS, 'svg'); svg.setAttribute('viewBox', `0 0 ${W} ${H}`); svg.setAttribute('role', 'img');
+  svg.setAttribute('aria-label', `${x.nazwa}: świece ${rows[0].t ? 'H1' : 'D1'} od ${lbl(rows[0])} do ${lbl(rows[rows.length - 1])}`);
+  const add = (tag, a) => { const e = document.createElementNS(NS, tag); for (const k in a) e.setAttribute(k, a[k]); svg.appendChild(e); return e; };
+  for (let i = 0; i <= 4; i++) {
+    const v = lo + (hi - lo) * i / 4, yy = y(v);
+    add('line', {x1: L, x2: W - R, y1: yy, y2: yy, stroke: 'var(--grid)', 'stroke-width': 1});
+    const t = add('text', {x: W - R + 4, y: yy + 3, 'font-size': 9, fill: 'var(--muted)', 'font-family': 'IBM Plex Mono, monospace'}); t.textContent = fmt(v, x.dec > 2 ? 2 : x.dec);
+  }
+  rows.forEach((r, i) => {
+    const cx = L + step * (i + .5), up = r.c >= r.o, col = up ? 'var(--candle-up)' : 'var(--candle-dn)';
+    add('line', {x1: cx, x2: cx, y1: y(r.h), y2: y(r.l), stroke: col, 'stroke-width': 1});
+    const top = y(Math.max(r.o, r.c)), h = Math.max(1, Math.abs(y(r.o) - y(r.c)));
+    add('rect', {x: cx - bw / 2, y: top, width: bw, height: h, fill: up ? 'var(--panel)' : col, stroke: col, 'stroke-width': 1});
+    const ttl = document.createElementNS(NS, 'title'); ttl.textContent = `${lbl(r)}  O ${fmt(r.o, x.dec)}  H ${fmt(r.h, x.dec)}  L ${fmt(r.l, x.dec)}  C ${fmt(r.c, x.dec)}`;
+    svg.lastChild.appendChild(ttl);
+  });
+  const used = [];
+  shown.forEach(([name, v, col]) => {
+    const yy = y(v);
+    add('line', {x1: L, x2: W - R, y1: yy, y2: yy, stroke: col, 'stroke-width': 1.3, 'stroke-dasharray': col === 'var(--muted)' ? '4 3' : '', opacity: col === 'var(--muted)' ? .8 : 1});
+    let ty = yy + 3; while (used.some(u => Math.abs(u - ty) < 10)) ty += 10; used.push(ty);
+    const t = add('text', {x: W - R + 4, y: ty, 'font-size': 9.5, 'font-weight': 600, fill: col, 'font-family': 'IBM Plex Mono, monospace'}); t.textContent = `${name} ${fmt(v, x.dec > 2 ? 2 : x.dec)}`;
+  });
+  // ukryj etykiety siatki, które kolidują z etykietami poziomów
+  [...svg.querySelectorAll('text')].forEach(t => { if (!t.getAttribute('font-weight') && used.some(u => Math.abs(u - +t.getAttribute('y')) < 9)) t.remove(); });
+  [[0, 'start'], [rows.length - 1, 'end']].forEach(([i, a]) => {
+    const t = add('text', {x: i ? W - R : L, y: H - 6, 'font-size': 9, fill: 'var(--muted)', 'text-anchor': a, 'font-family': 'IBM Plex Mono, monospace'}); t.textContent = lbl(rows[i]);
+  });
+  return svg;
+}
+
+render(SNAP);
+
+const TABS = [...document.querySelectorAll('.tabs [role=tab]')].map(b => b.dataset.t);
+function show(t) {
+  if (!TABS.includes(t)) t = 'przeglad';
+  document.querySelectorAll('[data-tab]').forEach(sec => { sec.hidden = sec.dataset.tab !== t; });
+  document.querySelectorAll('.tabs [role=tab]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.t === t)));
+  try { localStorage.setItem('cf-tab', t); } catch {}
+}
+document.querySelector('.tabs').addEventListener('click', e => { const b = e.target.closest('[role=tab]'); if (b) { show(b.dataset.t); history.replaceState(null, '', '#' + b.dataset.t); } });
+let start = location.hash.slice(1);
+if (!TABS.includes(start)) { try { start = localStorage.getItem('cf-tab') || ''; } catch {} }
+if (!TABS.includes(start) && (SNAP.pozycje || []).length) start = 'pozycje';
+show(start);
+
+// GitHub Pages: panel.json przebudowuje Actions po każdym pobraniu cen; latest.json z repo daje świeższe ceny do P/L.
+const RAW = 'https://raw.githubusercontent.com/Kubula-xu/claude-finance-data/main/data/latest.json';
+let CUR = SNAP;
+function reprice(D, latest) {
+  const L = (latest && latest.instrumenty) || {};
+  if (!D.live || !latest || (latest.zaktualizowano_utc || '') <= (D.live.zaktualizowano_utc || '')) return D;
+  const out = JSON.parse(JSON.stringify(D));
+  out.live.zaktualizowano_utc = latest.zaktualizowano_utc;
+  for (const [k, v] of Object.entries(L)) out.live.ceny[k] = {symbol: v.symbol, cena: v.cena, czas_notowania_utc: v.czas_notowania_utc, zmiana_pct: v.zmiana_pct, dzien: v.dzien};
+  (out.pozycje || []).forEach(p => {
+    const src = L[p.h1_key]; if (!src || !p.usd_na_jedn) return;
+    const d = p.kierunek === 'LONG' ? 1 : -1, cur = src.cena - (p.spot_offset || 0);
+    p.cena = cur; p.czas = src.czas_notowania_utc; if (L[p.id]) p.cena_futures = L[p.id].cena;
+    p.pnl_usd = Math.round(d * (cur - p.wejscie) * p.jednostki * p.usd_na_jedn);
+    p.r = p.ryzyko_usd ? Math.round(p.pnl_usd / p.ryzyko_usd * 100) / 100 : null;
+  });
+  return out;
+}
+async function getJSON(url) {
+  const r = await fetch(url + (url.includes('?') ? '&' : '?') + 't=' + Date.now(), {cache: 'no-store'});
+  if (!r.ok) throw new Error(r.status);
+  return r.json();
+}
+async function refresh() {
+  const live = $('#live');
+  let ok = false;
+  try { const D = await getJSON('panel.json'); if (D.zbudowano >= (CUR.zbudowano || '')) CUR = D; ok = true; } catch {}
+  let latest = null;
+  try { latest = await getJSON(RAW); ok = true; } catch {}
+  render(reprice(CUR, latest));
+  const t = new Date().toLocaleTimeString('pl-PL', {hour: '2-digit', minute: '2-digit'});
+  live.textContent = ok ? `Sprawdzono ${t}. Ceny odświeżam co 3 minuty, pozycje i raporty co 15 minut.` : `Nie udało się pobrać danych (${t}). Spróbuję ponownie za 3 minuty.`;
+}
+$('#refresh').addEventListener('click', refresh);
+refresh();
+setInterval(() => { if (document.visibilityState === 'visible') refresh(); }, 3 * 60 * 1000);
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') refresh(); });
+</script>
+</body>
+</html>

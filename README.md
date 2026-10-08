@@ -24,3 +24,14 @@ Spot: `xauusd` (złoto XAU/USD) i `xagusd` (srebro XAG/USD), czyli to samo co XA
 - Futures z Yahoo mają opóźnienie do ~10–15 min; GitHub dodatkowo potrafi opóźnić start harmonogramu. Zawsze sprawdzaj `czas_notowania_utc`.
 - Ceny CFD u brokera różnią się od futures (rollover, spread). Indeks ^NDX jest bliżej US100 CFD; Spot XAU/XAG bierzemy spoza Yahoo (patrz wyżej), bo XAUUSD=X zwraca pustą odpowiedź.
 - Ręczne odświeżenie: zakładka Actions → „Ceny Yahoo” → Run workflow.
+
+## Pulpit Claude Finance (GitHub Pages)
+
+Strona: https://kubula-xu.github.io/claude-finance-data/
+
+Workflow „Pulpit (GitHub Pages)” buduje ją po każdym pobraniu cen i po każdej zmianie w `panel/`. Strona w przeglądarce co 3 minuty dociąga `data/latest.json` i przelicza wynik otwartych pozycji.
+
+- `panel/build.py` składa `index.html`, `panel.json` i `pozycje.json` (otwarte pozycje z wynikiem).
+- `panel/szablon.html` to szablon strony.
+- `panel/projekt/` to kopia plików agentów: `agenci/paper_trading.md` (dziennik i pozycje), `dane/sygnaly.json`, `dane/intraday_poziomy_*.csv`, `raporty/`.
+- Agenci po zmianie pozycji lub nowym raporcie uruchamiają `panel/sync_z_projektu.sh "opis"`, który kopiuje pliki z folderu projektu i wypycha je do repo.

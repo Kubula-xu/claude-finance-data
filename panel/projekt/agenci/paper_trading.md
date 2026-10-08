@@ -1,0 +1,30 @@
+# Dziennik transakcji papierowych
+
+Prowadzi koordynator. Transakcje odtwarzasz ręcznie w TradingView (Paper Trading), bo TradingView nie ma API do składania zleceń.
+Kapitał konta papierowego Claude Finance: 10 000 000 USD. Poziomy liczone z danych D1 w /mnt/project-files/dane/ (Investing.com, pobrane 2026-10-08 ok. 15:00 UTC). Od 8.10 15:15 UTC horyzont intraday.
+Ryzyko % to procent kapitału na transakcję (zasady w ryzyko.md). Wynik w R = zysk/strata podzielona przez odległość wejście–SL.
+Panel czyta tę tabelę, więc nie zmieniaj kolejności kolumn.
+
+| # | Data otwarcia (UTC) | Instrument | Kierunek | Wejście | SL | TP | Ryzyko % | Wielkość | Źródło ceny / czas | Status | Zamknięcie | Wynik (pkt) | Wynik (R) | Uwagi |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 2026-10-08 15:10 | Ropa WTI | LONG | 89,50 | 82,75 | 103,00 / 105,50 | 1,0 | | Investing D1, 8.10 15:00 UTC | anulowana (zmiana na intraday) | | | | BE przy 96,25. Bez wejścia 30 min przed i 15 min po EIA (śr. 16:30 PL) |
+| 2 | 2026-10-08 15:10 | Kawa US | SHORT | 294,00 | 305,00 | 272,00 / 270,00 | 1,0 | | Investing D1 do 2.10 + TE 8.10 | anulowana (zmiana na intraday) | | | | Gra w konsolidacji. BE przy 283. Spread < 1,1 c/lb |
+| 3 | 2026-10-08 15:10 | Złoto | SHORT | 4210 | 4335 | 3960 / 3835 | 0,5 | | Investing D1, 8.10 15:00 UTC | anulowana (zmiana na intraday) | | | | BE przy 4085 |
+| 4 | 2026-10-08 15:10 | US100 | LONG | 31050 | 30300 | 32550 / 33300 | 0,5 | | Investing D1, 8.10 15:00 UTC | anulowana (zmiana na intraday) | | | | BE przy 31800. Przed CPI 14.10 bez BE: zamknąć połowę |
+| 5 | 2026-10-08 15:10 | Kakao US | LONG | 5310 | 4950 | 5900 / 6000 | 0,5 | | Investing D1, 8.10 15:00 UTC | anulowana (zmiana na intraday) | | | | Warunkowy. BE (5670) albo zamknięcie przed przemiałem 15.10. Spread < 36 USD/t |
+| 6 | 2026-10-08 15:30 | Ropa WTI | LONG | 90,40 | 89,00 | 92,65 / 93,45 | 0,5 | 17 100 bbl (połowa z 34 200) | CL=F 15m (repo claude-finance-data), świeca 16:15 UTC | otwarta (wejście 8.10 ok. 16:15 UTC) | | +1,24 (niezrealiz., 91,64 o 17:45 UTC) | +0,89 | Limit 90,40 wypełniony w świecy 16:15 UTC (H 92,47, L 90,25, zamknięcie 91,03 = odrzucenie). Świeca > 1,0 USD, więc połowa wielkości (ryzyko 25 000 USD). Niezrealizowany wynik ok. +21 200 USD. SL 89,00 nietknięty. BE przy 91,80. Zamknąć do 22:30 PL |
+| 7 | 2026-10-08 15:30 | Złoto | SHORT | 4164 | 4195 | 4116 / 4093 | 0,25 | 790 oz / ok. 8 GC | Investing 8.10 15:14 UTC (ATR H1 14,8) | anulowana (nie zrealizowane, nieaktualne) | | | | TradingView XAUUSD 8.10 17:45 PL: 4115,5, szczyt dnia ok. 4141, więc limit 4164 nie wszedł, a cena jest już przy TP1. Nie liczy się do wyniku. Pierwotnie: wejście po odrzuceniu na M15. Alternatywa: short ok. 4087 po zamknięciu M15 pod 4090 (SL 4110, TP 4051 / 4035, 1050 oz); tylko jedno z dwóch wejść |
+| 8 | 2026-10-08 15:35 | Kawa US | SHORT | 294,00 | 305,00 | 272,00 / 270,00 | 0,5 | 423 700 lb / ok. 11 KC | Investing D1 do 2.10 + TE 8.10 | oczekuje (limit do 16.10, swing) | | | | Księga swing 1–2 tyg. Konsolidacja 270–300. Przed wejściem przeliczyć ATR na świeżych danych |
+| 9 | 2026-10-08 15:35 | Kakao US | LONG | 5290 | 4960 | 5900 / 6000 | 0,25 | 69 t / ok. 7 CC | Investing D1, 8.10 15:00 UTC | oczekuje (limit do 16.10, swing) | | | | Księga swing, słaby (tylko technika). Przed przemiałem 15.10: SL na BE (5620) albo połowa pozycji |
+| 10 | 2026-10-08 15:49 | Złoto (XAUUSD spot) | SHORT | 4135 | 4150 | 4109 / 4092 | 0,25 | 1 600 oz / 16 GC | XAU/USD spot z repo claude-finance-data (Swissquote), 8.10 18:15 UTC | otwarta (wejście ok. 17:00 UTC, na granicy limitu) | | +6,4 (niezrealiz., spot 4 128,63 o 18:15 UTC) | +0,42 | Sprawdzone na świecach spot z repo (futures GC=F + baza −25,07): szczyt 17:00 UTC 4 135,43, więc limit 4 135 wszedł o ok. 0,4 USD; to przybliżenie, bo świece spot są wyliczone z futures. Szczyt 17:15 UTC 4 145,63, SL 4 150 nietknięty. Niezrealizowany wynik ok. +10 200 USD przy spocie 4 128,63. Potwierdzić wejście na wykresie XAUUSD w TradingView. Zamknąć do 22:30 PL |
+| 11 | 2026-10-08 15:49 | Złoto (XAUUSD spot) | SHORT | 4105 | 4122 | 4080 / 4062 | 0,25 | 1 420 oz / ok. 14 GC | TradingView XAUUSD 8.10 17:45 PL (4115,5) | anulowana (weto ryzyka) | | | | Wariant z wybicia 4105 zawetowany przez agenta ryzyka |
+
+Status: oczekuje (limit) / otwarta / zamknięta TP / zamknięta SL / zamknięta ręcznie / anulowana
+Pozycje 1–5 (swing D1) anulowane po zmianie horyzontu. Pozycje intraday: ważność w kolumnie Status, wszystko zamknięte do 22:30 PL, bez trzymania na noc (ryzyko.md, sekcje 4–5).
+Łączne ryzyko: intraday (6 i 10) 50 000 USD po zmniejszeniu WTI o połowę (stan 17:55 UTC) (limit 1,5%), księga swing (8, 9) 75 000 USD (limit 1%). Swing: noc i weekend dozwolone (ryzyko.md, sekcja 10a). Przed złożeniem zlecenia sprawdź, czy cena u brokera nie odbiega o więcej niż ok. 0,3× ATR od danych Investing.
+
+## Wynik i skuteczność agentów (od 8.10)
+- Po zamknięciu transakcji uzupełnij Status (zamknięta TP / SL / ręcznie), Zamknięcie, Wynik (pkt) i Wynik (R). Wynik (R) liczy się do oceny agentów.
+- Przy każdym przeglądzie, po zmianie dane/sygnaly.json: `python3 dane/skutecznosc.py zapisz` (przy nowej transakcji dodaj `--transakcja <instrument>=<nr>`, np. `wti=12`). Głosy trafiają do agenci/glosy.csv z ceną i ATR.
+- Ocena: `python3 dane/skutecznosc.py` → agenci/skutecznosc.md (tabela tygodniowa) i dane/skutecznosc.json (wagi). Głos intraday oceniany ceną o 22:30 PL, swing po 7 dniach, w jednostkach ATR.
+- Konsensus koordynatora = suma (waga × pewność × kierunek) z wag w skutecznosc.md. Waga 0,5–1,5, przy małej próbie blisko 1.

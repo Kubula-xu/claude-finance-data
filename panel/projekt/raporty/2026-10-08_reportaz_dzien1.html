@@ -1,0 +1,157 @@
+<title>Claude Finance · Dzień pierwszy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: jedna kolumna listu do inwestorów, tabele z liczbami w monospace, blok wskaźników u góry */
+:root{
+  --bg:#f5f7f9; --paper:#ffffff; --ink:#15202b; --muted:#566573; --line:#d9e0e6;
+  --accent:#1c4e80; --up:#1d7a4f; --down:#b23a3a; --wait:#8a6a12; --chip:#eaf0f6;
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f151b; --paper:#161e26; --ink:#e4eaf0; --muted:#97a6b4; --line:#2a3642;
+  --accent:#7fb0e0; --up:#5cc293; --down:#ec7f7f; --wait:#d9b55a; --chip:#1f2a35; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f151b; --paper:#161e26; --ink:#e4eaf0; --muted:#97a6b4; --line:#2a3642;
+  --accent:#7fb0e0; --up:#5cc293; --down:#ec7f7f; --wait:#d9b55a; --chip:#1f2a35; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--body);padding:0 16px}
+main{max-width:860px;margin:0 auto;padding-block:32px 56px;display:flex;flex-direction:column;gap:36px}
+header{display:flex;flex-direction:column;gap:6px;border-bottom:2px solid var(--ink);padding-bottom:18px}
+.eyebrow{font:500 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font:600 clamp(28px,5vw,40px)/1.15 var(--display);margin:0;text-wrap:balance}
+h2{font:600 22px/1.25 var(--display);margin:0 0 12px;text-wrap:balance}
+p{margin:0;max-width:68ch}
+section{display:flex;flex-direction:column;gap:12px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.kpi{background:var(--paper);padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.kpi b{font:500 22px/1.2 var(--mono);font-variant-numeric:tabular-nums}
+.kpi span{font-size:12px;color:var(--muted)}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,1fr)}}
+.tbl{overflow-x:auto;border:1px solid var(--line);background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 11px/1.3 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.n{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.pill{display:inline-block;font:500 11px/1 var(--mono);padding:4px 7px;border-radius:3px;background:var(--chip);white-space:nowrap}
+.long{color:var(--up)} .short{color:var(--down)} .wait{color:var(--wait)}
+.note{font-size:13px;color:var(--muted)}
+blockquote{margin:0;padding:12px 16px;background:var(--paper);border-left:3px solid var(--accent);display:flex;flex-direction:column;gap:4px}
+blockquote q{font:500 17px/1.45 var(--display);quotes:"„" "”"}
+blockquote small{color:var(--muted);font-size:12.5px}
+.quotes{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:640px){.quotes{grid-template-columns:1fr}}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;max-width:72ch}
+a{color:var(--accent)}
+footer{border-top:1px solid var(--line);padding-top:14px;font-size:12.5px;color:var(--muted)}
+
+.lead{font:500 18px/1.55 var(--display);max-width:62ch}
+.tl{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;border-left:2px solid var(--line)}
+.tl li{display:grid;grid-template-columns:76px 1fr;gap:12px;padding:10px 0 10px 16px;position:relative}
+.tl li::before{content:"";position:absolute;left:-6px;top:16px;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.tl time{font:500 13px/1.6 var(--mono);color:var(--accent);font-variant-numeric:tabular-nums}
+.tl div{min-width:0;max-width:68ch}
+@media (max-width:480px){.tl li{grid-template-columns:1fr;gap:2px}}
+</style>
+<main>
+<header>
+  <div class="eyebrow">Claude Finance · Reportaż z dnia pierwszego</div>
+  <h1>Pięć głosów, jedno konto i ropa, która nie chciała spaść</h1>
+  <div class="note">Czwartek, 8 października 2026 · od 17:00 do 20:10 czasu polskiego · przygotował dział PR i relacji inwestorskich</div>
+</header>
+
+<section>
+  <p class="lead">O 17:10 fundusz miał pięć gotowych zleceń. Pięć minut później wszystkie trafiły do kosza. Trzy godziny później miał dwie otwarte pozycje, własny kanał notowań i 28 244 USD niezrealizowanego zysku. To historia pierwszego popołudnia Claude Finance, opowiedziana na podstawie dziennika transakcji i notatek zespołu.</p>
+  <div class="kpis">
+    <div class="kpi"><span>Wartość rachunku</span><b>10 028 244</b><span>USD, z wynikiem niezrealizowanym</span></div>
+    <div class="kpi"><span>Wynik dnia</span><b class="long">+28 244</b><span>USD, +0,28%</span></div>
+    <div class="kpi"><span>Otwarte pozycje</span><b>2</b><span>ropa WTI long, złoto short</span></div>
+    <div class="kpi"><span>Ryzyko otwarte</span><b>47 940</b><span>USD, 0,48% kapitału</span></div>
+  </div>
+  <p class="note">Wycena z 19:45 (ropa) i 19:30 (złoto) czasu polskiego, z kanału notowań funduszu. Pozycje są papierowe: zespół wylicza realizacje z 15-minutowych świec, a Kuba nie odtwarza ich jeszcze w TradingView.</p>
+</section>
+
+<section>
+  <h2>Zespół</h2>
+  <p>Claude Finance to pięć ról, a każda ma swój plik i swój głos. <b>Technika</b> czyta wykres i wyznacza poziomy. <b>Makro</b> śledzi Fed, rentowności i geopolitykę. <b>Sentyment</b> sprawdza, kto już jest w rynku i jak reaguje na nagłówki. <b>Ryzyko</b> liczy wielkość pozycji i jako jedyne może zablokować transakcję wetem. <b>Koordynator</b> zbiera głosy, ma ostatnie słowo i prowadzi dziennik. Dział PR, który pisze ten tekst, dołączył o 17:21.</p>
+  <p>Kapitał startowy: 10 000 000 USD. Zasada numer jeden z pliku ryzyka: każda transakcja ma stop od chwili wejścia, a jedna pozycja może kosztować najwyżej 0,5% kapitału, czyli 50 000 USD.</p>
+</section>
+
+<section>
+  <h2>Popołudnie godzina po godzinie</h2>
+  <ol class="tl">
+    <li><time>17:10</time><div><b>Pierwszy plan.</b> Zespół kładzie na stół pięć zleceń swingowych na kilka dni: ropa long, kawa short, złoto short, Nasdaq long, kakao long. Łączne ryzyko 3,5% kapitału.</div></li>
+    <li><time>17:15</time><div><b>Zmiana kursu.</b> Kuba przestawia fundusz na handel w ciągu dnia. Wszystkie pięć zleceń zostaje anulowanych, zanim którekolwiek weszło. Zasady ryzyka zostają przepisane: stop liczony z godzinowej zmienności, okna handlu, wszystko zamknięte do 22:30.</div></li>
+    <li><time>17:19</time><div><b>Kapitał.</b> Rachunek dostaje 10 mln USD. Ryzyko przelicza tabele wielkości: 50 000 USD na transakcję, dzienny limit straty 150 000 USD.</div></li>
+    <li><time>17:21</time><div><b>Dwie prędkości.</b> Kuba decyduje, że kawa i kakao, które w jeden dzień ruszają się za słabo, idą do osobnej księgi na tydzień lub dwa. Płynne rynki mają pracować codziennie.</div></li>
+    <li><time>17:25</time><div><b>Akcept ryzyka.</b> Ryzyko zatwierdza dwa zlecenia intraday: ropa long z limitu 90,40 i złoto short z limitu 4 164. Po drodze podnosi cel na ropie z 92,50 na 92,65, bo po kosztach transakcji stary cel dawał za mały zysk względem ryzyka.</div></li>
+    <li><time>17:35</time><div><b>Księga swing.</b> Do dziennika trafiają kawa short z limitu 294,00 i kakao long z limitu 5 290, ważne do 16 października.</div></li>
+    <li><time>17:49</time><div><b>Złoto na nowo.</b> Kuba przysyła odczyt z wykresu: złoto spot 4 115,5, dużo niżej niż zakładał plan. Zespół rozpisuje nowy short z odbicia do 4 135. Drugi wariant, z wybicia przy 4 105, ryzyko odrzuca wetem. Pierwsze zlecenie na złocie, z limitu 4 164, zostaje anulowane, bo cena już tam nie sięga.</div></li>
+    <li><time>18:15</time><div><b>Pierwsza transakcja funduszu.</b> Ropa schodzi do 90,25 i limit 90,40 zostaje wypełniony. Świeca zamyka się na 91,03, czyli cena odbiła od poziomu tak, jak przewidziała technika. Świeca miała jednak ponad 1 USD zasięgu, więc zgodnie z zasadą ryzyka wchodzimy połową: 17 100 baryłek zamiast 34 200.</div></li>
+    <li><time>ok. 19:00</time><div><b>Druga transakcja.</b> Złoto dochodzi do 4 135 w przeliczeniu na spot i short zostaje otwarty: 1 600 uncji, stop 4 150. Kwadrans później cena podchodzi na około 4 USD od stopu i zawraca.</div></li>
+    <li><time>20:04</time><div><b>Panel na żywo.</b> Panel funduszu pierwszy raz liczy wynik z bieżących cen.</div></li>
+  </ol>
+</section>
+
+<section>
+  <h2>Problem, który trzeba było rozwiązać po drodze</h2>
+  <p>Przez pierwszą godzinę zespół pracował bez notowań w czasie rzeczywistym. Środowisko, w którym działają agenci, blokuje serwisy z kursami, więc technika liczyła poziomy dnia z dziennych świec, a zmienność godzinową szacowała z dziennej. Sama to zapisała w swoim pliku: „Nie mam prawdziwych świec H1/M15/H4”.</p>
+  <p>Rozwiązaniem okazało się repozytorium <b>claude-finance-data</b>. Co około 15 minut automat na GitHubie pobiera notowania 11 rynków (futures na Nasdaq, złoto, srebro, ropę, gaz, kawę, kakao oraz indeks dolara, rentowność 10-latek i VIX) i zapisuje świece 15-minutowe, godzinowe i dzienne. Agenci czytają je stamtąd. Dzięki temu realizację na ropie dało się sprawdzić co do świecy.</p>
+  <p>Jedna luka została. Kanał podaje futures na złoto, a nie cenę spot, na której gra fundusz. Zespół przelicza więc futures na spot stałą różnicą około 24,5 USD, wziętą z wykresu Kuby. Dlatego pozycja na złocie ma w dzienniku status „otwarta, niepewne”: przy różnicy 22–25 USD jej wynik mieści się między +3 000 a +8 000 USD.</p>
+</section>
+
+<section>
+  <h2>Otwarte pozycje</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Instrument</th><th>Kierunek</th><th>Wejście</th><th>Stop</th><th>Cel 1 / Cel 2</th><th>Wielkość</th><th>Cena</th><th>Wynik</th></tr></thead>
+    <tbody>
+      <tr><td>Ropa WTI</td><td><span class="pill long">LONG</span></td><td class="n">90,40</td><td class="n">89,00</td><td class="n">92,65 / 93,45</td><td class="n">17 100 bbl</td><td class="n">91,64</td><td class="n long">+21 204 USD<br>+0,89R</td></tr>
+      <tr><td>Złoto (spot)</td><td><span class="pill short">SHORT</span></td><td class="n">4 135</td><td class="n">4 150</td><td class="n">4 109 / 4 092</td><td class="n">1 600 oz</td><td class="n">≈ 4 130,6</td><td class="n long">≈ +7 040 USD<br>+0,29R</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">R to wynik podzielony przez kwotę ryzykowaną do stopu (ok. 24 000 USD na każdej pozycji). Po zysku +1R stop idzie na cenę wejścia, na ropie przy 91,80. Obie pozycje zamykamy najpóźniej o 22:30. W księdze swing czekają kawa short (limit 294,00) i kakao long (limit 5 290); żadne nie weszło.</p>
+</section>
+
+<section>
+  <h2>Decyzje, które dziś się obroniły</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Decyzja</th><th>Co się stało na rynku</th></tr></thead>
+    <tbody>
+      <tr><td>Nie kupujemy Nasdaq, choć wykres jest wzrostowy. Makro i sentyment przegłosowały technikę.</td><td>Futures na Nasdaq <b class="short">−1,6%</b>, dołek dnia 30 792 przy otwarciu 31 403.</td></tr>
+      <tr><td>Gaz bez pozycji po raporcie EIA (+85 Bcf przy oczekiwanych 79–82).</td><td>Gaz <b class="short">−1,7%</b>, do 3,147 z 3,288 na otwarciu.</td></tr>
+      <tr><td>Ropy nie gonimy przy 92, czekamy na cofnięcie do 90,40.</td><td>Cena zeszła do 90,25, wypełniła limit i wróciła nad 91,6.</td></tr>
+    </tbody>
+  </table></div>
+  <p>Jedna decyzja kosztowała szansę. Kawa short była najbardziej zgodnym pomysłem dnia: technika, makro i sentyment mówiły to samo. Kawa spadła o 5,5%, ale nasz limit na 294,00 czekał wyżej. Cena dotknęła 294,9 o 10:15 rano, zanim zlecenie w ogóle powstało, i potem już tam nie wróciła.</p>
+</section>
+
+<section>
+  <h2>Głosy z sali</h2>
+  <div class="quotes">
+    <blockquote><q>Dzienny zasięg (4,05) to już prawie cały ATR D1 (4,7), więc nie gonić przy 92.</q><small>Technika, o ropie, 17:20. Z tego zdania wzięło się zlecenie, które dało pierwszy zysk funduszu.</small></blockquote>
+    <blockquote><q>Spekulanci dołożyli 32 tys. shortów tuż przed eskalacją w Ormuzie, huraganem i niespodziewanym spadkiem zapasów; to układ pod short squeeze.</q><small>Sentyment, o ropie. Tło, dzięki któremu WTI była pierwszym wyborem.</small></blockquote>
+    <blockquote><q>Na dzienny horyzont nie mam sporu, wykres jest wzrostowy. Na najbliższe godziny i dzień makro jest przeciw.</q><small>Makro, o Nasdaq, 17:30. Fundusz został z boku i ominął spadek o 1,6%.</small></blockquote>
+    <blockquote><q>Szczyt 4 141 wypada dokładnie na H3 z futures przeliczonym na spot, więc odrzucenie jest potwierdzone poziomem.</q><small>Technika, o złocie, 17:50. Podstawa drugiej pozycji.</small></blockquote>
+    <blockquote><q>Weto nie mówi, że rynek pójdzie w drugą stronę. Mówi, że przy tym stopie nie zarobimy na tym, że mamy rację.</q><small>Ryzyko, o tym, po co jest weto.</small></blockquote>
+    <blockquote><q>US100 short i WTI long to w praktyce ta sama teza.</q><small>Makro, o portfelu. Odtąd obie pozycje liczą się do jednego limitu.</small></blockquote>
+  </div>
+</section>
+
+<section>
+  <h2>Czego nauczył nas pierwszy dzień</h2>
+  <ul>
+    <li><b>Dane decydują o wszystkim.</b> Godzina bez notowań to godzina planów opartych na szacunkach. Kanał claude-finance-data rozwiązał większość problemu, brakuje w nim jeszcze cen spot złota i srebra.</li>
+    <li><b>Spór jest wartością.</b> Na Nasdaq i gazie technika była w mniejszości. Zespół wybrał brak pozycji zamiast kompromisu i oba rynki spadły.</li>
+    <li><b>Limit potrafi uciec.</b> Kawa pokazała koszt czekania na lepszą cenę. Księga swing zostaje z limitem, ale technika przeliczy poziomy na świeżych danych.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Co dalej</h2>
+  <p>Dziś do 22:30 zamykamy obie pozycje intraday, z celem albo ze stopem. Jutro rano technika przeliczy poziomy dnia z dzisiejszej świecy. Piątek to dzień ryzyka: o 15:30 przemawia Schmid z Fed, o 16:00 wychodzą oczekiwania inflacyjne Uniwersytetu Michigan, a w weekend nad Zatoką Meksykańską przechodzi huragan Isaias. Według zasad nic z księgi intraday nie zostaje na weekend.</p>
+  <p>Kuba zapowiedział kolejność: najpierw ulepszamy projekt, potem rachunek demo w TradingView, a dopiero na końcu prawdziwe pieniądze.</p>
+</section>
+
+<footer>Symulacja na rachunku papierowym, bez prawdziwych pieniędzy. Liczby pochodzą z dziennika transakcji (agenci/paper_trading.md), plików zespołu i kanału notowań claude-finance-data (yfinance, opóźnienie do ok. 15 min). Wyniki są niezrealizowane, a wynik złota jest szacunkiem. Godziny w czasie polskim. To nie jest porada inwestycyjna.</footer>
+</main>
