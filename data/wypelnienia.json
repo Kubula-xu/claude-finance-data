@@ -1,0 +1,36 @@
+{
+ "zaktualizowano_utc": "2026-10-09T11:31:58Z",
+ "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
+ "zlecenia": {
+  "8": {
+   "nr": "8",
+   "instrument": "Kawa US",
+   "kierunek": -1,
+   "klucz_cen": "coffee",
+   "zdarzenia": [],
+   "stan": "oczekuje",
+   "pozostalo": 1.0,
+   "sl_teraz": 305.0
+  },
+  "9": {
+   "nr": "9",
+   "instrument": "Kakao US",
+   "kierunek": 1,
+   "klucz_cen": "cocoa",
+   "zdarzenia": [],
+   "stan": "oczekuje",
+   "pozostalo": 1.0,
+   "sl_teraz": 4960.0
+  },
+  "12": {
+   "nr": "12",
+   "instrument": "Złoto (XAUUSD spot)",
+   "kierunek": 1,
+   "klucz_cen": "xauusd",
+   "zdarzenia": [],
+   "stan": "oczekuje",
+   "pozostalo": 1.0,
+   "sl_teraz": 4159.0
+  }
+ }
+}
