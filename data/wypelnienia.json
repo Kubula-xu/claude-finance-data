@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-09T18:35:36Z",
+ "zaktualizowano_utc": "2026-10-09T18:58:53Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "8": {
@@ -21,19 +21,6 @@
    "stan": "oczekuje",
    "pozostalo": 1.0,
    "sl_teraz": 4960.0
-  },
-  "12": {
-   "nr": "12",
-   "instrument": "Złoto (XAUUSD spot)",
-   "kierunek": 1,
-   "klucz_cen": "xauusd",
-   "zdarzenia": [
-    "09.10 14:15 PL wejście 4180"
-   ],
-   "stan": "otwarta",
-   "pozostalo": 1.0,
-   "sl_teraz": 4159.0,
-   "czas_wejscia": "2026-10-09T12:15Z"
   }
  }
 }
