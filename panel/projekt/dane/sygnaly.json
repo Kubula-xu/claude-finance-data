@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-08T18:03:00Z",
+ "aktualizacja": "2026-10-09T06:50:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -17,17 +17,17 @@
     ],
     "makro": [
      "SHORT",
-     3
+     2
     ],
     "sentyment": [
-     "SHORT",
+     "NEUTRAL",
      2
     ]
    },
    "final": {
     "kierunek": "BRAK",
-    "pewnosc": 2,
-    "powod": "Sprzeczne głosy: technika long (trend D1), makro i sentyment short na dziś (Waller, ropa, rentowności)."
+    "pewnosc": 1,
+    "powod": "Technika long (odbicie nocą +0,6%), makro short przed Schmidem i UMich (15:30–16:00). Okno US100 dopiero od 15:45, ocena w przeglądzie 14:50."
    },
    "setup": {
     "kierunek": "LONG",
@@ -37,7 +37,7 @@
     "tp1": 32550,
     "tp2": 33300,
     "ryzyko_pct": 0.5,
-    "status": "brak zlecenia",
+    "status": "brak zlecenia (9.10 rano)",
     "uwagi": "BE przy 31 800. Jeśli przed CPI 14.10 pozycja nie jest na BE, zamknąć połowę."
    },
    "kontrakt": {
@@ -57,11 +57,11 @@
    "atr": 82.6,
    "agenci": {
     "technika": [
-     "SHORT",
+     "LONG",
      3
     ],
     "makro": [
-     "NEUTRAL",
+     "LONG",
      2
     ],
     "sentyment": [
@@ -70,23 +70,23 @@
     ]
    },
    "final": {
-    "kierunek": "SHORT",
-    "pewnosc": 2,
-    "powod": "Szczyt dnia 4 141 (spot) odrzucony na wolumenie, dokładnie na H3. Short z retestu 4 135, nie w środku przy 4 115."
+    "kierunek": "LONG",
+    "pewnosc": 3,
+    "powod": "Nocne wybicie spot nad szczyt 8.10 (4 147) do 4 210 przy słabszym USD i niższych rentownościach. Kupno z cofnięcia do strefy azjatyckiej konsolidacji 4 176–4 183, nie w pogoni."
    },
    "setup": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 4135,
-    "sl": 4150,
-    "tp1": 4109,
-    "tp2": 4092,
+    "wejscie": 4180,
+    "sl": 4159,
+    "tp1": 4209,
+    "tp2": 4232,
     "ryzyko_pct": 0.25,
-    "koszt": 0.625,
-    "status": "otwarta, niepewne (wejście ok. 17:00 UTC)",
+    "koszt": 0.6,
+    "status": "oczekuje (limit 9.10, okno 09:00–12:00 i 14:00–15:00 PL)",
     "ksiega": "intraday",
     "ceny": "spot",
-    "uwagi": "Ceny spot XAUUSD (ok. 20–24 USD pod futures). Sell limit 4 135 po ocenie ryzyka, wejście po odrzuceniu na M15. Wariant z wybicia 4 105 zawetowany. Poprzedni limit 4 164 (futures) nie wszedł."
+    "uwagi": "Buy limit 4 180 spot (cofnięcie do strefy 4 176–4 183). SL 1,5× ATR H1 (14), TP1 przed szczytem nocy 4 210. Bez nowych wejść 15:00–16:30 (Schmid, UMich). Zamknąć najpóźniej 21:00 PL (piątek, ryzyko nagłówków o Iranie). Po +1R SL na BE."
    },
    "kontrakt": {
     "nazwa": "Gold (GC), 100 oz",
@@ -95,9 +95,9 @@
     "jedn_cfd": "oz"
    },
    "ostatnia_cena": {
-    "cena": 4115.51,
-    "czas": "2026-10-08 17:45 PL",
-    "zrodlo": "TradingView XAUUSD (zrzut ekranu od Kuby)"
+    "cena": 4192.83,
+    "czas": "2026-10-09 08:20 PL",
+    "zrodlo": "XAU/USD spot, Swissquote (repo claude-finance-data)"
    }
   },
   {
@@ -110,11 +110,11 @@
    "atr": 2.06,
    "agenci": {
     "technika": [
-     "SHORT",
+     "LONG",
      2
     ],
     "makro": [
-     "SHORT",
+     "NEUTRAL",
      2
     ],
     "sentyment": [
@@ -125,7 +125,7 @@
    "final": {
     "kierunek": "BRAK",
     "pewnosc": 1,
-    "powod": "Słaby setup: cena na podłodze 60, ryzyko metali poszło w złoto."
+    "powod": "Odbicie z dna 58,5 do 60,3, ale bez potwierdzenia i z jastrzębim Fedem w tle."
    },
    "setup": {
     "kierunek": "SHORT",
@@ -135,7 +135,7 @@
     "tp1": 58.1,
     "tp2": 56.0,
     "ryzyko_pct": null,
-    "status": "brak zlecenia",
+    "status": "brak zlecenia (9.10 rano)",
     "uwagi": "Ponowna ocena, jeśli makro lub sentyment przejdą na SHORT."
    },
    "kontrakt": {
@@ -155,22 +155,22 @@
    "atr": 4.5,
    "agenci": {
     "technika": [
-     "LONG",
+     "SHORT",
      2
     ],
     "makro": [
      "LONG",
-     3
+     2
     ],
     "sentyment": [
      "LONG",
-     3
+     2
     ]
    },
    "final": {
-    "kierunek": "LONG",
-    "pewnosc": 3,
-    "powod": "Najsilniejszy sygnał dnia: Pentagon, Ormuz i huragan. Wszyscy trzej agenci za, wejście tylko z cofnięcia do 90,40."
+    "kierunek": "BRAK",
+    "pewnosc": 1,
+    "powod": "Nocny spadek pod 91 (niższe szczyty) przeciw tezie Iran/huragan. Sprzeczne głosy, bez pozycji przed weekendem."
    },
    "setup": {
     "kierunek": "LONG",
@@ -181,7 +181,7 @@
     "tp2": 93.45,
     "ryzyko_pct": 0.5,
     "koszt": 0.06,
-    "status": "otwarta (wejście ok. 16:15 UTC, połowa wielkości)",
+    "status": "brak zlecenia (9.10 rano)",
     "uwagi": "Poziomy z kontraktu futures (CL). Cena CFD u brokera może się różnić: przesuń wejście, SL i TP o tę różnicę. Wejście po odrzuceniu na M15, zamknąć do 22:30 PL.",
     "ksiega": "intraday"
    },
@@ -202,8 +202,8 @@
    "atr": 0.145,
    "agenci": {
     "technika": [
-     "LONG",
-     3
+     "NEUTRAL",
+     2
     ],
     "makro": [
      "SHORT",
@@ -216,8 +216,8 @@
    },
    "final": {
     "kierunek": "BRAK",
-    "pewnosc": 2,
-    "powod": "Sprzeczne głosy: technika long (wyższe dołki), makro short, a EIA +85 Bcf przerwało rajd."
+    "pewnosc": 1,
+    "powod": "Zakres 3,13–3,15, okno NYMEX od 15:00."
    },
    "setup": {
     "kierunek": "LONG",
@@ -227,7 +227,7 @@
     "tp1": 3.44,
     "tp2": 3.59,
     "ryzyko_pct": null,
-    "status": "brak zlecenia",
+    "status": "brak zlecenia (9.10 rano)",
     "uwagi": "Ponowna ocena po zamknięciu tygodnia nad 3,395."
    },
    "kontrakt": {
