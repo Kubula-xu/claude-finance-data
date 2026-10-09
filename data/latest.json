@@ -18,7 +18,7 @@
    "symbol": "^NDX",
    "opis": "Nasdaq 100 indeks (kasowy, ~US100 CFD)",
    "cena": 30883.148,
-   "czas_notowania_utc": "2026-10-09T21:00:00Z",
+   "czas_notowania_utc": "2026-10-09T21:15:00Z",
    "poprzednie_zamkniecie": 30725.810547,
    "zmiana_pct": 0.512,
    "dzien": {
@@ -59,10 +59,10 @@
   "wti": {
    "symbol": "CL=F",
    "opis": "Ropa WTI futures (NYMEX)",
-   "cena": 91.669998,
+   "cena": 91.660004,
    "czas_notowania_utc": "2026-10-09T20:45:00Z",
    "poprzednie_zamkniecie": 91.489998,
-   "zmiana_pct": 0.197,
+   "zmiana_pct": 0.186,
    "dzien": {
     "data": "2026-10-09",
     "open": 91.290001,
@@ -162,16 +162,16 @@
    "ask": 4194.857,
    "czas_notowania_utc": "2026-10-09T21:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -25.917,
+   "baza_vs_futures": -25.695,
    "futures": "GC=F",
    "dzien": {
     "data": "2026-10-09",
-    "open": 4133.7828,
-    "high": 4206.7828,
-    "low": 4130.1827
+    "open": 4134.0054,
+    "high": 4207.0054,
+    "low": 4130.4053
    },
-   "poprzednie_zamkniecie": 4131.0827,
-   "zmiana_pct": 1.538
+   "poprzednie_zamkniecie": 4131.3052,
+   "zmiana_pct": 1.532
   },
   "xagusd": {
    "symbol": "XAG/USD spot",
@@ -181,18 +181,18 @@
    "ask": 60.849,
    "czas_notowania_utc": "2026-10-09T21:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -0.305,
+   "baza_vs_futures": -0.295,
    "futures": "SI=F",
    "dzien": {
     "data": "2026-10-09",
-    "open": 59.1545,
-    "high": 61.1545,
-    "low": 59.1446
+    "open": 59.165,
+    "high": 61.165,
+    "low": 59.155
    },
-   "poprzednie_zamkniecie": 58.7585,
-   "zmiana_pct": 3.508
+   "poprzednie_zamkniecie": 58.769,
+   "zmiana_pct": 3.49
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-09T21:14:11Z"
+ "zaktualizowano_utc": "2026-10-09T21:33:33Z"
 }
