@@ -73,6 +73,7 @@ ALIAS = {"US100": "nq", "Nasdaq 100": "nq", "Złoto": "gold", "Srebro": "silver"
          "Gaz ziemny": "ng", "Złoto (XAUUSD spot)": "gold", "Złoto (XAUUSD)": "gold", "NatGas": "ng", "Kawa US": "coffee", "Kakao US": "cocoa"}
 
 def journal_sized(rows, sig):
+    import re
     by = {i["id"]: i for i in sig["instrumenty"]}
     kap = sig.get("kapital", 0)
     for r in rows:
@@ -85,6 +86,9 @@ def journal_sized(rows, sig):
             r["_kontrakty"] = round(risk / (dist * k["usd_na_jedn_ceny"]), 2)
             r["_jednostki"] = round(risk / (dist * k["usd_na_jedn_cfd"]), 2)
             r["_jedn"] = k["jedn_cfd"]
+            m0 = re.match(r"\s*([\d\s]+[\d])", r.get("Wielkość", ""))
+            if r.get("_wynik_pkt_czesciowy") and m0:   # część zamknięta automatycznie na TP1
+                r["_wynik_czesciowy_usd"] = round(r["_wynik_pkt_czesciowy"] * float(m0.group(1).replace(" ", "")) * k["usd_na_jedn_cfd"])
             R = num(r.get("Wynik (R)"))
             r["_wynik_usd"] = None
             if r.get("Status", "").startswith("zamknięta"):   # wynik zrealizowany tylko dla zamkniętych
@@ -173,8 +177,8 @@ def open_positions(rows, sig, live):
         k = r.get("_id"); ins = by.get(k)
         m = re.match(r"\s*([\d\s]+[\d])", r.get("Wielkość", ""))
         if not ins or not m or k not in L: continue
-        units = float(m.group(1).replace(" ", ""))
-        e, sl = num(r["Wejście"]), num(r["SL"])
+        units = float(m.group(1).replace(" ", "")) * r.get("_pozostalo", 1.0)
+        e, sl = num(r["Wejście"]), r.get("_sl_teraz", num(r["SL"]))
         tp = [num(x) for x in r.get("TP", "").split("/")]
         spot = "spot" in r.get("Instrument", "")
         sk = SPOT_KEY.get(k) if spot else None
@@ -195,6 +199,31 @@ def open_positions(rows, sig, live):
                     "status": r["Status"], "uwagi": r.get("Uwagi", "")})
     return out
 
+def auto_fills(rows):
+    """Nakłada na dziennik wynik automatycznego pilnowania zleceń (panel/wypelnienia.py)."""
+    import wypelnienia
+    try:
+        res = wypelnienia.licz()
+    except Exception as e:
+        print("UWAGA: pilnowanie zleceń nie zadziałało:", e)
+        return rows
+    for r in rows:
+        z = res.get(r["#"])
+        if not z or z["stan"] == "oczekuje": continue
+        r["_auto"] = z
+        ev = "; ".join(z["zdarzenia"])
+        if z["stan"] == "wygasło":
+            r["Status"] = "anulowana (auto: wygasło niewypełnione)"
+        elif z["stan"] == "zamknięta":
+            r["Status"] = f"zamknięta (auto: {ev})"
+            r["Zamknięcie"] = f"{z['cena_wyjscia_srednia']:g}"
+        else:
+            r["Status"] = f"otwarta (auto: {ev})"
+            r["_sl_teraz"] = z["sl_teraz"]
+            r["_pozostalo"] = z["pozostalo"]
+            r["_wynik_pkt_czesciowy"] = z.get("wynik_pkt_zrealizowany")
+    return rows
+
 def build():
     sig = json.load(open(f"{ROOT}/dane/sygnaly.json"))
     readme = open(f"{LIVE}/README.md").read()
@@ -207,7 +236,7 @@ def build():
         ins["ohlc"] = rows
         ins["atr_obliczony"] = round(atr14(rows), 4)
     live = fetch_live()
-    dz = journal_sized(journal(), sig)
+    dz = journal_sized(auto_fills(journal()), sig)
     return {
         "live": {"zaktualizowano_utc": live["latest"].get("zaktualizowano_utc"), "ceny": {k: {kk: v.get(kk) for kk in ("symbol", "cena", "czas_notowania_utc", "zmiana_pct", "dzien")} for k, v in live["latest"].get("instrumenty", {}).items()}, "h1": live["h1"], "bledy": live["status"].get("bledy", {})} if live else None,
         "pozycje": open_positions(dz, sig, live),

@@ -154,6 +154,7 @@ td.n{text-align:right;white-space:nowrap}
     <div class="tiles" id="poz-tiles"></div>
     <div class="grid" id="poz"></div>
     <h3 style="margin:8px 0 0">Zlecenia oczekujące</h3>
+    <p class="note" style="margin:0">Zlecenia pilnuje automat po każdym pobraniu cen (co 15 minut, świece 15 min). Gdy cena dotknie limitu w oknie handlu, pozycja otwiera się sama. Potem automat przesuwa SL na BE po +1R, zamyka 50% na TP1 i resztę na TP2 albo SL, a intraday zamyka o 22:30 PL.</p>
     <div id="poz-pend"></div>
     <h3 style="margin:8px 0 0">Ostatnio zamknięte</h3>
     <div id="poz-closed"></div>
@@ -223,7 +224,7 @@ function render(D) {
   const S = D.sygnaly, I = S.instrumenty, KAP = S.kapital || 0, J = D.dziennik || [];
   $('#meta').innerHTML = `${D.live ? `<span>Ceny: <b>repo claude-finance-data (futures Yahoo, spot złota i srebra Swissquote), odczyt ${esc(fmtTime(D.live.zaktualizowano_utc))}</b></span>` : ''}<span>Horyzont: <b>${esc(S.horyzont || '')}</b></span><span>Dane D1: <b>${esc(D.zrodlo_danych)}</b></span><span>Sygnały: <b>${esc(fmtTime(S.aktualizacja))}</b></span><span>Panel zbudowany: <b>${esc(fmtTime(D.zbudowano))}</b></span>${D.dziennik_sync ? `<span>Dziennik pozycji z: <b>${esc(fmtTime(D.dziennik_sync))}</b></span>` : ''}`;
 
-  const realized = J.filter(r => /^zamknięta/.test(r.Status || '')).reduce((a, r) => a + (r._wynik_usd || 0), 0);
+  const realized = J.filter(r => /^zamknięta/.test(r.Status || '')).reduce((a, r) => a + (r._wynik_usd || 0), 0) + J.reduce((a, r) => a + (/^otwarta/.test(r.Status || '') ? r._wynik_czesciowy_usd || 0 : 0), 0);
   const P = D.pozycje || [];
   const PL = P.filter(p => !p.po_terminie);
   const unreal = PL.reduce((a, p) => a + p.pnl_usd, 0), openRisk = PL.reduce((a, p) => a + p.ryzyko_usd, 0);
@@ -261,7 +262,12 @@ function render(D) {
   });
   if (!P.length) pz.innerHTML = '<p class="note">Brak otwartych pozycji.</p>';
   const jt = (rows, cols) => rows.length ? `<div style="overflow-x:auto"><table><thead><tr>${cols.map(c => `<th>${esc(c[0])}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${cols.map(c => `<td>${c[1](r)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '<p class="note">Brak.</p>';
-  $('#poz-pend').innerHTML = jt(pend, [['#', r => esc(r['#'])], ['Instrument', r => esc(r.Instrument)], ['Kierunek', r => pill(String(r.Kierunek || '').toUpperCase())], ['Wejście', r => esc(r['Wejście'])], ['SL', r => esc(r.SL)], ['TP', r => esc(r.TP)], ['Wielkość', r => esc(r['Wielkość'])], ['Status', r => esc(r.Status)]]);
+  const nowPx = r => { const k = /spot/.test(r.Instrument || '') ? ({gold: 'xauusd', silver: 'xagusd'})[r._id] || r._id : r._id; const c = D.live && D.live.ceny[k]; return c ? c : null; };
+  const toNum = v => parseFloat(String(v || '').replace(/\s/g, '').replace(',', '.'));
+  const decOf = r => (I.find(i => i.id === r._id) || {}).dec ?? 2;
+  const pxCell = r => { const c = nowPx(r); return c ? `<b>${fmt(c.cena, decOf(r))}</b><br><span class="note">${esc(fmtTime(c.czas_notowania_utc))}</span>` : '–'; };
+  const distCell = r => { const c = nowPx(r), e = toNum(r['Wejście']); if (!c || !e) return '–'; const dd = c.cena - e; return `${dd >= 0 ? '+' : '−'}${fmt(Math.abs(dd), decOf(r))}<br><span class="note">${fmt(Math.abs(dd) / e * 100, 2)}%</span>`; };
+  $('#poz-pend').innerHTML = jt(pend, [['#', r => esc(r['#'])], ['Instrument', r => esc(r.Instrument)], ['Kierunek', r => pill(String(r.Kierunek || '').toUpperCase())], ['Wejście', r => esc(r['Wejście'])], ['Cena teraz', pxCell], ['Cena − wejście', distCell], ['SL', r => esc(r.SL)], ['TP', r => esc(r.TP)], ['Wielkość', r => esc(r['Wielkość'])], ['Status', r => esc(r.Status)]]);
   $('#poz-closed').innerHTML = jt(closed.slice(-6).reverse(), [['#', r => esc(r['#'])], ['Instrument', r => esc(r.Instrument)], ['Kierunek', r => pill(String(r.Kierunek || '').toUpperCase())], ['Wejście', r => esc(r['Wejście'])], ['Zamknięcie', r => esc(r['Zamknięcie'])], ['Wynik', r => r._wynik_usd != null ? signed(r._wynik_usd) : '–'], ['Status', r => esc(r.Status)]]);
 
   $('#lead').textContent = 'Finalny głos należy do koordynatora, poziomy zatwierdza agent ryzyka. ' + (S.portfel || '');

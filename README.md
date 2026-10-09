@@ -34,4 +34,5 @@ Workflow „Pulpit (GitHub Pages)” buduje ją po każdym pobraniu cen i po ka�
 - `panel/build.py` składa `index.html`, `panel.json` i `pozycje.json` (otwarte pozycje z wynikiem).
 - `panel/szablon.html` to szablon strony.
 - `panel/projekt/` to kopia plików agentów: `agenci/paper_trading.md` (dziennik i pozycje), `dane/sygnaly.json`, `dane/intraday_poziomy_*.csv`, `raporty/`.
+- `panel/wypelnienia.py` pilnuje zleceń z dziennika na świecach 15 min (po każdym pobraniu cen, wynik w `data/wypelnienia.json`): wejście po dotknięciu limitu w oknie handlu, SL na BE po +1R, 50% na TP1, reszta na TP2 albo SL, intraday zamknięcie o 22:30 PL. Strona nakłada ten wynik na dziennik.
 - Agenci po zmianie pozycji lub nowym raporcie uruchamiają `panel/sync_z_projektu.sh "opis"`, który kopiuje pliki z folderu projektu i wypycha je do repo.
