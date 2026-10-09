@@ -13,6 +13,8 @@ cp "$SRC"/dane/intraday_poziomy_*.csv "$DST/dane/" 2>/dev/null || true
 cp "$SRC"/dane/d1_investing/*.csv "$SRC"/dane/d1_investing/README.md "$DST/dane/d1_investing/" 2>/dev/null || true
 cp "$SRC"/raporty/*.html "$SRC"/raporty/*.md "$DST/raporty/" 2>/dev/null || true
 cd "$REPO"
+git config user.email >/dev/null || git config user.email noreply@anthropic.com
+git config user.name >/dev/null || git config user.name "Claude Finance"
 git add panel/projekt
 git diff --cached --quiet && { echo "Bez zmian."; exit 0; }
 printf '{"zsynchronizowano_utc": "%s"}\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > "$DST/sync.json"
