@@ -149,6 +149,19 @@ def fetch_live():
     status = json.load(open(LIVE + "/data/status.json")) if os.path.exists(LIVE + "/data/status.json") else {}
     return {"latest": latest, "h1": h1, "status": status}
 
+SWING = {"coffee", "cocoa"}
+
+def po_terminie(r, k):
+    """Pozycja intraday otwarta przed dzisiejszą sesją: zasada zamknięcia do 22:30 PL już minęła."""
+    if k in SWING: return False
+    try:
+        d = datetime.date.fromisoformat(r.get("Data otwarcia (UTC)", "")[:10])
+    except ValueError:
+        return False
+    from zoneinfo import ZoneInfo
+    cutoff = datetime.datetime.combine(d, datetime.time(22, 30), ZoneInfo("Europe/Warsaw"))
+    return datetime.datetime.now(datetime.timezone.utc) > cutoff + datetime.timedelta(minutes=30)
+
 def open_positions(rows, sig, live):
     import re
     by = {i["id"]: i for i in sig["instrumenty"]}
@@ -174,7 +187,7 @@ def open_positions(rows, sig, live):
         u = ins["kontrakt"]["usd_na_jedn_cfd"]
         pnl = d * (cur - e) * units * u
         risk = abs(e - sl) * units * u
-        out.append({"nr": r["#"], "id": k, "nazwa": ins["nazwa"], "instrument": r["Instrument"], "kierunek": r["Kierunek"].upper(),
+        out.append({"nr": r["#"], "po_terminie": po_terminie(r, k), "id": k, "nazwa": ins["nazwa"], "instrument": r["Instrument"], "kierunek": r["Kierunek"].upper(),
                     "wejscie": e, "sl": sl, "tp1": tp[0] if tp else None, "tp2": tp[1] if len(tp) > 1 else None,
                     "jednostki": units, "usd_na_jedn": u, "jedn": ins["kontrakt"]["jedn_cfd"], "cena": round(cur, 4), "cena_futures": L[k]["cena"], "h1_key": h1key,
                     "spot_offset": off, "symbol": src["symbol"], "zrodlo": src.get("zrodlo", "Yahoo Finance"), "czas": src["czas_notowania_utc"],
@@ -204,6 +217,7 @@ def build():
         "sygnaly": sig,
         "dziennik": dz,
         "pivoty_plik": pivfile,
+        "dziennik_sync": (json.load(open(f"{ROOT}/sync.json")).get("zsynchronizowano_utc") if os.path.exists(f"{ROOT}/sync.json") else None),
         "raporty": reports(),
     }
 

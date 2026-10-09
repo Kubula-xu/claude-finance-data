@@ -153,6 +153,10 @@ td.n{text-align:right;white-space:nowrap}
     <p class="lead" id="poz-lead"></p>
     <div class="tiles" id="poz-tiles"></div>
     <div class="grid" id="poz"></div>
+    <h3 style="margin:8px 0 0">Zlecenia oczekujące</h3>
+    <div id="poz-pend"></div>
+    <h3 style="margin:8px 0 0">Ostatnio zamknięte</h3>
+    <div id="poz-closed"></div>
   </section>
 
   <section class="sec" data-tab="intraday">
@@ -217,11 +221,12 @@ const lbl = r => r.date ? r.date.slice(5).split('-').reverse().join('.') : new D
 function render(D) {
   LIVE = D.live;
   const S = D.sygnaly, I = S.instrumenty, KAP = S.kapital || 0, J = D.dziennik || [];
-  $('#meta').innerHTML = `${D.live ? `<span>Ceny: <b>repo claude-finance-data (futures Yahoo, spot złota i srebra Swissquote), odczyt ${esc(fmtTime(D.live.zaktualizowano_utc))}</b></span>` : ''}<span>Horyzont: <b>${esc(S.horyzont || '')}</b></span><span>Dane D1: <b>${esc(D.zrodlo_danych)}</b></span><span>Sygnały: <b>${esc(fmtTime(S.aktualizacja))}</b></span><span>Panel zbudowany: <b>${esc(fmtTime(D.zbudowano))}</b></span>`;
+  $('#meta').innerHTML = `${D.live ? `<span>Ceny: <b>repo claude-finance-data (futures Yahoo, spot złota i srebra Swissquote), odczyt ${esc(fmtTime(D.live.zaktualizowano_utc))}</b></span>` : ''}<span>Horyzont: <b>${esc(S.horyzont || '')}</b></span><span>Dane D1: <b>${esc(D.zrodlo_danych)}</b></span><span>Sygnały: <b>${esc(fmtTime(S.aktualizacja))}</b></span><span>Panel zbudowany: <b>${esc(fmtTime(D.zbudowano))}</b></span>${D.dziennik_sync ? `<span>Dziennik pozycji z: <b>${esc(fmtTime(D.dziennik_sync))}</b></span>` : ''}`;
 
   const realized = J.filter(r => /^zamknięta/.test(r.Status || '')).reduce((a, r) => a + (r._wynik_usd || 0), 0);
   const P = D.pozycje || [];
-  const unreal = P.reduce((a, p) => a + p.pnl_usd, 0), openRisk = P.reduce((a, p) => a + p.ryzyko_usd, 0);
+  const PL = P.filter(p => !p.po_terminie);
+  const unreal = PL.reduce((a, p) => a + p.pnl_usd, 0), openRisk = PL.reduce((a, p) => a + p.ryzyko_usd, 0);
   const pend = J.filter(r => /^oczekuje/.test(r.Status || ''));
   const closed = J.filter(r => /^zamknięta/.test(r.Status || ''));
   const tile = (k, v, s) => `<div class="tile"><span class="k">${k}</span><span class="v">${v}</span><span class="s">${s}</span></div>`;
@@ -250,10 +255,14 @@ function render(D) {
       el.appendChild(svgChart(x, rows.slice(-36), {wejscie: p.wejscie + off, sl: p.sl + off, tp1: p.tp1 + off, tp2: p.tp2 + off}, true, true, p.h1_key !== p.id));
       if (off) { const n = document.createElement('p'); n.className = 'note'; n.textContent = `Wykres H1 to futures. Poziomy spot przesunięte o +${fmt(off, 1)} USD, żeby pasowały do wykresu.`; el.appendChild(n); } else if (p.h1_key !== p.id) { const n = document.createElement('p'); n.className = 'note'; n.textContent = 'Wykres H1 w cenach spot (świece futures przesunięte o bazę spot − futures).'; el.appendChild(n); }
     }
+    if (p.po_terminie) { const w = document.createElement('p'); w.className = 'note'; w.style.cssText = 'color:var(--warn);background:var(--warn-bg);padding:6px 8px;border-radius:6px'; w.textContent = 'Uwaga: pozycja intraday z poprzedniej sesji, termin zamknięcia 22:30 PL minął. Dziennik prawdopodobnie nie został zaktualizowany, wynik nie jest liczony do konta.'; el.appendChild(w); }
     const u = document.createElement('p'); u.className = 'note'; u.textContent = `Status: ${p.status}. ${p.uwagi}`; el.appendChild(u);
     pz.appendChild(el);
   });
   if (!P.length) pz.innerHTML = '<p class="note">Brak otwartych pozycji.</p>';
+  const jt = (rows, cols) => rows.length ? `<div style="overflow-x:auto"><table><thead><tr>${cols.map(c => `<th>${esc(c[0])}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${cols.map(c => `<td>${c[1](r)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '<p class="note">Brak.</p>';
+  $('#poz-pend').innerHTML = jt(pend, [['#', r => esc(r['#'])], ['Instrument', r => esc(r.Instrument)], ['Kierunek', r => pill(String(r.Kierunek || '').toUpperCase())], ['Wejście', r => esc(r['Wejście'])], ['SL', r => esc(r.SL)], ['TP', r => esc(r.TP)], ['Wielkość', r => esc(r['Wielkość'])], ['Status', r => esc(r.Status)]]);
+  $('#poz-closed').innerHTML = jt(closed.slice(-6).reverse(), [['#', r => esc(r['#'])], ['Instrument', r => esc(r.Instrument)], ['Kierunek', r => pill(String(r.Kierunek || '').toUpperCase())], ['Wejście', r => esc(r['Wejście'])], ['Zamknięcie', r => esc(r['Zamknięcie'])], ['Wynik', r => r._wynik_usd != null ? signed(r._wynik_usd) : '–'], ['Status', r => esc(r.Status)]]);
 
   $('#lead').textContent = 'Finalny głos należy do koordynatora, poziomy zatwierdza agent ryzyka. ' + (S.portfel || '');
   const opis = S.agenci_opis || {};

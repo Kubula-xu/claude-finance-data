@@ -15,6 +15,8 @@ cp "$SRC"/raporty/*.html "$SRC"/raporty/*.md "$DST/raporty/" 2>/dev/null || true
 cd "$REPO"
 git add panel/projekt
 git diff --cached --quiet && { echo "Bez zmian."; exit 0; }
+printf '{"zsynchronizowano_utc": "%s"}\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > "$DST/sync.json"
+git add panel/projekt
 git commit -q -m "pulpit: ${1:-aktualizacja pozycji i raportów}"
 for i in 1 2 3 4; do git pull -q --rebase origin main && git push -q origin HEAD:main && { echo "Wypchnięte."; exit 0; }; sleep $((2**i)); done
 exit 1
