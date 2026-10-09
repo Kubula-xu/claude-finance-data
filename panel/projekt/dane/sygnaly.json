@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-09T06:50:00Z",
+ "aktualizacja": "2026-10-09T12:55:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -27,7 +27,7 @@
    "final": {
     "kierunek": "BRAK",
     "pewnosc": 1,
-    "powod": "Technika long (odbicie nocą +0,6%), makro short przed Schmidem i UMich (15:30–16:00). Okno US100 dopiero od 15:45, ocena w przeglądzie 14:50."
+    "powod": "Technika long (+0,8%, nad zamknięciem 8.10), makro short przed UMich 16:00. Słaby konsensus (+1,0 z wagami), piątek przed weekendem z Iranem: bez pozycji."
    },
    "setup": {
     "kierunek": "LONG",
@@ -83,7 +83,7 @@
     "tp2": 4232,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "oczekuje (limit 9.10, okno 09:00–12:00 i 14:00–15:00 PL)",
+    "status": "otwarta (wejście 9.10 ok. 14:15 PL)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Buy limit 4 180 spot (cofnięcie do strefy 4 176–4 183). SL 1,5× ATR H1 (14), TP1 przed szczytem nocy 4 210. Bez nowych wejść 15:00–16:30 (Schmid, UMich). Zamknąć najpóźniej 21:00 PL (piątek, ryzyko nagłówków o Iranie). Po +1R SL na BE."
@@ -95,8 +95,8 @@
     "jedn_cfd": "oz"
    },
    "ostatnia_cena": {
-    "cena": 4192.83,
-    "czas": "2026-10-09 08:20 PL",
+    "cena": 4182.59,
+    "czas": "2026-10-09 14:39 PL",
     "zrodlo": "XAU/USD spot, Swissquote (repo claude-finance-data)"
    }
   },
