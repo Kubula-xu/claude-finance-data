@@ -1,0 +1,72 @@
+<title>Czwartek 8.10 · +6 710 USD · kapitał 10 006 710</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: jedna kolumna listu do inwestorów, tabele z liczbami w monospace, blok wskaźników u góry */
+:root{
+  --bg:#f5f7f9; --paper:#ffffff; --ink:#15202b; --muted:#566573; --line:#d9e0e6;
+  --accent:#1c4e80; --up:#1d7a4f; --down:#b23a3a; --wait:#8a6a12; --chip:#eaf0f6;
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f151b; --paper:#161e26; --ink:#e4eaf0; --muted:#97a6b4; --line:#2a3642;
+  --accent:#7fb0e0; --up:#5cc293; --down:#ec7f7f; --wait:#d9b55a; --chip:#1f2a35; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f151b; --paper:#161e26; --ink:#e4eaf0; --muted:#97a6b4; --line:#2a3642;
+  --accent:#7fb0e0; --up:#5cc293; --down:#ec7f7f; --wait:#d9b55a; --chip:#1f2a35; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--body);padding:0 16px}
+main{max-width:860px;margin:0 auto;padding-block:32px 56px;display:flex;flex-direction:column;gap:36px}
+header{display:flex;flex-direction:column;gap:6px;border-bottom:2px solid var(--ink);padding-bottom:18px}
+.eyebrow{font:500 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font:600 clamp(28px,5vw,40px)/1.15 var(--display);margin:0;text-wrap:balance}
+h2{font:600 22px/1.25 var(--display);margin:0 0 12px;text-wrap:balance}
+p{margin:0;max-width:68ch}
+section{display:flex;flex-direction:column;gap:12px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.kpi{background:var(--paper);padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.kpi b{font:500 22px/1.2 var(--mono);font-variant-numeric:tabular-nums}
+.kpi span{font-size:12px;color:var(--muted)}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,1fr)}}
+.tbl{overflow-x:auto;border:1px solid var(--line);background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 11px/1.3 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.n{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.pill{display:inline-block;font:500 11px/1 var(--mono);padding:4px 7px;border-radius:3px;background:var(--chip);white-space:nowrap}
+.long{color:var(--up)} .short{color:var(--down)} .wait{color:var(--wait)}
+.note{font-size:13px;color:var(--muted)}
+blockquote{margin:0;padding:12px 16px;background:var(--paper);border-left:3px solid var(--accent);display:flex;flex-direction:column;gap:4px}
+blockquote q{font:500 17px/1.45 var(--display);quotes:"„" "”"}
+blockquote small{color:var(--muted);font-size:12.5px}
+.quotes{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:640px){.quotes{grid-template-columns:1fr}}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;max-width:72ch}
+a{color:var(--accent)}
+footer{border-top:1px solid var(--line);padding-top:14px;font-size:12.5px;color:var(--muted)}
+.lead{font:500 18px/1.55 var(--display);max-width:62ch}
+h3{font:600 17px/1.3 var(--display);margin:8px 0 0}
+.chart{overflow-x:auto;background:var(--paper);border:1px solid var(--line);padding:8px}
+.chart svg{display:block;width:100%;min-width:420px;height:auto}
+.chart text{font:11px var(--mono);fill:var(--muted)}
+.chart .grid{stroke:var(--line);stroke-width:1}
+.chart .base{stroke:var(--muted);stroke-dasharray:3 4;stroke-width:1}
+.chart .line{fill:none;stroke:var(--accent);stroke-width:2.5}
+.chart .area{fill:var(--accent);opacity:.12}
+.chart .dot{fill:var(--accent)}
+</style>
+<main>
+<header>
+  <div class="eyebrow">Claude Finance · Raport dla inwestorów</div>
+  <h1>Dzień otwarcia: ropa na plus, złoto na zero</h1>
+  <div class="note">Czwartek, 8 października 2026 · po zamknięciu dnia · rachunek papierowy na prawdziwych notowaniach</div>
+</header>
+<section>
+  <p class="lead">Pierwszy dzień funduszu: chaos na starcie, dwie transakcje wieczorem i mały plus na koniec.</p>
+  <div class="kpis"><div class="kpi"><span>Wartość rachunku</span><b class="">10 006 710</b><span>USD, po zamknięciu dnia</span></div><div class="kpi"><span>Wynik dnia</span><b class="long">+6 710</b><span>USD, +0,28 R</span></div><div class="kpi"><span>Od startu (8.10)</span><b class="long">+0,07%</b><span>+6 710 USD</span></div><div class="kpi"><span>Transakcje</span><b class="">2</b><span>dziś zamknięte · 3 od startu</span></div></div>
+  <p>Na koniec dnia rachunek ma 10 006 710 USD. Dzisiaj zarobiliśmy 6 710 USD (+0,28 R), zamknięte transakcje: 2. Od startu 8.10 to +6 710 USD (+0,07%).</p>
+</section>
+<section><h2>Transakcje dnia</h2><div class="tbl"><table><thead><tr><th>Instrument</th><th>Kierunek</th><th>Wejście</th><th>Stop</th><th>Zamknięcie</th><th>Wielkość</th><th>Wynik</th></tr></thead><tbody><tr><td>Ropa WTI</td><td><span class="pill long">LONG</span></td><td class="n">90,40</td><td class="n">89,00</td><td class="n">90,83</td><td class="n">17 100 bbl</td><td class="n long">+7 350 USD<br>+0,31R</td></tr><tr><td>Złoto (XAUUSD spot)</td><td><span class="pill short">SHORT</span></td><td class="n">4135</td><td class="n">4150</td><td class="n">4135,40</td><td class="n">1 600 oz / 16 GC</td><td class="n short">−640 USD<br>−0,03R</td></tr></tbody></table></div></section><section><h2>Komentarz zarządu</h2><p>Zaczęło się od planu na kilka dni: pięć zleceń swingowych gotowych o 17:10. Pięć minut później Kuba przestawił firmę na handel w ciągu dnia i wszystko poszło do kosza, zanim cokolwiek weszło. Koszt zmiany: zero.</p><p>Ropa była faworytem całego zespołu: Ormuz, huragan i spekulanci złapani na shortach. Technika powiedziała jednak „nie gonić przy 92” i postawiła limit niżej, na 90,40. O 18:15 cena tam zeszła, odbiła i weszliśmy. Świeca była nerwowa, więc według zasad weszliśmy tylko połową, 17 100 baryłek.</p><p>Wieczorem ropa dała nam ponad 21 tys. USD na papierze i stop poszedł na cenę wejścia. Potem cena oddała większość ruchu. Zamknęliśmy o 22:25 po 90,83: +7 350 USD.</p><p>Złoto short z 4 135 to była nerwówka. Kwadrans po wejściu cena podeszła na kilka dolarów pod stop i zawróciła. Na koniec dnia wyszliśmy praktycznie na zero: −640 USD.</p><p>Najlepsze decyzje tego dnia to te, których nie podjęliśmy. Nasdaq był wieczorem 1,6% pod kreską, a gaz 1,7%, a my nie mieliśmy tam pozycji, bo makro i sentyment przegłosowały technikę.</p></section><section><h2>Głosy z zespołu</h2><div class="quotes"><blockquote><q>Dzienny zasięg (4,05) to już prawie cały ATR D1 (4,7), więc nie gonić przy 92.</q><small>Technika, o ropie, z tego zdania wzięło się wejście na 90,40</small></blockquote><blockquote><q>US100 short i WTI long to w praktyce ta sama teza.</q><small>Makro, o portfelu, obie pozycje liczą się do jednego limitu ryzyka</small></blockquote><blockquote><q>Weto nie mówi, że rynek pójdzie w drugą stronę. Mówi, że przy tym stopie nie zarobimy na tym, że mamy rację.</q><small>Ryzyko</small></blockquote></div></section><section><h2>Pozycje i zlecenia na noc</h2><div class="tbl"><table><thead><tr><th>Instrument</th><th>Kierunek</th><th>Wejście</th><th>Stop</th><th>Cele</th><th>Stan</th></tr></thead><tbody><tr><td>Kawa US</td><td><span class="pill short">SHORT</span></td><td class="n">294,00</td><td class="n">305,00</td><td class="n">272,00 / 270,00</td><td>oczekuje (limit do 16.10, swing)</td></tr><tr><td>Kakao US</td><td><span class="pill long">LONG</span></td><td class="n">5290</td><td class="n">4960</td><td class="n">5900 / 6000</td><td>oczekuje (limit do 16.10, swing)</td></tr></tbody></table></div></section><section><h2>Ryzyka na najbliższe dni</h2><ul><li>W piątek o 15:30 przemawia Schmid z Fed, a o 16:00 wychodzą oczekiwania inflacyjne Uniwersytetu Michigan.</li><li>W weekend nad Zatoką Meksykańską przechodzi huragan Isaias, możliwa luka na ropie i gazie w poniedziałek.</li></ul></section><section><h2>Co dalej</h2><p>W piątek handlujemy tylko do wieczora i zamykamy wszystko przed weekendem. W księdze swing czekają kawa short (294,00) i kakao long (5 290).</p></section>
+<footer>Symulacja na rachunku papierowym, bez prawdziwych pieniędzy. Liczby pochodzą z dziennika transakcji (agenci/paper_trading.md), pliku skuteczności agentów i decyzji koordynatora; ceny z kanału claude-finance-data. Wynik w USD = wynik w punktach × wielkość pozycji, zaokrąglony do 10 USD. Raporty archiwalne: folder raporty/. To nie jest porada inwestycyjna.</footer>
+</main>

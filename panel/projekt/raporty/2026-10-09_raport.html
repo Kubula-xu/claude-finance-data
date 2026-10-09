@@ -1,0 +1,72 @@
+<title>Piątek 9.10 · +14 670 USD · kapitał 10 021 380</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: jedna kolumna listu do inwestorów, tabele z liczbami w monospace, blok wskaźników u góry */
+:root{
+  --bg:#f5f7f9; --paper:#ffffff; --ink:#15202b; --muted:#566573; --line:#d9e0e6;
+  --accent:#1c4e80; --up:#1d7a4f; --down:#b23a3a; --wait:#8a6a12; --chip:#eaf0f6;
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f151b; --paper:#161e26; --ink:#e4eaf0; --muted:#97a6b4; --line:#2a3642;
+  --accent:#7fb0e0; --up:#5cc293; --down:#ec7f7f; --wait:#d9b55a; --chip:#1f2a35; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f151b; --paper:#161e26; --ink:#e4eaf0; --muted:#97a6b4; --line:#2a3642;
+  --accent:#7fb0e0; --up:#5cc293; --down:#ec7f7f; --wait:#d9b55a; --chip:#1f2a35; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--body);padding:0 16px}
+main{max-width:860px;margin:0 auto;padding-block:32px 56px;display:flex;flex-direction:column;gap:36px}
+header{display:flex;flex-direction:column;gap:6px;border-bottom:2px solid var(--ink);padding-bottom:18px}
+.eyebrow{font:500 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font:600 clamp(28px,5vw,40px)/1.15 var(--display);margin:0;text-wrap:balance}
+h2{font:600 22px/1.25 var(--display);margin:0 0 12px;text-wrap:balance}
+p{margin:0;max-width:68ch}
+section{display:flex;flex-direction:column;gap:12px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.kpi{background:var(--paper);padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.kpi b{font:500 22px/1.2 var(--mono);font-variant-numeric:tabular-nums}
+.kpi span{font-size:12px;color:var(--muted)}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,1fr)}}
+.tbl{overflow-x:auto;border:1px solid var(--line);background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 11px/1.3 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.n{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.pill{display:inline-block;font:500 11px/1 var(--mono);padding:4px 7px;border-radius:3px;background:var(--chip);white-space:nowrap}
+.long{color:var(--up)} .short{color:var(--down)} .wait{color:var(--wait)}
+.note{font-size:13px;color:var(--muted)}
+blockquote{margin:0;padding:12px 16px;background:var(--paper);border-left:3px solid var(--accent);display:flex;flex-direction:column;gap:4px}
+blockquote q{font:500 17px/1.45 var(--display);quotes:"„" "”"}
+blockquote small{color:var(--muted);font-size:12.5px}
+.quotes{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:640px){.quotes{grid-template-columns:1fr}}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;max-width:72ch}
+a{color:var(--accent)}
+footer{border-top:1px solid var(--line);padding-top:14px;font-size:12.5px;color:var(--muted)}
+.lead{font:500 18px/1.55 var(--display);max-width:62ch}
+h3{font:600 17px/1.3 var(--display);margin:8px 0 0}
+.chart{overflow-x:auto;background:var(--paper);border:1px solid var(--line);padding:8px}
+.chart svg{display:block;width:100%;min-width:420px;height:auto}
+.chart text{font:11px var(--mono);fill:var(--muted)}
+.chart .grid{stroke:var(--line);stroke-width:1}
+.chart .base{stroke:var(--muted);stroke-dasharray:3 4;stroke-width:1}
+.chart .line{fill:none;stroke:var(--accent);stroke-width:2.5}
+.chart .area{fill:var(--accent);opacity:.12}
+.chart .dot{fill:var(--accent)}
+</style>
+<main>
+<header>
+  <div class="eyebrow">Claude Finance · Raport dla inwestorów · podsumowanie tygodnia</div>
+  <h1>Złoto dowiezione, tydzień na plusie</h1>
+  <div class="note">Piątek, 9 października 2026 · po zamknięciu dnia · rachunek papierowy na prawdziwych notowaniach</div>
+</header>
+<section>
+  <p class="lead">Piątek zamykamy na plusie, cały pierwszy tydzień też. Jedna transakcja, stop ani razu nie był zagrożony i wszystko zamknięte przed weekendem.</p>
+  <div class="kpis"><div class="kpi"><span>Wartość rachunku</span><b class="">10 021 380</b><span>USD, po zamknięciu dnia</span></div><div class="kpi"><span>Wynik dnia</span><b class="long">+14 670</b><span>USD, +0,61 R</span></div><div class="kpi"><span>Od startu (8.10)</span><b class="long">+0,21%</b><span>+21 380 USD</span></div><div class="kpi"><span>Transakcje</span><b class="">1</b><span>dziś zamknięte · 3 od startu</span></div></div>
+  <p>Na koniec dnia rachunek ma 10 021 380 USD. Dzisiaj zarobiliśmy 14 670 USD (+0,61 R), zamknięte transakcje: 1. Od startu 8.10 to +21 380 USD (+0,21%).</p>
+</section>
+<section><h2>Transakcje dnia</h2><div class="tbl"><table><thead><tr><th>Instrument</th><th>Kierunek</th><th>Wejście</th><th>Stop</th><th>Zamknięcie</th><th>Wielkość</th><th>Wynik</th></tr></thead><tbody><tr><td>Złoto (XAUUSD spot)</td><td><span class="pill long">LONG</span></td><td class="n">4180</td><td class="n">4159</td><td class="n">4192,76</td><td class="n">1 150 oz / ok. 11,5 GC</td><td class="n long">+14 670 USD<br>+0,61R</td></tr></tbody></table></div></section><section><h2>Komentarz zarządu</h2><p>W nocy złoto wybiło się nad czwartkowy szczyt 4 147 i poleciało aż do 4 210. Kusiło, żeby wskoczyć od razu, ale zespół się nie dał. Plan był prosty: poczekać, aż cena cofnie się do 4 176–4 183, i dopiero tam kupić.</p><p>Za longiem byli technika (3/5) i makro (2/5). Sentyment wolał się nie wychylać, więc dział ryzyka dał tylko pół stawki, 0,25% kapitału. Limit 4 180 wszedł po 14:00. Najniżej cena zeszła potem w okolice 4 169, czyli 10 dolarów nad naszym stopem 4 159.</p><p>Złoto doszło do +0,5R, ale do +1R zabrakło kilku dolarów, więc stop został tam, gdzie był. O 20:55 zamknęliśmy pozycję po 4 192,76. Nikt nie chciał trzymać złota przez weekend, kiedy w każdej chwili może przyjść nagłówek z Iranu. Wynik: +14 670 USD.</p><p>Na Nasdaq, ropie, srebrze i gazie siedzieliśmy z boku. Głosy agentów się rozjeżdżały albo były za słabe, a piątek przed weekendem to nie jest dzień na odwagę.</p><p>Mała korekta do czwartku. Wieczorny reportaż pokazywał +28 244 USD, ale to był wynik na papierze w trakcie sesji. Ropa oddała sporą część ruchu i po zamknięciu dała +7 350 USD, a złoto short wyszło praktycznie na zero (−640 USD). Czwartek ostatecznie: +6 710 USD.</p></section><section><h2>Decyzje koordynatora na ostatnią sesję</h2><div class="tbl"><table><thead><tr><th>Rynek</th><th>Decyzja</th><th>Dlaczego</th></tr></thead><tbody><tr><td>Nasdaq 100</td><td><span class="pill wait">BRAK</span></td><td>Technika long (+0,8%, nad zamknięciem 8.10), makro short przed UMich 16:00. Słaby konsensus (+1,0 z wagami), piątek przed weekendem z Iranem: bez pozycji.</td></tr><tr><td>Złoto</td><td><span class="pill long">LONG</span></td><td>Nocne wybicie spot nad szczyt 8.10 (4 147) do 4 210 przy słabszym USD i niższych rentownościach. Kupno z cofnięcia do strefy azjatyckiej konsolidacji 4 176–4 183, nie w pogoni.</td></tr><tr><td>Srebro</td><td><span class="pill wait">BRAK</span></td><td>Odbicie z dna 58,5 do 60,3, ale bez potwierdzenia i z jastrzębim Fedem w tle.</td></tr><tr><td>Ropa WTI</td><td><span class="pill wait">BRAK</span></td><td>Nocny spadek pod 91 (niższe szczyty) przeciw tezie Iran/huragan. Sprzeczne głosy, bez pozycji przed weekendem.</td></tr><tr><td>Gaz ziemny</td><td><span class="pill wait">BRAK</span></td><td>Zakres 3,13–3,15, okno NYMEX od 15:00.</td></tr><tr><td>Kawa US</td><td><span class="pill short">SHORT</span></td><td>Księga swing (1–2 tygodnie): wszyscy trzej agenci short. Rekordowe zbiory w Brazylii, gra w konsolidacji 270–300.</td></tr><tr><td>Kakao US</td><td><span class="pill long">LONG</span></td><td>Księga swing (1–2 tygodnie): słaby long, tylko technika za. Wejście przy 100 DMA, połowa ryzyka.</td></tr></tbody></table></div></section><section><h2>Pozycje i zlecenia na noc</h2><div class="tbl"><table><thead><tr><th>Instrument</th><th>Kierunek</th><th>Wejście</th><th>Stop</th><th>Cele</th><th>Stan</th></tr></thead><tbody><tr><td>Kawa US</td><td><span class="pill short">SHORT</span></td><td class="n">294,00</td><td class="n">305,00</td><td class="n">272,00 / 270,00</td><td>oczekuje (limit do 16.10, swing)</td></tr><tr><td>Kakao US</td><td><span class="pill long">LONG</span></td><td class="n">5290</td><td class="n">4960</td><td class="n">5900 / 6000</td><td>oczekuje (limit do 16.10, swing)</td></tr></tbody></table></div></section><section><h2>Podsumowanie tygodnia</h2><p>Od 5.10 do 9.10 fundusz zamknął 3 transakcji, z czego 2 na plusie. Wynik tygodnia: <b>+21 380 USD</b> (+0,89 R).</p><div class="chart"><svg viewBox="0 0 640 180" role="img" aria-label="Krzywa kapitału"><line x1="84" x2="624" y1="152.0" y2="152.0" class="grid"/><text x="76" y="156.0" text-anchor="end">9,995 mln</text><line x1="84" x2="624" y1="106.0" y2="106.0" class="grid"/><text x="76" y="110.0" text-anchor="end">10,005 mln</text><line x1="84" x2="624" y1="60.0" y2="60.0" class="grid"/><text x="76" y="64.0" text-anchor="end">10,016 mln</text><line x1="84" x2="624" y1="14.0" y2="14.0" class="grid"/><text x="76" y="18.0" text-anchor="end">10,026 mln</text><line x1="84" x2="624" y1="130.0" y2="130.0" class="base"/><path d="M84.0,130.0 L354.0,100.5 L624.0,36.0 L624.0,152 L84.0,152 Z" class="area"/><path d="M84.0,130.0 L354.0,100.5 L624.0,36.0" class="line"/><circle cx="624.0" cy="36.0" r="4" class="dot"/><text x="84.0" y="172" text-anchor="middle">7.10</text><text x="354.0" y="172" text-anchor="middle">8.10</text><text x="624.0" y="172" text-anchor="middle">9.10</text></svg></div><div class="tbl"><table><thead><tr><th>Dzień</th><th>Kapitał (USD)</th><th>Zmiana</th></tr></thead><tbody><tr><td>środa 7.10</td><td class="n">10 000 000</td><td class="n">–</td></tr><tr><td>czwartek 8.10</td><td class="n">10 006 710</td><td class="n">+6 710</td></tr><tr><td>piątek 9.10</td><td class="n">10 021 380</td><td class="n">+14 670</td></tr></tbody></table></div><h3>Skuteczność agentów</h3><p class="note">Trafność głosów liczona ruchem ceny do 22:30 (intraday) albo po 7 dniach (swing), w jednostkach zmienności ATR. Waga to siła głosu w konsensusie (1 = neutralnie).</p><div class="tbl"><table><thead><tr><th>Agent</th><th>Waga</th><th>Głosy ocenione</th><th>Trafność</th><th>Śr. wynik (ATR)</th></tr></thead><tbody><tr><td>technika</td><td class="n">0,96</td><td class="n">5</td><td class="n">20%</td><td class="n">-0,22</td></tr><tr><td>makro</td><td class="n">0,96</td><td class="n">4</td><td class="n">25%</td><td class="n">-0,27</td></tr><tr><td>sentyment</td><td class="n">0,93</td><td class="n">2</td><td class="n">0%</td><td class="n">-0,89</td></tr></tbody></table></div></section><section><h2>Ryzyka na najbliższe dni</h2><ul><li>Weekend: jeśli przyjdą nagłówki USA–Iran albo z cieśniny Ormuz, w poniedziałek ropa, złoto i Nasdaq mogą otworzyć się luką. Nie mamy na weekend żadnej pozycji intraday, więc to nas nie zaboli.</li><li>Poniedziałek 12.10: w USA Columbus Day, rynek obligacji zwykle zamknięty, płynność będzie słabsza.</li><li>Środa 14.10, 14:30: inflacja CPI w USA, najważniejsza liczba tygodnia. W czwartek 15.10 dane o przemiale kakao.</li><li>Trafność głosów agentów jest na razie słaba (0–25%), ale to kilka ocen na krzyż. Za wcześnie, żeby kogoś zwalniać.</li></ul></section><section><h2>Co dalej</h2><p>W księdze swing czekają dwa zlecenia do 16.10: kawa short z 294,00 i kakao long z 5 290. Od poniedziałku firma chodzi w stałym rytmie: przegląd o 8:40, przed otwarciem USA o 14:50, zamknięcie dnia o 22:25, a o 22:40 ten raport ląduje w panelu.</p></section>
+<footer>Symulacja na rachunku papierowym, bez prawdziwych pieniędzy. Liczby pochodzą z dziennika transakcji (agenci/paper_trading.md), pliku skuteczności agentów i decyzji koordynatora; ceny z kanału claude-finance-data. Wynik w USD = wynik w punktach × wielkość pozycji, zaokrąglony do 10 USD. Raporty archiwalne: folder raporty/. To nie jest porada inwestycyjna.</footer>
+</main>
