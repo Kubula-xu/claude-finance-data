@@ -39,11 +39,23 @@ Workflow „Pulpit (GitHub Pages)” buduje ją po każdym pobraniu cen i po ka�
 
 ## Powiadomienia Telegram
 
-`panel/telegram.py` wysyła na Telegram: nowy lub zmieniony sygnał (`final` w `sygnaly.json`), nowe zlecenie i zmianę statusu, SL lub TP w dzienniku, zdarzenia automatu zleceń (wejście, SL na BE, TP1, TP2, SL, zamknięcie dnia, wygaśnięcie) oraz podsumowanie obserwowanych rynków rano (od 08:00 PL) i wieczorem (od 22:30 PL), pon.–pt. Uruchamia go workflow „Ceny Yahoo” co 15 min i workflow „Telegram” zaraz po synchronizacji plików agentów. Co już wysłano, zapisuje `data/telegram_stan.json`.
+`panel/telegram.py` wysyła na Telegram komunikaty w stylu desku funduszu: nowy lub zmieniony sygnał (`final` w `sygnaly.json`), nowe zlecenie i zmianę statusu, SL lub TP w dzienniku, zdarzenia automatu zleceń (wejście, SL na BE, TP1, TP2, SL, zamknięcie dnia, wygaśnięcie) oraz podsumowanie obserwowanych rynków rano (od 08:00 PL) i wieczorem (od 22:30 PL), pon.–pt. Uruchamia go workflow „Ceny Yahoo” co 15 min i workflow „Telegram” zaraz po synchronizacji plików agentów. Co już wysłano, zapisuje `data/telegram_stan.json`.
 
 Konfiguracja (Settings → Secrets and variables → Actions):
 - sekret `TELEGRAM_BOT_TOKEN`: token bota od @BotFather,
 - sekret `TELEGRAM_CHAT_ID`: id czatu, do którego bot pisze,
 - opcjonalnie zmienna `TELEGRAM_TRYB` (domyślnie `PAPER`, przy prawdziwym koncie `REAL`): trafia do nagłówka każdej wiadomości.
 
-Test: Actions → „Telegram” → Run workflow → `test` albo `podsumowanie`. Podgląd lokalnie bez wysyłki: `python3 panel/telegram.py --sucho`.
+Polecenia w czacie z botem (odpowiada tylko na czat `TELEGRAM_CHAT_ID`; workflow „Telegram” odbiera je co 5 min, także w weekend, więc odpowiedź przychodzi z kilkuminutowym opóźnieniem):
+
+| Polecenie | Odpowiedź |
+|---|---|
+| `/status` | kapitał, wynik od startu, liczba pozycji i zleceń, wynik niezrealizowany |
+| `/pozycje` | otwarte pozycje i zlecenia z kursem, wynikiem w pkt, R i USD albo odległością do wejścia |
+| `/sygnaly` | stanowisko komitetu i głosy agentów na każdym rynku |
+| `/rynek <rynek>` | kurs, sesja, ATR, stanowisko i plan, np. `/rynek zloto`, `/rynek kawa` |
+| `/rynki` | przegląd wszystkich rynków |
+| `/raport` | skrót ostatniego raportu dla inwestorów |
+| `/pomoc` | lista poleceń |
+
+Test: Actions → „Telegram” → Run workflow → `test` albo `podsumowanie`. Podgląd odpowiedzi lokalnie: `python3 panel/telegram.py --sucho /rynek zloto`.
