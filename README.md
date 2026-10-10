@@ -46,7 +46,7 @@ Konfiguracja (Settings → Secrets and variables → Actions):
 - sekret `TELEGRAM_CHAT_ID`: id czatu, do którego bot pisze,
 - opcjonalnie zmienna `TELEGRAM_TRYB` (domyślnie `PAPER`, przy prawdziwym koncie `REAL`): trafia do nagłówka każdej wiadomości.
 
-Polecenia w czacie z botem (odpowiada tylko na czat `TELEGRAM_CHAT_ID`; workflow „Telegram” odbiera je co 5 min, także w weekend, więc odpowiedź przychodzi z kilkuminutowym opóźnieniem):
+Polecenia w czacie z botem (odpowiada tylko na czat `TELEGRAM_CHAT_ID`; workflow „Telegram bot” słucha bez przerwy przez long polling, więc odpowiedź przychodzi w kilka sekund; jeden przebieg trwa ok. 5 h 45 min, a harmonogram co godzinę trzyma w kolejce następcę):
 
 | Polecenie | Odpowiedź |
 |---|---|

@@ -7,7 +7,7 @@ Komunikaty (porównanie z ostatnio wysłanym stanem w data/telegram_stan.json, w
   - automat zleceń: wejście, SL na BE, TP1, TP2, SL, zamknięcie sesji, wygaśnięcie (data/wypelnienia.json),
   - przegląd rynków: rano (od 08:00 PL) i wieczorem (od 22:30 PL), pon.–pt.
 
-Polecenia (tylko z czatu TELEGRAM_CHAT_ID; odbiór przez getUpdates, przesunięcie w data/telegram_komendy.json):
+Polecenia (tylko z czatu TELEGRAM_CHAT_ID; nasłuch long polling w workflow „Telegram bot”, odpowiedź w kilka sekund):
   /status /pozycje /sygnaly /rynek <instrument> /rynki /raport /pomoc
 
 Sekrety: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID. Bez nich skrypt tylko wypisuje wiadomości i nie zmienia stanu.
@@ -15,13 +15,13 @@ TELEGRAM_TRYB (domyślnie PAPER) trafia do nagłówka wiadomości; przy prawdziw
 Pierwsze uruchomienie z sekretami zapamiętuje bieżący stan i wysyła jedną wiadomość powitalną z przeglądem rynków.
 
 Użycie: python3 panel/telegram.py                    → komunikaty (+ przegląd, jeśli pora)
-        python3 panel/telegram.py komendy            → odpowiedz na polecenia z czatu
+        python3 panel/telegram.py nasluch 350        → odpowiadaj na polecenia przez 350 min
         python3 panel/telegram.py podsumowanie       → przegląd rynków od razu
         python3 panel/telegram.py test               → wiadomość testowa
         python3 panel/telegram.py --sucho [...]      → tylko wypisz, nic nie wysyłaj ani nie zapisuj
         python3 panel/telegram.py --sucho /rynek zloto → podgląd odpowiedzi na polecenie
 """
-import datetime, glob, html, json, os, re, sys, urllib.parse, urllib.request
+import datetime, glob, html, json, os, re, subprocess, sys, time, urllib.parse, urllib.request
 from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -31,7 +31,6 @@ import build  # noqa: E402
 PL = ZoneInfo("Europe/Warsaw")
 UTC = datetime.timezone.utc
 STAN = f"{build.LIVE}/data/telegram_stan.json"
-KOMENDY = f"{build.LIVE}/data/telegram_komendy.json"
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 CHAT = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
 TRYB = os.environ.get("TELEGRAM_TRYB", "PAPER").strip().upper() or "PAPER"
@@ -369,7 +368,7 @@ def cmd_pomoc(_):
     return "\n".join([naglowek("Obsługa", "Dostępne polecenia"), ""]
                      + [f"/{c} — {e(o)}" for c, o in POLECENIA]
                      + ["", "Komunikaty o zleceniach, wejściach, stopach i celach przychodzą automatycznie. "
-                        "Polecenia są obsługiwane w cyklu kilkuminutowym."])
+                        "Odpowiedź na polecenie przychodzi w kilka sekund."])
 
 
 OBSLUGA = {"status": cmd_status, "pozycje": cmd_pozycje, "sygnaly": cmd_sygnaly, "sygnały": cmd_sygnaly,
@@ -392,7 +391,7 @@ def odpowiedz(tekst):
 
 def api(metoda, **pola):
     dane = urllib.parse.urlencode(pola).encode()
-    with urllib.request.urlopen(f"https://api.telegram.org/bot{TOKEN}/{metoda}", dane, timeout=30) as r:
+    with urllib.request.urlopen(f"https://api.telegram.org/bot{TOKEN}/{metoda}", dane, timeout=80) as r:
         w = json.load(r)
     if not w.get("ok"): raise RuntimeError(f"Telegram odrzucił {metoda}")
     return w["result"]
@@ -403,23 +402,54 @@ def wyslij(tekst):
         api("sendMessage", chat_id=CHAT, text=tekst[i:i + 4000], parse_mode="HTML", disable_web_page_preview="true")
 
 
-def obsluz_komendy():
-    st = wczytaj(KOMENDY, {})
-    if not st.get("menu"):
-        api("setMyCommands", commands=json.dumps([{"command": c, "description": o} for c, o in POLECENIA], ensure_ascii=False))
-        st["menu"] = True
-    upd = api("getUpdates", offset=st.get("offset", 0), timeout=0, allowed_updates='["message"]')
-    n = 0
-    for u in upd:
-        st["offset"] = u["update_id"] + 1
-        msg = u.get("message") or {}
-        if str(msg.get("chat", {}).get("id")) != CHAT: continue   # tylko czat właściciela
-        odp = odpowiedz(msg.get("text", ""))
-        if odp:
-            wyslij(odp)
-            n += 1
-    json.dump(st, open(KOMENDY, "w"), ensure_ascii=False, indent=1)   # bez znacznika czasu: commit tylko po nowych wiadomościach
-    print(f"Polecenia: {len(upd)} wiadomości, {n} odpowiedzi.")
+def odswiez_dane():
+    """Dociąga świeże ceny i pliki agentów z main (nasłuch działa godzinami na jednym checkoutcie)."""
+    subprocess.run(["git", "-C", build.LIVE, "pull", "-q", "--ff-only", "origin", "main"], timeout=60, check=False)
+
+
+def wersja_kodu():
+    return [open(f"{HERE}/{f}", "rb").read() for f in ("telegram.py", "build.py")]
+
+
+def nasluch(minuty):
+    """Long polling: odpowiada na polecenia w ciągu sekund przez `minuty`, potem kończy (workflow startuje kolejny)."""
+    api("setMyCommands", commands=json.dumps([{"command": c, "description": o} for c, o in POLECENIA], ensure_ascii=False))
+    koniec, offset, pobrane, n = time.time() + minuty * 60, None, time.time(), 0
+    kod = wersja_kodu()
+    while time.time() < koniec:
+        if time.time() - pobrane > 300:   # co 5 min świeże dane; nowy kod na main → oddaj wartę następcy
+            odswiez_dane()
+            pobrane = time.time()
+            if wersja_kodu() != kod:
+                print("Nowa wersja bota na main, kończę.")
+                break
+        pola = {"timeout": int(max(1, min(50, koniec - time.time()))), "allowed_updates": '["message"]'}
+        if offset is not None: pola["offset"] = offset
+        try:
+            upd = api("getUpdates", **pola)
+        except Exception as ex:   # sieć, 409 przy zmianie warty, 5xx Telegrama
+            print("getUpdates:", ex)
+            time.sleep(5)
+            continue
+        for u in upd:
+            offset = u["update_id"] + 1
+            msg = u.get("message") or {}
+            if str(msg.get("chat", {}).get("id")) != CHAT: continue   # tylko czat właściciela
+            if not msg.get("text", "").startswith("/"): continue
+            if time.time() - pobrane > 60:
+                odswiez_dane()
+                pobrane = time.time()
+            odp = odpowiedz(msg["text"])
+            if odp:
+                try:
+                    wyslij(odp)
+                    n += 1
+                except Exception as ex:
+                    print("sendMessage:", ex)
+    if offset is not None:
+        try: api("getUpdates", offset=offset, timeout=0)   # potwierdź obsłużone, żeby następca ich nie powtórzył
+        except Exception as ex: print("potwierdzenie:", ex)
+    print(f"Nasłuch zakończony, odpowiedzi: {n}.")
 
 
 def pora_przegladu(stan, teraz):
@@ -441,8 +471,8 @@ def main(argv):
     if arg and arg[0].startswith("/"):
         out(odpowiedz(" ".join(arg)))
         return
-    if "komendy" in arg:
-        if not sucho: obsluz_komendy()
+    if "nasluch" in arg:
+        if not sucho: nasluch(float(arg[arg.index("nasluch") + 1]) if len(arg) > arg.index("nasluch") + 1 else 5)
         return
     if "test" in arg:
         out(naglowek("Obsługa", "Test połączenia") + f"\nKanał komunikacji działa poprawnie. {teraz:%d.%m %H:%M} PL")

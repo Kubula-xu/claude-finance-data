@@ -1,0 +1,38 @@
+name: Telegram bot
+
+# Nasłuch poleceń z czatu (/status, /pozycje, /rynek ...): long polling, odpowiedź w kilka sekund.
+# Jeden przebieg słucha ok. 5 h 45 min. Harmonogram co godzinę trzyma w kolejce następcę,
+# który startuje zaraz po zakończeniu poprzedniego, więc bot słucha bez przerwy.
+# Po zmianie kodu bota na main bieżący nasłuch kończy się sam (w ciągu ~5 min) i startuje nowa wersja.
+on:
+  schedule:
+    - cron: "7 * * * *"
+  push:
+    branches: [main]
+    paths: ["panel/telegram.py", "panel/build.py", ".github/workflows/telegram-bot.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: telegram-bot
+  cancel-in-progress: false
+
+jobs:
+  nasluch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Nasłuch poleceń
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_TRYB: ${{ vars.TELEGRAM_TRYB }}
+        run: python panel/telegram.py nasluch 345

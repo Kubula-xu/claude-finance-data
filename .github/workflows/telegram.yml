@@ -1,22 +1,19 @@
 name: Telegram
 
 # Natychmiastowe powiadomienia po zmianie sygnałów lub dziennika (push do panel/projekt/),
-# odpowiedzi na polecenia z czatu (/status, /pozycje, ...) co 5 min, także w weekend,
-# oraz ręczne uruchomienie: test połączenia, przegląd rynków albo polecenia.
+# oraz ręczne uruchomienie: test połączenia albo przegląd rynków.
+# Polecenia z czatu (/status, /pozycje, ...) obsługuje workflow „Telegram bot”.
 # W zwykłym rytmie co 15 min powiadomienia wysyła też workflow „Ceny Yahoo”.
 on:
   push:
     branches: [main]
     paths: ["panel/projekt/**"]
-  schedule:
-    # odbiór poleceń z czatu; GitHub potrafi opóźnić start o kilka minut
-    - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
       co:
         description: "Co wysłać"
         type: choice
-        options: [test, podsumowanie, zdarzenia, komendy]
+        options: [test, podsumowanie, zdarzenia]
         default: test
 
 permissions:
@@ -44,9 +41,8 @@ jobs:
           TELEGRAM_TRYB: ${{ vars.TELEGRAM_TRYB }}
         run: |
           CO="${{ github.event.inputs.co }}"
-          if [ "${{ github.event_name }}" = "schedule" ]; then CO=komendy; fi
           case "$CO" in
-            test|podsumowanie|komendy) python panel/telegram.py "$CO" ;;
+            test|podsumowanie) python panel/telegram.py "$CO" ;;
             *) python panel/telegram.py ;;
           esac
       - name: Zapisz stan powiadomień
