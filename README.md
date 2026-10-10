@@ -36,3 +36,14 @@ Workflow „Pulpit (GitHub Pages)” buduje ją po każdym pobraniu cen i po ka�
 - `panel/projekt/` to kopia plików agentów: `agenci/paper_trading.md` (dziennik i pozycje), `dane/sygnaly.json`, `dane/intraday_poziomy_*.csv`, `raporty/`.
 - `panel/wypelnienia.py` pilnuje zleceń z dziennika na świecach 15 min (po każdym pobraniu cen, wynik w `data/wypelnienia.json`): wejście po dotknięciu limitu w oknie handlu, SL na BE po +1R, 50% na TP1, reszta na TP2 albo SL, intraday zamknięcie o 22:30 PL. Strona nakłada ten wynik na dziennik.
 - Agenci po zmianie pozycji lub nowym raporcie uruchamiają `panel/sync_z_projektu.sh "opis"`, który kopiuje pliki z folderu projektu i wypycha je do repo.
+
+## Powiadomienia Telegram
+
+`panel/telegram.py` wysyła na Telegram: nowy lub zmieniony sygnał (`final` w `sygnaly.json`), nowe zlecenie i zmianę statusu, SL lub TP w dzienniku, zdarzenia automatu zleceń (wejście, SL na BE, TP1, TP2, SL, zamknięcie dnia, wygaśnięcie) oraz podsumowanie obserwowanych rynków rano (od 08:00 PL) i wieczorem (od 22:30 PL), pon.–pt. Uruchamia go workflow „Ceny Yahoo” co 15 min i workflow „Telegram” zaraz po synchronizacji plików agentów. Co już wysłano, zapisuje `data/telegram_stan.json`.
+
+Konfiguracja (Settings → Secrets and variables → Actions):
+- sekret `TELEGRAM_BOT_TOKEN`: token bota od @BotFather,
+- sekret `TELEGRAM_CHAT_ID`: id czatu, do którego bot pisze,
+- opcjonalnie zmienna `TELEGRAM_TRYB` (domyślnie `PAPER`, przy prawdziwym koncie `REAL`): trafia do nagłówka każdej wiadomości.
+
+Test: Actions → „Telegram” → Run workflow → `test` albo `podsumowanie`. Podgląd lokalnie bez wysyłki: `python3 panel/telegram.py --sucho`.

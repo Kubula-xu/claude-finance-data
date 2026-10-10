@@ -27,6 +27,12 @@ jobs:
       - run: python fetch_prices.py
       - name: Pilnowanie zleceń z dziennika
         run: python panel/wypelnienia.py || echo "pilnowanie zleceń nie zadziałało"
+      - name: Powiadomienia Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_TRYB: ${{ vars.TELEGRAM_TRYB }}
+        run: python panel/telegram.py || echo "powiadomienia Telegram nie zadziałały"
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
