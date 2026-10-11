@@ -87,10 +87,10 @@
   "coffee": {
    "symbol": "KC=F",
    "opis": "Kawa Arabica futures (ICE US)",
-   "cena": 286.950012,
+   "cena": 285.149994,
    "czas_notowania_utc": "2026-10-09T17:15:00Z",
    "poprzednie_zamkniecie": 289.049988,
-   "zmiana_pct": -0.727,
+   "zmiana_pct": -1.349,
    "dzien": {
     "data": "2026-10-09",
     "open": 289.049988,
@@ -101,14 +101,14 @@
   "cocoa": {
    "symbol": "CC=F",
    "opis": "Kakao futures (ICE US)",
-   "cena": 5665.0,
+   "cena": 5671.0,
    "czas_notowania_utc": "2026-10-09T17:15:00Z",
    "poprzednie_zamkniecie": 5665.0,
-   "zmiana_pct": 0.0,
+   "zmiana_pct": 0.106,
    "dzien": {
     "data": "2026-10-09",
     "open": 5604.0,
-    "high": 5710.0,
+    "high": 5712.0,
     "low": 5563.0
    }
   },
@@ -194,5 +194,5 @@
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-11T17:28:21Z"
+ "zaktualizowano_utc": "2026-10-11T17:45:32Z"
 }
