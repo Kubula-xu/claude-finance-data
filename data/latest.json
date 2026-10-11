@@ -51,9 +51,9 @@
    "zmiana_pct": 3.359,
    "dzien": {
     "data": "2026-10-09",
-    "open": 60.669998,
-    "high": 60.755001,
-    "low": 60.669998
+    "open": 59.459999,
+    "high": 61.459999,
+    "low": 59.450001
    }
   },
   "wti": {
@@ -95,7 +95,7 @@
     "data": "2026-10-09",
     "open": 289.049988,
     "high": 291.799988,
-    "low": 284.25
+    "low": 284.299988
    }
   },
   "cocoa": {
@@ -185,14 +185,14 @@
    "futures": "SI=F",
    "dzien": {
     "data": "2026-10-09",
-    "open": 60.442,
-    "high": 60.82,
-    "low": 60.442
+    "open": 59.232,
+    "high": 61.232,
+    "low": 59.222
    },
    "poprzednie_zamkniecie": 58.836,
    "zmiana_pct": 3.372
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-11T03:57:12Z"
+ "zaktualizowano_utc": "2026-10-11T04:14:47Z"
 }
