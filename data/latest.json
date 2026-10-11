@@ -38,7 +38,7 @@
    "dzien": {
     "data": "2026-10-09",
     "open": 4159.700195,
-    "high": 4233.700195,
+    "high": 4232.700195,
     "low": 4156.100098
    }
   },
@@ -66,7 +66,7 @@
    "dzien": {
     "data": "2026-10-09",
     "open": 91.290001,
-    "high": 92.169998,
+    "high": 92.160004,
     "low": 90.010002
    }
   },
@@ -108,7 +108,7 @@
    "dzien": {
     "data": "2026-10-09",
     "open": 5604.0,
-    "high": 5710.0,
+    "high": 5712.0,
     "low": 5563.0
    }
   },
@@ -167,7 +167,7 @@
    "dzien": {
     "data": "2026-10-09",
     "open": 4138.0054,
-    "high": 4212.0054,
+    "high": 4211.0054,
     "low": 4134.4053
    },
    "poprzednie_zamkniecie": 4135.3052,
@@ -194,5 +194,5 @@
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-11T05:55:51Z"
+ "zaktualizowano_utc": "2026-10-11T06:14:35Z"
 }
