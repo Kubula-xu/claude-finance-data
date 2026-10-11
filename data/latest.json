@@ -89,13 +89,13 @@
    "opis": "Kawa Arabica futures (ICE US)",
    "cena": 285.149994,
    "czas_notowania_utc": "2026-10-09T17:15:00Z",
-   "poprzednie_zamkniecie": 289.049988,
-   "zmiana_pct": -1.349,
+   "poprzednie_zamkniecie": 292.700012,
+   "zmiana_pct": -2.579,
    "dzien": {
-    "data": "2026-10-09",
-    "open": 289.049988,
-    "high": 291.799988,
-    "low": 284.25
+    "data": "2026-10-08",
+    "open": 293.899994,
+    "high": 294.899994,
+    "low": 286.0
    }
   },
   "cocoa": {
@@ -194,5 +194,5 @@
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-11T00:15:31Z"
+ "zaktualizowano_utc": "2026-10-11T00:51:50Z"
 }
