@@ -95,7 +95,7 @@
     "data": "2026-10-09",
     "open": 289.049988,
     "high": 291.799988,
-    "low": 284.299988
+    "low": 284.25
    }
   },
   "cocoa": {
@@ -108,7 +108,7 @@
    "dzien": {
     "data": "2026-10-09",
     "open": 5604.0,
-    "high": 5710.0,
+    "high": 5712.0,
     "low": 5563.0
    }
   },
@@ -194,5 +194,5 @@
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-11T16:48:11Z"
+ "zaktualizowano_utc": "2026-10-11T17:09:43Z"
 }
