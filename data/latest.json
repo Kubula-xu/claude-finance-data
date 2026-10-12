@@ -18,7 +18,7 @@
    "symbol": "^NDX",
    "opis": "Nasdaq 100 indeks (kasowy, ~US100 CFD)",
    "cena": 30664.697,
-   "czas_notowania_utc": "2026-10-12T21:00:00Z",
+   "czas_notowania_utc": "2026-10-12T21:15:00Z",
    "poprzednie_zamkniecie": 30883.150391,
    "zmiana_pct": -0.707,
    "dzien": {
@@ -80,7 +80,7 @@
    "dzien": {
     "data": "2026-10-12",
     "open": 3.17,
-    "high": 3.204,
+    "high": 3.202,
     "low": 3.092
    }
   },
@@ -89,8 +89,8 @@
    "opis": "Kawa Arabica futures (ICE US)",
    "cena": 289.899994,
    "czas_notowania_utc": "2026-10-12T17:15:00Z",
-   "poprzednie_zamkniecie": 289.049988,
-   "zmiana_pct": 0.294,
+   "poprzednie_zamkniecie": 286.950012,
+   "zmiana_pct": 1.028,
    "dzien": {
     "data": "2026-10-12",
     "open": 287.5,
@@ -115,10 +115,10 @@
   "dxy": {
    "symbol": "DX-Y.NYB",
    "opis": "Indeks dolara DXY",
-   "cena": 102.582001,
-   "czas_notowania_utc": "2026-10-12T21:00:00Z",
+   "cena": 102.573997,
+   "czas_notowania_utc": "2026-10-12T21:15:00Z",
    "poprzednie_zamkniecie": 102.209999,
-   "zmiana_pct": 0.364,
+   "zmiana_pct": 0.356,
    "dzien": {
     "data": "2026-10-12",
     "open": 102.303001,
@@ -162,16 +162,16 @@
    "ask": 4170.802,
    "czas_notowania_utc": "2026-10-12T21:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -23.875,
+   "baza_vs_futures": -24.605,
    "futures": "GC=F",
    "dzien": {
     "data": "2026-10-12",
-    "open": 4196.9248,
-    "high": 4218.4248,
-    "low": 4154.225
+    "open": 4196.1948,
+    "high": 4217.6948,
+    "low": 4153.4951
    },
-   "poprzednie_zamkniecie": 4192.4248,
-   "zmiana_pct": -0.522
+   "poprzednie_zamkniecie": 4191.6948,
+   "zmiana_pct": -0.504
   },
   "xagusd": {
    "symbol": "XAG/USD spot",
@@ -181,18 +181,18 @@
    "ask": 60.2915,
    "czas_notowania_utc": "2026-10-12T21:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -0.255,
+   "baza_vs_futures": -0.261,
    "futures": "SI=F",
    "dzien": {
     "data": "2026-10-12",
-    "open": 61.0347,
-    "high": 61.4896,
-    "low": 60.1397
+    "open": 61.0292,
+    "high": 61.4841,
+    "low": 60.1342
    },
-   "poprzednie_zamkniecie": 60.4146,
-   "zmiana_pct": -0.246
+   "poprzednie_zamkniecie": 60.4091,
+   "zmiana_pct": -0.237
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-12T21:10:36Z"
+ "zaktualizowano_utc": "2026-10-12T21:29:38Z"
 }
