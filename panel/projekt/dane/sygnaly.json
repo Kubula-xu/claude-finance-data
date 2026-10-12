@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-09T12:55:00Z",
+ "aktualizacja": "2026-10-12T06:50:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -13,10 +13,10 @@
    "agenci": {
     "technika": [
      "LONG",
-     3
+     2
     ],
     "makro": [
-     "SHORT",
+     "NEUTRAL",
      2
     ],
     "sentyment": [
@@ -27,7 +27,7 @@
    "final": {
     "kierunek": "BRAK",
     "pewnosc": 1,
-    "powod": "Technika long (+0,8%, nad zamknięciem 8.10), makro short przed UMich 16:00. Słaby konsensus (+1,0 z wagami), piątek przed weekendem z Iranem: bez pozycji."
+    "powod": "Columbus Day (rynek obligacji USA zamknięty, niska płynność), CPI w środę. Słaby konsensus."
    },
    "setup": {
     "kierunek": "LONG",
@@ -37,7 +37,7 @@
     "tp1": 32550,
     "tp2": 33300,
     "ryzyko_pct": 0.5,
-    "status": "brak zlecenia (9.10 rano)",
+    "status": "brak zlecenia (12.10 rano)",
     "uwagi": "BE przy 31 800. Jeśli przed CPI 14.10 pozycja nie jest na BE, zamknąć połowę."
    },
    "kontrakt": {
@@ -57,11 +57,11 @@
    "atr": 82.6,
    "agenci": {
     "technika": [
-     "LONG",
-     3
+     "NEUTRAL",
+     2
     ],
     "makro": [
-     "LONG",
+     "NEUTRAL",
      2
     ],
     "sentyment": [
@@ -70,9 +70,9 @@
     ]
    },
    "final": {
-    "kierunek": "LONG",
-    "pewnosc": 3,
-    "powod": "Nocne wybicie spot nad szczyt 8.10 (4 147) do 4 210 przy słabszym USD i niższych rentownościach. Kupno z cofnięcia do strefy azjatyckiej konsolidacji 4 176–4 183, nie w pogoni."
+    "kierunek": "BRAK",
+    "pewnosc": 1,
+    "powod": "Spot w zakresie 4 176–4 216 po odrzuceniu szczytu w nocy. Bez przewagi przed CPI (śr. 14:30)."
    },
    "setup": {
     "kierunek": "LONG",
@@ -83,7 +83,7 @@
     "tp2": 4232,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "otwarta (wejście 9.10 ok. 14:15 PL)",
+    "status": "brak zlecenia (12.10 rano)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Buy limit 4 180 spot (cofnięcie do strefy 4 176–4 183). SL 1,5× ATR H1 (14), TP1 przed szczytem nocy 4 210. Bez nowych wejść 15:00–16:30 (Schmid, UMich). Zamknąć najpóźniej 21:00 PL (piątek, ryzyko nagłówków o Iranie). Po +1R SL na BE."
@@ -95,8 +95,8 @@
     "jedn_cfd": "oz"
    },
    "ostatnia_cena": {
-    "cena": 4182.59,
-    "czas": "2026-10-09 14:39 PL",
+    "cena": 4183.09,
+    "czas": "2026-10-12 08:17 PL",
     "zrodlo": "XAU/USD spot, Swissquote (repo claude-finance-data)"
    }
   },
@@ -125,7 +125,7 @@
    "final": {
     "kierunek": "BRAK",
     "pewnosc": 1,
-    "powod": "Odbicie z dna 58,5 do 60,3, ale bez potwierdzenia i z jastrzębim Fedem w tle."
+    "powod": "Wyższe dołki nad 60,6, ale tylko jeden słaby głos."
    },
    "setup": {
     "kierunek": "SHORT",
@@ -135,7 +135,7 @@
     "tp1": 58.1,
     "tp2": 56.0,
     "ryzyko_pct": null,
-    "status": "brak zlecenia (9.10 rano)",
+    "status": "brak zlecenia (12.10 rano)",
     "uwagi": "Ponowna ocena, jeśli makro lub sentyment przejdą na SHORT."
    },
    "kontrakt": {
@@ -163,14 +163,14 @@
      2
     ],
     "sentyment": [
-     "LONG",
+     "NEUTRAL",
      2
     ]
    },
    "final": {
     "kierunek": "BRAK",
     "pewnosc": 1,
-    "powod": "Nocny spadek pod 91 (niższe szczyty) przeciw tezie Iran/huragan. Sprzeczne głosy, bez pozycji przed weekendem."
+    "powod": "Szeroki zakres po weekendzie (89,6–92,6), sprzeczne głosy. Nagłówków z weekendu nie potwierdziłem."
    },
    "setup": {
     "kierunek": "LONG",
@@ -181,7 +181,7 @@
     "tp2": 93.45,
     "ryzyko_pct": 0.5,
     "koszt": 0.06,
-    "status": "brak zlecenia (9.10 rano)",
+    "status": "brak zlecenia (12.10 rano)",
     "uwagi": "Poziomy z kontraktu futures (CL). Cena CFD u brokera może się różnić: przesuń wejście, SL i TP o tę różnicę. Wejście po odrzuceniu na M15, zamknąć do 22:30 PL.",
     "ksiega": "intraday"
    },
@@ -217,7 +217,7 @@
    "final": {
     "kierunek": "BRAK",
     "pewnosc": 1,
-    "powod": "Zakres 3,13–3,15, okno NYMEX od 15:00."
+    "powod": "Zakres 3,15–3,22, okno NYMEX od 15:00."
    },
    "setup": {
     "kierunek": "LONG",
@@ -227,7 +227,7 @@
     "tp1": 3.44,
     "tp2": 3.59,
     "ryzyko_pct": null,
-    "status": "brak zlecenia (9.10 rano)",
+    "status": "brak zlecenia (12.10 rano)",
     "uwagi": "Ponowna ocena po zamknięciu tygodnia nad 3,395."
    },
    "kontrakt": {
