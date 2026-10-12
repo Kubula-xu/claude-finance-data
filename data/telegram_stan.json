@@ -166,28 +166,35 @@
    "zdarzenia": []
   },
   "16": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "wygasło",
+   "zdarzenia": [
+    "zlecenie niewypełnione, termin minął"
+   ]
   },
   "13": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "wygasło",
+   "zdarzenia": [
+    "zlecenie niewypełnione, termin minął"
+   ]
   },
   "14": {
-   "stan": "otwarta",
+   "stan": "zamknięta",
    "zdarzenia": [
-    "12.10 14:15 PL wejście 4166"
+    "12.10 14:15 PL wejście 4166",
+    "22:30 PL zamknięcie dnia po 4171.48"
    ]
   },
   "15": {
-   "stan": "otwarta",
+   "stan": "zamknięta",
    "zdarzenia": [
-    "12.10 17:00 PL wejście 3.165"
+    "12.10 17:00 PL wejście 3.165",
+    "22:30 PL zamknięcie dnia po 3.17"
    ]
   }
  },
  "podsumowanie": {
-  "rano": "2026-10-12"
+  "rano": "2026-10-12",
+  "wieczor": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-12T20:16:07Z"
+ "zaktualizowano_utc": "2026-10-12T20:46:31Z"
 }
