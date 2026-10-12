@@ -1,25 +1,25 @@
 {
  "sygnaly": {
   "nq": {
-   "kierunek": "BRAK",
+   "kierunek": "LONG",
    "pewnosc": 1,
    "setup": [
     "LONG",
-    31050,
-    30300,
-    32550,
-    33300
+    30955,
+    30800,
+    31187,
+    31342
    ]
   },
   "gold": {
-   "kierunek": "BRAK",
+   "kierunek": "LONG",
    "pewnosc": 1,
    "setup": [
     "LONG",
-    4180,
-    4159,
-    4209,
-    4232
+    4148,
+    4123,
+    4185.5,
+    4210.5
    ]
   },
   "silver": {
@@ -45,14 +45,14 @@
    ]
   },
   "ng": {
-   "kierunek": "BRAK",
+   "kierunek": "SHORT",
    "pewnosc": 1,
    "setup": [
-    "LONG",
-    3.14,
-    2.99,
-    3.44,
-    3.59
+    "SHORT",
+    3.19,
+    3.262,
+    3.082,
+    3.01
    ]
   },
   "coffee": {
@@ -138,6 +138,21 @@
    "status": "zamknięta ręcznie (piątek, 20:55 PL)",
    "sl": "4159",
    "tp": "4209 / 4232"
+  },
+  "13": {
+   "status": "oczekuje (limit, intraday 12.10, okno 15:45–21:30)",
+   "sl": "30800",
+   "tp": "31187 / 31342"
+  },
+  "14": {
+   "status": "oczekuje (limit, intraday 12.10, okno 09:00–12:00 i 14:00–20:00)",
+   "sl": "4123",
+   "tp": "4185,5 / 4210,5"
+  },
+  "15": {
+   "status": "oczekuje (limit, intraday 12.10, okno 15:00–20:30)",
+   "sl": "3,262",
+   "tp": "3,082 / 3,010"
   }
  },
  "automat": {
@@ -153,5 +168,5 @@
  "podsumowanie": {
   "rano": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-12T09:35:32Z"
+ "zaktualizowano_utc": "2026-10-12T09:44:38Z"
 }
