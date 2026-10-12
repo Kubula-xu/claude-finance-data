@@ -59,7 +59,7 @@
    "atr": 82.6,
    "agenci": {
     "technika": [
-     "SHORT",
+     "NEUTRAL",
      2
     ],
     "makro": [
@@ -72,9 +72,9 @@
     ]
    },
    "final": {
-    "kierunek": "BRAK",
+    "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Spot zszedł pod dół zakresu 4 176 (4 171), ale tylko technika za shortem, przed CPI w środę."
+    "powod": "Gra w zakresie dnia: long z dołu przy S1/L4, ryzyko 0,25% (pozycja 14)."
    },
    "setup": {
     "kierunek": "LONG",
@@ -183,7 +183,7 @@
     "tp2": 95.25,
     "ryzyko_pct": 0.25,
     "koszt": 0.04,
-    "status": "oczekuje (limit 12.10, okno 15:00–20:30 PL)",
+    "status": "oczekuje (limit 12.10, okno 15:00–20:30 PL, poz. 16)",
     "ksiega": "intraday",
     "uwagi": "Buy limit 92,40 (retest wybicia). SL 1,5× ATR H1 (0,76). Po +1R SL na BE. Zamknąć do 22:25 PL."
    },
