@@ -115,10 +115,10 @@
   "dxy": {
    "symbol": "DX-Y.NYB",
    "opis": "Indeks dolara DXY",
-   "cena": 102.573997,
-   "czas_notowania_utc": "2026-10-12T21:15:00Z",
+   "cena": 102.575996,
+   "czas_notowania_utc": "2026-10-12T21:30:00Z",
    "poprzednie_zamkniecie": 102.209999,
-   "zmiana_pct": 0.356,
+   "zmiana_pct": 0.358,
    "dzien": {
     "data": "2026-10-12",
     "open": 102.303001,
@@ -162,16 +162,16 @@
    "ask": 4170.802,
    "czas_notowania_utc": "2026-10-12T21:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -24.605,
+   "baza_vs_futures": -24.745,
    "futures": "GC=F",
    "dzien": {
     "data": "2026-10-12",
-    "open": 4196.1948,
-    "high": 4217.6948,
-    "low": 4153.4951
+    "open": 4196.0548,
+    "high": 4217.5548,
+    "low": 4153.355
    },
-   "poprzednie_zamkniecie": 4191.6948,
-   "zmiana_pct": -0.504
+   "poprzednie_zamkniecie": 4191.5548,
+   "zmiana_pct": -0.501
   },
   "xagusd": {
    "symbol": "XAG/USD spot",
@@ -181,18 +181,18 @@
    "ask": 60.2915,
    "czas_notowania_utc": "2026-10-12T21:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -0.261,
+   "baza_vs_futures": -0.268,
    "futures": "SI=F",
    "dzien": {
     "data": "2026-10-12",
-    "open": 61.0292,
-    "high": 61.4841,
-    "low": 60.1342
+    "open": 61.0216,
+    "high": 61.4766,
+    "low": 60.1266
    },
-   "poprzednie_zamkniecie": 60.4091,
-   "zmiana_pct": -0.237
+   "poprzednie_zamkniecie": 60.4016,
+   "zmiana_pct": -0.224
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-12T21:29:38Z"
+ "zaktualizowano_utc": "2026-10-12T21:49:18Z"
 }
