@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-12T10:20:00Z",
+ "aktualizacja": "2026-10-12T12:55:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -59,7 +59,7 @@
    "atr": 82.6,
    "agenci": {
     "technika": [
-     "NEUTRAL",
+     "SHORT",
      2
     ],
     "makro": [
@@ -72,9 +72,9 @@
     ]
    },
    "final": {
-    "kierunek": "LONG",
+    "kierunek": "BRAK",
     "pewnosc": 1,
-    "powod": "Gra w zakresie dnia od S1/L4, agenci neutralni, ryzyko 0,25%."
+    "powod": "Spot zszedł pod dół zakresu 4 176 (4 171), ale tylko technika za shortem, przed CPI w środę."
    },
    "setup": {
     "kierunek": "LONG",
@@ -97,8 +97,8 @@
     "jedn_cfd": "oz"
    },
    "ostatnia_cena": {
-    "cena": 4183.09,
-    "czas": "2026-10-12 08:17 PL",
+    "cena": 4170.96,
+    "czas": "2026-10-12 14:20 PL",
     "zrodlo": "XAU/USD spot, Swissquote (repo claude-finance-data)"
    }
   },
@@ -157,7 +157,7 @@
    "atr": 4.5,
    "agenci": {
     "technika": [
-     "SHORT",
+     "LONG",
      2
     ],
     "makro": [
@@ -170,22 +170,22 @@
     ]
    },
    "final": {
-    "kierunek": "BRAK",
-    "pewnosc": 1,
-    "powod": "Szeroki zakres po weekendzie (89,6–92,6), sprzeczne głosy. Nagłówków z weekendu nie potwierdziłem."
+    "kierunek": "LONG",
+    "pewnosc": 2,
+    "powod": "Wybicie nad piątkowy szczyt 92,2 i weekendowy 92,6 do 93,3. Kupno z retestu 92,40, nie w pogoni."
    },
    "setup": {
     "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 90.4,
-    "sl": 89.0,
-    "tp1": 92.65,
-    "tp2": 93.45,
-    "ryzyko_pct": 0.5,
-    "koszt": 0.06,
-    "status": "brak zlecenia (12.10 rano)",
-    "uwagi": "Poziomy z kontraktu futures (CL). Cena CFD u brokera może się różnić: przesuń wejście, SL i TP o tę różnicę. Wejście po odrzuceniu na M15, zamknąć do 22:30 PL.",
-    "ksiega": "intraday"
+    "wejscie": 92.4,
+    "sl": 91.25,
+    "tp1": 94.1,
+    "tp2": 95.25,
+    "ryzyko_pct": 0.25,
+    "koszt": 0.04,
+    "status": "oczekuje (limit 12.10, okno 15:00–20:30 PL)",
+    "ksiega": "intraday",
+    "uwagi": "Buy limit 92,40 (retest wybicia). SL 1,5× ATR H1 (0,76). Po +1R SL na BE. Zamknąć do 22:25 PL."
    },
    "kontrakt": {
     "nazwa": "WTI Crude (CL), 1 000 bbl",
