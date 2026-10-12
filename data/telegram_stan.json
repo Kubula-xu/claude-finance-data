@@ -12,8 +12,8 @@
    ]
   },
   "gold": {
-   "kierunek": "LONG",
-   "pewnosc": 3,
+   "kierunek": "BRAK",
+   "pewnosc": 1,
    "setup": [
     "LONG",
     4180,
@@ -153,5 +153,5 @@
  "podsumowanie": {
   "rano": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-12T06:17:44Z"
+ "zaktualizowano_utc": "2026-10-12T06:42:15Z"
 }
