@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-12T09:50:00Z",
+ "aktualizacja": "2026-10-12T10:20:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -32,10 +32,10 @@
    "setup": {
     "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 30955,
-    "sl": 30800,
-    "tp1": 31187,
-    "tp2": 31342,
+    "wejscie": 31025,
+    "sl": 30870,
+    "tp1": 31257,
+    "tp2": 31412,
     "ryzyko_pct": 0.25,
     "koszt": 1.0,
     "status": "oczekuje (limit, intraday 12.10, poz. 13)",
@@ -79,10 +79,10 @@
    "setup": {
     "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 4148,
-    "sl": 4123,
-    "tp1": 4185.5,
-    "tp2": 4210.5,
+    "wejscie": 4166,
+    "sl": 4141,
+    "tp1": 4203.5,
+    "tp2": 4228.5,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
     "status": "oczekuje (limit, intraday 12.10, poz. 14)",
@@ -224,10 +224,10 @@
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 3.19,
-    "sl": 3.262,
-    "tp1": 3.082,
-    "tp2": 3.01,
+    "wejscie": 3.165,
+    "sl": 3.237,
+    "tp1": 3.057,
+    "tp2": 2.985,
     "ryzyko_pct": 0.25,
     "koszt": 0.005,
     "status": "oczekuje (limit, intraday 12.10, poz. 15)",
@@ -271,13 +271,13 @@
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 294.0,
-    "sl": 305.0,
+    "wejscie": 292.0,
+    "sl": 303.5,
     "tp1": 272.0,
     "tp2": 270.0,
     "ryzyko_pct": 0.5,
     "koszt": 0.8,
-    "status": "oczekuje (limit do 16.10, swing)",
+    "status": "oczekuje (limit do 16.10, swing; wejście 292 od 12.10)",
     "ksiega": "swing",
     "uwagi": "ATR z danych do 2.10, przed wejściem przeliczyć."
    },
@@ -311,9 +311,9 @@
     ]
    },
    "final": {
-    "kierunek": "LONG",
+    "kierunek": "BRAK",
     "pewnosc": 1,
-    "powod": "Księga swing (1–2 tygodnie): słaby long, tylko technika za. Wejście przy 100 DMA, połowa ryzyka."
+    "powod": "Limit 5 290 anulowany: cena uciekła, żaden agent nie gra long, przemiał 15.10."
    },
    "setup": {
     "kierunek": "LONG",
@@ -324,7 +324,7 @@
     "tp2": 6000,
     "ryzyko_pct": 0.25,
     "koszt": 30,
-    "status": "oczekuje (limit do 16.10, swing)",
+    "status": "anulowana 12.10 (cena 5 750, 1,6× ATR D1 od limitu)",
     "ksiega": "swing",
     "uwagi": "Przed przemiałem 15.10: SL na BE (5 620) albo połowa pozycji."
    },
