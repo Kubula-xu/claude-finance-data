@@ -180,12 +180,14 @@
    ]
   },
   "15": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "otwarta",
+   "zdarzenia": [
+    "12.10 17:00 PL wejście 3.165"
+   ]
   }
  },
  "podsumowanie": {
   "rano": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-12T15:04:17Z"
+ "zaktualizowano_utc": "2026-10-12T15:33:25Z"
 }

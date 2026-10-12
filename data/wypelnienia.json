@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-12T15:04:17Z",
+ "zaktualizowano_utc": "2026-10-12T15:33:24Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "8": {
@@ -50,10 +50,13 @@
    "instrument": "Gaz ziemny",
    "kierunek": -1,
    "klucz_cen": "ng",
-   "zdarzenia": [],
-   "stan": "oczekuje",
+   "zdarzenia": [
+    "12.10 17:00 PL wejście 3.165"
+   ],
+   "stan": "otwarta",
    "pozostalo": 1.0,
-   "sl_teraz": 3.237
+   "sl_teraz": 3.237,
+   "czas_wejscia": "2026-10-12T15:00Z"
   }
  }
 }
