@@ -12,7 +12,7 @@
    ]
   },
   "gold": {
-   "kierunek": "LONG",
+   "kierunek": "BRAK",
    "pewnosc": 1,
    "setup": [
     "LONG",
@@ -34,14 +34,14 @@
    ]
   },
   "wti": {
-   "kierunek": "BRAK",
-   "pewnosc": 1,
+   "kierunek": "LONG",
+   "pewnosc": 2,
    "setup": [
     "LONG",
-    90.4,
-    89.0,
-    92.65,
-    93.45
+    92.4,
+    91.25,
+    94.1,
+    95.25
    ]
   },
   "ng": {
@@ -176,5 +176,5 @@
  "podsumowanie": {
   "rano": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-12T12:20:24Z"
+ "zaktualizowano_utc": "2026-10-12T12:52:34Z"
 }
