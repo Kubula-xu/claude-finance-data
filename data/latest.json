@@ -3,10 +3,10 @@
   "nq": {
    "symbol": "NQ=F",
    "opis": "Nasdaq 100 E-mini futures (CME)",
-   "cena": 31228.75,
-   "czas_notowania_utc": "2026-10-12T05:30:00Z",
+   "cena": 31170.75,
+   "czas_notowania_utc": "2026-10-12T06:00:00Z",
    "poprzednie_zamkniecie": 31108.75,
-   "zmiana_pct": 0.386,
+   "zmiana_pct": 0.199,
    "dzien": {
     "data": "2026-10-12",
     "open": 31145.5,
@@ -31,10 +31,10 @@
   "gold": {
    "symbol": "GC=F",
    "opis": "Złoto futures (COMEX)",
-   "cena": 4210.0,
-   "czas_notowania_utc": "2026-10-12T05:30:00Z",
+   "cena": 4209.899902,
+   "czas_notowania_utc": "2026-10-12T06:00:00Z",
    "poprzednie_zamkniecie": 4216.299805,
-   "zmiana_pct": -0.149,
+   "zmiana_pct": -0.152,
    "dzien": {
     "data": "2026-10-12",
     "open": 4220.799805,
@@ -45,10 +45,10 @@
   "silver": {
    "symbol": "SI=F",
    "opis": "Srebro futures (COMEX)",
-   "cena": 61.189999,
-   "czas_notowania_utc": "2026-10-12T05:30:00Z",
+   "cena": 61.110001,
+   "czas_notowania_utc": "2026-10-12T06:00:00Z",
    "poprzednie_zamkniecie": 60.669998,
-   "zmiana_pct": 0.857,
+   "zmiana_pct": 0.725,
    "dzien": {
     "data": "2026-10-12",
     "open": 61.290001,
@@ -59,10 +59,10 @@
   "wti": {
    "symbol": "CL=F",
    "opis": "Ropa WTI futures (NYMEX)",
-   "cena": 90.620003,
-   "czas_notowania_utc": "2026-10-12T05:30:00Z",
+   "cena": 90.809998,
+   "czas_notowania_utc": "2026-10-12T06:00:00Z",
    "poprzednie_zamkniecie": 91.849998,
-   "zmiana_pct": -1.339,
+   "zmiana_pct": -1.132,
    "dzien": {
     "data": "2026-10-12",
     "open": 91.830002,
@@ -73,10 +73,10 @@
   "ng": {
    "symbol": "NG=F",
    "opis": "Gaz ziemny futures (NYMEX)",
-   "cena": 3.168,
-   "czas_notowania_utc": "2026-10-12T05:30:00Z",
+   "cena": 3.176,
+   "czas_notowania_utc": "2026-10-12T06:00:00Z",
    "poprzednie_zamkniecie": 3.22,
-   "zmiana_pct": -1.615,
+   "zmiana_pct": -1.366,
    "dzien": {
     "data": "2026-10-12",
     "open": 3.17,
@@ -115,10 +115,10 @@
   "dxy": {
    "symbol": "DX-Y.NYB",
    "opis": "Indeks dolara DXY",
-   "cena": 102.232002,
-   "czas_notowania_utc": "2026-10-12T05:30:00Z",
+   "cena": 102.240997,
+   "czas_notowania_utc": "2026-10-12T06:00:00Z",
    "poprzednie_zamkniecie": 102.209999,
-   "zmiana_pct": 0.022,
+   "zmiana_pct": 0.03,
    "dzien": {
     "data": "2026-10-12",
     "open": 102.303001,
@@ -157,42 +157,42 @@
   "xauusd": {
    "symbol": "XAU/USD spot",
    "opis": "Złoto spot XAU/USD (jak XAUUSD w TradingView)",
-   "cena": 4187.775,
-   "bid": 4187.523,
-   "ask": 4188.027,
-   "czas_notowania_utc": "2026-10-12T05:46:45Z",
+   "cena": 4183.085,
+   "bid": 4182.833,
+   "ask": 4183.337,
+   "czas_notowania_utc": "2026-10-12T06:17:41Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -25.487,
+   "baza_vs_futures": -26.157,
    "futures": "GC=F",
    "dzien": {
     "data": "2026-10-12",
-    "open": 4195.3124,
-    "high": 4216.8124,
-    "low": 4177.4125
+    "open": 4194.6424,
+    "high": 4216.1424,
+    "low": 4176.7425
    },
-   "poprzednie_zamkniecie": 4190.8124,
-   "zmiana_pct": -0.072
+   "poprzednie_zamkniecie": 4190.1424,
+   "zmiana_pct": -0.168
   },
   "xagusd": {
    "symbol": "XAG/USD spot",
    "opis": "Srebro spot XAG/USD (jak XAGUSD w TradingView)",
-   "cena": 60.9331,
-   "bid": 60.9106,
-   "ask": 60.9555,
-   "czas_notowania_utc": "2026-10-12T05:46:45Z",
+   "cena": 60.8051,
+   "bid": 60.7841,
+   "ask": 60.826,
+   "czas_notowania_utc": "2026-10-12T06:17:43Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -0.314,
+   "baza_vs_futures": -0.307,
    "futures": "SI=F",
    "dzien": {
     "data": "2026-10-12",
-    "open": 60.9764,
-    "high": 61.4313,
-    "low": 60.7013
+    "open": 60.9826,
+    "high": 61.4376,
+    "low": 60.7076
    },
-   "poprzednie_zamkniecie": 60.3563,
-   "zmiana_pct": 0.956
+   "poprzednie_zamkniecie": 60.3626,
+   "zmiana_pct": 0.733
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-12T05:46:41Z"
+ "zaktualizowano_utc": "2026-10-12T06:17:38Z"
 }
