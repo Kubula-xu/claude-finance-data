@@ -5,10 +5,10 @@
    "pewnosc": 1,
    "setup": [
     "LONG",
-    30955,
-    30800,
-    31187,
-    31342
+    31025,
+    30870,
+    31257,
+    31412
    ]
   },
   "gold": {
@@ -16,10 +16,10 @@
    "pewnosc": 1,
    "setup": [
     "LONG",
-    4148,
-    4123,
-    4185.5,
-    4210.5
+    4166,
+    4141,
+    4203.5,
+    4228.5
    ]
   },
   "silver": {
@@ -49,10 +49,10 @@
    "pewnosc": 1,
    "setup": [
     "SHORT",
-    3.19,
-    3.262,
-    3.082,
-    3.01
+    3.165,
+    3.237,
+    3.057,
+    2.985
    ]
   },
   "coffee": {
@@ -60,14 +60,14 @@
    "pewnosc": 3,
    "setup": [
     "SHORT",
-    294.0,
-    305.0,
+    292.0,
+    303.5,
     272.0,
     270.0
    ]
   },
   "cocoa": {
-   "kierunek": "LONG",
+   "kierunek": "BRAK",
    "pewnosc": 1,
    "setup": [
     "LONG",
@@ -116,11 +116,11 @@
   },
   "8": {
    "status": "oczekuje (limit do 16.10, swing)",
-   "sl": "305,00",
+   "sl": "303,50",
    "tp": "272,00 / 270,00"
   },
   "9": {
-   "status": "oczekuje (limit do 16.10, swing)",
+   "status": "anulowana (12.10, cena 5 750 uciekła o 1,6× ATR D1, brak głosu za)",
    "sl": "4960",
    "tp": "5900 / 6000"
   },
@@ -141,18 +141,18 @@
   },
   "13": {
    "status": "oczekuje (limit, intraday 12.10, okno 15:45–21:30)",
-   "sl": "30800",
-   "tp": "31187 / 31342"
+   "sl": "30870",
+   "tp": "31257 / 31412"
   },
   "14": {
    "status": "oczekuje (limit, intraday 12.10, okno 09:00–12:00 i 14:00–20:00)",
-   "sl": "4123",
-   "tp": "4185,5 / 4210,5"
+   "sl": "4141",
+   "tp": "4203,5 / 4228,5"
   },
   "15": {
    "status": "oczekuje (limit, intraday 12.10, okno 15:00–20:30)",
-   "sl": "3,262",
-   "tp": "3,082 / 3,010"
+   "sl": "3,237",
+   "tp": "3,057 / 2,985"
   }
  },
  "automat": {
@@ -180,5 +180,5 @@
  "podsumowanie": {
   "rano": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-12T10:01:06Z"
+ "zaktualizowano_utc": "2026-10-12T10:18:53Z"
 }
