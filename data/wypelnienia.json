@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-12T22:30:09Z",
+ "zaktualizowano_utc": "2026-10-12T22:49:42Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "8": {
@@ -43,14 +43,14 @@
    "klucz_cen": "xauusd",
    "zdarzenia": [
     "12.10 14:15 PL wejście 4166",
-    "22:30 PL zamknięcie dnia po 4171.22"
+    "22:30 PL zamknięcie dnia po 4170.47"
    ],
    "stan": "zamknięta",
    "pozostalo": 0,
    "sl_teraz": 4141.0,
    "czas_wejscia": "2026-10-12T12:15Z",
-   "cena_wyjscia_srednia": 4171.2174,
-   "wynik_pkt_zrealizowany": 5.2174
+   "cena_wyjscia_srednia": 4170.4724,
+   "wynik_pkt_zrealizowany": 4.4724
   },
   "15": {
    "nr": "15",
