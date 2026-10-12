@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-12T06:50:00Z",
+ "aktualizacja": "2026-10-12T09:50:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -25,20 +25,22 @@
     ]
    },
    "final": {
-    "kierunek": "BRAK",
+    "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Columbus Day (rynek obligacji USA zamknięty, niska płynność), CPI w środę. Słaby konsensus."
+    "powod": "Słaby long z zakresu dnia (tylko technika za), ryzyko 0,25%. Columbus Day, CPI w środę."
    },
    "setup": {
     "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 31050,
-    "sl": 30300,
-    "tp1": 32550,
-    "tp2": 33300,
-    "ryzyko_pct": 0.5,
-    "status": "brak zlecenia (12.10 rano)",
-    "uwagi": "BE przy 31 800. Jeśli przed CPI 14.10 pozycja nie jest na BE, zamknąć połowę."
+    "wejscie": 30955,
+    "sl": 30800,
+    "tp1": 31187,
+    "tp2": 31342,
+    "ryzyko_pct": 0.25,
+    "koszt": 1.0,
+    "status": "oczekuje (limit, intraday 12.10, poz. 13)",
+    "ksiega": "intraday",
+    "uwagi": "Ceny NQ futures; US100 CFD ok. 220 pkt niżej. Okno 15:45–21:30, zamknąć do 22:30 PL. Po +1R SL na BE."
    },
    "kontrakt": {
     "nazwa": "E-mini Nasdaq 100 (NQ)",
@@ -70,23 +72,23 @@
     ]
    },
    "final": {
-    "kierunek": "BRAK",
+    "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Spot w zakresie 4 176–4 216 po odrzuceniu szczytu w nocy. Bez przewagi przed CPI (śr. 14:30)."
+    "powod": "Gra w zakresie dnia od S1/L4, agenci neutralni, ryzyko 0,25%."
    },
    "setup": {
     "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 4180,
-    "sl": 4159,
-    "tp1": 4209,
-    "tp2": 4232,
+    "wejscie": 4148,
+    "sl": 4123,
+    "tp1": 4185.5,
+    "tp2": 4210.5,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "brak zlecenia (12.10 rano)",
+    "status": "oczekuje (limit, intraday 12.10, poz. 14)",
     "ksiega": "intraday",
     "ceny": "spot",
-    "uwagi": "Buy limit 4 180 spot (cofnięcie do strefy 4 176–4 183). SL 1,5× ATR H1 (14), TP1 przed szczytem nocy 4 210. Bez nowych wejść 15:00–16:30 (Schmid, UMich). Zamknąć najpóźniej 21:00 PL (piątek, ryzyko nagłówków o Iranie). Po +1R SL na BE."
+    "uwagi": "Buy limit 4 148 spot (S1/L4), SL pod piątkowym dołkiem 4 131. Okna 09:00–12:00 i 14:00–20:00, zamknąć do 22:30 PL. Po +1R SL na BE."
    },
    "kontrakt": {
     "nazwa": "Gold (GC), 100 oz",
@@ -215,20 +217,22 @@
     ]
    },
    "final": {
-    "kierunek": "BRAK",
+    "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Zakres 3,15–3,22, okno NYMEX od 15:00."
+    "powod": "Short z odbicia, zgodnie z biasem makro, ryzyko 0,25%."
    },
    "setup": {
-    "kierunek": "LONG",
+    "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 3.14,
-    "sl": 2.99,
-    "tp1": 3.44,
-    "tp2": 3.59,
-    "ryzyko_pct": null,
-    "status": "brak zlecenia (12.10 rano)",
-    "uwagi": "Ponowna ocena po zamknięciu tygodnia nad 3,395."
+    "wejscie": 3.19,
+    "sl": 3.262,
+    "tp1": 3.082,
+    "tp2": 3.01,
+    "ryzyko_pct": 0.25,
+    "koszt": 0.005,
+    "status": "oczekuje (limit, intraday 12.10, poz. 15)",
+    "ksiega": "intraday",
+    "uwagi": "Sell limit przy L3/P 3,183–3,193, z biasem makro SHORT. Okno 15:00–20:30, zamknąć do 22:30 PL."
    },
    "kontrakt": {
     "nazwa": "Henry Hub (NG), 10 000 MMBtu",
