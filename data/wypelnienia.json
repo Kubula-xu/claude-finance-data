@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-12T10:01:06Z",
+ "zaktualizowano_utc": "2026-10-12T10:34:04Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "8": {
@@ -10,17 +10,7 @@
    "zdarzenia": [],
    "stan": "oczekuje",
    "pozostalo": 1.0,
-   "sl_teraz": 305.0
-  },
-  "9": {
-   "nr": "9",
-   "instrument": "Kakao US",
-   "kierunek": 1,
-   "klucz_cen": "cocoa",
-   "zdarzenia": [],
-   "stan": "oczekuje",
-   "pozostalo": 1.0,
-   "sl_teraz": 4960.0
+   "sl_teraz": 303.5
   },
   "13": {
    "nr": "13",
@@ -30,7 +20,7 @@
    "zdarzenia": [],
    "stan": "oczekuje",
    "pozostalo": 1.0,
-   "sl_teraz": 30800.0
+   "sl_teraz": 30870.0
   },
   "14": {
    "nr": "14",
@@ -40,7 +30,7 @@
    "zdarzenia": [],
    "stan": "oczekuje",
    "pozostalo": 1.0,
-   "sl_teraz": 4123.0
+   "sl_teraz": 4141.0
   },
   "15": {
    "nr": "15",
@@ -50,7 +40,7 @@
    "zdarzenia": [],
    "stan": "oczekuje",
    "pozostalo": 1.0,
-   "sl_teraz": 3.262
+   "sl_teraz": 3.237
   }
  }
 }
