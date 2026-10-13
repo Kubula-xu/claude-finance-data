@@ -195,9 +195,10 @@
    ]
   },
   "20": {
-   "stan": "otwarta",
+   "stan": "zamknięta",
    "zdarzenia": [
-    "13.10 15:15 PL wejście 3.19"
+    "13.10 15:15 PL wejście 3.19",
+    "13.10 16:15 PL SL 3.24"
    ]
   }
  },
@@ -205,5 +206,5 @@
   "rano": "2026-10-13",
   "wieczor": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-13T14:16:08Z"
+ "zaktualizowano_utc": "2026-10-13T14:50:11Z"
 }
