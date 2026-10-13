@@ -24,7 +24,7 @@ UTC = datetime.timezone.utc
 SWING = build.SWING
 # Okna nowych wejść (czas PL) z ryzyko.md, sekcja 4; używane, gdy zlecenie nie podaje własnych.
 OKNA = {"gold": ["09:00-12:00", "14:00-20:00"], "silver": ["09:00-12:00", "14:00-20:00"],
-        "wti": ["09:00-12:00", "15:00-20:30"], "ng": ["15:00-20:30"], "nq": ["15:45-21:30"]}
+        "wti": ["09:00-12:00", "15:00-20:30"], "ng": ["15:00-20:30"], "nq": ["09:00-15:15", "15:45-21:30"]}
 ZAMKNIECIE = datetime.time(22, 30)
 
 
