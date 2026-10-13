@@ -187,22 +187,10 @@
     "13.10 10:15 PL wejście 292"
    ]
   },
-  "17": {
-   "stan": "otwarta",
-   "zdarzenia": [
-    "13.10 10:00 PL wejście 30730"
-   ]
-  },
-  "18": {
-   "stan": "otwarta",
-   "zdarzenia": [
-    "13.10 09:30 PL wejście 4185"
-   ]
-  },
   "19": {
    "stan": "otwarta",
    "zdarzenia": [
-    "13.10 09:00 PL wejście 92.45"
+    "13.10 09:00 PL wejście 92.36"
    ]
   },
   "20": {
@@ -214,5 +202,5 @@
   "rano": "2026-10-13",
   "wieczor": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-13T12:52:19Z"
+ "zaktualizowano_utc": "2026-10-13T12:57:47Z"
 }
