@@ -1,0 +1,8 @@
+instrument,kierunek,typ,wejscie,sl,tp1,tp2,ryzyko_pct,wielkosc,okno_wejsc_pl,ceny,uwagi
+US100,SHORT,sell limit,30730,30835,30571,30465,0.25,235 jedn. CFD (ok. 12 NQ),15:45-21:30,NQ=F futures,"Retest wybitego S1 30732 po nocnym spadku (cena 30643, dołek nocy 30605). SL 1,1x ATR H1 (94), 0,6 ATR nad L3 30776. TP1 przed S2 30566. US100 CFD różni się od NQ: przesuń poziomy o różnicę u brokera. Przed CPI (śr. 14:30) nic na noc."
+Zloto,LONG,buy limit,4185,4164,4217.5,4239,0.25,1150 oz (11,5 GC),09:00-12:00 i 14:00-20:00,XAU/USD spot,"Cofnięcie do H3/P 4185-4181 po odbiciu z 4151 (cena 4196). SL 1,5x ATR H1 (14,6), pod P. TP1 przed wczorajszym szczytem 4219. Z shortem US100 to jeden zakład risk-off: razem 0,5% (limit 0,75%)."
+Srebro,BRAK,,,,,,,,,XAG/USD spot,"Cena przy P 60,6, bez kierunku. Long dublowałby złoto (ta sama grupa)."
+WTI,LONG,buy limit,92.45,91.25,94.31,95.00,0.25,20 000 bbl (20 CL),09:00-12:00 i 15:00-20:30,CL=F,"Retest L3/P 92,43-92,57 po wczorajszym wybiciu do 94,36 (cena 92,61). Głosy 12.10: technika LONG, makro LONG. SL 1,5x ATR H1 (0,80), pod dołkiem nocy 92,17. TP1 przed szczytem 94,36, TP2 przed H3 95,05. API dziś 22:30, po zamknięciu."
+NatGas,SHORT,sell limit,3.190,3.240,3.107,3.053,0.25,"454 000 MMBtu (ok. 45 NG)",15:00-20:30,NG=F,"Z biasem makro SHORT. Odbicie pod H3 3,198 (cena 3,165). SL 1,5x ATR H1 (0,034), nad R1 3,217. TP1 przed S1/L4 3,105."
+Kawa,BRAK,,,,,,,,,KC=F,"Intraday brak. Swing short limit 292 (poz. 8, do 16.10) dalej czeka, cena 289,9 (0,2 ATR D1 od limitu)."
+Kakao,BRAK,,,,,,,,,CC=F,"Brak głosów za, przemiał 15.10. Cena 5666 przy P 5677."
