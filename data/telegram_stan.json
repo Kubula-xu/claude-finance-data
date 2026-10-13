@@ -185,36 +185,26 @@
    "stan": "oczekuje",
    "zdarzenia": []
   },
-  "16": {
-   "stan": "wygasło",
-   "zdarzenia": [
-    "zlecenie niewypełnione, termin minął"
-   ]
+  "17": {
+   "stan": "oczekuje",
+   "zdarzenia": []
   },
-  "13": {
-   "stan": "wygasło",
-   "zdarzenia": [
-    "zlecenie niewypełnione, termin minął"
-   ]
+  "18": {
+   "stan": "oczekuje",
+   "zdarzenia": []
   },
-  "14": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "12.10 14:15 PL wejście 4166",
-    "22:30 PL zamknięcie dnia po 4172.06"
-   ]
+  "19": {
+   "stan": "oczekuje",
+   "zdarzenia": []
   },
-  "15": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "12.10 17:00 PL wejście 3.165",
-    "22:30 PL zamknięcie dnia po 3.17"
-   ]
+  "20": {
+   "stan": "oczekuje",
+   "zdarzenia": []
   }
  },
  "podsumowanie": {
   "rano": "2026-10-12",
   "wieczor": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-13T05:18:52Z"
+ "zaktualizowano_utc": "2026-10-13T05:22:06Z"
 }

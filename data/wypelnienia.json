@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-13T05:00:07Z",
+ "zaktualizowano_utc": "2026-10-13T05:22:06Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "8": {
@@ -12,61 +12,45 @@
    "pozostalo": 1.0,
    "sl_teraz": 303.5
   },
-  "16": {
-   "nr": "16",
-   "instrument": "Ropa WTI",
-   "kierunek": 1,
-   "klucz_cen": "wti",
-   "zdarzenia": [
-    "zlecenie niewypełnione, termin minął"
-   ],
-   "stan": "wygasło",
-   "pozostalo": 1.0,
-   "sl_teraz": 91.25
-  },
-  "13": {
-   "nr": "13",
+  "17": {
+   "nr": "17",
    "instrument": "US100",
-   "kierunek": 1,
+   "kierunek": -1,
    "klucz_cen": "nq",
-   "zdarzenia": [
-    "zlecenie niewypełnione, termin minął"
-   ],
-   "stan": "wygasło",
+   "zdarzenia": [],
+   "stan": "oczekuje",
    "pozostalo": 1.0,
-   "sl_teraz": 30870.0
+   "sl_teraz": 30835.0
   },
-  "14": {
-   "nr": "14",
+  "18": {
+   "nr": "18",
    "instrument": "Złoto (XAUUSD spot)",
    "kierunek": 1,
    "klucz_cen": "xauusd",
-   "zdarzenia": [
-    "12.10 14:15 PL wejście 4166",
-    "22:30 PL zamknięcie dnia po 4172.06"
-   ],
-   "stan": "zamknięta",
-   "pozostalo": 0,
-   "sl_teraz": 4141.0,
-   "czas_wejscia": "2026-10-12T12:15Z",
-   "cena_wyjscia_srednia": 4172.06,
-   "wynik_pkt_zrealizowany": 6.06
+   "zdarzenia": [],
+   "stan": "oczekuje",
+   "pozostalo": 1.0,
+   "sl_teraz": 4164.0
   },
-  "15": {
-   "nr": "15",
+  "19": {
+   "nr": "19",
+   "instrument": "Ropa WTI",
+   "kierunek": 1,
+   "klucz_cen": "wti",
+   "zdarzenia": [],
+   "stan": "oczekuje",
+   "pozostalo": 1.0,
+   "sl_teraz": 91.25
+  },
+  "20": {
+   "nr": "20",
    "instrument": "Gaz ziemny",
    "kierunek": -1,
    "klucz_cen": "ng",
-   "zdarzenia": [
-    "12.10 17:00 PL wejście 3.165",
-    "22:30 PL zamknięcie dnia po 3.17"
-   ],
-   "stan": "zamknięta",
-   "pozostalo": 0,
-   "sl_teraz": 3.237,
-   "czas_wejscia": "2026-10-12T15:00Z",
-   "cena_wyjscia_srednia": 3.17,
-   "wynik_pkt_zrealizowany": -0.005
+   "zdarzenia": [],
+   "stan": "oczekuje",
+   "pozostalo": 1.0,
+   "sl_teraz": 3.24
   }
  }
 }
