@@ -182,12 +182,16 @@
  },
  "automat": {
   "8": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "otwarta",
+   "zdarzenia": [
+    "13.10 10:15 PL wejście 292"
+   ]
   },
   "17": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "otwarta",
+   "zdarzenia": [
+    "13.10 10:00 PL wejście 30730"
+   ]
   },
   "18": {
    "stan": "otwarta",
@@ -210,5 +214,5 @@
   "rano": "2026-10-13",
   "wieczor": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-13T08:14:47Z"
+ "zaktualizowano_utc": "2026-10-13T08:41:30Z"
 }

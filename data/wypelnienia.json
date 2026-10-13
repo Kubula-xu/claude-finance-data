@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-13T08:14:47Z",
+ "zaktualizowano_utc": "2026-10-13T08:41:29Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "8": {
@@ -7,20 +7,26 @@
    "instrument": "Kawa US",
    "kierunek": -1,
    "klucz_cen": "coffee",
-   "zdarzenia": [],
-   "stan": "oczekuje",
+   "zdarzenia": [
+    "13.10 10:15 PL wejście 292"
+   ],
+   "stan": "otwarta",
    "pozostalo": 1.0,
-   "sl_teraz": 303.5
+   "sl_teraz": 303.5,
+   "czas_wejscia": "2026-10-13T08:15Z"
   },
   "17": {
    "nr": "17",
    "instrument": "US100",
    "kierunek": -1,
    "klucz_cen": "nq",
-   "zdarzenia": [],
-   "stan": "oczekuje",
+   "zdarzenia": [
+    "13.10 10:00 PL wejście 30730"
+   ],
+   "stan": "otwarta",
    "pozostalo": 1.0,
-   "sl_teraz": 30835.0
+   "sl_teraz": 30835.0,
+   "czas_wejscia": "2026-10-13T08:00Z"
   },
   "18": {
    "nr": "18",
