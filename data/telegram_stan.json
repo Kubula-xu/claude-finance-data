@@ -1,14 +1,14 @@
 {
  "sygnaly": {
   "nq": {
-   "kierunek": "LONG",
+   "kierunek": "SHORT",
    "pewnosc": 1,
    "setup": [
-    "LONG",
-    31025,
-    30870,
-    31257,
-    31412
+    "SHORT",
+    30730,
+    30835,
+    30571,
+    30465
    ]
   },
   "gold": {
@@ -16,10 +16,10 @@
    "pewnosc": 1,
    "setup": [
     "LONG",
-    4166,
-    4141,
-    4203.5,
-    4228.5
+    4185,
+    4164,
+    4217.5,
+    4239
    ]
   },
   "silver": {
@@ -35,13 +35,13 @@
   },
   "wti": {
    "kierunek": "LONG",
-   "pewnosc": 2,
+   "pewnosc": 1,
    "setup": [
     "LONG",
-    92.4,
+    92.45,
     91.25,
-    94.1,
-    95.25
+    94.31,
+    95.0
    ]
   },
   "ng": {
@@ -49,10 +49,10 @@
    "pewnosc": 1,
    "setup": [
     "SHORT",
-    3.165,
-    3.237,
-    3.057,
-    2.985
+    3.19,
+    3.24,
+    3.107,
+    3.053
    ]
   },
   "coffee": {
@@ -140,24 +140,44 @@
    "tp": "4209 / 4232"
   },
   "16": {
-   "status": "oczekuje (limit 12.10, okno 15:00–20:30 PL)",
+   "status": "anulowana (niewypełniona, 12.10)",
    "sl": "91,25",
    "tp": "94,10 / 95,25"
   },
   "13": {
-   "status": "oczekuje (limit, intraday 12.10, okno 15:45–21:30)",
+   "status": "anulowana (niewypełniona, 12.10)",
    "sl": "30870",
    "tp": "31257 / 31412"
   },
   "14": {
-   "status": "oczekuje (limit, intraday 12.10, okno 09:00–12:00 i 14:00–20:00)",
+   "status": "zamknięta ręcznie (koniec dnia, 22:30 PL)",
    "sl": "4141",
    "tp": "4203,5 / 4228,5"
   },
   "15": {
-   "status": "oczekuje (limit, intraday 12.10, okno 15:00–20:30)",
+   "status": "zamknięta ręcznie (koniec dnia, 22:30 PL)",
    "sl": "3,237",
    "tp": "3,057 / 2,985"
+  },
+  "17": {
+   "status": "oczekuje (limit, intraday 13.10, okno 15:45–21:30)",
+   "sl": "30835",
+   "tp": "30571 / 30465"
+  },
+  "18": {
+   "status": "oczekuje (limit, intraday 13.10, okno 09:00–12:00 i 14:00–20:00)",
+   "sl": "4164",
+   "tp": "4217,5 / 4239"
+  },
+  "19": {
+   "status": "oczekuje (limit, intraday 13.10, okno 09:00–12:00 i 15:00–20:30)",
+   "sl": "91,25",
+   "tp": "94,31 / 95,00"
+  },
+  "20": {
+   "status": "oczekuje (limit, intraday 13.10, okno 15:00–20:30)",
+   "sl": "3,240",
+   "tp": "3,107 / 3,053"
   }
  },
  "automat": {
@@ -196,5 +216,5 @@
   "rano": "2026-10-12",
   "wieczor": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-13T05:00:08Z"
+ "zaktualizowano_utc": "2026-10-13T05:18:37Z"
 }
