@@ -115,7 +115,7 @@
    "tp": "4116 / 4093"
   },
   "8": {
-   "status": "oczekuje (limit do 16.10, swing)",
+   "status": "otwarta (swing, wejście 13.10 ok. 10:15 PL)",
    "sl": "303,50",
    "tp": "272,00 / 270,00"
   },
@@ -160,17 +160,17 @@
    "tp": "3,057 / 2,985"
   },
   "17": {
-   "status": "oczekuje (limit, intraday 13.10, okno 09:00–15:15 i 15:45–21:30)",
+   "status": "zamknięta ręcznie (stop czasowy, 13:00 PL)",
    "sl": "30835",
    "tp": "30571 / 30465"
   },
   "18": {
-   "status": "oczekuje (limit, intraday 13.10, okno 09:00–12:00 i 14:00–20:00)",
+   "status": "zamknięta ręcznie (stop czasowy, 12:30 PL)",
    "sl": "4164",
    "tp": "4217,5 / 4239"
   },
   "19": {
-   "status": "oczekuje (limit, intraday 13.10, okno 09:00–12:00 i 15:00–20:30)",
+   "status": "otwarta (wejście 13.10 09:00 PL po rynku)",
    "sl": "91,25",
    "tp": "94,31 / 95,00"
   },
@@ -214,5 +214,5 @@
   "rano": "2026-10-13",
   "wieczor": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-13T12:27:25Z"
+ "zaktualizowano_utc": "2026-10-13T12:52:19Z"
 }
