@@ -160,7 +160,7 @@
    "tp": "3,057 / 2,985"
   },
   "17": {
-   "status": "oczekuje (limit, intraday 13.10, okno 15:45–21:30)",
+   "status": "oczekuje (limit, intraday 13.10, okno 09:00–15:15 i 15:45–21:30)",
    "sl": "30835",
    "tp": "30571 / 30465"
   },
@@ -206,5 +206,5 @@
   "rano": "2026-10-12",
   "wieczor": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-13T05:25:04Z"
+ "zaktualizowano_utc": "2026-10-13T05:26:48Z"
 }
