@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-13T19:57:44Z",
+ "zaktualizowano_utc": "2026-10-13T20:27:05Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "8": {
@@ -14,39 +14,6 @@
    "pozostalo": 1.0,
    "sl_teraz": 303.5,
    "czas_wejscia": "2026-10-13T08:15Z"
-  },
-  "19": {
-   "nr": "19",
-   "instrument": "Ropa WTI",
-   "kierunek": 1,
-   "klucz_cen": "wti",
-   "zdarzenia": [
-    "13.10 09:00 PL wejście 92.36",
-    "13.10 16:00 PL +1R, SL na BE 92.36",
-    "13.10 18:30 PL TP1 94.31, zamknięte 50%"
-   ],
-   "stan": "otwarta",
-   "pozostalo": 0.5,
-   "sl_teraz": 92.36,
-   "czas_wejscia": "2026-10-13T07:00Z",
-   "cena_wyjscia_srednia": 94.31,
-   "wynik_pkt_zrealizowany": 0.975
-  },
-  "20": {
-   "nr": "20",
-   "instrument": "Gaz ziemny",
-   "kierunek": -1,
-   "klucz_cen": "ng",
-   "zdarzenia": [
-    "13.10 15:15 PL wejście 3.19",
-    "13.10 16:15 PL SL 3.24"
-   ],
-   "stan": "zamknięta",
-   "pozostalo": 0,
-   "sl_teraz": 3.24,
-   "czas_wejscia": "2026-10-13T13:15Z",
-   "cena_wyjscia_srednia": 3.24,
-   "wynik_pkt_zrealizowany": -0.05
   }
  }
 }

@@ -186,26 +186,11 @@
    "zdarzenia": [
     "13.10 10:15 PL wejście 292"
    ]
-  },
-  "19": {
-   "stan": "otwarta",
-   "zdarzenia": [
-    "13.10 09:00 PL wejście 92.36",
-    "13.10 16:00 PL +1R, SL na BE 92.36",
-    "13.10 18:30 PL TP1 94.31, zamknięte 50%"
-   ]
-  },
-  "20": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "13.10 15:15 PL wejście 3.19",
-    "13.10 16:15 PL SL 3.24"
-   ]
   }
  },
  "podsumowanie": {
   "rano": "2026-10-13",
   "wieczor": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-13T20:26:19Z"
+ "zaktualizowano_utc": "2026-10-13T20:27:05Z"
 }
