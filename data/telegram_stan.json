@@ -170,12 +170,12 @@
    "tp": "4217,5 / 4239"
   },
   "19": {
-   "status": "otwarta (wejście 13.10 09:00 PL po rynku)",
+   "status": "zamknięta ręcznie (połowa TP1, reszta koniec dnia 22:25 PL)",
    "sl": "91,25",
    "tp": "94,31 / 95,00"
   },
   "20": {
-   "status": "oczekuje (limit, intraday 13.10, okno 15:00–20:30)",
+   "status": "zamknięta SL",
    "sl": "3,240",
    "tp": "3,107 / 3,053"
   }
@@ -207,5 +207,5 @@
   "rano": "2026-10-13",
   "wieczor": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-13T19:57:44Z"
+ "zaktualizowano_utc": "2026-10-13T20:26:19Z"
 }
