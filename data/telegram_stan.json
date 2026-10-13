@@ -190,7 +190,8 @@
   "19": {
    "stan": "otwarta",
    "zdarzenia": [
-    "13.10 09:00 PL wejście 92.36"
+    "13.10 09:00 PL wejście 92.36",
+    "13.10 16:00 PL +1R, SL na BE 92.36"
    ]
   },
   "20": {
@@ -204,5 +205,5 @@
   "rano": "2026-10-13",
   "wieczor": "2026-10-12"
  },
- "zaktualizowano_utc": "2026-10-13T13:52:07Z"
+ "zaktualizowano_utc": "2026-10-13T14:16:08Z"
 }
