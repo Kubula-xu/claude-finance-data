@@ -190,7 +190,7 @@
    "tp": "4150,5 / 4137"
   },
   "23": {
-   "status": "zamknięta (reszta ręcznie ok. 15:15 PL)",
+   "status": "zamknięta (TP1 13:00 PL, TP2 96,00 19:00 PL)",
    "sl": "93,20",
    "tp": "95,58 / 96,00"
   },
@@ -217,5 +217,5 @@
   "rano": "2026-10-14",
   "wieczor": "2026-10-13"
  },
- "zaktualizowano_utc": "2026-10-14T20:11:08Z"
+ "zaktualizowano_utc": "2026-10-14T20:26:36Z"
 }
