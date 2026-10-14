@@ -37,7 +37,7 @@
     "tp1": 30610,
     "tp2": 30510,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje (warunek: zamknięcie M15 pod 30 745 po 14:45; okna 14:45–15:15 i 15:45–21:00, poz. 24)",
+    "status": "anulowane (TP1 30 610 przed wypełnieniem, poz. 24)",
     "ksiega": "intraday",
     "uwagi": "Bez warunku nie wchodzić. Anulować, jeśli TP1 30 610 padnie przed wypełnieniem lub M15 zamknie się nad H4 30 965."
    },
