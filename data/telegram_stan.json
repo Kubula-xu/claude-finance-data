@@ -180,17 +180,17 @@
    "tp": "3,107 / 3,053"
   },
   "21": {
-   "status": "oczekuje (limit, intraday 14.10, okno 09:00–13:30)",
+   "status": "anulowane (niewypełnione do 13:55 PL)",
    "sl": "31015",
    "tp": "30765 / 30705"
   },
   "22": {
-   "status": "oczekuje (limit, intraday 14.10, okno 09:00–12:00)",
+   "status": "anulowane (niewypełnione do 13:55 PL)",
    "sl": "4193",
    "tp": "4150,5 / 4137"
   },
   "23": {
-   "status": "oczekuje (limit, intraday 14.10, okna 09:00–12:00 i 15:00–20:30)",
+   "status": "otwarta 50% (TP1 zrealizowane, SL na BE 94,15)",
    "sl": "93,20",
    "tp": "95,58 / 96,00"
   }
@@ -223,5 +223,5 @@
   "rano": "2026-10-14",
   "wieczor": "2026-10-13"
  },
- "zaktualizowano_utc": "2026-10-14T11:23:49Z"
+ "zaktualizowano_utc": "2026-10-14T11:58:16Z"
 }
