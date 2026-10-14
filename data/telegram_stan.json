@@ -212,15 +212,7 @@
     "13.10 10:15 PL wejście 292"
    ]
   },
-  "23": {
-   "stan": "otwarta",
-   "zdarzenia": [
-    "14.10 09:45 PL wejście 94.15",
-    "14.10 12:00 PL +1R, SL na BE 94.15",
-    "14.10 13:00 PL TP1 95.58, zamknięte 50%"
-   ]
-  },
-  "24": {
+  "25": {
    "stan": "oczekuje",
    "zdarzenia": []
   }
@@ -229,5 +221,5 @@
   "rano": "2026-10-14",
   "wieczor": "2026-10-13"
  },
- "zaktualizowano_utc": "2026-10-14T13:37:28Z"
+ "zaktualizowano_utc": "2026-10-14T14:01:55Z"
 }
