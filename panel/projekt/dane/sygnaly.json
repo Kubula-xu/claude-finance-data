@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-14T06:50:00Z",
+ "aktualizacja": "2026-10-14T12:55:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -16,7 +16,7 @@
      2
     ],
     "makro": [
-     "NEUTRAL",
+     "SHORT",
      2
     ],
     "sentyment": [
@@ -26,20 +26,20 @@
    },
    "final": {
     "kierunek": "SHORT",
-    "pewnosc": 1,
-    "powod": "Przed CPI: short z odrzucenia strefy 30 890–30 935 (poz. 21). Po CPI decyzja w przeglądzie 14:50."
+    "pewnosc": 2,
+    "powod": "CPI gorące: bazowy 0,3% m/m przy konsensusie 0,2%, r/r 2,6%. Wariant B: short z retestu P 30 763 od dołu (poz. 24). Poz. 21 anulowana."
    },
    "setup": {
     "kierunek": "SHORT",
-    "typ": "limit",
-    "wejscie": 30915,
-    "sl": 31015,
-    "tp1": 30765,
-    "tp2": 30705,
+    "typ": "limit (warunkowe)",
+    "wejscie": 30760,
+    "sl": 30860,
+    "tp1": 30610,
+    "tp2": 30510,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje (limit 14.10, okno 09:00–13:30, poz. 21)",
+    "status": "oczekuje (warunek: zamknięcie M15 pod 30 745 po 14:45; okna 14:45–15:15 i 15:45–21:00, poz. 24)",
     "ksiega": "intraday",
-    "uwagi": "Do 14:00 SL na BE albo zamknąć (CPI 14:30)."
+    "uwagi": "Bez warunku nie wchodzić. Anulować, jeśli TP1 30 610 padnie przed wypełnieniem lub M15 zamknie się nad H4 30 965."
    },
    "kontrakt": {
     "nazwa": "E-mini Nasdaq 100 (NQ)",
@@ -62,7 +62,7 @@
      2
     ],
     "makro": [
-     "NEUTRAL",
+     "SHORT",
      2
     ],
     "sentyment": [
@@ -73,21 +73,13 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Przed CPI: short z odbicia pod P/VWAP 4 171–4 176 (poz. 22)."
+    "powod": "CPI gorące, spot spadł do 4 111,5 (14:37 PL), już pod TP1 wariantu B 4 125. Nie gonić; brak nowego zlecenia. Poz. 22 anulowana."
    },
    "setup": {
-    "kierunek": "SHORT",
-    "typ": "limit",
-    "wejscie": 4176,
-    "sl": 4193,
-    "tp1": 4150.5,
-    "tp2": 4137,
-    "ryzyko_pct": 0.25,
-    "koszt": 0.6,
-    "status": "oczekuje (limit 14.10, okno 09:00–12:00, poz. 22)",
+    "kierunek": "BRAK",
+    "status": "brak (wariant B nieaktualny, cena za TP1)",
     "ksiega": "intraday",
-    "ceny": "spot",
-    "uwagi": "Do 14:00 SL na BE albo zamknąć (CPI 14:30)."
+    "ceny": "spot"
    },
    "kontrakt": {
     "nazwa": "Gold (GC), 100 oz",
@@ -96,8 +88,8 @@
     "jedn_cfd": "oz"
    },
    "ostatnia_cena": {
-    "cena": 4170.96,
-    "czas": "2026-10-12 14:20 PL",
+    "cena": 4111.5,
+    "czas": "2026-10-14 14:37 PL",
     "zrodlo": "XAU/USD spot, Swissquote (repo claude-finance-data)"
    }
   },
