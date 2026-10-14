@@ -202,14 +202,6 @@
     "13.10 10:15 PL wejście 292"
    ]
   },
-  "21": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  },
-  "22": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  },
   "23": {
    "stan": "otwarta",
    "zdarzenia": [
@@ -223,5 +215,5 @@
   "rano": "2026-10-14",
   "wieczor": "2026-10-13"
  },
- "zaktualizowano_utc": "2026-10-14T11:58:16Z"
+ "zaktualizowano_utc": "2026-10-14T11:59:04Z"
 }
