@@ -198,6 +198,11 @@
    "status": "anulowane (TP1 przed wypełnieniem)",
    "sl": "30860",
    "tp": "30610 / 30510"
+  },
+  "25": {
+   "status": "oczekuje (limit, intraday 14.10, okno do 20:00)",
+   "sl": "4128",
+   "tp": "4085 / 4070"
   }
  },
  "automat": {
@@ -224,5 +229,5 @@
   "rano": "2026-10-14",
   "wieczor": "2026-10-13"
  },
- "zaktualizowano_utc": "2026-10-14T13:20:44Z"
+ "zaktualizowano_utc": "2026-10-14T13:37:28Z"
 }
