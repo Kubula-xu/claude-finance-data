@@ -190,12 +190,12 @@
    "tp": "4150,5 / 4137"
   },
   "23": {
-   "status": "otwarta 50% (TP1 zrealizowane, SL na BE 94,15)",
+   "status": "zamknięta (reszta ręcznie ok. 15:15 PL)",
    "sl": "93,20",
    "tp": "95,58 / 96,00"
   },
   "24": {
-   "status": "oczekuje (limit warunkowy, intraday 14.10, okna 14:45–15:15 i 15:45–21:00)",
+   "status": "anulowane (TP1 przed wypełnieniem)",
    "sl": "30860",
    "tp": "30610 / 30510"
   }
@@ -224,5 +224,5 @@
   "rano": "2026-10-14",
   "wieczor": "2026-10-13"
  },
- "zaktualizowano_utc": "2026-10-14T13:17:37Z"
+ "zaktualizowano_utc": "2026-10-14T13:20:44Z"
 }
