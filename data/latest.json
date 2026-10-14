@@ -11,14 +11,14 @@
     "data": "2026-10-14",
     "open": 30791.5,
     "high": 30891.5,
-    "low": 30079.5
+    "low": 30080.5
    }
   },
   "ndx": {
    "symbol": "^NDX",
    "opis": "Nasdaq 100 indeks (kasowy, ~US100 CFD)",
    "cena": 29950.816,
-   "czas_notowania_utc": "2026-10-14T21:00:00Z",
+   "czas_notowania_utc": "2026-10-14T21:15:00Z",
    "poprzednie_zamkniecie": 30569.480469,
    "zmiana_pct": -2.024,
    "dzien": {
@@ -53,7 +53,7 @@
     "data": "2026-10-14",
     "open": 59.415001,
     "high": 59.595001,
-    "low": 55.59
+    "low": 55.560001
    }
   },
   "wti": {
@@ -66,7 +66,7 @@
    "dzien": {
     "data": "2026-10-14",
     "open": 94.75,
-    "high": 96.050003,
+    "high": 96.059998,
     "low": 93.970001
    }
   },
@@ -94,7 +94,7 @@
    "dzien": {
     "data": "2026-10-14",
     "open": 292.600006,
-    "high": 303.350006,
+    "high": 303.299988,
     "low": 292.600006
    }
   },
@@ -109,16 +109,16 @@
     "data": "2026-10-14",
     "open": 5850.0,
     "high": 6023.0,
-    "low": 5658.0
+    "low": 5662.0
    }
   },
   "dxy": {
    "symbol": "DX-Y.NYB",
    "opis": "Indeks dolara DXY",
-   "cena": 102.538002,
-   "czas_notowania_utc": "2026-10-14T21:00:00Z",
+   "cena": 102.550003,
+   "czas_notowania_utc": "2026-10-14T21:30:00Z",
    "poprzednie_zamkniecie": 102.18,
-   "zmiana_pct": 0.35,
+   "zmiana_pct": 0.362,
    "dzien": {
     "data": "2026-10-14",
     "open": 102.211998,
@@ -162,16 +162,16 @@
    "ask": 4102.797,
    "czas_notowania_utc": "2026-10-14T21:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -22.835,
+   "baza_vs_futures": -23.09,
    "futures": "GC=F",
    "dzien": {
     "data": "2026-10-14",
-    "open": 4161.365,
-    "high": 4170.6649,
-    "low": 4072.1649
+    "open": 4161.1102,
+    "high": 4170.4101,
+    "low": 4071.91
    },
-   "poprzednie_zamkniecie": 4154.4647,
-   "zmiana_pct": -1.25
+   "poprzednie_zamkniecie": 4154.2099,
+   "zmiana_pct": -1.244
   },
   "xagusd": {
    "symbol": "XAG/USD spot",
@@ -181,18 +181,18 @@
    "ask": 55.6265,
    "czas_notowania_utc": "2026-10-14T21:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -0.173,
+   "baza_vs_futures": -0.184,
    "futures": "SI=F",
    "dzien": {
     "data": "2026-10-14",
-    "open": 59.2416,
-    "high": 59.4216,
-    "low": 55.4166
+    "open": 59.2306,
+    "high": 59.4106,
+    "low": 55.3756
    },
-   "poprzednie_zamkniecie": 58.9876,
-   "zmiana_pct": -5.738
+   "poprzednie_zamkniecie": 58.9765,
+   "zmiana_pct": -5.721
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-14T21:11:02Z"
+ "zaktualizowano_utc": "2026-10-14T21:42:43Z"
 }
