@@ -2,24 +2,24 @@
  "sygnaly": {
   "nq": {
    "kierunek": "SHORT",
-   "pewnosc": 1,
+   "pewnosc": 2,
    "setup": [
     "SHORT",
-    30915,
-    31015,
-    30765,
-    30705
+    30760,
+    30860,
+    30610,
+    30510
    ]
   },
   "gold": {
    "kierunek": "SHORT",
    "pewnosc": 1,
    "setup": [
-    "SHORT",
-    4176,
-    4193,
-    4150.5,
-    4137
+    "BRAK",
+    null,
+    null,
+    null,
+    null
    ]
   },
   "silver": {
@@ -193,6 +193,11 @@
    "status": "otwarta 50% (TP1 zrealizowane, SL na BE 94,15)",
    "sl": "93,20",
    "tp": "95,58 / 96,00"
+  },
+  "24": {
+   "status": "oczekuje (limit warunkowy, intraday 14.10, okna 14:45–15:15 i 15:45–21:00)",
+   "sl": "30860",
+   "tp": "30610 / 30510"
   }
  },
  "automat": {
@@ -215,5 +220,5 @@
   "rano": "2026-10-14",
   "wieczor": "2026-10-13"
  },
- "zaktualizowano_utc": "2026-10-14T12:37:22Z"
+ "zaktualizowano_utc": "2026-10-14T12:52:59Z"
 }
