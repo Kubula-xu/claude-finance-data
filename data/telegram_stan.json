@@ -200,7 +200,7 @@
    "tp": "30610 / 30510"
   },
   "25": {
-   "status": "oczekuje (limit, intraday 14.10, okno do 20:00)",
+   "status": "anulowane (niewypełnione, cena pod 4 080)",
    "sl": "4128",
    "tp": "4085 / 4070"
   }
@@ -221,5 +221,5 @@
   "rano": "2026-10-14",
   "wieczor": "2026-10-13"
  },
- "zaktualizowano_utc": "2026-10-14T18:13:56Z"
+ "zaktualizowano_utc": "2026-10-14T18:18:29Z"
 }
