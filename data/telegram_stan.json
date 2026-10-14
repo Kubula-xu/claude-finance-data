@@ -211,13 +211,15 @@
    "zdarzenia": []
   },
   "23": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "otwarta",
+   "zdarzenia": [
+    "14.10 09:45 PL wejście 94.15"
+   ]
   }
  },
  "podsumowanie": {
   "rano": "2026-10-14",
   "wieczor": "2026-10-13"
  },
- "zaktualizowano_utc": "2026-10-14T07:52:40Z"
+ "zaktualizowano_utc": "2026-10-14T08:24:57Z"
 }
