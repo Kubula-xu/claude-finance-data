@@ -214,11 +214,15 @@
     "14.10 12:00 PL +1R, SL na BE 94.15",
     "14.10 13:00 PL TP1 95.58, zamknięte 50%"
    ]
+  },
+  "24": {
+   "stan": "oczekuje",
+   "zdarzenia": []
   }
  },
  "podsumowanie": {
   "rano": "2026-10-14",
   "wieczor": "2026-10-13"
  },
- "zaktualizowano_utc": "2026-10-14T12:52:59Z"
+ "zaktualizowano_utc": "2026-10-14T13:17:37Z"
 }
