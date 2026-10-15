@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-15T18:50:46Z",
+ "zaktualizowano_utc": "2026-10-15T19:26:07Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "8": {
@@ -22,7 +22,7 @@
    "klucz_cen": "xauusd",
    "zdarzenia": [
     "15.10 10:15 PL wejście 4159",
-    "15.10 14:00 PL +1R, SL na BE 4159",
+    "15.10 13:45 PL +1R, SL na BE 4159",
     "15.10 14:30 PL BE 4159"
    ],
    "stan": "zamknięta",
@@ -55,10 +55,13 @@
    "instrument": "US100",
    "kierunek": -1,
    "klucz_cen": "nq",
-   "zdarzenia": [],
-   "stan": "oczekuje",
+   "zdarzenia": [
+    "15.10 21:00 PL wejście 30120"
+   ],
+   "stan": "otwarta",
    "pozostalo": 1.0,
-   "sl_teraz": 30240.0
+   "sl_teraz": 30240.0,
+   "czas_wejscia": "2026-10-15T19:00Z"
   }
  }
 }

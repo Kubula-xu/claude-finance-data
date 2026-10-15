@@ -236,7 +236,7 @@
    "stan": "zamknięta",
    "zdarzenia": [
     "15.10 10:15 PL wejście 4159",
-    "15.10 14:00 PL +1R, SL na BE 4159",
+    "15.10 13:45 PL +1R, SL na BE 4159",
     "15.10 14:30 PL BE 4159"
    ]
   },
@@ -250,13 +250,15 @@
    ]
   },
   "29": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "otwarta",
+   "zdarzenia": [
+    "15.10 21:00 PL wejście 30120"
+   ]
   }
  },
  "podsumowanie": {
   "rano": "2026-10-15",
   "wieczor": "2026-10-14"
  },
- "zaktualizowano_utc": "2026-10-15T18:50:47Z"
+ "zaktualizowano_utc": "2026-10-15T19:26:08Z"
 }
