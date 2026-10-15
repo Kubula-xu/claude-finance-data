@@ -205,7 +205,7 @@
    "tp": "4085 / 4070"
   },
   "26": {
-   "status": "otwarta (wejście 11:30 PL, SL na BE 4 159 od 14:00)",
+   "status": "otwarta 50% (TP1 4 137 o 14:30, reszta SL na BE 4 159)",
    "sl": "4172",
    "tp": "4137 / 4125"
   },
@@ -258,5 +258,5 @@
   "rano": "2026-10-15",
   "wieczor": "2026-10-14"
  },
- "zaktualizowano_utc": "2026-10-15T12:51:55Z"
+ "zaktualizowano_utc": "2026-10-15T13:00:15Z"
 }
