@@ -205,17 +205,17 @@
    "tp": "4085 / 4070"
   },
   "26": {
-   "status": "oczekuje (limit, intraday 15.10, okno 09:00–12:00; OCO z #27)",
+   "status": "otwarta (wejście 11:30 PL, SL na BE 4 159 od 14:00)",
    "sl": "4172",
    "tp": "4137 / 4125"
   },
   "27": {
-   "status": "oczekuje (limit, intraday 15.10, okno 09:00–12:00; OCO z #26)",
+   "status": "anulowane (OCO, wypełnione #26)",
    "sl": "4119",
    "tp": "4150 / 4160"
   },
   "28": {
-   "status": "oczekuje (limit, intraday 15.10, okna 09:00–12:00 i 15:00–20:30)",
+   "status": "otwarta (wejście 11:30 PL)",
    "sl": "92,90",
    "tp": "94,80 / 95,40"
   },
@@ -258,5 +258,5 @@
   "rano": "2026-10-15",
   "wieczor": "2026-10-14"
  },
- "zaktualizowano_utc": "2026-10-15T12:26:46Z"
+ "zaktualizowano_utc": "2026-10-15T12:51:11Z"
 }
