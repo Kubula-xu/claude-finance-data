@@ -5,21 +5,21 @@
    "pewnosc": 2,
    "setup": [
     "SHORT",
-    30760,
-    30860,
-    30610,
-    30510
+    30120,
+    30240,
+    29900,
+    29780
    ]
   },
   "gold": {
-   "kierunek": "SHORT",
+   "kierunek": "NEUTRAL",
    "pewnosc": 1,
    "setup": [
-    "BRAK",
-    null,
-    null,
-    null,
-    null
+    "SHORT",
+    4159,
+    4172,
+    4137,
+    4125
    ]
   },
   "silver": {
@@ -35,13 +35,13 @@
   },
   "wti": {
    "kierunek": "LONG",
-   "pewnosc": 3,
+   "pewnosc": 2,
    "setup": [
     "LONG",
-    94.15,
-    93.2,
-    95.58,
-    96.0
+    93.65,
+    92.9,
+    94.8,
+    95.4
    ]
   },
   "ng": {
@@ -253,5 +253,5 @@
   "rano": "2026-10-15",
   "wieczor": "2026-10-14"
  },
- "zaktualizowano_utc": "2026-10-15T06:33:12Z"
+ "zaktualizowano_utc": "2026-10-15T06:41:58Z"
 }
