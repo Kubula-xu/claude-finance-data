@@ -231,11 +231,27 @@
    "zdarzenia": [
     "13.10 10:15 PL wejście 292"
    ]
+  },
+  "26": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "27": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "28": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "29": {
+   "stan": "oczekuje",
+   "zdarzenia": []
   }
  },
  "podsumowanie": {
   "rano": "2026-10-14",
   "wieczor": "2026-10-14"
  },
- "zaktualizowano_utc": "2026-10-15T05:11:12Z"
+ "zaktualizowano_utc": "2026-10-15T05:21:38Z"
 }
