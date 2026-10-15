@@ -231,34 +231,11 @@
    "zdarzenia": [
     "13.10 10:15 PL wejście 292"
    ]
-  },
-  "26": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "15.10 10:15 PL wejście 4159",
-    "15.10 14:00 PL +1R, SL na BE 4159",
-    "15.10 14:30 PL BE 4159"
-   ]
-  },
-  "28": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "15.10 11:45 PL wejście 93.65",
-    "15.10 15:00 PL +1R, SL na BE 93.65",
-    "15.10 15:15 PL TP1 94.8, zamknięte 50%",
-    "15.10 16:30 PL TP2 95.4"
-   ]
-  },
-  "29": {
-   "stan": "otwarta",
-   "zdarzenia": [
-    "15.10 21:00 PL wejście 30120"
-   ]
   }
  },
  "podsumowanie": {
   "rano": "2026-10-15",
   "wieczor": "2026-10-15"
  },
- "zaktualizowano_utc": "2026-10-15T20:41:50Z"
+ "zaktualizowano_utc": "2026-10-15T20:58:47Z"
 }
