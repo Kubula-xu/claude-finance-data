@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-15T13:14:34Z",
+ "zaktualizowano_utc": "2026-10-15T13:57:12Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "8": {
@@ -21,16 +21,16 @@
    "kierunek": -1,
    "klucz_cen": "xauusd",
    "zdarzenia": [
-    "15.10 11:15 PL wejście 4159",
+    "15.10 10:15 PL wejście 4159",
     "15.10 13:45 PL +1R, SL na BE 4159",
-    "15.10 14:30 PL TP1 4137, zamknięte 50%"
+    "15.10 14:30 PL BE 4159"
    ],
-   "stan": "otwarta",
-   "pozostalo": 0.5,
+   "stan": "zamknięta",
+   "pozostalo": 0,
    "sl_teraz": 4159.0,
-   "czas_wejscia": "2026-10-15T09:15Z",
-   "cena_wyjscia_srednia": 4137.0,
-   "wynik_pkt_zrealizowany": 11.0
+   "czas_wejscia": "2026-10-15T08:15Z",
+   "cena_wyjscia_srednia": 4159.0,
+   "wynik_pkt_zrealizowany": 0.0
   },
   "28": {
    "nr": "28",
@@ -38,12 +38,16 @@
    "kierunek": 1,
    "klucz_cen": "wti",
    "zdarzenia": [
-    "15.10 11:45 PL wejście 93.65"
+    "15.10 11:45 PL wejście 93.65",
+    "15.10 15:00 PL +1R, SL na BE 93.65",
+    "15.10 15:15 PL TP1 94.8, zamknięte 50%"
    ],
    "stan": "otwarta",
-   "pozostalo": 1.0,
-   "sl_teraz": 92.9,
-   "czas_wejscia": "2026-10-15T09:45Z"
+   "pozostalo": 0.5,
+   "sl_teraz": 93.65,
+   "czas_wejscia": "2026-10-15T09:45Z",
+   "cena_wyjscia_srednia": 94.8,
+   "wynik_pkt_zrealizowany": 0.575
   },
   "29": {
    "nr": "29",
