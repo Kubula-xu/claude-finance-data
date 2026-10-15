@@ -12,8 +12,8 @@
    ]
   },
   "gold": {
-   "kierunek": "NEUTRAL",
-   "pewnosc": 1,
+   "kierunek": "SHORT",
+   "pewnosc": 2,
    "setup": [
     "SHORT",
     4159,
@@ -258,5 +258,5 @@
   "rano": "2026-10-15",
   "wieczor": "2026-10-14"
  },
- "zaktualizowano_utc": "2026-10-15T12:51:11Z"
+ "zaktualizowano_utc": "2026-10-15T12:51:55Z"
 }
