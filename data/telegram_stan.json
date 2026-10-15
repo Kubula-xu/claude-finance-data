@@ -236,12 +236,9 @@
    "stan": "otwarta",
    "zdarzenia": [
     "15.10 11:15 PL wejście 4159",
-    "15.10 13:45 PL +1R, SL na BE 4159"
+    "15.10 13:45 PL +1R, SL na BE 4159",
+    "15.10 14:30 PL TP1 4137, zamknięte 50%"
    ]
-  },
-  "27": {
-   "stan": "oczekuje",
-   "zdarzenia": []
   },
   "28": {
    "stan": "otwarta",
@@ -258,5 +255,5 @@
   "rano": "2026-10-15",
   "wieczor": "2026-10-14"
  },
- "zaktualizowano_utc": "2026-10-15T13:00:15Z"
+ "zaktualizowano_utc": "2026-10-15T13:14:34Z"
 }
