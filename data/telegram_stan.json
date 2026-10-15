@@ -241,11 +241,12 @@
    ]
   },
   "28": {
-   "stan": "otwarta",
+   "stan": "zamknięta",
    "zdarzenia": [
     "15.10 11:45 PL wejście 93.65",
     "15.10 15:00 PL +1R, SL na BE 93.65",
-    "15.10 15:15 PL TP1 94.8, zamknięte 50%"
+    "15.10 15:15 PL TP1 94.8, zamknięte 50%",
+    "15.10 16:30 PL TP2 95.4"
    ]
   },
   "29": {
@@ -257,5 +258,5 @@
   "rano": "2026-10-15",
   "wieczor": "2026-10-14"
  },
- "zaktualizowano_utc": "2026-10-15T14:29:50Z"
+ "zaktualizowano_utc": "2026-10-15T15:06:54Z"
 }
