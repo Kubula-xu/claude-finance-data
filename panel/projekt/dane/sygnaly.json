@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-15T06:45:00Z",
+ "aktualizacja": "2026-10-15T12:55:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -17,7 +17,7 @@
     ],
     "makro": [
      "SHORT",
-     2
+     3
     ],
     "sentyment": [
      "SHORT",
@@ -27,7 +27,7 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 2,
-    "powod": "Trend spadkowy po gorącym CPI (−3%). Short z odbicia 30 120 po 15:45 (poz. 29)."
+    "powod": "Gorące CPI i PPI. Short z odbicia 30 120 po 15:45 (poz. 29)."
    },
    "setup": {
     "kierunek": "SHORT",
@@ -58,22 +58,22 @@
    "atr": 82.6,
    "agenci": {
     "technika": [
-     "NEUTRAL",
+     "SHORT",
      2
     ],
     "makro": [
      "SHORT",
-     1
+     2
     ],
     "sentyment": [
-     "LONG",
+     "NEUTRAL",
      1
     ]
    },
    "final": {
-    "kierunek": "NEUTRAL",
-    "pewnosc": 1,
-    "powod": "Odrobione CPI (4 073 → 4 161), zakres Azji 4 136–4 161. Gra w zakresie: OCO #26 short 4 159 / #27 long 4 132. PPI i sprzedaż detaliczna 14:30."
+    "kierunek": "SHORT",
+    "pewnosc": 2,
+    "powod": "PPI +1,3% m/m (vs 0,5%) i sprzedaż +0,8%: jastrzębio. #26 short 4 159 otwarta, SL na BE."
    },
    "setup": {
     "kierunek": "SHORT",
@@ -84,7 +84,7 @@
     "tp2": 4125,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "oczekuje (okno 09:00–12:00, poz. 26; OCO z #27 long 4132, SL 4119, TP 4150/4160)",
+    "status": "otwarta (wejście 11:30 PL, SL na BE 4 159, poz. 26)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Do 14:00 SL na BE albo zamknąć."
@@ -181,7 +181,7 @@
     "tp1": 94.8,
     "tp2": 95.4,
     "ryzyko_pct": 0.5,
-    "status": "oczekuje (okna 09:00–12:00 i 15:00–20:30, poz. 28)",
+    "status": "otwarta (wejście 11:30 PL, poz. 28; SL na BE po 94,40 lub przed EIA 18:00)",
     "ksiega": "intraday",
     "uwagi": "Przed EIA 18:00 SL na BE albo zamknąć."
    },
