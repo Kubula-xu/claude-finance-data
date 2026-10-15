@@ -236,7 +236,7 @@
    "stan": "zamknięta",
    "zdarzenia": [
     "15.10 10:15 PL wejście 4159",
-    "15.10 14:00 PL +1R, SL na BE 4159",
+    "15.10 13:45 PL +1R, SL na BE 4159",
     "15.10 14:30 PL BE 4159"
    ]
   },
@@ -258,5 +258,5 @@
   "rano": "2026-10-15",
   "wieczor": "2026-10-14"
  },
- "zaktualizowano_utc": "2026-10-15T17:40:49Z"
+ "zaktualizowano_utc": "2026-10-15T18:09:47Z"
 }
