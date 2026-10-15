@@ -203,6 +203,26 @@
    "status": "anulowane (niewypełnione, cena pod 4 080)",
    "sl": "4128",
    "tp": "4085 / 4070"
+  },
+  "26": {
+   "status": "oczekuje (limit, intraday 15.10, okno 09:00–12:00; OCO z #27)",
+   "sl": "4172",
+   "tp": "4137 / 4125"
+  },
+  "27": {
+   "status": "oczekuje (limit, intraday 15.10, okno 09:00–12:00; OCO z #26)",
+   "sl": "4119",
+   "tp": "4150 / 4160"
+  },
+  "28": {
+   "status": "oczekuje (limit, intraday 15.10, okna 09:00–12:00 i 15:00–20:30)",
+   "sl": "92,90",
+   "tp": "94,80 / 95,40"
+  },
+  "29": {
+   "status": "oczekuje (limit, intraday 15.10, okno 15:45–21:30)",
+   "sl": "30240",
+   "tp": "29900 / 29780"
   }
  },
  "automat": {
@@ -217,5 +237,5 @@
   "rano": "2026-10-14",
   "wieczor": "2026-10-14"
  },
- "zaktualizowano_utc": "2026-10-15T04:48:53Z"
+ "zaktualizowano_utc": "2026-10-15T05:11:12Z"
 }
