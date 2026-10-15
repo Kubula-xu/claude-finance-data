@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-14T12:55:00Z",
+ "aktualizacja": "2026-10-15T06:45:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -13,33 +13,33 @@
    "agenci": {
     "technika": [
      "SHORT",
-     2
+     3
     ],
     "makro": [
      "SHORT",
      2
     ],
     "sentyment": [
-     "NEUTRAL",
+     "SHORT",
      2
     ]
    },
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 2,
-    "powod": "CPI gorące: bazowy 0,3% m/m przy konsensusie 0,2%, r/r 2,6%. Wariant B: short z retestu P 30 763 od dołu (poz. 24). Poz. 21 anulowana."
+    "powod": "Trend spadkowy po gorącym CPI (−3%). Short z odbicia 30 120 po 15:45 (poz. 29)."
    },
    "setup": {
     "kierunek": "SHORT",
-    "typ": "limit (warunkowe)",
-    "wejscie": 30760,
-    "sl": 30860,
-    "tp1": 30610,
-    "tp2": 30510,
+    "typ": "limit",
+    "wejscie": 30120,
+    "sl": 30240,
+    "tp1": 29900,
+    "tp2": 29780,
     "ryzyko_pct": 0.25,
-    "status": "anulowane (TP1 30 610 przed wypełnieniem, poz. 24)",
+    "status": "oczekuje (okno 15:45–21:30, poz. 29)",
     "ksiega": "intraday",
-    "uwagi": "Bez warunku nie wchodzić. Anulować, jeśli TP1 30 610 padnie przed wypełnieniem lub M15 zamknie się nad H4 30 965."
+    "uwagi": "Anulować, gdy cena zejdzie pod 29 780 bez wypełnienia."
    },
    "kontrakt": {
     "nazwa": "E-mini Nasdaq 100 (NQ)",
@@ -58,28 +58,36 @@
    "atr": 82.6,
    "agenci": {
     "technika": [
-     "SHORT",
+     "NEUTRAL",
      2
     ],
     "makro": [
      "SHORT",
-     2
+     1
     ],
     "sentyment": [
-     "NEUTRAL",
-     2
+     "LONG",
+     1
     ]
    },
    "final": {
-    "kierunek": "SHORT",
+    "kierunek": "NEUTRAL",
     "pewnosc": 1,
-    "powod": "CPI gorące, spot spadł do 4 111,5 (14:37 PL), już pod TP1 wariantu B 4 125. Nie gonić; brak nowego zlecenia. Poz. 22 anulowana."
+    "powod": "Odrobione CPI (4 073 → 4 161), zakres Azji 4 136–4 161. Gra w zakresie: OCO #26 short 4 159 / #27 long 4 132. PPI i sprzedaż detaliczna 14:30."
    },
    "setup": {
-    "kierunek": "BRAK",
-    "status": "brak (wariant B nieaktualny, cena za TP1)",
+    "kierunek": "SHORT",
+    "typ": "limit",
+    "wejscie": 4159,
+    "sl": 4172,
+    "tp1": 4137,
+    "tp2": 4125,
+    "ryzyko_pct": 0.25,
+    "koszt": 0.6,
+    "status": "oczekuje (okno 09:00–12:00, poz. 26; OCO z #27 long 4132, SL 4119, TP 4150/4160)",
     "ksiega": "intraday",
-    "ceny": "spot"
+    "ceny": "spot",
+    "uwagi": "Do 14:00 SL na BE albo zamknąć."
    },
    "kontrakt": {
     "nazwa": "Gold (GC), 100 oz",
@@ -88,8 +96,8 @@
     "jedn_cfd": "oz"
    },
    "ostatnia_cena": {
-    "cena": 4111.5,
-    "czas": "2026-10-14 14:37 PL",
+    "cena": 4137.54,
+    "czas": "2026-10-15 08:33 PL",
     "zrodlo": "XAU/USD spot, Swissquote (repo claude-finance-data)"
    }
   },
@@ -153,30 +161,29 @@
     ],
     "makro": [
      "LONG",
-     3
+     2
     ],
     "sentyment": [
      "LONG",
-     3
+     2
     ]
    },
    "final": {
     "kierunek": "LONG",
-    "pewnosc": 3,
-    "powod": "Trzy dni wzrostów, wybicie nad 95,11 w nocy, Ormuz. Kupno z cofnięcia do zamknięcia 13.10 (poz. 23)."
+    "pewnosc": 2,
+    "powod": "Cofnięcie z 96 do strefy wybicia 93,6–94,15. Long z limitu 93,65 (poz. 28). EIA 18:00."
    },
    "setup": {
     "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 94.15,
-    "sl": 93.2,
-    "tp1": 95.58,
-    "tp2": 96.0,
+    "wejscie": 93.65,
+    "sl": 92.9,
+    "tp1": 94.8,
+    "tp2": 95.4,
     "ryzyko_pct": 0.5,
-    "koszt": 0.04,
-    "status": "oczekuje (limit 14.10, okna 09:00–12:00 i 15:00–20:30, poz. 23)",
+    "status": "oczekuje (okna 09:00–12:00 i 15:00–20:30, poz. 28)",
     "ksiega": "intraday",
-    "uwagi": "API 22:30 po zamknięciu, EIA w czwartek."
+    "uwagi": "Przed EIA 18:00 SL na BE albo zamknąć."
    },
    "kontrakt": {
     "nazwa": "WTI Crude (CL), 1 000 bbl",
