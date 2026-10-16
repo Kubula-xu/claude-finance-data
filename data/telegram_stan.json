@@ -38,8 +38,8 @@
    "pewnosc": 1,
    "setup": [
     "LONG",
-    95.1,
-    94.2,
+    95.4,
+    94.5,
     96.7,
     97.8
    ]
@@ -236,8 +236,8 @@
   },
   "32": {
    "status": "oczekuje (limit, intraday 16.10, okna 09:00–12:00 i 15:00–20:30)",
-   "sl": "94,20",
-   "tp": "96,70 / 97,80"
+   "sl": "94,50",
+   "tp": "96,75 / 97,65"
   },
   "33": {
    "status": "oczekuje (limit, intraday 16.10, okno 15:45–21:00)",
@@ -248,6 +248,11 @@
    "status": "oczekuje (stop, warunek M30 nad 5 870, intraday 16.10, okno 10:45–19:00)",
    "sl": "5740",
    "tp": "6000 / 6100"
+  },
+  "35": {
+   "status": "oczekuje (stop, OCO z #30, intraday 16.10, okno 09:00–12:00 i 14:00–20:00)",
+   "sl": "4174",
+   "tp": "4209 / 4223"
   }
  },
  "automat": {
@@ -262,5 +267,5 @@
   "rano": "2026-10-15",
   "wieczor": "2026-10-15"
  },
- "zaktualizowano_utc": "2026-10-16T05:28:05Z"
+ "zaktualizowano_utc": "2026-10-16T05:32:01Z"
 }
