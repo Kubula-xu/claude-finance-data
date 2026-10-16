@@ -262,10 +262,11 @@
  },
  "automat": {
   "32": {
-   "stan": "otwarta",
+   "stan": "zamknięta",
    "zdarzenia": [
     "16.10 10:15 PL wejście 95.4",
-    "16.10 13:30 PL +1R, SL na BE 95.4"
+    "16.10 13:30 PL +1R, SL na BE 95.4",
+    "16.10 16:15 PL BE 95.4"
    ]
   },
   "33": {
@@ -277,5 +278,5 @@
   "rano": "2026-10-16",
   "wieczor": "2026-10-15"
  },
- "zaktualizowano_utc": "2026-10-16T14:05:23Z"
+ "zaktualizowano_utc": "2026-10-16T14:45:23Z"
 }
