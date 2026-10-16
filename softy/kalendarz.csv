@@ -1,0 +1,13 @@
+data,godzina_pl,rynek,wydarzenie,waga,uwagi
+2026-10-19,10:15,oba,Otwarcie tygodnia na ICE po wybiciu kawy nad 304 (16.10) i obniżonych szczytach kakao,wysoka,kontekst
+2026-10-26,,oba,"Tydzień przesunięcia czasu (PL zimowy, USA letni do 1.11): ICE US softs otwierają o godzinę wcześniej czasu PL (kawa 09:15, kakao 09:45)",wysoka,sprawdzić komunikaty ICE „temporary changes … DST”
+2026-10-28,19:00,oba,FOMC (decyzja Fed; przez USD i nastrój ryzyka),średnia,godzina w tygodniu przesunięcia
+2026-11-06,,oba,Okno rolowania indeksów towarowych (GSCI/BCOM roll grudzień → marzec, 5.-9. dzień roboczy listopada),średnia,data orientacyjna
+2026-11-12,,kawa,Cecafé: eksport kawy z Brazylii za październik,średnia,data orientacyjna (zwykle około połowy miesiąca)
+2026-11-16,,kakao,First Notice Day kakao XII (CCZ26) wg reguły ICE (10 dni rob. przed 1. dniem rob. miesiąca),średnia,sprawdzić w kalendarzu ICE; przejście na marzec
+2026-11-19,,kawa,First Notice Day kawy XII (KCZ26) wg reguły ICE (7 dni rob. przed 1. dniem rob. miesiąca),średnia,sprawdzić w kalendarzu ICE; przejście na marzec
+2026-11-30,,kakao,ICCO Quarterly Bulletin of Cocoa Statistics (rewizja bilansu 2025/26 i 2026/27),średnia,data orientacyjna (koniec XI / początek XII)
+2026-12-10,,kawa,CONAB: 4. szacunek zbiorów kawy w Brazylii 2026,wysoka,data orientacyjna
+2026-12-17,18:00,kawa,USDA FAS: Coffee World Markets and Trade (bilans 2026/27),wysoka,data orientacyjna
+2026-12-30,,oba,Start stosowania EUDR (kakao i kawa wchodzące do UE),średnia,
+2027-01-14,08:00,kakao,"Przemiał kakao Q4: Europa (ECA) 08:00, Azja (CAA) ok. 10:00, Ameryka Płn. (NCA) wieczorem",wysoka,data orientacyjna

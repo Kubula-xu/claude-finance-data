@@ -25,6 +25,8 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python fetch_prices.py
+      - name: Analiza kawy i kakao
+        run: python softy/analiza.py || echo "analiza softów nie zadziałała"
       - name: Pilnowanie zleceń z dziennika
         run: python panel/wypelnienia.py || echo "pilnowanie zleceń nie zadziałało"
       - name: Powiadomienia Telegram
