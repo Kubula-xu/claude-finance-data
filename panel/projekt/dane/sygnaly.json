@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-15T12:55:00Z",
+ "aktualizacja": "2026-10-16T05:40:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -12,34 +12,34 @@
    "atr": 443,
    "agenci": {
     "technika": [
-     "SHORT",
-     3
+     "NEUTRAL",
+     2
     ],
     "makro": [
-     "SHORT",
-     3
+     "LONG",
+     1
     ],
     "sentyment": [
-     "SHORT",
+     "LONG",
      2
     ]
    },
    "final": {
-    "kierunek": "SHORT",
-    "pewnosc": 2,
-    "powod": "Gorące CPI i PPI. Short z odbicia 30 120 po 15:45 (poz. 29)."
+    "kierunek": "LONG",
+    "pewnosc": 1,
+    "powod": "Odbicie po Warshu. Long z cofnięcia 30 060 po 15:45 (poz. 33)."
    },
    "setup": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 30120,
-    "sl": 30240,
-    "tp1": 29900,
-    "tp2": 29780,
+    "wejscie": 30060,
+    "sl": 29940,
+    "tp1": 30240,
+    "tp2": 30360,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje (okno 15:45–21:30, poz. 29)",
+    "status": "oczekuje (poz. 33)",
     "ksiega": "intraday",
-    "uwagi": "Anulować, gdy cena zejdzie pod 29 780 bez wypełnienia."
+    "uwagi": "Piątek: zamknąć do 21:00."
    },
    "kontrakt": {
     "nazwa": "E-mini Nasdaq 100 (NQ)",
@@ -58,36 +58,36 @@
    "atr": 82.6,
    "agenci": {
     "technika": [
-     "SHORT",
+     "LONG",
      2
     ],
     "makro": [
-     "SHORT",
+     "LONG",
      2
     ],
     "sentyment": [
-     "NEUTRAL",
-     1
+     "LONG",
+     2
     ]
    },
    "final": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "pewnosc": 2,
-    "powod": "PPI +1,3% m/m (vs 0,5%) i sprzedaż +0,8%: jastrzębio. #26 short 4 159 otwarta, SL na BE."
+    "powod": "Warsh bez sygnału podwyżki, spadek rentowności i dolara. Long z cofnięcia 4 160 (poz. 30)."
    },
    "setup": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 4159,
-    "sl": 4172,
-    "tp1": 4137,
-    "tp2": 4125,
-    "ryzyko_pct": 0.25,
+    "wejscie": 4160,
+    "sl": 4146,
+    "tp1": 4184,
+    "tp2": 4200,
+    "ryzyko_pct": 0.5,
     "koszt": 0.6,
-    "status": "otwarta (wejście 11:30 PL, SL na BE 4 159, poz. 26)",
+    "status": "oczekuje (poz. 30)",
     "ksiega": "intraday",
     "ceny": "spot",
-    "uwagi": "Do 14:00 SL na BE albo zamknąć."
+    "uwagi": "Piątek: zamknąć do 21:00."
    },
    "kontrakt": {
     "nazwa": "Gold (GC), 100 oz",
@@ -111,33 +111,35 @@
    "atr": 2.06,
    "agenci": {
     "technika": [
-     "NEUTRAL",
+     "LONG",
      2
     ],
     "makro": [
-     "NEUTRAL",
-     2
+     "LONG",
+     1
     ],
     "sentyment": [
-     "NEUTRAL",
-     2
+     "LONG",
+     1
     ]
    },
    "final": {
-    "kierunek": "BRAK",
+    "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Wszyscy neutralni, każdy kierunek dublowałby złoto."
+    "powod": "Za złotem, poz. 31."
    },
    "setup": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 62.3,
-    "sl": 64.4,
+    "wejscie": 57.4,
+    "sl": 56.95,
     "tp1": 58.1,
-    "tp2": 56.0,
-    "ryzyko_pct": null,
-    "status": "brak zlecenia (14.10 rano)",
-    "uwagi": "Ponowna ocena, jeśli makro lub sentyment przejdą na SHORT."
+    "tp2": 58.5,
+    "ryzyko_pct": 0.25,
+    "status": "oczekuje (poz. 31)",
+    "ksiega": "intraday",
+    "ceny": "spot",
+    "uwagi": "Piątek: zamknąć do 21:00."
    },
    "kontrakt": {
     "nazwa": "Silver (SI), 5 000 oz",
@@ -157,33 +159,33 @@
    "agenci": {
     "technika": [
      "LONG",
-     2
+     1
     ],
     "makro": [
      "LONG",
      2
     ],
     "sentyment": [
-     "LONG",
+     "NEUTRAL",
      2
     ]
    },
    "final": {
     "kierunek": "LONG",
-    "pewnosc": 2,
-    "powod": "Cofnięcie z 96 do strefy wybicia 93,6–94,15. Long z limitu 93,65 (poz. 28). EIA 18:00."
+    "pewnosc": 1,
+    "powod": "Duży spadek zapasów EIA kontra doniesienia o złagodzeniu sankcji. Long z cofnięcia 95,10 (poz. 32)."
    },
    "setup": {
     "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 93.65,
-    "sl": 92.9,
-    "tp1": 94.8,
-    "tp2": 95.4,
-    "ryzyko_pct": 0.5,
-    "status": "otwarta (wejście 11:30 PL, poz. 28; SL na BE po 94,40 lub przed EIA 18:00)",
+    "wejscie": 95.1,
+    "sl": 94.2,
+    "tp1": 96.7,
+    "tp2": 97.8,
+    "ryzyko_pct": 0.25,
+    "status": "oczekuje (poz. 32)",
     "ksiega": "intraday",
-    "uwagi": "Przed EIA 18:00 SL na BE albo zamknąć."
+    "uwagi": "Piątek: zamknąć do 21:00."
    },
    "kontrakt": {
     "nazwa": "WTI Crude (CL), 1 000 bbl",
@@ -300,31 +302,30 @@
      2
     ],
     "makro": [
-     "NEUTRAL",
-     1
+     "LONG",
+     2
     ],
     "sentyment": [
-     "NEUTRAL",
+     "LONG",
      1
     ]
    },
    "final": {
-    "kierunek": "BRAK",
+    "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Przemiał Q3 jutro 15.10, bez pozycji przed danymi."
+    "powod": "Mocny przemiał Q3. Long tylko po wybiciu nad 5 870 (poz. 34)."
    },
    "setup": {
     "kierunek": "LONG",
-    "typ": "limit",
-    "wejscie": 5290,
-    "sl": 4960,
-    "tp1": 5900,
-    "tp2": 6000,
+    "typ": "stop",
+    "wejscie": 5880,
+    "sl": 5740,
+    "tp1": 6000,
+    "tp2": 6100,
     "ryzyko_pct": 0.25,
-    "koszt": 30,
-    "status": "anulowana 12.10 (cena 5 750, 1,6× ATR D1 od limitu)",
-    "ksiega": "swing",
-    "uwagi": "Przed przemiałem 15.10: SL na BE (5 620) albo połowa pozycji."
+    "status": "oczekuje (poz. 34)",
+    "ksiega": "intraday",
+    "uwagi": "Połowa wielkości, zamknąć do 19:00."
    },
    "kontrakt": {
     "nazwa": "Cocoa (CC), 10 t",
