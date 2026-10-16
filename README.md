@@ -59,3 +59,17 @@ Polecenia w czacie z botem (odpowiada tylko na czat `TELEGRAM_CHAT_ID`; workflow
 | `/pomoc` | lista poleceń |
 
 Test: Actions → „Telegram” → Run workflow → `test` albo `podsumowanie`. Podgląd odpowiedzi lokalnie: `python3 panel/telegram.py --sucho /rynek zloto`.
+
+## Kawa i kakao (softy)
+
+Osobna warstwa danych i analizy dla kawy (KC) i kakao (CC), bo na tych rynkach sama cena nie wystarcza.
+
+- Workflow „Softy (kawa i kakao)” (`.github/workflows/softy.yml`, pn–pt 06:20 i 18:10 UTC, pt 20:00 UTC po COT, nd 21:00 UTC) uruchamia `softy/fetch_softy.py` i zapisuje do `data/softy/`:
+  - `cot.csv`: CFTC Disaggregated, managed money / producenci / swap dealerzy / OI, ok. 4 lata,
+  - `pogoda.json`: opad 30 dni wstecz i 16 dni prognozy jako % normy z 15 lat (Open-Meteo) dla regionów: Sul de Minas, Cerrado, Mogiana, Espírito Santo, Central Highlands (kawa); Soubré, Daloa, San-Pédro, Ashanti, Western North, Los Ríos (kakao),
+  - `krzywa.json`: kolejne kontrakty (np. KCZ26/KCH27) i spread pierwszy–drugi (backwardation = ciasny rynek),
+  - `fx_brl_1d.csv`, `fx_gbp_1d.csv`, `fx_eur_1d.csv`; `<coffee|cocoa>_dlugie_1d.csv` (od 2000 r., do sezonowości),
+  - `zapasy_ice.csv`: zapasy certyfikowane z raportów ICE (best-effort); wpisy z newsów idą do `softy/zapasy_reczne.csv`,
+  - `status.json`: co się udało, błędy i ostatni sukces każdego źródła.
+- `softy/analiza.py` (bez sieci; liczy go też workflow „Ceny Yahoo” co 15 min) pisze `data/softy/analiza.json` i `analiza.md`: reżim rynku (zakres / trend / wybicie, nieudane wybicia), poziomy (swingi D1, pivoty, okrągłe), czynniki z jawnymi wagami (technika, COT, pogoda, krzywa, zapasy, BRL, sezonowość), plan wejść na oba kierunki jako pary OCO (limit z cofnięcia + stop z kontynuacji, wielkość wg ryzyko.md 10a), kontrolę wiszących zleceń z dziennika (odległość w ATR) i alerty (zmiana reżimu → `rezim_log.csv`).
+- `softy/kalendarz.csv`: wydarzenia softów (FND, grind, CONAB, USDA, ICCO, Cecafé, zmiana czasu); COT w piątki i przybycia kakao w poniedziałki dopisują się same.
