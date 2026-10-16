@@ -280,13 +280,15 @@
    "zdarzenia": []
   },
   "35": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "otwarta",
+   "zdarzenia": [
+    "16.10 09:00 PL wejście 4188"
+   ]
   }
  },
  "podsumowanie": {
   "rano": "2026-10-16",
   "wieczor": "2026-10-15"
  },
- "zaktualizowano_utc": "2026-10-16T07:15:28Z"
+ "zaktualizowano_utc": "2026-10-16T07:53:58Z"
 }
