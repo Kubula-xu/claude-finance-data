@@ -115,7 +115,7 @@
    "tp": "4116 / 4093"
   },
   "8": {
-   "status": "otwarta (swing, wejście 13.10 ok. 10:15 PL)",
+   "status": "zamknięta (SL, 16.10 10:15–10:30 PL)",
    "sl": "303,50",
    "tp": "272,00 / 270,00"
   },
@@ -225,7 +225,7 @@
    "tp": "29900 / 29780"
   },
   "30": {
-   "status": "oczekuje (limit, intraday 16.10, okna 09:00–12:00 i 14:00–20:00)",
+   "status": "anulowane (OCO: weszło #35)",
    "sl": "4146",
    "tp": "4184 / 4200"
   },
@@ -235,7 +235,7 @@
    "tp": "58,10 / 58,50"
   },
   "32": {
-   "status": "oczekuje (limit, intraday 16.10, okna 09:00–12:00 i 15:00–20:30)",
+   "status": "otwarta (wejście 16.10 10:15 PL, SL na BE 95,40 od 13:30 PL po +1R)",
    "sl": "94,50",
    "tp": "96,75 / 97,65"
   },
@@ -250,12 +250,12 @@
    "tp": "5920 / 5980"
   },
   "35": {
-   "status": "oczekuje (stop, OCO z #30, intraday 16.10, okno 09:00–12:00 i 14:00–20:00)",
+   "status": "zamknięta (stop czasowy, 16.10 12:00 PL)",
    "sl": "4174",
    "tp": "4209 / 4223"
   },
   "36": {
-   "status": "oczekuje (limit, intraday 16.10, okno 10:30–19:00)",
+   "status": "zamknięta (SL, 16.10 11:00 PL)",
    "sl": "308,3",
    "tp": "293,8 / 288,0"
   }
@@ -295,5 +295,5 @@
   "rano": "2026-10-16",
   "wieczor": "2026-10-15"
  },
- "zaktualizowano_utc": "2026-10-16T12:34:34Z"
+ "zaktualizowano_utc": "2026-10-16T12:52:30Z"
 }
