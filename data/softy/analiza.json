@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-16T20:05:17Z",
- "wygenerowano_pl": "2026-10-16 22:05 PL",
+ "wygenerowano_utc": "2026-10-16T20:16:09Z",
+ "wygenerowano_pl": "2026-10-16 22:16 PL",
  "kapital_usd": 10246316.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -149,44 +149,44 @@
     {
      "czynnik": "COT",
      "wynik": 1.0,
-     "opis": "fundusze net +19,036, 8. percentyl 3 lat: tłoczno w shortach, paliwo do squeeze",
+     "opis": "fundusze net +15,270, 3. percentyl 3 lat: tłoczno w shortach, paliwo do squeeze",
      "dane": {
-      "raport": "2026-10-06",
-      "mm_net": 19036,
-      "zmiana_1t": 2830,
-      "zmiana_4t": -3073,
-      "percentyl_3l": 8,
-      "oi": 162806.0
+      "raport": "2026-10-13",
+      "mm_net": 15270,
+      "zmiana_1t": -3766,
+      "zmiana_4t": -5391,
+      "percentyl_3l": 3,
+      "oi": 163626.0
      }
     },
     {
      "czynnik": "Pogoda",
      "wynik": -1.0,
-     "opis": "opad 30 dni 160% normy, prognoza 16 dni 160% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027",
+     "opis": "opad 30 dni 160% normy, prognoza 16 dni 187% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027",
      "dane": {
       "proc_normy_30d": 160,
-      "proc_normy_16d": 160,
-      "aktualizacja": "2026-10-16T19:28:51Z",
+      "proc_normy_16d": 187,
+      "aktualizacja": "2026-10-16T20:15:12Z",
       "regiony": {
        "sul_de_minas": [
         246,
-        194
+        279
        ],
        "cerrado": [
         131,
-        178
+        248
        ],
        "mogiana": [
         159,
-        169
+        160
        ],
        "espirito_santo": [
         123,
-        241
+        152
        ],
        "wietnam": [
         87,
-        25
+        33
        ]
       }
      }
@@ -250,10 +250,10 @@
     {
      "czynnik": "BRL",
      "wynik": 0.0,
-     "opis": "USD/BRL 5.076, 5 sesji +1.2%",
+     "opis": "USD/BRL 5.067, 5 sesji +1.0%",
      "dane": {
-      "usdbrl": 5.0757,
-      "zmiana_5d_proc": 1.16
+      "usdbrl": 5.067,
+      "zmiana_5d_proc": 0.98
      }
     },
     {
@@ -500,49 +500,49 @@
     },
     {
      "czynnik": "COT",
-     "wynik": -0.5,
-     "opis": "fundusze net -11,052 (12. percentyl 3 lat), zmiana 4 tyg. -2,295: pozycjonowanie bez skrajności, liczy się kierunek przepływu",
+     "wynik": 1.0,
+     "opis": "fundusze net -11,921, 9. percentyl 3 lat: tłoczno w shortach, paliwo do squeeze",
      "dane": {
-      "raport": "2026-10-06",
-      "mm_net": -11052,
-      "zmiana_1t": 4970,
-      "zmiana_4t": -2295,
-      "percentyl_3l": 12,
-      "oi": 179765.0
+      "raport": "2026-10-13",
+      "mm_net": -11921,
+      "zmiana_1t": -869,
+      "zmiana_4t": -2382,
+      "percentyl_3l": 9,
+      "oi": 179733.0
      }
     },
     {
      "czynnik": "Pogoda",
      "wynik": 0.5,
-     "opis": "opad 30 dni 142% normy, prognoza 16 dni 236% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie)",
+     "opis": "opad 30 dni 142% normy, prognoza 16 dni 195% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie)",
      "dane": {
       "proc_normy_30d": 142,
-      "proc_normy_16d": 236,
-      "aktualizacja": "2026-10-16T19:28:51Z",
+      "proc_normy_16d": 195,
+      "aktualizacja": "2026-10-16T20:15:12Z",
       "regiony": {
        "soubre": [
         96,
-        124
+        110
        ],
        "daloa": [
         108,
-        102
+        91
        ],
        "san_pedro": [
         28,
-        62
+        36
        ],
        "ashanti": [
         82,
-        144
+        107
        ],
        "western_north": [
         76,
-        119
+        136
        ],
        "los_rios": [
         461,
-        922
+        740
        ]
       }
      }
@@ -588,8 +588,8 @@
     },
     {
      "czynnik": "Zapasy ICE",
-     "wynik": 0,
-     "opis": "ostatni odczyt 3593964 (2026-10-16, ICE xls (automat)), za mało historii na trend",
+     "wynik": 0.0,
+     "opis": "3,593,964 (2026-10-16), zmiana od 2026-10-15: +0.2%",
      "dane": {
       "ostatnie": {
        "data": "2026-10-16",
@@ -598,7 +598,9 @@
        "jednostka": "worki/tony wg raportu ICE",
        "zrodlo": "ICE xls (automat)",
        "uwagi": "grand total: 3593964"
-      }
+      },
+      "zmiana_proc": 0.2,
+      "od": "2026-10-15"
      }
     },
     {
@@ -613,9 +615,9 @@
      }
     }
    ],
-   "suma": 0.0,
+   "suma": 1.5,
    "bias": "NEUTRAL",
-   "pewnosc": 1,
+   "pewnosc": 2,
    "brak_danych": [],
    "plan": [
     {
@@ -789,23 +791,23 @@
   }
  ],
  "status_danych": {
-  "uruchomiono_utc": "2026-10-16T19:28:51Z",
+  "uruchomiono_utc": "2026-10-16T20:15:12Z",
   "bledy": {},
   "ok": {
-   "cot": "416 wierszy, ostatni raport 2026-10-06, źródło publicreporting.cftc.gov (72hh-3qpy)",
+   "cot": "418 wierszy, ostatni raport 2026-10-13, źródło publicreporting.cftc.gov (72hh-3qpy)",
    "pogoda": "11 regionów",
    "krzywa": "kawa: 4 kontr., kakao: 4 kontr.",
    "fx": "brl, gbp, eur",
-   "dlugie": "coffee, cocoa",
-   "ice": "kawa 2026-10-16, kakao 2026-10-16"
+   "dlugie": "coffee (świeże), cocoa (świeże)",
+   "ice": "kawa 2026-10-15, kakao 2026-10-15"
   },
   "ostatni_sukces_utc": {
-   "cot": "2026-10-16T19:28:51Z",
-   "pogoda": "2026-10-16T19:28:51Z",
-   "krzywa": "2026-10-16T19:28:51Z",
-   "fx": "2026-10-16T19:28:51Z",
-   "dlugie": "2026-10-16T19:28:51Z",
-   "ice": "2026-10-16T19:28:51Z"
+   "cot": "2026-10-16T20:15:12Z",
+   "pogoda": "2026-10-16T20:15:12Z",
+   "krzywa": "2026-10-16T20:15:12Z",
+   "fx": "2026-10-16T20:15:12Z",
+   "dlugie": "2026-10-16T20:15:12Z",
+   "ice": "2026-10-16T20:15:12Z"
   }
  },
  "alerty": [
