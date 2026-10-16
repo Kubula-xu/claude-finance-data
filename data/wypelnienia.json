@@ -1,33 +1,7 @@
 {
- "zaktualizowano_utc": "2026-10-16T12:34:34Z",
+ "zaktualizowano_utc": "2026-10-16T13:21:15Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
-  "8": {
-   "nr": "8",
-   "instrument": "Kawa US",
-   "kierunek": -1,
-   "klucz_cen": "coffee",
-   "zdarzenia": [
-    "13.10 10:15 PL wejście 292",
-    "16.10 10:15 PL SL 303.5"
-   ],
-   "stan": "zamknięta",
-   "pozostalo": 0,
-   "sl_teraz": 303.5,
-   "czas_wejscia": "2026-10-13T08:15Z",
-   "cena_wyjscia_srednia": 303.5,
-   "wynik_pkt_zrealizowany": -11.5
-  },
-  "30": {
-   "nr": "30",
-   "instrument": "Złoto (XAUUSD spot)",
-   "kierunek": 1,
-   "klucz_cen": "xauusd",
-   "zdarzenia": [],
-   "stan": "oczekuje",
-   "pozostalo": 1.0,
-   "sl_teraz": 4146.0
-  },
   "32": {
    "nr": "32",
    "instrument": "Ropa WTI",
@@ -51,22 +25,6 @@
    "stan": "oczekuje",
    "pozostalo": 1.0,
    "sl_teraz": 29940.0
-  },
-  "35": {
-   "nr": "35",
-   "instrument": "Złoto (XAUUSD spot)",
-   "kierunek": 1,
-   "klucz_cen": "xauusd",
-   "zdarzenia": [
-    "16.10 09:00 PL wejście 4188",
-    "16.10 13:00 PL SL 4174"
-   ],
-   "stan": "zamknięta",
-   "pozostalo": 0,
-   "sl_teraz": 4174.0,
-   "czas_wejscia": "2026-10-16T07:00Z",
-   "cena_wyjscia_srednia": 4174.0,
-   "wynik_pkt_zrealizowany": -14.0
   }
  }
 }

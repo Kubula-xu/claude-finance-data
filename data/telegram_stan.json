@@ -261,17 +261,6 @@
   }
  },
  "automat": {
-  "8": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "13.10 10:15 PL wejście 292",
-    "16.10 10:15 PL SL 303.5"
-   ]
-  },
-  "30": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  },
   "32": {
    "stan": "otwarta",
    "zdarzenia": [
@@ -282,18 +271,11 @@
   "33": {
    "stan": "oczekuje",
    "zdarzenia": []
-  },
-  "35": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "16.10 09:00 PL wejście 4188",
-    "16.10 13:00 PL SL 4174"
-   ]
   }
  },
  "podsumowanie": {
   "rano": "2026-10-16",
   "wieczor": "2026-10-15"
  },
- "zaktualizowano_utc": "2026-10-16T12:52:30Z"
+ "zaktualizowano_utc": "2026-10-16T13:21:15Z"
 }
