@@ -275,7 +275,8 @@
   "32": {
    "stan": "otwarta",
    "zdarzenia": [
-    "16.10 10:15 PL wejście 95.4"
+    "16.10 10:15 PL wejście 95.4",
+    "16.10 13:30 PL +1R, SL na BE 95.4"
    ]
   },
   "33": {
@@ -283,9 +284,10 @@
    "zdarzenia": []
   },
   "35": {
-   "stan": "otwarta",
+   "stan": "zamknięta",
    "zdarzenia": [
-    "16.10 09:00 PL wejście 4188"
+    "16.10 09:00 PL wejście 4188",
+    "16.10 13:00 PL SL 4174"
    ]
   }
  },
@@ -293,5 +295,5 @@
   "rano": "2026-10-16",
   "wieczor": "2026-10-15"
  },
- "zaktualizowano_utc": "2026-10-16T11:22:50Z"
+ "zaktualizowano_utc": "2026-10-16T11:58:16Z"
 }
