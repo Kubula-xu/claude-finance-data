@@ -1,0 +1,818 @@
+{
+ "wygenerowano_utc": "2026-10-16T19:34:18Z",
+ "wygenerowano_pl": "2026-10-16 21:34 PL",
+ "kapital_usd": 10246316.0,
+ "parametry": {
+  "MAX_LIMIT_ATR": 0.75,
+  "FRONTRUN_ATR": 0.1,
+  "STOP_BUFOR_ATR": 0.1,
+  "RANGE_SL_ATR": 0.3
+ },
+ "rynki": {
+  "kawa": {
+   "jednostka": "c/lb",
+   "kontrakt": "KC (37 500 lb)",
+   "sesja_ice_pl": "10:15-19:30",
+   "kontekst": {
+    "cena": 305.549988,
+    "czas_notowania_utc": "2026-10-16T17:15:00Z",
+    "sesja_w_trakcie": false,
+    "atr_d1": 10.4,
+    "atr_h1_sesja": 3.14,
+    "zakres_dzis_proc_atr": null,
+    "vwap_dzis": null,
+    "ostatnia_sesja": {
+     "data": "2026-10-16",
+     "o": 299.25,
+     "h": 311.200012,
+     "l": 298.350006,
+     "c": 305.549988
+    },
+    "zmiana_5s_proc": 6.48,
+    "zmiana_20s_proc": 3.73
+   },
+   "rezim": {
+    "typ": "zakres",
+    "kierunek": "NEUTRAL",
+    "opis": "ADX 20, cena w zakresie 10 sesji 283.50-308.35; nieudane wybicie górą (311.20 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście",
+    "adx": 20.2,
+    "di_plus": 31.6,
+    "di_minus": 19.4,
+    "ema20": 295.88,
+    "ema50": 304.93,
+    "sma100": 308.09,
+    "sma200": 308.43,
+    "zakres_gora": 308.35,
+    "zakres_dol": 283.5,
+    "zakres20_gora": 308.35,
+    "zakres20_dol": 269.75,
+    "pozycja_w_zakresie_proc": 89,
+    "zmiennosc_20d_roczna_proc": 37.9
+   },
+   "poziomy": {
+    "opory": [
+     {
+      "sila": 3,
+      "ostatnio": "2026-10-07",
+      "poziom": 308.2,
+      "zrodlo": "swing D1 ×3, ostatnio 2026-10-07",
+      "odleglosc_atr": 0.25
+     },
+     {
+      "poziom": 311.2,
+      "sila": 2,
+      "zrodlo": "szczyt 5 sesji",
+      "odleglosc_atr": 0.54
+     },
+     {
+      "poziom": 311.72,
+      "sila": 1,
+      "zrodlo": "R1",
+      "odleglosc_atr": 0.59
+     },
+     {
+      "sila": 2,
+      "ostatnio": "2026-10-16",
+      "poziom": 312.5,
+      "zrodlo": "swing D1 ×2, ostatnio 2026-10-16",
+      "odleglosc_atr": 0.67
+     },
+     {
+      "poziom": 317.88,
+      "sila": 1,
+      "zrodlo": "R2",
+      "odleglosc_atr": 1.19
+     },
+     {
+      "sila": 4,
+      "ostatnio": "2026-08-06",
+      "poziom": 318.3,
+      "zrodlo": "swing D1 ×4, ostatnio 2026-08-06",
+      "odleglosc_atr": 1.23
+     }
+    ],
+    "wsparcia": [
+     {
+      "sila": 1,
+      "ostatnio": "2026-05-13",
+      "poziom": 300.0,
+      "zrodlo": "swing D1 ×1, ostatnio 2026-05-13",
+      "odleglosc_atr": -0.53
+     },
+     {
+      "poziom": 300,
+      "sila": 1,
+      "zrodlo": "okrągły poziom",
+      "odleglosc_atr": -0.53
+     },
+     {
+      "poziom": 298.87,
+      "sila": 1,
+      "zrodlo": "S1",
+      "odleglosc_atr": -0.64
+     },
+     {
+      "sila": 4,
+      "ostatnio": "2026-10-16",
+      "poziom": 297.97,
+      "zrodlo": "swing D1 ×4, ostatnio 2026-10-16",
+      "odleglosc_atr": -0.73
+     },
+     {
+      "poziom": 292.18,
+      "sila": 1,
+      "zrodlo": "S2",
+      "odleglosc_atr": -1.29
+     },
+     {
+      "poziom": 290,
+      "sila": 1,
+      "zrodlo": "okrągły poziom",
+      "odleglosc_atr": -1.49
+     }
+    ],
+    "pivoty": {
+     "P": 305.03,
+     "R1": 311.72,
+     "S1": 298.87,
+     "R2": 317.88,
+     "S2": 292.18
+    },
+    "baza_pivotow": "2026-10-16"
+   },
+   "czynniki": [
+    {
+     "czynnik": "Technika (reżim)",
+     "wynik": 0.0,
+     "opis": "ADX 20, cena w zakresie 10 sesji 283.50-308.35; nieudane wybicie górą (311.20 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście"
+    },
+    {
+     "czynnik": "COT",
+     "wynik": 1.0,
+     "opis": "fundusze net +19,036, 8. percentyl 3 lat: tłoczno w shortach, paliwo do squeeze",
+     "dane": {
+      "raport": "2026-10-06",
+      "mm_net": 19036,
+      "zmiana_1t": 2830,
+      "zmiana_4t": -3073,
+      "percentyl_3l": 8,
+      "oi": 162806.0
+     }
+    },
+    {
+     "czynnik": "Pogoda",
+     "wynik": -1.0,
+     "opis": "opad 30 dni 160% normy, prognoza 16 dni 160% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027",
+     "dane": {
+      "proc_normy_30d": 160,
+      "proc_normy_16d": 160,
+      "aktualizacja": "2026-10-16T19:28:51Z",
+      "regiony": {
+       "sul_de_minas": [
+        246,
+        194
+       ],
+       "cerrado": [
+        131,
+        178
+       ],
+       "mogiana": [
+        159,
+        169
+       ],
+       "espirito_santo": [
+        123,
+        241
+       ],
+       "wietnam": [
+        87,
+        25
+       ]
+      }
+     }
+    },
+    {
+     "czynnik": "Krzywa",
+     "wynik": 1.0,
+     "opis": "KCZ26.NYB vs KCH27.NYB: +3.72%, 5 dni temu +2.91%, backwardation (ciasno w bieżącej dostawie)",
+     "dane": {
+      "spread_proc": 3.72,
+      "spread_proc_5d": 2.91,
+      "kontrakty": [
+       {
+        "symbol": "KCZ26.NYB",
+        "miesiac": "2026-12",
+        "cena": 305.55,
+        "data": "2026-10-16",
+        "cena_5d_temu": 304.45
+       },
+       {
+        "symbol": "KCH27.NYB",
+        "miesiac": "2027-03",
+        "cena": 294.6,
+        "data": "2026-10-16",
+        "cena_5d_temu": 295.85
+       },
+       {
+        "symbol": "KCK27.NYB",
+        "miesiac": "2027-05",
+        "cena": 290.6,
+        "data": "2026-10-16",
+        "cena_5d_temu": 292.5
+       },
+       {
+        "symbol": "KCN27.NYB",
+        "miesiac": "2027-07",
+        "cena": 287.5,
+        "data": "2026-10-16",
+        "cena_5d_temu": 289.95
+       }
+      ]
+     }
+    },
+    {
+     "czynnik": "Zapasy ICE",
+     "wynik": -1.0,
+     "opis": "240,767 (2026-10-16), zmiana od 2026-09-30: +10.0%: rosną, presja na bieżący kontrakt",
+     "dane": {
+      "ostatnie": {
+       "data": "2026-10-16",
+       "rynek": "kawa",
+       "zapasy": "240767",
+       "jednostka": "worki 60 kg",
+       "zrodlo": "ICE xls (automat)",
+       "uwagi": "total in bags 187994 0 7447 33708 6182 4546 890 0 240767"
+      },
+      "zmiana_proc": 10.0,
+      "od": "2026-09-30"
+     }
+    },
+    {
+     "czynnik": "BRL",
+     "wynik": 0.0,
+     "opis": "USD/BRL 5.076, 5 sesji +1.2%",
+     "dane": {
+      "usdbrl": 5.0757,
+      "zmiana_5d_proc": 1.16
+     }
+    },
+    {
+     "czynnik": "Sezonowość",
+     "wynik": 0.0,
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana -1.3%, wzrost w 46% lat",
+     "dane": {
+      "lata": 26,
+      "srednia_proc": -0.41,
+      "mediana_proc": -1.3,
+      "proc_lat_wzrost": 46
+     }
+    }
+   ],
+   "suma": 0.0,
+   "bias": "NEUTRAL",
+   "pewnosc": 1,
+   "brak_danych": [],
+   "plan": [
+    {
+     "kierunek": "LONG",
+     "zgodny_z_rezimem": true,
+     "nogi": [
+      {
+       "kierunek": "LONG",
+       "typ": "limit",
+       "wejscie": 284.54,
+       "sl": 274.14,
+       "tp1": 307.31,
+       "tp2": 315.75,
+       "r_pkt": 10.4,
+       "r_atr": 1.0,
+       "rr_tp1_netto": 1.82,
+       "odleglosc_atr": -2.02,
+       "kontrakty": 11.6,
+       "ryzyko_usd": 51232,
+       "uzasadnienie": "granica zakresu 283.50 (10 sesji), TP1 przed przeciwną granicą",
+       "uwagi": [
+        "limit 2.02× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop"
+       ]
+      },
+      {
+       "kierunek": "LONG",
+       "typ": "stop",
+       "wejscie": 309.39,
+       "sl": 288.58,
+       "tp1": 351.0,
+       "tp2": 371.81,
+       "r_pkt": 20.81,
+       "r_atr": 2.0,
+       "rr_tp1_netto": 1.82,
+       "odleglosc_atr": 0.37,
+       "kontrakty": 6.2,
+       "ryzyko_usd": 51232,
+       "uzasadnienie": "wybicie zakresu za 308.35: zmiana reżimu, wejście z kontynuacji",
+       "uwagi": [
+        "silny poziom 312.5 przed TP1: rozważyć częściowe wyjście przed nim"
+       ]
+      }
+     ],
+     "zasada": "obie nogi jako OCO; anulować, gdy D1 zamknie się za SL nogi limit; przeliczyć codziennie przed otwarciem ICE"
+    },
+    {
+     "kierunek": "SHORT",
+     "zgodny_z_rezimem": true,
+     "nogi": [
+      {
+       "kierunek": "SHORT",
+       "typ": "limit",
+       "wejscie": 307.31,
+       "sl": 317.71,
+       "tp1": 284.54,
+       "tp2": 276.1,
+       "r_pkt": 10.4,
+       "r_atr": 1.0,
+       "rr_tp1_netto": 1.82,
+       "odleglosc_atr": 0.17,
+       "kontrakty": 11.6,
+       "ryzyko_usd": 51232,
+       "uzasadnienie": "granica zakresu 308.35 (10 sesji), TP1 przed przeciwną granicą",
+       "uwagi": [
+        "silny poziom 297.97 przed TP1: rozważyć częściowe wyjście przed nim"
+       ]
+      },
+      {
+       "kierunek": "SHORT",
+       "typ": "stop",
+       "wejscie": 282.46,
+       "sl": 303.27,
+       "tp1": 240.85,
+       "tp2": 220.04,
+       "r_pkt": 20.81,
+       "r_atr": 2.0,
+       "rr_tp1_netto": 1.82,
+       "odleglosc_atr": -2.22,
+       "kontrakty": 6.2,
+       "ryzyko_usd": 51232,
+       "uzasadnienie": "wybicie zakresu za 283.50: zmiana reżimu, wejście z kontynuacji",
+       "uwagi": [
+        "stop 2.22× ATR D1 od ceny: daleko, do przeliczenia po sesji"
+       ]
+      }
+     ],
+     "zasada": "obie nogi jako OCO; anulować, gdy D1 zamknie się za SL nogi limit; przeliczyć codziennie przed otwarciem ICE"
+    }
+   ],
+   "zlecenia_w_dzienniku": []
+  },
+  "kakao": {
+   "jednostka": "USD/t",
+   "kontrakt": "CC (10 t)",
+   "sesja_ice_pl": "10:45-19:30",
+   "kontekst": {
+    "cena": 5686.0,
+    "czas_notowania_utc": "2026-10-16T17:15:00Z",
+    "sesja_w_trakcie": false,
+    "atr_d1": 291.64,
+    "atr_h1_sesja": 80.18,
+    "zakres_dzis_proc_atr": null,
+    "vwap_dzis": null,
+    "ostatnia_sesja": {
+     "data": "2026-10-16",
+     "o": 5753.0,
+     "h": 5861.0,
+     "l": 5625.0,
+     "c": 5686.0
+    },
+    "zmiana_5s_proc": 0.37,
+    "zmiana_20s_proc": 6.74
+   },
+   "rezim": {
+    "typ": "zakres",
+    "kierunek": "NEUTRAL",
+    "opis": "ADX 15, cena w zakresie 10 sesji 5395.00-6023.00",
+    "adx": 14.6,
+    "di_plus": 19.2,
+    "di_minus": 22.1,
+    "ema20": 5690.95,
+    "ema50": 5648.87,
+    "sma100": 5357.36,
+    "sma200": 4586.6,
+    "zakres_gora": 6023.0,
+    "zakres_dol": 5395.0,
+    "zakres20_gora": 6023.0,
+    "zakres20_dol": 5051.0,
+    "pozycja_w_zakresie_proc": 46,
+    "zmiennosc_20d_roczna_proc": 32.5
+   },
+   "poziomy": {
+    "opory": [
+     {
+      "poziom": 5724.0,
+      "sila": 1,
+      "zrodlo": "P",
+      "odleglosc_atr": 0.13
+     },
+     {
+      "sila": 3,
+      "ostatnio": "2026-09-28",
+      "poziom": 5732.33,
+      "zrodlo": "swing D1 ×3, ostatnio 2026-09-28",
+      "odleglosc_atr": 0.16
+     },
+     {
+      "poziom": 5823.0,
+      "sila": 1,
+      "zrodlo": "R1",
+      "odleglosc_atr": 0.47
+     },
+     {
+      "sila": 4,
+      "ostatnio": "2026-10-16",
+      "poziom": 5905.75,
+      "zrodlo": "swing D1 ×4, ostatnio 2026-10-16",
+      "odleglosc_atr": 0.75
+     },
+     {
+      "poziom": 5960.0,
+      "sila": 1,
+      "zrodlo": "R2",
+      "odleglosc_atr": 0.94
+     },
+     {
+      "poziom": 6000,
+      "sila": 1,
+      "zrodlo": "okrągły poziom",
+      "odleglosc_atr": 1.08
+     }
+    ],
+    "wsparcia": [
+     {
+      "poziom": 5587.0,
+      "sila": 1,
+      "zrodlo": "S1",
+      "odleglosc_atr": -0.34
+     },
+     {
+      "sila": 3,
+      "ostatnio": "2026-10-16",
+      "poziom": 5573.33,
+      "zrodlo": "swing D1 ×3, ostatnio 2026-10-16",
+      "odleglosc_atr": -0.39
+     },
+     {
+      "poziom": 5554.0,
+      "sila": 2,
+      "zrodlo": "dołek 5 sesji",
+      "odleglosc_atr": -0.45
+     },
+     {
+      "poziom": 5500,
+      "sila": 1,
+      "zrodlo": "okrągły poziom",
+      "odleglosc_atr": -0.64
+     },
+     {
+      "poziom": 5488.0,
+      "sila": 1,
+      "zrodlo": "S2",
+      "odleglosc_atr": -0.68
+     },
+     {
+      "sila": 2,
+      "ostatnio": "2026-10-08",
+      "poziom": 5428.0,
+      "zrodlo": "swing D1 ×2, ostatnio 2026-10-08",
+      "odleglosc_atr": -0.88
+     }
+    ],
+    "pivoty": {
+     "P": 5724.0,
+     "R1": 5823.0,
+     "S1": 5587.0,
+     "R2": 5960.0,
+     "S2": 5488.0
+    },
+    "baza_pivotow": "2026-10-16"
+   },
+   "czynniki": [
+    {
+     "czynnik": "Technika (reżim)",
+     "wynik": 0.0,
+     "opis": "ADX 15, cena w zakresie 10 sesji 5395.00-6023.00"
+    },
+    {
+     "czynnik": "COT",
+     "wynik": -0.5,
+     "opis": "fundusze net -11,052 (12. percentyl 3 lat), zmiana 4 tyg. -2,295: pozycjonowanie bez skrajności, liczy się kierunek przepływu",
+     "dane": {
+      "raport": "2026-10-06",
+      "mm_net": -11052,
+      "zmiana_1t": 4970,
+      "zmiana_4t": -2295,
+      "percentyl_3l": 12,
+      "oi": 179765.0
+     }
+    },
+    {
+     "czynnik": "Pogoda",
+     "wynik": 0.5,
+     "opis": "opad 30 dni 142% normy, prognoza 16 dni 236% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie)",
+     "dane": {
+      "proc_normy_30d": 142,
+      "proc_normy_16d": 236,
+      "aktualizacja": "2026-10-16T19:28:51Z",
+      "regiony": {
+       "soubre": [
+        96,
+        124
+       ],
+       "daloa": [
+        108,
+        102
+       ],
+       "san_pedro": [
+        28,
+        62
+       ],
+       "ashanti": [
+        82,
+        144
+       ],
+       "western_north": [
+        76,
+        119
+       ],
+       "los_rios": [
+        461,
+        922
+       ]
+      }
+     }
+    },
+    {
+     "czynnik": "Krzywa",
+     "wynik": 0.0,
+     "opis": "CCZ26.NYB vs CCH27.NYB: -1.88%, 5 dni temu -2.01%, contango (zapasy wystarczają)",
+     "dane": {
+      "spread_proc": -1.88,
+      "spread_proc_5d": -2.01,
+      "kontrakty": [
+       {
+        "symbol": "CCZ26.NYB",
+        "miesiac": "2026-12",
+        "cena": 5686.0,
+        "data": "2026-10-16",
+        "cena_5d_temu": 5700.0
+       },
+       {
+        "symbol": "CCH27.NYB",
+        "miesiac": "2027-03",
+        "cena": 5795.0,
+        "data": "2026-10-16",
+        "cena_5d_temu": 5817.0
+       },
+       {
+        "symbol": "CCK27.NYB",
+        "miesiac": "2027-05",
+        "cena": 5851.0,
+        "data": "2026-10-16",
+        "cena_5d_temu": 5879.0
+       },
+       {
+        "symbol": "CCN27.NYB",
+        "miesiac": "2027-07",
+        "cena": 5869.0,
+        "data": "2026-10-16",
+        "cena_5d_temu": 5903.0
+       }
+      ]
+     }
+    },
+    {
+     "czynnik": "Zapasy ICE",
+     "wynik": 0,
+     "opis": "ostatni odczyt 3593964 (2026-10-16, ICE xls (automat)), za mało historii na trend",
+     "dane": {
+      "ostatnie": {
+       "data": "2026-10-16",
+       "rynek": "kakao",
+       "zapasy": "3593964",
+       "jednostka": "worki/tony wg raportu ICE",
+       "zrodlo": "ICE xls (automat)",
+       "uwagi": "grand total: 3593964"
+      }
+     }
+    },
+    {
+     "czynnik": "Sezonowość",
+     "wynik": 0.0,
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana -0.1%, wzrost w 46% lat",
+     "dane": {
+      "lata": 26,
+      "srednia_proc": -0.39,
+      "mediana_proc": -0.13,
+      "proc_lat_wzrost": 46
+     }
+    }
+   ],
+   "suma": 0.0,
+   "bias": "NEUTRAL",
+   "pewnosc": 1,
+   "brak_danych": [],
+   "plan": [
+    {
+     "kierunek": "LONG",
+     "zgodny_z_rezimem": true,
+     "nogi": [
+      {
+       "kierunek": "LONG",
+       "typ": "limit",
+       "wejscie": 5424.16,
+       "sl": 5132.52,
+       "tp1": 5993.84,
+       "tp2": 6299.09,
+       "r_pkt": 291.64,
+       "r_atr": 1.0,
+       "rr_tp1_netto": 1.49,
+       "odleglosc_atr": -0.9,
+       "kontrakty": 7.4,
+       "ryzyko_usd": 25616,
+       "uzasadnienie": "granica zakresu 5395.00 (10 sesji), TP1 przed przeciwną granicą",
+       "uwagi": [
+        "limit 0.90× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
+        "silny poziom 5732.33 przed TP1: rozważyć częściowe wyjście przed nim"
+       ]
+      },
+      {
+       "kierunek": "LONG",
+       "typ": "stop",
+       "wejscie": 6052.16,
+       "sl": 5323.06,
+       "tp1": 7510.38,
+       "tp2": 8239.49,
+       "r_pkt": 729.11,
+       "r_atr": 2.5,
+       "rr_tp1_netto": 1.79,
+       "odleglosc_atr": 1.26,
+       "kontrakty": 3.3,
+       "ryzyko_usd": 25616,
+       "uzasadnienie": "wybicie zakresu za 6023.00: zmiana reżimu, wejście z kontynuacji",
+       "uwagi": [
+        "stop 1.26× ATR D1 od ceny: daleko, do przeliczenia po sesji"
+       ]
+      }
+     ],
+     "zasada": "obie nogi jako OCO; anulować, gdy D1 zamknie się za SL nogi limit; przeliczyć codziennie przed otwarciem ICE"
+    },
+    {
+     "kierunek": "SHORT",
+     "zgodny_z_rezimem": true,
+     "nogi": [
+      {
+       "kierunek": "SHORT",
+       "typ": "limit",
+       "wejscie": 5993.84,
+       "sl": 6285.48,
+       "tp1": 5424.16,
+       "tp2": 5118.91,
+       "r_pkt": 291.64,
+       "r_atr": 1.0,
+       "rr_tp1_netto": 1.49,
+       "odleglosc_atr": 1.06,
+       "kontrakty": 7.4,
+       "ryzyko_usd": 25616,
+       "uzasadnienie": "granica zakresu 6023.00 (10 sesji), TP1 przed przeciwną granicą",
+       "uwagi": [
+        "limit 1.06× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
+        "silny poziom 5573.33 przed TP1: rozważyć częściowe wyjście przed nim"
+       ]
+      },
+      {
+       "kierunek": "SHORT",
+       "typ": "stop",
+       "wejscie": 5365.84,
+       "sl": 6094.94,
+       "tp1": 3907.62,
+       "tp2": 3178.51,
+       "r_pkt": 729.11,
+       "r_atr": 2.5,
+       "rr_tp1_netto": 1.79,
+       "odleglosc_atr": -1.1,
+       "kontrakty": 3.3,
+       "ryzyko_usd": 25616,
+       "uzasadnienie": "wybicie zakresu za 5395.00: zmiana reżimu, wejście z kontynuacji",
+       "uwagi": [
+        "stop 1.10× ATR D1 od ceny: daleko, do przeliczenia po sesji"
+       ]
+      }
+     ],
+     "zasada": "obie nogi jako OCO; anulować, gdy D1 zamknie się za SL nogi limit; przeliczyć codziennie przed otwarciem ICE"
+    }
+   ],
+   "zlecenia_w_dzienniku": [
+    {
+     "nr": "34",
+     "kierunek": "LONG",
+     "typ": "limit",
+     "wejscie": 5680.0,
+     "sl": 5520.0,
+     "tp": "5920 / 5980",
+     "odleglosc_atr_d1": -0.02,
+     "ocena": "w zasięgu (0.02× ATR D1, 0.1× ATR H1)",
+     "status": "oczekuje (limit, intraday 16.10, okno 10:45–19:00)"
+    }
+   ]
+  }
+ },
+ "kalendarz": [
+  {
+   "data": "2026-10-16",
+   "godzina_pl": "21:30",
+   "rynek": "oba",
+   "wydarzenie": "CFTC COT (stan na wtorek)",
+   "waga": "średnia",
+   "uwagi": "cykliczne"
+  },
+  {
+   "data": "2026-10-19",
+   "godzina_pl": "10:15",
+   "rynek": "oba",
+   "wydarzenie": "Otwarcie tygodnia na ICE po wybiciu kawy nad 304 (16.10) i obniżonych szczytach kakao",
+   "waga": "wysoka",
+   "uwagi": "kontekst"
+  },
+  {
+   "data": "2026-10-19",
+   "godzina_pl": "rano",
+   "rynek": "kakao",
+   "wydarzenie": "przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów)",
+   "waga": "średnia-wysoka",
+   "uwagi": "cykliczne"
+  },
+  {
+   "data": "2026-10-23",
+   "godzina_pl": "21:30",
+   "rynek": "oba",
+   "wydarzenie": "CFTC COT (stan na wtorek)",
+   "waga": "średnia",
+   "uwagi": "cykliczne"
+  },
+  {
+   "data": "2026-10-26",
+   "godzina_pl": "",
+   "rynek": "oba",
+   "wydarzenie": "Tydzień przesunięcia czasu (PL zimowy, USA letni do 1.11): ICE US softs otwierają o godzinę wcześniej czasu PL (kawa 09:15, kakao 09:45)",
+   "waga": "wysoka",
+   "uwagi": "sprawdzić komunikaty ICE „temporary changes … DST”"
+  },
+  {
+   "data": "2026-10-26",
+   "godzina_pl": "rano",
+   "rynek": "kakao",
+   "wydarzenie": "przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów)",
+   "waga": "średnia-wysoka",
+   "uwagi": "cykliczne"
+  },
+  {
+   "data": "2026-10-28",
+   "godzina_pl": "19:00",
+   "rynek": "oba",
+   "wydarzenie": "FOMC (decyzja Fed; przez USD i nastrój ryzyka)",
+   "waga": "średnia",
+   "uwagi": "godzina w tygodniu przesunięcia"
+  },
+  {
+   "data": "2026-10-30",
+   "godzina_pl": "21:30",
+   "rynek": "oba",
+   "wydarzenie": "CFTC COT (stan na wtorek)",
+   "waga": "średnia",
+   "uwagi": "cykliczne"
+  }
+ ],
+ "status_danych": {
+  "uruchomiono_utc": "2026-10-16T19:28:51Z",
+  "bledy": {},
+  "ok": {
+   "cot": "416 wierszy, ostatni raport 2026-10-06, źródło publicreporting.cftc.gov (72hh-3qpy)",
+   "pogoda": "11 regionów",
+   "krzywa": "kawa: 4 kontr., kakao: 4 kontr.",
+   "fx": "brl, gbp, eur",
+   "dlugie": "coffee, cocoa",
+   "ice": "kawa 2026-10-16, kakao 2026-10-16"
+  },
+  "ostatni_sukces_utc": {
+   "cot": "2026-10-16T19:28:51Z",
+   "pogoda": "2026-10-16T19:28:51Z",
+   "krzywa": "2026-10-16T19:28:51Z",
+   "fx": "2026-10-16T19:28:51Z",
+   "dlugie": "2026-10-16T19:28:51Z",
+   "ice": "2026-10-16T19:28:51Z"
+  }
+ },
+ "alerty": [
+  {
+   "rynek": "kawa",
+   "typ": "nieudane_wybicie",
+   "opis": "nieudane wybicie górą (311.20 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście"
+  }
+ ]
+}
