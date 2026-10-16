@@ -318,8 +318,8 @@
       "setup": {
         "kierunek": "LONG",
         "typ": "stop",
-        "wejscie": 5880,
-        "sl": 5740,
+        "wejscie": 5680,
+        "sl": 5520,
         "tp1": 6000,
         "tp2": 6100,
         "ryzyko_pct": 0.25,
