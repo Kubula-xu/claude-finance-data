@@ -230,22 +230,22 @@
    "tp": "4184 / 4200"
   },
   "31": {
-   "status": "oczekuje (limit, intraday 16.10, okna 09:00–12:00 i 14:00–20:00)",
+   "status": "zamknięta (BE, 16.10 17:15 PL)",
    "sl": "56,95",
    "tp": "58,10 / 58,50"
   },
   "32": {
-   "status": "otwarta (wejście 16.10 10:15 PL, SL na BE 95,40 od 13:30 PL po +1R)",
+   "status": "zamknięta (BE, 16.10 16:15 PL)",
    "sl": "94,50",
    "tp": "96,75 / 97,65"
   },
   "33": {
-   "status": "oczekuje (limit, intraday 16.10, okno 15:45–21:00)",
+   "status": "anulowane (unieważnione przed oknem)",
    "sl": "29940",
    "tp": "30240 / 30360"
   },
   "34": {
-   "status": "oczekuje (limit, intraday 16.10, okno 10:45–19:00)",
+   "status": "zamknięta (koniec dnia, piątek 19:00 PL)",
    "sl": "5520",
    "tp": "5920 / 5980"
   },
@@ -258,6 +258,26 @@
    "status": "zamknięta (SL, 16.10 11:00 PL)",
    "sl": "308,3",
    "tp": "293,8 / 288,0"
+  },
+  "37": {
+   "status": "oczekuje (limit, OCO z #38, poniedziałek 19.10, okno 10:30–19:00)",
+   "sl": "296,0",
+   "tp": "313,5 / 320,5"
+  },
+  "38": {
+   "status": "oczekuje (stop, OCO z #37, poniedziałek 19.10, okno 10:30–19:00)",
+   "sl": "304,5",
+   "tp": "322,0 / 329,0"
+  },
+  "39": {
+   "status": "oczekuje (limit, OCO z #40, poniedziałek 19.10, okno 10:45–19:00)",
+   "sl": "5490",
+   "tp": "5865 / 5980"
+  },
+  "40": {
+   "status": "oczekuje (stop, OCO z #39, poniedziałek 19.10, okno 10:45–19:00)",
+   "sl": "5740",
+   "tp": "5365 / 5215"
   }
  },
  "automat": {
@@ -278,5 +298,5 @@
   "rano": "2026-10-16",
   "wieczor": "2026-10-15"
  },
- "zaktualizowano_utc": "2026-10-16T20:05:17Z"
+ "zaktualizowano_utc": "2026-10-16T20:26:37Z"
 }
