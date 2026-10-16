@@ -1,47 +1,47 @@
 {
  "sygnaly": {
   "nq": {
-   "kierunek": "SHORT",
-   "pewnosc": 2,
+   "kierunek": "LONG",
+   "pewnosc": 1,
    "setup": [
-    "SHORT",
-    30120,
+    "LONG",
+    30060,
+    29940,
     30240,
-    29900,
-    29780
+    30360
    ]
   },
   "gold": {
-   "kierunek": "SHORT",
-   "pewnosc": 2,
-   "setup": [
-    "SHORT",
-    4159,
-    4172,
-    4137,
-    4125
-   ]
-  },
-  "silver": {
-   "kierunek": "BRAK",
-   "pewnosc": 1,
-   "setup": [
-    "SHORT",
-    62.3,
-    64.4,
-    58.1,
-    56.0
-   ]
-  },
-  "wti": {
    "kierunek": "LONG",
    "pewnosc": 2,
    "setup": [
     "LONG",
-    93.65,
-    92.9,
-    94.8,
-    95.4
+    4160,
+    4146,
+    4184,
+    4200
+   ]
+  },
+  "silver": {
+   "kierunek": "LONG",
+   "pewnosc": 1,
+   "setup": [
+    "LONG",
+    57.4,
+    56.95,
+    58.1,
+    58.5
+   ]
+  },
+  "wti": {
+   "kierunek": "LONG",
+   "pewnosc": 1,
+   "setup": [
+    "LONG",
+    95.1,
+    94.2,
+    96.7,
+    97.8
    ]
   },
   "ng": {
@@ -67,14 +67,14 @@
    ]
   },
   "cocoa": {
-   "kierunek": "BRAK",
+   "kierunek": "LONG",
    "pewnosc": 1,
    "setup": [
     "LONG",
-    5290,
-    4960,
-    5900,
-    6000
+    5880,
+    5740,
+    6000,
+    6100
    ]
   }
  },
@@ -223,6 +223,31 @@
    "status": "zamknięta (koniec dnia 22:25 PL)",
    "sl": "30240",
    "tp": "29900 / 29780"
+  },
+  "30": {
+   "status": "oczekuje (limit, intraday 16.10, okna 09:00–12:00 i 14:00–20:00)",
+   "sl": "4146",
+   "tp": "4184 / 4200"
+  },
+  "31": {
+   "status": "oczekuje (limit, intraday 16.10, okna 09:00–12:00 i 14:00–20:00)",
+   "sl": "56,95",
+   "tp": "58,10 / 58,50"
+  },
+  "32": {
+   "status": "oczekuje (limit, intraday 16.10, okna 09:00–12:00 i 15:00–20:30)",
+   "sl": "94,20",
+   "tp": "96,70 / 97,80"
+  },
+  "33": {
+   "status": "oczekuje (limit, intraday 16.10, okno 15:45–21:00)",
+   "sl": "29940",
+   "tp": "30240 / 30360"
+  },
+  "34": {
+   "status": "oczekuje (stop, warunek M30 nad 5 870, intraday 16.10, okno 10:45–19:00)",
+   "sl": "5740",
+   "tp": "6000 / 6100"
   }
  },
  "automat": {
@@ -237,5 +262,5 @@
   "rano": "2026-10-15",
   "wieczor": "2026-10-15"
  },
- "zaktualizowano_utc": "2026-10-16T05:22:27Z"
+ "zaktualizowano_utc": "2026-10-16T05:28:05Z"
 }
