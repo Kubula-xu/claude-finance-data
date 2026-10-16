@@ -18,7 +18,7 @@
    "symbol": "^NDX",
    "opis": "Nasdaq 100 indeks (kasowy, ~US100 CFD)",
    "cena": 29187.549,
-   "czas_notowania_utc": "2026-10-16T21:00:00Z",
+   "czas_notowania_utc": "2026-10-16T21:15:00Z",
    "poprzednie_zamkniecie": 29935.599609,
    "zmiana_pct": -2.499,
    "dzien": {
@@ -162,16 +162,16 @@
    "ask": 4164.717,
    "czas_notowania_utc": "2026-10-16T21:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -21.543,
+   "baza_vs_futures": -22.005,
    "futures": "GC=F",
    "dzien": {
     "data": "2026-10-16",
-    "open": 4170.5574,
-    "high": 4198.6575,
-    "low": 4145.9573
+    "open": 4170.0949,
+    "high": 4198.195,
+    "low": 4145.4949
    },
-   "poprzednie_zamkniecie": 4148.5574,
-   "zmiana_pct": 0.382
+   "poprzednie_zamkniecie": 4148.0949,
+   "zmiana_pct": 0.393
   },
   "xagusd": {
    "symbol": "XAG/USD spot",
@@ -185,14 +185,14 @@
    "futures": "SI=F",
    "dzien": {
     "data": "2026-10-16",
-    "open": 57.4603,
-    "high": 57.9653,
-    "low": 56.8603
+    "open": 57.4601,
+    "high": 57.9651,
+    "low": 56.8601
    },
-   "poprzednie_zamkniecie": 56.6624,
-   "zmiana_pct": 0.525
+   "poprzednie_zamkniecie": 56.6621,
+   "zmiana_pct": 0.526
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-16T21:10:29Z"
+ "zaktualizowano_utc": "2026-10-16T21:41:09Z"
 }
