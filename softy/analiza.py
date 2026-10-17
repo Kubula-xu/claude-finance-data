@@ -212,9 +212,9 @@ def f_cot(rynek):
     d4w = nets[-1] - nets[-5] if len(nets) >= 5 else 0
     pct = round(100 * sum(1 for x in nets if x <= net) / len(nets))
     if pct >= 90:
-        w, op = -1.0, f"fundusze (managed money) net {net:+,} kontr., {pct}. percentyl 3 lat: tłoczno w longach, ryzyko likwidacji"
+        w, op = -1.0, f"fundusze (managed money) net {net:+,} kontr., {pct}. percentyl 3 lat: pozycja najwyższa od lat, ryzyko likwidacji longów"
     elif pct <= 10:
-        w, op = 1.0, f"fundusze net {net:+,}, {pct}. percentyl 3 lat: tłoczno w shortach, paliwo do squeeze"
+        w, op = 1.0, f"fundusze net {net:+,}, {pct}. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze"
     else:
         w = 0.5 if d4w > 0 else -0.5 if d4w < 0 else 0.0
         op = f"fundusze net {net:+,} ({pct}. percentyl 3 lat), zmiana 4 tyg. {d4w:+,}: pozycjonowanie bez skrajności, liczy się kierunek przepływu"
@@ -226,7 +226,13 @@ def f_pogoda(rynek, now):
     p = load_json("pogoda.json")
     if not p or rynek not in p.get("towary", {}):
         return None
-    regs = p["towary"][rynek]
+    # w porze suchej norma bywa bliska zera (Ekwador w X: kilka mm), więc % normy wybucha do setek; takie regiony pomijamy
+    regs = [dict(r) for r in p["towary"][rynek]]
+    for r in regs:
+        if (r.get("norma_30d_mm") or 0) < 30:
+            r["proc_normy_30d"] = None
+        if (r.get("norma_16d_mm") or 0) < 15:
+            r["proc_normy_16d"] = None
     sw = sum(r["waga"] for r in regs if r.get("proc_normy_30d") is not None) or 1
     p30 = sum(r["waga"] * r["proc_normy_30d"] for r in regs if r.get("proc_normy_30d") is not None) / sw
     sw16 = sum(r["waga"] for r in regs if r.get("proc_normy_16d") is not None) or 1
@@ -260,7 +266,7 @@ def f_pogoda(rynek, now):
             if p30 < 60:
                 w += 1; uw.append("sucho w czasie kwitnienia/zawiązywania strąków")
         ekw = next((r for r in regs if r["klucz"] == "los_rios"), None)
-        if ekw and (ekw.get("proc_normy_30d") or 0) > 200:
+        if ekw and (ekw.get("proc_normy_30d") or 0) > 200 and (ekw.get("opad_30d_mm") or 0) > 100:
             w += 0.5; uw.append("Ekwador bardzo mokro (powodzie)")
     op = f"opad 30 dni {p30:.0f}% normy, prognoza 16 dni {p16:.0f}% normy (średnia ważona regionów)"
     if uw:
