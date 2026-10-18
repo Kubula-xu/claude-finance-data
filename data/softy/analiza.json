@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-18T06:48:17Z",
- "wygenerowano_pl": "2026-10-18 08:48 PL",
+ "wygenerowano_utc": "2026-10-18T07:26:01Z",
+ "wygenerowano_pl": "2026-10-18 09:26 PL",
  "kapital_usd": 10145450.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -17,14 +17,14 @@
     "cena": 305.549988,
     "czas_notowania_utc": "2026-10-16T17:15:00Z",
     "sesja_w_trakcie": false,
-    "atr_d1": 10.41,
+    "atr_d1": 10.4,
     "atr_h1_sesja": 3.14,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
      "data": "2026-10-16",
      "o": 299.25,
-     "h": 311.299988,
+     "h": 311.200012,
      "l": 298.350006,
      "c": 305.549988
     },
@@ -34,7 +34,7 @@
    "rezim": {
     "typ": "zakres",
     "kierunek": "NEUTRAL",
-    "opis": "ADX 20, cena w zakresie 10 sesji 283.50-308.35; nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście",
+    "opis": "ADX 20, cena w zakresie 10 sesji 283.50-308.35; nieudane wybicie górą (311.20 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście",
     "adx": 20.2,
     "di_plus": 31.6,
     "di_minus": 19.4,
@@ -59,36 +59,36 @@
       "odleglosc_atr": 0.25
      },
      {
-      "poziom": 311.3,
+      "poziom": 311.2,
       "sila": 2,
       "zrodlo": "szczyt 5 sesji",
-      "odleglosc_atr": 0.55
+      "odleglosc_atr": 0.54
      },
      {
-      "poziom": 311.78,
+      "poziom": 311.72,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.6
+      "odleglosc_atr": 0.59
      },
      {
       "sila": 2,
       "ostatnio": "2026-10-16",
-      "poziom": 312.55,
+      "poziom": 312.5,
       "zrodlo": "swing D1 ×2, ostatnio 2026-10-16",
       "odleglosc_atr": 0.67
      },
      {
-      "poziom": 318.02,
+      "poziom": 317.88,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 1.2
+      "odleglosc_atr": 1.19
      },
      {
       "sila": 4,
       "ostatnio": "2026-08-06",
       "poziom": 318.3,
       "zrodlo": "swing D1 ×4, ostatnio 2026-08-06",
-      "odleglosc_atr": 1.22
+      "odleglosc_atr": 1.23
      }
     ],
     "wsparcia": [
@@ -106,10 +106,10 @@
       "odleglosc_atr": -0.53
      },
      {
-      "poziom": 298.83,
+      "poziom": 298.87,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.65
+      "odleglosc_atr": -0.64
      },
      {
       "sila": 4,
@@ -119,7 +119,7 @@
       "odleglosc_atr": -0.73
      },
      {
-      "poziom": 292.12,
+      "poziom": 292.18,
       "sila": 1,
       "zrodlo": "S2",
       "odleglosc_atr": -1.29
@@ -132,11 +132,11 @@
      }
     ],
     "pivoty": {
-     "P": 305.07,
-     "R1": 311.78,
-     "S1": 298.83,
-     "R2": 318.02,
-     "S2": 292.12
+     "P": 305.03,
+     "R1": 311.72,
+     "S1": 298.87,
+     "R2": 317.88,
+     "S2": 292.18
     },
     "baza_pivotow": "2026-10-16"
    },
@@ -144,7 +144,7 @@
     {
      "czynnik": "Technika (reżim)",
      "wynik": 0.0,
-     "opis": "ADX 20, cena w zakresie 10 sesji 283.50-308.35; nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście"
+     "opis": "ADX 20, cena w zakresie 10 sesji 283.50-308.35; nieudane wybicie górą (311.20 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście"
     },
     {
      "czynnik": "COT",
@@ -281,10 +281,10 @@
        "kierunek": "LONG",
        "typ": "limit",
        "wejscie": 284.54,
-       "sl": 274.13,
+       "sl": 274.14,
        "tp1": 307.31,
-       "tp2": 315.77,
-       "r_pkt": 10.41,
+       "tp2": 315.75,
+       "r_pkt": 10.4,
        "r_atr": 1.0,
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": -2.02,
@@ -299,10 +299,10 @@
        "kierunek": "LONG",
        "typ": "stop",
        "wejscie": 309.39,
-       "sl": 288.57,
-       "tp1": 351.03,
-       "tp2": 371.86,
-       "r_pkt": 20.82,
+       "sl": 288.58,
+       "tp1": 351.0,
+       "tp2": 371.81,
+       "r_pkt": 20.81,
        "r_atr": 2.0,
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": 0.37,
@@ -310,7 +310,7 @@
        "ryzyko_usd": 50727,
        "uzasadnienie": "wybicie zakresu za 308.35: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
-        "silny poziom 312.55 przed TP1: rozważyć częściowe wyjście przed nim"
+        "silny poziom 312.5 przed TP1: rozważyć częściowe wyjście przed nim"
        ]
       }
      ],
@@ -324,10 +324,10 @@
        "kierunek": "SHORT",
        "typ": "limit",
        "wejscie": 307.31,
-       "sl": 317.72,
+       "sl": 317.71,
        "tp1": 284.54,
-       "tp2": 276.08,
-       "r_pkt": 10.41,
+       "tp2": 276.1,
+       "r_pkt": 10.4,
        "r_atr": 1.0,
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": 0.17,
@@ -342,10 +342,10 @@
        "kierunek": "SHORT",
        "typ": "stop",
        "wejscie": 282.46,
-       "sl": 303.28,
-       "tp1": 240.82,
-       "tp2": 219.99,
-       "r_pkt": 20.82,
+       "sl": 303.27,
+       "tp1": 240.85,
+       "tp2": 220.04,
+       "r_pkt": 20.81,
        "r_atr": 2.0,
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": -2.22,
@@ -368,8 +368,8 @@
      "wejscie": 303.0,
      "sl": 296.0,
      "tp": "313,5 / 320,5",
-     "odleglosc_atr_d1": -0.24,
-     "ocena": "w zasięgu (0.24× ATR D1, 0.8× ATR H1)",
+     "odleglosc_atr_d1": -0.25,
+     "ocena": "w zasięgu (0.25× ATR D1, 0.8× ATR H1)",
      "status": "oczekuje (limit, OCO z #38, poniedziałek 19.10, okno 10:30–19:00)"
     },
     {
@@ -840,7 +840,7 @@
   {
    "rynek": "kawa",
    "typ": "nieudane_wybicie",
-   "opis": "nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście"
+   "opis": "nieudane wybicie górą (311.20 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście"
   }
  ]
 }
