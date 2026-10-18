@@ -1,15 +1,15 @@
-# Softy: kawa i kakao, analiza z 2026-10-18 05:40 PL
+# Softy: kawa i kakao, analiza z 2026-10-18 06:10 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
 ## Kawa (Arabica KC): NEUTRAL 1/5 (suma +1.0)
 
-- Cena 305,55 c/lb (2026-10-16T17:15:00Z UTC). ATR D1 10,41, ATR H1 (sesja) 3,14. 5 sesji +6.5%, 20 sesji +3.8%.
-- Reżim: **zakres** (ADX 20, cena w zakresie 10 sesji 283.50-308.35; nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.60): uwaga na pułapkę albo drugie podejście). Zakres 10 sesji 283,50–308,35 (20 sesji 269,75–308,35), EMA20 295,89, EMA50 304,93, SMA200 308,43.
+- Cena 305,55 c/lb (2026-10-16T17:15:00Z UTC). ATR D1 10,41, ATR H1 (sesja) 3,14. 5 sesji +6.5%, 20 sesji +3.7%.
+- Reżim: **zakres** (ADX 20, cena w zakresie 10 sesji 283.50-308.35; nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście). Zakres 10 sesji 283,50–308,35 (20 sesji 269,75–308,35), EMA20 295,88, EMA50 304,93, SMA200 308,43.
 
 | Czynnik | Wynik | Opis |
 |---|---|---|
-| Technika (reżim) | +0.0 | ADX 20, cena w zakresie 10 sesji 283.50-308.35; nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.60): uwaga na pułapkę albo drugie podejście |
+| Technika (reżim) | +0.0 | ADX 20, cena w zakresie 10 sesji 283.50-308.35; nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście |
 | COT | +1.0 | fundusze net +15,270, 3. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
 | Pogoda | -1.0 | opad 30 dni 160% normy, prognoza 16 dni 187% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
 | Krzywa | +1.0 | KCZ26.NYB vs KCH27.NYB: +3.72%, 5 dni temu +2.91%, backwardation (ciasno w bieżącej dostawie) |
@@ -17,9 +17,9 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | BRL | +0.0 | USD/BRL 5.067, 5 sesji +1.0% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.0%, wzrost w 50% lat |
 
-Opory: 308,20 (swing D1 ×3, ostatnio 2026-10-07, +0.25 ATR), 311,30 (szczyt 5 sesji, +0.55 ATR), 311,82 (R1, +0.60 ATR), 312,55 (swing D1 ×2, ostatnio 2026-10-16, +0.67 ATR)
+Opory: 308,20 (swing D1 ×3, ostatnio 2026-10-07, +0.25 ATR), 311,30 (szczyt 5 sesji, +0.55 ATR), 311,78 (R1, +0.60 ATR), 312,55 (swing D1 ×2, ostatnio 2026-10-16, +0.67 ATR)
 
-Wsparcia: 300,00 (swing D1 ×1, ostatnio 2026-05-13, -0.53 ATR), 300,00 (okrągły poziom, -0.53 ATR), 298,87 (S1, -0.64 ATR), 297,97 (swing D1 ×4, ostatnio 2026-10-16, -0.73 ATR)
+Wsparcia: 300,00 (swing D1 ×1, ostatnio 2026-05-13, -0.53 ATR), 300,00 (okrągły poziom, -0.53 ATR), 298,83 (S1, -0.65 ATR), 297,97 (swing D1 ×4, ostatnio 2026-10-16, -0.73 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
@@ -35,8 +35,8 @@ Wiszące zlecenia z dziennika:
 
 ## Kakao (NY CC): NEUTRAL 2/5 (suma +1.5)
 
-- Cena 5 686 USD/t (2026-10-16T17:15:00Z UTC). ATR D1 292, ATR H1 (sesja) 80. 5 sesji -0.3%, 20 sesji +6.0%.
-- Reżim: **zakres** (ADX 15, cena w zakresie 10 sesji 5395.00-6023.00). Zakres 10 sesji 5 395–6 023 (20 sesji 5 051–6 023), EMA20 5 687, EMA50 5 647, SMA200 4 586.
+- Cena 5 686 USD/t (2026-10-16T17:15:00Z UTC). ATR D1 292, ATR H1 (sesja) 80. 5 sesji +0.4%, 20 sesji +6.7%.
+- Reżim: **zakres** (ADX 15, cena w zakresie 10 sesji 5395.00-6023.00). Zakres 10 sesji 5 395–6 023 (20 sesji 5 051–6 023), EMA20 5 691, EMA50 5 649, SMA200 4 587.
 
 | Czynnik | Wynik | Opis |
 |---|---|---|
@@ -47,9 +47,9 @@ Wiszące zlecenia z dziennika:
 | Zapasy ICE | +0.0 | 3,593,964 (2026-10-16), zmiana od 2026-10-15: +0.2% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.0%, wzrost w 58% lat |
 
-Opory: 5 710 (P, +0.08 ATR), 5 732 (swing D1 ×3, ostatnio 2026-09-28, +0.16 ATR), 5 796 (R1, +0.38 ATR), 5 906 (swing D1 ×4, ostatnio 2026-10-16, +0.75 ATR)
+Opory: 5 724 (P, +0.13 ATR), 5 732 (swing D1 ×3, ostatnio 2026-09-28, +0.16 ATR), 5 823 (R1, +0.47 ATR), 5 906 (swing D1 ×4, ostatnio 2026-10-16, +0.75 ATR)
 
-Wsparcia: 5 573 (swing D1 ×3, ostatnio 2026-10-16, -0.39 ATR), 5 560 (S1, -0.43 ATR), 5 554 (dołek 5 sesji, -0.45 ATR), 5 500 (okrągły poziom, -0.64 ATR)
+Wsparcia: 5 587 (S1, -0.34 ATR), 5 573 (swing D1 ×3, ostatnio 2026-10-16, -0.39 ATR), 5 554 (dołek 5 sesji, -0.45 ATR), 5 500 (okrągły poziom, -0.64 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
@@ -65,7 +65,7 @@ Wiszące zlecenia z dziennika:
 
 ## Alerty
 
-- kawa: nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.60): uwaga na pułapkę albo drugie podejście
+- kawa: nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście
 
 ## Kalendarz (14 dni)
 
