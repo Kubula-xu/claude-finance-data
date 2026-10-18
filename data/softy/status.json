@@ -1,5 +1,5 @@
 {
- "uruchomiono_utc": "2026-10-16T20:15:12Z",
+ "uruchomiono_utc": "2026-10-18T21:10:39Z",
  "bledy": {},
  "ok": {
   "cot": "418 wierszy, ostatni raport 2026-10-13, źródło publicreporting.cftc.gov (72hh-3qpy)",
@@ -7,14 +7,14 @@
   "krzywa": "kawa: 4 kontr., kakao: 4 kontr.",
   "fx": "brl, gbp, eur",
   "dlugie": "coffee (świeże), cocoa (świeże)",
-  "ice": "kawa 2026-10-15, kakao 2026-10-15"
+  "ice": "kawa 2026-10-14, kakao 2026-10-14"
  },
  "ostatni_sukces_utc": {
-  "cot": "2026-10-16T20:15:12Z",
-  "pogoda": "2026-10-16T20:15:12Z",
-  "krzywa": "2026-10-16T20:15:12Z",
-  "fx": "2026-10-16T20:15:12Z",
-  "dlugie": "2026-10-16T20:15:12Z",
-  "ice": "2026-10-16T20:15:12Z"
+  "cot": "2026-10-18T21:10:39Z",
+  "pogoda": "2026-10-18T21:10:39Z",
+  "krzywa": "2026-10-18T21:10:39Z",
+  "fx": "2026-10-18T21:10:39Z",
+  "dlugie": "2026-10-18T21:10:39Z",
+  "ice": "2026-10-18T21:10:39Z"
  }
 }
