@@ -3,14 +3,14 @@
   "nq": {
    "symbol": "NQ=F",
    "opis": "Nasdaq 100 E-mini futures (CME)",
-   "cena": 29569.0,
-   "czas_notowania_utc": "2026-10-18T22:30:00Z",
+   "cena": 29609.25,
+   "czas_notowania_utc": "2026-10-18T23:00:00Z",
    "poprzednie_zamkniecie": 29391.5,
-   "zmiana_pct": 0.604,
+   "zmiana_pct": 0.741,
    "dzien": {
     "data": "2026-10-18",
     "open": 29227.0,
-    "high": 29577.5,
+    "high": 29624.5,
     "low": 29226.0
    }
   },
@@ -31,24 +31,24 @@
   "gold": {
    "symbol": "GC=F",
    "opis": "Złoto futures (COMEX)",
-   "cena": 4197.600098,
-   "czas_notowania_utc": "2026-10-18T22:30:00Z",
+   "cena": 4200.299805,
+   "czas_notowania_utc": "2026-10-18T23:00:00Z",
    "poprzednie_zamkniecie": 4181.100098,
-   "zmiana_pct": 0.395,
+   "zmiana_pct": 0.459,
    "dzien": {
     "data": "2026-10-18",
     "open": 4185.0,
-    "high": 4199.200195,
+    "high": 4202.0,
     "low": 4176.0
    }
   },
   "silver": {
    "symbol": "SI=F",
    "opis": "Srebro futures (COMEX)",
-   "cena": 57.48,
-   "czas_notowania_utc": "2026-10-18T22:30:00Z",
+   "cena": 57.459999,
+   "czas_notowania_utc": "2026-10-18T23:00:00Z",
    "poprzednie_zamkniecie": 56.994999,
-   "zmiana_pct": 0.851,
+   "zmiana_pct": 0.816,
    "dzien": {
     "data": "2026-10-18",
     "open": 57.130001,
@@ -59,24 +59,24 @@
   "wti": {
    "symbol": "CL=F",
    "opis": "Ropa WTI futures (NYMEX)",
-   "cena": 98.269997,
-   "czas_notowania_utc": "2026-10-18T22:30:00Z",
+   "cena": 98.190002,
+   "czas_notowania_utc": "2026-10-18T23:00:00Z",
    "poprzednie_zamkniecie": 101.410004,
-   "zmiana_pct": -3.096,
+   "zmiana_pct": -3.175,
    "dzien": {
     "data": "2026-10-18",
     "open": 99.040001,
     "high": 99.160004,
-    "low": 98.199997
+    "low": 98.150002
    }
   },
   "ng": {
    "symbol": "NG=F",
    "opis": "Gaz ziemny futures (NYMEX)",
-   "cena": 3.054,
-   "czas_notowania_utc": "2026-10-18T22:30:00Z",
+   "cena": 3.051,
+   "czas_notowania_utc": "2026-10-18T23:00:00Z",
    "poprzednie_zamkniecie": 3.116,
-   "zmiana_pct": -1.99,
+   "zmiana_pct": -2.086,
    "dzien": {
     "data": "2026-10-18",
     "open": 3.09,
@@ -115,10 +115,10 @@
   "dxy": {
    "symbol": "DX-Y.NYB",
    "opis": "Indeks dolara DXY",
-   "cena": 101.873001,
-   "czas_notowania_utc": "2026-10-18T22:30:00Z",
+   "cena": 101.919998,
+   "czas_notowania_utc": "2026-10-18T23:00:00Z",
    "poprzednie_zamkniecie": 101.839996,
-   "zmiana_pct": 0.032,
+   "zmiana_pct": 0.079,
    "dzien": {
     "data": "2026-10-18",
     "open": 102.014,
@@ -157,42 +157,42 @@
   "xauusd": {
    "symbol": "XAU/USD spot",
    "opis": "Złoto spot XAU/USD (jak XAUUSD w TradingView)",
-   "cena": 4176.305,
-   "bid": 4176.053,
-   "ask": 4176.557,
-   "czas_notowania_utc": "2026-10-18T22:50:31Z",
+   "cena": 4174.89,
+   "bid": 4174.638,
+   "ask": 4175.142,
+   "czas_notowania_utc": "2026-10-18T23:14:02Z",
    "zrodlo": "Swissquote (bid/ask)",
    "baza_vs_futures": -16.715,
    "futures": "GC=F",
    "dzien": {
     "data": "2026-10-18",
     "open": 4168.2849,
-    "high": 4182.4851,
+    "high": 4185.2849,
     "low": 4159.2849
    },
    "poprzednie_zamkniecie": 4164.385,
-   "zmiana_pct": 0.286
+   "zmiana_pct": 0.252
   },
   "xagusd": {
    "symbol": "XAG/USD spot",
    "opis": "Srebro spot XAG/USD (jak XAGUSD w TradingView)",
-   "cena": 57.332,
-   "bid": 57.3086,
-   "ask": 57.3555,
-   "czas_notowania_utc": "2026-10-18T22:50:32Z",
+   "cena": 57.2441,
+   "bid": 57.2186,
+   "ask": 57.2695,
+   "czas_notowania_utc": "2026-10-18T23:14:02Z",
    "zrodlo": "Swissquote (bid/ask)",
    "baza_vs_futures": -0.345,
    "futures": "SI=F",
    "dzien": {
     "data": "2026-10-18",
     "open": 56.7851,
-    "high": 57.332,
+    "high": 57.2441,
     "low": 56.5551
    },
    "poprzednie_zamkniecie": 56.6501,
-   "zmiana_pct": 1.204
+   "zmiana_pct": 1.049
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-18T22:50:28Z"
+ "zaktualizowano_utc": "2026-10-18T23:13:58Z"
 }
