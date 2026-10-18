@@ -1,55 +1,55 @@
-# Softy: kawa i kakao, analiza z 2026-10-17 01:59 PL
+# Softy: kawa i kakao, analiza z 2026-10-18 02:21 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
-## Kawa (Arabica KC): NEUTRAL 1/5 (suma +0.0)
+## Kawa (Arabica KC): NEUTRAL 1/5 (suma +1.0)
 
-- Cena 305,55 c/lb (2026-10-16T17:15:00Z UTC). ATR D1 10,72, ATR H1 (sesja) 3,14. 5 sesji +5.7%, 20 sesji +5.2%.
-- Reżim: **zakres** (ADX 21, cena w zakresie 10 sesji 283.30-308.35; nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście). Zakres 10 sesji 283,30–308,35 (20 sesji 269,75–308,35), EMA20 295,89, EMA50 305,32, SMA200 308,70.
+- Cena 305,55 c/lb (2026-10-16T17:15:00Z UTC). ATR D1 10,41, ATR H1 (sesja) 3,14. 5 sesji +6.5%, 20 sesji +3.8%.
+- Reżim: **zakres** (ADX 20, cena w zakresie 10 sesji 283.50-308.35; nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.60): uwaga na pułapkę albo drugie podejście). Zakres 10 sesji 283,50–308,35 (20 sesji 269,75–308,35), EMA20 295,89, EMA50 304,93, SMA200 308,43.
 
 | Czynnik | Wynik | Opis |
 |---|---|---|
-| Technika (reżim) | +0.0 | ADX 21, cena w zakresie 10 sesji 283.30-308.35; nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście |
-| COT | +1.0 | fundusze net +15,270, 3. percentyl 3 lat: tłoczno w shortach, paliwo do squeeze |
+| Technika (reżim) | +0.0 | ADX 20, cena w zakresie 10 sesji 283.50-308.35; nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.60): uwaga na pułapkę albo drugie podejście |
+| COT | +1.0 | fundusze net +15,270, 3. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
 | Pogoda | -1.0 | opad 30 dni 160% normy, prognoza 16 dni 187% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
 | Krzywa | +1.0 | KCZ26.NYB vs KCH27.NYB: +3.72%, 5 dni temu +2.91%, backwardation (ciasno w bieżącej dostawie) |
-| Zapasy ICE | -1.0 | 240,767 (2026-10-16), zmiana od 2026-09-30: +10.0%: rosną, presja na bieżący kontrakt |
+| Zapasy ICE | +0.0 | 240,767 (2026-10-16), zmiana od 2026-10-15: +0.7% |
 | BRL | +0.0 | USD/BRL 5.067, 5 sesji +1.0% |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana -1.3%, wzrost w 46% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.0%, wzrost w 50% lat |
 
-Opory: 308,20 (swing D1 ×3, ostatnio 2026-10-07, +0.25 ATR), 311,30 (szczyt 5 sesji, +0.54 ATR), 311,78 (R1, +0.58 ATR), 312,55 (swing D1 ×2, ostatnio 2026-10-16, +0.65 ATR)
+Opory: 308,20 (swing D1 ×3, ostatnio 2026-10-07, +0.25 ATR), 311,30 (szczyt 5 sesji, +0.55 ATR), 311,82 (R1, +0.60 ATR), 312,55 (swing D1 ×2, ostatnio 2026-10-16, +0.67 ATR)
 
-Wsparcia: 300,00 (swing D1 ×1, ostatnio 2026-05-13, -0.52 ATR), 300,00 (okrągły poziom, -0.52 ATR), 298,83 (S1, -0.63 ATR), 297,97 (swing D1 ×4, ostatnio 2026-10-16, -0.71 ATR)
+Wsparcia: 300,00 (swing D1 ×1, ostatnio 2026-05-13, -0.53 ATR), 300,00 (okrągły poziom, -0.53 ATR), 298,87 (S1, -0.64 ATR), 297,97 (swing D1 ×4, ostatnio 2026-10-16, -0.73 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
-| LONG | limit: granica zakresu 283.30 (10 sesji), TP1 przed przeciwną granicą | 284,37 | 273,65 | 307,28 / 316,53 | 1.79 | -1.98 ATR | 11 | limit 1.98× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop |
-| LONG | stop: wybicie zakresu za 308.35: zmiana reżimu, wejście z kontynuacji | 309,42 | 287,99 | 352,29 / 373,73 | 1.82 | +0.36 ATR | 6 | silny poziom 312.55 przed TP1: rozważyć częściowe wyjście przed nim |
-| SHORT | limit: granica zakresu 308.35 (10 sesji), TP1 przed przeciwną granicą | 307,28 | 318,00 | 284,37 / 275,12 | 1.79 | +0.16 ATR | 11 | silny poziom 297.97 przed TP1: rozważyć częściowe wyjście przed nim |
-| SHORT | stop: wybicie zakresu za 283.30: zmiana reżimu, wejście z kontynuacji | 282,23 | 303,66 | 239,36 / 217,92 | 1.82 | -2.18 ATR | 6 | stop 2.18× ATR D1 od ceny: daleko, do przeliczenia po sesji |
+| LONG | limit: granica zakresu 283.50 (10 sesji), TP1 przed przeciwną granicą | 284,54 | 274,13 | 307,31 / 315,77 | 1.82 | -2.02 ATR | 12 | limit 2.02× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop |
+| LONG | stop: wybicie zakresu za 308.35: zmiana reżimu, wejście z kontynuacji | 309,39 | 288,57 | 351,03 / 371,86 | 1.82 | +0.37 ATR | 6 | silny poziom 312.55 przed TP1: rozważyć częściowe wyjście przed nim |
+| SHORT | limit: granica zakresu 308.35 (10 sesji), TP1 przed przeciwną granicą | 307,31 | 317,72 | 284,54 / 276,08 | 1.82 | +0.17 ATR | 12 | silny poziom 297.97 przed TP1: rozważyć częściowe wyjście przed nim |
+| SHORT | stop: wybicie zakresu za 283.50: zmiana reżimu, wejście z kontynuacji | 282,46 | 303,28 | 240,82 / 219,99 | 1.82 | -2.22 ATR | 6 | stop 2.22× ATR D1 od ceny: daleko, do przeliczenia po sesji |
 
 Wiszące zlecenia z dziennika:
 
 - #37 LONG limit 303,00 (SL 296,00): w zasięgu (0.24× ATR D1, 0.8× ATR H1)
-- #38 LONG stop 311,50 (SL 304,50): w zasięgu (0.56× ATR D1)
+- #38 LONG stop 311,50 (SL 304,50): w zasięgu (0.57× ATR D1)
 
 ## Kakao (NY CC): NEUTRAL 2/5 (suma +1.5)
 
-- Cena 5 686 USD/t (2026-10-16T17:15:00Z UTC). ATR D1 292, ATR H1 (sesja) 81. 5 sesji +0.4%, 20 sesji +6.7%.
-- Reżim: **zakres** (ADX 15, cena w zakresie 10 sesji 5395.00-6023.00). Zakres 10 sesji 5 395–6 023 (20 sesji 5 051–6 023), EMA20 5 691, EMA50 5 649, SMA200 4 587.
+- Cena 5 686 USD/t (2026-10-16T17:15:00Z UTC). ATR D1 292, ATR H1 (sesja) 80. 5 sesji -0.3%, 20 sesji +6.0%.
+- Reżim: **zakres** (ADX 15, cena w zakresie 10 sesji 5395.00-6023.00). Zakres 10 sesji 5 395–6 023 (20 sesji 5 051–6 023), EMA20 5 687, EMA50 5 647, SMA200 4 586.
 
 | Czynnik | Wynik | Opis |
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 15, cena w zakresie 10 sesji 5395.00-6023.00 |
-| COT | +1.0 | fundusze net -11,921, 9. percentyl 3 lat: tłoczno w shortach, paliwo do squeeze |
+| COT | +1.0 | fundusze net -11,921, 9. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
 | Pogoda | +0.5 | opad 30 dni 142% normy, prognoza 16 dni 195% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie) |
 | Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.88%, 5 dni temu -2.01%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,593,964 (2026-10-16), zmiana od 2026-10-15: +0.2% |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana -0.1%, wzrost w 46% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.0%, wzrost w 58% lat |
 
-Opory: 5 724 (P, +0.13 ATR), 5 732 (swing D1 ×3, ostatnio 2026-09-28, +0.16 ATR), 5 823 (R1, +0.47 ATR), 5 906 (swing D1 ×4, ostatnio 2026-10-16, +0.75 ATR)
+Opory: 5 710 (P, +0.08 ATR), 5 732 (swing D1 ×3, ostatnio 2026-09-28, +0.16 ATR), 5 796 (R1, +0.38 ATR), 5 906 (swing D1 ×4, ostatnio 2026-10-16, +0.75 ATR)
 
-Wsparcia: 5 587 (S1, -0.34 ATR), 5 573 (swing D1 ×3, ostatnio 2026-10-16, -0.39 ATR), 5 554 (dołek 5 sesji, -0.45 ATR), 5 500 (okrągły poziom, -0.64 ATR)
+Wsparcia: 5 573 (swing D1 ×3, ostatnio 2026-10-16, -0.39 ATR), 5 560 (S1, -0.43 ATR), 5 554 (dołek 5 sesji, -0.45 ATR), 5 500 (okrągły poziom, -0.64 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
@@ -65,13 +65,12 @@ Wiszące zlecenia z dziennika:
 
 ## Alerty
 
-- kawa: nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.55): uwaga na pułapkę albo drugie podejście
+- kawa: nieudane wybicie górą (311.30 > 308.35, zamknięcie 305.60): uwaga na pułapkę albo drugie podejście
 
 ## Kalendarz (14 dni)
 
 | Data | Godz. PL | Rynek | Wydarzenie | Waga |
 |---|---|---|---|---|
-| 2026-10-16 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
 | 2026-10-19 | 10:15 | oba | Otwarcie tygodnia na ICE po wybiciu kawy nad 304 (16.10) i obniżonych szczytach kakao | wysoka |
 | 2026-10-19 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |
 | 2026-10-23 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
