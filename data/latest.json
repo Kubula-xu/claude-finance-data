@@ -38,7 +38,7 @@
    "dzien": {
     "data": "2026-10-16",
     "open": 4192.100098,
-    "high": 4220.200195,
+    "high": 4220.299805,
     "low": 4167.5
    }
   },
@@ -73,15 +73,15 @@
   "ng": {
    "symbol": "NG=F",
    "opis": "Gaz ziemny futures (NYMEX)",
-   "cena": 3.211,
-   "czas_notowania_utc": "2026-10-15T20:45:00Z",
+   "cena": 3.116,
+   "czas_notowania_utc": "2026-10-16T20:45:00Z",
    "poprzednie_zamkniecie": 3.236,
-   "zmiana_pct": -0.773,
+   "zmiana_pct": -3.708,
    "dzien": {
     "data": "2026-10-16",
     "open": 3.212,
     "high": 3.229,
-    "low": 3.062
+    "low": 3.064
    }
   },
   "coffee": {
@@ -94,7 +94,7 @@
    "dzien": {
     "data": "2026-10-16",
     "open": 299.25,
-    "high": 311.200012,
+    "high": 311.299988,
     "low": 298.350006
    }
   },
@@ -167,7 +167,7 @@
    "dzien": {
     "data": "2026-10-16",
     "open": 4175.385,
-    "high": 4203.4851,
+    "high": 4203.5847,
     "low": 4150.7849
    },
    "poprzednie_zamkniecie": 4153.385,
@@ -194,5 +194,5 @@
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-18T10:18:18Z"
+ "zaktualizowano_utc": "2026-10-18T10:52:52Z"
 }
