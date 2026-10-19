@@ -280,7 +280,7 @@
    "tp": "5365 / 5215"
   },
   "41": {
-   "status": "anulowane (19.10 11:30 PL, analiza od zera)",
+   "status": "zamknięta ręcznie (19.10 11:30 PL, analiza od zera)",
    "sl": "4146",
    "tp": "4201 / 4223"
   },
@@ -335,5 +335,5 @@
   "rano": "2026-10-19",
   "wieczor": "2026-10-16"
  },
- "zaktualizowano_utc": "2026-10-19T09:18:34Z"
+ "zaktualizowano_utc": "2026-10-19T09:19:13Z"
 }
