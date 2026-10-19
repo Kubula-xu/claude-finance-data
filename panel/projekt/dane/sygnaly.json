@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-10-19 08:45 PL",
+  "aktualizacja": "2026-10-19 11:10 PL",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -12,41 +12,42 @@
       "atr": 443,
       "agenci": {
         "technika": [
-          "NEUTRAL",
-          2
+          "LONG",
+          1
         ],
         "makro": [
-          "LONG",
+          "NEUTRAL",
           1
         ],
         "sentyment": [
           "LONG",
-          2
+          1
         ]
       },
       "final": {
         "kierunek": "LONG",
         "pewnosc": 1,
-        "powod": "Odbicie po Warshu. Long z cofnięcia 30 060 po 15:45 (poz. 33)."
+        "powod": "Odbicie +1,2% po najgorszym tygodniu od miesięcy; cena nad piątkowym pivotem 29 628, VIX 18,6. Przeciw: dalsza przecena chipów i obawy o finansowanie AI. Long z cofnięcia do pivotu po otwarciu kasowym (poz. 44)."
       },
       "setup": {
         "kierunek": "LONG",
         "typ": "limit",
-        "wejscie": 30060,
-        "sl": 29940,
-        "tp1": 30240,
-        "tp2": 30360,
+        "wejscie": 29630,
+        "sl": 29480,
+        "tp1": 29800,
+        "tp2": 29980,
         "ryzyko_pct": 0.25,
-        "status": "brak zlecenia rano (WTI: zmiana kontraktu w danych; US100 na przegląd 14:50)",
+        "status": "oczekuje (poz. 44, okno 15:30–20:00)",
         "ksiega": "intraday",
-        "uwagi": "Piątek: zamknąć do 21:00."
+        "uwagi": "Unieważnienie: H1 pod 29 500 przed wejściem. Ceny NQ = US100 w XTB."
       },
       "kontrakt": {
         "nazwa": "E-mini Nasdaq 100 (NQ)",
         "usd_na_jedn_ceny": 20,
         "usd_na_jedn_cfd": 1,
         "jedn_cfd": "pkt"
-      }
+      },
+      "atr_h1": 132
     },
     {
       "id": "gold",
@@ -84,7 +85,7 @@
         "tp2": 4223,
         "ryzyko_pct": 0.5,
         "koszt": 0.6,
-        "status": "oczekuje (poz. 41)",
+        "status": "oczekuje (poz. 41; dołek po 09:00 4 168,9, brakło 0,9 USD)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -136,7 +137,7 @@
         "tp1": 58.43,
         "tp2": 59.08,
         "ryzyko_pct": 0.25,
-        "status": "oczekuje (poz. 42)",
+        "status": "otwarta (poz. 42, wejście 57,45 o 09:45 PL)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -158,34 +159,34 @@
       "atr": 4.5,
       "agenci": {
         "technika": [
-          "LONG",
-          1
+          "SHORT",
+          2
         ],
         "makro": [
-          "LONG",
-          2
+          "SHORT",
+          1
         ],
         "sentyment": [
           "NEUTRAL",
-          2
+          1
         ]
       },
       "final": {
-        "kierunek": "LONG",
+        "kierunek": "SHORT",
         "pewnosc": 1,
-        "powod": "Duży spadek zapasów EIA kontra doniesienia o złagodzeniu sankcji. Long z cofnięcia 95,10 (poz. 32)."
+        "powod": "USA odstępują od części nowych sankcji na Rosję: ropa z 99 do 96,9, poniżej piątkowego pivotu 97,9. Short z odbicia do strefy azjatyckiej 97,4–97,6 (poz. 43)."
       },
       "setup": {
-        "kierunek": "LONG",
+        "kierunek": "SHORT",
         "typ": "limit",
-        "wejscie": 95.4,
-        "sl": 94.5,
-        "tp1": 96.7,
-        "tp2": 97.8,
+        "wejscie": 97.55,
+        "sl": 98.2,
+        "tp1": 96.45,
+        "tp2": 95.75,
         "ryzyko_pct": 0.25,
-        "status": "brak zlecenia rano (WTI: zmiana kontraktu w danych; US100 na przegląd 14:50)",
+        "status": "oczekuje (poz. 43, okno do 20:00)",
         "ksiega": "intraday",
-        "uwagi": "Piątek: zamknąć do 21:00."
+        "uwagi": "Anulować, jeśli cena zejdzie pod 96,0 bez wypełnienia. Wygasa kontrakt listopadowy: sprawdzić różnicę XTB vs CL=F."
       },
       "kontrakt": {
         "nazwa": "WTI Crude (CL), 1 000 bbl",
@@ -219,7 +220,7 @@
       "final": {
         "kierunek": "BRAK",
         "pewnosc": 1,
-        "powod": "Po wczorajszym squeezie do 3,32 bez przewagi."
+        "powod": "Odbicie z 3,03 do 3,11, w środku piątkowego zakresu 3,06–3,23. Bez przewagi."
       },
       "setup": {
         "kierunek": "SHORT",
@@ -230,9 +231,9 @@
         "tp2": 3.053,
         "ryzyko_pct": 0.25,
         "koszt": 0.005,
-        "status": "brak zlecenia rano (WTI: zmiana kontraktu w danych; US100 na przegląd 14:50)",
+        "status": "brak zlecenia (bez przewagi)",
         "ksiega": "intraday",
-        "uwagi": "Sell limit pod H3 3,198, bias makro SHORT. Okno 15:00–20:30, zamknąć do 22:30 PL."
+        "uwagi": ""
       },
       "kontrakt": {
         "nazwa": "Henry Hub (NG), 10 000 MMBtu",
@@ -277,7 +278,7 @@
         "tp2": 320.5,
         "ryzyko_pct": 0.5,
         "koszt": 0.8,
-        "status": "oczekuje (poz. 37, OCO z 38: buy stop 311,5)",
+        "status": "oczekuje (poz. 37, OCO z 38: buy stop 311,5); 303,0 dotknięte na otwarciu 10:15, przed oknem",
         "ksiega": "intraday",
         "uwagi": "Okno 10:30–19:00."
       },
