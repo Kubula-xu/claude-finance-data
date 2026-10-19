@@ -280,17 +280,22 @@
    "tp": "5365 / 5215"
   },
   "41": {
-   "status": "zamknięta (stop czasowy, 19.10 14:15 PL)",
+   "status": "zamknięta (ręcznie, 19.10 11:17 PL, analiza od zera)",
    "sl": "4146",
    "tp": "4201 / 4223"
   },
   "42": {
-   "status": "zamknięta (stop czasowy, 19.10 13:00 PL)",
+   "status": "zamknięta (ręcznie, 19.10 11:10 PL, analiza od zera)",
    "sl": "56,80",
    "tp": "58,43 / 59,08"
   },
   "43": {
    "status": "zamknięta (TP1 + reszta na zamknięciu dnia 22:25 PL)",
+   "sl": "29553",
+   "tp": "29920 / 30068"
+  },
+  "46": {
+   "status": "zamknięta (ręcznie, 19.10 11:10 PL, teza nieaktualna)",
    "sl": "98,20",
    "tp": "96,45 / 95,75"
   },
@@ -325,5 +330,5 @@
   "rano": "2026-10-19",
   "wieczor": "2026-10-19"
  },
- "zaktualizowano_utc": "2026-10-19T20:43:36Z"
+ "zaktualizowano_utc": "2026-10-19T20:44:54Z"
 }
