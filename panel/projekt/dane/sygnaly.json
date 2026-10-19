@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-10-16T05:40:00Z",
+  "aktualizacja": "2026-10-19 08:45 PL",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -37,7 +37,7 @@
         "tp1": 30240,
         "tp2": 30360,
         "ryzyko_pct": 0.25,
-        "status": "oczekuje (poz. 33)",
+        "status": "brak zlecenia rano (WTI: zmiana kontraktu w danych; US100 na przegląd 14:50)",
         "ksiega": "intraday",
         "uwagi": "Piątek: zamknąć do 21:00."
       },
@@ -59,7 +59,7 @@
       "agenci": {
         "technika": [
           "LONG",
-          2
+          1
         ],
         "makro": [
           "LONG",
@@ -73,21 +73,21 @@
       "final": {
         "kierunek": "LONG",
         "pewnosc": 2,
-        "powod": "Warsh bez sygnału podwyżki, spadek rentowności i dolara. Long z cofnięcia 4 160 (poz. 30)."
+        "powod": "Odbicie w Azji do 4 190 (obawy o finansowanie AI, ryzyko żeglugi na Bliskim Wschodzie). Zakres 4 150–4 200, long z cofnięcia do nocnego dołka (poz. 41)."
       },
       "setup": {
         "kierunek": "LONG",
         "typ": "limit",
-        "wejscie": 4160,
+        "wejscie": 4168,
         "sl": 4146,
-        "tp1": 4184,
-        "tp2": 4200,
+        "tp1": 4201,
+        "tp2": 4223,
         "ryzyko_pct": 0.5,
         "koszt": 0.6,
-        "status": "oczekuje (poz. 30)",
+        "status": "oczekuje (poz. 41)",
         "ksiega": "intraday",
         "ceny": "spot",
-        "uwagi": "Piątek: zamknąć do 21:00."
+        "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
       },
       "kontrakt": {
         "nazwa": "Gold (GC), 100 oz",
@@ -112,7 +112,7 @@
       "agenci": {
         "technika": [
           "LONG",
-          2
+          1
         ],
         "makro": [
           "LONG",
@@ -126,20 +126,20 @@
       "final": {
         "kierunek": "LONG",
         "pewnosc": 1,
-        "powod": "Za złotem, poz. 31."
+        "powod": "Za złotem, słabiej. SL pod piątkowym dołkiem 56,90 (poz. 42)."
       },
       "setup": {
         "kierunek": "LONG",
         "typ": "limit",
-        "wejscie": 57.4,
-        "sl": 56.95,
-        "tp1": 58.1,
-        "tp2": 58.5,
+        "wejscie": 57.45,
+        "sl": 56.8,
+        "tp1": 58.43,
+        "tp2": 59.08,
         "ryzyko_pct": 0.25,
-        "status": "oczekuje (poz. 31)",
+        "status": "oczekuje (poz. 42)",
         "ksiega": "intraday",
         "ceny": "spot",
-        "uwagi": "Piątek: zamknąć do 21:00."
+        "uwagi": "Grupa metali z poz. 41: 0,75%."
       },
       "kontrakt": {
         "nazwa": "Silver (SI), 5 000 oz",
@@ -183,7 +183,7 @@
         "tp1": 96.7,
         "tp2": 97.8,
         "ryzyko_pct": 0.25,
-        "status": "oczekuje (poz. 32)",
+        "status": "brak zlecenia rano (WTI: zmiana kontraktu w danych; US100 na przegląd 14:50)",
         "ksiega": "intraday",
         "uwagi": "Piątek: zamknąć do 21:00."
       },
@@ -230,7 +230,7 @@
         "tp2": 3.053,
         "ryzyko_pct": 0.25,
         "koszt": 0.005,
-        "status": "brak zlecenia (14.10 rano)",
+        "status": "brak zlecenia rano (WTI: zmiana kontraktu w danych; US100 na przegląd 14:50)",
         "ksiega": "intraday",
         "uwagi": "Sell limit pod H3 3,198, bias makro SHORT. Okno 15:00–20:30, zamknąć do 22:30 PL."
       },
@@ -251,35 +251,35 @@
       "atr": 9.0,
       "agenci": {
         "technika": [
-          "SHORT",
+          "LONG",
           2
         ],
         "makro": [
-          "SHORT",
-          2
+          "NEUTRAL",
+          1
         ],
         "sentyment": [
-          "SHORT",
-          3
+          "LONG",
+          2
         ]
       },
       "final": {
-        "kierunek": "SHORT",
-        "pewnosc": 3,
-        "powod": "Księga swing (1–2 tygodnie): wszyscy trzej agenci short. Rekordowe zbiory w Brazylii, gra w konsolidacji 270–300."
+        "kierunek": "LONG",
+        "pewnosc": 2,
+        "powod": "Wybicie zakresu 283–304 i utrzymany retest; niskie zapasy ICE. Przeciw: rekordowe zbiory w Brazylii (poz. 37/38 OCO)."
       },
       "setup": {
-        "kierunek": "SHORT",
+        "kierunek": "LONG",
         "typ": "limit",
-        "wejscie": 292.0,
-        "sl": 303.5,
-        "tp1": 272.0,
-        "tp2": 270.0,
+        "wejscie": 303.0,
+        "sl": 296.0,
+        "tp1": 313.5,
+        "tp2": 320.5,
         "ryzyko_pct": 0.5,
         "koszt": 0.8,
-        "status": "oczekuje (limit do 16.10, swing; wejście 292 od 12.10)",
-        "ksiega": "swing",
-        "uwagi": "ATR z danych do 2.10, przed wejściem przeliczyć."
+        "status": "oczekuje (poz. 37, OCO z 38: buy stop 311,5)",
+        "ksiega": "intraday",
+        "uwagi": "Okno 10:30–19:00."
       },
       "kontrakt": {
         "nazwa": "Coffee C (KC), 37 500 lb",
@@ -299,33 +299,33 @@
       "agenci": {
         "technika": [
           "NEUTRAL",
-          2
+          1
         ],
         "makro": [
           "LONG",
-          2
+          1
         ],
         "sentyment": [
-          "LONG",
+          "NEUTRAL",
           1
         ]
       },
       "final": {
         "kierunek": "LONG",
         "pewnosc": 1,
-        "powod": "Mocny przemiał Q3. Long tylko po wybiciu nad 5 870 (poz. 34)."
+        "powod": "Zakres 5 600–6 000, obniżające się szczyty. Gra krawędzi: long 5 640 albo short pod 5 590 (poz. 39/40 OCO)."
       },
       "setup": {
         "kierunek": "LONG",
-        "typ": "stop",
-        "wejscie": 5680,
-        "sl": 5520,
-        "tp1": 6000,
-        "tp2": 6100,
-        "ryzyko_pct": 0.25,
-        "status": "oczekuje (poz. 34)",
+        "typ": "limit",
+        "wejscie": 5640,
+        "sl": 5490,
+        "tp1": 5865,
+        "tp2": 5980,
+        "ryzyko_pct": 0.5,
+        "status": "oczekuje (poz. 39, OCO z 40: sell stop 5 590)",
         "ksiega": "intraday",
-        "uwagi": "Połowa wielkości, zamknąć do 19:00."
+        "uwagi": "Okno 10:45–19:00."
       },
       "kontrakt": {
         "nazwa": "Cocoa (CC), 10 t",
