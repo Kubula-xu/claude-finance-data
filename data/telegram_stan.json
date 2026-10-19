@@ -1,14 +1,14 @@
 {
  "sygnaly": {
   "nq": {
-   "kierunek": "BRAK",
+   "kierunek": "LONG",
    "pewnosc": 1,
    "setup": [
     "LONG",
-    29630,
-    29480,
-    29800,
-    29980
+    29700,
+    29553,
+    29920,
+    30068
    ]
   },
   "gold": {
@@ -260,32 +260,32 @@
    "tp": "293,8 / 288,0"
   },
   "37": {
-   "status": "anulowane (OCO, wypełnione #38)",
+   "status": "anulowane (OCO: weszło #38)",
    "sl": "296,0",
    "tp": "313,5 / 320,5"
   },
   "38": {
-   "status": "otwarta (wejście 19.10 ok. 12:55 PL; zamknąć do 19:00 PL)",
+   "status": "otwarta (wejście 19.10 12:45 PL; stop czasowy 15:45 PL)",
    "sl": "304,5",
    "tp": "322,0 / 329,0"
   },
   "39": {
-   "status": "otwarta (wejście 19.10 ok. 10:45–11:15 PL; zamknąć do 19:00 PL)",
+   "status": "zamknięta (stop czasowy, 19.10 13:45 PL)",
    "sl": "5490",
    "tp": "5865 / 5980"
   },
   "40": {
-   "status": "anulowane (OCO, wypełnione #39)",
+   "status": "anulowane (OCO: weszło #39)",
    "sl": "5740",
    "tp": "5365 / 5215"
   },
   "41": {
-   "status": "zamknięta ręcznie (19.10 11:30 PL, analiza od zera)",
+   "status": "zamknięta (stop czasowy, 19.10 14:15 PL)",
    "sl": "4146",
    "tp": "4201 / 4223"
   },
   "42": {
-   "status": "zamknięta ręcznie (19.10 11:30 PL, analiza od zera)",
+   "status": "zamknięta (stop czasowy, 19.10 13:00 PL)",
    "sl": "56,80",
    "tp": "58,43 / 59,08"
   },
@@ -317,5 +317,5 @@
   "rano": "2026-10-19",
   "wieczor": "2026-10-16"
  },
- "zaktualizowano_utc": "2026-10-19T12:29:47Z"
+ "zaktualizowano_utc": "2026-10-19T12:51:45Z"
 }
