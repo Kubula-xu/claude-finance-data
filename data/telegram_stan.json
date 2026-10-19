@@ -306,18 +306,7 @@
   }
  },
  "automat": {
-  "37": {
-   "stan": "otwarta",
-   "zdarzenia": [
-    "19.10 10:15 PL wejście 303",
-    "19.10 11:30 PL +1R, SL na BE 303"
-   ]
-  },
   "38": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  },
-  "45": {
    "stan": "oczekuje",
    "zdarzenia": []
   }
@@ -326,5 +315,5 @@
   "rano": "2026-10-19",
   "wieczor": "2026-10-16"
  },
- "zaktualizowano_utc": "2026-10-19T10:59:48Z"
+ "zaktualizowano_utc": "2026-10-19T11:14:08Z"
 }
