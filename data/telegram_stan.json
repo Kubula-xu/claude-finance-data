@@ -1,7 +1,7 @@
 {
  "sygnaly": {
   "nq": {
-   "kierunek": "LONG",
+   "kierunek": "BRAK",
    "pewnosc": 1,
    "setup": [
     "LONG",
@@ -12,8 +12,8 @@
    ]
   },
   "gold": {
-   "kierunek": "LONG",
-   "pewnosc": 2,
+   "kierunek": "BRAK",
+   "pewnosc": 1,
    "setup": [
     "LONG",
     4168,
@@ -23,7 +23,7 @@
    ]
   },
   "silver": {
-   "kierunek": "LONG",
+   "kierunek": "BRAK",
    "pewnosc": 1,
    "setup": [
     "LONG",
@@ -34,18 +34,18 @@
    ]
   },
   "wti": {
-   "kierunek": "SHORT",
-   "pewnosc": 1,
+   "kierunek": "LONG",
+   "pewnosc": 2,
    "setup": [
-    "SHORT",
+    "LONG",
     97.55,
-    98.2,
-    96.45,
-    95.75
+    96.65,
+    98.95,
+    99.9
    ]
   },
   "ng": {
-   "kierunek": "BRAK",
+   "kierunek": "SHORT",
    "pewnosc": 1,
    "setup": [
     "SHORT",
@@ -57,7 +57,7 @@
   },
   "coffee": {
    "kierunek": "LONG",
-   "pewnosc": 2,
+   "pewnosc": 1,
    "setup": [
     "LONG",
     303.0,
@@ -270,34 +270,39 @@
    "tp": "322,0 / 329,0"
   },
   "39": {
-   "status": "oczekuje (limit, OCO z #40, poniedziałek 19.10, okno 10:45–19:00)",
+   "status": "otwarta (wejście 19.10 ok. 10:45–11:15 PL; zamknąć do 19:00 PL)",
    "sl": "5490",
    "tp": "5865 / 5980"
   },
   "40": {
-   "status": "oczekuje (stop, OCO z #39, poniedziałek 19.10, okno 10:45–19:00)",
+   "status": "anulowane (OCO, wypełnione #39)",
    "sl": "5740",
    "tp": "5365 / 5215"
   },
   "41": {
-   "status": "oczekuje (limit, intraday 19.10, okna 09:00–12:00 i 14:00–20:00)",
+   "status": "anulowane (19.10 11:30 PL, analiza od zera)",
    "sl": "4146",
    "tp": "4201 / 4223"
   },
   "42": {
-   "status": "otwarta (wejście 19.10 09:45 PL; zamknąć do 22:30 PL)",
+   "status": "zamknięta ręcznie (19.10 11:30 PL, analiza od zera)",
    "sl": "56,80",
    "tp": "58,43 / 59,08"
   },
   "43": {
-   "status": "oczekuje (limit, intraday 19.10, do 20:00 PL)",
+   "status": "zamknięta ręcznie (19.10 11:20 PL, odwrócenie w V)",
    "sl": "98,20",
    "tp": "96,45 / 95,75"
   },
   "44": {
-   "status": "oczekuje (limit, intraday 19.10, okno 15:30–20:00 PL)",
+   "status": "anulowane (19.10 11:30 PL, analiza od zera)",
    "sl": "29480",
    "tp": "29800 / 29980"
+  },
+  "45": {
+   "status": "oczekuje (limit, intraday 19.10, do 20:00 PL)",
+   "sl": "96,65",
+   "tp": "98,95 / 99,90"
   }
  },
  "automat": {
@@ -330,5 +335,5 @@
   "rano": "2026-10-19",
   "wieczor": "2026-10-16"
  },
- "zaktualizowano_utc": "2026-10-19T09:17:28Z"
+ "zaktualizowano_utc": "2026-10-19T09:18:34Z"
 }
