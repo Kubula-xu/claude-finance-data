@@ -5,10 +5,10 @@
    "pewnosc": 1,
    "setup": [
     "LONG",
-    30060,
-    29940,
-    30240,
-    30360
+    29630,
+    29480,
+    29800,
+    29980
    ]
   },
   "gold": {
@@ -34,14 +34,14 @@
    ]
   },
   "wti": {
-   "kierunek": "LONG",
+   "kierunek": "SHORT",
    "pewnosc": 1,
    "setup": [
-    "LONG",
-    95.4,
-    94.5,
-    96.7,
-    97.8
+    "SHORT",
+    97.55,
+    98.2,
+    96.45,
+    95.75
    ]
   },
   "ng": {
@@ -285,9 +285,19 @@
    "tp": "4201 / 4223"
   },
   "42": {
-   "status": "oczekuje (limit, intraday 19.10, okna 09:00–12:00 i 14:00–20:00)",
+   "status": "otwarta (wejście 19.10 09:45 PL; zamknąć do 22:30 PL)",
    "sl": "56,80",
    "tp": "58,43 / 59,08"
+  },
+  "43": {
+   "status": "oczekuje (limit, intraday 19.10, do 20:00 PL)",
+   "sl": "98,20",
+   "tp": "96,45 / 95,75"
+  },
+  "44": {
+   "status": "oczekuje (limit, intraday 19.10, okno 15:30–20:00 PL)",
+   "sl": "29480",
+   "tp": "29800 / 29980"
   }
  },
  "automat": {
@@ -308,5 +318,5 @@
   "rano": "2026-10-19",
   "wieczor": "2026-10-16"
  },
- "zaktualizowano_utc": "2026-10-19T08:35:20Z"
+ "zaktualizowano_utc": "2026-10-19T08:58:26Z"
 }
