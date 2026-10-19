@@ -1,7 +1,7 @@
 {
- "wygenerowano_utc": "2026-10-19T20:15:26Z",
- "wygenerowano_pl": "2026-10-19 22:15 PL",
- "kapital_usd": 10145450.0,
+ "wygenerowano_utc": "2026-10-19T20:51:50Z",
+ "wygenerowano_pl": "2026-10-19 22:51 PL",
+ "kapital_usd": 10152719.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
   "FRONTRUN_ATR": 0.1,
@@ -289,7 +289,7 @@
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": -0.42,
        "kontrakty": 6.0,
-       "ryzyko_usd": 50727,
+       "ryzyko_usd": 50764,
        "uzasadnienie": "cofnięcie do 308.20 (swing D1 ×3, ostatnio 2026-10-07)",
        "uwagi": [
         "silny poziom 316.18 przed TP1: rozważyć częściowe wyjście przed nim",
@@ -308,7 +308,7 @@
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": 0.45,
        "kontrakty": 6.0,
-       "ryzyko_usd": 50727,
+       "ryzyko_usd": 50764,
        "uzasadnienie": "kontynuacja: przebicie szczytu ostatniej sesji 317.50",
        "uwagi": [
         "R:R po kosztach 1.82 < 2.0: według ryzyko.md 10a nie składać"
@@ -333,7 +333,7 @@
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": 0.42,
        "kontrakty": 6.0,
-       "ryzyko_usd": 50727,
+       "ryzyko_usd": 50764,
        "uzasadnienie": "cofnięcie do 319.31 (swing D1 ×4, ostatnio 2026-08-06)",
        "uwagi": [
         "silny poziom 308.2 przed TP1: rozważyć częściowe wyjście przed nim",
@@ -352,7 +352,7 @@
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": -1.11,
        "kontrakty": 6.0,
-       "ryzyko_usd": 50727,
+       "ryzyko_usd": 50764,
        "uzasadnienie": "kontynuacja: przebicie dołka ostatniej sesji 303.00",
        "uwagi": [
         "stop 1.11× ATR D1 od ceny: daleko, do przeliczenia po sesji",
@@ -375,7 +375,7 @@
     "czas_notowania_utc": "2026-10-19T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 275.71,
-    "atr_h1_sesja": 75.76,
+    "atr_h1_sesja": 76.08,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -639,7 +639,7 @@
        "rr_tp1_netto": 1.46,
        "odleglosc_atr": -0.86,
        "kontrakty": 7.7,
-       "ryzyko_usd": 25364,
+       "ryzyko_usd": 25382,
        "uzasadnienie": "granica zakresu 5431.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 0.86× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -658,7 +658,7 @@
        "rr_tp1_netto": 1.78,
        "odleglosc_atr": 1.29,
        "kontrakty": 3.4,
-       "ryzyko_usd": 25364,
+       "ryzyko_usd": 25382,
        "uzasadnienie": "wybicie zakresu za 6023.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 1.29× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -683,7 +683,7 @@
        "rr_tp1_netto": 1.46,
        "odleglosc_atr": 1.09,
        "kontrakty": 7.7,
-       "ryzyko_usd": 25364,
+       "ryzyko_usd": 25382,
        "uzasadnienie": "granica zakresu 6023.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 1.09× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -702,7 +702,7 @@
        "rr_tp1_netto": 1.78,
        "odleglosc_atr": -1.06,
        "kontrakty": 3.4,
-       "ryzyko_usd": 25364,
+       "ryzyko_usd": 25382,
        "uzasadnienie": "wybicie zakresu za 5431.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 1.06× ATR D1 od ceny: daleko, do przeliczenia po sesji"
