@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-10-19 11:10 PL",
+  "aktualizacja": "2026-10-19 11:30 PL (analiza od zera)",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -12,22 +12,22 @@
       "atr": 443,
       "agenci": {
         "technika": [
-          "LONG",
-          1
-        ],
-        "makro": [
           "NEUTRAL",
           1
         ],
-        "sentyment": [
+        "makro": [
           "LONG",
+          1
+        ],
+        "sentyment": [
+          "NEUTRAL",
           1
         ]
       },
       "final": {
-        "kierunek": "LONG",
+        "kierunek": "BRAK",
         "pewnosc": 1,
-        "powod": "Odbicie +1,2% po najgorszym tygodniu od miesięcy; cena nad piątkowym pivotem 29 628, VIX 18,6. Przeciw: dalsza przecena chipów i obawy o finansowanie AI. Long z cofnięcia do pivotu po otwarciu kasowym (poz. 44)."
+        "powod": "Odbicie +1% po najgorszym tygodniu od czerwca, ale cena pod EMA20/50 D1, a przed nami Netflix (wt.), Meta i Tesla (śr.). Bez przewagi; #44 anulowane."
       },
       "setup": {
         "kierunek": "LONG",
@@ -37,9 +37,9 @@
         "tp1": 29800,
         "tp2": 29980,
         "ryzyko_pct": 0.25,
-        "status": "oczekuje (poz. 44, okno 15:30–20:00)",
+        "status": "anulowane (poz. 44)",
         "ksiega": "intraday",
-        "uwagi": "Unieważnienie: H1 pod 29 500 przed wejściem. Ceny NQ = US100 w XTB."
+        "uwagi": ""
       },
       "kontrakt": {
         "nazwa": "E-mini Nasdaq 100 (NQ)",
@@ -59,22 +59,22 @@
       "atr": 82.6,
       "agenci": {
         "technika": [
-          "LONG",
+          "SHORT",
           1
         ],
         "makro": [
-          "LONG",
-          2
+          "NEUTRAL",
+          1
         ],
         "sentyment": [
           "LONG",
-          2
+          1
         ]
       },
       "final": {
-        "kierunek": "LONG",
-        "pewnosc": 2,
-        "powod": "Odbicie w Azji do 4 190 (obawy o finansowanie AI, ryzyko żeglugi na Bliskim Wschodzie). Zakres 4 150–4 200, long z cofnięcia do nocnego dołka (poz. 41)."
+        "kierunek": "BRAK",
+        "pewnosc": 1,
+        "powod": "Zakres 4 145–4 200 pod wszystkimi średnimi D1; ETF na rekordzie, fundusze oczyszczone, ale ok. 90% szans na podwyżkę Fed w grudniu. Agenci rozbieżni; #41 anulowane."
       },
       "setup": {
         "kierunek": "LONG",
@@ -85,7 +85,7 @@
         "tp2": 4223,
         "ryzyko_pct": 0.5,
         "koszt": 0.6,
-        "status": "oczekuje (poz. 41; dołek po 09:00 4 168,9, brakło 0,9 USD)",
+        "status": "anulowane (poz. 41)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -97,9 +97,9 @@
         "jedn_cfd": "oz"
       },
       "ostatnia_cena": {
-        "cena": 4137.54,
-        "czas": "2026-10-15 08:33 PL",
-        "zrodlo": "XAU/USD spot, Swissquote (repo claude-finance-data)"
+        "cena": 4170.39,
+        "czas": "2026-10-19 11:10 PL",
+        "zrodlo": "XTB GOLD (zrzut Kuby)"
       }
     },
     {
@@ -112,7 +112,7 @@
       "atr": 2.06,
       "agenci": {
         "technika": [
-          "LONG",
+          "SHORT",
           1
         ],
         "makro": [
@@ -120,14 +120,14 @@
           1
         ],
         "sentyment": [
-          "LONG",
+          "NEUTRAL",
           1
         ]
       },
       "final": {
-        "kierunek": "LONG",
+        "kierunek": "BRAK",
         "pewnosc": 1,
-        "powod": "Za złotem, słabiej. SL pod piątkowym dołkiem 56,90 (poz. 42)."
+        "powod": "Trend spadkowy D1 (pod EMA20 59,9), lekkie pozycjonowanie funduszy, PKB Chin 4,5%. Bez przewagi; #42 zamknięte po 57,46."
       },
       "setup": {
         "kierunek": "LONG",
@@ -137,7 +137,7 @@
         "tp1": 58.43,
         "tp2": 59.08,
         "ryzyko_pct": 0.25,
-        "status": "otwarta (poz. 42, wejście 57,45 o 09:45 PL)",
+        "status": "zamknięta po 57,46 (poz. 42)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -159,12 +159,12 @@
       "atr": 4.5,
       "agenci": {
         "technika": [
-          "SHORT",
+          "LONG",
           2
         ],
         "makro": [
-          "SHORT",
-          1
+          "LONG",
+          2
         ],
         "sentyment": [
           "NEUTRAL",
@@ -172,21 +172,21 @@
         ]
       },
       "final": {
-        "kierunek": "SHORT",
-        "pewnosc": 1,
-        "powod": "USA odstępują od części nowych sankcji na Rosję: ropa z 99 do 96,9, poniżej piątkowego pivotu 97,9. Short z odbicia do strefy azjatyckiej 97,4–97,6 (poz. 43)."
+        "kierunek": "LONG",
+        "pewnosc": 2,
+        "powod": "Odwrócenie w V z 96,75 i powrót nad pivot 97,9; Hormuz praktycznie zamknięty, kolejny tankowiec w ogniu. Long z cofnięcia 97,55 (poz. 45)."
       },
       "setup": {
-        "kierunek": "SHORT",
+        "kierunek": "LONG",
         "typ": "limit",
         "wejscie": 97.55,
-        "sl": 98.2,
-        "tp1": 96.45,
-        "tp2": 95.75,
-        "ryzyko_pct": 0.25,
-        "status": "oczekuje (poz. 43, okno do 20:00)",
+        "sl": 96.65,
+        "tp1": 98.95,
+        "tp2": 99.9,
+        "ryzyko_pct": 0.5,
+        "status": "oczekuje (poz. 45, do 20:00)",
         "ksiega": "intraday",
-        "uwagi": "Anulować, jeśli cena zejdzie pod 96,0 bez wypełnienia. Wygasa kontrakt listopadowy: sprawdzić różnicę XTB vs CL=F."
+        "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
       },
       "kontrakt": {
         "nazwa": "WTI Crude (CL), 1 000 bbl",
@@ -206,21 +206,21 @@
       "agenci": {
         "technika": [
           "NEUTRAL",
-          2
+          1
         ],
         "makro": [
-          "NEUTRAL",
+          "SHORT",
           2
         ],
         "sentyment": [
-          "NEUTRAL",
-          2
+          "SHORT",
+          1
         ]
       },
       "final": {
-        "kierunek": "BRAK",
+        "kierunek": "SHORT",
         "pewnosc": 1,
-        "powod": "Odbicie z 3,03 do 3,11, w środku piątkowego zakresu 3,06–3,23. Bez przewagi."
+        "powod": "Ciepłe prognozy, zapasy nad średnią 5-letnią; ale zatłoczony short (ryzyko squeeze). Dobry poziom 3,19–3,21 leży ponad 1× ATR H1 od ceny, więc bez zlecenia."
       },
       "setup": {
         "kierunek": "SHORT",
@@ -231,7 +231,7 @@
         "tp2": 3.053,
         "ryzyko_pct": 0.25,
         "koszt": 0.005,
-        "status": "brak zlecenia (bez przewagi)",
+        "status": "brak zlecenia (poziom za daleko od ceny)",
         "ksiega": "intraday",
         "uwagi": ""
       },
@@ -253,21 +253,21 @@
       "agenci": {
         "technika": [
           "LONG",
-          2
-        ],
-        "makro": [
-          "NEUTRAL",
           1
         ],
-        "sentyment": [
+        "makro": [
           "LONG",
           2
+        ],
+        "sentyment": [
+          "SHORT",
+          1
         ]
       },
       "final": {
         "kierunek": "LONG",
-        "pewnosc": 2,
-        "powod": "Wybicie zakresu 283–304 i utrzymany retest; niskie zapasy ICE. Przeciw: rekordowe zbiory w Brazylii (poz. 37/38 OCO)."
+        "pewnosc": 1,
+        "powod": "Zapasy ICE ok. 239 tys. worków, ryzyko squeeze na grudniu, test SMA200 308. Przeciw: rekordowe zbiory w Brazylii. OCO #37/#38, ryzyko 0,25% (limit softów)."
       },
       "setup": {
         "kierunek": "LONG",
@@ -276,9 +276,9 @@
         "sl": 296.0,
         "tp1": 313.5,
         "tp2": 320.5,
-        "ryzyko_pct": 0.5,
+        "ryzyko_pct": 0.25,
         "koszt": 0.8,
-        "status": "oczekuje (poz. 37, OCO z 38: buy stop 311,5); 303,0 dotknięte na otwarciu 10:15, przed oknem",
+        "status": "oczekuje (poz. 37 limit 303, OCO z 38 stop 311,5)",
         "ksiega": "intraday",
         "uwagi": "Okno 10:30–19:00."
       },
@@ -287,6 +287,11 @@
         "usd_na_jedn_ceny": 375,
         "usd_na_jedn_cfd": 0.01,
         "jedn_cfd": "lb"
+      },
+      "ostatnia_cena": {
+        "cena": 307.12,
+        "czas": "2026-10-19 11:10 PL",
+        "zrodlo": "XTB COFFEE (zrzut Kuby)"
       }
     },
     {
@@ -303,7 +308,7 @@
           1
         ],
         "makro": [
-          "LONG",
+          "NEUTRAL",
           1
         ],
         "sentyment": [
@@ -314,7 +319,7 @@
       "final": {
         "kierunek": "LONG",
         "pewnosc": 1,
-        "powod": "Zakres 5 600–6 000, obniżające się szczyty. Gra krawędzi: long 5 640 albo short pod 5 590 (poz. 39/40 OCO)."
+        "powod": "Long #39 z 5 640 otwarty przy dolnej krawędzi zakresu. Za: strajk rolników w CIV, prognozy −11–17% zbiorów, mocny przemiał. Przeciw: zapasy ICE najwyżej od 2,25 roku. Zamknięcie pod 5 600 = sygnał ostrzegawczy."
       },
       "setup": {
         "kierunek": "LONG",
@@ -324,7 +329,7 @@
         "tp1": 5865,
         "tp2": 5980,
         "ryzyko_pct": 0.5,
-        "status": "oczekuje (poz. 39, OCO z 40: sell stop 5 590)",
+        "status": "otwarta (poz. 39, wejście 5 640)",
         "ksiega": "intraday",
         "uwagi": "Okno 10:45–19:00."
       },
@@ -333,6 +338,11 @@
         "usd_na_jedn_ceny": 10,
         "usd_na_jedn_cfd": 1,
         "jedn_cfd": "t"
+      },
+      "ostatnia_cena": {
+        "cena": 5663,
+        "czas": "2026-10-19 11:10 PL",
+        "zrodlo": "XTB COCOA (zrzut Kuby)"
       }
     }
   ],
