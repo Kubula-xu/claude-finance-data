@@ -12,32 +12,32 @@
       "atr": 443,
       "agenci": {
         "technika": [
-          "NEUTRAL",
-          1
-        ],
-        "makro": [
           "LONG",
           1
         ],
-        "sentyment": [
+        "makro": [
           "NEUTRAL",
+          1
+        ],
+        "sentyment": [
+          "LONG",
           1
         ]
       },
       "final": {
-        "kierunek": "BRAK",
+        "kierunek": "LONG",
         "pewnosc": 1,
-        "powod": "Odbicie +1% po najgorszym tygodniu od czerwca, ale cena pod EMA20/50 D1, a przed nami Netflix (wt.), Meta i Tesla (śr.). Bez przewagi; #44 anulowane."
+        "powod": "Odbicie po piątkowym zjeździe, long z dolnej krawędzi konsolidacji (poz. 43)."
       },
       "setup": {
         "kierunek": "LONG",
         "typ": "limit",
-        "wejscie": 29630,
-        "sl": 29480,
-        "tp1": 29800,
-        "tp2": 29980,
+        "wejscie": 29700,
+        "sl": 29553,
+        "tp1": 29920,
+        "tp2": 30068,
         "ryzyko_pct": 0.25,
-        "status": "anulowane (poz. 44)",
+        "status": "oczekuje (poz. 43)",
         "ksiega": "intraday",
         "uwagi": ""
       },
