@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-19T07:14:51Z",
+ "zaktualizowano_utc": "2026-10-19T18:44:03Z",
  "opis": "spread_1_2_proc = (pierwszy/drugi - 1)*100; dodatni = backwardation (ciasny rynek bieżący)",
  "towary": {
   "kawa": {
@@ -7,33 +7,33 @@
     {
      "symbol": "KCZ26.NYB",
      "miesiac": "2026-12",
-     "cena": 305.6,
-     "data": "2026-10-16",
+     "cena": 313.75,
+     "data": "2026-10-19",
      "cena_5d_temu": 289.05
     },
     {
      "symbol": "KCH27.NYB",
      "miesiac": "2027-03",
-     "cena": 294.5,
-     "data": "2026-10-16",
+     "cena": 299.8,
+     "data": "2026-10-19",
      "cena_5d_temu": 281.35
     },
     {
      "symbol": "KCK27.NYB",
      "miesiac": "2027-05",
-     "cena": 290.5,
-     "data": "2026-10-16",
+     "cena": 294.8,
+     "data": "2026-10-19",
      "cena_5d_temu": 277.9
     },
     {
      "symbol": "KCN27.NYB",
      "miesiac": "2027-07",
-     "cena": 287.5,
-     "data": "2026-10-16",
+     "cena": 291.1,
+     "data": "2026-10-19",
      "cena_5d_temu": 275.35
     }
    ],
-   "spread_1_2_proc": 3.77,
+   "spread_1_2_proc": 4.65,
    "spread_1_2_proc_5d_temu": 2.74
   },
   "kakao": {
@@ -41,33 +41,33 @@
     {
      "symbol": "CCZ26.NYB",
      "miesiac": "2026-12",
-     "cena": 5645.0,
-     "data": "2026-10-16",
+     "cena": 5695.0,
+     "data": "2026-10-19",
      "cena_5d_temu": 5665.0
     },
     {
      "symbol": "CCH27.NYB",
      "miesiac": "2027-03",
-     "cena": 5754.0,
-     "data": "2026-10-16",
+     "cena": 5798.0,
+     "data": "2026-10-19",
      "cena_5d_temu": 5776.0
     },
     {
      "symbol": "CCK27.NYB",
      "miesiac": "2027-05",
-     "cena": 5811.0,
-     "data": "2026-10-16",
+     "cena": 5838.0,
+     "data": "2026-10-19",
      "cena_5d_temu": 5832.0
     },
     {
      "symbol": "CCN27.NYB",
      "miesiac": "2027-07",
-     "cena": 5827.0,
-     "data": "2026-10-16",
+     "cena": 5858.0,
+     "data": "2026-10-19",
      "cena_5d_temu": 5856.0
     }
    ],
-   "spread_1_2_proc": -1.89,
+   "spread_1_2_proc": -1.78,
    "spread_1_2_proc_5d_temu": -1.92
   }
  }
