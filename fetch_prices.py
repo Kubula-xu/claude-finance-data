@@ -34,6 +34,8 @@ TICKERS = {
     "ng":        ("NG=F",     "Gaz ziemny futures (NYMEX)"),
     "coffee":    ("KC=F",     "Kawa Arabica futures (ICE US)"),
     "cocoa":     ("CC=F",     "Kakao futures (ICE US)"),
+    "copper":    ("HG=F",     "Miedź futures (COMEX), ~COPPER CFD"),
+    "dax":       ("^GDAXI",   "DAX 40 indeks (kasowy, ~DE40 CFD)"),
     "dxy":       ("DX-Y.NYB", "Indeks dolara DXY"),
     "us10y":     ("^TNX",     "Rentowność US 10Y (x10)"),
     "vix":       ("^VIX",     "VIX"),
