@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-19T12:29:47Z",
+ "zaktualizowano_utc": "2026-10-19T13:20:06Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "38": {
@@ -14,6 +14,16 @@
    "pozostalo": 1.0,
    "sl_teraz": 304.5,
    "czas_wejscia": "2026-10-19T10:45Z"
+  },
+  "43": {
+   "nr": "43",
+   "instrument": "US100",
+   "kierunek": 1,
+   "klucz_cen": "nq",
+   "zdarzenia": [],
+   "stan": "oczekuje",
+   "pozostalo": 1.0,
+   "sl_teraz": 29553.0
   }
  }
 }
