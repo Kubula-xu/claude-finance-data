@@ -74,7 +74,7 @@
       "final": {
         "kierunek": "BRAK",
         "pewnosc": 1,
-        "powod": "Zakres 4 145–4 200 pod wszystkimi średnimi D1; ETF na rekordzie, fundusze oczyszczone, ale ok. 90% szans na podwyżkę Fed w grudniu. Agenci rozbieżni; #41 anulowane."
+        "powod": "Zakres 4 145–4 200 pod wszystkimi średnimi D1; ETF na rekordzie, fundusze oczyszczone, ale ok. 90% szans na podwyżkę Fed w grudniu. Agenci rozbieżni; #41 (weszło 10:45) zamknięte po 4 172,17."
       },
       "setup": {
         "kierunek": "LONG",
@@ -85,7 +85,7 @@
         "tp2": 4223,
         "ryzyko_pct": 0.5,
         "koszt": 0.6,
-        "status": "anulowane (poz. 41)",
+        "status": "zamknięta po 4 172,17 (poz. 41, weszła 10:45)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -184,7 +184,7 @@
         "tp1": 98.95,
         "tp2": 99.9,
         "ryzyko_pct": 0.5,
-        "status": "oczekuje (poz. 45, do 20:00)",
+        "status": "oczekuje (poz. 45, do 20:00); OCO ropa/kawa: ostatnia transakcja dnia",
         "ksiega": "intraday",
         "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
       },
@@ -278,7 +278,7 @@
         "tp2": 320.5,
         "ryzyko_pct": 0.25,
         "koszt": 0.8,
-        "status": "oczekuje (poz. 37 limit 303, OCO z 38 stop 311,5)",
+        "status": "oczekuje (poz. 37 limit 303, OCO z 38 stop 311,5); OCO ropa/kawa: ostatnia transakcja dnia",
         "ksiega": "intraday",
         "uwagi": "Okno 10:30–19:00."
       },
