@@ -315,7 +315,8 @@
   "43": {
    "stan": "otwarta",
    "zdarzenia": [
-    "19.10 15:45 PL wejście 29700"
+    "19.10 15:45 PL wejście 29700",
+    "19.10 16:15 PL +1R, SL na BE 29700"
    ]
   }
  },
@@ -323,5 +324,5 @@
   "rano": "2026-10-19",
   "wieczor": "2026-10-16"
  },
- "zaktualizowano_utc": "2026-10-19T14:10:12Z"
+ "zaktualizowano_utc": "2026-10-19T14:47:58Z"
 }
