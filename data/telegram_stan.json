@@ -309,24 +309,15 @@
   "37": {
    "stan": "otwarta",
    "zdarzenia": [
-    "19.10 10:15 PL wejście 303"
+    "19.10 10:15 PL wejście 303",
+    "19.10 11:30 PL +1R, SL na BE 303"
    ]
   },
   "38": {
    "stan": "oczekuje",
    "zdarzenia": []
   },
-  "41": {
-   "stan": "otwarta",
-   "zdarzenia": [
-    "19.10 10:45 PL wejście 4168"
-   ]
-  },
-  "43": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  },
-  "44": {
+  "45": {
    "stan": "oczekuje",
    "zdarzenia": []
   }
@@ -335,5 +326,5 @@
   "rano": "2026-10-19",
   "wieczor": "2026-10-16"
  },
- "zaktualizowano_utc": "2026-10-19T09:19:13Z"
+ "zaktualizowano_utc": "2026-10-19T10:04:54Z"
 }

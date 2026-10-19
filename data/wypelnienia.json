@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-19T09:17:27Z",
+ "zaktualizowano_utc": "2026-10-19T10:04:54Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "37": {
@@ -8,11 +8,12 @@
    "kierunek": 1,
    "klucz_cen": "coffee",
    "zdarzenia": [
-    "19.10 10:15 PL wejście 303"
+    "19.10 10:15 PL wejście 303",
+    "19.10 11:30 PL +1R, SL na BE 303"
    ],
    "stan": "otwarta",
    "pozostalo": 1.0,
-   "sl_teraz": 296.0,
+   "sl_teraz": 303.0,
    "czas_wejscia": "2026-10-19T08:15Z"
   },
   "38": {
@@ -25,38 +26,15 @@
    "pozostalo": 1.0,
    "sl_teraz": 304.5
   },
-  "41": {
-   "nr": "41",
-   "instrument": "Złoto (XAUUSD spot)",
-   "kierunek": 1,
-   "klucz_cen": "xauusd",
-   "zdarzenia": [
-    "19.10 10:45 PL wejście 4168"
-   ],
-   "stan": "otwarta",
-   "pozostalo": 1.0,
-   "sl_teraz": 4146.0,
-   "czas_wejscia": "2026-10-19T08:45Z"
-  },
-  "43": {
-   "nr": "43",
+  "45": {
+   "nr": "45",
    "instrument": "Ropa WTI",
-   "kierunek": -1,
+   "kierunek": 1,
    "klucz_cen": "wti",
    "zdarzenia": [],
    "stan": "oczekuje",
    "pozostalo": 1.0,
-   "sl_teraz": 98.2
-  },
-  "44": {
-   "nr": "44",
-   "instrument": "US100",
-   "kierunek": 1,
-   "klucz_cen": "nq",
-   "zdarzenia": [],
-   "stan": "oczekuje",
-   "pozostalo": 1.0,
-   "sl_teraz": 29480.0
+   "sl_teraz": 96.65
   }
  }
 }
