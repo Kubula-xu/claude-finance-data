@@ -115,10 +115,10 @@
   "dxy": {
    "symbol": "DX-Y.NYB",
    "opis": "Indeks dolara DXY",
-   "cena": 101.991997,
-   "czas_notowania_utc": "2026-10-19T21:00:00Z",
+   "cena": 101.971001,
+   "czas_notowania_utc": "2026-10-19T21:45:00Z",
    "poprzednie_zamkniecie": 101.839996,
-   "zmiana_pct": 0.149,
+   "zmiana_pct": 0.129,
    "dzien": {
     "data": "2026-10-19",
     "open": 102.014,
@@ -162,16 +162,16 @@
    "ask": 4139.377,
    "czas_notowania_utc": "2026-10-19T21:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -20.235,
+   "baza_vs_futures": -20.438,
    "futures": "GC=F",
    "dzien": {
     "data": "2026-10-19",
-    "open": 4164.7648,
-    "high": 4190.965,
-    "low": 4135.3649
+    "open": 4164.5624,
+    "high": 4190.7626,
+    "low": 4135.1625
    },
-   "poprzednie_zamkniecie": 4160.8649,
-   "zmiana_pct": -0.522
+   "poprzednie_zamkniecie": 4160.6625,
+   "zmiana_pct": -0.518
   },
   "xagusd": {
    "symbol": "XAG/USD spot",
@@ -194,5 +194,5 @@
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-19T21:21:40Z"
+ "zaktualizowano_utc": "2026-10-19T21:57:15Z"
 }
