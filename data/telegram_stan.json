@@ -315,7 +315,7 @@
    "tp": "4121 / 4103"
   },
   "48": {
-   "status": "oczekuje (limit, intraday 20.10, okna 09:00–12:00 i 15:00–20:30)",
+   "status": "oczekuje (limit, OCO z #51)",
    "sl": "97,18",
    "tp": "99,48 / 100,40"
   },
@@ -328,6 +328,11 @@
    "status": "oczekuje (limit, intraday 20.10, okno 10:45–19:00)",
    "sl": "5470",
    "tp": "5820 / 5960"
+  },
+  "51": {
+   "status": "oczekuje (stop, OCO z #48, okna 09:00–12:00 i 15:00–20:30)",
+   "sl": "98,93",
+   "tp": "101,23 / 102,15"
   }
  },
  "automat": {
@@ -348,5 +353,5 @@
   "rano": "2026-10-20",
   "wieczor": "2026-10-19"
  },
- "zaktualizowano_utc": "2026-10-20T07:24:35Z"
+ "zaktualizowano_utc": "2026-10-20T07:36:06Z"
 }
