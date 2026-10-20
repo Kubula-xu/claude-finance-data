@@ -339,17 +339,20 @@
   "47": {
    "stan": "otwarta",
    "zdarzenia": [
-    "20.10 16:15 PL wejście 4148"
+    "20.10 16:15 PL wejście 4148",
+    "20.10 17:30 PL +1R, SL na BE 4148"
    ]
   },
   "49": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "otwarta",
+   "zdarzenia": [
+    "20.10 17:15 PL wejście 310"
+   ]
   }
  },
  "podsumowanie": {
   "rano": "2026-10-20",
   "wieczor": "2026-10-19"
  },
- "zaktualizowano_utc": "2026-10-20T15:43:51Z"
+ "zaktualizowano_utc": "2026-10-20T16:18:23Z"
 }
