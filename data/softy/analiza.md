@@ -1,10 +1,10 @@
-# Softy: kawa i kakao, analiza z 2026-10-20 10:04 PL
+# Softy: kawa i kakao, analiza z 2026-10-20 10:45 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
 ## Kawa (Arabica KC): LONG 4/5 (suma +3.0)
 
-- Cena 313,75 c/lb (2026-10-19T17:15:00Z UTC). ATR D1 10,64, ATR H1 (sesja) 3,48. 5 sesji +8.6%, 20 sesji +14.2%.
+- Cena 313,35 c/lb (2026-10-20T08:25:00Z UTC), sesja w trakcie. ATR D1 10,64, ATR H1 (sesja) 3,61. 5 sesji +8.6%, 20 sesji +14.2%.
 - Reżim: **wybicie gora** (zamknięcie/cena nad szczytem 10 sesji 311.30). Zakres 10 sesji 283,50–311,30 (20 sesji 269,75–311,30), EMA20 297,78, EMA50 305,35, SMA200 308,26.
 
 | Czynnik | Wynik | Opis |
@@ -17,20 +17,20 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | BRL | +0.0 | USD/BRL 5.047, 5 sesji +1.3% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana -0.9%, wzrost w 42% lat |
 
-Opory: 315,52 (swing D1 ×2, ostatnio 2026-09-08, +0.17 ATR), 317,75 (szczyt 5 sesji, +0.38 ATR), 319,00 (swing D1 ×5, ostatnio 2026-10-19, +0.49 ATR), 320,00 (okrągły poziom, +0.59 ATR)
+Opory: 315,52 (swing D1 ×2, ostatnio 2026-09-08, +0.20 ATR), 317,75 (szczyt 5 sesji, +0.41 ATR), 319,00 (swing D1 ×5, ostatnio 2026-10-19, +0.53 ATR), 320,00 (okrągły poziom, +0.63 ATR)
 
-Wsparcia: 312,15 (P, -0.15 ATR), 308,20 (swing D1 ×3, ostatnio 2026-10-07, -0.52 ATR), 306,55 (S1, -0.68 ATR), 301,50 (swing D1 ×2, ostatnio 2026-10-19, -1.15 ATR)
+Wsparcia: 312,15 (P, -0.11 ATR), 308,20 (swing D1 ×3, ostatnio 2026-10-07, -0.48 ATR), 306,55 (S1, -0.64 ATR), 301,50 (swing D1 ×2, ostatnio 2026-10-19, -1.11 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
-| LONG | limit: cofnięcie do 308.20 (swing D1 ×3, ostatnio 2026-10-07) | 309,26 | 287,99 | 351,81 / 373,08 | 1.82 | -0.42 ATR | 6 | silny poziom 315.52 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.82 < 2.0: według ryzyko.md 10a nie składać |
-| LONG | stop: kontynuacja: przebicie szczytu ostatniej sesji 317.75 | 318,81 | 297,54 | 361,36 / 382,63 | 1.82 | +0.48 ATR | 6 | R:R po kosztach 1.82 < 2.0: według ryzyko.md 10a nie składać |
-| SHORT (pod prąd) | limit: cofnięcie do 319.00 (swing D1 ×5, ostatnio 2026-10-19) | 317,94 | 339,21 | 275,39 / 254,12 | 1.82 | +0.39 ATR | 6 | silny poziom 308.2 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.82 < 2.0: według ryzyko.md 10a nie składać |
-| SHORT (pod prąd) | stop: kontynuacja: przebicie dołka ostatniej sesji 303.00 | 301,94 | 323,21 | 259,39 / 238,12 | 1.82 | -1.11 ATR | 6 | stop 1.11× ATR D1 od ceny: daleko, do przeliczenia po sesji; silny poziom 297.85 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.82 < 2.0: według ryzyko.md 10a nie składać |
+| LONG | limit: cofnięcie do 308.20 (swing D1 ×3, ostatnio 2026-10-07) | 309,26 | 287,99 | 351,81 / 373,08 | 1.82 | -0.38 ATR | 6 | silny poziom 315.52 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.82 < 2.0: według ryzyko.md 10a nie składać |
+| LONG | stop: kontynuacja: przebicie szczytu ostatniej sesji 317.75 | 318,81 | 297,54 | 361,36 / 382,63 | 1.82 | +0.51 ATR | 6 | R:R po kosztach 1.82 < 2.0: według ryzyko.md 10a nie składać |
+| SHORT (pod prąd) | limit: cofnięcie do 319.00 (swing D1 ×5, ostatnio 2026-10-19) | 317,94 | 339,21 | 275,39 / 254,12 | 1.82 | +0.43 ATR | 6 | silny poziom 308.2 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.82 < 2.0: według ryzyko.md 10a nie składać |
+| SHORT (pod prąd) | stop: kontynuacja: przebicie dołka ostatniej sesji 303.00 | 301,94 | 323,21 | 259,39 / 238,12 | 1.82 | -1.07 ATR | 6 | stop 1.07× ATR D1 od ceny: daleko, do przeliczenia po sesji; silny poziom 297.85 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.82 < 2.0: według ryzyko.md 10a nie składać |
 
 Wiszące zlecenia z dziennika:
 
-- #49 LONG limit 310,00 (SL 302,20): w zasięgu (0.35× ATR D1, 1.1× ATR H1)
+- #49 LONG limit 310,00 (SL 302,20): w zasięgu (0.31× ATR D1, 0.9× ATR H1)
 
 ## Kakao (NY CC): NEUTRAL 2/5 (suma +1.5)
 

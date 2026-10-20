@@ -349,13 +349,15 @@
    "zdarzenia": []
   },
   "51": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "otwarta",
+   "zdarzenia": [
+    "20.10 10:30 PL wejście 99.85"
+   ]
   }
  },
  "podsumowanie": {
   "rano": "2026-10-20",
   "wieczor": "2026-10-19"
  },
- "zaktualizowano_utc": "2026-10-20T08:04:15Z"
+ "zaktualizowano_utc": "2026-10-20T08:45:12Z"
 }
