@@ -315,7 +315,7 @@
    "tp": "4121 / 4103"
   },
   "48": {
-   "status": "oczekuje (limit, OCO z #51)",
+   "status": "anulowane (OCO: weszło #51)",
    "sl": "97,18",
    "tp": "99,48 / 100,40"
   },
@@ -330,7 +330,7 @@
    "tp": "5820 / 5960"
   },
   "51": {
-   "status": "oczekuje (stop, OCO z #48, okna 09:00–12:00 i 15:00–20:30)",
+   "status": "otwarta (wejście 20.10 10:30 PL, SL na BE 99,85 od 11:30 PL po +1R)",
    "sl": "98,93",
    "tp": "101,23 / 102,15"
   }
@@ -360,5 +360,5 @@
   "rano": "2026-10-20",
   "wieczor": "2026-10-19"
  },
- "zaktualizowano_utc": "2026-10-20T10:00:43Z"
+ "zaktualizowano_utc": "2026-10-20T10:28:34Z"
 }
