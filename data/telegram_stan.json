@@ -330,7 +330,7 @@
    "tp": "5820 / 5960"
   },
   "51": {
-   "status": "otwarta w 50% (TP1 101,23 o 13:30 PL; reszta SL BE 99,85, TP2 102,15)",
+   "status": "zamknięta (TP1 50% 13:30 PL, reszta BE ok. 14:40 PL)",
    "sl": "98,93",
    "tp": "101,23 / 102,15"
   }
@@ -357,5 +357,5 @@
   "rano": "2026-10-20",
   "wieczor": "2026-10-19"
  },
- "zaktualizowano_utc": "2026-10-20T12:26:47Z"
+ "zaktualizowano_utc": "2026-10-20T12:49:41Z"
 }
