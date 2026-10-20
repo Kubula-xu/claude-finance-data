@@ -330,7 +330,7 @@
    "tp": "5820 / 5960"
   },
   "51": {
-   "status": "otwarta (wejście 20.10 10:30 PL, SL na BE 99,85 od 11:30 PL po +1R)",
+   "status": "otwarta w 50% (TP1 101,23 o 13:30 PL; reszta SL BE 99,85, TP2 102,15)",
    "sl": "98,93",
    "tp": "101,23 / 102,15"
   }
@@ -357,5 +357,5 @@
   "rano": "2026-10-20",
   "wieczor": "2026-10-19"
  },
- "zaktualizowano_utc": "2026-10-20T11:47:16Z"
+ "zaktualizowano_utc": "2026-10-20T11:56:28Z"
 }
