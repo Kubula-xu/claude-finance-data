@@ -340,8 +340,8 @@
    "stan": "otwarta",
    "zdarzenia": [
     "20.10 16:15 PL wejście 4148",
-    "20.10 17:45 PL +1R, SL na BE 4148",
-    "20.10 18:15 PL TP1 4121, zamknięte 50%"
+    "20.10 18:00 PL +1R, SL na BE 4148",
+    "20.10 19:00 PL TP1 4121, zamknięte 50%"
    ]
   },
   "49": {
@@ -355,5 +355,5 @@
   "rano": "2026-10-20",
   "wieczor": "2026-10-19"
  },
- "zaktualizowano_utc": "2026-10-20T18:10:04Z"
+ "zaktualizowano_utc": "2026-10-20T18:48:57Z"
 }
