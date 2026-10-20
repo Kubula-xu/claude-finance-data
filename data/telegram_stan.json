@@ -330,10 +330,23 @@
    "tp": "5820 / 5960"
   }
  },
- "automat": {},
+ "automat": {
+  "47": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "48": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "49": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  }
+ },
  "podsumowanie": {
   "rano": "2026-10-20",
   "wieczor": "2026-10-19"
  },
- "zaktualizowano_utc": "2026-10-20T06:42:07Z"
+ "zaktualizowano_utc": "2026-10-20T07:24:35Z"
 }
