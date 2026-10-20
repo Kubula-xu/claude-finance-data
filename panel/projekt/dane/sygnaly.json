@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-10-19 11:30 PL (analiza od zera)",
+  "aktualizacja": "2026-10-20 08:45 PL",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -37,7 +37,7 @@
         "tp1": 29920,
         "tp2": 30068,
         "ryzyko_pct": 0.25,
-        "status": "oczekuje (poz. 43)",
+        "status": "decyzja na przeglądzie 14:50 (Netflix po sesji)",
         "ksiega": "intraday",
         "uwagi": ""
       },
@@ -60,32 +60,32 @@
       "agenci": {
         "technika": [
           "SHORT",
-          1
+          2
         ],
         "makro": [
           "NEUTRAL",
           1
         ],
         "sentyment": [
-          "LONG",
+          "SHORT",
           1
         ]
       },
       "final": {
-        "kierunek": "BRAK",
-        "pewnosc": 1,
-        "powod": "Zakres 4 145–4 200 pod wszystkimi średnimi D1; ETF na rekordzie, fundusze oczyszczone, ale ok. 90% szans na podwyżkę Fed w grudniu. Agenci rozbieżni; #41 (weszło 10:45) zamknięte po 4 172,17."
+        "kierunek": "SHORT",
+        "pewnosc": 2,
+        "powod": "Wybicie pod 4 136, trend D1 spadkowy. Short z retestu 4 148 (poz. 47)."
       },
       "setup": {
-        "kierunek": "LONG",
+        "kierunek": "SHORT",
         "typ": "limit",
-        "wejscie": 4168,
-        "sl": 4146,
-        "tp1": 4201,
-        "tp2": 4223,
+        "wejscie": 4148,
+        "sl": 4166,
+        "tp1": 4121,
+        "tp2": 4103,
         "ryzyko_pct": 0.5,
         "koszt": 0.6,
-        "status": "zamknięta po 4 172,17 (poz. 41, weszła 10:45)",
+        "status": "oczekuje (poz. 47)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -116,7 +116,7 @@
           1
         ],
         "makro": [
-          "LONG",
+          "NEUTRAL",
           1
         ],
         "sentyment": [
@@ -125,9 +125,9 @@
         ]
       },
       "final": {
-        "kierunek": "BRAK",
+        "kierunek": "NEUTRAL",
         "pewnosc": 1,
-        "powod": "Trend spadkowy D1 (pod EMA20 59,9), lekkie pozycjonowanie funduszy, PKB Chin 4,5%. Bez przewagi; #42 zamknięte po 57,46."
+        "powod": "Srebro w trendzie spadkowym, bez przewagi. Bez zlecenia."
       },
       "setup": {
         "kierunek": "LONG",
@@ -137,7 +137,7 @@
         "tp1": 58.43,
         "tp2": 59.08,
         "ryzyko_pct": 0.25,
-        "status": "zamknięta po 57,46 (poz. 42)",
+        "status": "brak zlecenia",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -174,17 +174,17 @@
       "final": {
         "kierunek": "LONG",
         "pewnosc": 2,
-        "powod": "Odwrócenie w V z 96,75 i powrót nad pivot 97,9; Hormuz praktycznie zamknięty, kolejny tankowiec w ogniu. Long z cofnięcia 97,55 (poz. 45)."
+        "powod": "Trend wzrostowy, Hormuz. Long z cofnięcia 98,10 (poz. 48)."
       },
       "setup": {
         "kierunek": "LONG",
         "typ": "limit",
-        "wejscie": 97.55,
-        "sl": 96.65,
-        "tp1": 98.95,
-        "tp2": 99.9,
-        "ryzyko_pct": 0.5,
-        "status": "anulowane (poz. 45, limit transakcji)",
+        "wejscie": 98.1,
+        "sl": 97.18,
+        "tp1": 99.48,
+        "tp2": 100.4,
+        "ryzyko_pct": 0.25,
+        "status": "oczekuje (poz. 48)",
         "ksiega": "intraday",
         "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
       },
@@ -253,32 +253,32 @@
       "agenci": {
         "technika": [
           "LONG",
-          1
-        ],
-        "makro": [
-          "LONG",
           2
         ],
-        "sentyment": [
-          "SHORT",
+        "makro": [
+          "NEUTRAL",
           1
+        ],
+        "sentyment": [
+          "LONG",
+          2
         ]
       },
       "final": {
         "kierunek": "LONG",
-        "pewnosc": 1,
-        "powod": "Zapasy ICE ok. 239 tys. worków, ryzyko squeeze na grudniu, test SMA200 308. Przeciw: rekordowe zbiory w Brazylii. OCO #37/#38, ryzyko 0,25% (limit softów)."
+        "pewnosc": 2,
+        "powod": "Wybicie potwierdzone, niskie zapasy ICE. Long z cofnięcia 310 (poz. 49)."
       },
       "setup": {
         "kierunek": "LONG",
-        "typ": "stop",
-        "wejscie": 311.5,
-        "sl": 304.5,
-        "tp1": 322.0,
-        "tp2": 329.0,
-        "ryzyko_pct": 0.25,
+        "typ": "limit",
+        "wejscie": 310.0,
+        "sl": 302.2,
+        "tp1": 321.7,
+        "tp2": 329.5,
+        "ryzyko_pct": 0.5,
         "koszt": 0.8,
-        "status": "otwarta (poz. 38, wejście 311,5)",
+        "status": "oczekuje (poz. 49)",
         "ksiega": "intraday",
         "uwagi": "Okno 10:30–19:00."
       },
@@ -308,7 +308,7 @@
           1
         ],
         "makro": [
-          "NEUTRAL",
+          "LONG",
           1
         ],
         "sentyment": [
@@ -319,17 +319,17 @@
       "final": {
         "kierunek": "LONG",
         "pewnosc": 1,
-        "powod": "Long #39 z 5 640 otwarty przy dolnej krawędzi zakresu. Za: strajk rolników w CIV, prognozy −11–17% zbiorów, mocny przemiał. Przeciw: zapasy ICE najwyżej od 2,25 roku. Zamknięcie pod 5 600 = sygnał ostrzegawczy."
+        "powod": "Zakres; long przy dolnej krawędzi 5 610 (poz. 50)."
       },
       "setup": {
         "kierunek": "LONG",
         "typ": "limit",
-        "wejscie": 5640,
-        "sl": 5490,
-        "tp1": 5865,
-        "tp2": 5980,
-        "ryzyko_pct": 0.5,
-        "status": "otwarta (poz. 39, wejście 5 640)",
+        "wejscie": 5610,
+        "sl": 5470,
+        "tp1": 5820,
+        "tp2": 5960,
+        "ryzyko_pct": 0.25,
+        "status": "oczekuje (poz. 50)",
         "ksiega": "intraday",
         "uwagi": "Okno 10:45–19:00."
       },
