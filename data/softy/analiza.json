@@ -1,7 +1,7 @@
 {
- "wygenerowano_utc": "2026-10-20T19:59:29Z",
- "wygenerowano_pl": "2026-10-20 21:59 PL",
- "kapital_usd": 10152719.0,
+ "wygenerowano_utc": "2026-10-20T20:30:30Z",
+ "wygenerowano_pl": "2026-10-20 22:30 PL",
+ "kapital_usd": 10248541.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
   "FRONTRUN_ATR": 0.1,
@@ -288,8 +288,8 @@
        "r_atr": 1.0,
        "rr_tp1_netto": 2.58,
        "odleglosc_atr": -2.41,
-       "kontrakty": 11.3,
-       "ryzyko_usd": 50764,
+       "kontrakty": 11.5,
+       "ryzyko_usd": 51243,
        "uzasadnienie": "granica zakresu 283.50 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 2.41× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -307,8 +307,8 @@
        "r_atr": 2.0,
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": 0.82,
-       "kontrakty": 6.0,
-       "ryzyko_usd": 50764,
+       "kontrakty": 6.1,
+       "ryzyko_usd": 51243,
        "uzasadnienie": "wybicie zakresu za 317.75: zmiana reżimu, wejście z kontynuacji",
        "uwagi": []
       }
@@ -330,8 +330,8 @@
        "r_atr": 1.0,
        "rr_tp1_netto": 2.58,
        "odleglosc_atr": 0.62,
-       "kontrakty": 11.3,
-       "ryzyko_usd": 50764,
+       "kontrakty": 11.5,
+       "ryzyko_usd": 51243,
        "uzasadnienie": "granica zakresu 317.75 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "silny poziom 308.45 przed TP1: rozważyć częściowe wyjście przed nim"
@@ -348,8 +348,8 @@
        "r_atr": 2.0,
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": -2.61,
-       "kontrakty": 6.0,
-       "ryzyko_usd": 50764,
+       "kontrakty": 6.1,
+       "ryzyko_usd": 51243,
        "uzasadnienie": "wybicie zakresu za 283.50: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 2.61× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -359,19 +359,7 @@
      "zasada": "obie nogi jako OCO; anulować, gdy D1 zamknie się za SL nogi limit; przeliczyć codziennie przed otwarciem ICE"
     }
    ],
-   "zlecenia_w_dzienniku": [
-    {
-     "nr": "49",
-     "kierunek": "LONG",
-     "typ": "limit",
-     "wejscie": 310.0,
-     "sl": 302.2,
-     "tp": "321,7 / 329,5",
-     "odleglosc_atr_d1": -0.01,
-     "ocena": "w zasięgu (0.01× ATR D1, 0.0× ATR H1)",
-     "status": "oczekuje (limit, intraday 20.10, okno 10:30–19:00)"
-    }
-   ]
+   "zlecenia_w_dzienniku": []
   },
   "kakao": {
    "jednostka": "USD/t",
@@ -647,8 +635,8 @@
        "r_atr": 1.0,
        "rr_tp1_netto": 1.45,
        "odleglosc_atr": -1.22,
-       "kontrakty": 7.6,
-       "ryzyko_usd": 25382,
+       "kontrakty": 7.7,
+       "ryzyko_usd": 25621,
        "uzasadnienie": "granica zakresu 5431.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 1.22× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -668,7 +656,7 @@
        "rr_tp1_netto": 1.78,
        "odleglosc_atr": 0.9,
        "kontrakty": 3.4,
-       "ryzyko_usd": 25382,
+       "ryzyko_usd": 25621,
        "uzasadnienie": "wybicie zakresu za 6023.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": []
       }
@@ -690,8 +678,8 @@
        "r_atr": 1.0,
        "rr_tp1_netto": 1.45,
        "odleglosc_atr": 0.7,
-       "kontrakty": 7.6,
-       "ryzyko_usd": 25382,
+       "kontrakty": 7.7,
+       "ryzyko_usd": 25621,
        "uzasadnienie": "granica zakresu 6023.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "silny poziom 5754.0 przed TP1: rozważyć częściowe wyjście przed nim",
@@ -710,7 +698,7 @@
        "rr_tp1_netto": 1.78,
        "odleglosc_atr": -1.42,
        "kontrakty": 3.4,
-       "ryzyko_usd": 25382,
+       "ryzyko_usd": 25621,
        "uzasadnienie": "wybicie zakresu za 5431.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 1.42× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -720,19 +708,7 @@
      "zasada": "obie nogi jako OCO; anulować, gdy D1 zamknie się za SL nogi limit; przeliczyć codziennie przed otwarciem ICE"
     }
    ],
-   "zlecenia_w_dzienniku": [
-    {
-     "nr": "50",
-     "kierunek": "LONG",
-     "typ": "limit",
-     "wejscie": 5610.0,
-     "sl": 5470.0,
-     "tp": "5820 / 5960",
-     "odleglosc_atr_d1": -0.68,
-     "ocena": "w zasięgu (0.68× ATR D1, 2.6× ATR H1)",
-     "status": "oczekuje (limit, intraday 20.10, okno 10:45–19:00)"
-    }
-   ]
+   "zlecenia_w_dzienniku": []
   }
  },
  "kalendarz": [

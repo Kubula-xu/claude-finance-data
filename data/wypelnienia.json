@@ -1,36 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-20T19:59:29Z",
+ "zaktualizowano_utc": "2026-10-20T20:30:30Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
- "zlecenia": {
-  "47": {
-   "nr": "47",
-   "instrument": "Złoto (XAUUSD spot)",
-   "kierunek": -1,
-   "klucz_cen": "xauusd",
-   "zdarzenia": [
-    "20.10 16:15 PL wejście 4148",
-    "20.10 17:30 PL +1R, SL na BE 4148",
-    "20.10 18:15 PL TP1 4121, zamknięte 50%"
-   ],
-   "stan": "otwarta",
-   "pozostalo": 0.5,
-   "sl_teraz": 4148.0,
-   "czas_wejscia": "2026-10-20T14:15Z",
-   "cena_wyjscia_srednia": 4121.0,
-   "wynik_pkt_zrealizowany": 13.5
-  },
-  "49": {
-   "nr": "49",
-   "instrument": "Kawa US",
-   "kierunek": 1,
-   "klucz_cen": "coffee",
-   "zdarzenia": [
-    "20.10 17:15 PL wejście 310"
-   ],
-   "stan": "otwarta",
-   "pozostalo": 1.0,
-   "sl_teraz": 302.2,
-   "czas_wejscia": "2026-10-20T15:15Z"
-  }
- }
+ "zlecenia": {}
 }
