@@ -310,7 +310,7 @@
    "tp": "98,95 / 99,90"
   },
   "47": {
-   "status": "oczekuje (limit, intraday 20.10, okna 09:00–12:00 i 14:00–20:00)",
+   "status": "zamknięta (TP1 18:15 PL, reszta na zamknięciu dnia 22:25 PL)",
    "sl": "4166",
    "tp": "4121 / 4103"
   },
@@ -320,12 +320,12 @@
    "tp": "99,48 / 100,40"
   },
   "49": {
-   "status": "oczekuje (limit, intraday 20.10, okno 10:30–19:00)",
+   "status": "zamknięta (koniec sesji ICE, 19:15 PL)",
    "sl": "302,2",
    "tp": "321,7 / 329,5"
   },
   "50": {
-   "status": "oczekuje (limit, intraday 20.10, okno 10:45–19:00)",
+   "status": "anulowane (20.10 15:35 PL: tylko shorty na kakao, obniżające się szczyty)",
    "sl": "5470",
    "tp": "5820 / 5960"
   },
@@ -355,5 +355,5 @@
   "rano": "2026-10-20",
   "wieczor": "2026-10-19"
  },
- "zaktualizowano_utc": "2026-10-20T19:59:30Z"
+ "zaktualizowano_utc": "2026-10-20T20:26:45Z"
 }
