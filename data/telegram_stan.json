@@ -16,10 +16,10 @@
    "pewnosc": 2,
    "setup": [
     "SHORT",
-    4148,
-    4166,
-    4121,
-    4103
+    4128,
+    4147,
+    4099.5,
+    4080.5
    ]
   },
   "silver": {
@@ -35,13 +35,13 @@
   },
   "wti": {
    "kierunek": "LONG",
-   "pewnosc": 2,
+   "pewnosc": 1,
    "setup": [
     "LONG",
-    98.1,
-    97.18,
-    99.48,
-    100.4
+    98.2,
+    96.98,
+    100.03,
+    101.25
    ]
   },
   "ng": {
@@ -57,24 +57,24 @@
   },
   "coffee": {
    "kierunek": "LONG",
-   "pewnosc": 2,
-   "setup": [
-    "LONG",
-    310.0,
-    302.2,
-    321.7,
-    329.5
-   ]
-  },
-  "cocoa": {
-   "kierunek": "LONG",
    "pewnosc": 1,
    "setup": [
     "LONG",
-    5610,
-    5470,
-    5820,
-    5960
+    305.0,
+    296.6,
+    317.6,
+    326.0
+   ]
+  },
+  "cocoa": {
+   "kierunek": "SHORT",
+   "pewnosc": 1,
+   "setup": [
+    "SHORT",
+    5960,
+    6100,
+    5750,
+    5610
    ]
   }
  },
@@ -333,6 +333,31 @@
    "status": "zamknięta (TP1 50% 13:30 PL, reszta BE ok. 14:40 PL)",
    "sl": "98,93",
    "tp": "101,23 / 102,15"
+  },
+  "52": {
+   "status": "oczekuje (limit, intraday 21.10, okna 09:00–12:00 i 14:00–20:00)",
+   "sl": "4147",
+   "tp": "4099,5 / 4080,5"
+  },
+  "53": {
+   "status": "oczekuje (limit, intraday 21.10, okna 09:00–12:00 i 15:00–20:30)",
+   "sl": "96,98",
+   "tp": "100,03 / 101,25"
+  },
+  "54": {
+   "status": "oczekuje (limit, intraday 21.10, okno 10:30–19:00)",
+   "sl": "296,6",
+   "tp": "317,6 / 326,0"
+  },
+  "55": {
+   "status": "oczekuje (limit, OCO z #56, intraday 21.10, okno 10:45–19:00)",
+   "sl": "6100",
+   "tp": "5750 / 5610"
+  },
+  "56": {
+   "status": "oczekuje (stop, OCO z #55, intraday 21.10, okno 10:45–19:00)",
+   "sl": "5760",
+   "tp": "5410 / 5270"
   }
  },
  "automat": {},
@@ -340,5 +365,5 @@
   "rano": "2026-10-21",
   "wieczor": "2026-10-20"
  },
- "zaktualizowano_utc": "2026-10-21T06:12:39Z"
+ "zaktualizowano_utc": "2026-10-21T06:42:21Z"
 }
