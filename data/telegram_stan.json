@@ -369,7 +369,8 @@
    "stan": "otwarta",
    "zdarzenia": [
     "21.10 10:00 PL wejście 98.2",
-    "21.10 10:45 PL +1R, SL na BE 98.2"
+    "21.10 10:45 PL +1R, SL na BE 98.2",
+    "21.10 12:00 PL TP1 100.03, zamknięte 50%"
    ]
   },
   "54": {
@@ -383,5 +384,5 @@
   "rano": "2026-10-21",
   "wieczor": "2026-10-20"
  },
- "zaktualizowano_utc": "2026-10-21T10:17:45Z"
+ "zaktualizowano_utc": "2026-10-21T11:00:45Z"
 }
