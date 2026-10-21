@@ -340,12 +340,12 @@
    "tp": "4099,5 / 4080,5"
   },
   "53": {
-   "status": "otwarta w 50% (TP1 100,03 o 12:15 PL; reszta SL BE 98,20, TP2 101,25)",
+   "status": "zamknięta (50% TP1 100,03; reszta BE 98,20 o 14:15 PL)",
    "sl": "96,98",
    "tp": "100,03 / 101,25"
   },
   "54": {
-   "status": "oczekuje (limit, intraday 21.10, okno 10:30–19:00)",
+   "status": "zamknięta (wypełniona 14:15 PL, zamknięcie na koniec sesji KC)",
    "sl": "303,6",
    "tp": "324,6 / 333,0"
   },
@@ -355,7 +355,7 @@
    "tp": "5635 / 5525"
   },
   "56": {
-   "status": "oczekuje (stop, OCO z #55, intraday 21.10, okno 10:45–19:00)",
+   "status": "anulowane (stop 5 620 nieaktywowany, dołek 5 654; kakao wzrosło do 5 859)",
    "sl": "5760",
    "tp": "5410 / 5270"
   }
@@ -381,5 +381,5 @@
   "rano": "2026-10-21",
   "wieczor": "2026-10-20"
  },
- "zaktualizowano_utc": "2026-10-21T20:00:14Z"
+ "zaktualizowano_utc": "2026-10-21T20:27:23Z"
 }
