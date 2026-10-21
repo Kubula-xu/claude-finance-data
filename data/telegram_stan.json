@@ -368,17 +368,20 @@
   "53": {
    "stan": "otwarta",
    "zdarzenia": [
-    "21.10 10:00 PL wejście 98.2"
+    "21.10 10:00 PL wejście 98.2",
+    "21.10 10:45 PL +1R, SL na BE 98.2"
    ]
   },
   "54": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "otwarta",
+   "zdarzenia": [
+    "21.10 10:15 PL wejście 312"
+   ]
   }
  },
  "podsumowanie": {
   "rano": "2026-10-21",
   "wieczor": "2026-10-20"
  },
- "zaktualizowano_utc": "2026-10-21T08:49:30Z"
+ "zaktualizowano_utc": "2026-10-21T09:06:25Z"
 }
