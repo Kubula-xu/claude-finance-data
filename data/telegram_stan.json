@@ -360,26 +360,10 @@
    "tp": "5410 / 5270"
   }
  },
- "automat": {
-  "53": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "21.10 10:00 PL wejście 98.2",
-    "21.10 10:45 PL +1R, SL na BE 98.2",
-    "21.10 12:00 PL TP1 100.03, zamknięte 50%",
-    "21.10 14:15 PL BE 98.2"
-   ]
-  },
-  "54": {
-   "stan": "otwarta",
-   "zdarzenia": [
-    "21.10 10:15 PL wejście 312"
-   ]
-  }
- },
+ "automat": {},
  "podsumowanie": {
   "rano": "2026-10-21",
-  "wieczor": "2026-10-20"
+  "wieczor": "2026-10-21"
  },
- "zaktualizowano_utc": "2026-10-21T20:27:23Z"
+ "zaktualizowano_utc": "2026-10-21T20:30:47Z"
 }

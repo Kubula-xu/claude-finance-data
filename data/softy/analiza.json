@@ -1,7 +1,7 @@
 {
- "wygenerowano_utc": "2026-10-21T20:00:14Z",
- "wygenerowano_pl": "2026-10-21 22:00 PL",
- "kapital_usd": 10248541.0,
+ "wygenerowano_utc": "2026-10-21T20:30:46Z",
+ "wygenerowano_pl": "2026-10-21 22:30 PL",
+ "kapital_usd": 10281706.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
   "FRONTRUN_ATR": 0.1,
@@ -287,8 +287,8 @@
        "r_atr": 1.0,
        "rr_tp1_netto": 2.59,
        "odleglosc_atr": -2.99,
-       "kontrakty": 11.3,
-       "ryzyko_usd": 51243,
+       "kontrakty": 11.4,
+       "ryzyko_usd": 51409,
        "uzasadnienie": "granica zakresu 283.50 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 2.99× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop"
@@ -306,7 +306,7 @@
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": 0.24,
        "kontrakty": 6.0,
-       "ryzyko_usd": 51243,
+       "ryzyko_usd": 51409,
        "uzasadnienie": "wybicie zakresu za 318.20: zmiana reżimu, wejście z kontynuacji",
        "uwagi": []
       }
@@ -328,8 +328,8 @@
        "r_atr": 1.0,
        "rr_tp1_netto": 2.59,
        "odleglosc_atr": 0.04,
-       "kontrakty": 11.3,
-       "ryzyko_usd": 51243,
+       "kontrakty": 11.4,
+       "ryzyko_usd": 51409,
        "uzasadnienie": "granica zakresu 318.20 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "silny poziom 308.24 przed TP1: rozważyć częściowe wyjście przed nim"
@@ -347,7 +347,7 @@
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": -3.19,
        "kontrakty": 6.0,
-       "ryzyko_usd": 51243,
+       "ryzyko_usd": 51409,
        "uzasadnienie": "wybicie zakresu za 283.50: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 3.19× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -357,19 +357,7 @@
      "zasada": "obie nogi jako OCO; anulować, gdy D1 zamknie się za SL nogi limit; przeliczyć codziennie przed otwarciem ICE"
     }
    ],
-   "zlecenia_w_dzienniku": [
-    {
-     "nr": "54",
-     "kierunek": "LONG",
-     "typ": "limit",
-     "wejscie": 312.0,
-     "sl": 303.6,
-     "tp": "324,6 / 333,0",
-     "odleglosc_atr_d1": -0.43,
-     "ocena": "w zasięgu (0.43× ATR D1, 1.2× ATR H1)",
-     "status": "oczekuje (limit, intraday 21.10, okno 10:30–19:00)"
-    }
-   ]
+   "zlecenia_w_dzienniku": []
   },
   "kakao": {
    "jednostka": "USD/t",
@@ -644,8 +632,8 @@
        "r_atr": 1.0,
        "rr_tp1_netto": 1.52,
        "odleglosc_atr": -1.44,
-       "kontrakty": 8.0,
-       "ryzyko_usd": 25621,
+       "kontrakty": 8.1,
+       "ryzyko_usd": 25704,
        "uzasadnienie": "granica zakresu 5431.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 1.44× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -664,7 +652,7 @@
        "rr_tp1_netto": 1.77,
        "odleglosc_atr": 0.79,
        "kontrakty": 3.6,
-       "ryzyko_usd": 25621,
+       "ryzyko_usd": 25704,
        "uzasadnienie": "wybicie zakresu za 6023.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": []
       }
@@ -686,8 +674,8 @@
        "r_atr": 1.0,
        "rr_tp1_netto": 1.52,
        "odleglosc_atr": 0.59,
-       "kontrakty": 8.0,
-       "ryzyko_usd": 25621,
+       "kontrakty": 8.1,
+       "ryzyko_usd": 25704,
        "uzasadnienie": "granica zakresu 6023.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "silny poziom 5812.0 przed TP1: rozważyć częściowe wyjście przed nim"
@@ -705,7 +693,7 @@
        "rr_tp1_netto": 1.77,
        "odleglosc_atr": -1.64,
        "kontrakty": 3.6,
-       "ryzyko_usd": 25621,
+       "ryzyko_usd": 25704,
        "uzasadnienie": "wybicie zakresu za 5431.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 1.64× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -715,19 +703,7 @@
      "zasada": "obie nogi jako OCO; anulować, gdy D1 zamknie się za SL nogi limit; przeliczyć codziennie przed otwarciem ICE"
     }
    ],
-   "zlecenia_w_dzienniku": [
-    {
-     "nr": "56",
-     "kierunek": "SHORT",
-     "typ": "stop",
-     "wejscie": 5620.0,
-     "sl": 5760.0,
-     "tp": "5410 / 5270",
-     "odleglosc_atr_d1": -0.83,
-     "ocena": "cena już za SL: zlecenie nieaktualne",
-     "status": "oczekuje (stop, OCO z #55, intraday 21.10, okno 10:45–19:00)"
-    }
-   ]
+   "zlecenia_w_dzienniku": []
   }
  },
  "kalendarz": [
@@ -800,11 +776,5 @@
    "ice": "2026-10-21T18:42:06Z"
   }
  },
- "alerty": [
-  {
-   "rynek": "kakao",
-   "typ": "zlecenie",
-   "opis": "#56 SHORT stop 5620.0: cena już za SL: zlecenie nieaktualne"
-  }
- ]
+ "alerty": []
 }

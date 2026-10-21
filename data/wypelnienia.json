@@ -1,37 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-21T20:00:14Z",
+ "zaktualizowano_utc": "2026-10-21T20:30:46Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
- "zlecenia": {
-  "53": {
-   "nr": "53",
-   "instrument": "Ropa WTI",
-   "kierunek": 1,
-   "klucz_cen": "wti",
-   "zdarzenia": [
-    "21.10 10:00 PL wejście 98.2",
-    "21.10 10:45 PL +1R, SL na BE 98.2",
-    "21.10 12:00 PL TP1 100.03, zamknięte 50%",
-    "21.10 14:15 PL BE 98.2"
-   ],
-   "stan": "zamknięta",
-   "pozostalo": 0,
-   "sl_teraz": 98.2,
-   "czas_wejscia": "2026-10-21T08:00Z",
-   "cena_wyjscia_srednia": 99.115,
-   "wynik_pkt_zrealizowany": 0.915
-  },
-  "54": {
-   "nr": "54",
-   "instrument": "Kawa US",
-   "kierunek": 1,
-   "klucz_cen": "coffee",
-   "zdarzenia": [
-    "21.10 10:15 PL wejście 312"
-   ],
-   "stan": "otwarta",
-   "pozostalo": 1.0,
-   "sl_teraz": 303.6,
-   "czas_wejscia": "2026-10-21T08:15Z"
-  }
- }
+ "zlecenia": {}
 }
