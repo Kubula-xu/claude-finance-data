@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-21T16:25:20Z",
- "wygenerowano_pl": "2026-10-21 18:25 PL",
+ "wygenerowano_utc": "2026-10-21T17:02:50Z",
+ "wygenerowano_pl": "2026-10-21 19:02 PL",
  "kapital_usd": 10248541.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -14,13 +14,13 @@
    "kontrakt": "KC (37 500 lb)",
    "sesja_ice_pl": "10:15-19:30",
    "kontekst": {
-    "cena": 316.549988,
-    "czas_notowania_utc": "2026-10-21T16:00:00Z",
+    "cena": 316.450012,
+    "czas_notowania_utc": "2026-10-21T16:30:00Z",
     "sesja_w_trakcie": true,
     "atr_d1": 10.58,
-    "atr_h1_sesja": 4.01,
-    "zakres_dzis_proc_atr": 86,
-    "vwap_dzis": 314.51,
+    "atr_h1_sesja": 4.03,
+    "zakres_dzis_proc_atr": 90,
+    "vwap_dzis": 314.64,
     "ostatnia_sesja": {
      "data": "2026-10-20",
      "o": 315.0,
@@ -55,40 +55,40 @@
       "poziom": 318.2,
       "sila": 2,
       "zrodlo": "szczyt 5 sesji",
-      "odleglosc_atr": 0.16
+      "odleglosc_atr": 0.17
      },
      {
       "sila": 5,
       "ostatnio": "2026-10-20",
       "poziom": 319.09,
       "zrodlo": "swing D1 ×5, ostatnio 2026-10-20",
-      "odleglosc_atr": 0.24
+      "odleglosc_atr": 0.25
      },
      {
       "poziom": 321.9,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 0.51
+      "odleglosc_atr": 0.52
      },
      {
       "sila": 1,
       "ostatnio": "2026-08-14",
       "poziom": 329.05,
       "zrodlo": "swing D1 ×1, ostatnio 2026-08-14",
-      "odleglosc_atr": 1.18
+      "odleglosc_atr": 1.19
      },
      {
       "poziom": 330,
       "sila": 1,
       "zrodlo": "okrągły poziom",
-      "odleglosc_atr": 1.27
+      "odleglosc_atr": 1.28
      },
      {
       "sila": 1,
       "ostatnio": "2026-07-20",
       "poziom": 335.25,
       "zrodlo": "swing D1 ×1, ostatnio 2026-07-20",
-      "odleglosc_atr": 1.77
+      "odleglosc_atr": 1.78
      }
     ],
     "wsparcia": [
@@ -97,7 +97,7 @@
       "ostatnio": "2026-09-08",
       "poziom": 315.52,
       "zrodlo": "swing D1 ×2, ostatnio 2026-09-08",
-      "odleglosc_atr": -0.1
+      "odleglosc_atr": -0.09
      },
      {
       "poziom": 312.9,
@@ -109,26 +109,26 @@
       "poziom": 310,
       "sila": 1,
       "zrodlo": "okrągły poziom",
-      "odleglosc_atr": -0.62
+      "odleglosc_atr": -0.61
      },
      {
       "sila": 4,
       "ostatnio": "2026-10-20",
       "poziom": 308.45,
       "zrodlo": "swing D1 ×4, ostatnio 2026-10-20",
-      "odleglosc_atr": -0.77
+      "odleglosc_atr": -0.76
      },
      {
       "poziom": 307.6,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.85
+      "odleglosc_atr": -0.84
      },
      {
       "poziom": 303.9,
       "sila": 1,
       "zrodlo": "S2",
-      "odleglosc_atr": -1.2
+      "odleglosc_atr": -1.19
      }
     ],
     "pivoty": {
@@ -287,12 +287,12 @@
        "r_pkt": 10.58,
        "r_atr": 1.0,
        "rr_tp1_netto": 2.58,
-       "odleglosc_atr": -3.02,
+       "odleglosc_atr": -3.01,
        "kontrakty": 11.5,
        "ryzyko_usd": 51243,
        "uzasadnienie": "granica zakresu 283.50 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
-        "limit 3.02× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop"
+        "limit 3.01× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop"
        ]
       },
       {
@@ -305,7 +305,7 @@
        "r_pkt": 21.16,
        "r_atr": 2.0,
        "rr_tp1_netto": 1.82,
-       "odleglosc_atr": 0.21,
+       "odleglosc_atr": 0.22,
        "kontrakty": 6.1,
        "ryzyko_usd": 51243,
        "uzasadnienie": "wybicie zakresu za 317.75: zmiana reżimu, wejście z kontynuacji",
@@ -328,7 +328,7 @@
        "r_pkt": 10.58,
        "r_atr": 1.0,
        "rr_tp1_netto": 2.58,
-       "odleglosc_atr": 0.01,
+       "odleglosc_atr": 0.02,
        "kontrakty": 11.5,
        "ryzyko_usd": 51243,
        "uzasadnienie": "granica zakresu 317.75 (10 sesji), TP1 przed przeciwną granicą",
@@ -346,12 +346,12 @@
        "r_pkt": 21.16,
        "r_atr": 2.0,
        "rr_tp1_netto": 1.82,
-       "odleglosc_atr": -3.22,
+       "odleglosc_atr": -3.21,
        "kontrakty": 6.1,
        "ryzyko_usd": 51243,
        "uzasadnienie": "wybicie zakresu za 283.50: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
-        "stop 3.22× ATR D1 od ceny: daleko, do przeliczenia po sesji"
+        "stop 3.21× ATR D1 od ceny: daleko, do przeliczenia po sesji"
        ]
       }
      ],
@@ -366,8 +366,8 @@
      "wejscie": 312.0,
      "sl": 303.6,
      "tp": "324,6 / 333,0",
-     "odleglosc_atr_d1": -0.43,
-     "ocena": "w zasięgu (0.43× ATR D1, 1.1× ATR H1)",
+     "odleglosc_atr_d1": -0.42,
+     "ocena": "w zasięgu (0.42× ATR D1, 1.1× ATR H1)",
      "status": "oczekuje (limit, intraday 21.10, okno 10:30–19:00)"
     }
    ]
@@ -377,13 +377,13 @@
    "kontrakt": "CC (10 t)",
    "sesja_ice_pl": "10:45-19:30",
    "kontekst": {
-    "cena": 5841.0,
-    "czas_notowania_utc": "2026-10-21T16:00:00Z",
+    "cena": 5842.0,
+    "czas_notowania_utc": "2026-10-21T16:30:00Z",
     "sesja_w_trakcie": true,
     "atr_d1": 279.71,
-    "atr_h1_sesja": 71.33,
-    "zakres_dzis_proc_atr": 69,
-    "vwap_dzis": 5747.37,
+    "atr_h1_sesja": 71.51,
+    "zakres_dzis_proc_atr": 71,
+    "vwap_dzis": 5753.35,
     "ostatnia_sesja": {
      "data": "2026-10-20",
      "o": 5687.0,
@@ -431,7 +431,7 @@
       "poziom": 6000,
       "sila": 1,
       "zrodlo": "okrągły poziom",
-      "odleglosc_atr": 0.57
+      "odleglosc_atr": 0.56
      },
      {
       "poziom": 6023.0,
@@ -472,13 +472,13 @@
       "ostatnio": "2026-10-20",
       "poziom": 5661.5,
       "zrodlo": "swing D1 ×2, ostatnio 2026-10-20",
-      "odleglosc_atr": -0.64
+      "odleglosc_atr": -0.65
      },
      {
       "poziom": 5655.67,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.66
+      "odleglosc_atr": -0.67
      },
      {
       "poziom": 5590.0,
