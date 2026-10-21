@@ -1,21 +1,20 @@
 {
- "uruchomiono_utc": "2026-10-21T07:10:06Z",
- "bledy": {
-  "ice": "RuntimeError: nie pobrano nowego raportu ICE (adres mógł się zmienić albo raport jeszcze nie wyszedł)"
- },
+ "uruchomiono_utc": "2026-10-21T18:42:06Z",
+ "bledy": {},
  "ok": {
   "cot": "418 wierszy, ostatni raport 2026-10-13, źródło publicreporting.cftc.gov (72hh-3qpy)",
   "pogoda": "11 regionów",
   "krzywa": "kawa: 4 kontr., kakao: 4 kontr.",
   "fx": "brl, gbp, eur",
-  "dlugie": "coffee (świeże), cocoa (świeże)"
+  "dlugie": "coffee (świeże), cocoa (świeże)",
+  "ice": "kawa 2026-10-21, kakao 2026-10-21"
  },
  "ostatni_sukces_utc": {
-  "cot": "2026-10-21T07:10:06Z",
-  "pogoda": "2026-10-21T07:10:06Z",
-  "krzywa": "2026-10-21T07:10:06Z",
-  "fx": "2026-10-21T07:10:06Z",
-  "dlugie": "2026-10-21T07:10:06Z",
-  "ice": "2026-10-20T18:41:21Z"
+  "cot": "2026-10-21T18:42:06Z",
+  "pogoda": "2026-10-21T18:42:06Z",
+  "krzywa": "2026-10-21T18:42:06Z",
+  "fx": "2026-10-21T18:42:06Z",
+  "dlugie": "2026-10-21T18:42:06Z",
+  "ice": "2026-10-21T18:42:06Z"
  }
 }
