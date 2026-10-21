@@ -335,12 +335,12 @@
    "tp": "101,23 / 102,15"
   },
   "52": {
-   "status": "oczekuje (limit, intraday 21.10, okna 09:00–12:00 i 14:00–20:00)",
+   "status": "anulowane (14:00 PL: złoto wybiło nad nocny szczyt 4 130 do 4 141 poza oknem; teza retestu nieaktualna)",
    "sl": "4147",
    "tp": "4099,5 / 4080,5"
   },
   "53": {
-   "status": "oczekuje (limit, intraday 21.10, okna 09:00–12:00 i 15:00–20:30)",
+   "status": "otwarta w 50% (TP1 100,03 o 12:15 PL; reszta SL BE 98,20, TP2 101,25)",
    "sl": "96,98",
    "tp": "100,03 / 101,25"
   },
@@ -350,7 +350,7 @@
    "tp": "324,6 / 333,0"
   },
   "55": {
-   "status": "oczekuje (limit, OCO z #56, intraday 21.10, okno 10:45–19:00)",
+   "status": "anulowane (12:30 PL: szczyt 5 804 tylko na otwarciu 10:45, przed rewizją limitu; cena spadła do 5 654)",
    "sl": "5910",
    "tp": "5635 / 5525"
   },
@@ -384,5 +384,5 @@
   "rano": "2026-10-21",
   "wieczor": "2026-10-20"
  },
- "zaktualizowano_utc": "2026-10-21T12:14:56Z"
+ "zaktualizowano_utc": "2026-10-21T12:51:29Z"
 }
