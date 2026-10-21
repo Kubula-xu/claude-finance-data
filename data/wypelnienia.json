@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-21T07:42:46Z",
+ "zaktualizowano_utc": "2026-10-21T08:19:24Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "52": {
@@ -17,10 +17,13 @@
    "instrument": "Ropa WTI",
    "kierunek": 1,
    "klucz_cen": "wti",
-   "zdarzenia": [],
-   "stan": "oczekuje",
+   "zdarzenia": [
+    "21.10 10:00 PL wejście 98.2"
+   ],
+   "stan": "otwarta",
    "pozostalo": 1.0,
-   "sl_teraz": 96.98
+   "sl_teraz": 96.98,
+   "czas_wejscia": "2026-10-21T08:00Z"
   },
   "54": {
    "nr": "54",
