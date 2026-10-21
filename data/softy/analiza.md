@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-10-21 08:12 PL
+# Softy: kawa i kakao, analiza z 2026-10-21 08:59 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -28,6 +28,10 @@ Wsparcia: 308,45 (swing D1 ×4, ostatnio 2026-10-20, -0.16 ATR), 307,60 (S1, -0.
 | SHORT | limit: granica zakresu 317.75 (10 sesji), TP1 przed przeciwną granicą | 316,69 | 327,27 | 284,56 / 279,27 | 2.58 | +0.62 ATR | 12 | silny poziom 308.45 przed TP1: rozważyć częściowe wyjście przed nim |
 | SHORT | stop: wybicie zakresu za 283.50: zmiana reżimu, wejście z kontynuacji | 282,44 | 303,61 | 240,11 / 218,95 | 1.82 | -2.61 ATR | 6 | stop 2.61× ATR D1 od ceny: daleko, do przeliczenia po sesji |
 
+Wiszące zlecenia z dziennika:
+
+- #54 LONG limit 305,00 (SL 296,60): w zasięgu (0.48× ATR D1, 1.4× ATR H1)
+
 ## Kakao (NY CC): NEUTRAL 1/5 (suma +0.5)
 
 - Cena 5 799 USD/t (2026-10-20T17:15:00Z UTC). ATR D1 280, ATR H1 (sesja) 74. 5 sesji +1.2%, 20 sesji +7.4%.
@@ -53,9 +57,15 @@ Wsparcia: 5 779 (P, -0.07 ATR), 5 754 (swing D1 ×2, ostatnio 2026-09-28, -0.16 
 | SHORT | limit: granica zakresu 6023.00 (10 sesji), TP1 przed przeciwną granicą | 5 995 | 6 275 | 5 459 / 5 156 | 1.44 | +0.70 ATR | 8 | silny poziom 5754.0 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.44 < 1.5: według ryzyko.md 10a nie składać |
 | SHORT | stop: wybicie zakresu za 5431.00: zmiana reżimu, wejście z kontynuacji | 5 403 | 6 102 | 4 004 / 3 305 | 1.78 | -1.42 ATR | 3 | stop 1.42× ATR D1 od ceny: daleko, do przeliczenia po sesji |
 
+Wiszące zlecenia z dziennika:
+
+- #55 SHORT limit 5 960 (SL 6 100): w zasięgu (0.58× ATR D1, 2.2× ATR H1)
+- #56 SHORT stop 5 620 (SL 5 760): cena już za SL: zlecenie nieaktualne
+
 ## Alerty
 
 - kawa: nieudane wybicie górą (318.20 > 317.75, zamknięcie 311.30): uwaga na pułapkę albo drugie podejście
+- kakao: #56 SHORT stop 5620.0: cena już za SL: zlecenie nieaktualne
 
 ## Kalendarz (14 dni)
 

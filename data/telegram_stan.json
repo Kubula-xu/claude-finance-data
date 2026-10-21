@@ -360,10 +360,23 @@
    "tp": "5410 / 5270"
   }
  },
- "automat": {},
+ "automat": {
+  "52": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "53": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "54": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  }
+ },
  "podsumowanie": {
   "rano": "2026-10-21",
   "wieczor": "2026-10-20"
  },
- "zaktualizowano_utc": "2026-10-21T06:42:21Z"
+ "zaktualizowano_utc": "2026-10-21T06:59:34Z"
 }
