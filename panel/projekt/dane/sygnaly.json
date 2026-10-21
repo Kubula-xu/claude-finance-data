@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-10-20 08:45 PL",
+  "aktualizacja": "2026-10-21 08:45 PL",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -37,7 +37,7 @@
         "tp1": 29920,
         "tp2": 30068,
         "ryzyko_pct": 0.25,
-        "status": "decyzja na przeglądzie 14:50 (Netflix po sesji)",
+        "status": "decyzja o 14:50 (Tesla i Meta po sesji)",
         "ksiega": "intraday",
         "uwagi": ""
       },
@@ -63,7 +63,7 @@
           2
         ],
         "makro": [
-          "NEUTRAL",
+          "SHORT",
           1
         ],
         "sentyment": [
@@ -74,18 +74,18 @@
       "final": {
         "kierunek": "SHORT",
         "pewnosc": 2,
-        "powod": "Wybicie pod 4 136, trend D1 spadkowy. Short z retestu 4 148 (poz. 47)."
+        "powod": "Niższe szczyty, ropa i rentowności. Short z retestu 4 128 (poz. 52)."
       },
       "setup": {
         "kierunek": "SHORT",
         "typ": "limit",
-        "wejscie": 4148,
-        "sl": 4166,
-        "tp1": 4121,
-        "tp2": 4103,
+        "wejscie": 4128,
+        "sl": 4147,
+        "tp1": 4099.5,
+        "tp2": 4080.5,
         "ryzyko_pct": 0.5,
         "koszt": 0.6,
-        "status": "oczekuje (poz. 47)",
+        "status": "oczekuje (poz. 52)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -112,7 +112,7 @@
       "atr": 2.06,
       "agenci": {
         "technika": [
-          "SHORT",
+          "NEUTRAL",
           1
         ],
         "makro": [
@@ -127,7 +127,7 @@
       "final": {
         "kierunek": "NEUTRAL",
         "pewnosc": 1,
-        "powod": "Srebro w trendzie spadkowym, bez przewagi. Bez zlecenia."
+        "powod": "Wczoraj 56,3–58,6 bez kierunku. Bez zlecenia."
       },
       "setup": {
         "kierunek": "LONG",
@@ -160,7 +160,7 @@
       "agenci": {
         "technika": [
           "LONG",
-          2
+          1
         ],
         "makro": [
           "LONG",
@@ -173,18 +173,18 @@
       },
       "final": {
         "kierunek": "LONG",
-        "pewnosc": 2,
-        "powod": "Trend wzrostowy, Hormuz. Long z cofnięcia 98,10 (poz. 48)."
+        "pewnosc": 1,
+        "powod": "Trend w górę, duża zmienność, EIA 16:30. Long z cofnięcia 98,20 (poz. 53)."
       },
       "setup": {
         "kierunek": "LONG",
         "typ": "limit",
-        "wejscie": 98.1,
-        "sl": 97.18,
-        "tp1": 99.48,
-        "tp2": 100.4,
+        "wejscie": 98.2,
+        "sl": 96.98,
+        "tp1": 100.03,
+        "tp2": 101.25,
         "ryzyko_pct": 0.25,
-        "status": "oczekuje (poz. 48)",
+        "status": "oczekuje (poz. 53)",
         "ksiega": "intraday",
         "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
       },
@@ -252,8 +252,8 @@
       "atr": 9.0,
       "agenci": {
         "technika": [
-          "LONG",
-          2
+          "NEUTRAL",
+          1
         ],
         "makro": [
           "NEUTRAL",
@@ -261,24 +261,24 @@
         ],
         "sentyment": [
           "LONG",
-          2
+          1
         ]
       },
       "final": {
         "kierunek": "LONG",
-        "pewnosc": 2,
-        "powod": "Wybicie potwierdzone, niskie zapasy ICE. Long z cofnięcia 310 (poz. 49)."
+        "pewnosc": 1,
+        "powod": "Zakres 303–318 po odrzuceniach. Long z dołu zakresu 305 (poz. 54)."
       },
       "setup": {
         "kierunek": "LONG",
         "typ": "limit",
-        "wejscie": 310.0,
-        "sl": 302.2,
-        "tp1": 321.7,
-        "tp2": 329.5,
-        "ryzyko_pct": 0.5,
+        "wejscie": 305.0,
+        "sl": 296.6,
+        "tp1": 317.6,
+        "tp2": 326.0,
+        "ryzyko_pct": 0.25,
         "koszt": 0.8,
-        "status": "oczekuje (poz. 49)",
+        "status": "oczekuje (poz. 54)",
         "ksiega": "intraday",
         "uwagi": "Okno 10:30–19:00."
       },
@@ -304,11 +304,11 @@
       "atr": 307,
       "agenci": {
         "technika": [
-          "NEUTRAL",
+          "SHORT",
           1
         ],
         "makro": [
-          "LONG",
+          "NEUTRAL",
           1
         ],
         "sentyment": [
@@ -317,19 +317,19 @@
         ]
       },
       "final": {
-        "kierunek": "LONG",
+        "kierunek": "SHORT",
         "pewnosc": 1,
-        "powod": "Zakres; long przy dolnej krawędzi 5 610 (poz. 50)."
+        "powod": "Tylko shorty: 5 960 albo wybicie pod 5 620 (poz. 55/56 OCO)."
       },
       "setup": {
-        "kierunek": "LONG",
+        "kierunek": "SHORT",
         "typ": "limit",
-        "wejscie": 5610,
-        "sl": 5470,
-        "tp1": 5820,
-        "tp2": 5960,
+        "wejscie": 5960,
+        "sl": 6100,
+        "tp1": 5750,
+        "tp2": 5610,
         "ryzyko_pct": 0.25,
-        "status": "oczekuje (poz. 50)",
+        "status": "oczekuje (poz. 55, OCO z 56)",
         "ksiega": "intraday",
         "uwagi": "Okno 10:45–19:00."
       },
