@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-10-22 01:53 PL
+# Softy: kawa i kakao, analiza z 2026-10-22 02:24 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -15,7 +15,7 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Krzywa | +1.5 | KCZ26.NYB vs KCH27.NYB: +5.11%, 5 dni temu +2.50%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
 | BRL | +0.0 | USD/BRL 5.031, 5 sesji +0.1% |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana -1.2%, wzrost w 42% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.0%, wzrost w 50% lat |
 
 Opory: 318,20 (szczyt 5 sesji, +0.14 ATR), 319,03 (swing D1 ×5, ostatnio 2026-10-21, +0.22 ATR), 320,25 (R1, +0.34 ATR), 323,85 (R2, +0.67 ATR)
 
@@ -40,7 +40,7 @@ Wsparcia: 315,52 (swing D1 ×2, ostatnio 2026-09-08, -0.11 ATR), 314,30 (P, -0.2
 | Pogoda | +0.5 | opad 30 dni 161% normy, prognoza 16 dni 211% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie) |
 | Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.82%, 5 dni temu -2.15%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.8%, wzrost w 58% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.6%, wzrost w 54% lat |
 
 Opory: 5 913 (R1, +0.28 ATR), 5 921 (swing D1 ×3, ostatnio 2026-10-05, +0.31 ATR), 5 986 (R2, +0.56 ATR), 5 993 (szczyt 5 sesji, +0.58 ATR)
 

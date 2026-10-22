@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-21T23:53:35Z",
- "wygenerowano_pl": "2026-10-22 01:53 PL",
+ "wygenerowano_utc": "2026-10-22T00:24:40Z",
+ "wygenerowano_pl": "2026-10-22 02:24 PL",
  "kapital_usd": 10281706.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -258,12 +258,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana -1.2%, wzrost w 42% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.0%, wzrost w 50% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": -0.31,
-      "mediana_proc": -1.17,
-      "proc_lat_wzrost": 42
+      "srednia_proc": 0.84,
+      "mediana_proc": 0.04,
+      "proc_lat_wzrost": 50
      }
     }
    ],
@@ -603,12 +603,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +1.8%, wzrost w 58% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.6%, wzrost w 54% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 1.99,
-      "mediana_proc": 1.83,
-      "proc_lat_wzrost": 58
+      "srednia_proc": 1.14,
+      "mediana_proc": 0.6,
+      "proc_lat_wzrost": 54
      }
     }
    ],
