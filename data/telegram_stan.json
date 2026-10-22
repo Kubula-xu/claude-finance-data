@@ -392,10 +392,11 @@
  },
  "automat": {
   "58": {
-   "stan": "otwarta",
+   "stan": "zamknięta",
    "zdarzenia": [
     "22.10 14:00 PL wejście 4057.55",
-    "22.10 14:30 PL +1R, SL na BE 4057.55"
+    "22.10 14:30 PL +1R, SL na BE 4057.55",
+    "22.10 15:30 PL BE 4057.55"
    ]
   },
   "60": {
@@ -411,5 +412,5 @@
   "rano": "2026-10-22",
   "wieczor": "2026-10-21"
  },
- "zaktualizowano_utc": "2026-10-22T13:21:18Z"
+ "zaktualizowano_utc": "2026-10-22T14:05:18Z"
 }
