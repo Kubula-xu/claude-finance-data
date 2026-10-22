@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-22T03:24:09Z",
- "wygenerowano_pl": "2026-10-22 05:24 PL",
+ "wygenerowano_utc": "2026-10-22T04:03:35Z",
+ "wygenerowano_pl": "2026-10-22 06:03 PL",
  "kapital_usd": 10281706.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -26,10 +26,10 @@
      "o": 311.299988,
      "h": 317.899994,
      "l": 308.350006,
-     "c": 316.649994
+     "c": 316.149994
     },
-    "zmiana_5s_proc": 6.24,
-    "zmiana_20s_proc": 14.77
+    "zmiana_5s_proc": 6.07,
+    "zmiana_20s_proc": 14.59
    },
    "rezim": {
     "typ": "zakres",
@@ -38,16 +38,16 @@
     "adx": 22.2,
     "di_plus": 29.0,
     "di_minus": 15.9,
-    "ema20": 300.74,
-    "ema50": 306.02,
-    "sma100": 309.43,
+    "ema20": 300.69,
+    "ema50": 306.0,
+    "sma100": 309.42,
     "sma200": 307.82,
     "zakres_gora": 318.2,
     "zakres_dol": 283.5,
     "zakres20_gora": 318.2,
     "zakres20_dol": 269.75,
     "pozycja_w_zakresie_proc": 96,
-    "zmiennosc_20d_roczna_proc": 32.8
+    "zmiennosc_20d_roczna_proc": 32.7
    },
    "poziomy": {
     "opory": [
@@ -65,16 +65,16 @@
       "odleglosc_atr": 0.22
      },
      {
-      "poziom": 320.25,
+      "poziom": 319.92,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.34
+      "odleglosc_atr": 0.3
      },
      {
-      "poziom": 323.85,
+      "poziom": 323.68,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 0.67
+      "odleglosc_atr": 0.66
      },
      {
       "sila": 1,
@@ -99,16 +99,16 @@
       "odleglosc_atr": -0.11
      },
      {
-      "poziom": 314.3,
+      "poziom": 314.13,
       "sila": 1,
       "zrodlo": "P",
-      "odleglosc_atr": -0.22
+      "odleglosc_atr": -0.24
      },
      {
-      "poziom": 310.7,
+      "poziom": 310.37,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.55
+      "odleglosc_atr": -0.59
      },
      {
       "poziom": 310,
@@ -124,18 +124,18 @@
       "odleglosc_atr": -0.78
      },
      {
-      "poziom": 304.75,
+      "poziom": 304.58,
       "sila": 1,
       "zrodlo": "S2",
-      "odleglosc_atr": -1.11
+      "odleglosc_atr": -1.13
      }
     ],
     "pivoty": {
-     "P": 314.3,
-     "R1": 320.25,
-     "S1": 310.7,
-     "R2": 323.85,
-     "S2": 304.75
+     "P": 314.13,
+     "R1": 319.92,
+     "S1": 310.37,
+     "R2": 323.68,
+     "S2": 304.58
     },
     "baza_pivotow": "2026-10-21"
    },
@@ -367,19 +367,19 @@
     "cena": 5839.0,
     "czas_notowania_utc": "2026-10-21T17:15:00Z",
     "sesja_w_trakcie": false,
-    "atr_d1": 264.79,
+    "atr_d1": 264.93,
     "atr_h1_sesja": 70.56,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
      "data": "2026-10-21",
      "o": 5792.0,
-     "h": 5857.0,
+     "h": 5859.0,
      "l": 5654.0,
-     "c": 5839.0
+     "c": 5843.0
     },
-    "zmiana_5s_proc": 1.81,
-    "zmiana_20s_proc": 5.63
+    "zmiana_5s_proc": 1.88,
+    "zmiana_20s_proc": 5.7
    },
    "rezim": {
     "typ": "zakres",
@@ -388,10 +388,10 @@
     "adx": 12.8,
     "di_plus": 21.0,
     "di_minus": 19.4,
-    "ema20": 5711.33,
-    "ema50": 5662.01,
-    "sma100": 5408.6,
-    "sma200": 4582.97,
+    "ema20": 5711.71,
+    "ema50": 5662.18,
+    "sma100": 5408.64,
+    "sma200": 4582.98,
     "zakres_gora": 6023.0,
     "zakres_dol": 5431.0,
     "zakres20_gora": 6023.0,
@@ -402,10 +402,10 @@
    "poziomy": {
     "opory": [
      {
-      "poziom": 5912.67,
+      "poziom": 5916.67,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.28
+      "odleglosc_atr": 0.29
      },
      {
       "sila": 3,
@@ -415,10 +415,10 @@
       "odleglosc_atr": 0.31
      },
      {
-      "poziom": 5986.33,
+      "poziom": 5990.33,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 0.56
+      "odleglosc_atr": 0.57
      },
      {
       "poziom": 5993.0,
@@ -444,28 +444,28 @@
      {
       "sila": 2,
       "ostatnio": "2026-10-21",
-      "poziom": 5812.0,
+      "poziom": 5813.0,
       "zrodlo": "swing D1 ×2, ostatnio 2026-10-21",
       "odleglosc_atr": -0.1
      },
      {
-      "poziom": 5783.33,
+      "poziom": 5785.33,
       "sila": 1,
       "zrodlo": "P",
-      "odleglosc_atr": -0.21
+      "odleglosc_atr": -0.2
      },
      {
-      "poziom": 5709.67,
+      "poziom": 5711.67,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.49
+      "odleglosc_atr": -0.48
      },
      {
       "sila": 3,
       "ostatnio": "2026-10-21",
       "poziom": 5694.67,
       "zrodlo": "swing D1 ×3, ostatnio 2026-10-21",
-      "odleglosc_atr": -0.55
+      "odleglosc_atr": -0.54
      },
      {
       "poziom": 5590.0,
@@ -481,10 +481,10 @@
      }
     ],
     "pivoty": {
-     "P": 5783.33,
-     "R1": 5912.67,
-     "S1": 5709.67,
-     "R2": 5986.33,
+     "P": 5785.33,
+     "R1": 5916.67,
+     "S1": 5711.67,
+     "R2": 5990.33,
      "S2": 5580.33
     },
     "baza_pivotow": "2026-10-21"
@@ -624,11 +624,11 @@
       {
        "kierunek": "LONG",
        "typ": "limit",
-       "wejscie": 5457.48,
-       "sl": 5192.69,
-       "tp1": 5996.52,
-       "tp2": 6251.84,
-       "r_pkt": 264.79,
+       "wejscie": 5457.49,
+       "sl": 5192.56,
+       "tp1": 5996.51,
+       "tp2": 6252.28,
+       "r_pkt": 264.93,
        "r_atr": 1.0,
        "rr_tp1_netto": 1.52,
        "odleglosc_atr": -1.44,
@@ -643,11 +643,11 @@
       {
        "kierunek": "LONG",
        "typ": "stop",
-       "wejscie": 6049.48,
-       "sl": 5387.51,
-       "tp1": 7373.41,
-       "tp2": 8035.37,
-       "r_pkt": 661.96,
+       "wejscie": 6049.49,
+       "sl": 5387.17,
+       "tp1": 7374.14,
+       "tp2": 8036.46,
+       "r_pkt": 662.32,
        "r_atr": 2.5,
        "rr_tp1_netto": 1.77,
        "odleglosc_atr": 0.79,
@@ -666,11 +666,11 @@
       {
        "kierunek": "SHORT",
        "typ": "limit",
-       "wejscie": 5996.52,
-       "sl": 6261.31,
-       "tp1": 5457.48,
-       "tp2": 5202.16,
-       "r_pkt": 264.79,
+       "wejscie": 5996.51,
+       "sl": 6261.44,
+       "tp1": 5457.49,
+       "tp2": 5201.72,
+       "r_pkt": 264.93,
        "r_atr": 1.0,
        "rr_tp1_netto": 1.52,
        "odleglosc_atr": 0.59,
@@ -678,17 +678,17 @@
        "ryzyko_usd": 25704,
        "uzasadnienie": "granica zakresu 6023.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
-        "silny poziom 5812.0 przed TP1: rozważyć częściowe wyjście przed nim"
+        "silny poziom 5813.0 przed TP1: rozważyć częściowe wyjście przed nim"
        ]
       },
       {
        "kierunek": "SHORT",
        "typ": "stop",
-       "wejscie": 5404.52,
-       "sl": 6066.49,
-       "tp1": 4080.59,
-       "tp2": 3418.63,
-       "r_pkt": 661.96,
+       "wejscie": 5404.51,
+       "sl": 6066.83,
+       "tp1": 4079.86,
+       "tp2": 3417.54,
+       "r_pkt": 662.32,
        "r_atr": 2.5,
        "rr_tp1_netto": 1.77,
        "odleglosc_atr": -1.64,
