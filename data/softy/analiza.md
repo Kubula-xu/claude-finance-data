@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-10-22 02:24 PL
+# Softy: kawa i kakao, analiza z 2026-10-22 03:10 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
