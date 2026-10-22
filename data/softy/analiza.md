@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-10-22 22:13 PL
+# Softy: kawa i kakao, analiza z 2026-10-22 22:47 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -30,7 +30,7 @@ Wsparcia: 309,75 (P, -0.15 ATR), 308,20 (swing D1 ×3, ostatnio 2026-10-07, -0.2
 
 ## Kakao (NY CC): NEUTRAL 2/5 (suma +1.5)
 
-- Cena 5 607 USD/t (2026-10-22T17:15:00Z UTC). ATR D1 258, ATR H1 (sesja) 70. 5 sesji -3.8%, 20 sesji +0.3%.
+- Cena 5 607 USD/t (2026-10-22T17:15:00Z UTC). ATR D1 258, ATR H1 (sesja) 71. 5 sesji -3.8%, 20 sesji +0.3%.
 - Reżim: **zakres** (ADX 12, cena w zakresie 10 sesji 5431.00-6023.00). Zakres 10 sesji 5 431–6 023 (20 sesji 5 051–6 023), EMA20 5 702, EMA50 5 660, SMA200 4 581.
 
 | Czynnik | Wynik | Opis |
