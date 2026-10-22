@@ -401,7 +401,8 @@
   "60": {
    "stan": "otwarta",
    "zdarzenia": [
-    "22.10 16:15 PL wejście 98.8"
+    "22.10 16:15 PL wejście 98.8",
+    "22.10 19:45 PL +1R, SL na BE 98.8"
    ]
   },
   "61": {
@@ -413,5 +414,5 @@
   "rano": "2026-10-22",
   "wieczor": "2026-10-21"
  },
- "zaktualizowano_utc": "2026-10-22T17:57:00Z"
+ "zaktualizowano_utc": "2026-10-22T18:27:02Z"
 }
