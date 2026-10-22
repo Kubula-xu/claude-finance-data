@@ -1,431 +1,431 @@
 {
-  "aktualizacja": "2026-10-21 08:45 PL",
-  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
-  "instrumenty": [
-    {
-      "id": "nq",
-      "nazwa": "Nasdaq 100",
-      "ticker_tv": "CAPITALCOM:US100 / CME_MINI:NQ1!",
-      "jedn": "pkt",
-      "dec": 2,
-      "csv": "nq.csv",
-      "atr": 443,
-      "agenci": {
-        "technika": [
-          "LONG",
-          1
-        ],
-        "makro": [
-          "NEUTRAL",
-          1
-        ],
-        "sentyment": [
-          "LONG",
-          1
-        ]
-      },
-      "final": {
-        "kierunek": "LONG",
-        "pewnosc": 1,
-        "powod": "Odbicie po piątkowym zjeździe, long z dolnej krawędzi konsolidacji (poz. 43)."
-      },
-      "setup": {
-        "kierunek": "LONG",
-        "typ": "limit",
-        "wejscie": 29700,
-        "sl": 29553,
-        "tp1": 29920,
-        "tp2": 30068,
-        "ryzyko_pct": 0.25,
-        "status": "decyzja o 14:50 (Tesla i Meta po sesji)",
-        "ksiega": "intraday",
-        "uwagi": ""
-      },
-      "kontrakt": {
-        "nazwa": "E-mini Nasdaq 100 (NQ)",
-        "usd_na_jedn_ceny": 20,
-        "usd_na_jedn_cfd": 1,
-        "jedn_cfd": "pkt"
-      },
-      "atr_h1": 132
-    },
-    {
-      "id": "gold",
-      "nazwa": "Złoto",
-      "ticker_tv": "OANDA:XAUUSD / COMEX:GC1!",
-      "jedn": "USD/oz",
-      "dec": 1,
-      "csv": "gold.csv",
-      "atr": 82.6,
-      "agenci": {
-        "technika": [
-          "SHORT",
-          2
-        ],
-        "makro": [
-          "SHORT",
-          1
-        ],
-        "sentyment": [
-          "SHORT",
-          1
-        ]
-      },
-      "final": {
-        "kierunek": "SHORT",
-        "pewnosc": 2,
-        "powod": "Niższe szczyty, ropa i rentowności. Short z retestu 4 128 (poz. 52)."
-      },
-      "setup": {
-        "kierunek": "SHORT",
-        "typ": "limit",
-        "wejscie": 4128,
-        "sl": 4147,
-        "tp1": 4099.5,
-        "tp2": 4080.5,
-        "ryzyko_pct": 0.5,
-        "koszt": 0.6,
-        "status": "oczekuje (poz. 52)",
-        "ksiega": "intraday",
-        "ceny": "spot",
-        "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
-      },
-      "kontrakt": {
-        "nazwa": "Gold (GC), 100 oz",
-        "usd_na_jedn_ceny": 100,
-        "usd_na_jedn_cfd": 1,
-        "jedn_cfd": "oz"
-      },
-      "ostatnia_cena": {
-        "cena": 4170.39,
-        "czas": "2026-10-19 11:10 PL",
-        "zrodlo": "XTB GOLD (zrzut Kuby)"
-      }
-    },
-    {
-      "id": "silver",
-      "nazwa": "Srebro",
-      "ticker_tv": "OANDA:XAGUSD / COMEX:SI1!",
-      "jedn": "USD/oz",
-      "dec": 3,
-      "csv": "silver.csv",
-      "atr": 2.06,
-      "agenci": {
-        "technika": [
-          "NEUTRAL",
-          1
-        ],
-        "makro": [
-          "NEUTRAL",
-          1
-        ],
-        "sentyment": [
-          "NEUTRAL",
-          1
-        ]
-      },
-      "final": {
-        "kierunek": "NEUTRAL",
-        "pewnosc": 1,
-        "powod": "Wczoraj 56,3–58,6 bez kierunku. Bez zlecenia."
-      },
-      "setup": {
-        "kierunek": "LONG",
-        "typ": "limit",
-        "wejscie": 57.45,
-        "sl": 56.8,
-        "tp1": 58.43,
-        "tp2": 59.08,
-        "ryzyko_pct": 0.25,
-        "status": "brak zlecenia",
-        "ksiega": "intraday",
-        "ceny": "spot",
-        "uwagi": "Grupa metali z poz. 41: 0,75%."
-      },
-      "kontrakt": {
-        "nazwa": "Silver (SI), 5 000 oz",
-        "usd_na_jedn_ceny": 5000,
-        "usd_na_jedn_cfd": 1,
-        "jedn_cfd": "oz"
-      }
-    },
-    {
-      "id": "wti",
-      "nazwa": "Ropa WTI",
-      "ticker_tv": "TVC:USOIL / NYMEX:CL1!",
-      "jedn": "USD/bbl",
-      "dec": 2,
-      "csv": "wti.csv",
-      "atr": 4.5,
-      "agenci": {
-        "technika": [
-          "LONG",
-          1
-        ],
-        "makro": [
-          "LONG",
-          2
-        ],
-        "sentyment": [
-          "NEUTRAL",
-          1
-        ]
-      },
-      "final": {
-        "kierunek": "LONG",
-        "pewnosc": 1,
-        "powod": "Trend w górę, duża zmienność, EIA 16:30. Long z cofnięcia 98,20 (poz. 53)."
-      },
-      "setup": {
-        "kierunek": "LONG",
-        "typ": "limit",
-        "wejscie": 98.2,
-        "sl": 96.98,
-        "tp1": 100.03,
-        "tp2": 101.25,
-        "ryzyko_pct": 0.25,
-        "status": "oczekuje (poz. 53)",
-        "ksiega": "intraday",
-        "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
-      },
-      "kontrakt": {
-        "nazwa": "WTI Crude (CL), 1 000 bbl",
-        "usd_na_jedn_ceny": 1000,
-        "usd_na_jedn_cfd": 1,
-        "jedn_cfd": "bbl"
-      }
-    },
-    {
-      "id": "ng",
-      "nazwa": "Gaz ziemny",
-      "ticker_tv": "NYMEX:NG1!",
-      "jedn": "USD/MMBtu",
-      "dec": 3,
-      "csv": "ng.csv",
-      "atr": 0.145,
-      "agenci": {
-        "technika": [
-          "NEUTRAL",
-          1
-        ],
-        "makro": [
-          "SHORT",
-          2
-        ],
-        "sentyment": [
-          "SHORT",
-          1
-        ]
-      },
-      "final": {
-        "kierunek": "SHORT",
-        "pewnosc": 1,
-        "powod": "Ciepłe prognozy, zapasy nad średnią 5-letnią; ale zatłoczony short (ryzyko squeeze). Dobry poziom 3,19–3,21 leży ponad 1× ATR H1 od ceny, więc bez zlecenia."
-      },
-      "setup": {
-        "kierunek": "SHORT",
-        "typ": "limit",
-        "wejscie": 3.19,
-        "sl": 3.24,
-        "tp1": 3.107,
-        "tp2": 3.053,
-        "ryzyko_pct": 0.25,
-        "koszt": 0.005,
-        "status": "brak zlecenia (poziom za daleko od ceny)",
-        "ksiega": "intraday",
-        "uwagi": ""
-      },
-      "kontrakt": {
-        "nazwa": "Henry Hub (NG), 10 000 MMBtu",
-        "usd_na_jedn_ceny": 10000,
-        "usd_na_jedn_cfd": 1,
-        "jedn_cfd": "MMBtu"
-      }
-    },
-    {
-      "id": "coffee",
-      "nazwa": "Kawa US",
-      "ticker_tv": "ICEUS:KC1!",
-      "jedn": "c/lb",
-      "dec": 2,
-      "csv": "coffee.csv",
-      "atr": 9.0,
-      "agenci": {
-        "technika": [
-          "NEUTRAL",
-          1
-        ],
-        "makro": [
-          "NEUTRAL",
-          1
-        ],
-        "sentyment": [
-          "LONG",
-          1
-        ]
-      },
-      "final": {
-        "kierunek": "LONG",
-        "pewnosc": 1,
-        "powod": "Zakres 303–318 po odrzuceniach. Long z dołu zakresu 305 (poz. 54)."
-      },
-      "setup": {
-        "kierunek": "LONG",
-        "typ": "limit",
-        "wejscie": 312.0,
-        "sl": 303.6,
-        "tp1": 324.6,
-        "tp2": 333.0,
-        "ryzyko_pct": 0.25,
-        "koszt": 0.8,
-        "status": "oczekuje (poz. 54)",
-        "ksiega": "intraday",
-        "uwagi": "Okno 10:30–19:00."
-      },
-      "kontrakt": {
-        "nazwa": "Coffee C (KC), 37 500 lb",
-        "usd_na_jedn_ceny": 375,
-        "usd_na_jedn_cfd": 0.01,
-        "jedn_cfd": "lb"
-      },
-      "ostatnia_cena": {
-        "cena": 307.12,
-        "czas": "2026-10-19 11:10 PL",
-        "zrodlo": "XTB COFFEE (zrzut Kuby)"
-      }
-    },
-    {
-      "id": "cocoa",
-      "nazwa": "Kakao US",
-      "ticker_tv": "ICEUS:CC1!",
-      "jedn": "USD/t",
-      "dec": 0,
-      "csv": "cocoa.csv",
-      "atr": 307,
-      "agenci": {
-        "technika": [
-          "SHORT",
-          1
-        ],
-        "makro": [
-          "NEUTRAL",
-          1
-        ],
-        "sentyment": [
-          "NEUTRAL",
-          1
-        ]
-      },
-      "final": {
-        "kierunek": "SHORT",
-        "pewnosc": 1,
-        "powod": "Tylko shorty: 5 960 albo wybicie pod 5 620 (poz. 55/56 OCO)."
-      },
-      "setup": {
-        "kierunek": "SHORT",
-        "typ": "limit",
-        "wejscie": 5800,
-        "sl": 5910,
-        "tp1": 5635,
-        "tp2": 5525,
-        "ryzyko_pct": 0.25,
-        "status": "oczekuje (poz. 55, OCO z 56)",
-        "ksiega": "intraday",
-        "uwagi": "Okno 10:45–19:00."
-      },
-      "kontrakt": {
-        "nazwa": "Cocoa (CC), 10 t",
-        "usd_na_jedn_ceny": 10,
-        "usd_na_jedn_cfd": 1,
-        "jedn_cfd": "t"
-      },
-      "ostatnia_cena": {
-        "cena": 5663,
-        "czas": "2026-10-19 11:10 PL",
-        "zrodlo": "XTB COCOA (zrzut Kuby)"
-      }
-    }
-  ],
-  "portfel": "Otwarte: WTI long 90,40 (17 100 bbl) i złoto short 4 135 spot (1 600 oz, wejście niepotwierdzone na spocie). Obie zamknąć do 22:30 PL. Księga swing: kawa short i kakao long czekają na limit do 16.10.",
-  "firma": "Claude Finance",
-  "kapital": 10000000,
-  "horyzont": "intraday dla płynnych rynków, swing 1–2 tygodnie dla kawy i kakao",
-  "agenci_opis": {
-    "technika": "filtr D1 + poziomy dnia",
-    "makro": "intraday",
-    "sentyment": "intraday"
+ "aktualizacja": "2026-10-22T06:45:00Z",
+ "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
+ "instrumenty": [
+  {
+   "id": "nq",
+   "nazwa": "Nasdaq 100",
+   "ticker_tv": "CAPITALCOM:US100 / CME_MINI:NQ1!",
+   "jedn": "pkt",
+   "dec": 2,
+   "csv": "nq.csv",
+   "atr": 443,
+   "agenci": {
+    "technika": [
+     "SHORT",
+     1
+    ],
+    "makro": [
+     "NEUTRAL",
+     1
+    ],
+    "sentyment": [
+     "SHORT",
+     1
+    ]
+   },
+   "final": {
+    "kierunek": "SHORT",
+    "pewnosc": 1,
+    "powod": "Noc −500 pkt, short z retestu 29700 od 15:45 (poz. 61)."
+   },
+   "setup": {
+    "kierunek": "SHORT",
+    "typ": "limit",
+    "wejscie": 29700,
+    "sl": 29862,
+    "tp1": 29457,
+    "tp2": 29295,
+    "ryzyko_pct": 0.25,
+    "status": "oczekuje limit, 22.10",
+    "ksiega": "intraday",
+    "uwagi": ""
+   },
+   "kontrakt": {
+    "nazwa": "E-mini Nasdaq 100 (NQ)",
+    "usd_na_jedn_ceny": 20,
+    "usd_na_jedn_cfd": 1,
+    "jedn_cfd": "pkt"
+   },
+   "atr_h1": 132
   },
-  "cytaty": [
-    {
-      "kto": "Technika",
-      "kiedy": "8.10, 17:50",
-      "temat": "Złoto · spot a futures",
-      "tekst": "Szczyt 4 141 wypada dokładnie na H3 z futures przeliczonym na spot (4 164 − ok. 22), więc odrzucenie jest potwierdzone poziomem.",
-      "skutek": "Nowy short z retestu 4 132 w cenach spot, na podstawie wykresu Kuby."
-    },
-    {
-      "kto": "Makro",
-      "kiedy": "8.10, 17:30",
-      "temat": "Nasdaq 100 · spór",
-      "tekst": "Na dzienny horyzont nie mam sporu, wykres jest wzrostowy. Na najbliższe godziny i dzień makro jest przeciw: Waller, ropa i jutrzejsze UMich.",
-      "skutek": "Technika long, makro i sentyment short: US100 bez pozycji."
-    },
-    {
-      "kto": "Sentyment",
-      "kiedy": "8.10, 17:20",
-      "temat": "Gaz ziemny · spór",
-      "tekst": "EIA +85 vs 79–82 to niedźwiedzia niespodzianka, która przerwała rajd. Na dziś to ważniejsze niż duży net short z COT. Long na dziś zawieszony.",
-      "skutek": "Technika chciała longa z 200 DMA. Koordynator: gaz bez pozycji."
-    },
-    {
-      "kto": "Technika",
-      "kiedy": "8.10, 17:20",
-      "temat": "Ropa WTI",
-      "tekst": "Dzienny zasięg (4,05) to już prawie cały ATR D1 (4,7), więc nie gonić przy 92.",
-      "skutek": "Zamiast kupna na rynku: limit 90,40 na wsparciu R1/H4."
-    },
-    {
-      "kto": "Ryzyko",
-      "kiedy": "8.10, 17:25",
-      "temat": "Ropa WTI · TP po spreadzie",
-      "tekst": "TP1 z technika.md (92,50) dawał po kosztach tylko 1,40R, więc podnoszę go do 92,65. To nadal pod dzisiejszym szczytem 92,83.",
-      "skutek": "TP1 przesunięty, żeby R:R netto doszło do 1,5."
-    },
-    {
-      "kto": "Ryzyko",
-      "kiedy": "8.10, 17:25",
-      "temat": "Złoto · TP przed dołkiem",
-      "tekst": "TP1 4 116 jest przed wsparciem 4 106, a TP2 4 093 przed wczorajszym dołkiem 4 091 (było 4 088, za dołkiem).",
-      "skutek": "Cele przed poziomami, nie za nimi."
-    },
-    {
-      "kto": "Makro",
-      "kiedy": "8.10, 17:30",
-      "temat": "Portfel",
-      "tekst": "US100 short i WTI long to w praktyce ta sama teza. Agent ryzyka powinien je liczyć jako skorelowane.",
-      "skutek": "Jeden zakład na ropę i inflację, nie dwa."
-    },
-    {
-      "kto": "Ryzyko",
-      "kiedy": "8.10, swing",
-      "temat": "Gaz ziemny",
-      "tekst": "Taktyczny long na 1–2 dni ze stopem 2× ATR nie ma sensu.",
-      "skutek": "Pierwsze weto na gazie, jeszcze przy horyzoncie D1."
-    },
-    {
-      "kto": "Sentyment",
-      "kiedy": "8.10, swing",
-      "temat": "Ropa WTI",
-      "tekst": "Spekulanci dołożyli 32 tys. shortów tuż przed eskalacją w Ormuzie, huraganem i niespodziewanym spadkiem zapasów; to układ pod short squeeze.",
-      "skutek": "Tło, dzięki któremu WTI long jest dziś pierwszym wyborem."
-    }
-  ],
-  "raporty_linki": [
-    {
-      "tytul": "List nr 1 do inwestorów: otwarcie",
-      "url": "https://claude.ai/artifact/2p9joqKATxzbYRu9xVqYhq",
-      "plik": "raporty/2026-10-08_list_nr1_otwarcie.html",
-      "data": "2026-10-08"
-    }
-  ]
+  {
+   "id": "gold",
+   "nazwa": "Złoto",
+   "ticker_tv": "OANDA:XAUUSD / COMEX:GC1!",
+   "jedn": "USD/oz",
+   "dec": 1,
+   "csv": "gold.csv",
+   "atr": 82.6,
+   "agenci": {
+    "technika": [
+     "SHORT",
+     1
+    ],
+    "makro": [
+     "NEUTRAL",
+     1
+    ],
+    "sentyment": [
+     "SHORT",
+     1
+    ]
+   },
+   "final": {
+    "kierunek": "SHORT",
+    "pewnosc": 1,
+    "powod": "Nocny zjazd 4148→4066, short z retestu 4110 (poz. 57); kontra long 4068 OCO (poz. 58)."
+   },
+   "setup": {
+    "kierunek": "SHORT",
+    "typ": "limit",
+    "wejscie": 4110,
+    "sl": 4132,
+    "tp1": 4077,
+    "tp2": 4055,
+    "ryzyko_pct": 0.5,
+    "koszt": 0.6,
+    "status": "oczekuje limit OCO z #58, 22.10",
+    "ksiega": "intraday",
+    "ceny": "spot",
+    "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
+   },
+   "kontrakt": {
+    "nazwa": "Gold (GC), 100 oz",
+    "usd_na_jedn_ceny": 100,
+    "usd_na_jedn_cfd": 1,
+    "jedn_cfd": "oz"
+   },
+   "ostatnia_cena": {
+    "cena": 4170.39,
+    "czas": "2026-10-19 11:10 PL",
+    "zrodlo": "XTB GOLD (zrzut Kuby)"
+   }
+  },
+  {
+   "id": "silver",
+   "nazwa": "Srebro",
+   "ticker_tv": "OANDA:XAGUSD / COMEX:SI1!",
+   "jedn": "USD/oz",
+   "dec": 3,
+   "csv": "silver.csv",
+   "atr": 2.06,
+   "agenci": {
+    "technika": [
+     "SHORT",
+     1
+    ],
+    "makro": [
+     "NEUTRAL",
+     1
+    ],
+    "sentyment": [
+     "SHORT",
+     1
+    ]
+   },
+   "final": {
+    "kierunek": "SHORT",
+    "pewnosc": 1,
+    "powod": "Za złotem w dół, short z retestu 56,70 (poz. 59)."
+   },
+   "setup": {
+    "kierunek": "SHORT",
+    "typ": "limit",
+    "wejscie": 56.7,
+    "sl": 57.46,
+    "tp1": 55.56,
+    "tp2": 54.8,
+    "ryzyko_pct": 0.25,
+    "status": "oczekuje limit, 22.10",
+    "ksiega": "intraday",
+    "ceny": "spot",
+    "uwagi": "Grupa metali z poz. 41: 0,75%."
+   },
+   "kontrakt": {
+    "nazwa": "Silver (SI), 5 000 oz",
+    "usd_na_jedn_ceny": 5000,
+    "usd_na_jedn_cfd": 1,
+    "jedn_cfd": "oz"
+   }
+  },
+  {
+   "id": "wti",
+   "nazwa": "Ropa WTI",
+   "ticker_tv": "TVC:USOIL / NYMEX:CL1!",
+   "jedn": "USD/bbl",
+   "dec": 2,
+   "csv": "wti.csv",
+   "atr": 4.5,
+   "agenci": {
+    "technika": [
+     "LONG",
+     1
+    ],
+    "makro": [
+     "LONG",
+     1
+    ],
+    "sentyment": [
+     "NEUTRAL",
+     1
+    ]
+   },
+   "final": {
+    "kierunek": "LONG",
+    "pewnosc": 1,
+    "powod": "Odbicie po EIA, long z cofnięcia 98,80 (poz. 60)."
+   },
+   "setup": {
+    "kierunek": "LONG",
+    "typ": "limit",
+    "wejscie": 98.8,
+    "sl": 97.64,
+    "tp1": 100.54,
+    "tp2": 101.7,
+    "ryzyko_pct": 0.25,
+    "status": "oczekuje limit, 22.10",
+    "ksiega": "intraday",
+    "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
+   },
+   "kontrakt": {
+    "nazwa": "WTI Crude (CL), 1 000 bbl",
+    "usd_na_jedn_ceny": 1000,
+    "usd_na_jedn_cfd": 1,
+    "jedn_cfd": "bbl"
+   }
+  },
+  {
+   "id": "ng",
+   "nazwa": "Gaz ziemny",
+   "ticker_tv": "NYMEX:NG1!",
+   "jedn": "USD/MMBtu",
+   "dec": 3,
+   "csv": "ng.csv",
+   "atr": 0.145,
+   "agenci": {
+    "technika": [
+     "SHORT",
+     1
+    ],
+    "makro": [
+     "NEUTRAL",
+     1
+    ],
+    "sentyment": [
+     "NEUTRAL",
+     1
+    ]
+   },
+   "final": {
+    "kierunek": "NEUTRAL",
+    "pewnosc": 1,
+    "powod": "Powolny spadek, bez setupu."
+   },
+   "setup": {
+    "kierunek": "NEUTRAL",
+    "typ": "limit",
+    "wejscie": 3.19,
+    "sl": 3.24,
+    "tp1": 3.107,
+    "tp2": 3.053,
+    "ryzyko_pct": 0.25,
+    "koszt": 0.005,
+    "status": "brak setupu 22.10",
+    "ksiega": "intraday",
+    "uwagi": ""
+   },
+   "kontrakt": {
+    "nazwa": "Henry Hub (NG), 10 000 MMBtu",
+    "usd_na_jedn_ceny": 10000,
+    "usd_na_jedn_cfd": 1,
+    "jedn_cfd": "MMBtu"
+   }
+  },
+  {
+   "id": "coffee",
+   "nazwa": "Kawa US",
+   "ticker_tv": "ICEUS:KC1!",
+   "jedn": "c/lb",
+   "dec": 2,
+   "csv": "coffee.csv",
+   "atr": 9.0,
+   "agenci": {
+    "technika": [
+     "LONG",
+     1
+    ],
+    "makro": [
+     "NEUTRAL",
+     1
+    ],
+    "sentyment": [
+     "LONG",
+     1
+    ]
+   },
+   "final": {
+    "kierunek": "LONG",
+    "pewnosc": 1,
+    "powod": "Wsparcie 308–312, long 312,5 (poz. 62)."
+   },
+   "setup": {
+    "kierunek": "LONG",
+    "typ": "limit",
+    "wejscie": 312.5,
+    "sl": 304.8,
+    "tp1": 324.1,
+    "tp2": 331.8,
+    "ryzyko_pct": 0.25,
+    "koszt": 0.8,
+    "status": "oczekuje limit, 22.10",
+    "ksiega": "intraday",
+    "uwagi": "Okno 10:30–19:00."
+   },
+   "kontrakt": {
+    "nazwa": "Coffee C (KC), 37 500 lb",
+    "usd_na_jedn_ceny": 375,
+    "usd_na_jedn_cfd": 0.01,
+    "jedn_cfd": "lb"
+   },
+   "ostatnia_cena": {
+    "cena": 307.12,
+    "czas": "2026-10-19 11:10 PL",
+    "zrodlo": "XTB COFFEE (zrzut Kuby)"
+   }
+  },
+  {
+   "id": "cocoa",
+   "nazwa": "Kakao US",
+   "ticker_tv": "ICEUS:CC1!",
+   "jedn": "USD/t",
+   "dec": 0,
+   "csv": "cocoa.csv",
+   "atr": 307,
+   "agenci": {
+    "technika": [
+     "NEUTRAL",
+     1
+    ],
+    "makro": [
+     "NEUTRAL",
+     1
+    ],
+    "sentyment": [
+     "NEUTRAL",
+     1
+    ]
+   },
+   "final": {
+    "kierunek": "NEUTRAL",
+    "pewnosc": 1,
+    "powod": "Pomijamy kakao (decyzja Kuby 21.10)."
+   },
+   "setup": {
+    "kierunek": "NEUTRAL",
+    "typ": "limit",
+    "wejscie": 5800,
+    "sl": 5910,
+    "tp1": 5635,
+    "tp2": 5525,
+    "ryzyko_pct": 0.25,
+    "status": "brak setupu 22.10",
+    "ksiega": "intraday",
+    "uwagi": "Okno 10:45–19:00."
+   },
+   "kontrakt": {
+    "nazwa": "Cocoa (CC), 10 t",
+    "usd_na_jedn_ceny": 10,
+    "usd_na_jedn_cfd": 1,
+    "jedn_cfd": "t"
+   },
+   "ostatnia_cena": {
+    "cena": 5663,
+    "czas": "2026-10-19 11:10 PL",
+    "zrodlo": "XTB COCOA (zrzut Kuby)"
+   }
+  }
+ ],
+ "portfel": "Otwarte: WTI long 90,40 (17 100 bbl) i złoto short 4 135 spot (1 600 oz, wejście niepotwierdzone na spocie). Obie zamknąć do 22:30 PL. Księga swing: kawa short i kakao long czekają na limit do 16.10.",
+ "firma": "Claude Finance",
+ "kapital": 10000000,
+ "horyzont": "intraday dla płynnych rynków, swing 1–2 tygodnie dla kawy i kakao",
+ "agenci_opis": {
+  "technika": "filtr D1 + poziomy dnia",
+  "makro": "intraday",
+  "sentyment": "intraday"
+ },
+ "cytaty": [
+  {
+   "kto": "Technika",
+   "kiedy": "8.10, 17:50",
+   "temat": "Złoto · spot a futures",
+   "tekst": "Szczyt 4 141 wypada dokładnie na H3 z futures przeliczonym na spot (4 164 − ok. 22), więc odrzucenie jest potwierdzone poziomem.",
+   "skutek": "Nowy short z retestu 4 132 w cenach spot, na podstawie wykresu Kuby."
+  },
+  {
+   "kto": "Makro",
+   "kiedy": "8.10, 17:30",
+   "temat": "Nasdaq 100 · spór",
+   "tekst": "Na dzienny horyzont nie mam sporu, wykres jest wzrostowy. Na najbliższe godziny i dzień makro jest przeciw: Waller, ropa i jutrzejsze UMich.",
+   "skutek": "Technika long, makro i sentyment short: US100 bez pozycji."
+  },
+  {
+   "kto": "Sentyment",
+   "kiedy": "8.10, 17:20",
+   "temat": "Gaz ziemny · spór",
+   "tekst": "EIA +85 vs 79–82 to niedźwiedzia niespodzianka, która przerwała rajd. Na dziś to ważniejsze niż duży net short z COT. Long na dziś zawieszony.",
+   "skutek": "Technika chciała longa z 200 DMA. Koordynator: gaz bez pozycji."
+  },
+  {
+   "kto": "Technika",
+   "kiedy": "8.10, 17:20",
+   "temat": "Ropa WTI",
+   "tekst": "Dzienny zasięg (4,05) to już prawie cały ATR D1 (4,7), więc nie gonić przy 92.",
+   "skutek": "Zamiast kupna na rynku: limit 90,40 na wsparciu R1/H4."
+  },
+  {
+   "kto": "Ryzyko",
+   "kiedy": "8.10, 17:25",
+   "temat": "Ropa WTI · TP po spreadzie",
+   "tekst": "TP1 z technika.md (92,50) dawał po kosztach tylko 1,40R, więc podnoszę go do 92,65. To nadal pod dzisiejszym szczytem 92,83.",
+   "skutek": "TP1 przesunięty, żeby R:R netto doszło do 1,5."
+  },
+  {
+   "kto": "Ryzyko",
+   "kiedy": "8.10, 17:25",
+   "temat": "Złoto · TP przed dołkiem",
+   "tekst": "TP1 4 116 jest przed wsparciem 4 106, a TP2 4 093 przed wczorajszym dołkiem 4 091 (było 4 088, za dołkiem).",
+   "skutek": "Cele przed poziomami, nie za nimi."
+  },
+  {
+   "kto": "Makro",
+   "kiedy": "8.10, 17:30",
+   "temat": "Portfel",
+   "tekst": "US100 short i WTI long to w praktyce ta sama teza. Agent ryzyka powinien je liczyć jako skorelowane.",
+   "skutek": "Jeden zakład na ropę i inflację, nie dwa."
+  },
+  {
+   "kto": "Ryzyko",
+   "kiedy": "8.10, swing",
+   "temat": "Gaz ziemny",
+   "tekst": "Taktyczny long na 1–2 dni ze stopem 2× ATR nie ma sensu.",
+   "skutek": "Pierwsze weto na gazie, jeszcze przy horyzoncie D1."
+  },
+  {
+   "kto": "Sentyment",
+   "kiedy": "8.10, swing",
+   "temat": "Ropa WTI",
+   "tekst": "Spekulanci dołożyli 32 tys. shortów tuż przed eskalacją w Ormuzie, huraganem i niespodziewanym spadkiem zapasów; to układ pod short squeeze.",
+   "skutek": "Tło, dzięki któremu WTI long jest dziś pierwszym wyborem."
+  }
+ ],
+ "raporty_linki": [
+  {
+   "tytul": "List nr 1 do inwestorów: otwarcie",
+   "url": "https://claude.ai/artifact/2p9joqKATxzbYRu9xVqYhq",
+   "plik": "raporty/2026-10-08_list_nr1_otwarcie.html",
+   "data": "2026-10-08"
+  }
+ ]
 }
