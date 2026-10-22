@@ -390,10 +390,31 @@
    "tp": "324,1 / 331,8"
   }
  },
- "automat": {},
+ "automat": {
+  "57": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "58": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "60": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "61": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "62": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  }
+ },
  "podsumowanie": {
   "rano": "2026-10-22",
   "wieczor": "2026-10-21"
  },
- "zaktualizowano_utc": "2026-10-22T06:42:33Z"
+ "zaktualizowano_utc": "2026-10-22T07:28:19Z"
 }
