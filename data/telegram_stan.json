@@ -408,13 +408,15 @@
    "zdarzenia": []
   },
   "62": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "otwarta",
+   "zdarzenia": [
+    "22.10 10:30 PL wejście 312.5"
+   ]
   }
  },
  "podsumowanie": {
   "rano": "2026-10-22",
   "wieczor": "2026-10-21"
  },
- "zaktualizowano_utc": "2026-10-22T08:52:04Z"
+ "zaktualizowano_utc": "2026-10-22T09:27:42Z"
 }
