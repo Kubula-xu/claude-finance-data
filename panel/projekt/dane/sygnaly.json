@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-22T06:45:00Z",
+ "aktualizacja": "2026-10-22T12:55:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -32,12 +32,12 @@
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 29700,
-    "sl": 29862,
-    "tp1": 29457,
-    "tp2": 29295,
+    "wejscie": 29610,
+    "sl": 29772,
+    "tp1": 29367,
+    "tp2": 29205,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, 22.10",
+    "status": "oczekuje limit od 15:45",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -59,7 +59,7 @@
    "atr": 82.6,
    "agenci": {
     "technika": [
-     "SHORT",
+     "LONG",
      1
     ],
     "makro": [
@@ -72,20 +72,20 @@
     ]
    },
    "final": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Nocny zjazd 4148→4066, short z retestu 4110 (poz. 57); kontra long 4068 OCO (poz. 58)."
+    "powod": "Long 4057,55 z odbicia od 4055 (poz. 58), short 57 anulowany (OCO)."
    },
    "setup": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 4110,
-    "sl": 4132,
-    "tp1": 4077,
-    "tp2": 4055,
-    "ryzyko_pct": 0.5,
+    "wejscie": 4057.55,
+    "sl": 4035,
+    "tp1": 4091,
+    "tp2": 4113,
+    "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "oczekuje limit OCO z #58, 22.10",
+    "status": "otwarta 14:00 PL",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -132,12 +132,12 @@
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 56.7,
-    "sl": 57.46,
-    "tp1": 55.56,
-    "tp2": 54.8,
+    "wejscie": 56.05,
+    "sl": 56.81,
+    "tp1": 54.91,
+    "tp2": 54.15,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, 22.10",
+    "status": "oczekuje limit, rewizja 14:50",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -252,7 +252,7 @@
    "atr": 9.0,
    "agenci": {
     "technika": [
-     "LONG",
+     "SHORT",
      1
     ],
     "makro": [
@@ -260,17 +260,17 @@
      1
     ],
     "sentyment": [
-     "LONG",
+     "NEUTRAL",
      1
     ]
    },
    "final": {
-    "kierunek": "LONG",
+    "kierunek": "NEUTRAL",
     "pewnosc": 1,
-    "powod": "Wsparcie 308–312, long 312,5 (poz. 62)."
+    "powod": "Long 62 zamknięty stopem czasowym (−0,75R); cena pod wczorajszym dołkiem."
    },
    "setup": {
-    "kierunek": "LONG",
+    "kierunek": "NEUTRAL",
     "typ": "limit",
     "wejscie": 312.5,
     "sl": 304.8,
@@ -278,7 +278,7 @@
     "tp2": 331.8,
     "ryzyko_pct": 0.25,
     "koszt": 0.8,
-    "status": "oczekuje limit, 22.10",
+    "status": "zamknięta −0,75R",
     "ksiega": "intraday",
     "uwagi": "Okno 10:30–19:00."
    },
