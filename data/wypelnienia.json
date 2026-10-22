@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-22T19:44:21Z",
+ "zaktualizowano_utc": "2026-10-22T20:13:43Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "58": {
@@ -10,7 +10,7 @@
    "zdarzenia": [
     "22.10 14:00 PL wejście 4057.55",
     "22.10 14:30 PL +1R, SL na BE 4057.55",
-    "22.10 15:45 PL BE 4057.55"
+    "22.10 15:30 PL BE 4057.55"
    ],
    "stan": "zamknięta",
    "pozostalo": 0,
