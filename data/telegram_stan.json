@@ -5,21 +5,21 @@
    "pewnosc": 1,
    "setup": [
     "SHORT",
-    29700,
-    29862,
-    29457,
-    29295
+    29610,
+    29772,
+    29367,
+    29205
    ]
   },
   "gold": {
-   "kierunek": "SHORT",
+   "kierunek": "LONG",
    "pewnosc": 1,
    "setup": [
-    "SHORT",
-    4110,
-    4132,
-    4077,
-    4055
+    "LONG",
+    4057.55,
+    4035,
+    4091,
+    4113
    ]
   },
   "silver": {
@@ -27,10 +27,10 @@
    "pewnosc": 1,
    "setup": [
     "SHORT",
-    56.7,
-    57.46,
-    55.56,
-    54.8
+    56.05,
+    56.81,
+    54.91,
+    54.15
    ]
   },
   "wti": {
@@ -56,10 +56,10 @@
    ]
   },
   "coffee": {
-   "kierunek": "LONG",
+   "kierunek": "NEUTRAL",
    "pewnosc": 1,
    "setup": [
-    "LONG",
+    "NEUTRAL",
     312.5,
     304.8,
     324.1,
@@ -360,19 +360,19 @@
    "tp": "5410 / 5270"
   },
   "57": {
-   "status": "oczekuje (limit, OCO z #58, okno 09:00–12:00 i 14:00–20:00)",
+   "status": "anulowane (OCO: wypełniony #58; szczyt dnia 4 100)",
    "sl": "4 132",
    "tp": "4 077 / 4 055"
   },
   "58": {
-   "status": "oczekuje (limit, OCO z #57)",
-   "sl": "4 046",
-   "tp": "4 101 / 4 123"
+   "status": "otwarta (wypełnienie 14:00 PL na otwarciu okna, cena już pod limitem)",
+   "sl": "4 035",
+   "tp": "4 091 / 4 113"
   },
   "59": {
    "status": "oczekuje (limit, okno metali)",
-   "sl": "57,46",
-   "tp": "55,56 / 54,80"
+   "sl": "56,81",
+   "tp": "54,91 / 54,15"
   },
   "60": {
    "status": "oczekuje (limit, okno 09:00–12:00 i 15:00–20:30)",
@@ -381,11 +381,11 @@
   },
   "61": {
    "status": "oczekuje (limit, okno 15:45–21:30)",
-   "sl": "29 862",
-   "tp": "29 457 / 29 295"
+   "sl": "29 772",
+   "tp": "29 367 / 29 205"
   },
   "62": {
-   "status": "oczekuje (limit, okno 10:30–19:00)",
+   "status": "zamknięta ręcznie (stop czasowy 13:55 PL, brak +0,5R)",
    "sl": "304,8",
    "tp": "324,1 / 331,8"
   }
@@ -420,5 +420,5 @@
   "rano": "2026-10-22",
   "wieczor": "2026-10-21"
  },
- "zaktualizowano_utc": "2026-10-22T12:29:08Z"
+ "zaktualizowano_utc": "2026-10-22T12:52:21Z"
 }
