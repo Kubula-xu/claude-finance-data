@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-10-23 22:19 PL
+# Softy: kawa i kakao, analiza z 2026-10-23 22:24 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -55,7 +55,6 @@ Wsparcia: 5 517 (dołek 5 sesji, -0.18 ATR), 5 489 (S1, -0.29 ATR), 5 428 (swing
 
 ## Alerty
 
-- kawa: bias LONG → NEUTRAL (2/5)
 - kakao: nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5560.00)
 
 ## Kalendarz (14 dni)
