@@ -425,8 +425,10 @@
    "zdarzenia": []
   },
   "66": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "otwarta",
+   "zdarzenia": [
+    "23.10 10:30 PL wejście 100.2"
+   ]
   },
   "67": {
    "stan": "oczekuje",
@@ -437,5 +439,5 @@
   "rano": "2026-10-23",
   "wieczor": "2026-10-22"
  },
- "zaktualizowano_utc": "2026-10-23T08:27:36Z"
+ "zaktualizowano_utc": "2026-10-23T09:06:10Z"
 }
