@@ -423,7 +423,7 @@
   "64": {
    "stan": "zamknięta",
    "zdarzenia": [
-    "23.10 16:00 PL wejście 4006",
+    "23.10 16:15 PL wejście 4006",
     "23.10 16:15 PL SL 3979"
    ]
   },
@@ -447,5 +447,5 @@
   "rano": "2026-10-23",
   "wieczor": "2026-10-22"
  },
- "zaktualizowano_utc": "2026-10-23T18:50:10Z"
+ "zaktualizowano_utc": "2026-10-23T19:27:44Z"
 }
