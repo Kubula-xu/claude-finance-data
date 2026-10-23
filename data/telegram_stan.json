@@ -415,10 +415,27 @@
    "tp": "29 044 / 28 872"
   }
  },
- "automat": {},
+ "automat": {
+  "63": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "64": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "66": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "67": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  }
+ },
  "podsumowanie": {
   "rano": "2026-10-23",
   "wieczor": "2026-10-22"
  },
- "zaktualizowano_utc": "2026-10-23T06:41:59Z"
+ "zaktualizowano_utc": "2026-10-23T07:02:24Z"
 }
