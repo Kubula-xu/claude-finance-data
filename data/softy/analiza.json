@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-22T23:57:06Z",
- "wygenerowano_pl": "2026-10-23 01:57 PL",
+ "wygenerowano_utc": "2026-10-23T00:32:20Z",
+ "wygenerowano_pl": "2026-10-23 02:32 PL",
  "kapital_usd": 10276211.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -18,7 +18,7 @@
     "czas_notowania_utc": "2026-10-22T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 10.97,
-    "atr_h1_sesja": 4.17,
+    "atr_h1_sesja": 4.18,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -258,12 +258,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.0%, wzrost w 50% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana -0.4%, wzrost w 46% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 0.84,
-      "mediana_proc": 0.04,
-      "proc_lat_wzrost": 50
+      "srednia_proc": 0.86,
+      "mediana_proc": -0.41,
+      "proc_lat_wzrost": 46
      }
     }
    ],
@@ -369,7 +369,7 @@
     "czas_notowania_utc": "2026-10-22T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 257.5,
-    "atr_h1_sesja": 70.82,
+    "atr_h1_sesja": 70.8,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -607,7 +607,7 @@
      "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.6%, wzrost w 54% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 1.14,
+      "srednia_proc": 1.49,
       "mediana_proc": 0.6,
       "proc_lat_wzrost": 54
      }
@@ -754,6 +754,25 @@
    "rynek": "kakao",
    "wydarzenie": "przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów)",
    "waga": "średnia-wysoka",
+   "uwagi": "cykliczne"
+  },
+  {
+   "data": "2026-11-06",
+   "godzina_pl": "",
+   "rynek": "oba",
+   "wydarzenie": "Okno rolowania indeksów towarowych (GSCI/BCOM roll grudzień → marzec",
+   "waga": " 5.-9. dzień roboczy listopada)",
+   "uwagi": "średnia",
+   "null": [
+    "data orientacyjna"
+   ]
+  },
+  {
+   "data": "2026-11-06",
+   "godzina_pl": "21:30",
+   "rynek": "oba",
+   "wydarzenie": "CFTC COT (stan na wtorek)",
+   "waga": "średnia",
    "uwagi": "cykliczne"
   }
  ],

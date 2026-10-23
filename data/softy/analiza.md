@@ -1,10 +1,10 @@
-# Softy: kawa i kakao, analiza z 2026-10-23 01:57 PL
+# Softy: kawa i kakao, analiza z 2026-10-23 02:32 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
 ## Kawa (Arabica KC): NEUTRAL 2/5 (suma +1.5)
 
-- Cena 311,40 c/lb (2026-10-22T17:15:00Z UTC). ATR D1 10,97, ATR H1 (sesja) 4,17. 5 sesji +5.6%, 20 sesji +13.1%.
+- Cena 311,40 c/lb (2026-10-22T17:15:00Z UTC). ATR D1 10,97, ATR H1 (sesja) 4,18. 5 sesji +5.6%, 20 sesji +13.1%.
 - Reżim: **zakres** (ADX 22, cena w zakresie 10 sesji 283.50-318.20). Zakres 10 sesji 283,50–318,20 (20 sesji 272,00–318,20), EMA20 301,71, EMA50 306,21, SMA200 307,50.
 
 | Czynnik | Wynik | Opis |
@@ -15,7 +15,7 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Krzywa | +1.5 | KCZ26.NYB vs KCH27.NYB: +5.01%, 5 dni temu +2.50%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
 | BRL | +0.0 | USD/BRL 5.035, 5 sesji -0.1% |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.0%, wzrost w 50% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana -0.4%, wzrost w 46% lat |
 
 Opory: 315,52 (swing D1 ×3, ostatnio 2026-10-22, +0.38 ATR), 317,18 (R1, +0.53 ATR), 318,20 (szczyt 5 sesji, +0.62 ATR), 319,09 (swing D1 ×5, ostatnio 2026-10-20, +0.70 ATR)
 
@@ -63,3 +63,5 @@ Wsparcia: 5 558 (swing D1 ×4, ostatnio 2026-10-22, -0.19 ATR), 5 547 (dołek 5 
 | 2026-10-28 | 19:00 | oba | FOMC (decyzja Fed; przez USD i nastrój ryzyka) | średnia |
 | 2026-10-30 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
 | 2026-11-02 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |
+| 2026-11-06 |  | oba | Okno rolowania indeksów towarowych (GSCI/BCOM roll grudzień → marzec |  5.-9. dzień roboczy listopada) |
+| 2026-11-06 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
