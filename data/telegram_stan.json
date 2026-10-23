@@ -390,27 +390,27 @@
    "tp": "324,1 / 331,8"
   },
   "63": {
-   "status": "oczekuje (limit, OCO z #64, okno 09:00–12:00 i 14:00–20:00)",
+   "status": "anulowane (OCO: wypełniony #64; szczyt dnia 4 036,5)",
    "sl": "4 067",
    "tp": "3 999,5 / 3 972,5"
   },
   "64": {
-   "status": "oczekuje (limit, OCO z #63)",
+   "status": "zamknięta SL",
    "sl": "3 979",
    "tp": "4 046,5 / 4 073,5"
   },
   "65": {
-   "status": "oczekuje (limit, okno metali)",
+   "status": "zamknięta (stop czasowy 20:15 PL)",
    "sl": "54,98",
    "tp": "53,03 / 52,25"
   },
   "66": {
-   "status": "otwarta (wypełniona 10:45 PL, SL na BE 100,20 po +1R)",
+   "status": "zamknięta TP2",
    "sl": "99,18",
    "tp": "101,73 / 102,75"
   },
   "67": {
-   "status": "oczekuje (limit, okno 15:45–21:00, piątek)",
+   "status": "zamknięta (stop czasowy 19:30 PL)",
    "sl": "29 371",
    "tp": "28 944 / 28 772"
   }
@@ -447,5 +447,5 @@
   "rano": "2026-10-23",
   "wieczor": "2026-10-22"
  },
- "zaktualizowano_utc": "2026-10-23T20:24:46Z"
+ "zaktualizowano_utc": "2026-10-23T20:26:56Z"
 }
