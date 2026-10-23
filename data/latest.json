@@ -3,10 +3,10 @@
   "nq": {
    "symbol": "NQ=F",
    "opis": "Nasdaq 100 E-mini futures (CME)",
-   "cena": 29161.5,
-   "czas_notowania_utc": "2026-10-23T04:00:00Z",
+   "cena": 29128.75,
+   "czas_notowania_utc": "2026-10-23T04:45:00Z",
    "poprzednie_zamkniecie": 29142.0,
-   "zmiana_pct": 0.067,
+   "zmiana_pct": -0.045,
    "dzien": {
     "data": "2026-10-23",
     "open": 29116.5,
@@ -31,10 +31,10 @@
   "gold": {
    "symbol": "GC=F",
    "opis": "Złoto futures (COMEX)",
-   "cena": 4024.699951,
-   "czas_notowania_utc": "2026-10-23T04:00:00Z",
+   "cena": 4017.5,
+   "czas_notowania_utc": "2026-10-23T04:45:00Z",
    "poprzednie_zamkniecie": 4060.399902,
-   "zmiana_pct": -0.879,
+   "zmiana_pct": -1.057,
    "dzien": {
     "data": "2026-10-23",
     "open": 4042.199951,
@@ -45,10 +45,10 @@
   "silver": {
    "symbol": "SI=F",
    "opis": "Srebro futures (COMEX)",
-   "cena": 53.84,
-   "czas_notowania_utc": "2026-10-23T04:00:00Z",
+   "cena": 53.715,
+   "czas_notowania_utc": "2026-10-23T04:45:00Z",
    "poprzednie_zamkniecie": 54.764,
-   "zmiana_pct": -1.687,
+   "zmiana_pct": -1.915,
    "dzien": {
     "data": "2026-10-23",
     "open": 54.695,
@@ -59,10 +59,10 @@
   "wti": {
    "symbol": "CL=F",
    "opis": "Ropa WTI futures (NYMEX)",
-   "cena": 100.010002,
-   "czas_notowania_utc": "2026-10-23T04:00:00Z",
+   "cena": 100.410004,
+   "czas_notowania_utc": "2026-10-23T04:45:00Z",
    "poprzednie_zamkniecie": 99.470001,
-   "zmiana_pct": 0.543,
+   "zmiana_pct": 0.945,
    "dzien": {
     "data": "2026-10-23",
     "open": 99.099998,
@@ -73,10 +73,10 @@
   "ng": {
    "symbol": "NG=F",
    "opis": "Gaz ziemny futures (NYMEX)",
-   "cena": 2.727,
-   "czas_notowania_utc": "2026-10-23T04:00:00Z",
+   "cena": 2.729,
+   "czas_notowania_utc": "2026-10-23T04:45:00Z",
    "poprzednie_zamkniecie": 2.796,
-   "zmiana_pct": -2.468,
+   "zmiana_pct": -2.396,
    "dzien": {
     "data": "2026-10-23",
     "open": 2.787,
@@ -115,10 +115,10 @@
   "dxy": {
    "symbol": "DX-Y.NYB",
    "opis": "Indeks dolara DXY",
-   "cena": 101.665001,
-   "czas_notowania_utc": "2026-10-23T04:00:00Z",
+   "cena": 101.695,
+   "czas_notowania_utc": "2026-10-23T04:45:00Z",
    "poprzednie_zamkniecie": 101.610001,
-   "zmiana_pct": 0.054,
+   "zmiana_pct": 0.084,
    "dzien": {
     "data": "2026-10-23",
     "open": 101.568001,
@@ -149,37 +149,37 @@
    "zmiana_pct": 14.089,
    "dzien": {
     "data": "2026-10-22",
-    "open": 0.0,
-    "high": 0.0,
-    "low": 0.0
+    "open": 18.290001,
+    "high": 20.309999,
+    "low": 17.709999
    }
   },
   "xauusd": {
    "symbol": "XAU/USD spot",
    "opis": "Złoto spot XAU/USD (jak XAUUSD w TradingView)",
-   "cena": 4006.865,
-   "bid": 4006.613,
-   "ask": 4007.117,
-   "czas_notowania_utc": "2026-10-23T04:24:33Z",
+   "cena": 4006.83,
+   "bid": 4006.578,
+   "ask": 4007.082,
+   "czas_notowania_utc": "2026-10-23T05:00:36Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -15.77,
+   "baza_vs_futures": -15.558,
    "futures": "GC=F",
    "dzien": {
     "data": "2026-10-23",
-    "open": 4026.43,
-    "high": 4032.03,
-    "low": 3985.1299
+    "open": 4026.6425,
+    "high": 4032.2425,
+    "low": 3985.3424
    },
-   "poprzednie_zamkniecie": 4044.6299,
-   "zmiana_pct": -0.934
+   "poprzednie_zamkniecie": 4044.8424,
+   "zmiana_pct": -0.94
   },
   "xagusd": {
    "symbol": "XAG/USD spot",
    "opis": "Srebro spot XAG/USD (jak XAGUSD w TradingView)",
-   "cena": 53.6715,
-   "bid": 53.6521,
-   "ask": 53.691,
-   "czas_notowania_utc": "2026-10-23T04:24:33Z",
+   "cena": 53.7766,
+   "bid": 53.7571,
+   "ask": 53.796,
+   "czas_notowania_utc": "2026-10-23T05:00:37Z",
    "zrodlo": "Swissquote (bid/ask)",
    "baza_vs_futures": -0.114,
    "futures": "SI=F",
@@ -190,9 +190,9 @@
     "low": 53.4056
    },
    "poprzednie_zamkniecie": 54.6496,
-   "zmiana_pct": -1.79
+   "zmiana_pct": -1.597
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-23T04:24:29Z"
+ "zaktualizowano_utc": "2026-10-23T05:00:33Z"
 }
