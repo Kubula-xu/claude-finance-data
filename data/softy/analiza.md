@@ -1,8 +1,8 @@
-# Softy: kawa i kakao, analiza z 2026-10-23 21:57 PL
+# Softy: kawa i kakao, analiza z 2026-10-23 22:19 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
-## Kawa (Arabica KC): LONG 3/5 (suma +2.0)
+## Kawa (Arabica KC): NEUTRAL 2/5 (suma +1.5)
 
 - Cena 306,00 c/lb (2026-10-23T17:15:00Z UTC). ATR D1 10,88, ATR H1 (sesja) 4,01. 5 sesji +0.1%, 20 sesji +9.8%.
 - Reżim: **zakres** (ADX 22, cena w zakresie 10 sesji 283.50-318.20). Zakres 10 sesji 283,50–318,20 (20 sesji 274,25–318,20), EMA20 302,21, EMA50 306,24, SMA200 307,16.
@@ -10,11 +10,11 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Czynnik | Wynik | Opis |
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 22, cena w zakresie 10 sesji 283.50-318.20 |
-| COT | +1.0 | fundusze net +15,270, 3. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | -1.0 | opad 30 dni 138% normy, prognoza 16 dni 126% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
+| COT | +0.5 | fundusze net +22,337 (12. percentyl 3 lat), zmiana 4 tyg. +6,531: pozycjonowanie bez skrajności, liczy się kierunek przepływu |
+| Pogoda | -1.0 | opad 30 dni 138% normy, prognoza 16 dni 120% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
 | Krzywa | +1.5 | KCZ26.NYB vs KCH27.NYB: +4.78%, 5 dni temu +2.52%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
-| BRL | +0.5 | USD/BRL 5.002, 5 sesji -1.9%: real mocnieje, rolnicy mniej sprzedają |
+| BRL | +0.5 | USD/BRL 4.991, 5 sesji -2.1%: real mocnieje, rolnicy mniej sprzedają |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana -0.4%, wzrost w 46% lat |
 
 Opory: 306,68 (swing D1 ×3, ostatnio 2026-10-23, +0.06 ATR), 308,73 (P, +0.25 ATR), 309,85 (swing D1 ×1, ostatnio 2026-05-05, +0.35 ATR), 312,17 (R1, +0.57 ATR)
@@ -28,7 +28,7 @@ Wsparcia: 302,57 (S1, -0.32 ATR), 302,25 (dołek 5 sesji, -0.34 ATR), 300,00 (sw
 | SHORT | limit: granica zakresu 318.20 (10 sesji), TP1 przed przeciwną granicą | 317,11 | 327,99 | 284,59 / 279,15 | 2.55 | +1.02 ATR | 11 | limit 1.02× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 302.25 przed TP1: rozważyć częściowe wyjście przed nim |
 | SHORT | stop: wybicie zakresu za 283.50: zmiana reżimu, wejście z kontynuacji | 282,41 | 304,17 | 238,90 / 217,14 | 1.82 | -2.17 ATR | 6 | stop 2.17× ATR D1 od ceny: daleko, do przeliczenia po sesji |
 
-## Kakao (NY CC): NEUTRAL 2/5 (suma +1.5)
+## Kakao (NY CC): NEUTRAL 1/5 (suma +1.0)
 
 - Cena 5 560 USD/t (2026-10-23T17:15:00Z UTC). ATR D1 245, ATR H1 (sesja) 69. 5 sesji -1.5%, 20 sesji -1.1%.
 - Reżim: **zakres** (ADX 12, cena w zakresie 10 sesji 5547.00-6023.00; nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5560.00)). Zakres 10 sesji 5 547–6 023 (20 sesji 5 051–6 023), EMA20 5 686, EMA50 5 655, SMA200 4 579.
@@ -36,8 +36,8 @@ Wsparcia: 302,57 (S1, -0.32 ATR), 302,25 (dołek 5 sesji, -0.34 ATR), 300,00 (sw
 | Czynnik | Wynik | Opis |
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 12, cena w zakresie 10 sesji 5547.00-6023.00; nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5560.00) |
-| COT | +1.0 | fundusze net -11,921, 9. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | +0.5 | opad 30 dni 159% normy, prognoza 16 dni 197% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie) |
+| COT | +0.5 | fundusze net -8,821 (19. percentyl 3 lat), zmiana 4 tyg. +7,585: pozycjonowanie bez skrajności, liczy się kierunek przepływu |
+| Pogoda | +0.5 | opad 30 dni 159% normy, prognoza 16 dni 196% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie) |
 | Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.85%, 5 dni temu -2.13%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.6%, wzrost w 54% lat |
@@ -55,6 +55,7 @@ Wsparcia: 5 517 (dołek 5 sesji, -0.18 ATR), 5 489 (S1, -0.29 ATR), 5 428 (swing
 
 ## Alerty
 
+- kawa: bias LONG → NEUTRAL (2/5)
 - kakao: nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5560.00)
 
 ## Kalendarz (14 dni)
