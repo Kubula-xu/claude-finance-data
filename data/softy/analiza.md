@@ -1,11 +1,11 @@
-# Softy: kawa i kakao, analiza z 2026-10-23 05:53 PL
+# Softy: kawa i kakao, analiza z 2026-10-23 06:24 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
 ## Kawa (Arabica KC): NEUTRAL 2/5 (suma +1.5)
 
-- Cena 311,40 c/lb (2026-10-22T17:15:00Z UTC). ATR D1 10,97, ATR H1 (sesja) 4,18. 5 sesji +5.6%, 20 sesji +13.1%.
-- Reżim: **zakres** (ADX 22, cena w zakresie 10 sesji 283.50-318.20). Zakres 10 sesji 283,50–318,20 (20 sesji 272,00–318,20), EMA20 301,71, EMA50 306,21, SMA200 307,50.
+- Cena 311,40 c/lb (2026-10-22T17:15:00Z UTC). ATR D1 10,97, ATR H1 (sesja) 4,18. 5 sesji +6.0%, 20 sesji +13.5%.
+- Reżim: **zakres** (ADX 22, cena w zakresie 10 sesji 283.50-318.20). Zakres 10 sesji 283,50–318,20 (20 sesji 272,00–318,20), EMA20 301,81, EMA50 306,25, SMA200 307,51.
 
 | Czynnik | Wynik | Opis |
 |---|---|---|
@@ -17,9 +17,9 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | BRL | +0.0 | USD/BRL 5.035, 5 sesji -0.1% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana -0.4%, wzrost w 46% lat |
 
-Opory: 315,52 (swing D1 ×3, ostatnio 2026-10-22, +0.38 ATR), 317,18 (R1, +0.53 ATR), 318,20 (szczyt 5 sesji, +0.62 ATR), 319,09 (swing D1 ×5, ostatnio 2026-10-20, +0.70 ATR)
+Opory: 315,52 (swing D1 ×3, ostatnio 2026-10-22, +0.38 ATR), 317,88 (R1, +0.59 ATR), 318,20 (szczyt 5 sesji, +0.62 ATR), 319,09 (swing D1 ×5, ostatnio 2026-10-20, +0.70 ATR)
 
-Wsparcia: 309,72 (P, -0.15 ATR), 308,20 (swing D1 ×3, ostatnio 2026-10-07, -0.29 ATR), 303,93 (S1, -0.68 ATR), 301,12 (swing D1 ×2, ostatnio 2026-10-22, -0.94 ATR)
+Wsparcia: 310,07 (P, -0.12 ATR), 308,20 (swing D1 ×3, ostatnio 2026-10-07, -0.29 ATR), 304,63 (S1, -0.62 ATR), 301,12 (swing D1 ×2, ostatnio 2026-10-22, -0.94 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
@@ -30,8 +30,8 @@ Wsparcia: 309,72 (P, -0.15 ATR), 308,20 (swing D1 ×3, ostatnio 2026-10-07, -0.2
 
 ## Kakao (NY CC): NEUTRAL 2/5 (suma +1.5)
 
-- Cena 5 607 USD/t (2026-10-22T17:15:00Z UTC). ATR D1 258, ATR H1 (sesja) 71. 5 sesji -3.8%, 20 sesji +0.3%.
-- Reżim: **zakres** (ADX 12, cena w zakresie 10 sesji 5431.00-6023.00). Zakres 10 sesji 5 431–6 023 (20 sesji 5 051–6 023), EMA20 5 702, EMA50 5 660, SMA200 4 581.
+- Cena 5 607 USD/t (2026-10-22T17:15:00Z UTC). ATR D1 258, ATR H1 (sesja) 71. 5 sesji -4.3%, 20 sesji -0.1%.
+- Reżim: **zakres** (ADX 12, cena w zakresie 10 sesji 5431.00-6023.00). Zakres 10 sesji 5 431–6 023 (20 sesji 5 051–6 023), EMA20 5 699, EMA50 5 659, SMA200 4 581.
 
 | Czynnik | Wynik | Opis |
 |---|---|---|
@@ -42,9 +42,9 @@ Wsparcia: 309,72 (P, -0.15 ATR), 308,20 (swing D1 ×3, ostatnio 2026-10-07, -0.2
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.6%, wzrost w 54% lat |
 
-Opory: 5 661 (P, +0.21 ATR), 5 732 (swing D1 ×3, ostatnio 2026-09-28, +0.49 ATR), 5 750 (okrągły poziom, +0.56 ATR), 5 776 (R1, +0.66 ATR)
+Opory: 5 653 (P, +0.18 ATR), 5 732 (swing D1 ×3, ostatnio 2026-09-28, +0.49 ATR), 5 750 (okrągły poziom, +0.56 ATR), 5 759 (R1, +0.59 ATR)
 
-Wsparcia: 5 558 (swing D1 ×4, ostatnio 2026-10-22, -0.19 ATR), 5 547 (dołek 5 sesji, -0.23 ATR), 5 493 (S1, -0.44 ATR), 5 428 (swing D1 ×2, ostatnio 2026-10-08, -0.70 ATR)
+Wsparcia: 5 558 (swing D1 ×4, ostatnio 2026-10-22, -0.19 ATR), 5 547 (dołek 5 sesji, -0.23 ATR), 5 476 (S1, -0.51 ATR), 5 428 (swing D1 ×2, ostatnio 2026-10-08, -0.70 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|

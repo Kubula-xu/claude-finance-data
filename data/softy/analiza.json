@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-23T03:53:04Z",
- "wygenerowano_pl": "2026-10-23 05:53 PL",
+ "wygenerowano_utc": "2026-10-23T04:24:33Z",
+ "wygenerowano_pl": "2026-10-23 06:24 PL",
  "kapital_usd": 10276211.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -26,10 +26,10 @@
      "o": 315.399994,
      "h": 315.5,
      "l": 302.25,
-     "c": 311.399994
+     "c": 312.450012
     },
-    "zmiana_5s_proc": 5.63,
-    "zmiana_20s_proc": 13.09
+    "zmiana_5s_proc": 5.99,
+    "zmiana_20s_proc": 13.47
    },
    "rezim": {
     "typ": "zakres",
@@ -38,16 +38,16 @@
     "adx": 21.9,
     "di_plus": 26.3,
     "di_minus": 18.5,
-    "ema20": 301.71,
-    "ema50": 306.21,
-    "sma100": 309.93,
-    "sma200": 307.5,
+    "ema20": 301.81,
+    "ema50": 306.25,
+    "sma100": 309.94,
+    "sma200": 307.51,
     "zakres_gora": 318.2,
     "zakres_dol": 283.5,
     "zakres20_gora": 318.2,
     "zakres20_dol": 272.0,
     "pozycja_w_zakresie_proc": 80,
-    "zmiennosc_20d_roczna_proc": 33.1
+    "zmiennosc_20d_roczna_proc": 33.0
    },
    "poziomy": {
     "opory": [
@@ -59,10 +59,10 @@
       "odleglosc_atr": 0.38
      },
      {
-      "poziom": 317.18,
+      "poziom": 317.88,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.53
+      "odleglosc_atr": 0.59
      },
      {
       "poziom": 318.2,
@@ -84,18 +84,18 @@
       "odleglosc_atr": 0.78
      },
      {
-      "poziom": 322.97,
+      "poziom": 323.32,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 1.05
+      "odleglosc_atr": 1.09
      }
     ],
     "wsparcia": [
      {
-      "poziom": 309.72,
+      "poziom": 310.07,
       "sila": 1,
       "zrodlo": "P",
-      "odleglosc_atr": -0.15
+      "odleglosc_atr": -0.12
      },
      {
       "sila": 3,
@@ -105,10 +105,10 @@
       "odleglosc_atr": -0.29
      },
      {
-      "poziom": 303.93,
+      "poziom": 304.63,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.68
+      "odleglosc_atr": -0.62
      },
      {
       "sila": 2,
@@ -131,11 +131,11 @@
      }
     ],
     "pivoty": {
-     "P": 309.72,
-     "R1": 317.18,
-     "S1": 303.93,
-     "R2": 322.97,
-     "S2": 296.47
+     "P": 310.07,
+     "R1": 317.88,
+     "S1": 304.63,
+     "R2": 323.32,
+     "S2": 296.82
     },
     "baza_pivotow": "2026-10-22"
    },
@@ -377,10 +377,10 @@
      "o": 5791.0,
      "h": 5830.0,
      "l": 5547.0,
-     "c": 5607.0
+     "c": 5582.0
     },
-    "zmiana_5s_proc": -3.84,
-    "zmiana_20s_proc": 0.3
+    "zmiana_5s_proc": -4.27,
+    "zmiana_20s_proc": -0.14
    },
    "rezim": {
     "typ": "zakres",
@@ -389,24 +389,24 @@
     "adx": 12.2,
     "di_plus": 19.2,
     "di_minus": 20.8,
-    "ema20": 5701.74,
-    "ema50": 5660.02,
-    "sma100": 5425.76,
-    "sma200": 4581.25,
+    "ema20": 5699.36,
+    "ema50": 5659.04,
+    "sma100": 5425.51,
+    "sma200": 4581.12,
     "zakres_gora": 6023.0,
     "zakres_dol": 5431.0,
     "zakres20_gora": 6023.0,
     "zakres20_dol": 5051.0,
     "pozycja_w_zakresie_proc": 30,
-    "zmiennosc_20d_roczna_proc": 35.9
+    "zmiennosc_20d_roczna_proc": 36.6
    },
    "poziomy": {
     "opory": [
      {
-      "poziom": 5661.33,
+      "poziom": 5653.0,
       "sila": 1,
       "zrodlo": "P",
-      "odleglosc_atr": 0.21
+      "odleglosc_atr": 0.18
      },
      {
       "sila": 3,
@@ -422,10 +422,10 @@
       "odleglosc_atr": 0.56
      },
      {
-      "poziom": 5775.67,
+      "poziom": 5759.0,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.66
+      "odleglosc_atr": 0.59
      },
      {
       "sila": 3,
@@ -456,10 +456,10 @@
       "odleglosc_atr": -0.23
      },
      {
-      "poziom": 5492.67,
+      "poziom": 5476.0,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.44
+      "odleglosc_atr": -0.51
      },
      {
       "sila": 2,
@@ -469,10 +469,10 @@
       "odleglosc_atr": -0.7
      },
      {
-      "poziom": 5378.33,
+      "poziom": 5370.0,
       "sila": 1,
       "zrodlo": "S2",
-      "odleglosc_atr": -0.89
+      "odleglosc_atr": -0.92
      },
      {
       "poziom": 5250,
@@ -482,11 +482,11 @@
      }
     ],
     "pivoty": {
-     "P": 5661.33,
-     "R1": 5775.67,
-     "S1": 5492.67,
-     "R2": 5944.33,
-     "S2": 5378.33
+     "P": 5653.0,
+     "R1": 5759.0,
+     "S1": 5476.0,
+     "R2": 5936.0,
+     "S2": 5370.0
     },
     "baza_pivotow": "2026-10-22"
    },
