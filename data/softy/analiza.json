@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-23T18:08:41Z",
- "wygenerowano_pl": "2026-10-23 20:08 PL",
+ "wygenerowano_utc": "2026-10-23T18:43:23Z",
+ "wygenerowano_pl": "2026-10-23 20:43 PL",
  "kapital_usd": 10276211.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -166,27 +166,27 @@
      "dane": {
       "proc_normy_30d": 138,
       "proc_normy_16d": 126,
-      "aktualizacja": "2026-10-23T07:09:18Z",
+      "aktualizacja": "2026-10-23T18:42:18Z",
       "regiony": {
        "sul_de_minas": [
         188,
-        165
+        182
        ],
        "cerrado": [
         133,
-        124
+        122
        ],
        "mogiana": [
-        147,
-        137
+        148,
+        142
        ],
        "espirito_santo": [
         116,
-        137
+        103
        ],
        "wietnam": [
         76,
-        52
+        49
        ]
       }
      }
@@ -194,37 +194,37 @@
     {
      "czynnik": "Krzywa",
      "wynik": 1.5,
-     "opis": "KCZ26.NYB vs KCH27.NYB: +5.04%, 5 dni temu +2.52%, backwardation (ciasno w bieżącej dostawie)",
+     "opis": "KCZ26.NYB vs KCH27.NYB: +4.78%, 5 dni temu +2.52%, backwardation (ciasno w bieżącej dostawie)",
      "dane": {
-      "spread_proc": 5.04,
+      "spread_proc": 4.78,
       "spread_proc_5d": 2.52,
       "kontrakty": [
        {
         "symbol": "KCZ26.NYB",
         "miesiac": "2026-12",
-        "cena": 312.45,
-        "data": "2026-10-22",
+        "cena": 306.0,
+        "data": "2026-10-23",
         "cena_5d_temu": 292.7
        },
        {
         "symbol": "KCH27.NYB",
         "miesiac": "2027-03",
-        "cena": 297.45,
-        "data": "2026-10-22",
+        "cena": 292.05,
+        "data": "2026-10-23",
         "cena_5d_temu": 285.5
        },
        {
         "symbol": "KCK27.NYB",
         "miesiac": "2027-05",
-        "cena": 292.45,
-        "data": "2026-10-22",
+        "cena": 287.9,
+        "data": "2026-10-23",
         "cena_5d_temu": 281.95
        },
        {
         "symbol": "KCN27.NYB",
         "miesiac": "2027-07",
-        "cena": 289.0,
-        "data": "2026-10-22",
+        "cena": 284.65,
+        "data": "2026-10-23",
         "cena_5d_temu": 279.35
        }
       ]
@@ -249,11 +249,11 @@
     },
     {
      "czynnik": "BRL",
-     "wynik": 0.0,
-     "opis": "USD/BRL 5.052, 5 sesji -0.9%",
+     "wynik": 0.5,
+     "opis": "USD/BRL 5.002, 5 sesji -1.9%: real mocnieje, rolnicy mniej sprzedają",
      "dane": {
-      "usdbrl": 5.0523,
-      "zmiana_5d_proc": -0.87
+      "usdbrl": 5.0015,
+      "zmiana_5d_proc": -1.87
      }
     },
     {
@@ -268,9 +268,9 @@
      }
     }
    ],
-   "suma": 1.5,
-   "bias": "NEUTRAL",
-   "pewnosc": 2,
+   "suma": 2.0,
+   "bias": "LONG",
+   "pewnosc": 3,
    "brak_danych": [],
    "plan": [
     {
@@ -515,35 +515,35 @@
     {
      "czynnik": "Pogoda",
      "wynik": 0.5,
-     "opis": "opad 30 dni 158% normy, prognoza 16 dni 183% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie)",
+     "opis": "opad 30 dni 159% normy, prognoza 16 dni 197% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie)",
      "dane": {
-      "proc_normy_30d": 158,
-      "proc_normy_16d": 183,
-      "aktualizacja": "2026-10-23T07:09:18Z",
+      "proc_normy_30d": 159,
+      "proc_normy_16d": 197,
+      "aktualizacja": "2026-10-23T18:42:18Z",
       "regiony": {
        "soubre": [
         100,
-        70
+        79
        ],
        "daloa": [
         108,
-        77
+        103
        ],
        "san_pedro": [
         25,
-        33
+        49
        ],
        "ashanti": [
         93,
-        102
+        106
        ],
        "western_north": [
         88,
-        91
+        83
        ],
        "los_rios": [
-        544,
-        794
+        545,
+        824
        ]
       }
      }
@@ -551,37 +551,37 @@
     {
      "czynnik": "Krzywa",
      "wynik": 0.0,
-     "opis": "CCZ26.NYB vs CCH27.NYB: -1.83%, 5 dni temu -2.13%, contango (zapasy wystarczają)",
+     "opis": "CCZ26.NYB vs CCH27.NYB: -1.85%, 5 dni temu -2.13%, contango (zapasy wystarczają)",
      "dane": {
-      "spread_proc": -1.83,
+      "spread_proc": -1.85,
       "spread_proc_5d": -2.13,
       "kontrakty": [
        {
         "symbol": "CCZ26.NYB",
         "miesiac": "2026-12",
-        "cena": 5582.0,
-        "data": "2026-10-22",
+        "cena": 5560.0,
+        "data": "2026-10-23",
         "cena_5d_temu": 5733.0
        },
        {
         "symbol": "CCH27.NYB",
         "miesiac": "2027-03",
-        "cena": 5686.0,
-        "data": "2026-10-22",
+        "cena": 5665.0,
+        "data": "2026-10-23",
         "cena_5d_temu": 5858.0
        },
        {
         "symbol": "CCK27.NYB",
         "miesiac": "2027-05",
-        "cena": 5743.0,
-        "data": "2026-10-22",
+        "cena": 5716.0,
+        "data": "2026-10-23",
         "cena_5d_temu": 5911.0
        },
        {
         "symbol": "CCN27.NYB",
         "miesiac": "2027-07",
-        "cena": 5768.0,
-        "data": "2026-10-22",
+        "cena": 5739.0,
+        "data": "2026-10-23",
         "cena_5d_temu": 5927.0
        }
       ]
@@ -783,10 +783,8 @@
   }
  ],
  "status_danych": {
-  "uruchomiono_utc": "2026-10-23T07:09:18Z",
+  "uruchomiono_utc": "2026-10-23T18:42:18Z",
   "bledy": {
-   "ice_parse_kawa": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
-   "ice_parse_kakao": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
    "ice": "RuntimeError: nie pobrano nowego raportu ICE (adres mógł się zmienić albo raport jeszcze nie wyszedł)"
   },
   "ok": {
@@ -797,15 +795,20 @@
    "dlugie": "coffee (świeże), cocoa (świeże)"
   },
   "ostatni_sukces_utc": {
-   "cot": "2026-10-23T07:09:18Z",
-   "pogoda": "2026-10-23T07:09:18Z",
-   "krzywa": "2026-10-23T07:09:18Z",
-   "fx": "2026-10-23T07:09:18Z",
-   "dlugie": "2026-10-23T07:09:18Z",
+   "cot": "2026-10-23T18:42:18Z",
+   "pogoda": "2026-10-23T18:42:18Z",
+   "krzywa": "2026-10-23T18:42:18Z",
+   "fx": "2026-10-23T18:42:18Z",
+   "dlugie": "2026-10-23T18:42:18Z",
    "ice": "2026-10-21T18:42:06Z"
   }
  },
  "alerty": [
+  {
+   "rynek": "kawa",
+   "typ": "zmiana_biasu",
+   "opis": "bias NEUTRAL → LONG (3/5)"
+  },
   {
    "rynek": "kakao",
    "typ": "nieudane_wybicie",
