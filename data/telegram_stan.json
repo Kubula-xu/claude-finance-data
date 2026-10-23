@@ -415,37 +415,10 @@
    "tp": "28 944 / 28 772"
   }
  },
- "automat": {
-  "63": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  },
-  "64": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "23.10 16:15 PL wejście 4006",
-    "23.10 16:15 PL SL 3979"
-   ]
-  },
-  "66": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "23.10 10:30 PL wejście 100.2",
-    "23.10 11:30 PL +1R, SL na BE 100.2",
-    "23.10 15:15 PL TP1 101.73, zamknięte 50%",
-    "23.10 17:30 PL TP2 102.75"
-   ]
-  },
-  "67": {
-   "stan": "otwarta",
-   "zdarzenia": [
-    "23.10 16:30 PL wejście 29200"
-   ]
-  }
- },
+ "automat": {},
  "podsumowanie": {
   "rano": "2026-10-23",
   "wieczor": "2026-10-23"
  },
- "zaktualizowano_utc": "2026-10-23T20:41:55Z"
+ "zaktualizowano_utc": "2026-10-23T20:59:03Z"
 }
