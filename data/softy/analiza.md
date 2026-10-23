@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-10-23 09:02 PL
+# Softy: kawa i kakao, analiza z 2026-10-23 09:10 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -11,10 +11,10 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 22, cena w zakresie 10 sesji 283.50-318.20 |
 | COT | +1.0 | fundusze net +15,270, 3. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | -1.0 | opad 30 dni 142% normy, prognoza 16 dni 119% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
-| Krzywa | +1.5 | KCZ26.NYB vs KCH27.NYB: +5.01%, 5 dni temu +2.50%, backwardation (ciasno w bieżącej dostawie) |
+| Pogoda | -1.0 | opad 30 dni 138% normy, prognoza 16 dni 126% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
+| Krzywa | +1.5 | KCZ26.NYB vs KCH27.NYB: +5.04%, 5 dni temu +2.52%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
-| BRL | +0.0 | USD/BRL 5.035, 5 sesji -0.1% |
+| BRL | +0.0 | USD/BRL 5.052, 5 sesji -0.9% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana -0.4%, wzrost w 46% lat |
 
 Opory: 315,52 (swing D1 ×3, ostatnio 2026-10-22, +0.38 ATR), 317,88 (R1, +0.59 ATR), 318,20 (szczyt 5 sesji, +0.62 ATR), 319,09 (swing D1 ×5, ostatnio 2026-10-20, +0.70 ATR)
@@ -37,8 +37,8 @@ Wsparcia: 310,07 (P, -0.12 ATR), 308,20 (swing D1 ×3, ostatnio 2026-10-07, -0.2
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 12, cena w zakresie 10 sesji 5431.00-6023.00 |
 | COT | +1.0 | fundusze net -11,921, 9. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | +0.5 | opad 30 dni 163% normy, prognoza 16 dni 158% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie) |
-| Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.87%, 5 dni temu -2.15%, contango (zapasy wystarczają) |
+| Pogoda | +0.5 | opad 30 dni 158% normy, prognoza 16 dni 183% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie) |
+| Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.83%, 5 dni temu -2.13%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.6%, wzrost w 54% lat |
 

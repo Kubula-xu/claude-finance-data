@@ -1,5 +1,5 @@
 {
- "uruchomiono_utc": "2026-10-22T18:41:41Z",
+ "uruchomiono_utc": "2026-10-23T07:09:18Z",
  "bledy": {
   "ice_parse_kawa": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
   "ice_parse_kakao": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
@@ -13,11 +13,11 @@
   "dlugie": "coffee (świeże), cocoa (świeże)"
  },
  "ostatni_sukces_utc": {
-  "cot": "2026-10-22T18:41:41Z",
-  "pogoda": "2026-10-22T18:41:41Z",
-  "krzywa": "2026-10-22T18:41:41Z",
-  "fx": "2026-10-22T18:41:41Z",
-  "dlugie": "2026-10-22T18:41:41Z",
+  "cot": "2026-10-23T07:09:18Z",
+  "pogoda": "2026-10-23T07:09:18Z",
+  "krzywa": "2026-10-23T07:09:18Z",
+  "fx": "2026-10-23T07:09:18Z",
+  "dlugie": "2026-10-23T07:09:18Z",
   "ice": "2026-10-21T18:42:06Z"
  }
 }
