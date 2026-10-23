@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-23T15:06:19Z",
+ "zaktualizowano_utc": "2026-10-23T15:47:37Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "63": {
@@ -36,14 +36,15 @@
    "zdarzenia": [
     "23.10 10:30 PL wejście 100.2",
     "23.10 11:30 PL +1R, SL na BE 100.2",
-    "23.10 15:15 PL TP1 101.73, zamknięte 50%"
+    "23.10 15:15 PL TP1 101.73, zamknięte 50%",
+    "23.10 17:30 PL TP2 102.75"
    ],
-   "stan": "otwarta",
-   "pozostalo": 0.5,
+   "stan": "zamknięta",
+   "pozostalo": 0,
    "sl_teraz": 100.2,
    "czas_wejscia": "2026-10-23T08:30Z",
-   "cena_wyjscia_srednia": 101.73,
-   "wynik_pkt_zrealizowany": 0.765
+   "cena_wyjscia_srednia": 102.24,
+   "wynik_pkt_zrealizowany": 2.04
   },
   "67": {
    "nr": "67",
