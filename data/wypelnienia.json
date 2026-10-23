@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-23T14:20:32Z",
+ "zaktualizowano_utc": "2026-10-23T15:06:19Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "63": {
@@ -18,12 +18,15 @@
    "kierunek": 1,
    "klucz_cen": "xauusd",
    "zdarzenia": [
-    "23.10 16:00 PL wejście 4006"
+    "23.10 16:00 PL wejście 4006",
+    "23.10 16:15 PL SL 3979"
    ],
-   "stan": "otwarta",
-   "pozostalo": 1.0,
+   "stan": "zamknięta",
+   "pozostalo": 0,
    "sl_teraz": 3979.0,
-   "czas_wejscia": "2026-10-23T14:00Z"
+   "czas_wejscia": "2026-10-23T14:00Z",
+   "cena_wyjscia_srednia": 3979.0,
+   "wynik_pkt_zrealizowany": -27.0
   },
   "66": {
    "nr": "66",
@@ -47,10 +50,13 @@
    "instrument": "Nasdaq 100",
    "kierunek": -1,
    "klucz_cen": "nq",
-   "zdarzenia": [],
-   "stan": "oczekuje",
+   "zdarzenia": [
+    "23.10 16:30 PL wejście 29200"
+   ],
+   "stan": "otwarta",
    "pozostalo": 1.0,
-   "sl_teraz": 29371.0
+   "sl_teraz": 29371.0,
+   "czas_wejscia": "2026-10-23T14:30Z"
   }
  }
 }
