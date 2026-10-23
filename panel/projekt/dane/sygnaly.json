@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-22T12:55:00Z",
+ "aktualizacja": "2026-10-23T06:45:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -27,17 +27,17 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Noc −500 pkt, short z retestu 29700 od 15:45 (poz. 61)."
+    "powod": "Dwa dni spadku, short z odbicia 29300 od 15:45 (poz. 67)."
    },
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 29610,
-    "sl": 29772,
-    "tp1": 29367,
-    "tp2": 29205,
+    "wejscie": 29300,
+    "sl": 29471,
+    "tp1": 29044,
+    "tp2": 28872,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit od 15:45",
+    "status": "oczekuje limit, 23.10",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -59,7 +59,7 @@
    "atr": 82.6,
    "agenci": {
     "technika": [
-     "LONG",
+     "SHORT",
      1
     ],
     "makro": [
@@ -72,20 +72,20 @@
     ]
    },
    "final": {
-    "kierunek": "LONG",
+    "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Long 4057,55 z odbicia od 4055 (poz. 58), short 57 anulowany (OCO)."
+    "powod": "Wybicie pod 4040, short z retestu (poz. 63); kontra long 3990 OCO (poz. 64)."
    },
    "setup": {
-    "kierunek": "LONG",
+    "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 4057.55,
-    "sl": 4035,
-    "tp1": 4091,
-    "tp2": 4113,
-    "ryzyko_pct": 0.25,
+    "wejscie": 4040,
+    "sl": 4067,
+    "tp1": 3999.5,
+    "tp2": 3972.5,
+    "ryzyko_pct": 0.5,
     "koszt": 0.6,
-    "status": "otwarta 14:00 PL",
+    "status": "oczekuje limit, 23.10",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -127,17 +127,17 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Za złotem w dół, short z retestu 56,70 (poz. 59)."
+    "powod": "Trend spadkowy, short z retestu 54,60 (poz. 65)."
    },
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 56.05,
-    "sl": 56.81,
-    "tp1": 54.91,
-    "tp2": 54.15,
+    "wejscie": 54.6,
+    "sl": 55.38,
+    "tp1": 53.43,
+    "tp2": 52.65,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, rewizja 14:50",
+    "status": "oczekuje limit, 23.10",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -167,24 +167,24 @@
      1
     ],
     "sentyment": [
-     "NEUTRAL",
+     "LONG",
      1
     ]
    },
    "final": {
     "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Odbicie po EIA, long z cofnięcia 98,80 (poz. 60)."
+    "powod": "Trzeci dzień wzrostu, long z cofnięcia 100,20 (poz. 66)."
    },
    "setup": {
     "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 98.8,
-    "sl": 97.64,
-    "tp1": 100.54,
-    "tp2": 101.7,
+    "wejscie": 100.2,
+    "sl": 99.18,
+    "tp1": 101.73,
+    "tp2": 102.75,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, 22.10",
+    "status": "oczekuje limit, 23.10",
     "ksiega": "intraday",
     "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
    },
@@ -220,7 +220,7 @@
    "final": {
     "kierunek": "NEUTRAL",
     "pewnosc": 1,
-    "powod": "Powolny spadek, bez setupu."
+    "powod": "Bez setupu."
    },
    "setup": {
     "kierunek": "NEUTRAL",
@@ -231,7 +231,7 @@
     "tp2": 3.053,
     "ryzyko_pct": 0.25,
     "koszt": 0.005,
-    "status": "brak setupu 22.10",
+    "status": "brak setupu 23.10",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -252,7 +252,7 @@
    "atr": 9.0,
    "agenci": {
     "technika": [
-     "SHORT",
+     "NEUTRAL",
      1
     ],
     "makro": [
@@ -260,14 +260,14 @@
      1
     ],
     "sentyment": [
-     "NEUTRAL",
+     "LONG",
      1
     ]
    },
    "final": {
     "kierunek": "NEUTRAL",
     "pewnosc": 1,
-    "powod": "Long 62 zamknięty stopem czasowym (−0,75R); cena pod wczorajszym dołkiem."
+    "powod": "Bez nowego setupu; odbicie od 302 obronione."
    },
    "setup": {
     "kierunek": "NEUTRAL",
@@ -278,7 +278,7 @@
     "tp2": 331.8,
     "ryzyko_pct": 0.25,
     "koszt": 0.8,
-    "status": "zamknięta −0,75R",
+    "status": "brak setupu 23.10",
     "ksiega": "intraday",
     "uwagi": "Okno 10:30–19:00."
    },
@@ -319,7 +319,7 @@
    "final": {
     "kierunek": "NEUTRAL",
     "pewnosc": 1,
-    "powod": "Pomijamy kakao (decyzja Kuby 21.10)."
+    "powod": "Pomijamy kakao."
    },
    "setup": {
     "kierunek": "NEUTRAL",
@@ -329,7 +329,7 @@
     "tp1": 5635,
     "tp2": 5525,
     "ryzyko_pct": 0.25,
-    "status": "brak setupu 22.10",
+    "status": "brak setupu 23.10",
     "ksiega": "intraday",
     "uwagi": "Okno 10:45–19:00."
    },
