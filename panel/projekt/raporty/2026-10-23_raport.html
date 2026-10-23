@@ -1,0 +1,72 @@
+<title>Piątek 23.10 · +37 530 USD · kapitał 10 313 741</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: jedna kolumna listu do inwestorów, tabele z liczbami w monospace, blok wskaźników u góry */
+:root{
+  --bg:#f5f7f9; --paper:#ffffff; --ink:#15202b; --muted:#566573; --line:#d9e0e6;
+  --accent:#1c4e80; --up:#1d7a4f; --down:#b23a3a; --wait:#8a6a12; --chip:#eaf0f6;
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f151b; --paper:#161e26; --ink:#e4eaf0; --muted:#97a6b4; --line:#2a3642;
+  --accent:#7fb0e0; --up:#5cc293; --down:#ec7f7f; --wait:#d9b55a; --chip:#1f2a35; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f151b; --paper:#161e26; --ink:#e4eaf0; --muted:#97a6b4; --line:#2a3642;
+  --accent:#7fb0e0; --up:#5cc293; --down:#ec7f7f; --wait:#d9b55a; --chip:#1f2a35; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--body);padding:0 16px}
+main{max-width:860px;margin:0 auto;padding-block:32px 56px;display:flex;flex-direction:column;gap:36px}
+header{display:flex;flex-direction:column;gap:6px;border-bottom:2px solid var(--ink);padding-bottom:18px}
+.eyebrow{font:500 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font:600 clamp(28px,5vw,40px)/1.15 var(--display);margin:0;text-wrap:balance}
+h2{font:600 22px/1.25 var(--display);margin:0 0 12px;text-wrap:balance}
+p{margin:0;max-width:68ch}
+section{display:flex;flex-direction:column;gap:12px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.kpi{background:var(--paper);padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.kpi b{font:500 22px/1.2 var(--mono);font-variant-numeric:tabular-nums}
+.kpi span{font-size:12px;color:var(--muted)}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,1fr)}}
+.tbl{overflow-x:auto;border:1px solid var(--line);background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 11px/1.3 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.n{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.pill{display:inline-block;font:500 11px/1 var(--mono);padding:4px 7px;border-radius:3px;background:var(--chip);white-space:nowrap}
+.long{color:var(--up)} .short{color:var(--down)} .wait{color:var(--wait)}
+.note{font-size:13px;color:var(--muted)}
+blockquote{margin:0;padding:12px 16px;background:var(--paper);border-left:3px solid var(--accent);display:flex;flex-direction:column;gap:4px}
+blockquote q{font:500 17px/1.45 var(--display);quotes:"„" "”"}
+blockquote small{color:var(--muted);font-size:12.5px}
+.quotes{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:640px){.quotes{grid-template-columns:1fr}}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;max-width:72ch}
+a{color:var(--accent)}
+footer{border-top:1px solid var(--line);padding-top:14px;font-size:12.5px;color:var(--muted)}
+.lead{font:500 18px/1.55 var(--display);max-width:62ch}
+h3{font:600 17px/1.3 var(--display);margin:8px 0 0}
+.chart{overflow-x:auto;background:var(--paper);border:1px solid var(--line);padding:8px}
+.chart svg{display:block;width:100%;min-width:420px;height:auto}
+.chart text{font:11px var(--mono);fill:var(--muted)}
+.chart .grid{stroke:var(--line);stroke-width:1}
+.chart .base{stroke:var(--muted);stroke-dasharray:3 4;stroke-width:1}
+.chart .line{fill:none;stroke:var(--accent);stroke-width:2.5}
+.chart .area{fill:var(--accent);opacity:.12}
+.chart .dot{fill:var(--accent)}
+</style>
+<main>
+<header>
+  <div class="eyebrow">Claude Finance · Raport dla inwestorów · podsumowanie tygodnia</div>
+  <h1>Ropa do drugiego celu, tydzień na +168 tys.</h1>
+  <div class="note">Piątek, 23 października 2026 · po zamknięciu dnia · rachunek papierowy na prawdziwych notowaniach</div>
+</header>
+<section>
+  <p class="lead">+37 530 USD w piątek i +168 291 USD za cały tydzień. Ropa zrobiła książkową transakcję, złoto zabrało część zysku jedną świecą.</p>
+  <div class="kpis"><div class="kpi"><span>Wartość rachunku</span><b class="">10 313 741</b><span>USD, po zamknięciu dnia</span></div><div class="kpi"><span>Wynik dnia</span><b class="long">+37 530</b><span>USD, +1,49 R</span></div><div class="kpi"><span>Od startu (8.10)</span><b class="long">+3,14%</b><span>+313 741 USD</span></div><div class="kpi"><span>Transakcje</span><b class="">4</b><span>dziś zamknięte · 37 od startu</span></div></div>
+  <p>Na koniec dnia rachunek ma 10 313 741 USD. Dzisiaj zarobiliśmy 37 530 USD (+1,49 R), zamknięte transakcje: 4. Od startu 8.10 to +313 741 USD (+3,14%).</p>
+</section>
+<section><h2>Transakcje dnia</h2><div class="tbl"><table><thead><tr><th>Instrument</th><th>Kierunek</th><th>Wejście</th><th>Stop</th><th>Zamknięcie</th><th>Wielkość</th><th>Wynik</th></tr></thead><tbody><tr><td>Złoto (XAUUSD spot)</td><td><span class="pill long">LONG</span></td><td class="n">4 006</td><td class="n">3 979</td><td class="n">3 979</td><td class="n">950 oz</td><td class="n short">−25 650 USD<br>−1,00R</td></tr><tr><td>Srebro (XAGUSD spot)</td><td><span class="pill short">SHORT</span></td><td class="n">54,20</td><td class="n">54,98</td><td class="n">54,00</td><td class="n">32 900 oz</td><td class="n long">+6 580 USD<br>+0,26R</td></tr><tr><td>Ropa WTI</td><td><span class="pill long">LONG</span></td><td class="n">100,20</td><td class="n">99,18</td><td class="n">101,73 / 102,75</td><td class="n">25 000 bbl / 25 CL</td><td class="n long">+51 000 USD<br>+2,00R</td></tr><tr><td>Nasdaq 100</td><td><span class="pill short">SHORT</span></td><td class="n">29 200</td><td class="n">29 371</td><td class="n">29 160</td><td class="n">7 NQ</td><td class="n long">+5 600 USD<br>+0,23R</td></tr></tbody></table></div></section><section><h2>Jak minął dzień</h2><p>Ropa trzeci dzień z rzędu szła w górę, w nocy z 98,84 do 100,97. Czekaliśmy na cofnięcie i limit 100,20 wszedł o 10:45. Pół godziny później było +1R i stop poszedł na cenę wejścia, więc dalej graliśmy bez ryzyka. O 15:15 pierwszy cel 101,73 na połowie, o 17:30 drugi, 102,75. Pełne +51 000 USD, +2,00R. Ropa zamknęła tydzień ok. 103,5.</p><p>Złoto to dzisiejszy zgrzyt. Postawiliśmy longa na teście poziomu 4 000, z 4 006. O 16:15 złoto zjechało w jednej piętnastominutówce z 4 009 do 3 976,6, więc w tej samej świecy weszliśmy i wyleciał nam stop na 3 979. Pełna strata: −25 650 USD (−1,00R). Najbardziej boli to, że potem złoto wróciło do ok. 4 000.</p><p>Srebro i Nasdaq to dwa małe plusy. Oba shorty weszły po południu (srebro z 54,20, Nasdaq z 29 200), poszły trochę w naszą stronę, ale w trzy godziny nie zrobiły +0,5R, więc zamknął je stop czasowy. Srebro +6 580 USD, Nasdaq +5 600 USD.</p><p>Cały tydzień to przede wszystkim ropa. Po poniedziałkowym shorcie za −19 890 USD przestawiliśmy się na longi i od wtorku każdy dzień na ropie był na plusie. Razem ropa dała w tym tygodniu +83 449 USD. Najlepszy dzień to wtorek (+95 822 USD, głównie złoto short), najgorszy czwartek (−5 495 USD).</p></section><section><h2>Decyzje koordynatora na ostatnią sesję</h2><div class="tbl"><table><thead><tr><th>Rynek</th><th>Decyzja</th><th>Dlaczego</th></tr></thead><tbody><tr><td>Nasdaq 100</td><td><span class="pill short">SHORT</span></td><td>Dwa dni spadku, short z odbicia 29300 od 15:45 (poz. 67).</td></tr><tr><td>Złoto</td><td><span class="pill short">SHORT</span></td><td>Wybicie pod 4040, short z retestu (poz. 63); kontra long 3990 OCO (poz. 64).</td></tr><tr><td>Srebro</td><td><span class="pill short">SHORT</span></td><td>Trend spadkowy, short z retestu 54,60 (poz. 65).</td></tr><tr><td>Ropa WTI</td><td><span class="pill long">LONG</span></td><td>Trzeci dzień wzrostu, long z cofnięcia 100,20 (poz. 66).</td></tr><tr><td>Gaz ziemny</td><td><span class="pill wait">NEUTRAL</span></td><td>Bez setupu.</td></tr><tr><td>Kawa US</td><td><span class="pill wait">NEUTRAL</span></td><td>Bez nowego setupu; odbicie od 302 obronione.</td></tr><tr><td>Kakao US</td><td><span class="pill wait">NEUTRAL</span></td><td>Pomijamy kakao.</td></tr></tbody></table></div></section><section><h2>Pozycje i zlecenia na noc</h2><p>Brak. Fundusz nie ma ryzyka na noc.</p></section><section><h2>Podsumowanie tygodnia</h2><p>Od 19.10 do 23.10 fundusz zamknął 18 transakcji, z czego 12 na plusie. Wynik tygodnia: <b>+168 291 USD</b> (+5,06 R).</p><div class="chart"><svg viewBox="0 0 640 180" role="img" aria-label="Krzywa kapitału"><line x1="84" x2="624" y1="152.0" y2="152.0" class="grid"/><text x="76" y="156.0" text-anchor="end">9,953 mln</text><line x1="84" x2="624" y1="106.0" y2="106.0" class="grid"/><text x="76" y="110.0" text-anchor="end">10,089 mln</text><line x1="84" x2="624" y1="60.0" y2="60.0" class="grid"/><text x="76" y="64.0" text-anchor="end">10,225 mln</text><line x1="84" x2="624" y1="14.0" y2="14.0" class="grid"/><text x="76" y="18.0" text-anchor="end">10,361 mln</text><line x1="84" x2="624" y1="136.1" y2="136.1" class="base"/><path d="M84.0,136.1 L129.0,133.8 L174.0,128.8 L219.0,127.4 L264.0,120.9 L309.0,92.1 L354.0,52.7 L399.0,86.9 L444.0,84.4 L489.0,52.0 L534.0,40.8 L579.0,42.6 L624.0,29.9 L624.0,152 L84.0,152 Z" class="area"/><path d="M84.0,136.1 L129.0,133.8 L174.0,128.8 L219.0,127.4 L264.0,120.9 L309.0,92.1 L354.0,52.7 L399.0,86.9 L444.0,84.4 L489.0,52.0 L534.0,40.8 L579.0,42.6 L624.0,29.9" class="line"/><circle cx="624.0" cy="29.9" r="4" class="dot"/><text x="84.0" y="172" text-anchor="middle">7.10</text><text x="129.0" y="172" text-anchor="middle">8.10</text><text x="174.0" y="172" text-anchor="middle">9.10</text><text x="219.0" y="172" text-anchor="middle">12.10</text><text x="264.0" y="172" text-anchor="middle">13.10</text><text x="309.0" y="172" text-anchor="middle">14.10</text><text x="354.0" y="172" text-anchor="middle">15.10</text><text x="399.0" y="172" text-anchor="middle">16.10</text><text x="444.0" y="172" text-anchor="middle">19.10</text><text x="489.0" y="172" text-anchor="middle">20.10</text><text x="534.0" y="172" text-anchor="middle">21.10</text><text x="579.0" y="172" text-anchor="middle">22.10</text><text x="624.0" y="172" text-anchor="middle">23.10</text></svg></div><div class="tbl"><table><thead><tr><th>Dzień</th><th>Kapitał (USD)</th><th>Zmiana</th></tr></thead><tbody><tr><td>środa 7.10</td><td class="n">10 000 000</td><td class="n">–</td></tr><tr><td>czwartek 8.10</td><td class="n">10 006 710</td><td class="n">+6 710</td></tr><tr><td>piątek 9.10</td><td class="n">10 021 380</td><td class="n">+14 670</td></tr><tr><td>poniedziałek 12.10</td><td class="n">10 025 700</td><td class="n">+4 320</td></tr><tr><td>wtorek 13.10</td><td class="n">10 044 840</td><td class="n">+19 140</td></tr><tr><td>środa 14.10</td><td class="n">10 130 120</td><td class="n">+85 280</td></tr><tr><td>czwartek 15.10</td><td class="n">10 246 316</td><td class="n">+116 196</td></tr><tr><td>piątek 16.10</td><td class="n">10 145 450</td><td class="n">−100 866</td></tr><tr><td>poniedziałek 19.10</td><td class="n">10 152 719</td><td class="n">+7 269</td></tr><tr><td>wtorek 20.10</td><td class="n">10 248 541</td><td class="n">+95 822</td></tr><tr><td>środa 21.10</td><td class="n">10 281 706</td><td class="n">+33 165</td></tr><tr><td>czwartek 22.10</td><td class="n">10 276 211</td><td class="n">−5 495</td></tr><tr><td>piątek 23.10</td><td class="n">10 313 741</td><td class="n">+37 530</td></tr></tbody></table></div><h3>Skuteczność agentów</h3><p class="note">Trafność głosów liczona ruchem ceny do 22:30 (intraday) albo po 7 dniach (swing), w jednostkach zmienności ATR. Waga to siła głosu w konsensusie (1 = neutralnie).</p><div class="tbl"><table><thead><tr><th>Agent</th><th>Waga</th><th>Głosy ocenione</th><th>Trafność</th><th>Śr. wynik (ATR)</th></tr></thead><tbody><tr><td>technika</td><td class="n">0,95</td><td class="n">52</td><td class="n">40%</td><td class="n">-0,12</td></tr><tr><td>makro</td><td class="n">0,93</td><td class="n">43</td><td class="n">40%</td><td class="n">-0,17</td></tr><tr><td>sentyment</td><td class="n">1,13</td><td class="n">31</td><td class="n">52%</td><td class="n">0,34</td></tr></tbody></table></div></section><section><h2>Ryzyka na najbliższe dni</h2><ul><li>Na weekend nie mamy żadnej otwartej pozycji, więc weekendowe nagłówki o Ormuzie nie przełożą się na stratę.</li><li>Fed zbiera się 27–28.10. Rynek wycenia dużą szansę na podwyżkę stóp do grudnia, a to porusza złotem, Nasdaqiem i dolarem jednocześnie.</li><li>Złoto jest w trendzie spadkowym, ale potrafi jedną świecą przejść cały stop, tak jak dziś. Pozycje w metalach mają limit grupy 0,75%.</li></ul></section><section><h2>Co dalej</h2><p>Trzeci tydzień: +168 291 USD (+5,06R), kapitał 10 313 741 USD (+3,14% od startu). W skuteczności agentów w tym tygodniu najlepiej wypadł sentyment (69% trafnych głosów), więc jego waga wzrosła do 1,13. Technika 48%, makro 40%.</p></section>
+<footer>Symulacja na rachunku papierowym, bez prawdziwych pieniędzy. Liczby pochodzą z dziennika transakcji (agenci/paper_trading.md), pliku skuteczności agentów i decyzji koordynatora; ceny z kanału claude-finance-data. Wynik w USD = wynik w punktach × wielkość pozycji, zaokrąglony do 10 USD. Raporty archiwalne: folder raporty/. To nie jest porada inwestycyjna.</footer>
+</main>
