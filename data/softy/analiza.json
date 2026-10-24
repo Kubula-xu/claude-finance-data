@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-23T23:39:15Z",
- "wygenerowano_pl": "2026-10-24 01:39 PL",
+ "wygenerowano_utc": "2026-10-24T00:04:08Z",
+ "wygenerowano_pl": "2026-10-24 02:04 PL",
  "kapital_usd": 10313741.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -18,7 +18,7 @@
     "czas_notowania_utc": "2026-10-23T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 10.88,
-    "atr_h1_sesja": 4.02,
+    "atr_h1_sesja": 4.01,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -259,11 +259,11 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana -0.4%, wzrost w 46% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana -0.0%, wzrost w 46% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 0.86,
-      "mediana_proc": -0.41,
+      "srednia_proc": 1.12,
+      "mediana_proc": -0.04,
       "proc_lat_wzrost": 46
      }
     }
@@ -607,12 +607,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.6%, wzrost w 54% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.1%, wzrost w 58% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 1.49,
-      "mediana_proc": 0.6,
-      "proc_lat_wzrost": 54
+      "srednia_proc": 1.54,
+      "mediana_proc": 2.14,
+      "proc_lat_wzrost": 58
      }
     }
    ],
@@ -714,14 +714,6 @@
   }
  },
  "kalendarz": [
-  {
-   "data": "2026-10-23",
-   "godzina_pl": "21:30",
-   "rynek": "oba",
-   "wydarzenie": "CFTC COT (stan na wtorek)",
-   "waga": "średnia",
-   "uwagi": "cykliczne"
-  },
   {
    "data": "2026-10-26",
    "godzina_pl": "",

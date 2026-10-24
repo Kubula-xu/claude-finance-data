@@ -1,10 +1,10 @@
-# Softy: kawa i kakao, analiza z 2026-10-24 01:39 PL
+# Softy: kawa i kakao, analiza z 2026-10-24 02:04 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
 ## Kawa (Arabica KC): NEUTRAL 2/5 (suma +1.5)
 
-- Cena 306,00 c/lb (2026-10-23T17:15:00Z UTC). ATR D1 10,88, ATR H1 (sesja) 4,02. 5 sesji +0.1%, 20 sesji +9.8%.
+- Cena 306,00 c/lb (2026-10-23T17:15:00Z UTC). ATR D1 10,88, ATR H1 (sesja) 4,01. 5 sesji +0.1%, 20 sesji +9.8%.
 - Reżim: **zakres** (ADX 22, cena w zakresie 10 sesji 283.50-318.20). Zakres 10 sesji 283,50–318,20 (20 sesji 274,25–318,20), EMA20 302,21, EMA50 306,24, SMA200 307,16.
 
 | Czynnik | Wynik | Opis |
@@ -15,7 +15,7 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Krzywa | +1.5 | KCZ26.NYB vs KCH27.NYB: +4.78%, 5 dni temu +2.52%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
 | BRL | +0.5 | USD/BRL 4.991, 5 sesji -2.1%: real mocnieje, rolnicy mniej sprzedają |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana -0.4%, wzrost w 46% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana -0.0%, wzrost w 46% lat |
 
 Opory: 306,68 (swing D1 ×3, ostatnio 2026-10-23, +0.06 ATR), 308,73 (P, +0.25 ATR), 309,85 (swing D1 ×1, ostatnio 2026-05-05, +0.35 ATR), 312,17 (R1, +0.57 ATR)
 
@@ -40,7 +40,7 @@ Wsparcia: 302,57 (S1, -0.32 ATR), 302,25 (dołek 5 sesji, -0.34 ATR), 300,00 (sw
 | Pogoda | +0.5 | opad 30 dni 159% normy, prognoza 16 dni 196% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie) |
 | Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.85%, 5 dni temu -2.13%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.6%, wzrost w 54% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.1%, wzrost w 58% lat |
 
 Opory: 5 588 (P, +0.11 ATR), 5 659 (R1, +0.40 ATR), 5 721 (swing D1 ×4, ostatnio 2026-10-23, +0.66 ATR), 5 750 (okrągły poziom, +0.77 ATR)
 
@@ -61,7 +61,6 @@ Wsparcia: 5 517 (dołek 5 sesji, -0.18 ATR), 5 489 (S1, -0.29 ATR), 5 428 (swing
 
 | Data | Godz. PL | Rynek | Wydarzenie | Waga |
 |---|---|---|---|---|
-| 2026-10-23 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
 | 2026-10-26 |  | oba | Tydzień przesunięcia czasu (PL zimowy, USA letni do 1.11): ICE US softs otwierają o godzinę wcześniej czasu PL (kawa 09:15, kakao 09:45) | wysoka |
 | 2026-10-26 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |
 | 2026-10-28 | 19:00 | oba | FOMC (decyzja Fed; przez USD i nastrój ryzyka) | średnia |
