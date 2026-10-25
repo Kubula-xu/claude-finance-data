@@ -1,10 +1,10 @@
-# Softy: kawa i kakao, analiza z 2026-10-25 04:12 PL
+# Softy: kawa i kakao, analiza z 2026-10-25 04:47 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
 ## Kawa (Arabica KC): NEUTRAL 2/5 (suma +1.5)
 
-- Cena 306,00 c/lb (2026-10-23T17:15:00Z UTC). ATR D1 10,88, ATR H1 (sesja) 4,01. 5 sesji +0.6%, 20 sesji +10.4%.
+- Cena 306,00 c/lb (2026-10-23T17:15:00Z UTC). ATR D1 10,88, ATR H1 (sesja) 4,02. 5 sesji +0.6%, 20 sesji +10.4%.
 - Reżim: **zakres** (ADX 22, cena w zakresie 10 sesji 283.50-318.20). Zakres 10 sesji 283,50–318,20 (20 sesji 274,25–318,20), EMA20 302,35, EMA50 306,30, SMA200 307,17.
 
 | Czynnik | Wynik | Opis |
