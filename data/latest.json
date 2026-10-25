@@ -59,10 +59,10 @@
   "wti": {
    "symbol": "CL=F",
    "opis": "Ropa WTI futures (NYMEX)",
-   "cena": 103.440002,
+   "cena": 103.269997,
    "czas_notowania_utc": "2026-10-23T20:45:00Z",
    "poprzednie_zamkniecie": 99.470001,
-   "zmiana_pct": 3.991,
+   "zmiana_pct": 3.82,
    "dzien": {
     "data": "2026-10-23",
     "open": 99.099998,
@@ -194,5 +194,5 @@
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-25T00:19:32Z"
+ "zaktualizowano_utc": "2026-10-25T01:07:15Z"
 }
