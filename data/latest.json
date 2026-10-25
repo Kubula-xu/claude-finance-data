@@ -79,7 +79,7 @@
    "zmiana_pct": 9.084,
    "dzien": {
     "data": "2026-10-23",
-    "open": 2.787,
+    "open": 3.152,
     "high": 3.162,
     "low": 3.026
    }
@@ -194,5 +194,5 @@
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-25T05:29:54Z"
+ "zaktualizowano_utc": "2026-10-25T06:01:16Z"
 }
