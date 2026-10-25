@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-25T03:47:51Z",
- "wygenerowano_pl": "2026-10-25 04:47 PL",
+ "wygenerowano_utc": "2026-10-25T04:23:56Z",
+ "wygenerowano_pl": "2026-10-25 05:23 PL",
  "kapital_usd": 10313741.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -18,7 +18,7 @@
     "czas_notowania_utc": "2026-10-23T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 10.88,
-    "atr_h1_sesja": 4.02,
+    "atr_h1_sesja": 4.01,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -26,10 +26,10 @@
      "o": 310.049988,
      "h": 314.899994,
      "l": 305.299988,
-     "c": 307.450012
+     "c": 306.0
     },
-    "zmiana_5s_proc": 0.61,
-    "zmiana_20s_proc": 10.36
+    "zmiana_5s_proc": 0.13,
+    "zmiana_20s_proc": 9.83
    },
    "rezim": {
     "typ": "zakres",
@@ -38,16 +38,16 @@
     "adx": 21.6,
     "di_plus": 24.6,
     "di_minus": 17.3,
-    "ema20": 302.35,
-    "ema50": 306.3,
-    "sma100": 310.42,
-    "sma200": 307.17,
+    "ema20": 302.21,
+    "ema50": 306.24,
+    "sma100": 310.41,
+    "sma200": 307.16,
     "zakres_gora": 318.2,
     "zakres_dol": 283.5,
     "zakres20_gora": 318.2,
     "zakres20_dol": 274.25,
     "pozycja_w_zakresie_proc": 65,
-    "zmiennosc_20d_roczna_proc": 33.2
+    "zmiennosc_20d_roczna_proc": 33.5
    },
    "poziomy": {
     "opory": [
@@ -59,10 +59,10 @@
       "odleglosc_atr": 0.06
      },
      {
-      "poziom": 309.22,
+      "poziom": 308.73,
       "sila": 1,
       "zrodlo": "P",
-      "odleglosc_atr": 0.3
+      "odleglosc_atr": 0.25
      },
      {
       "sila": 1,
@@ -72,10 +72,10 @@
       "odleglosc_atr": 0.35
      },
      {
-      "poziom": 313.13,
+      "poziom": 312.17,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.66
+      "odleglosc_atr": 0.57
      },
      {
       "sila": 3,
@@ -93,10 +93,10 @@
     ],
     "wsparcia": [
      {
-      "poziom": 303.53,
+      "poziom": 302.57,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.23
+      "odleglosc_atr": -0.32
      },
      {
       "poziom": 302.25,
@@ -118,10 +118,10 @@
       "odleglosc_atr": -0.55
      },
      {
-      "poziom": 299.62,
+      "poziom": 299.13,
       "sila": 1,
       "zrodlo": "S2",
-      "odleglosc_atr": -0.59
+      "odleglosc_atr": -0.63
      },
      {
       "sila": 3,
@@ -132,11 +132,11 @@
      }
     ],
     "pivoty": {
-     "P": 309.22,
-     "R1": 313.13,
-     "S1": 303.53,
-     "R2": 318.82,
-     "S2": 299.62
+     "P": 308.73,
+     "R1": 312.17,
+     "S1": 302.57,
+     "R2": 318.33,
+     "S2": 299.13
     },
     "baza_pivotow": "2026-10-23"
    },
@@ -373,7 +373,7 @@
     "czas_notowania_utc": "2026-10-23T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 245.29,
-    "atr_h1_sesja": 69.18,
+    "atr_h1_sesja": 69.2,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -381,42 +381,42 @@
      "o": 5630.0,
      "h": 5687.0,
      "l": 5517.0,
-     "c": 5592.0
+     "c": 5560.0
     },
-    "zmiana_5s_proc": -0.94,
-    "zmiana_20s_proc": -0.48
+    "zmiana_5s_proc": -1.51,
+    "zmiana_20s_proc": -1.05
    },
    "rezim": {
     "typ": "zakres",
     "kierunek": "NEUTRAL",
-    "opis": "ADX 12, cena w zakresie 10 sesji 5547.00-6023.00; nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5592.00)",
+    "opis": "ADX 12, cena w zakresie 10 sesji 5547.00-6023.00; nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5560.00)",
     "adx": 11.7,
     "di_plus": 18.3,
     "di_minus": 20.7,
-    "ema20": 5689.13,
-    "ema50": 5656.41,
-    "sma100": 5440.35,
-    "sma200": 4579.51,
+    "ema20": 5686.08,
+    "ema50": 5655.15,
+    "sma100": 5440.03,
+    "sma200": 4579.35,
     "zakres_gora": 6023.0,
     "zakres_dol": 5547.0,
     "zakres20_gora": 6023.0,
     "zakres20_dol": 5051.0,
     "pozycja_w_zakresie_proc": 3,
-    "zmiennosc_20d_roczna_proc": 36.5
+    "zmiennosc_20d_roczna_proc": 36.6
    },
    "poziomy": {
     "opory": [
      {
-      "poziom": 5598.67,
+      "poziom": 5588.0,
       "sila": 1,
       "zrodlo": "P",
-      "odleglosc_atr": 0.16
+      "odleglosc_atr": 0.11
      },
      {
-      "poziom": 5680.33,
+      "poziom": 5659.0,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.49
+      "odleglosc_atr": 0.4
      },
      {
       "sila": 4,
@@ -432,10 +432,10 @@
       "odleglosc_atr": 0.77
      },
      {
-      "poziom": 5768.67,
+      "poziom": 5758.0,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 0.85
+      "odleglosc_atr": 0.81
      },
      {
       "poziom": 5903.0,
@@ -452,16 +452,10 @@
       "odleglosc_atr": -0.18
      },
      {
-      "poziom": 5510.33,
+      "poziom": 5489.0,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.2
-     },
-     {
-      "poziom": 5428.67,
-      "sila": 1,
-      "zrodlo": "S2",
-      "odleglosc_atr": -0.54
+      "odleglosc_atr": -0.29
      },
      {
       "sila": 2,
@@ -469,6 +463,12 @@
       "poziom": 5428.0,
       "zrodlo": "swing D1 ×2, ostatnio 2026-10-08",
       "odleglosc_atr": -0.54
+     },
+     {
+      "poziom": 5418.0,
+      "sila": 1,
+      "zrodlo": "S2",
+      "odleglosc_atr": -0.58
      },
      {
       "poziom": 5250,
@@ -485,11 +485,11 @@
      }
     ],
     "pivoty": {
-     "P": 5598.67,
-     "R1": 5680.33,
-     "S1": 5510.33,
-     "R2": 5768.67,
-     "S2": 5428.67
+     "P": 5588.0,
+     "R1": 5659.0,
+     "S1": 5489.0,
+     "R2": 5758.0,
+     "S2": 5418.0
     },
     "baza_pivotow": "2026-10-23"
    },
@@ -497,7 +497,7 @@
     {
      "czynnik": "Technika (reżim)",
      "wynik": 0.0,
-     "opis": "ADX 12, cena w zakresie 10 sesji 5547.00-6023.00; nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5592.00)"
+     "opis": "ADX 12, cena w zakresie 10 sesji 5547.00-6023.00; nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5560.00)"
     },
     {
      "czynnik": "COT",
@@ -801,7 +801,7 @@
   {
    "rynek": "kakao",
    "typ": "nieudane_wybicie",
-   "opis": "nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5592.00)"
+   "opis": "nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5560.00)"
   }
  ]
 }
