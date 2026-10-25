@@ -1,11 +1,11 @@
-# Softy: kawa i kakao, analiza z 2026-10-25 10:11 PL
+# Softy: kawa i kakao, analiza z 2026-10-25 10:42 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
 ## Kawa (Arabica KC): NEUTRAL 2/5 (suma +1.5)
 
-- Cena 306,00 c/lb (2026-10-23T17:15:00Z UTC). ATR D1 10,88, ATR H1 (sesja) 4,01. 5 sesji +0.1%, 20 sesji +9.8%.
-- Reżim: **zakres** (ADX 22, cena w zakresie 10 sesji 283.50-318.20). Zakres 10 sesji 283,50–318,20 (20 sesji 274,25–318,20), EMA20 302,21, EMA50 306,24, SMA200 307,16.
+- Cena 306,00 c/lb (2026-10-23T17:15:00Z UTC). ATR D1 10,88, ATR H1 (sesja) 4,01. 5 sesji +0.6%, 20 sesji +10.4%.
+- Reżim: **zakres** (ADX 22, cena w zakresie 10 sesji 283.50-318.20). Zakres 10 sesji 283,50–318,20 (20 sesji 274,25–318,20), EMA20 302,35, EMA50 306,30, SMA200 307,17.
 
 | Czynnik | Wynik | Opis |
 |---|---|---|
@@ -17,9 +17,9 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | BRL | +0.5 | USD/BRL 4.991, 5 sesji -2.1%: real mocnieje, rolnicy mniej sprzedają |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.3%, wzrost w 50% lat |
 
-Opory: 306,68 (swing D1 ×3, ostatnio 2026-10-23, +0.06 ATR), 308,73 (P, +0.25 ATR), 309,85 (swing D1 ×1, ostatnio 2026-05-05, +0.35 ATR), 312,17 (R1, +0.57 ATR)
+Opory: 306,68 (swing D1 ×3, ostatnio 2026-10-23, +0.06 ATR), 309,22 (P, +0.30 ATR), 309,85 (swing D1 ×1, ostatnio 2026-05-05, +0.35 ATR), 313,13 (R1, +0.66 ATR)
 
-Wsparcia: 302,57 (S1, -0.32 ATR), 302,25 (dołek 5 sesji, -0.34 ATR), 300,00 (swing D1 ×1, ostatnio 2026-05-13, -0.55 ATR), 300,00 (okrągły poziom, -0.55 ATR)
+Wsparcia: 303,53 (S1, -0.23 ATR), 302,25 (dołek 5 sesji, -0.34 ATR), 300,00 (swing D1 ×1, ostatnio 2026-05-13, -0.55 ATR), 300,00 (okrągły poziom, -0.55 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
@@ -30,21 +30,21 @@ Wsparcia: 302,57 (S1, -0.32 ATR), 302,25 (dołek 5 sesji, -0.34 ATR), 300,00 (sw
 
 ## Kakao (NY CC): NEUTRAL 1/5 (suma +1.0)
 
-- Cena 5 560 USD/t (2026-10-23T17:15:00Z UTC). ATR D1 245, ATR H1 (sesja) 69. 5 sesji -1.5%, 20 sesji -1.1%.
-- Reżim: **zakres** (ADX 12, cena w zakresie 10 sesji 5547.00-6023.00; nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5560.00)). Zakres 10 sesji 5 547–6 023 (20 sesji 5 051–6 023), EMA20 5 686, EMA50 5 655, SMA200 4 579.
+- Cena 5 560 USD/t (2026-10-23T17:15:00Z UTC). ATR D1 245, ATR H1 (sesja) 69. 5 sesji -0.9%, 20 sesji -0.5%.
+- Reżim: **zakres** (ADX 12, cena w zakresie 10 sesji 5547.00-6023.00; nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5592.00)). Zakres 10 sesji 5 547–6 023 (20 sesji 5 051–6 023), EMA20 5 689, EMA50 5 656, SMA200 4 580.
 
 | Czynnik | Wynik | Opis |
 |---|---|---|
-| Technika (reżim) | +0.0 | ADX 12, cena w zakresie 10 sesji 5547.00-6023.00; nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5560.00) |
+| Technika (reżim) | +0.0 | ADX 12, cena w zakresie 10 sesji 5547.00-6023.00; nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5592.00) |
 | COT | +0.5 | fundusze net -8,821 (19. percentyl 3 lat), zmiana 4 tyg. +7,585: pozycjonowanie bez skrajności, liczy się kierunek przepływu |
 | Pogoda | +0.5 | opad 30 dni 159% normy, prognoza 16 dni 196% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie) |
 | Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.85%, 5 dni temu -2.13%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +3.2%, wzrost w 58% lat |
 
-Opory: 5 588 (P, +0.11 ATR), 5 659 (R1, +0.40 ATR), 5 721 (swing D1 ×4, ostatnio 2026-10-23, +0.66 ATR), 5 750 (okrągły poziom, +0.77 ATR)
+Opory: 5 599 (P, +0.16 ATR), 5 680 (R1, +0.49 ATR), 5 721 (swing D1 ×4, ostatnio 2026-10-23, +0.66 ATR), 5 750 (okrągły poziom, +0.77 ATR)
 
-Wsparcia: 5 517 (dołek 5 sesji, -0.18 ATR), 5 489 (S1, -0.29 ATR), 5 428 (swing D1 ×2, ostatnio 2026-10-08, -0.54 ATR), 5 418 (S2, -0.58 ATR)
+Wsparcia: 5 517 (dołek 5 sesji, -0.18 ATR), 5 510 (S1, -0.20 ATR), 5 429 (S2, -0.54 ATR), 5 428 (swing D1 ×2, ostatnio 2026-10-08, -0.54 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
@@ -55,7 +55,7 @@ Wsparcia: 5 517 (dołek 5 sesji, -0.18 ATR), 5 489 (S1, -0.29 ATR), 5 428 (swing
 
 ## Alerty
 
-- kakao: nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5560.00)
+- kakao: nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5592.00)
 
 ## Kalendarz (14 dni)
 
