@@ -162,16 +162,16 @@
    "ask": 3998.142,
    "czas_notowania_utc": "2026-10-23T21:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -11.06,
+   "baza_vs_futures": -10.01,
    "futures": "GC=F",
    "dzien": {
     "data": "2026-10-23",
-    "open": 4031.14,
-    "high": 4039.14,
-    "low": 3978.0401
+    "open": 4032.1901,
+    "high": 4040.1901,
+    "low": 3979.0902
    },
-   "poprzednie_zamkniecie": 4049.34,
-   "zmiana_pct": -1.271
+   "poprzednie_zamkniecie": 4050.39,
+   "zmiana_pct": -1.296
   },
   "xagusd": {
    "symbol": "XAG/USD spot",
@@ -181,18 +181,18 @@
    "ask": 53.957,
    "czas_notowania_utc": "2026-10-23T21:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -0.018,
+   "baza_vs_futures": -0.013,
    "futures": "SI=F",
    "dzien": {
     "data": "2026-10-23",
-    "open": 53.693,
+    "open": 53.6985,
     "high": 53.9365,
-    "low": 53.693
+    "low": 53.6985
    },
-   "poprzednie_zamkniecie": 54.746,
-   "zmiana_pct": -1.479
+   "poprzednie_zamkniecie": 54.7515,
+   "zmiana_pct": -1.489
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-25T02:10:35Z"
+ "zaktualizowano_utc": "2026-10-25T02:42:05Z"
 }
