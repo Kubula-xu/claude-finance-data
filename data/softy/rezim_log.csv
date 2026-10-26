@@ -5,3 +5,4 @@ czas_utc,rynek,z,na,cena,opis
 2026-10-20T17:42:41Z,kawa,wybicie_gora,zakres,310.149994,"ADX 22, cena w zakresie 10 sesji 283.50-317.75; nieudane wybicie górą (318.20 > 317.75, zamknięcie 310.15): uwaga na pułapkę albo drugie podejście"
 2026-10-26T15:40:49Z,kakao,zakres,wybicie_dol,5464.0,"zamknięcie/cena pod dołkiem 10 sesji 5547.00; nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5592.00)"
 2026-10-26T16:32:17Z,kakao,wybicie_dol,zakres,5497.0,"ADX 12, cena w zakresie 10 sesji 5547.00-6023.00; nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5592.00)"
+2026-10-26T18:04:38Z,kakao,zakres,wybicie_dol,5503.0,zamknięcie/cena pod dołkiem 10 sesji 5517.00
