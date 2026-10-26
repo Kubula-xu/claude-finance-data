@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-10-26T14:04:11Z",
+ "zaktualizowano_utc": "2026-10-26T15:40:49Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
  "zlecenia": {
   "68": {
@@ -9,22 +9,16 @@
    "klucz_cen": "xauusd",
    "zdarzenia": [
     "26.10 09:45 PL wejście 4022",
-    "26.10 14:30 PL +1R, SL na BE 4022"
+    "26.10 14:30 PL +1R, SL na BE 4022",
+    "26.10 14:45 PL TP1 3992, zamknięte 50%",
+    "26.10 15:30 PL BE 4022"
    ],
-   "stan": "otwarta",
-   "pozostalo": 1.0,
+   "stan": "zamknięta",
+   "pozostalo": 0,
    "sl_teraz": 4022.0,
-   "czas_wejscia": "2026-10-26T08:45Z"
-  },
-  "69": {
-   "nr": "69",
-   "instrument": "Złoto (XAUUSD spot)",
-   "kierunek": 1,
-   "klucz_cen": "xauusd",
-   "zdarzenia": [],
-   "stan": "oczekuje",
-   "pozostalo": 1.0,
-   "sl_teraz": 3962.0
+   "czas_wejscia": "2026-10-26T08:45Z",
+   "cena_wyjscia_srednia": 4007.0,
+   "wynik_pkt_zrealizowany": 15.0
   },
   "71": {
    "nr": "71",
@@ -33,12 +27,15 @@
    "klucz_cen": "wti",
    "zdarzenia": [
     "26.10 09:30 PL wejście 100.8",
-    "26.10 14:00 PL +1R, SL na BE 100.8"
+    "26.10 14:00 PL +1R, SL na BE 100.8",
+    "26.10 15:00 PL BE 100.8"
    ],
-   "stan": "otwarta",
-   "pozostalo": 1.0,
+   "stan": "zamknięta",
+   "pozostalo": 0,
    "sl_teraz": 100.8,
-   "czas_wejscia": "2026-10-26T08:30Z"
+   "czas_wejscia": "2026-10-26T08:30Z",
+   "cena_wyjscia_srednia": 100.8,
+   "wynik_pkt_zrealizowany": 0.0
   },
   "72": {
    "nr": "72",
@@ -48,7 +45,7 @@
    "zdarzenia": [],
    "stan": "oczekuje",
    "pozostalo": 1.0,
-   "sl_teraz": 29421.0
+   "sl_teraz": 29371.0
   }
  }
 }
