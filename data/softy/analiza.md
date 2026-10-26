@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-10-26 00:48 PL
+# Softy: kawa i kakao, analiza z 2026-10-26 01:27 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -15,7 +15,7 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Krzywa | +1.5 | KCZ26.NYB vs KCH27.NYB: +4.78%, 5 dni temu +2.72%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
 | BRL | +0.0 | USD/BRL 4.996, 5 sesji -1.3% |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.3%, wzrost w 50% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.7%, wzrost w 58% lat |
 
 Opory: 306,68 (swing D1 ×3, ostatnio 2026-10-23, +0.06 ATR), 308,73 (P, +0.25 ATR), 309,85 (swing D1 ×1, ostatnio 2026-05-05, +0.35 ATR), 312,17 (R1, +0.57 ATR)
 
@@ -40,7 +40,7 @@ Wsparcia: 302,57 (S1, -0.32 ATR), 302,25 (dołek 5 sesji, -0.34 ATR), 300,00 (sw
 | Pogoda | +0.5 | opad 30 dni 163% normy, prognoza 16 dni 194% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie) |
 | Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.85%, 5 dni temu -2.07%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +3.2%, wzrost w 58% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana -0.4%, wzrost w 46% lat |
 
 Opory: 5 588 (P, +0.11 ATR), 5 659 (R1, +0.40 ATR), 5 721 (swing D1 ×4, ostatnio 2026-10-23, +0.66 ATR), 5 750 (okrągły poziom, +0.77 ATR)
 
@@ -68,3 +68,4 @@ Wsparcia: 5 517 (dołek 5 sesji, -0.18 ATR), 5 489 (S1, -0.29 ATR), 5 428 (swing
 | 2026-11-02 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |
 | 2026-11-06 |  | oba | Okno rolowania indeksów towarowych (GSCI/BCOM roll grudzień → marzec |  5.-9. dzień roboczy listopada) |
 | 2026-11-06 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
+| 2026-11-09 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |

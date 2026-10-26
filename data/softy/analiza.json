@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-25T23:48:46Z",
- "wygenerowano_pl": "2026-10-26 00:48 PL",
+ "wygenerowano_utc": "2026-10-26T00:27:54Z",
+ "wygenerowano_pl": "2026-10-26 01:27 PL",
  "kapital_usd": 10313741.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -259,12 +259,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.3%, wzrost w 50% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.7%, wzrost w 58% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 1.09,
-      "mediana_proc": 0.28,
-      "proc_lat_wzrost": 50
+      "srednia_proc": 1.82,
+      "mediana_proc": 0.66,
+      "proc_lat_wzrost": 58
      }
     }
    ],
@@ -607,12 +607,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +3.2%, wzrost w 58% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana -0.4%, wzrost w 46% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 2.22,
-      "mediana_proc": 3.21,
-      "proc_lat_wzrost": 58
+      "srednia_proc": 1.94,
+      "mediana_proc": -0.42,
+      "proc_lat_wzrost": 46
      }
     }
    ],
@@ -771,6 +771,14 @@
    "rynek": "oba",
    "wydarzenie": "CFTC COT (stan na wtorek)",
    "waga": "średnia",
+   "uwagi": "cykliczne"
+  },
+  {
+   "data": "2026-11-09",
+   "godzina_pl": "rano",
+   "rynek": "kakao",
+   "wydarzenie": "przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów)",
+   "waga": "średnia-wysoka",
    "uwagi": "cykliczne"
   }
  ],
