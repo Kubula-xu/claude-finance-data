@@ -5,10 +5,10 @@
    "pewnosc": 1,
    "setup": [
     "SHORT",
-    29250,
-    29421,
-    28994,
-    28823
+    29200,
+    29371,
+    28944,
+    28773
    ]
   },
   "gold": {
@@ -27,10 +27,10 @@
    "pewnosc": 1,
    "setup": [
     "SHORT",
-    54.3,
-    55.0,
-    53.25,
-    52.55
+    54.05,
+    54.75,
+    53.0,
+    52.3
    ]
   },
   "wti": {
@@ -415,29 +415,29 @@
    "tp": "28 944 / 28 772"
   },
   "68": {
-   "status": "oczekuje (limit, OCO z #69, okno 09:00–12:00 i 14:00–20:00)",
+   "status": "otwarta (wypełniona 09:45 PL przy szczycie dnia 4 024)",
    "sl": "4 042",
    "tp": "3 992 / 3 972"
   },
   "69": {
-   "status": "oczekuje (limit, OCO z #68)",
+   "status": "anulowane (OCO: wypełniony #68; dołek dnia 4 003,9)",
    "sl": "3 962",
    "tp": "4 012 / 4 032"
   },
   "70": {
    "status": "oczekuje (limit, okno metali)",
-   "sl": "55,00",
-   "tp": "53,25 / 52,55"
+   "sl": "54,75",
+   "tp": "53,00 / 52,30"
   },
   "71": {
-   "status": "oczekuje (limit, okno 09:00–12:00 i 15:00–20:30)",
+   "status": "otwarta (wypełniona 09:30 PL, dołek 100,60)",
    "sl": "99,73",
    "tp": "102,40 / 103,48"
   },
   "72": {
    "status": "oczekuje (limit, okno 15:45–21:30)",
-   "sl": "29 421",
-   "tp": "28 994 / 28 823"
+   "sl": "29 371",
+   "tp": "28 944 / 28 773"
   }
  },
  "automat": {
@@ -468,5 +468,5 @@
   "rano": "2026-10-26",
   "wieczor": "2026-10-23"
  },
- "zaktualizowano_utc": "2026-10-26T14:04:12Z"
+ "zaktualizowano_utc": "2026-10-26T14:04:24Z"
 }
