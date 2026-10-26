@@ -415,7 +415,7 @@
    "tp": "28 944 / 28 772"
   },
   "68": {
-   "status": "otwarta (wypełniona 09:45 PL przy szczycie dnia 4 024)",
+   "status": "zamknięta (50% TP1 3 992; reszta BE 4 022 o 15:45 PL)",
    "sl": "4 042",
    "tp": "3 992 / 3 972"
   },
@@ -425,17 +425,17 @@
    "tp": "4 012 / 4 032"
   },
   "70": {
-   "status": "oczekuje (limit, okno metali)",
+   "status": "zamknięta (stop czasowy 18:30 PL)",
    "sl": "54,75",
    "tp": "53,00 / 52,30"
   },
   "71": {
-   "status": "otwarta (wypełniona 09:30 PL, dołek 100,60)",
+   "status": "zamknięta (SL na BE po +1R, wybita 15:00 PL)",
    "sl": "99,73",
    "tp": "102,40 / 103,48"
   },
   "72": {
-   "status": "oczekuje (limit, okno 15:45–21:30)",
+   "status": "anulowane (o 15:45 PL NQ 29 397, już nad SL 29 371; setup nieważny)",
    "sl": "29 371",
    "tp": "28 944 / 28 773"
   }
@@ -467,5 +467,5 @@
   "rano": "2026-10-26",
   "wieczor": "2026-10-23"
  },
- "zaktualizowano_utc": "2026-10-26T21:25:02Z"
+ "zaktualizowano_utc": "2026-10-26T21:26:36Z"
 }
