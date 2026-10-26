@@ -1343,3 +1343,5 @@ Datetime_UTC,klucz,spot,futures,futures_czas_utc,baza,zrodlo
 2026-10-25T23:48:41Z,xagusd,53.9415,54.060001,2026-10-25T23:30:00Z,-0.1185,Swissquote (bid/ask)
 2026-10-26T00:27:48Z,xauusd,3985.86,4002.5,2026-10-26T00:15:00Z,-16.64,Swissquote (bid/ask)
 2026-10-26T00:27:48Z,xagusd,53.984,54.040001,2026-10-26T00:15:00Z,-0.056,Swissquote (bid/ask)
+2026-10-26T01:23:08Z,xauusd,3996.485,4008.899902,2026-10-26T01:00:00Z,-12.4149,Swissquote (bid/ask)
+2026-10-26T01:23:08Z,xagusd,54.12,54.02,2026-10-26T01:00:00Z,0.1,Swissquote (bid/ask)
