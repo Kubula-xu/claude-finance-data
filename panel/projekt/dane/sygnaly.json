@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-26T07:45:00Z",
+ "aktualizacja": "2026-10-26T14:05:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -32,12 +32,12 @@
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 29250,
-    "sl": 29421,
-    "tp1": 28994,
-    "tp2": 28823,
+    "wejscie": 29200,
+    "sl": 29371,
+    "tp1": 28944,
+    "tp2": 28773,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, 26.10",
+    "status": "oczekuje limit od 15:45",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -85,7 +85,7 @@
     "tp2": 3972,
     "ryzyko_pct": 0.5,
     "koszt": 0.6,
-    "status": "oczekuje limit, 26.10",
+    "status": "otwarta short 4022 od 09:45 PL; long 3982 anulowany (OCO)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -132,12 +132,12 @@
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 54.3,
-    "sl": 55.0,
-    "tp1": 53.25,
-    "tp2": 52.55,
+    "wejscie": 54.05,
+    "sl": 54.75,
+    "tp1": 53.0,
+    "tp2": 52.3,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, 26.10",
+    "status": "oczekuje limit, rewizja 15:00",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -184,7 +184,7 @@
     "tp1": 102.4,
     "tp2": 103.48,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, 26.10",
+    "status": "otwarta long 100,80 od 09:30 PL",
     "ksiega": "intraday",
     "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
    },
