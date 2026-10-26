@@ -440,32 +440,10 @@
    "tp": "28 944 / 28 773"
   }
  },
- "automat": {
-  "68": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "26.10 09:45 PL wejście 4022",
-    "26.10 14:30 PL +1R, SL na BE 4022",
-    "26.10 14:45 PL TP1 3992, zamknięte 50%",
-    "26.10 15:30 PL BE 4022"
-   ]
-  },
-  "71": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "26.10 09:30 PL wejście 100.8",
-    "26.10 14:00 PL +1R, SL na BE 100.8",
-    "26.10 15:00 PL BE 100.8"
-   ]
-  },
-  "72": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  }
- },
+ "automat": {},
  "podsumowanie": {
   "rano": "2026-10-26",
   "wieczor": "2026-10-26"
  },
- "zaktualizowano_utc": "2026-10-26T21:42:20Z"
+ "zaktualizowano_utc": "2026-10-26T21:59:53Z"
 }
