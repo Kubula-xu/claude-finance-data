@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-27T07:12:26Z",
- "wygenerowano_pl": "2026-10-27 08:12 PL",
+ "wygenerowano_utc": "2026-10-27T07:20:08Z",
+ "wygenerowano_pl": "2026-10-27 08:20 PL",
  "kapital_usd": 10346921.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -18,7 +18,7 @@
     "czas_notowania_utc": "2026-10-26T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 10.71,
-    "atr_h1_sesja": 3.94,
+    "atr_h1_sesja": 3.93,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -373,7 +373,7 @@
     "czas_notowania_utc": "2026-10-26T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 240.36,
-    "atr_h1_sesja": 70.14,
+    "atr_h1_sesja": 69.65,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
