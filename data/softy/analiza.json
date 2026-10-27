@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-26T23:42:23Z",
- "wygenerowano_pl": "2026-10-27 00:42 PL",
+ "wygenerowano_utc": "2026-10-27T00:09:13Z",
+ "wygenerowano_pl": "2026-10-27 01:09 PL",
  "kapital_usd": 10346921.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -18,13 +18,13 @@
     "czas_notowania_utc": "2026-10-26T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 10.71,
-    "atr_h1_sesja": 3.94,
+    "atr_h1_sesja": 3.93,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
      "data": "2026-10-26",
      "o": 298.399994,
-     "h": 303.799988,
+     "h": 304.0,
      "l": 294.899994,
      "c": 299.5
     },
@@ -52,23 +52,23 @@
    "poziomy": {
     "opory": [
      {
-      "poziom": 303.9,
+      "poziom": 304.03,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.41
+      "odleglosc_atr": 0.42
      },
      {
       "sila": 2,
       "ostatnio": "2026-10-26",
-      "poziom": 305.1,
+      "poziom": 305.2,
       "zrodlo": "swing D1 ×2, ostatnio 2026-10-26",
-      "odleglosc_atr": 0.52
+      "odleglosc_atr": 0.53
      },
      {
-      "poziom": 308.3,
+      "poziom": 308.57,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 0.82
+      "odleglosc_atr": 0.85
      },
      {
       "sila": 2,
@@ -100,10 +100,10 @@
       "odleglosc_atr": -0.38
      },
      {
-      "poziom": 295.0,
+      "poziom": 294.93,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.42
+      "odleglosc_atr": -0.43
      },
      {
       "poziom": 294.9,
@@ -112,10 +112,10 @@
       "odleglosc_atr": -0.43
      },
      {
-      "poziom": 290.5,
+      "poziom": 290.37,
       "sila": 1,
       "zrodlo": "S2",
-      "odleglosc_atr": -0.84
+      "odleglosc_atr": -0.85
      },
      {
       "poziom": 290,
@@ -132,11 +132,11 @@
      }
     ],
     "pivoty": {
-     "P": 299.4,
-     "R1": 303.9,
-     "S1": 295.0,
-     "R2": 308.3,
-     "S2": 290.5
+     "P": 299.47,
+     "R1": 304.03,
+     "S1": 294.93,
+     "R2": 308.57,
+     "S2": 290.37
     },
     "baza_pivotow": "2026-10-26"
    },
@@ -259,12 +259,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.7%, wzrost w 58% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.9%, wzrost w 54% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 1.82,
-      "mediana_proc": 0.66,
-      "proc_lat_wzrost": 58
+      "srednia_proc": 2.66,
+      "mediana_proc": 0.85,
+      "proc_lat_wzrost": 54
      }
     }
    ],
@@ -293,7 +293,7 @@
        "uzasadnienie": "granica zakresu 283.50 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 1.39× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
-        "silny poziom 305.1 przed TP1: rozważyć częściowe wyjście przed nim"
+        "silny poziom 305.2 przed TP1: rozważyć częściowe wyjście przed nim"
        ]
       },
       {
@@ -373,7 +373,7 @@
     "czas_notowania_utc": "2026-10-26T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 240.36,
-    "atr_h1_sesja": 70.14,
+    "atr_h1_sesja": 70.16,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -611,7 +611,7 @@
      "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana -0.4%, wzrost w 46% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 1.94,
+      "srednia_proc": 1.69,
       "mediana_proc": -0.42,
       "proc_lat_wzrost": 46
      }
@@ -717,22 +717,6 @@
   }
  },
  "kalendarz": [
-  {
-   "data": "2026-10-26",
-   "godzina_pl": "",
-   "rynek": "oba",
-   "wydarzenie": "Tydzień przesunięcia czasu (PL zimowy, USA letni do 1.11): ICE US softs otwierają o godzinę wcześniej czasu PL (kawa 09:15, kakao 09:45)",
-   "waga": "wysoka",
-   "uwagi": "sprawdzić komunikaty ICE „temporary changes … DST”"
-  },
-  {
-   "data": "2026-10-26",
-   "godzina_pl": "rano",
-   "rynek": "kakao",
-   "wydarzenie": "przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów)",
-   "waga": "średnia-wysoka",
-   "uwagi": "cykliczne"
-  },
   {
    "data": "2026-10-28",
    "godzina_pl": "19:00",
