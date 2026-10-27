@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-27T00:57:33Z",
- "wygenerowano_pl": "2026-10-27 01:57 PL",
+ "wygenerowano_utc": "2026-10-27T01:38:27Z",
+ "wygenerowano_pl": "2026-10-27 02:38 PL",
  "kapital_usd": 10346921.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -18,13 +18,13 @@
     "czas_notowania_utc": "2026-10-26T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 10.71,
-    "atr_h1_sesja": 3.93,
+    "atr_h1_sesja": 3.94,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
      "data": "2026-10-26",
      "o": 298.399994,
-     "h": 304.0,
+     "h": 303.799988,
      "l": 294.899994,
      "c": 299.5
     },
@@ -52,23 +52,23 @@
    "poziomy": {
     "opory": [
      {
-      "poziom": 304.03,
+      "poziom": 303.9,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.42
+      "odleglosc_atr": 0.41
      },
      {
       "sila": 2,
       "ostatnio": "2026-10-26",
-      "poziom": 305.2,
+      "poziom": 305.1,
       "zrodlo": "swing D1 ×2, ostatnio 2026-10-26",
-      "odleglosc_atr": 0.53
+      "odleglosc_atr": 0.52
      },
      {
-      "poziom": 308.57,
+      "poziom": 308.3,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 0.85
+      "odleglosc_atr": 0.82
      },
      {
       "sila": 2,
@@ -100,10 +100,10 @@
       "odleglosc_atr": -0.38
      },
      {
-      "poziom": 294.93,
+      "poziom": 295.0,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.43
+      "odleglosc_atr": -0.42
      },
      {
       "poziom": 294.9,
@@ -112,10 +112,10 @@
       "odleglosc_atr": -0.43
      },
      {
-      "poziom": 290.37,
+      "poziom": 290.5,
       "sila": 1,
       "zrodlo": "S2",
-      "odleglosc_atr": -0.85
+      "odleglosc_atr": -0.84
      },
      {
       "poziom": 290,
@@ -132,11 +132,11 @@
      }
     ],
     "pivoty": {
-     "P": 299.47,
-     "R1": 304.03,
-     "S1": 294.93,
-     "R2": 308.57,
-     "S2": 290.37
+     "P": 299.4,
+     "R1": 303.9,
+     "S1": 295.0,
+     "R2": 308.3,
+     "S2": 290.5
     },
     "baza_pivotow": "2026-10-26"
    },
@@ -293,7 +293,7 @@
        "uzasadnienie": "granica zakresu 283.50 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 1.39× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
-        "silny poziom 305.2 przed TP1: rozważyć częściowe wyjście przed nim"
+        "silny poziom 305.1 przed TP1: rozważyć częściowe wyjście przed nim"
        ]
       },
       {
@@ -373,7 +373,7 @@
     "czas_notowania_utc": "2026-10-26T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 240.36,
-    "atr_h1_sesja": 70.16,
+    "atr_h1_sesja": 70.14,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
