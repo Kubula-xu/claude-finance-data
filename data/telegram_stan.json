@@ -1,10 +1,10 @@
 {
  "sygnaly": {
   "nq": {
-   "kierunek": "SHORT",
+   "kierunek": "NEUTRAL",
    "pewnosc": 1,
    "setup": [
-    "SHORT",
+    "NEUTRAL",
     29450,
     29618,
     29198,
@@ -440,27 +440,27 @@
    "tp": "28 944 / 28 773"
   },
   "73": {
-   "status": "oczekuje (limit, OCO z #74, okno 09:00–12:00 i 14:00–20:00)",
+   "status": "zamknięta (stop czasowy 14:45 PL)",
    "sl": "4 034",
    "tp": "3 986,5 / 3 967,5"
   },
   "74": {
-   "status": "oczekuje (limit, OCO z #73)",
+   "status": "anulowane (OCO: wypełniony #73; dołek dnia 3 987,6)",
    "sl": "3 963",
    "tp": "4 010,5 / 4 029,5"
   },
   "75": {
-   "status": "oczekuje (limit, okno metali)",
+   "status": "zamknięta (stop czasowy 13:30 PL)",
    "sl": "54,00",
    "tp": "52,25 / 51,55"
   },
   "76": {
-   "status": "oczekuje (limit, okno 09:00–12:00 i 15:00–20:30)",
+   "status": "zamknięta (stop czasowy 14:30 PL)",
    "sl": "100,33",
    "tp": "103,00 / 104,08"
   },
   "77": {
-   "status": "oczekuje (limit, okno 15:45–21:30)",
+   "status": "anulowane (14:50 PL: NQ 29 548, szczyt 29 629 nad SL 29 618; odbicie risk-on, teza nieaktualna)",
    "sl": "29 618",
    "tp": "29 198 / 29 030"
   }
@@ -491,5 +491,5 @@
   "rano": "2026-10-27",
   "wieczor": "2026-10-26"
  },
- "zaktualizowano_utc": "2026-10-27T13:33:35Z"
+ "zaktualizowano_utc": "2026-10-27T13:52:47Z"
 }
