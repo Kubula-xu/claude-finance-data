@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-27T07:45:00Z",
+ "aktualizacja": "2026-10-27T13:55:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -12,7 +12,7 @@
    "atr": 443,
    "agenci": {
     "technika": [
-     "SHORT",
+     "NEUTRAL",
      1
     ],
     "makro": [
@@ -25,19 +25,19 @@
     ]
    },
    "final": {
-    "kierunek": "SHORT",
+    "kierunek": "NEUTRAL",
     "pewnosc": 1,
-    "powod": "Nocny zjazd, short 29450 od 15:45 (poz. 77)."
+    "powod": "Odbicie do 29629, short anulowany."
    },
    "setup": {
-    "kierunek": "SHORT",
+    "kierunek": "NEUTRAL",
     "typ": "limit",
     "wejscie": 29450,
     "sl": 29618,
     "tp1": 29198,
     "tp2": 29030,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, 27.10",
+    "status": "anulowane 27.10",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -85,7 +85,7 @@
     "tp2": 3967.5,
     "ryzyko_pct": 0.5,
     "koszt": 0.6,
-    "status": "oczekuje limit, 27.10",
+    "status": "zamknięta stopem czasowym 27.10",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -137,7 +137,7 @@
     "tp1": 52.25,
     "tp2": 51.55,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, 27.10",
+    "status": "zamknięta stopem czasowym 27.10",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -184,7 +184,7 @@
     "tp1": 103.0,
     "tp2": 104.08,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, 27.10",
+    "status": "zamknięta stopem czasowym 27.10",
     "ksiega": "intraday",
     "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
    },
