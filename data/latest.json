@@ -3,52 +3,52 @@
   "nq": {
    "symbol": "NQ=F",
    "opis": "Nasdaq 100 E-mini futures (CME)",
-   "cena": 29585.5,
-   "czas_notowania_utc": "2026-10-27T12:15:00Z",
+   "cena": 29547.75,
+   "czas_notowania_utc": "2026-10-27T13:15:00Z",
    "poprzednie_zamkniecie": 29437.25,
-   "zmiana_pct": 0.504,
+   "zmiana_pct": 0.375,
    "dzien": {
     "data": "2026-10-27",
     "open": 29480.5,
-    "high": 29613.0,
+    "high": 29627.75,
     "low": 29288.0
    }
   },
   "ndx": {
    "symbol": "^NDX",
    "opis": "Nasdaq 100 indeks (kasowy, ~US100 CFD)",
-   "cena": 29273.404297,
-   "czas_notowania_utc": "2026-10-26T20:00:00Z",
-   "poprzednie_zamkniecie": 28957.529297,
-   "zmiana_pct": 1.091,
+   "cena": 29441.369141,
+   "czas_notowania_utc": "2026-10-27T13:30:00Z",
+   "poprzednie_zamkniecie": 29273.400391,
+   "zmiana_pct": 0.574,
    "dzien": {
-    "data": "2026-10-26",
-    "open": 29051.580078,
-    "high": 29404.439453,
-    "low": 29011.910156
+    "data": "2026-10-27",
+    "open": 29407.189453,
+    "high": 29441.605469,
+    "low": 29384.277344
    }
   },
   "gold": {
    "symbol": "GC=F",
    "opis": "Złoto futures (COMEX)",
-   "cena": 4029.5,
-   "czas_notowania_utc": "2026-10-27T12:15:00Z",
+   "cena": 4039.600098,
+   "czas_notowania_utc": "2026-10-27T13:15:00Z",
    "poprzednie_zamkniecie": 4038.399902,
-   "zmiana_pct": -0.22,
+   "zmiana_pct": 0.03,
    "dzien": {
     "data": "2026-10-27",
     "open": 4032.800049,
-    "high": 4038.899902,
-    "low": 4001.899902
+    "high": 4045.5,
+    "low": 4001.600098
    }
   },
   "silver": {
    "symbol": "SI=F",
    "opis": "Srebro futures (COMEX)",
-   "cena": 53.389999,
-   "czas_notowania_utc": "2026-10-27T12:15:00Z",
+   "cena": 53.915001,
+   "czas_notowania_utc": "2026-10-27T13:15:00Z",
    "poprzednie_zamkniecie": 54.108002,
-   "zmiana_pct": -1.327,
+   "zmiana_pct": -0.357,
    "dzien": {
     "data": "2026-10-27",
     "open": 54.075001,
@@ -59,24 +59,24 @@
   "wti": {
    "symbol": "CL=F",
    "opis": "Ropa WTI futures (NYMEX)",
-   "cena": 100.949997,
-   "czas_notowania_utc": "2026-10-27T12:15:00Z",
+   "cena": 101.120003,
+   "czas_notowania_utc": "2026-10-27T13:15:00Z",
    "poprzednie_zamkniecie": 101.760002,
-   "zmiana_pct": -0.796,
+   "zmiana_pct": -0.629,
    "dzien": {
     "data": "2026-10-27",
     "open": 101.290001,
     "high": 102.82,
-    "low": 100.550003
+    "low": 100.519997
    }
   },
   "ng": {
    "symbol": "NG=F",
    "opis": "Gaz ziemny futures (NYMEX)",
-   "cena": 3.041,
-   "czas_notowania_utc": "2026-10-27T12:15:00Z",
+   "cena": 3.009,
+   "czas_notowania_utc": "2026-10-27T13:15:00Z",
    "poprzednie_zamkniecie": 2.602,
-   "zmiana_pct": 16.872,
+   "zmiana_pct": 15.642,
    "dzien": {
     "data": "2026-10-27",
     "open": 3.044,
@@ -87,38 +87,38 @@
   "coffee": {
    "symbol": "KC=F",
    "opis": "Kawa Arabica futures (ICE US)",
-   "cena": 294.25,
-   "czas_notowania_utc": "2026-10-27T12:00:00Z",
+   "cena": 294.399994,
+   "czas_notowania_utc": "2026-10-27T13:00:00Z",
    "poprzednie_zamkniecie": 300.950012,
-   "zmiana_pct": -2.226,
+   "zmiana_pct": -2.176,
    "dzien": {
     "data": "2026-10-27",
     "open": 303.0,
     "high": 304.899994,
-    "low": 293.799988
+    "low": 293.049988
    }
   },
   "cocoa": {
    "symbol": "CC=F",
    "opis": "Kakao futures (ICE US)",
-   "cena": 5551.0,
-   "czas_notowania_utc": "2026-10-27T12:00:00Z",
+   "cena": 5612.0,
+   "czas_notowania_utc": "2026-10-27T13:00:00Z",
    "poprzednie_zamkniecie": 5490.0,
-   "zmiana_pct": 1.111,
+   "zmiana_pct": 2.222,
    "dzien": {
     "data": "2026-10-27",
     "open": 5541.0,
-    "high": 5560.0,
+    "high": 5616.0,
     "low": 5475.0
    }
   },
   "dxy": {
    "symbol": "DX-Y.NYB",
    "opis": "Indeks dolara DXY",
-   "cena": 102.176003,
-   "czas_notowania_utc": "2026-10-27T12:15:00Z",
+   "cena": 102.196999,
+   "czas_notowania_utc": "2026-10-27T13:15:00Z",
    "poprzednie_zamkniecie": 101.959999,
-   "zmiana_pct": 0.212,
+   "zmiana_pct": 0.232,
    "dzien": {
     "data": "2026-10-27",
     "open": 102.029999,
@@ -129,57 +129,57 @@
   "us10y": {
    "symbol": "^TNX",
    "opis": "Rentowność US 10Y (x10)",
-   "cena": 4.986,
-   "czas_notowania_utc": "2026-10-26T18:50:00Z",
-   "poprzednie_zamkniecie": 4.988,
-   "zmiana_pct": -0.04,
+   "cena": 4.995,
+   "czas_notowania_utc": "2026-10-27T13:05:00Z",
+   "poprzednie_zamkniecie": 4.986,
+   "zmiana_pct": 0.181,
    "dzien": {
-    "data": "2026-10-26",
-    "open": 5.003,
-    "high": 5.003,
-    "low": 4.961
+    "data": "2026-10-27",
+    "open": 4.976,
+    "high": 4.999,
+    "low": 4.972
    }
   },
   "vix": {
    "symbol": "^VIX",
    "opis": "VIX",
-   "cena": 17.790001,
-   "czas_notowania_utc": "2026-10-27T12:15:00Z",
+   "cena": 17.870001,
+   "czas_notowania_utc": "2026-10-27T13:15:00Z",
    "poprzednie_zamkniecie": 18.389999,
-   "zmiana_pct": -3.263,
+   "zmiana_pct": -2.828,
    "dzien": {
     "data": "2026-10-27",
     "open": 18.43,
     "high": 18.549999,
-    "low": 17.77
+    "low": 17.67
    }
   },
   "xauusd": {
    "symbol": "XAU/USD spot",
    "opis": "Złoto spot XAU/USD (jak XAUUSD w TradingView)",
-   "cena": 4025.16,
-   "bid": 4024.908,
-   "ask": 4025.412,
-   "czas_notowania_utc": "2026-10-27T12:32:14Z",
+   "cena": 4023.21,
+   "bid": 4022.958,
+   "ask": 4023.462,
+   "czas_notowania_utc": "2026-10-27T13:33:34Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -12.97,
+   "baza_vs_futures": -14.005,
    "futures": "GC=F",
    "dzien": {
     "data": "2026-10-27",
-    "open": 4019.83,
-    "high": 4025.9299,
-    "low": 3988.9299
+    "open": 4018.795,
+    "high": 4031.4949,
+    "low": 3987.595
    },
-   "poprzednie_zamkniecie": 4025.4299,
-   "zmiana_pct": -0.007
+   "poprzednie_zamkniecie": 4024.3949,
+   "zmiana_pct": -0.029
   },
   "xagusd": {
    "symbol": "XAG/USD spot",
    "opis": "Srebro spot XAG/USD (jak XAGUSD w TradingView)",
-   "cena": 53.5975,
-   "bid": 53.5801,
-   "ask": 53.615,
-   "czas_notowania_utc": "2026-10-27T12:32:15Z",
+   "cena": 53.8325,
+   "bid": 53.8151,
+   "ask": 53.85,
+   "czas_notowania_utc": "2026-10-27T13:33:35Z",
    "zrodlo": "Swissquote (bid/ask)",
    "baza_vs_futures": -0.017,
    "futures": "SI=F",
@@ -190,9 +190,9 @@
     "low": 52.693
    },
    "poprzednie_zamkniecie": 54.0911,
-   "zmiana_pct": -0.912
+   "zmiana_pct": -0.478
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-10-27T12:32:08Z"
+ "zaktualizowano_utc": "2026-10-27T13:33:29Z"
 }
