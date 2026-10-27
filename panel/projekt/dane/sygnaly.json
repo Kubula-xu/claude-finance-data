@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-26T14:05:00Z",
+ "aktualizacja": "2026-10-27T07:45:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -27,17 +27,17 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Odrzucenie 29345, short 29250 od 15:45 (poz. 72)."
+    "powod": "Nocny zjazd, short 29450 od 15:45 (poz. 77)."
    },
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 29200,
-    "sl": 29371,
-    "tp1": 28944,
-    "tp2": 28773,
+    "wejscie": 29450,
+    "sl": 29618,
+    "tp1": 29198,
+    "tp2": 29030,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit od 15:45",
+    "status": "oczekuje limit, 27.10",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -63,7 +63,7 @@
      1
     ],
     "makro": [
-     "NEUTRAL",
+     "SHORT",
      1
     ],
     "sentyment": [
@@ -74,18 +74,18 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Trend spadkowy, short nad 4020 (poz. 68); kontra long 3982 OCO (poz. 69)."
+    "powod": "Silniejszy dolar, short 4015 (poz. 73); kontra long 3982 OCO (poz. 74)."
    },
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 4022,
-    "sl": 4042,
-    "tp1": 3992,
-    "tp2": 3972,
+    "wejscie": 4015,
+    "sl": 4034,
+    "tp1": 3986.5,
+    "tp2": 3967.5,
     "ryzyko_pct": 0.5,
     "koszt": 0.6,
-    "status": "otwarta short 4022 od 09:45 PL; long 3982 anulowany (OCO)",
+    "status": "oczekuje limit, 27.10",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -116,7 +116,7 @@
      1
     ],
     "makro": [
-     "NEUTRAL",
+     "SHORT",
      1
     ],
     "sentyment": [
@@ -127,17 +127,17 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Short z retestu 54,30 (poz. 70)."
+    "powod": "Wybicie w dół, short z retestu 53,30 (poz. 75)."
    },
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 54.05,
-    "sl": 54.75,
-    "tp1": 53.0,
-    "tp2": 52.3,
+    "wejscie": 53.3,
+    "sl": 54.0,
+    "tp1": 52.25,
+    "tp2": 51.55,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, rewizja 15:00",
+    "status": "oczekuje limit, 27.10",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -174,17 +174,17 @@
    "final": {
     "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Cofnięcie po wybiciu, long 100,80 (poz. 71)."
+    "powod": "Trend w górę, long 101,40 (poz. 76)."
    },
    "setup": {
     "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 100.8,
-    "sl": 99.73,
-    "tp1": 102.4,
-    "tp2": 103.48,
+    "wejscie": 101.4,
+    "sl": 100.33,
+    "tp1": 103.0,
+    "tp2": 104.08,
     "ryzyko_pct": 0.25,
-    "status": "otwarta long 100,80 od 09:30 PL",
+    "status": "oczekuje limit, 27.10",
     "ksiega": "intraday",
     "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
    },
@@ -231,7 +231,7 @@
     "tp2": 3.053,
     "ryzyko_pct": 0.25,
     "koszt": 0.005,
-    "status": "brak setupu 26.10",
+    "status": "brak setupu 27.10",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -252,7 +252,7 @@
    "atr": 9.0,
    "agenci": {
     "technika": [
-     "NEUTRAL",
+     "SHORT",
      1
     ],
     "makro": [
@@ -267,7 +267,7 @@
    "final": {
     "kierunek": "NEUTRAL",
     "pewnosc": 1,
-    "powod": "Bez setupu, zakres 302–318."
+    "powod": "Wybicie pod 302, bez setupu."
    },
    "setup": {
     "kierunek": "NEUTRAL",
@@ -278,7 +278,7 @@
     "tp2": 331.8,
     "ryzyko_pct": 0.25,
     "koszt": 0.8,
-    "status": "brak setupu 26.10",
+    "status": "brak setupu 27.10",
     "ksiega": "intraday",
     "uwagi": "Okno 10:30–19:00."
    },
@@ -304,7 +304,7 @@
    "atr": 307,
    "agenci": {
     "technika": [
-     "SHORT",
+     "NEUTRAL",
      1
     ],
     "makro": [
@@ -329,7 +329,7 @@
     "tp1": 5635,
     "tp2": 5525,
     "ryzyko_pct": 0.25,
-    "status": "brak setupu 26.10",
+    "status": "brak setupu 27.10",
     "ksiega": "intraday",
     "uwagi": "Okno 10:45–19:00."
    },
