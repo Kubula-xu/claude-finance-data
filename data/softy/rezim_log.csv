@@ -7,3 +7,4 @@ czas_utc,rynek,z,na,cena,opis
 2026-10-26T16:32:17Z,kakao,wybicie_dol,zakres,5497.0,"ADX 12, cena w zakresie 10 sesji 5547.00-6023.00; nieudane wybicie dołem (5517.00 < 5547.00, zamknięcie 5592.00)"
 2026-10-26T18:04:38Z,kakao,zakres,wybicie_dol,5503.0,zamknięcie/cena pod dołkiem 10 sesji 5517.00
 2026-10-27T18:47:55Z,kakao,wybicie_dol,zakres,5577.0,"ADX 11, cena w zakresie 10 sesji 5442.00-6023.00"
+2026-10-28T13:21:32Z,kawa,zakres,wybicie_dol,285.450012,"zamknięcie/cena pod dołkiem 10 sesji 290.30; nieudane wybicie dołem (289.05 < 290.30, zamknięcie 293.75)"
