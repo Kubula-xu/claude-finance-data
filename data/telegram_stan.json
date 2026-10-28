@@ -475,7 +475,7 @@
    "tp": "4 024 / 4 008"
   },
   "80": {
-   "status": "otwarta (wypełniona 14:00 PL)",
+   "status": "zamknięta (przed FOMC, 18:30 PL)",
    "sl": "54,78",
    "tp": "53,33 / 52,75"
   },
@@ -490,5 +490,5 @@
   "rano": "2026-10-28",
   "wieczor": "2026-10-27"
  },
- "zaktualizowano_utc": "2026-10-28T18:59:17Z"
+ "zaktualizowano_utc": "2026-10-28T21:26:36Z"
 }
