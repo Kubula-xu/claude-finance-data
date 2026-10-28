@@ -1,7 +1,7 @@
 {
- "wygenerowano_utc": "2026-10-27T21:20:57Z",
- "wygenerowano_pl": "2026-10-27 22:20 PL",
- "kapital_usd": 10300243.0,
+ "wygenerowano_utc": "2026-10-28T00:39:21Z",
+ "wygenerowano_pl": "2026-10-28 01:39 PL",
+ "kapital_usd": 10297103.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
   "FRONTRUN_ATR": 0.1,
@@ -258,17 +258,17 @@
     },
     {
      "czynnik": "Sezonowość",
-     "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.9%, wzrost w 54% lat",
+     "wynik": 0.5,
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.8%, wzrost w 65% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 2.66,
-      "mediana_proc": 0.85,
-      "proc_lat_wzrost": 54
+      "srednia_proc": 3.01,
+      "mediana_proc": 2.82,
+      "proc_lat_wzrost": 65
      }
     }
    ],
-   "suma": 0.0,
+   "suma": 0.5,
    "bias": "NEUTRAL",
    "pewnosc": 1,
    "brak_danych": [],
@@ -289,7 +289,7 @@
        "rr_tp1_netto": 2.03,
        "odleglosc_atr": -0.27,
        "kontrakty": 11.4,
-       "ryzyko_usd": 51501,
+       "ryzyko_usd": 51486,
        "uzasadnienie": "granica zakresu 290.30 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "silny poziom 297.85 przed TP1: rozważyć częściowe wyjście przed nim"
@@ -306,8 +306,8 @@
        "r_atr": 2.0,
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": 2.34,
-       "kontrakty": 6.1,
-       "ryzyko_usd": 51501,
+       "kontrakty": 6.0,
+       "ryzyko_usd": 51486,
        "uzasadnienie": "wybicie zakresu za 318.20: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 2.34× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -332,7 +332,7 @@
        "rr_tp1_netto": 2.03,
        "odleglosc_atr": 2.14,
        "kontrakty": 11.4,
-       "ryzyko_usd": 51501,
+       "ryzyko_usd": 51486,
        "uzasadnienie": "granica zakresu 318.20 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 2.14× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop"
@@ -349,8 +349,8 @@
        "r_atr": 2.0,
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": -0.47,
-       "kontrakty": 6.1,
-       "ryzyko_usd": 51501,
+       "kontrakty": 6.0,
+       "ryzyko_usd": 51486,
        "uzasadnienie": "wybicie zakresu za 290.30: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "silny poziom 285.25 przed TP1: rozważyć częściowe wyjście przed nim"
@@ -371,7 +371,7 @@
     "czas_notowania_utc": "2026-10-27T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 231.14,
-    "atr_h1_sesja": 68.81,
+    "atr_h1_sesja": 68.94,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -605,12 +605,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana -0.4%, wzrost w 46% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +1.5%, wzrost w 50% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 1.69,
-      "mediana_proc": -0.42,
-      "proc_lat_wzrost": 46
+      "srednia_proc": 2.1,
+      "mediana_proc": 1.52,
+      "proc_lat_wzrost": 50
      }
     }
    ],
@@ -635,7 +635,7 @@
        "rr_tp1_netto": 1.69,
        "odleglosc_atr": -0.42,
        "kontrakty": 9.0,
-       "ryzyko_usd": 25751,
+       "ryzyko_usd": 25743,
        "uzasadnienie": "granica zakresu 5442.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "silny poziom 5655.5 przed TP1: rozważyć częściowe wyjście przed nim"
@@ -653,7 +653,7 @@
        "rr_tp1_netto": 1.74,
        "odleglosc_atr": 2.09,
        "kontrakty": 4.1,
-       "ryzyko_usd": 25751,
+       "ryzyko_usd": 25743,
        "uzasadnienie": "wybicie zakresu za 6023.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 2.09× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -678,7 +678,7 @@
        "rr_tp1_netto": 1.69,
        "odleglosc_atr": 1.89,
        "kontrakty": 9.0,
-       "ryzyko_usd": 25751,
+       "ryzyko_usd": 25743,
        "uzasadnienie": "granica zakresu 6023.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 1.89× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop"
@@ -696,7 +696,7 @@
        "rr_tp1_netto": 1.74,
        "odleglosc_atr": -0.62,
        "kontrakty": 4.1,
-       "ryzyko_usd": 25751,
+       "ryzyko_usd": 25743,
        "uzasadnienie": "wybicie zakresu za 5442.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": []
       }

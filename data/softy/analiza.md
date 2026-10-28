@@ -1,8 +1,8 @@
-# Softy: kawa i kakao, analiza z 2026-10-27 22:20 PL
+# Softy: kawa i kakao, analiza z 2026-10-28 01:39 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
-## Kawa (Arabica KC): NEUTRAL 1/5 (suma +0.0)
+## Kawa (Arabica KC): NEUTRAL 1/5 (suma +0.5)
 
 - Cena 294,25 c/lb (2026-10-27T17:15:00Z UTC). ATR D1 10,68, ATR H1 (sesja) 3,88. 5 sesji -5.5%, 20 sesji +1.7%.
 - Reżim: **zakres** (ADX 19, cena w zakresie 10 sesji 290.30-318.20; nieudane wybicie dołem (289.05 < 290.30, zamknięcie 294.25)). Zakres 10 sesji 290,30–318,20 (20 sesji 281,80–318,20), EMA20 301,46, EMA50 305,63, SMA200 306,50.
@@ -15,7 +15,7 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Krzywa | +1.0 | KCZ26.NYB vs KCH27.NYB: +4.40%, 5 dni temu +3.77%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
 | BRL | -0.5 | USD/BRL 5.344, 5 sesji +6.1%: real słabnie, sprzedaż z Brazylii tańsza |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.9%, wzrost w 54% lat |
+| Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.8%, wzrost w 65% lat |
 
 Opory: 296,07 (P, +0.17 ATR), 297,85 (swing D1 ×3, ostatnio 2026-09-30, +0.34 ATR), 300,00 (swing D1 ×1, ostatnio 2026-05-13, +0.54 ATR), 300,00 (okrągły poziom, +0.54 ATR)
 
@@ -40,7 +40,7 @@ Wsparcia: 289,05 (swing D1 ×1, ostatnio 2026-10-27, -0.49 ATR), 289,05 (dołek 
 | Pogoda | +0.5 | opad 30 dni 167% normy, prognoza 16 dni 201% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie) |
 | Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.11%, 5 dni temu -1.89%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana -0.4%, wzrost w 46% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.5%, wzrost w 50% lat |
 
 Opory: 5 641 (R1, +0.34 ATR), 5 656 (swing D1 ×2, ostatnio 2026-10-27, +0.40 ATR), 5 720 (R2, +0.68 ATR), 5 750 (okrągły poziom, +0.81 ATR)
 
