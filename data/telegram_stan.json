@@ -465,22 +465,22 @@
    "tp": "29 198 / 29 030"
   },
   "78": {
-   "status": "oczekuje (limit, OCO z #79, okno 09:00–12:00 i 14:00–18:30)",
+   "status": "anulowane (OCO: wypełniony #79; dołek dnia 4 041,8)",
    "sl": "4 002",
    "tp": "4 042 / 4 058"
   },
   "79": {
-   "status": "oczekuje (limit, OCO z #78)",
+   "status": "zamknięta (stop czasowy 12:15 PL)",
    "sl": "4 064",
    "tp": "4 024 / 4 008"
   },
   "80": {
-   "status": "oczekuje (limit, okno metali do 18:30)",
+   "status": "otwarta (wypełniona 14:00 PL)",
    "sl": "54,78",
    "tp": "53,33 / 52,75"
   },
   "81": {
-   "status": "oczekuje (limit, okno 09:00–12:00)",
+   "status": "anulowane (dołek w oknie 100,99, limit 100,90 nietknięty)",
    "sl": "99,82",
    "tp": "102,52 / 103,60"
   }
@@ -505,5 +505,5 @@
   "rano": "2026-10-28",
   "wieczor": "2026-10-27"
  },
- "zaktualizowano_utc": "2026-10-28T13:21:33Z"
+ "zaktualizowano_utc": "2026-10-28T14:00:05Z"
 }
