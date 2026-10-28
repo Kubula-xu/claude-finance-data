@@ -12,14 +12,14 @@
    ]
   },
   "gold": {
-   "kierunek": "SHORT",
+   "kierunek": "LONG",
    "pewnosc": 1,
    "setup": [
-    "SHORT",
-    4015,
-    4034,
-    3986.5,
-    3967.5
+    "LONG",
+    4018,
+    4002,
+    4042,
+    4058
    ]
   },
   "silver": {
@@ -27,10 +27,10 @@
    "pewnosc": 1,
    "setup": [
     "SHORT",
-    53.3,
-    54.0,
-    52.25,
-    51.55
+    54.2,
+    54.78,
+    53.33,
+    52.75
    ]
   },
   "wti": {
@@ -38,10 +38,10 @@
    "pewnosc": 1,
    "setup": [
     "LONG",
-    101.4,
-    100.33,
-    103.0,
-    104.08
+    100.9,
+    99.82,
+    102.52,
+    103.6
    ]
   },
   "ng": {
@@ -463,12 +463,32 @@
    "status": "anulowane (14:50 PL: NQ 29 548, szczyt 29 629 nad SL 29 618; odbicie risk-on, teza nieaktualna)",
    "sl": "29 618",
    "tp": "29 198 / 29 030"
+  },
+  "78": {
+   "status": "oczekuje (limit, OCO z #79, okno 09:00–12:00 i 14:00–18:30)",
+   "sl": "4 002",
+   "tp": "4 042 / 4 058"
+  },
+  "79": {
+   "status": "oczekuje (limit, OCO z #78)",
+   "sl": "4 064",
+   "tp": "4 024 / 4 008"
+  },
+  "80": {
+   "status": "oczekuje (limit, okno metali do 18:30)",
+   "sl": "54,78",
+   "tp": "53,33 / 52,75"
+  },
+  "81": {
+   "status": "oczekuje (limit, okno 09:00–12:00)",
+   "sl": "99,82",
+   "tp": "102,52 / 103,60"
   }
  },
  "automat": {},
  "podsumowanie": {
-  "rano": "2026-10-27",
+  "rano": "2026-10-28",
   "wieczor": "2026-10-27"
  },
- "zaktualizowano_utc": "2026-10-28T06:18:57Z"
+ "zaktualizowano_utc": "2026-10-28T07:42:19Z"
 }
