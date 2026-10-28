@@ -485,25 +485,10 @@
    "tp": "102,52 / 103,60"
   }
  },
- "automat": {
-  "78": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  },
-  "79": {
-   "stan": "otwarta",
-   "zdarzenia": [
-    "28.10 09:15 PL wejście 4048"
-   ]
-  },
-  "81": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  }
- },
+ "automat": {},
  "podsumowanie": {
   "rano": "2026-10-28",
   "wieczor": "2026-10-27"
  },
- "zaktualizowano_utc": "2026-10-28T14:00:05Z"
+ "zaktualizowano_utc": "2026-10-28T18:59:17Z"
 }
