@@ -490,7 +490,7 @@
    "tp": "4 034 / 4 010"
   },
   "83": {
-   "status": "otwarta (wypełniona 09:00 PL)",
+   "status": "zamknięta (stop czasowy 12:00 PL)",
    "sl": "4 006",
    "tp": "4 066 / 4 090"
   },
@@ -500,12 +500,12 @@
    "tp": "52,97 / 52,15"
   },
   "85": {
-   "status": "do weryfikacji (feed urwany o 09:30 PL; jeśli niewypełnione do 12:00, anulowane, bo o 15:00 cena pod SL)",
+   "status": "zamknięta (SL na BE po +1R, wybita 14:00 PL)",
    "sl": "99,98",
    "tp": "102,53 / 103,55"
   },
   "86": {
-   "status": "oczekuje (limit, okno 15:45–21:30)",
+   "status": "zamknięta TP2",
    "sl": "29 829",
    "tp": "29 382 / 29 203"
   }
@@ -532,5 +532,5 @@
   "rano": "2026-10-29",
   "wieczor": "2026-10-28"
  },
- "zaktualizowano_utc": "2026-10-29T20:52:53Z"
+ "zaktualizowano_utc": "2026-10-29T21:26:40Z"
 }
