@@ -1,8 +1,8 @@
-# Softy: kawa i kakao, analiza z 2026-10-29 00:05 PL
+# Softy: kawa i kakao, analiza z 2026-10-29 03:27 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
-## Kawa (Arabica KC): NEUTRAL 1/5 (suma -1.0)
+## Kawa (Arabica KC): NEUTRAL 2/5 (suma -1.5)
 
 - Cena 286,35 c/lb (2026-10-28T17:15:00Z UTC). ATR D1 10,73, ATR H1 (sesja) 3,52. 5 sesji -9.4%, 20 sesji -1.5%.
 - Reżim: **wybicie dol** (zamknięcie/cena pod dołkiem 10 sesji 289.05). Zakres 10 sesji 289,05–318,20 (20 sesji 283,30–318,20), EMA20 299,97, EMA50 304,85, SMA200 306,14.
@@ -15,7 +15,7 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Krzywa | +1.0 | KCZ26.NYB vs KCH27.NYB: +3.79%, 5 dni temu +4.45%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
 | BRL | -0.5 | USD/BRL 5.349, 5 sesji +6.5%: real słabnie, sprzedaż z Brazylii tańsza |
-| Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.8%, wzrost w 65% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.2%, wzrost w 62% lat |
 
 Opory: 287,85 (P, +0.14 ATR), 291,65 (R1, +0.49 ATR), 294,55 (swing D1 ×2, ostatnio 2026-10-28, +0.76 ATR), 296,95 (R2, +0.99 ATR)
 
@@ -40,7 +40,7 @@ Wsparcia: 284,85 (swing D1 ×3, ostatnio 2026-10-28, -0.14 ATR), 284,05 (dołek 
 | Pogoda | +0.5 | opad 30 dni 163% normy, prognoza 16 dni 239% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie) |
 | Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.01%, 5 dni temu -1.69%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.5%, wzrost w 50% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.0%, wzrost w 50% lat |
 
 Opory: 5 485 (P, +0.10 ATR), 5 562 (swing D1 ×3, ostatnio 2026-10-19, +0.44 ATR), 5 591 (R1, +0.57 ATR), 5 652 (swing D1 ×2, ostatnio 2026-10-28, +0.83 ATR)
 
@@ -61,9 +61,9 @@ Wsparcia: 5 412 (swing D1 ×3, ostatnio 2026-10-28, -0.22 ATR), 5 380 (dołek 5 
 
 | Data | Godz. PL | Rynek | Wydarzenie | Waga |
 |---|---|---|---|---|
-| 2026-10-28 | 19:00 | oba | FOMC (decyzja Fed; przez USD i nastrój ryzyka) | średnia |
 | 2026-10-30 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
 | 2026-11-02 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |
 | 2026-11-06 |  | oba | Okno rolowania indeksów towarowych (GSCI/BCOM roll grudzień → marzec |  5.-9. dzień roboczy listopada) |
 | 2026-11-06 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
 | 2026-11-09 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |
+| 2026-11-12 |  | kawa | Cecafé: eksport kawy z Brazylii za październik | średnia |
