@@ -5,21 +5,21 @@
    "pewnosc": 1,
    "setup": [
     "SHORT",
-    29700,
-    29879,
-    29432,
-    29253
+    29650,
+    29829,
+    29382,
+    29203
    ]
   },
   "gold": {
-   "kierunek": "SHORT",
+   "kierunek": "LONG",
    "pewnosc": 1,
    "setup": [
-    "SHORT",
-    4070,
-    4094,
-    4034,
-    4010
+    "LONG",
+    4030,
+    4006,
+    4066,
+    4090
    ]
   },
   "silver": {
@@ -485,29 +485,29 @@
    "tp": "102,52 / 103,60"
   },
   "82": {
-   "status": "oczekuje (limit, OCO z #83, okno 09:00–12:00 i 14:00–20:00)",
+   "status": "anulowane (OCO: wypełniony #83)",
    "sl": "4 094",
    "tp": "4 034 / 4 010"
   },
   "83": {
-   "status": "oczekuje (limit, OCO z #82)",
+   "status": "otwarta (wypełniona 09:00 PL)",
    "sl": "4 006",
    "tp": "4 066 / 4 090"
   },
   "84": {
-   "status": "oczekuje (limit, okno metali)",
+   "status": "anulowane (14:50 PL: srebro spadło do ok. 52, limit 54,20 nierealny)",
    "sl": "55,02",
    "tp": "52,97 / 52,15"
   },
   "85": {
-   "status": "oczekuje (limit, okno 09:00–12:00 i 15:00–20:30)",
+   "status": "do weryfikacji (feed urwany o 09:30 PL; jeśli niewypełnione do 12:00, anulowane, bo o 15:00 cena pod SL)",
    "sl": "99,98",
    "tp": "102,53 / 103,55"
   },
   "86": {
    "status": "oczekuje (limit, okno 15:45–21:30)",
-   "sl": "29 879",
-   "tp": "29 432 / 29 253"
+   "sl": "29 829",
+   "tp": "29 382 / 29 203"
   }
  },
  "automat": {
@@ -534,5 +534,5 @@
   "rano": "2026-10-29",
   "wieczor": "2026-10-28"
  },
- "zaktualizowano_utc": "2026-10-29T08:47:21Z"
+ "zaktualizowano_utc": "2026-10-29T13:56:45Z"
 }
