@@ -512,15 +512,19 @@
  },
  "automat": {
   "83": {
-   "stan": "otwarta",
+   "stan": "zamknięta",
    "zdarzenia": [
-    "29.10 09:00 PL wejście 4030"
+    "29.10 09:00 PL wejście 4030",
+    "29.10 17:00 PL SL 4006"
    ]
   },
   "86": {
-   "stan": "otwarta",
+   "stan": "zamknięta",
    "zdarzenia": [
-    "29.10 16:30 PL wejście 29650"
+    "29.10 16:30 PL wejście 29650",
+    "29.10 18:45 PL +1R, SL na BE 29650",
+    "29.10 21:00 PL TP1 29382, zamknięte 50%",
+    "29.10 21:00 PL TP2 29203"
    ]
   }
  },
@@ -528,5 +532,5 @@
   "rano": "2026-10-29",
   "wieczor": "2026-10-28"
  },
- "zaktualizowano_utc": "2026-10-29T15:51:45Z"
+ "zaktualizowano_utc": "2026-10-29T20:52:53Z"
 }
