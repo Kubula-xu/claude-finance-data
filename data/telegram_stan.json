@@ -1,25 +1,25 @@
 {
  "sygnaly": {
   "nq": {
-   "kierunek": "NEUTRAL",
+   "kierunek": "SHORT",
    "pewnosc": 1,
    "setup": [
-    "NEUTRAL",
-    29450,
-    29618,
-    29198,
-    29030
+    "SHORT",
+    29700,
+    29879,
+    29432,
+    29253
    ]
   },
   "gold": {
-   "kierunek": "LONG",
+   "kierunek": "SHORT",
    "pewnosc": 1,
    "setup": [
-    "LONG",
-    4018,
-    4002,
-    4042,
-    4058
+    "SHORT",
+    4070,
+    4094,
+    4034,
+    4010
    ]
   },
   "silver": {
@@ -28,9 +28,9 @@
    "setup": [
     "SHORT",
     54.2,
-    54.78,
-    53.33,
-    52.75
+    55.02,
+    52.97,
+    52.15
    ]
   },
   "wti": {
@@ -38,10 +38,10 @@
    "pewnosc": 1,
    "setup": [
     "LONG",
-    100.9,
-    99.82,
-    102.52,
-    103.6
+    101.0,
+    99.98,
+    102.53,
+    103.55
    ]
   },
   "ng": {
@@ -483,12 +483,37 @@
    "status": "anulowane (dołek w oknie 100,99, limit 100,90 nietknięty)",
    "sl": "99,82",
    "tp": "102,52 / 103,60"
+  },
+  "82": {
+   "status": "oczekuje (limit, OCO z #83, okno 09:00–12:00 i 14:00–20:00)",
+   "sl": "4 094",
+   "tp": "4 034 / 4 010"
+  },
+  "83": {
+   "status": "oczekuje (limit, OCO z #82)",
+   "sl": "4 006",
+   "tp": "4 066 / 4 090"
+  },
+  "84": {
+   "status": "oczekuje (limit, okno metali)",
+   "sl": "55,02",
+   "tp": "52,97 / 52,15"
+  },
+  "85": {
+   "status": "oczekuje (limit, okno 09:00–12:00 i 15:00–20:30)",
+   "sl": "99,98",
+   "tp": "102,53 / 103,55"
+  },
+  "86": {
+   "status": "oczekuje (limit, okno 15:45–21:30)",
+   "sl": "29 879",
+   "tp": "29 432 / 29 253"
   }
  },
  "automat": {},
  "podsumowanie": {
-  "rano": "2026-10-28",
+  "rano": "2026-10-29",
   "wieczor": "2026-10-28"
  },
- "zaktualizowano_utc": "2026-10-29T02:27:00Z"
+ "zaktualizowano_utc": "2026-10-29T07:42:12Z"
 }
