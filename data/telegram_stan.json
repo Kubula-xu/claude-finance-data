@@ -535,30 +535,10 @@
    "tp": "28 634 / 28 423"
   }
  },
- "automat": {
-  "88": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "30.10 14:00 PL wejście 3949",
-    "30.10 14:30 PL SL 3926"
-   ]
-  },
-  "90": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "30.10 10:00 PL wejście 103.4",
-    "30.10 12:45 PL +1R, SL na BE 103.4",
-    "30.10 16:30 PL BE 103.4"
-   ]
-  },
-  "91": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  }
- },
+ "automat": {},
  "podsumowanie": {
   "rano": "2026-10-30",
   "wieczor": "2026-10-30"
  },
- "zaktualizowano_utc": "2026-10-30T21:41:47Z"
+ "zaktualizowano_utc": "2026-10-30T22:40:05Z"
 }
