@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-10-29T14:00:00Z",
+ "aktualizacja": "2026-10-30T07:45:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -27,17 +27,17 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Odrzucenie 30178 po Fed, short 29700 (poz. 86)."
+    "powod": "Spadki, short 29150 od 15:45 (poz. 91)."
    },
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 29650,
-    "sl": 29829,
-    "tp1": 29382,
-    "tp2": 29203,
+    "wejscie": 29150,
+    "sl": 29361,
+    "tp1": 28834,
+    "tp2": 28623,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit od 15:45",
+    "status": "oczekuje limit, 30.10",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -59,7 +59,7 @@
    "atr": 82.6,
    "agenci": {
     "technika": [
-     "NEUTRAL",
+     "SHORT",
      1
     ],
     "makro": [
@@ -72,20 +72,20 @@
     ]
    },
    "final": {
-    "kierunek": "LONG",
+    "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Szarpanie po Fed, OCO short 4070 / long 4030 (poz. 82–83)."
+    "powod": "Przebite 4000, short 4002 (poz. 87); kontra long 3965 OCO (poz. 88)."
    },
    "setup": {
-    "kierunek": "LONG",
+    "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 4030,
-    "sl": 4006,
-    "tp1": 4066,
-    "tp2": 4090,
-    "ryzyko_pct": 0.25,
+    "wejscie": 4002,
+    "sl": 4025,
+    "tp1": 3967.5,
+    "tp2": 3944.5,
+    "ryzyko_pct": 0.5,
     "koszt": 0.6,
-    "status": "otwarta long 4030 od 09:00 PL",
+    "status": "oczekuje limit, 30.10",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -127,17 +127,17 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Short 54,20 (poz. 84)."
+    "powod": "Silny spadek, short 51,40 (poz. 89)."
    },
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 54.2,
-    "sl": 55.02,
-    "tp1": 52.97,
-    "tp2": 52.15,
+    "wejscie": 51.4,
+    "sl": 52.3,
+    "tp1": 50.05,
+    "tp2": 49.15,
     "ryzyko_pct": 0.25,
-    "status": "anulowane 29.10",
+    "status": "oczekuje limit, 30.10",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -163,7 +163,7 @@
      1
     ],
     "makro": [
-     "NEUTRAL",
+     "LONG",
      1
     ],
     "sentyment": [
@@ -174,17 +174,17 @@
    "final": {
     "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Long 101,00 przy dołku po Fed (poz. 85)."
+    "powod": "Trend w górę, long 102,70 (poz. 90)."
    },
    "setup": {
     "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 101.0,
-    "sl": 99.98,
-    "tp1": 102.53,
-    "tp2": 103.55,
+    "wejscie": 102.7,
+    "sl": 101.65,
+    "tp1": 104.28,
+    "tp2": 105.33,
     "ryzyko_pct": 0.25,
-    "status": "do weryfikacji",
+    "status": "oczekuje limit, 30.10",
     "ksiega": "intraday",
     "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
    },
@@ -231,7 +231,7 @@
     "tp2": 3.053,
     "ryzyko_pct": 0.25,
     "koszt": 0.005,
-    "status": "brak setupu 29.10",
+    "status": "brak setupu 30.10",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -267,7 +267,7 @@
    "final": {
     "kierunek": "NEUTRAL",
     "pewnosc": 1,
-    "powod": "Spadek do 284, bez setupu."
+    "powod": "Spadek do 281, bez setupu."
    },
    "setup": {
     "kierunek": "NEUTRAL",
@@ -278,7 +278,7 @@
     "tp2": 331.8,
     "ryzyko_pct": 0.25,
     "koszt": 0.8,
-    "status": "brak setupu 29.10",
+    "status": "brak setupu 30.10",
     "ksiega": "intraday",
     "uwagi": "Okno 10:30–19:00."
    },
@@ -329,7 +329,7 @@
     "tp1": 5635,
     "tp2": 5525,
     "ryzyko_pct": 0.25,
-    "status": "brak setupu 29.10",
+    "status": "brak setupu 30.10",
     "ksiega": "intraday",
     "uwagi": "Okno 10:45–19:00."
    },
