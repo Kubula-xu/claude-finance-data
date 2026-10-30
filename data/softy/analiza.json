@@ -1,7 +1,7 @@
 {
- "wygenerowano_utc": "2026-10-30T20:28:01Z",
- "wygenerowano_pl": "2026-10-30 21:28 PL",
- "kapital_usd": 10376696.0,
+ "wygenerowano_utc": "2026-10-30T22:15:38Z",
+ "wygenerowano_pl": "2026-10-30 23:15 PL",
+ "kapital_usd": 10370265.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
   "FRONTRUN_ATR": 0.1,
@@ -166,7 +166,7 @@
      "dane": {
       "proc_normy_30d": 138,
       "proc_normy_16d": 111,
-      "aktualizacja": "2026-10-30T20:27:01Z",
+      "aktualizacja": "2026-10-30T22:14:40Z",
       "regiony": {
        "sul_de_minas": [
         189,
@@ -250,10 +250,10 @@
     {
      "czynnik": "BRL",
      "wynik": -0.5,
-     "opis": "USD/BRL 5.445, 5 sesji +7.8%: real słabnie, sprzedaż z Brazylii tańsza",
+     "opis": "USD/BRL 5.440, 5 sesji +7.7%: real słabnie, sprzedaż z Brazylii tańsza",
      "dane": {
-      "usdbrl": 5.4454,
-      "zmiana_5d_proc": 7.83
+      "usdbrl": 5.4397,
+      "zmiana_5d_proc": 7.72
      }
     },
     {
@@ -289,7 +289,7 @@
        "rr_tp1_netto": 2.79,
        "odleglosc_atr": -0.49,
        "kontrakty": 11.4,
-       "ryzyko_usd": 51883,
+       "ryzyko_usd": 51851,
        "uzasadnienie": "granica zakresu 280.80 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "silny poziom 297.85 przed TP1: rozważyć częściowe wyjście przed nim"
@@ -307,7 +307,7 @@
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": 2.97,
        "kontrakty": 6.0,
-       "ryzyko_usd": 51883,
+       "ryzyko_usd": 51851,
        "uzasadnienie": "wybicie zakresu za 318.20: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 2.97× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -332,7 +332,7 @@
        "rr_tp1_netto": 2.79,
        "odleglosc_atr": 2.77,
        "kontrakty": 11.4,
-       "ryzyko_usd": 51883,
+       "ryzyko_usd": 51851,
        "uzasadnienie": "granica zakresu 318.20 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 2.77× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -351,7 +351,7 @@
        "rr_tp1_netto": 1.82,
        "odleglosc_atr": -0.69,
        "kontrakty": 6.0,
-       "ryzyko_usd": 51883,
+       "ryzyko_usd": 51851,
        "uzasadnienie": "wybicie zakresu za 280.80: zmiana reżimu, wejście z kontynuacji",
        "uwagi": []
       }
@@ -517,7 +517,7 @@
      "dane": {
       "proc_normy_30d": 169,
       "proc_normy_16d": 214,
-      "aktualizacja": "2026-10-30T20:27:01Z",
+      "aktualizacja": "2026-10-30T22:14:40Z",
       "regiony": {
        "soubre": [
         112,
@@ -635,7 +635,7 @@
        "rr_tp1_netto": 1.53,
        "odleglosc_atr": -0.22,
        "kontrakty": 9.4,
-       "ryzyko_usd": 25942,
+       "ryzyko_usd": 25926,
        "uzasadnienie": "granica zakresu 5380.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "silny poziom 5556.25 przed TP1: rozważyć częściowe wyjście przed nim"
@@ -653,7 +653,7 @@
        "rr_tp1_netto": 1.74,
        "odleglosc_atr": 2.12,
        "kontrakty": 4.2,
-       "ryzyko_usd": 25942,
+       "ryzyko_usd": 25926,
        "uzasadnienie": "wybicie zakresu za 5903.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 2.12× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -678,7 +678,7 @@
        "rr_tp1_netto": 1.53,
        "odleglosc_atr": 1.92,
        "kontrakty": 9.4,
-       "ryzyko_usd": 25942,
+       "ryzyko_usd": 25926,
        "uzasadnienie": "granica zakresu 5903.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 1.92× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -697,7 +697,7 @@
        "rr_tp1_netto": 1.74,
        "odleglosc_atr": -0.42,
        "kontrakty": 4.2,
-       "ryzyko_usd": 25942,
+       "ryzyko_usd": 25926,
        "uzasadnienie": "wybicie zakresu za 5380.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": []
       }
@@ -770,7 +770,7 @@
   }
  ],
  "status_danych": {
-  "uruchomiono_utc": "2026-10-30T20:27:01Z",
+  "uruchomiono_utc": "2026-10-30T22:14:40Z",
   "bledy": {
    "ice_parse_kawa": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
    "ice_parse_kakao": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
@@ -784,11 +784,11 @@
    "dlugie": "coffee (świeże), cocoa (świeże)"
   },
   "ostatni_sukces_utc": {
-   "cot": "2026-10-30T20:27:01Z",
-   "pogoda": "2026-10-30T20:27:01Z",
-   "krzywa": "2026-10-30T20:27:01Z",
-   "fx": "2026-10-30T20:27:01Z",
-   "dlugie": "2026-10-30T20:27:01Z",
+   "cot": "2026-10-30T22:14:40Z",
+   "pogoda": "2026-10-30T22:14:40Z",
+   "krzywa": "2026-10-30T22:14:40Z",
+   "fx": "2026-10-30T22:14:40Z",
+   "dlugie": "2026-10-30T22:14:40Z",
    "ice": "2026-10-21T18:42:06Z"
   }
  },

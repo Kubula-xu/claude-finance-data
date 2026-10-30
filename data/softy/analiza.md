@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-10-30 21:28 PL
+# Softy: kawa i kakao, analiza z 2026-10-30 23:15 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -14,7 +14,7 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Pogoda | -1.0 | opad 30 dni 138% normy, prognoza 16 dni 111% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
 | Krzywa | +1.0 | KCZ26.NYB vs KCH27.NYB: +3.91%, 5 dni temu +4.11%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
-| BRL | -0.5 | USD/BRL 5.445, 5 sesji +7.8%: real słabnie, sprzedaż z Brazylii tańsza |
+| BRL | -0.5 | USD/BRL 5.440, 5 sesji +7.7%: real słabnie, sprzedaż z Brazylii tańsza |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.6%, wzrost w 58% lat |
 
 Opory: 291,33 (R1, +0.39 ATR), 291,50 (swing D1 ×1, ostatnio 2026-10-30, +0.40 ATR), 295,52 (R2, +0.77 ATR), 297,85 (swing D1 ×3, ostatnio 2026-09-30, +0.99 ATR)
