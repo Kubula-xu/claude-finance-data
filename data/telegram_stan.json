@@ -536,17 +536,20 @@
   }
  },
  "automat": {
-  "87": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  },
   "88": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "zamknięta",
+   "zdarzenia": [
+    "30.10 14:00 PL wejście 3949",
+    "30.10 14:30 PL SL 3926"
+   ]
   },
   "90": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "zamknięta",
+   "zdarzenia": [
+    "30.10 10:00 PL wejście 103.4",
+    "30.10 12:45 PL +1R, SL na BE 103.4",
+    "30.10 16:30 PL BE 103.4"
+   ]
   },
   "91": {
    "stan": "oczekuje",
@@ -557,5 +560,5 @@
   "rano": "2026-10-30",
   "wieczor": "2026-10-29"
  },
- "zaktualizowano_utc": "2026-10-30T13:52:15Z"
+ "zaktualizowano_utc": "2026-10-30T18:43:54Z"
 }
