@@ -515,22 +515,22 @@
    "tp": "3 967,5 / 3 944,5"
   },
   "88": {
-   "status": "otwarta (wypełnienie 14:00 PL na otwarciu okna, cena już pod limitem)",
+   "status": "zamknięta SL",
    "sl": "3 926",
    "tp": "3 983,5 / 4 006,5"
   },
   "89": {
-   "status": "oczekuje (limit, okno metali)",
+   "status": "anulowane (szczyt po rewizji 50,06, limit 50,30 nietknięty; srebro do 48,9)",
    "sl": "51,20",
    "tp": "48,95 / 48,05"
   },
   "90": {
-   "status": "oczekuje (limit, okno 09:00–12:00 i 15:00–20:30)",
+   "status": "zamknięta (50% TP1 104,98; reszta BE 103,40 o 20:15 PL)",
    "sl": "102,35",
    "tp": "104,98 / 106,03"
   },
   "91": {
-   "status": "oczekuje (limit, okno 15:45–21:00, piątek)",
+   "status": "anulowane (szczyt w oknie 28 860, limit 28 950 nietknięty; NQ zjechał do 28 297)",
    "sl": "29 161",
    "tp": "28 634 / 28 423"
   }
@@ -560,5 +560,5 @@
   "rano": "2026-10-30",
   "wieczor": "2026-10-29"
  },
- "zaktualizowano_utc": "2026-10-30T18:43:54Z"
+ "zaktualizowano_utc": "2026-10-30T21:26:13Z"
 }
