@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-29T22:43:19Z",
- "wygenerowano_pl": "2026-10-29 23:43 PL",
+ "wygenerowano_utc": "2026-10-30T00:37:25Z",
+ "wygenerowano_pl": "2026-10-30 01:37 PL",
  "kapital_usd": 10376696.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -259,12 +259,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +1.2%, wzrost w 62% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +1.6%, wzrost w 58% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 3.32,
-      "mediana_proc": 1.23,
-      "proc_lat_wzrost": 62
+      "srednia_proc": 4.1,
+      "mediana_proc": 1.64,
+      "proc_lat_wzrost": 58
      }
     }
    ],
@@ -372,7 +372,7 @@
     "czas_notowania_utc": "2026-10-29T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 227.71,
-    "atr_h1_sesja": 69.74,
+    "atr_h1_sesja": 70.0,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -607,12 +607,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +1.0%, wzrost w 50% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.1%, wzrost w 58% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 2.26,
-      "mediana_proc": 1.05,
-      "proc_lat_wzrost": 50
+      "srednia_proc": 2.98,
+      "mediana_proc": 2.09,
+      "proc_lat_wzrost": 58
      }
     }
    ],
@@ -761,6 +761,14 @@
    "wydarzenie": "Cecafé: eksport kawy z Brazylii za październik",
    "waga": "średnia",
    "uwagi": "data orientacyjna (zwykle około połowy miesiąca)"
+  },
+  {
+   "data": "2026-11-13",
+   "godzina_pl": "21:30",
+   "rynek": "oba",
+   "wydarzenie": "CFTC COT (stan na wtorek)",
+   "waga": "średnia",
+   "uwagi": "cykliczne"
   }
  ],
  "status_danych": {

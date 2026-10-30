@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-10-29 23:43 PL
+# Softy: kawa i kakao, analiza z 2026-10-30 01:37 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -15,7 +15,7 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Krzywa | +0.5 | KCZ26.NYB vs KCH27.NYB: +3.32%, 5 dni temu +4.45%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
 | BRL | -0.5 | USD/BRL 5.385, 5 sesji +7.3%: real słabnie, sprzedaż z Brazylii tańsza |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.2%, wzrost w 62% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.6%, wzrost w 58% lat |
 
 Opory: 288,65 (swing D1 ×1, ostatnio 2026-10-29, +0.20 ATR), 289,87 (R1, +0.31 ATR), 293,18 (R2, +0.62 ATR), 297,85 (swing D1 ×3, ostatnio 2026-09-30, +1.05 ATR)
 
@@ -40,7 +40,7 @@ Wsparcia: 285,33 (P, -0.11 ATR), 285,25 (swing D1 ×2, ostatnio 2026-10-12, -0.1
 | Pogoda | +0.5 | opad 30 dni 166% normy, prognoza 16 dni 231% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie) |
 | Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.90%, 5 dni temu -1.69%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.0%, wzrost w 50% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.1%, wzrost w 58% lat |
 
 Opory: 5 540 (R1, +0.36 ATR), 5 558 (swing D1 ×4, ostatnio 2026-10-29, +0.43 ATR), 5 621 (R2, +0.71 ATR), 5 687 (szczyt 5 sesji, +1.00 ATR)
 
@@ -67,3 +67,4 @@ Wsparcia: 5 415 (swing D1 ×3, ostatnio 2026-10-29, -0.19 ATR), 5 383 (S1, -0.33
 | 2026-11-06 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
 | 2026-11-09 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |
 | 2026-11-12 |  | kawa | Cecafé: eksport kawy z Brazylii za październik | średnia |
+| 2026-11-13 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |

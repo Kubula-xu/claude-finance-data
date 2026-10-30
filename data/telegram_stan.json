@@ -510,27 +510,10 @@
    "tp": "29 382 / 29 203"
   }
  },
- "automat": {
-  "83": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "29.10 09:00 PL wejście 4030",
-    "29.10 17:00 PL SL 4006"
-   ]
-  },
-  "86": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "29.10 16:30 PL wejście 29650",
-    "29.10 18:45 PL +1R, SL na BE 29650",
-    "29.10 21:00 PL TP1 29382, zamknięte 50%",
-    "29.10 21:00 PL TP2 29203"
-   ]
-  }
- },
+ "automat": {},
  "podsumowanie": {
   "rano": "2026-10-29",
   "wieczor": "2026-10-29"
  },
- "zaktualizowano_utc": "2026-10-29T21:42:25Z"
+ "zaktualizowano_utc": "2026-10-30T00:37:26Z"
 }
