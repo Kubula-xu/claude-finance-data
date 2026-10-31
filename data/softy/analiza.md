@@ -1,10 +1,10 @@
-# Softy: kawa i kakao, analiza z 2026-10-30 23:40 PL
+# Softy: kawa i kakao, analiza z 2026-10-31 02:51 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
-## Kawa (Arabica KC): NEUTRAL 1/5 (suma +0.5)
+## Kawa (Arabica KC): NEUTRAL 1/5 (suma +1.0)
 
-- Cena 287,15 c/lb (2026-10-30T17:15:00Z UTC). ATR D1 10,81, ATR H1 (sesja) 3,33. 5 sesji -6.6%, 20 sesji -0.6%.
+- Cena 287,15 c/lb (2026-10-30T17:15:00Z UTC). ATR D1 10,81, ATR H1 (sesja) 3,30. 5 sesji -6.6%, 20 sesji -0.6%.
 - Reżim: **zakres** (ADX 19, cena w zakresie 10 sesji 280.80-318.20). Zakres 10 sesji 280,80–318,20 (20 sesji 280,80–318,20), EMA20 297,53, EMA50 303,44, SMA200 305,43.
 
 | Czynnik | Wynik | Opis |
@@ -15,7 +15,7 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Krzywa | +1.0 | KCZ26.NYB vs KCH27.NYB: +3.91%, 5 dni temu +4.11%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
 | BRL | -0.5 | USD/BRL 5.440, 5 sesji +7.7%: real słabnie, sprzedaż z Brazylii tańsza |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.6%, wzrost w 58% lat |
+| Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +3.6%, wzrost w 65% lat |
 
 Opory: 291,33 (R1, +0.39 ATR), 291,50 (swing D1 ×1, ostatnio 2026-10-30, +0.40 ATR), 295,52 (R2, +0.77 ATR), 297,85 (swing D1 ×3, ostatnio 2026-09-30, +0.99 ATR)
 
@@ -28,7 +28,7 @@ Wsparcia: 284,60 (swing D1 ×3, ostatnio 2026-10-30, -0.24 ATR), 283,13 (S1, -0.
 | SHORT | limit: granica zakresu 318.20 (10 sesji), TP1 przed przeciwną granicą | 317,12 | 327,93 | 281,88 / 276,48 | 2.79 | +2.77 ATR | 11 | limit 2.77× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 284.6 przed TP1: rozważyć częściowe wyjście przed nim |
 | SHORT | stop: wybicie zakresu za 280.80: zmiana reżimu, wejście z kontynuacji | 279,72 | 301,33 | 236,49 / 214,88 | 1.82 | -0.69 ATR | 6 | ok |
 
-## Kakao (NY CC): NEUTRAL 1/5 (suma +1.0)
+## Kakao (NY CC): NEUTRAL 2/5 (suma +1.5)
 
 - Cena 5 454 USD/t (2026-10-30T17:15:00Z UTC). ATR D1 223, ATR H1 (sesja) 68. 5 sesji -2.5%, 20 sesji -3.8%.
 - Reżim: **zakres** (ADX 11, cena w zakresie 10 sesji 5380.00-5903.00; nieudane wybicie dołem (5356.00 < 5380.00, zamknięcie 5454.00)). Zakres 10 sesji 5 380–5 903 (20 sesji 5 380–6 023), EMA20 5 608, EMA50 5 625, SMA200 4 581.
@@ -40,7 +40,7 @@ Wsparcia: 284,60 (swing D1 ×3, ostatnio 2026-10-30, -0.24 ATR), 283,13 (S1, -0.
 | Pogoda | +0.5 | opad 30 dni 169% normy, prognoza 16 dni 214% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie) |
 | Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.87%, 5 dni temu -2.03%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.1%, wzrost w 58% lat |
+| Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.0%, wzrost w 69% lat |
 
 Opory: 5 544 (R1, +0.40 ATR), 5 556 (swing D1 ×4, ostatnio 2026-10-30, +0.46 ATR), 5 622 (szczyt 5 sesji, +0.75 ATR), 5 634 (R2, +0.81 ATR)
 
@@ -61,7 +61,6 @@ Wsparcia: 5 404 (swing D1 ×3, ostatnio 2026-10-30, -0.22 ATR), 5 360 (S1, -0.42
 
 | Data | Godz. PL | Rynek | Wydarzenie | Waga |
 |---|---|---|---|---|
-| 2026-10-30 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
 | 2026-11-02 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |
 | 2026-11-06 |  | oba | Okno rolowania indeksów towarowych (GSCI/BCOM roll grudzień → marzec |  5.-9. dzień roboczy listopada) |
 | 2026-11-06 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |

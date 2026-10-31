@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-10-30T22:40:04Z",
- "wygenerowano_pl": "2026-10-30 23:40 PL",
+ "wygenerowano_utc": "2026-10-31T01:51:13Z",
+ "wygenerowano_pl": "2026-10-31 02:51 PL",
  "kapital_usd": 10370265.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -18,7 +18,7 @@
     "czas_notowania_utc": "2026-10-30T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 10.81,
-    "atr_h1_sesja": 3.33,
+    "atr_h1_sesja": 3.3,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -258,17 +258,17 @@
     },
     {
      "czynnik": "Sezonowość",
-     "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +1.6%, wzrost w 58% lat",
+     "wynik": 0.5,
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +3.6%, wzrost w 65% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 4.1,
-      "mediana_proc": 1.64,
-      "proc_lat_wzrost": 58
+      "srednia_proc": 4.46,
+      "mediana_proc": 3.6,
+      "proc_lat_wzrost": 65
      }
     }
    ],
-   "suma": 0.5,
+   "suma": 1.0,
    "bias": "NEUTRAL",
    "pewnosc": 1,
    "brak_danych": [],
@@ -370,7 +370,7 @@
     "czas_notowania_utc": "2026-10-30T17:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 223.21,
-    "atr_h1_sesja": 68.24,
+    "atr_h1_sesja": 68.31,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -604,19 +604,19 @@
     },
     {
      "czynnik": "Sezonowość",
-     "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.1%, wzrost w 58% lat",
+     "wynik": 0.5,
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.0%, wzrost w 69% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 2.98,
-      "mediana_proc": 2.09,
-      "proc_lat_wzrost": 58
+      "srednia_proc": 3.77,
+      "mediana_proc": 2.0,
+      "proc_lat_wzrost": 69
      }
     }
    ],
-   "suma": 1.0,
+   "suma": 1.5,
    "bias": "NEUTRAL",
-   "pewnosc": 1,
+   "pewnosc": 2,
    "brak_danych": [],
    "plan": [
     {
@@ -709,14 +709,6 @@
   }
  },
  "kalendarz": [
-  {
-   "data": "2026-10-30",
-   "godzina_pl": "21:30",
-   "rynek": "oba",
-   "wydarzenie": "CFTC COT (stan na wtorek)",
-   "waga": "średnia",
-   "uwagi": "cykliczne"
-  },
   {
    "data": "2026-11-02",
    "godzina_pl": "rano",
