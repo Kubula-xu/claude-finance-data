@@ -181,18 +181,18 @@
    "ask": 49.144,
    "czas_notowania_utc": "2026-10-30T21:55:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -0.102,
+   "baza_vs_futures": -0.143,
    "futures": "SI=F",
    "dzien": {
     "data": "2026-10-30",
-    "open": 52.1533,
-    "high": 52.2132,
-    "low": 48.7933
+    "open": 52.1125,
+    "high": 52.1725,
+    "low": 48.7525
    },
-   "poprzednie_zamkniecie": 52.0893,
-   "zmiana_pct": -5.71
+   "poprzednie_zamkniecie": 52.0485,
+   "zmiana_pct": -5.636
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-11-01T11:27:12Z"
+ "zaktualizowano_utc": "2026-11-01T17:13:23Z"
 }
