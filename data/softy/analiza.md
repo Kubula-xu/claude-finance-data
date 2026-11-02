@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-11-01 22:24 PL
+# Softy: kawa i kakao, analiza z 2026-11-02 01:47 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -15,7 +15,7 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Krzywa | +0.5 | KCZ26.NYB vs KCH27.NYB: +3.91%, 5 dni temu +4.95%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
 | BRL | -0.5 | USD/BRL 5.382, 5 sesji +8.5%: real słabnie, sprzedaż z Brazylii tańsza |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.7%, wzrost w 58% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.9%, wzrost w 58% lat |
 
 Opory: 291,33 (R1, +0.39 ATR), 291,50 (swing D1 ×1, ostatnio 2026-10-30, +0.40 ATR), 295,52 (R2, +0.77 ATR), 297,85 (swing D1 ×3, ostatnio 2026-09-30, +0.99 ATR)
 
@@ -40,7 +40,7 @@ Wsparcia: 284,60 (swing D1 ×3, ostatnio 2026-10-30, -0.24 ATR), 283,13 (S1, -0.
 | Pogoda | +0.5 | opad 30 dni 170% normy, prognoza 16 dni 237% normy (średnia ważona regionów); Ekwador bardzo mokro (powodzie) |
 | Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.87%, 5 dni temu -1.86%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
-| Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +4.1%, wzrost w 69% lat |
+| Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +4.9%, wzrost w 65% lat |
 
 Opory: 5 544 (R1, +0.40 ATR), 5 556 (swing D1 ×4, ostatnio 2026-10-30, +0.46 ATR), 5 622 (szczyt 5 sesji, +0.75 ATR), 5 634 (R2, +0.81 ATR)
 
@@ -67,3 +67,5 @@ Wsparcia: 5 404 (swing D1 ×3, ostatnio 2026-10-30, -0.22 ATR), 5 360 (S1, -0.42
 | 2026-11-09 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |
 | 2026-11-12 |  | kawa | Cecafé: eksport kawy z Brazylii za październik | średnia |
 | 2026-11-13 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
+| 2026-11-16 |  | kakao | First Notice Day kakao XII (CCZ26) wg reguły ICE (10 dni rob. przed 1. dniem rob. miesiąca) | średnia |
+| 2026-11-16 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |

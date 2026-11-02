@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-01T21:24:12Z",
- "wygenerowano_pl": "2026-11-01 22:24 PL",
+ "wygenerowano_utc": "2026-11-02T00:47:23Z",
+ "wygenerowano_pl": "2026-11-02 01:47 PL",
  "kapital_usd": 10370265.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -259,11 +259,11 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.7%, wzrost w 58% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.9%, wzrost w 58% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 3.68,
-      "mediana_proc": 2.72,
+      "srednia_proc": 2.83,
+      "mediana_proc": 0.91,
       "proc_lat_wzrost": 58
      }
     }
@@ -605,12 +605,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.5,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +4.1%, wzrost w 69% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +4.9%, wzrost w 65% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 3.91,
-      "mediana_proc": 4.05,
-      "proc_lat_wzrost": 69
+      "srednia_proc": 4.23,
+      "mediana_proc": 4.88,
+      "proc_lat_wzrost": 65
      }
     }
    ],
@@ -758,6 +758,22 @@
    "rynek": "oba",
    "wydarzenie": "CFTC COT (stan na wtorek)",
    "waga": "średnia",
+   "uwagi": "cykliczne"
+  },
+  {
+   "data": "2026-11-16",
+   "godzina_pl": "",
+   "rynek": "kakao",
+   "wydarzenie": "First Notice Day kakao XII (CCZ26) wg reguły ICE (10 dni rob. przed 1. dniem rob. miesiąca)",
+   "waga": "średnia",
+   "uwagi": "sprawdzić w kalendarzu ICE; przejście na marzec"
+  },
+  {
+   "data": "2026-11-16",
+   "godzina_pl": "rano",
+   "rynek": "kakao",
+   "wydarzenie": "przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów)",
+   "waga": "średnia-wysoka",
    "uwagi": "cykliczne"
   }
  ],
