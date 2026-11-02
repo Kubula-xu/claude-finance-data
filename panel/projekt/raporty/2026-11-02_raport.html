@@ -1,0 +1,72 @@
+<title>Poniedziałek 2.11 · +12 557 USD · kapitał 10 382 822</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: jedna kolumna listu do inwestorów, tabele z liczbami w monospace, blok wskaźników u góry */
+:root{
+  --bg:#f5f7f9; --paper:#ffffff; --ink:#15202b; --muted:#566573; --line:#d9e0e6;
+  --accent:#1c4e80; --up:#1d7a4f; --down:#b23a3a; --wait:#8a6a12; --chip:#eaf0f6;
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f151b; --paper:#161e26; --ink:#e4eaf0; --muted:#97a6b4; --line:#2a3642;
+  --accent:#7fb0e0; --up:#5cc293; --down:#ec7f7f; --wait:#d9b55a; --chip:#1f2a35; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f151b; --paper:#161e26; --ink:#e4eaf0; --muted:#97a6b4; --line:#2a3642;
+  --accent:#7fb0e0; --up:#5cc293; --down:#ec7f7f; --wait:#d9b55a; --chip:#1f2a35; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--body);padding:0 16px}
+main{max-width:860px;margin:0 auto;padding-block:32px 56px;display:flex;flex-direction:column;gap:36px}
+header{display:flex;flex-direction:column;gap:6px;border-bottom:2px solid var(--ink);padding-bottom:18px}
+.eyebrow{font:500 12px/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font:600 clamp(28px,5vw,40px)/1.15 var(--display);margin:0;text-wrap:balance}
+h2{font:600 22px/1.25 var(--display);margin:0 0 12px;text-wrap:balance}
+p{margin:0;max-width:68ch}
+section{display:flex;flex-direction:column;gap:12px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.kpi{background:var(--paper);padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.kpi b{font:500 22px/1.2 var(--mono);font-variant-numeric:tabular-nums}
+.kpi span{font-size:12px;color:var(--muted)}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,1fr)}}
+.tbl{overflow-x:auto;border:1px solid var(--line);background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 11px/1.3 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.n{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.pill{display:inline-block;font:500 11px/1 var(--mono);padding:4px 7px;border-radius:3px;background:var(--chip);white-space:nowrap}
+.long{color:var(--up)} .short{color:var(--down)} .wait{color:var(--wait)}
+.note{font-size:13px;color:var(--muted)}
+blockquote{margin:0;padding:12px 16px;background:var(--paper);border-left:3px solid var(--accent);display:flex;flex-direction:column;gap:4px}
+blockquote q{font:500 17px/1.45 var(--display);quotes:"„" "”"}
+blockquote small{color:var(--muted);font-size:12.5px}
+.quotes{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:640px){.quotes{grid-template-columns:1fr}}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;max-width:72ch}
+a{color:var(--accent)}
+footer{border-top:1px solid var(--line);padding-top:14px;font-size:12.5px;color:var(--muted)}
+.lead{font:500 18px/1.55 var(--display);max-width:62ch}
+h3{font:600 17px/1.3 var(--display);margin:8px 0 0}
+.chart{overflow-x:auto;background:var(--paper);border:1px solid var(--line);padding:8px}
+.chart svg{display:block;width:100%;min-width:420px;height:auto}
+.chart text{font:11px var(--mono);fill:var(--muted)}
+.chart .grid{stroke:var(--line);stroke-width:1}
+.chart .base{stroke:var(--muted);stroke-dasharray:3 4;stroke-width:1}
+.chart .line{fill:none;stroke:var(--accent);stroke-width:2.5}
+.chart .area{fill:var(--accent);opacity:.12}
+.chart .dot{fill:var(--accent)}
+</style>
+<main>
+<header>
+  <div class="eyebrow">Claude Finance · Raport dla inwestorów</div>
+  <h1>Nasdaq znowu do drugiego celu, złoto wyskoczyło nam w twarz</h1>
+  <div class="note">Poniedziałek, 2 listopada 2026 · po zamknięciu dnia · rachunek papierowy na prawdziwych notowaniach</div>
+</header>
+<section>
+  <p class="lead">+12 557 USD na start listopada. Nasdaq short zrobił pełne +2R, ale złoto i srebro oddały większość.</p>
+  <div class="kpis"><div class="kpi"><span>Wartość rachunku</span><b class="">10 382 822</b><span>USD, po zamknięciu dnia</span></div><div class="kpi"><span>Wynik dnia</span><b class="long">+12 557</b><span>USD, +0,76 R</span></div><div class="kpi"><span>Od startu (8.10)</span><b class="long">+3,83%</b><span>+382 822 USD</span></div><div class="kpi"><span>Transakcje</span><b class="">3</b><span>dziś zamknięte · 53 od startu</span></div></div>
+  <p>Na koniec dnia rachunek ma 10 382 822 USD. Dzisiaj zarobiliśmy 12 557 USD (+0,76 R), zamknięte transakcje: 3. Od startu 8.10 to +382 822 USD (+3,83%).</p>
+</section>
+<section><h2>Transakcje dnia</h2><div class="tbl"><table><thead><tr><th>Instrument</th><th>Kierunek</th><th>Wejście</th><th>Stop</th><th>Zamknięcie</th><th>Wielkość</th><th>Wynik</th></tr></thead><tbody><tr><td>Złoto (XAUUSD spot)</td><td><span class="pill short">SHORT</span></td><td class="n">3 920</td><td class="n">3 946</td><td class="n">3 946</td><td class="n">997 oz</td><td class="n short">−25 922 USD<br>−1,00R</td></tr><tr><td>Srebro (XAGUSD spot)</td><td><span class="pill short">SHORT</span></td><td class="n">50,70</td><td class="n">51,56</td><td class="n">50,91</td><td class="n">30 100 oz</td><td class="n short">−6 321 USD<br>−0,24R</td></tr><tr><td>Nasdaq 100</td><td><span class="pill short">SHORT</span></td><td class="n">28 820</td><td class="n">29 044</td><td class="n">28 484 / 28 260</td><td class="n">5 NQ</td><td class="n long">+44 800 USD<br>+2,00R</td></tr></tbody></table></div></section><section><h2>Jak minął dzień</h2><p>O 14:30 rynki dostały kopa. Złoto skoczyło w kilka minut o ok. 55 USD, z 3 902 do 3 944, ropa w tym samym czasie zjechała do 97,1. Nasz short na złocie z 3 920 wszedł właśnie w tym skoku, a godzinę później złoto doszło do 3 960 i wybiło stop na 3 946: −25 922 USD (−1,00R). Wieczorem złoto stało ok. 3 961.</p><p>Srebro też wyskoczyło. Short z 50,70 wszedł o 14:30, cena doszła do 51,24 (stop był na 51,56), potem wróciła tylko do 50,57. W trzy godziny bez +0,5R, więc stop czasowy zamknął je po 50,91: −6 321 USD.</p><p>Za to Nasdaq to książkowa transakcja. Trend dalej spadkowy, po weekendzie indeks odbił, a limit przesunęliśmy na 28 820. Weszło o 16:15, o 18:15 było +1R i stop na cenie wejścia, o 19:30 pierwszy cel 28 484, a o 20:30 drugi, 28 260. Pełne +44 800 USD, +2,00R. Wieczorem Nasdaq był już na 28 102. Drugi raz w ciągu kilku dni Nasdaq short dowozi oba cele.</p><p>Przy okazji wyszedł błąd: okno handlu na US100 było ustawione od 15:45, choć zgodnie z decyzją Kuby z 13.10 powinno być inaczej. Dziś zostało poprawione. Ropa short nie wszedł: limit 101,70 był za wysoko, a ropa zjechała do 97,1.</p></section><section><h2>Decyzje koordynatora na ostatnią sesję</h2><div class="tbl"><table><thead><tr><th>Rynek</th><th>Decyzja</th><th>Dlaczego</th></tr></thead><tbody><tr><td>Nasdaq 100</td><td><span class="pill short">SHORT</span></td><td>Trend spadkowy, short 28950 (poz. 96).</td></tr><tr><td>Złoto</td><td><span class="pill short">SHORT</span></td><td>Konsolidacja po spadku, OCO short 3920 / long 3880 (poz. 92–93).</td></tr><tr><td>Srebro</td><td><span class="pill short">SHORT</span></td><td>Odbicie w trendzie spadkowym, short 50,70 (poz. 94).</td></tr><tr><td>Ropa WTI</td><td><span class="pill short">SHORT</span></td><td>Zjazd 104→100, short z retestu 101,70 (poz. 95).</td></tr><tr><td>Gaz ziemny</td><td><span class="pill wait">NEUTRAL</span></td><td>Bez setupu.</td></tr><tr><td>Kawa US</td><td><span class="pill wait">NEUTRAL</span></td><td>Zakres 281–291, bez setupu.</td></tr><tr><td>Kakao US</td><td><span class="pill wait">NEUTRAL</span></td><td>Pomijamy kakao.</td></tr></tbody></table></div></section><section><h2>Pozycje i zlecenia na noc</h2><p>Brak. Fundusz nie ma ryzyka na noc.</p></section><section><h2>Kapitał od startu</h2><div class="chart"><svg viewBox="0 0 640 180" role="img" aria-label="Krzywa kapitału"><line x1="84" x2="624" y1="152.0" y2="152.0" class="grid"/><text x="76" y="156.0" text-anchor="end">9,943 mln</text><line x1="84" x2="624" y1="106.0" y2="106.0" class="grid"/><text x="76" y="110.0" text-anchor="end">10,108 mln</text><line x1="84" x2="624" y1="60.0" y2="60.0" class="grid"/><text x="76" y="64.0" text-anchor="end">10,274 mln</text><line x1="84" x2="624" y1="14.0" y2="14.0" class="grid"/><text x="76" y="18.0" text-anchor="end">10,440 mln</text><line x1="84" x2="624" y1="136.1" y2="136.1" class="base"/><path d="M84.0,136.1 L114.0,134.2 L144.0,130.1 L174.0,129.0 L204.0,123.6 L234.0,100.0 L264.0,67.8 L294.0,95.7 L324.0,93.7 L354.0,67.2 L384.0,58.0 L414.0,59.5 L444.0,49.1 L474.0,39.9 L504.0,53.7 L534.0,44.3 L564.0,31.6 L594.0,33.4 L624.0,29.9 L624.0,152 L84.0,152 Z" class="area"/><path d="M84.0,136.1 L114.0,134.2 L144.0,130.1 L174.0,129.0 L204.0,123.6 L234.0,100.0 L264.0,67.8 L294.0,95.7 L324.0,93.7 L354.0,67.2 L384.0,58.0 L414.0,59.5 L444.0,49.1 L474.0,39.9 L504.0,53.7 L534.0,44.3 L564.0,31.6 L594.0,33.4 L624.0,29.9" class="line"/><circle cx="624.0" cy="29.9" r="4" class="dot"/><text x="84.0" y="172" text-anchor="middle">7.10</text><text x="114.0" y="172" text-anchor="middle">8.10</text><text x="144.0" y="172" text-anchor="middle">9.10</text><text x="174.0" y="172" text-anchor="middle">12.10</text><text x="204.0" y="172" text-anchor="middle">13.10</text><text x="234.0" y="172" text-anchor="middle">14.10</text><text x="264.0" y="172" text-anchor="middle">15.10</text><text x="294.0" y="172" text-anchor="middle">16.10</text><text x="324.0" y="172" text-anchor="middle">19.10</text><text x="354.0" y="172" text-anchor="middle">20.10</text><text x="384.0" y="172" text-anchor="middle">21.10</text><text x="414.0" y="172" text-anchor="middle">22.10</text><text x="444.0" y="172" text-anchor="middle">23.10</text><text x="474.0" y="172" text-anchor="middle">26.10</text><text x="504.0" y="172" text-anchor="middle">27.10</text><text x="534.0" y="172" text-anchor="middle">28.10</text><text x="564.0" y="172" text-anchor="middle">29.10</text><text x="594.0" y="172" text-anchor="middle">30.10</text><text x="624.0" y="172" text-anchor="middle">2.11</text></svg></div><div class="tbl"><table><thead><tr><th>Dzień</th><th>Kapitał (USD)</th><th>Zmiana</th></tr></thead><tbody><tr><td>środa 7.10</td><td class="n">10 000 000</td><td class="n">–</td></tr><tr><td>czwartek 8.10</td><td class="n">10 006 710</td><td class="n">+6 710</td></tr><tr><td>piątek 9.10</td><td class="n">10 021 380</td><td class="n">+14 670</td></tr><tr><td>poniedziałek 12.10</td><td class="n">10 025 700</td><td class="n">+4 320</td></tr><tr><td>wtorek 13.10</td><td class="n">10 044 840</td><td class="n">+19 140</td></tr><tr><td>środa 14.10</td><td class="n">10 130 120</td><td class="n">+85 280</td></tr><tr><td>czwartek 15.10</td><td class="n">10 246 316</td><td class="n">+116 196</td></tr><tr><td>piątek 16.10</td><td class="n">10 145 450</td><td class="n">−100 866</td></tr><tr><td>poniedziałek 19.10</td><td class="n">10 152 719</td><td class="n">+7 269</td></tr><tr><td>wtorek 20.10</td><td class="n">10 248 541</td><td class="n">+95 822</td></tr><tr><td>środa 21.10</td><td class="n">10 281 706</td><td class="n">+33 165</td></tr><tr><td>czwartek 22.10</td><td class="n">10 276 211</td><td class="n">−5 495</td></tr><tr><td>piątek 23.10</td><td class="n">10 313 741</td><td class="n">+37 530</td></tr><tr><td>poniedziałek 26.10</td><td class="n">10 346 921</td><td class="n">+33 180</td></tr><tr><td>wtorek 27.10</td><td class="n">10 297 103</td><td class="n">−49 818</td></tr><tr><td>środa 28.10</td><td class="n">10 330 876</td><td class="n">+33 773</td></tr><tr><td>czwartek 29.10</td><td class="n">10 376 696</td><td class="n">+45 820</td></tr><tr><td>piątek 30.10</td><td class="n">10 370 265</td><td class="n">−6 431</td></tr><tr><td>poniedziałek 2.11</td><td class="n">10 382 822</td><td class="n">+12 557</td></tr></tbody></table></div></section><section><h2>Ryzyka na najbliższe dni</h2><ul><li>Rano urwał się feed cen spot złota (od 8:13), więc złoto i srebro były liczone z kontraktów futures z poprawką na różnicę, a wynik sprawdzony na spocie dopiero po zamknięciu.</li><li>Złoto po piątkowym dołku 3 863 odbiło ostro w górę. Trend dzienny jest dalej spadkowy, ale takie skoki potrafią w kilka minut przejść cały stop.</li><li>Na noc nie mamy otwartych pozycji.</li></ul></section><section><h2>Co dalej</h2><p>Kapitał 10 382 822 USD, +3,83% od startu. W skuteczności agentów sentyment prowadzi (56% trafnych głosów, waga 1,19), technika wróciła do wagi 1,01 (45%), makro ma 38%.</p></section>
+<footer>Symulacja na rachunku papierowym, bez prawdziwych pieniędzy. Liczby pochodzą z dziennika transakcji (agenci/paper_trading.md), pliku skuteczności agentów i decyzji koordynatora; ceny z kanału claude-finance-data. Wynik w USD = wynik w punktach × wielkość pozycji, zaokrąglony do 10 USD. Raporty archiwalne: folder raporty/. To nie jest porada inwestycyjna.</footer>
+</main>
