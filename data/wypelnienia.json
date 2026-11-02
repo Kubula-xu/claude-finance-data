@@ -1,5 +1,19 @@
 {
- "zaktualizowano_utc": "2026-11-02T07:13:53Z",
+ "zaktualizowano_utc": "2026-11-02T17:08:52Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
- "zlecenia": {}
+ "zlecenia": {
+  "96": {
+   "nr": "96",
+   "instrument": "Nasdaq 100",
+   "kierunek": -1,
+   "klucz_cen": "nq",
+   "zdarzenia": [
+    "02.11 14:30 PL wejście 28820"
+   ],
+   "stan": "otwarta",
+   "pozostalo": 1.0,
+   "sl_teraz": 29044.0,
+   "czas_wejscia": "2026-11-02T13:30Z"
+  }
+ }
 }

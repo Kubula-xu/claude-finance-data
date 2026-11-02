@@ -560,10 +560,17 @@
    "tp": "28 484 / 28 260"
   }
  },
- "automat": {},
+ "automat": {
+  "96": {
+   "stan": "otwarta",
+   "zdarzenia": [
+    "02.11 14:30 PL wejście 28820"
+   ]
+  }
+ },
  "podsumowanie": {
   "rano": "2026-11-02",
   "wieczor": "2026-10-30"
  },
- "zaktualizowano_utc": "2026-11-02T14:47:49Z"
+ "zaktualizowano_utc": "2026-11-02T17:08:53Z"
 }
