@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-02T07:45:00Z",
+ "aktualizacja": "2026-11-02T14:50:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -32,12 +32,12 @@
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 28950,
-    "sl": 29174,
-    "tp1": 28614,
-    "tp2": 28390,
+    "wejscie": 28820,
+    "sl": 29044,
+    "tp1": 28484,
+    "tp2": 28260,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, 02.11",
+    "status": "oczekuje, rewizja 15:50",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -85,7 +85,7 @@
     "tp2": 3855,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "oczekuje limit, 02.11",
+    "status": "short 3920 prawdopodobnie SL; do weryfikacji",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -137,7 +137,7 @@
     "tp1": 49.41,
     "tp2": 48.55,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, 02.11",
+    "status": "otwarta short 50,70 od ok. 14:30 PL",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -184,7 +184,7 @@
     "tp1": 100.08,
     "tp2": 99.0,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, 02.11",
+    "status": "anulowane 02.11",
     "ksiega": "intraday",
     "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
    },
