@@ -586,28 +586,22 @@
   }
  },
  "automat": {
-  "97": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  },
-  "98": {
+  "100": {
    "stan": "otwarta",
    "zdarzenia": [
-    "03.11 09:00 PL wejście 3905"
+    "03.11 15:15 PL wejście 96.3"
    ]
   },
-  "100": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  },
   "101": {
-   "stan": "oczekuje",
-   "zdarzenia": []
+   "stan": "otwarta",
+   "zdarzenia": [
+    "03.11 14:15 PL wejście 28300"
+   ]
   }
  },
  "podsumowanie": {
   "rano": "2026-11-03",
   "wieczor": "2026-11-02"
  },
- "zaktualizowano_utc": "2026-11-03T13:51:43Z"
+ "zaktualizowano_utc": "2026-11-03T19:58:29Z"
 }
