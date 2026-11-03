@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-03T00:56:01Z",
- "wygenerowano_pl": "2026-11-03 01:56 PL",
+ "wygenerowano_utc": "2026-11-03T05:25:23Z",
+ "wygenerowano_pl": "2026-11-03 06:25 PL",
  "kapital_usd": 10382822.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -26,10 +26,10 @@
      "o": 289.0,
      "h": 297.049988,
      "l": 289.0,
-     "c": 294.149994
+     "c": 292.100006
     },
-    "zmiana_5s_proc": -2.26,
-    "zmiana_20s_proc": 0.55
+    "zmiana_5s_proc": -2.94,
+    "zmiana_20s_proc": -0.15
    },
    "rezim": {
     "typ": "zakres",
@@ -38,31 +38,31 @@
     "adx": 17.9,
     "di_plus": 21.4,
     "di_minus": 23.6,
-    "ema20": 297.21,
-    "ema50": 303.08,
-    "sma100": 313.05,
-    "sma200": 305.11,
+    "ema20": 297.02,
+    "ema50": 303.0,
+    "sma100": 313.03,
+    "sma200": 305.1,
     "zakres_gora": 318.2,
     "zakres_dol": 280.8,
     "zakres20_gora": 318.2,
     "zakres20_dol": 280.8,
     "pozycja_w_zakresie_proc": 36,
-    "zmiennosc_20d_roczna_proc": 34.5
+    "zmiennosc_20d_roczna_proc": 34.0
    },
    "poziomy": {
     "opory": [
+     {
+      "poziom": 296.43,
+      "sila": 1,
+      "zrodlo": "R1",
+      "odleglosc_atr": 0.21
+     },
      {
       "sila": 4,
       "ostatnio": "2026-11-02",
       "poziom": 297.65,
       "zrodlo": "swing D1 ×4, ostatnio 2026-11-02",
       "odleglosc_atr": 0.32
-     },
-     {
-      "poziom": 297.8,
-      "sila": 1,
-      "zrodlo": "R1",
-      "odleglosc_atr": 0.33
      },
      {
       "sila": 1,
@@ -78,10 +78,10 @@
       "odleglosc_atr": 0.53
      },
      {
-      "poziom": 301.45,
+      "poziom": 300.77,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 0.66
+      "odleglosc_atr": 0.6
      },
      {
       "poziom": 304.9,
@@ -92,16 +92,10 @@
     ],
     "wsparcia": [
      {
-      "poziom": 293.4,
+      "poziom": 292.72,
       "sila": 1,
       "zrodlo": "P",
-      "odleglosc_atr": -0.07
-     },
-     {
-      "poziom": 289.75,
-      "sila": 1,
-      "zrodlo": "S1",
-      "odleglosc_atr": -0.4
+      "odleglosc_atr": -0.13
      },
      {
       "sila": 1,
@@ -111,10 +105,10 @@
       "odleglosc_atr": -0.47
      },
      {
-      "poziom": 285.35,
+      "poziom": 288.38,
       "sila": 1,
-      "zrodlo": "S2",
-      "odleglosc_atr": -0.8
+      "zrodlo": "S1",
+      "odleglosc_atr": -0.52
      },
      {
       "sila": 2,
@@ -124,6 +118,12 @@
       "odleglosc_atr": -0.8
      },
      {
+      "poziom": 284.67,
+      "sila": 1,
+      "zrodlo": "S2",
+      "odleglosc_atr": -0.86
+     },
+     {
       "poziom": 280.8,
       "sila": 2,
       "zrodlo": "dołek 5 sesji",
@@ -131,11 +131,11 @@
      }
     ],
     "pivoty": {
-     "P": 293.4,
-     "R1": 297.8,
-     "S1": 289.75,
-     "R2": 301.45,
-     "S2": 285.35
+     "P": 292.72,
+     "R1": 296.43,
+     "S1": 288.38,
+     "R2": 300.77,
+     "S2": 284.67
     },
     "baza_pivotow": "2026-11-02"
    },
@@ -372,7 +372,7 @@
     "czas_notowania_utc": "2026-11-02T18:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 219.29,
-    "atr_h1_sesja": 72.33,
+    "atr_h1_sesja": 72.0,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -380,10 +380,10 @@
      "o": 5503.0,
      "h": 5600.0,
      "l": 5361.0,
-     "c": 5392.0
+     "c": 5435.0
     },
-    "zmiana_5s_proc": -1.79,
-    "zmiana_20s_proc": -8.1
+    "zmiana_5s_proc": -1.0,
+    "zmiana_20s_proc": -7.36
    },
    "rezim": {
     "typ": "zakres",
@@ -392,16 +392,16 @@
     "adx": 11.2,
     "di_plus": 16.0,
     "di_minus": 18.5,
-    "ema20": 5587.21,
-    "ema50": 5616.17,
-    "sma100": 5536.41,
-    "sma200": 4582.9,
+    "ema20": 5591.31,
+    "ema50": 5617.85,
+    "sma100": 5536.84,
+    "sma200": 4583.12,
     "zakres_gora": 5903.0,
     "zakres_dol": 5356.0,
     "zakres20_gora": 6023.0,
     "zakres20_dol": 5356.0,
     "pozycja_w_zakresie_proc": 7,
-    "zmiennosc_20d_roczna_proc": 29.1
+    "zmiennosc_20d_roczna_proc": 28.8
    },
    "poziomy": {
     "opory": [
@@ -413,16 +413,16 @@
       "odleglosc_atr": 0.06
      },
      {
-      "poziom": 5451.0,
+      "poziom": 5465.33,
       "sila": 1,
       "zrodlo": "P",
-      "odleglosc_atr": 0.27
+      "odleglosc_atr": 0.33
      },
      {
-      "poziom": 5541.0,
+      "poziom": 5569.67,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.68
+      "odleglosc_atr": 0.81
      },
      {
       "sila": 4,
@@ -438,10 +438,10 @@
       "odleglosc_atr": 1.05
      },
      {
-      "poziom": 5690.0,
+      "poziom": 5704.33,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 1.36
+      "odleglosc_atr": 1.42
      }
     ],
     "wsparcia": [
@@ -452,10 +452,10 @@
       "odleglosc_atr": -0.16
      },
      {
-      "poziom": 5302.0,
+      "poziom": 5330.67,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.41
+      "odleglosc_atr": -0.28
      },
      {
       "poziom": 5250,
@@ -464,17 +464,17 @@
       "odleglosc_atr": -0.65
      },
      {
+      "poziom": 5226.33,
+      "sila": 1,
+      "zrodlo": "S2",
+      "odleglosc_atr": -0.76
+     },
+     {
       "sila": 1,
       "ostatnio": "2026-07-16",
       "poziom": 5216.0,
       "zrodlo": "swing D1 ×1, ostatnio 2026-07-16",
       "odleglosc_atr": -0.8
-     },
-     {
-      "poziom": 5212.0,
-      "sila": 1,
-      "zrodlo": "S2",
-      "odleglosc_atr": -0.82
      },
      {
       "sila": 3,
@@ -485,11 +485,11 @@
      }
     ],
     "pivoty": {
-     "P": 5451.0,
-     "R1": 5541.0,
-     "S1": 5302.0,
-     "R2": 5690.0,
-     "S2": 5212.0
+     "P": 5465.33,
+     "R1": 5569.67,
+     "S1": 5330.67,
+     "R2": 5704.33,
+     "S2": 5226.33
     },
     "baza_pivotow": "2026-11-02"
    },
