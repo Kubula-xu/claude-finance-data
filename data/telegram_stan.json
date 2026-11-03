@@ -27,10 +27,10 @@
    "pewnosc": 1,
    "setup": [
     "SHORT",
-    49.95,
-    50.63,
-    48.93,
-    48.25
+    49.45,
+    50.13,
+    48.43,
+    47.75
    ]
   },
   "wti": {
@@ -560,19 +560,19 @@
    "tp": "28 484 / 28 260"
   },
   "97": {
-   "status": "oczekuje (limit, OCO z #98, okno 09:00–12:00 i 14:00–20:00)",
+   "status": "anulowane (OCO: wypełniony #98; szczyt dnia 3 929,5)",
    "sl": "3 968",
    "tp": "3 910,5 / 3 887,5"
   },
   "98": {
-   "status": "oczekuje (limit, OCO z #97)",
+   "status": "zamknięta (stop czasowy 12:00 PL)",
    "sl": "3 882",
    "tp": "3 939,5 / 3 962,5"
   },
   "99": {
    "status": "oczekuje (limit, okno metali)",
-   "sl": "50,63",
-   "tp": "48,93 / 48,25"
+   "sl": "50,13",
+   "tp": "48,43 / 47,75"
   },
   "100": {
    "status": "oczekuje (limit, okno 09:00–12:00 i 15:00–20:30)",
@@ -609,5 +609,5 @@
   "rano": "2026-11-03",
   "wieczor": "2026-11-02"
  },
- "zaktualizowano_utc": "2026-11-03T12:56:06Z"
+ "zaktualizowano_utc": "2026-11-03T13:51:43Z"
 }
