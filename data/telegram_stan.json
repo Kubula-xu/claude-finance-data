@@ -585,10 +585,29 @@
    "tp": "28 044 / 27 873"
   }
  },
- "automat": {},
+ "automat": {
+  "97": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "98": {
+   "stan": "otwarta",
+   "zdarzenia": [
+    "03.11 09:00 PL wejście 3905"
+   ]
+  },
+  "100": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "101": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  }
+ },
  "podsumowanie": {
   "rano": "2026-11-03",
   "wieczor": "2026-11-02"
  },
- "zaktualizowano_utc": "2026-11-03T07:42:16Z"
+ "zaktualizowano_utc": "2026-11-03T12:56:06Z"
 }
