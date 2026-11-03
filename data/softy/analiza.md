@@ -1,8 +1,8 @@
-# Softy: kawa i kakao, analiza z 2026-11-03 13:56 PL
+# Softy: kawa i kakao, analiza z 2026-11-03 15:29 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
-## Kawa (Arabica KC): NEUTRAL 2/5 (suma +1.5)
+## Kawa (Arabica KC): NEUTRAL 1/5 (suma +1.0)
 
 - Cena 291,75 c/lb (2026-11-03T12:30:00Z UTC), sesja w trakcie. ATR D1 11,07, ATR H1 (sesja) 3,26. 5 sesji -2.9%, 20 sesji -0.1%.
 - Reżim: **zakres** (ADX 18, cena w zakresie 10 sesji 280.80-318.20). Zakres 10 sesji 280,80–318,20 (20 sesji 280,80–318,20), EMA20 297,02, EMA50 303,00, SMA200 305,10.
@@ -11,10 +11,10 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 18, cena w zakresie 10 sesji 280.80-318.20 |
 | COT | +1.0 | fundusze net +20,104, 9. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | +0.0 | opad 30 dni 139% normy, prognoza 16 dni 68% normy (średnia ważona regionów) |
-| Krzywa | +1.0 | KCZ26.NYB vs KCH27.NYB: +4.20%, 5 dni temu +5.04%, backwardation (ciasno w bieżącej dostawie) |
+| Pogoda | +0.0 | opad 30 dni 138% normy, prognoza 16 dni 76% normy (średnia ważona regionów) |
+| Krzywa | +0.5 | KCZ26.NYB vs KCH27.NYB: +3.78%, 5 dni temu +4.79%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
-| BRL | -0.5 | USD/BRL 5.435, 5 sesji +9.6%: real słabnie, sprzedaż z Brazylii tańsza |
+| BRL | -0.5 | USD/BRL 5.498, 5 sesji +2.3%: real słabnie, sprzedaż z Brazylii tańsza |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.5%, wzrost w 58% lat |
 
 Opory: 292,72 (P, +0.09 ATR), 296,43 (R1, +0.42 ATR), 297,65 (swing D1 ×4, ostatnio 2026-11-02, +0.53 ATR), 300,00 (swing D1 ×1, ostatnio 2026-05-13, +0.75 ATR)
@@ -37,8 +37,8 @@ Wsparcia: 289,00 (swing D1 ×1, ostatnio 2026-11-02, -0.25 ATR), 288,38 (S1, -0.
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 11, cena w zakresie 10 sesji 5356.00-5903.00 |
 | COT | +0.5 | fundusze net -10,940 (13. percentyl 3 lat), zmiana 4 tyg. +5,082: pozycjonowanie bez skrajności, liczy się kierunek przepływu |
-| Pogoda | +1.0 | opad 30 dni 185% normy, prognoza 16 dni 232% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
-| Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.84%, 5 dni temu -1.83%, contango (zapasy wystarczają) |
+| Pogoda | +1.0 | opad 30 dni 184% normy, prognoza 16 dni 221% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
+| Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.70%, 5 dni temu -1.74%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +4.7%, wzrost w 73% lat |
 
