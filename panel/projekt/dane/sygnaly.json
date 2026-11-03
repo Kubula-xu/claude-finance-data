@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-02T14:50:00Z",
+ "aktualizacja": "2026-11-03T07:45:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -27,17 +27,17 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Trend spadkowy, short 28950 (poz. 96)."
+    "powod": "Trend spadkowy, short 28300 (poz. 101). Wybory w USA."
    },
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 28820,
-    "sl": 29044,
-    "tp1": 28484,
-    "tp2": 28260,
+    "wejscie": 28300,
+    "sl": 28471,
+    "tp1": 28044,
+    "tp2": 27873,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje, rewizja 15:50",
+    "status": "oczekuje limit, 03.11",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -59,7 +59,7 @@
    "atr": 82.6,
    "agenci": {
     "technika": [
-     "NEUTRAL",
+     "SHORT",
      1
     ],
     "makro": [
@@ -74,18 +74,18 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Konsolidacja po spadku, OCO short 3920 / long 3880 (poz. 92–93)."
+    "powod": "Wygaszanie wczorajszego skoku, OCO short 3945 / long 3905 (poz. 97–98)."
    },
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 3920,
-    "sl": 3946,
-    "tp1": 3881,
-    "tp2": 3855,
+    "wejscie": 3945,
+    "sl": 3968,
+    "tp1": 3910.5,
+    "tp2": 3887.5,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "short 3920 prawdopodobnie SL; do weryfikacji",
+    "status": "oczekuje limit, 03.11",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -127,17 +127,17 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Odbicie w trendzie spadkowym, short 50,70 (poz. 94)."
+    "powod": "Short 49,95 (poz. 99)."
    },
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 50.7,
-    "sl": 51.56,
-    "tp1": 49.41,
-    "tp2": 48.55,
+    "wejscie": 49.95,
+    "sl": 50.63,
+    "tp1": 48.93,
+    "tp2": 48.25,
     "ryzyko_pct": 0.25,
-    "status": "otwarta short 50,70 od ok. 14:30 PL",
+    "status": "oczekuje limit, 03.11",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -159,7 +159,7 @@
    "atr": 4.5,
    "agenci": {
     "technika": [
-     "SHORT",
+     "LONG",
      1
     ],
     "makro": [
@@ -167,24 +167,24 @@
      1
     ],
     "sentyment": [
-     "SHORT",
+     "NEUTRAL",
      1
     ]
    },
    "final": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Zjazd 104→100, short z retestu 101,70 (poz. 95)."
+    "powod": "Odbicie po zjeździe, long 96,30 (poz. 100)."
    },
    "setup": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 101.7,
-    "sl": 102.78,
-    "tp1": 100.08,
-    "tp2": 99.0,
+    "wejscie": 96.3,
+    "sl": 95.02,
+    "tp1": 98.22,
+    "tp2": 99.5,
     "ryzyko_pct": 0.25,
-    "status": "anulowane 02.11",
+    "status": "oczekuje limit, 03.11",
     "ksiega": "intraday",
     "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
    },
@@ -231,7 +231,7 @@
     "tp2": 3.053,
     "ryzyko_pct": 0.25,
     "koszt": 0.005,
-    "status": "brak setupu 02.11",
+    "status": "brak setupu 03.11",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -267,7 +267,7 @@
    "final": {
     "kierunek": "NEUTRAL",
     "pewnosc": 1,
-    "powod": "Zakres 281–291, bez setupu."
+    "powod": "Bez setupu."
    },
    "setup": {
     "kierunek": "NEUTRAL",
@@ -278,7 +278,7 @@
     "tp2": 331.8,
     "ryzyko_pct": 0.25,
     "koszt": 0.8,
-    "status": "brak setupu 02.11",
+    "status": "brak setupu 03.11",
     "ksiega": "intraday",
     "uwagi": "Okno 10:30–19:00."
    },
@@ -329,7 +329,7 @@
     "tp1": 5635,
     "tp2": 5525,
     "ryzyko_pct": 0.25,
-    "status": "brak setupu 02.11",
+    "status": "brak setupu 03.11",
     "ksiega": "intraday",
     "uwagi": "Okno 10:45–19:00."
    },
