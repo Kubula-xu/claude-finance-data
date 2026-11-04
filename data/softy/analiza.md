@@ -1,10 +1,10 @@
-# Softy: kawa i kakao, analiza z 2026-11-04 00:16 PL
+# Softy: kawa i kakao, analiza z 2026-11-04 01:31 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
 ## Kawa (Arabica KC): NEUTRAL 1/5 (suma +1.0)
 
-- Cena 284,05 c/lb (2026-11-03T18:15:00Z UTC). ATR D1 11,34, ATR H1 (sesja) 3,27. 5 sesji -3.3%, 20 sesji -6.7%.
+- Cena 284,05 c/lb (2026-11-03T18:15:00Z UTC). ATR D1 11,34, ATR H1 (sesja) 3,31. 5 sesji -3.3%, 20 sesji -6.7%.
 - Reżim: **zakres** (ADX 18, cena w zakresie 10 sesji 280.80-318.20). Zakres 10 sesji 280,80–318,20 (20 sesji 280,80–318,20), EMA20 295,78, EMA50 302,25, SMA200 304,74.
 
 | Czynnik | Wynik | Opis |
@@ -15,7 +15,7 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Krzywa | +0.5 | KCZ26.NYB vs KCH27.NYB: +3.40%, 5 dni temu +4.79%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
 | BRL | -0.5 | USD/BRL 5.488, 5 sesji +2.2%: real słabnie, sprzedaż z Brazylii tańsza |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.5%, wzrost w 58% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.3%, wzrost w 58% lat |
 
 Opory: 287,00 (swing D1 ×1, ostatnio 2026-05-11, +0.26 ATR), 288,07 (P, +0.35 ATR), 290,00 (okrągły poziom, +0.52 ATR), 293,33 (R1, +0.82 ATR)
 
@@ -40,7 +40,7 @@ Wsparcia: 283,15 (swing D1 ×2, ostatnio 2026-11-03, -0.08 ATR), 280,80 (dołek 
 | Pogoda | +1.0 | opad 30 dni 184% normy, prognoza 16 dni 201% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
 | Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.72%, 5 dni temu -1.74%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
-| Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +4.7%, wzrost w 73% lat |
+| Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +5.2%, wzrost w 69% lat |
 
 Opory: 5 446 (swing D1 ×3, ostatnio 2026-11-03, +0.13 ATR), 5 486 (R1, +0.33 ATR), 5 553 (R2, +0.65 ATR), 5 562 (swing D1 ×3, ostatnio 2026-10-19, +0.70 ATR)
 

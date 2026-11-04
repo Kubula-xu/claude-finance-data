@@ -587,15 +587,17 @@
  },
  "automat": {
   "100": {
-   "stan": "otwarta",
+   "stan": "zamknięta",
    "zdarzenia": [
-    "03.11 15:15 PL wejście 96.3"
+    "03.11 15:15 PL wejście 96.3",
+    "22:30 PL zamknięcie dnia po 96.9"
    ]
   },
   "101": {
-   "stan": "otwarta",
+   "stan": "zamknięta",
    "zdarzenia": [
-    "03.11 14:15 PL wejście 28300"
+    "03.11 14:15 PL wejście 28300",
+    "22:30 PL zamknięcie dnia po 28407"
    ]
   }
  },
@@ -603,5 +605,5 @@
   "rano": "2026-11-03",
   "wieczor": "2026-11-02"
  },
- "zaktualizowano_utc": "2026-11-03T19:58:29Z"
+ "zaktualizowano_utc": "2026-11-04T00:31:30Z"
 }
