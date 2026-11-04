@@ -597,7 +597,7 @@
    "stan": "zamknięta",
    "zdarzenia": [
     "03.11 14:15 PL wejście 28300",
-    "22:30 PL zamknięcie dnia po 28407"
+    "22:30 PL zamknięcie dnia po 28406.8"
    ]
   }
  },
@@ -605,5 +605,5 @@
   "rano": "2026-11-03",
   "wieczor": "2026-11-02"
  },
- "zaktualizowano_utc": "2026-11-04T00:31:30Z"
+ "zaktualizowano_utc": "2026-11-04T06:59:17Z"
 }

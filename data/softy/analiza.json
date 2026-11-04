@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-04T00:31:29Z",
- "wygenerowano_pl": "2026-11-04 01:31 PL",
+ "wygenerowano_utc": "2026-11-04T06:59:17Z",
+ "wygenerowano_pl": "2026-11-04 07:59 PL",
  "kapital_usd": 10382822.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -18,7 +18,7 @@
     "czas_notowania_utc": "2026-11-03T18:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 11.34,
-    "atr_h1_sesja": 3.31,
+    "atr_h1_sesja": 3.27,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -26,10 +26,10 @@
      "o": 293.100006,
      "h": 297.350006,
      "l": 282.799988,
-     "c": 284.049988
+     "c": 283.950012
     },
-    "zmiana_5s_proc": -3.3,
-    "zmiana_20s_proc": -6.7
+    "zmiana_5s_proc": -3.34,
+    "zmiana_20s_proc": -6.73
    },
    "rezim": {
     "typ": "zakres",
@@ -38,7 +38,7 @@
     "adx": 17.6,
     "di_plus": 19.3,
     "di_minus": 25.5,
-    "ema20": 295.78,
+    "ema20": 295.77,
     "ema50": 302.25,
     "sma100": 313.33,
     "sma200": 304.74,
@@ -47,7 +47,7 @@
     "zakres20_gora": 318.2,
     "zakres20_dol": 280.8,
     "pozycja_w_zakresie_proc": 9,
-    "zmiennosc_20d_roczna_proc": 32.4
+    "zmiennosc_20d_roczna_proc": 32.5
    },
    "poziomy": {
     "opory": [
@@ -59,7 +59,7 @@
       "odleglosc_atr": 0.26
      },
      {
-      "poziom": 288.07,
+      "poziom": 288.03,
       "sila": 1,
       "zrodlo": "P",
       "odleglosc_atr": 0.35
@@ -71,10 +71,10 @@
       "odleglosc_atr": 0.52
      },
      {
-      "poziom": 293.33,
+      "poziom": 293.27,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.82
+      "odleglosc_atr": 0.81
      },
      {
       "poziom": 297.35,
@@ -112,13 +112,13 @@
       "odleglosc_atr": -0.39
      },
      {
-      "poziom": 278.78,
+      "poziom": 278.72,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.46
+      "odleglosc_atr": -0.47
      },
      {
-      "poziom": 273.52,
+      "poziom": 273.48,
       "sila": 1,
       "zrodlo": "S2",
       "odleglosc_atr": -0.93
@@ -131,11 +131,11 @@
      }
     ],
     "pivoty": {
-     "P": 288.07,
-     "R1": 293.33,
-     "S1": 278.78,
-     "R2": 302.62,
-     "S2": 273.52
+     "P": 288.03,
+     "R1": 293.27,
+     "S1": 278.72,
+     "R2": 302.58,
+     "S2": 273.48
     },
     "baza_pivotow": "2026-11-03"
    },
@@ -369,7 +369,7 @@
     "czas_notowania_utc": "2026-11-03T18:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 203.07,
-    "atr_h1_sesja": 70.49,
+    "atr_h1_sesja": 70.31,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -377,28 +377,28 @@
      "o": 5352.0,
      "h": 5481.0,
      "l": 5343.0,
-     "c": 5420.0
+     "c": 5414.0
     },
-    "zmiana_5s_proc": -2.82,
-    "zmiana_20s_proc": -4.91
+    "zmiana_5s_proc": -2.92,
+    "zmiana_20s_proc": -5.02
    },
    "rezim": {
     "typ": "zakres",
     "kierunek": "NEUTRAL",
-    "opis": "ADX 11, cena w zakresie 10 sesji 5356.00-5903.00; nieudane wybicie dołem (5343.00 < 5356.00, zamknięcie 5420.00)",
+    "opis": "ADX 11, cena w zakresie 10 sesji 5356.00-5903.00; nieudane wybicie dołem (5343.00 < 5356.00, zamknięcie 5414.00)",
     "adx": 11.0,
     "di_plus": 15.3,
     "di_minus": 18.3,
-    "ema20": 5574.99,
-    "ema50": 5610.09,
-    "sma100": 5553.94,
-    "sma200": 4584.84,
+    "ema20": 5574.42,
+    "ema50": 5609.86,
+    "sma100": 5553.88,
+    "sma200": 4584.81,
     "zakres_gora": 5903.0,
     "zakres_dol": 5356.0,
     "zakres20_gora": 6023.0,
     "zakres20_dol": 5356.0,
     "pozycja_w_zakresie_proc": 12,
-    "zmiennosc_20d_roczna_proc": 26.9
+    "zmiennosc_20d_roczna_proc": 27.0
    },
    "poziomy": {
     "opory": [
@@ -410,16 +410,16 @@
       "odleglosc_atr": 0.13
      },
      {
-      "poziom": 5486.33,
+      "poziom": 5482.33,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.33
+      "odleglosc_atr": 0.31
      },
      {
-      "poziom": 5552.67,
+      "poziom": 5550.67,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 0.65
+      "odleglosc_atr": 0.64
      },
      {
       "sila": 3,
@@ -444,10 +444,10 @@
     ],
     "wsparcia": [
      {
-      "poziom": 5348.33,
+      "poziom": 5344.33,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.35
+      "odleglosc_atr": -0.37
      },
      {
       "sila": 1,
@@ -463,10 +463,10 @@
       "odleglosc_atr": -0.38
      },
      {
-      "poziom": 5276.67,
+      "poziom": 5274.67,
       "sila": 1,
       "zrodlo": "S2",
-      "odleglosc_atr": -0.71
+      "odleglosc_atr": -0.72
      },
      {
       "poziom": 5250,
@@ -483,11 +483,11 @@
      }
     ],
     "pivoty": {
-     "P": 5414.67,
-     "R1": 5486.33,
-     "S1": 5348.33,
-     "R2": 5552.67,
-     "S2": 5276.67
+     "P": 5412.67,
+     "R1": 5482.33,
+     "S1": 5344.33,
+     "R2": 5550.67,
+     "S2": 5274.67
     },
     "baza_pivotow": "2026-11-03"
    },
@@ -495,7 +495,7 @@
     {
      "czynnik": "Technika (reżim)",
      "wynik": 0.0,
-     "opis": "ADX 11, cena w zakresie 10 sesji 5356.00-5903.00; nieudane wybicie dołem (5343.00 < 5356.00, zamknięcie 5420.00)"
+     "opis": "ADX 11, cena w zakresie 10 sesji 5356.00-5903.00; nieudane wybicie dołem (5343.00 < 5356.00, zamknięcie 5414.00)"
     },
     {
      "czynnik": "COT",
@@ -795,7 +795,7 @@
   {
    "rynek": "kakao",
    "typ": "nieudane_wybicie",
-   "opis": "nieudane wybicie dołem (5343.00 < 5356.00, zamknięcie 5420.00)"
+   "opis": "nieudane wybicie dołem (5343.00 < 5356.00, zamknięcie 5414.00)"
   }
  ]
 }
