@@ -585,25 +585,10 @@
    "tp": "28 044 / 27 873"
   }
  },
- "automat": {
-  "100": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "03.11 15:15 PL wejście 96.3",
-    "22:30 PL zamknięcie dnia po 96.9"
-   ]
-  },
-  "101": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "03.11 14:15 PL wejście 28300",
-    "22:30 PL zamknięcie dnia po 28407"
-   ]
-  }
- },
+ "automat": {},
  "podsumowanie": {
   "rano": "2026-11-04",
   "wieczor": "2026-11-02"
  },
- "zaktualizowano_utc": "2026-11-04T16:06:41Z"
+ "zaktualizowano_utc": "2026-11-04T21:24:36Z"
 }
