@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-04T06:59:17Z",
- "wygenerowano_pl": "2026-11-04 07:59 PL",
+ "wygenerowano_utc": "2026-11-04T14:43:40Z",
+ "wygenerowano_pl": "2026-11-04 15:43 PL",
  "kapital_usd": 10382822.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -161,31 +161,31 @@
     {
      "czynnik": "Pogoda",
      "wynik": 0.0,
-     "opis": "opad 30 dni 138% normy, prognoza 16 dni 109% normy (średnia ważona regionów)",
+     "opis": "opad 30 dni 130% normy, prognoza 16 dni 104% normy (średnia ważona regionów)",
      "dane": {
-      "proc_normy_30d": 138,
-      "proc_normy_16d": 109,
-      "aktualizacja": "2026-11-03T23:15:57Z",
+      "proc_normy_30d": 130,
+      "proc_normy_16d": 104,
+      "aktualizacja": "2026-11-04T14:42:39Z",
       "regiony": {
        "sul_de_minas": [
-        205,
-        109
+        189,
+        132
        ],
        "cerrado": [
-        144,
-        122
+        135,
+        93
        ],
        "mogiana": [
-        145,
-        120
+        138,
+        110
        ],
        "espirito_santo": [
-        110,
-        151
+        105,
+        74
        ],
        "wietnam": [
         49,
-        58
+        90
        ]
       }
      }
@@ -193,38 +193,38 @@
     {
      "czynnik": "Krzywa",
      "wynik": 0.5,
-     "opis": "KCZ26.NYB vs KCH27.NYB: +3.40%, 5 dni temu +4.79%, backwardation (ciasno w bieżącej dostawie)",
+     "opis": "KCZ26.NYB vs KCH27.NYB: +3.24%, 5 dni temu +5.52%, backwardation (ciasno w bieżącej dostawie)",
      "dane": {
-      "spread_proc": 3.4,
-      "spread_proc_5d": 4.79,
+      "spread_proc": 3.24,
+      "spread_proc_5d": 5.52,
       "kontrakty": [
        {
         "symbol": "KCZ26.NYB",
         "miesiac": "2026-12",
-        "cena": 284.05,
-        "data": "2026-11-03",
-        "cena_5d_temu": 307.45
+        "cena": 280.05,
+        "data": "2026-11-04",
+        "cena_5d_temu": 300.95
        },
        {
         "symbol": "KCH27.NYB",
         "miesiac": "2027-03",
-        "cena": 274.7,
-        "data": "2026-11-03",
-        "cena_5d_temu": 293.4
+        "cena": 271.25,
+        "data": "2026-11-04",
+        "cena_5d_temu": 285.2
        },
        {
         "symbol": "KCK27.NYB",
         "miesiac": "2027-05",
-        "cena": 271.15,
-        "data": "2026-11-03",
-        "cena_5d_temu": 289.0
+        "cena": 267.55,
+        "data": "2026-11-04",
+        "cena_5d_temu": 280.65
        },
        {
         "symbol": "KCN27.NYB",
         "miesiac": "2027-07",
-        "cena": 268.2,
-        "data": "2026-11-03",
-        "cena_5d_temu": 285.9
+        "cena": 264.9,
+        "data": "2026-11-04",
+        "cena_5d_temu": 277.5
        }
       ]
      }
@@ -249,10 +249,10 @@
     {
      "czynnik": "BRL",
      "wynik": -0.5,
-     "opis": "USD/BRL 5.488, 5 sesji +2.2%: real słabnie, sprzedaż z Brazylii tańsza",
+     "opis": "USD/BRL 5.477, 5 sesji +2.4%: real słabnie, sprzedaż z Brazylii tańsza",
      "dane": {
-      "usdbrl": 5.4883,
-      "zmiana_5d_proc": 2.15
+      "usdbrl": 5.4766,
+      "zmiana_5d_proc": 2.36
      }
     },
     {
@@ -513,35 +513,35 @@
     {
      "czynnik": "Pogoda",
      "wynik": 1.0,
-     "opis": "opad 30 dni 184% normy, prognoza 16 dni 201% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie)",
+     "opis": "opad 30 dni 196% normy, prognoza 16 dni 192% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie)",
      "dane": {
-      "proc_normy_30d": 184,
-      "proc_normy_16d": 201,
-      "aktualizacja": "2026-11-03T23:15:57Z",
+      "proc_normy_30d": 196,
+      "proc_normy_16d": 192,
+      "aktualizacja": "2026-11-04T14:42:39Z",
       "regiony": {
        "soubre": [
-        114,
-        97
+        122,
+        119
        ],
        "daloa": [
-        112,
-        153
+        124,
+        130
        ],
        "san_pedro": [
-        38,
-        62
+        41,
+        74
        ],
        "ashanti": [
-        110,
-        75
+        112,
+        57
        ],
        "western_north": [
-        97,
-        87
+        104,
+        51
        ],
        "los_rios": [
-        650,
-        766
+        686,
+        728
        ]
       }
      }
@@ -549,38 +549,38 @@
     {
      "czynnik": "Krzywa",
      "wynik": 0.0,
-     "opis": "CCZ26.NYB vs CCH27.NYB: -1.72%, 5 dni temu -1.74%, contango (zapasy wystarczają)",
+     "opis": "CCZ26.NYB vs CCH27.NYB: -1.82%, 5 dni temu -1.95%, contango (zapasy wystarczają)",
      "dane": {
-      "spread_proc": -1.72,
-      "spread_proc_5d": -1.74,
+      "spread_proc": -1.82,
+      "spread_proc_5d": -1.95,
       "kontrakty": [
        {
         "symbol": "CCZ26.NYB",
         "miesiac": "2026-12",
-        "cena": 5420.0,
-        "data": "2026-11-03",
-        "cena_5d_temu": 5592.0
+        "cena": 5350.0,
+        "data": "2026-11-04",
+        "cena_5d_temu": 5490.0
        },
        {
         "symbol": "CCH27.NYB",
         "miesiac": "2027-03",
-        "cena": 5515.0,
-        "data": "2026-11-03",
-        "cena_5d_temu": 5691.0
+        "cena": 5449.0,
+        "data": "2026-11-04",
+        "cena_5d_temu": 5599.0
        },
        {
         "symbol": "CCK27.NYB",
         "miesiac": "2027-05",
-        "cena": 5571.0,
-        "data": "2026-11-03",
-        "cena_5d_temu": 5745.0
+        "cena": 5502.0,
+        "data": "2026-11-04",
+        "cena_5d_temu": 5661.0
        },
        {
         "symbol": "CCN27.NYB",
         "miesiac": "2027-07",
-        "cena": 5605.0,
-        "data": "2026-11-03",
-        "cena_5d_temu": 5766.0
+        "cena": 5537.0,
+        "data": "2026-11-04",
+        "cena_5d_temu": 5689.0
        }
       ]
      }
@@ -769,7 +769,7 @@
   }
  ],
  "status_danych": {
-  "uruchomiono_utc": "2026-11-03T23:15:57Z",
+  "uruchomiono_utc": "2026-11-04T14:42:39Z",
   "bledy": {
    "ice_parse_kawa": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
    "ice_parse_kakao": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
@@ -783,11 +783,11 @@
    "dlugie": "coffee (świeże), cocoa (świeże)"
   },
   "ostatni_sukces_utc": {
-   "cot": "2026-11-03T23:15:57Z",
-   "pogoda": "2026-11-03T23:15:57Z",
-   "krzywa": "2026-11-03T23:15:57Z",
-   "fx": "2026-11-03T23:15:57Z",
-   "dlugie": "2026-11-03T23:15:57Z",
+   "cot": "2026-11-04T14:42:39Z",
+   "pogoda": "2026-11-04T14:42:39Z",
+   "krzywa": "2026-11-04T14:42:39Z",
+   "fx": "2026-11-04T14:42:39Z",
+   "dlugie": "2026-11-04T14:42:39Z",
    "ice": "2026-10-21T18:42:06Z"
   }
  },
