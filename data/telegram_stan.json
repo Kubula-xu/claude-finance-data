@@ -570,17 +570,17 @@
    "tp": "3 939,5 / 3 962,5"
   },
   "99": {
-   "status": "oczekuje (limit, okno metali)",
+   "status": "anulowane (po rewizji o 14:50 PL cena już 50,3, powyżej SL 50,13; setup nieważny)",
    "sl": "50,13",
    "tp": "48,43 / 47,75"
   },
   "100": {
-   "status": "oczekuje (limit, okno 09:00–12:00 i 15:00–20:30)",
+   "status": "anulowane (o 14:30 PL ropa spadła do 93,6 poza oknem, poniżej limitu i SL; zasada z #88)",
    "sl": "95,02",
    "tp": "98,22 / 99,50"
   },
   "101": {
-   "status": "oczekuje (limit, okno 09:00–21:30, bez wejść 15:15–15:45)",
+   "status": "zamknięta (stop czasowy 17:15 PL)",
    "sl": "28 471",
    "tp": "28 044 / 27 873"
   }
@@ -605,5 +605,5 @@
   "rano": "2026-11-04",
   "wieczor": "2026-11-02"
  },
- "zaktualizowano_utc": "2026-11-04T15:20:17Z"
+ "zaktualizowano_utc": "2026-11-04T16:06:08Z"
 }
