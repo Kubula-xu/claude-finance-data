@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-04T21:24:35Z",
- "wygenerowano_pl": "2026-11-04 22:24 PL",
+ "wygenerowano_utc": "2026-11-04T23:38:53Z",
+ "wygenerowano_pl": "2026-11-05 00:38 PL",
  "kapital_usd": 10368394.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -160,31 +160,31 @@
     {
      "czynnik": "Pogoda",
      "wynik": 0.0,
-     "opis": "opad 30 dni 130% normy, prognoza 16 dni 104% normy (średnia ważona regionów)",
+     "opis": "opad 30 dni 130% normy, prognoza 16 dni 101% normy (średnia ważona regionów)",
      "dane": {
       "proc_normy_30d": 130,
-      "proc_normy_16d": 104,
-      "aktualizacja": "2026-11-04T14:42:39Z",
+      "proc_normy_16d": 101,
+      "aktualizacja": "2026-11-04T23:37:55Z",
       "regiony": {
        "sul_de_minas": [
         189,
-        132
+        108
        ],
        "cerrado": [
         135,
-        93
+        120
        ],
        "mogiana": [
         138,
-        110
+        124
        ],
        "espirito_santo": [
         105,
-        74
+        113
        ],
        "wietnam": [
         49,
-        90
+        44
        ]
       }
      }
@@ -192,36 +192,36 @@
     {
      "czynnik": "Krzywa",
      "wynik": 0.5,
-     "opis": "KCZ26.NYB vs KCH27.NYB: +3.24%, 5 dni temu +5.52%, backwardation (ciasno w bieżącej dostawie)",
+     "opis": "KCZ26.NYB vs KCH27.NYB: +3.37%, 5 dni temu +5.52%, backwardation (ciasno w bieżącej dostawie)",
      "dane": {
-      "spread_proc": 3.24,
+      "spread_proc": 3.37,
       "spread_proc_5d": 5.52,
       "kontrakty": [
        {
         "symbol": "KCZ26.NYB",
         "miesiac": "2026-12",
-        "cena": 280.05,
+        "cena": 279.5,
         "data": "2026-11-04",
         "cena_5d_temu": 300.95
        },
        {
         "symbol": "KCH27.NYB",
         "miesiac": "2027-03",
-        "cena": 271.25,
+        "cena": 270.4,
         "data": "2026-11-04",
         "cena_5d_temu": 285.2
        },
        {
         "symbol": "KCK27.NYB",
         "miesiac": "2027-05",
-        "cena": 267.55,
+        "cena": 266.75,
         "data": "2026-11-04",
         "cena_5d_temu": 280.65
        },
        {
         "symbol": "KCN27.NYB",
         "miesiac": "2027-07",
-        "cena": 264.9,
+        "cena": 264.4,
         "data": "2026-11-04",
         "cena_5d_temu": 277.5
        }
@@ -248,10 +248,10 @@
     {
      "czynnik": "BRL",
      "wynik": -0.5,
-     "opis": "USD/BRL 5.477, 5 sesji +2.4%: real słabnie, sprzedaż z Brazylii tańsza",
+     "opis": "USD/BRL 5.455, 5 sesji +2.0%: real słabnie, sprzedaż z Brazylii tańsza",
      "dane": {
-      "usdbrl": 5.4766,
-      "zmiana_5d_proc": 2.36
+      "usdbrl": 5.4551,
+      "zmiana_5d_proc": 1.96
      }
     },
     {
@@ -517,35 +517,35 @@
     {
      "czynnik": "Pogoda",
      "wynik": 1.0,
-     "opis": "opad 30 dni 196% normy, prognoza 16 dni 192% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie)",
+     "opis": "opad 30 dni 196% normy, prognoza 16 dni 196% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie)",
      "dane": {
       "proc_normy_30d": 196,
-      "proc_normy_16d": 192,
-      "aktualizacja": "2026-11-04T14:42:39Z",
+      "proc_normy_16d": 196,
+      "aktualizacja": "2026-11-04T23:37:55Z",
       "regiony": {
        "soubre": [
         122,
-        119
+        58
        ],
        "daloa": [
         124,
-        130
+        72
        ],
        "san_pedro": [
         41,
-        74
+        33
        ],
        "ashanti": [
         112,
-        57
+        44
        ],
        "western_north": [
         104,
-        51
+        39
        ],
        "los_rios": [
         686,
-        728
+        1006
        ]
       }
      }
@@ -553,36 +553,36 @@
     {
      "czynnik": "Krzywa",
      "wynik": 0.0,
-     "opis": "CCZ26.NYB vs CCH27.NYB: -1.82%, 5 dni temu -1.95%, contango (zapasy wystarczają)",
+     "opis": "CCZ26.NYB vs CCH27.NYB: -1.84%, 5 dni temu -1.95%, contango (zapasy wystarczają)",
      "dane": {
-      "spread_proc": -1.82,
+      "spread_proc": -1.84,
       "spread_proc_5d": -1.95,
       "kontrakty": [
        {
         "symbol": "CCZ26.NYB",
         "miesiac": "2026-12",
-        "cena": 5350.0,
+        "cena": 5427.0,
         "data": "2026-11-04",
         "cena_5d_temu": 5490.0
        },
        {
         "symbol": "CCH27.NYB",
         "miesiac": "2027-03",
-        "cena": 5449.0,
+        "cena": 5529.0,
         "data": "2026-11-04",
         "cena_5d_temu": 5599.0
        },
        {
         "symbol": "CCK27.NYB",
         "miesiac": "2027-05",
-        "cena": 5502.0,
+        "cena": 5572.0,
         "data": "2026-11-04",
         "cena_5d_temu": 5661.0
        },
        {
         "symbol": "CCN27.NYB",
         "miesiac": "2027-07",
-        "cena": 5537.0,
+        "cena": 5602.0,
         "data": "2026-11-04",
         "cena_5d_temu": 5689.0
        }
@@ -775,7 +775,7 @@
   }
  ],
  "status_danych": {
-  "uruchomiono_utc": "2026-11-04T14:42:39Z",
+  "uruchomiono_utc": "2026-11-04T23:37:55Z",
   "bledy": {
    "ice_parse_kawa": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
    "ice_parse_kakao": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
@@ -789,20 +789,15 @@
    "dlugie": "coffee (świeże), cocoa (świeże)"
   },
   "ostatni_sukces_utc": {
-   "cot": "2026-11-04T14:42:39Z",
-   "pogoda": "2026-11-04T14:42:39Z",
-   "krzywa": "2026-11-04T14:42:39Z",
-   "fx": "2026-11-04T14:42:39Z",
-   "dlugie": "2026-11-04T14:42:39Z",
+   "cot": "2026-11-04T23:37:55Z",
+   "pogoda": "2026-11-04T23:37:55Z",
+   "krzywa": "2026-11-04T23:37:55Z",
+   "fx": "2026-11-04T23:37:55Z",
+   "dlugie": "2026-11-04T23:37:55Z",
    "ice": "2026-10-21T18:42:06Z"
   }
  },
  "alerty": [
-  {
-   "rynek": "kawa",
-   "typ": "zmiana_rezimu",
-   "opis": "reżim zakres → wybicie_dol: przeliczyć plan i wiszące zlecenia"
-  },
   {
    "rynek": "kakao",
    "typ": "nieudane_wybicie",
