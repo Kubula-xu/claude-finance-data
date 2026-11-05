@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-03T13:55:00Z",
+ "aktualizacja": "2026-11-05T07:45:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -12,7 +12,7 @@
    "atr": 443,
    "agenci": {
     "technika": [
-     "SHORT",
+     "LONG",
      1
     ],
     "makro": [
@@ -20,24 +20,24 @@
      1
     ],
     "sentyment": [
-     "SHORT",
+     "NEUTRAL",
      1
     ]
    },
    "final": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Trend spadkowy, short 28300 (poz. 101). Wybory w USA."
+    "powod": "Wsparcie 28 100, long limit."
    },
    "setup": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 28300,
-    "sl": 28471,
-    "tp1": 28044,
-    "tp2": 27873,
+    "wejscie": 28100,
+    "sl": 27780,
+    "tp1": 28580,
+    "tp2": 28900,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, 03.11",
+    "status": "oczekuje limit 05.11 (#106)",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -59,33 +59,33 @@
    "atr": 82.6,
    "agenci": {
     "technika": [
-     "SHORT",
+     "LONG",
      1
     ],
     "makro": [
-     "NEUTRAL",
+     "LONG",
      1
     ],
     "sentyment": [
-     "SHORT",
+     "LONG",
      1
     ]
    },
    "final": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Wygaszanie wczorajszego skoku, OCO short 3945 / long 3905 (poz. 97–98)."
+    "powod": "Trend wzrostowy, long 4088 / short 4128 OCO."
    },
    "setup": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 3945,
-    "sl": 3968,
-    "tp1": 3910.5,
-    "tp2": 3887.5,
+    "wejscie": 4088,
+    "sl": 4056.5,
+    "tp1": 4135.25,
+    "tp2": 4166.75,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "long 3905 zamknięty stopem czasowym −0,04R",
+    "status": "oczekuje limit 05.11 (#102, OCO z short 4128 #103)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -112,7 +112,7 @@
    "atr": 2.06,
    "agenci": {
     "technika": [
-     "SHORT",
+     "LONG",
      1
     ],
     "makro": [
@@ -120,24 +120,24 @@
      1
     ],
     "sentyment": [
-     "SHORT",
+     "LONG",
      1
     ]
    },
    "final": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Short 49,95 (poz. 99)."
+    "powod": "Silny trend, long z cofnięcia 52,10."
    },
    "setup": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 49.45,
-    "sl": 50.13,
-    "tp1": 48.43,
-    "tp2": 47.75,
+    "wejscie": 52.1,
+    "sl": 51.14,
+    "tp1": 53.54,
+    "tp2": 54.5,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje, rewizja 14:50",
+    "status": "oczekuje limit 05.11 (#104)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -159,32 +159,32 @@
    "atr": 4.5,
    "agenci": {
     "technika": [
-     "LONG",
+     "SHORT",
      1
     ],
     "makro": [
-     "NEUTRAL",
+     "SHORT",
      1
     ],
     "sentyment": [
-     "NEUTRAL",
+     "SHORT",
      1
     ]
    },
    "final": {
-    "kierunek": "LONG",
+    "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Odbicie po zjeździe, long 96,30 (poz. 100)."
+    "powod": "Po krachu 4.11 short z retestu 88,80."
    },
    "setup": {
-    "kierunek": "LONG",
+    "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 96.3,
-    "sl": 95.02,
-    "tp1": 98.22,
-    "tp2": 99.5,
+    "wejscie": 88.8,
+    "sl": 90.56,
+    "tp1": 86.17,
+    "tp2": 84.41,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit, 03.11",
+    "status": "oczekuje limit 05.11 (#105)",
     "ksiega": "intraday",
     "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
    },
