@@ -620,28 +620,10 @@
    "tp": "4 092,75 / 4 061,25"
   }
  },
- "automat": {
-  "106": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "05.11 09:00 PL wejście 28290",
-    "05.11 15:30 PL SL 27970"
-   ]
-  },
-  "107": {
-   "stan": "otwarta",
-   "zdarzenia": [
-    "05.11 15:30 PL wejście 4105"
-   ]
-  },
-  "108": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  }
- },
+ "automat": {},
  "podsumowanie": {
   "rano": "2026-11-05",
   "wieczor": "2026-11-05"
  },
- "zaktualizowano_utc": "2026-11-05T21:41:45Z"
+ "zaktualizowano_utc": "2026-11-05T22:32:55Z"
 }
