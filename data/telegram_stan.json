@@ -610,10 +610,29 @@
    "tp": "28 580 / 28 900"
   }
  },
- "automat": {},
+ "automat": {
+  "102": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "103": {
+   "stan": "otwarta",
+   "zdarzenia": [
+    "05.11 09:00 PL wejście 4128"
+   ]
+  },
+  "105": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "106": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  }
+ },
  "podsumowanie": {
   "rano": "2026-11-05",
   "wieczor": "2026-11-04"
  },
- "zaktualizowano_utc": "2026-11-05T07:43:21Z"
+ "zaktualizowano_utc": "2026-11-05T08:30:49Z"
 }
