@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-05T07:45:00Z",
+ "aktualizacja": "2026-11-05T13:50:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -32,12 +32,12 @@
    "setup": {
     "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 28100,
-    "sl": 27780,
-    "tp1": 28580,
-    "tp2": 28900,
+    "wejscie": 28290,
+    "sl": 27970,
+    "tp1": 28770,
+    "tp2": 29090,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 05.11 (#106)",
+    "status": "oczekuje limit 05.11 (#106, przesunięty)",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -74,18 +74,18 @@
    "final": {
     "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Trend wzrostowy, long 4088 / short 4128 OCO."
+    "powod": "Long 4105 / short 4140 OCO na sesję USA."
    },
    "setup": {
     "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 4088,
-    "sl": 4056.5,
-    "tp1": 4135.25,
-    "tp2": 4166.75,
+    "wejscie": 4105,
+    "sl": 4073.5,
+    "tp1": 4152.25,
+    "tp2": 4183.75,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "oczekuje limit 05.11 (#102, OCO z short 4128 #103)",
+    "status": "oczekuje limit 05.11 (#107, OCO z short 4140 #108); #103 zamknięta −0,10R",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -132,12 +132,12 @@
    "setup": {
     "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 52.1,
-    "sl": 51.14,
-    "tp1": 53.54,
-    "tp2": 54.5,
+    "wejscie": 52.45,
+    "sl": 51.49,
+    "tp1": 53.89,
+    "tp2": 54.85,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 05.11 (#104)",
+    "status": "oczekuje limit 05.11 (#104, przesunięty)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -159,7 +159,7 @@
    "atr": 4.5,
    "agenci": {
     "technika": [
-     "SHORT",
+     "LONG",
      1
     ],
     "makro": [
@@ -167,24 +167,24 @@
      1
     ],
     "sentyment": [
-     "SHORT",
+     "NEUTRAL",
      1
     ]
    },
    "final": {
-    "kierunek": "SHORT",
+    "kierunek": "NEUTRAL",
     "pewnosc": 1,
-    "powod": "Po krachu 4.11 short z retestu 88,80."
+    "powod": "Odbicie po krachu (87 → 90,3), sygnały sprzeczne, bez pozycji."
    },
    "setup": {
-    "kierunek": "SHORT",
+    "kierunek": "NEUTRAL",
     "typ": "limit",
     "wejscie": 88.8,
     "sl": 90.56,
     "tp1": 86.17,
     "tp2": 84.41,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 05.11 (#105)",
+    "status": "anulowane 05.11 (#105, cena przeszła limit poza oknem)",
     "ksiega": "intraday",
     "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
    },
