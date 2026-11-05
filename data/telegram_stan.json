@@ -595,7 +595,7 @@
    "tp": "4 080,75 / 4 049,25"
   },
   "104": {
-   "status": "oczekuje (limit)",
+   "status": "zamknięta (22:25 PL)",
    "sl": "51,49",
    "tp": "53,89 / 54,85"
   },
@@ -605,17 +605,17 @@
    "tp": "86,17 / 84,41"
   },
   "106": {
-   "status": "oczekuje (limit; bez wejść 15:15–15:45)",
+   "status": "zamknięta SL",
    "sl": "27 970",
    "tp": "28 770 / 29 090"
   },
   "107": {
-   "status": "oczekuje (limit, OCO z #108)",
+   "status": "zamknięta (22:25 PL)",
    "sl": "4 073,5",
    "tp": "4 152,25 / 4 183,75"
   },
   "108": {
-   "status": "oczekuje (limit, OCO z #107)",
+   "status": "anulowane (OCO: wypełniony #107; szczyt 4 134,8)",
    "sl": "4 171,5",
    "tp": "4 092,75 / 4 061,25"
   }
@@ -643,5 +643,5 @@
   "rano": "2026-11-05",
   "wieczor": "2026-11-04"
  },
- "zaktualizowano_utc": "2026-11-05T16:51:33Z"
+ "zaktualizowano_utc": "2026-11-05T21:26:18Z"
 }
