@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-11-07 00:04 PL
+# Softy: kawa i kakao, analiza z 2026-11-07 00:56 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -11,7 +11,7 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 18, cena w zakresie 10 sesji 276.40-314.90; nieudane wybicie dołem (276.00 < 276.40, zamknięcie 280.15) |
 | COT | +1.0 | fundusze net +14,732, 2. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | -1.0 | opad 30 dni 115% normy, prognoza 16 dni 111% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
+| Pogoda | -1.0 | opad 30 dni 115% normy, prognoza 16 dni 116% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
 | Krzywa | +0.5 | KCZ26.NYB vs KCH27.NYB: +3.22%, 5 dni temu +4.50%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
 | BRL | -0.5 | USD/BRL 5.496, 5 sesji +2.1%: real słabnie, sprzedaż z Brazylii tańsza |
@@ -37,7 +37,7 @@ Wsparcia: 279,55 (P, -0.06 ATR), 277,20 (swing D1 ×2, ostatnio 2026-11-06, -0.2
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 13, cena w zakresie 10 sesji 5143.00-5687.00 |
 | COT | +1.0 | fundusze net -12,253, 9. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | +1.0 | opad 30 dni 203% normy, prognoza 16 dni 200% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
+| Pogoda | +1.0 | opad 30 dni 203% normy, prognoza 16 dni 199% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
 | Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.29%, 5 dni temu -2.02%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +6.1%, wzrost w 73% lat |
