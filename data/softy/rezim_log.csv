@@ -13,3 +13,5 @@ czas_utc,rynek,z,na,cena,opis
 2026-11-05T22:32:54Z,kawa,wybicie_dol,zakres,277.399994,"ADX 18, cena w zakresie 10 sesji 277.40-315.50; nieudane wybicie dołem (276.40 < 277.40, zamknięcie 277.40)"
 2026-11-06T10:24:08Z,kawa,zakres,wybicie_dol,277.25,zamknięcie/cena pod dołkiem 10 sesji 277.40
 2026-11-06T10:24:08Z,kakao,zakres,wybicie_dol,5137.0,zamknięcie/cena pod dołkiem 10 sesji 5274.00
+2026-11-06T17:37:59Z,kawa,wybicie_dol,zakres,279.350006,"ADX 18, cena w zakresie 10 sesji 276.40-314.90; nieudane wybicie dołem (276.00 < 276.40, zamknięcie 279.35)"
+2026-11-06T17:37:59Z,kakao,wybicie_dol,zakres,5212.0,"ADX 13, cena w zakresie 10 sesji 5143.00-5687.00"
