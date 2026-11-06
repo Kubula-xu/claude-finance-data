@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-05T23:36:52Z",
- "wygenerowano_pl": "2026-11-06 00:36 PL",
+ "wygenerowano_utc": "2026-11-06T02:50:51Z",
+ "wygenerowano_pl": "2026-11-06 03:50 PL",
  "kapital_usd": 10308115.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -18,7 +18,7 @@
     "czas_notowania_utc": "2026-11-05T18:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 10.81,
-    "atr_h1_sesja": 3.66,
+    "atr_h1_sesja": 3.62,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -258,11 +258,11 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +1.5%, wzrost w 54% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.4%, wzrost w 54% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 1.6,
-      "mediana_proc": 1.52,
+      "srednia_proc": 1.39,
+      "mediana_proc": 2.39,
       "proc_lat_wzrost": 54
      }
     }
@@ -370,7 +370,7 @@
     "czas_notowania_utc": "2026-11-05T18:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 202.29,
-    "atr_h1_sesja": 78.49,
+    "atr_h1_sesja": 78.07,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -605,11 +605,11 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.5,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +4.4%, wzrost w 73% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +6.1%, wzrost w 73% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 3.72,
-      "mediana_proc": 4.44,
+      "srednia_proc": 4.14,
+      "mediana_proc": 6.06,
       "proc_lat_wzrost": 73
      }
     }
@@ -776,6 +776,14 @@
    "wydarzenie": "First Notice Day kawy XII (KCZ26) wg reguły ICE (7 dni rob. przed 1. dniem rob. miesiąca)",
    "waga": "średnia",
    "uwagi": "sprawdzić w kalendarzu ICE; przejście na marzec"
+  },
+  {
+   "data": "2026-11-20",
+   "godzina_pl": "21:30",
+   "rynek": "oba",
+   "wydarzenie": "CFTC COT (stan na wtorek)",
+   "waga": "średnia",
+   "uwagi": "cykliczne"
   }
  ],
  "status_danych": {
@@ -811,11 +819,6 @@
    "rynek": "kakao",
    "typ": "nieudane_wybicie",
    "opis": "nieudane wybicie dołem (5254.00 < 5274.00, zamknięcie 5290.00)"
-  },
-  {
-   "rynek": "kakao",
-   "typ": "zmiana_biasu",
-   "opis": "bias LONG → NEUTRAL (1/5)"
   }
  ]
 }
