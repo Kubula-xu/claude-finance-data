@@ -620,27 +620,27 @@
    "tp": "4 092,75 / 4 061,25"
   },
   "109": {
-   "status": "oczekuje (limit, OCO z #110)",
+   "status": "zamknięta (stop czasowy 12:15 PL)",
    "sl": "4 093,6",
    "tp": "4 009,6 / 3 976"
   },
   "110": {
-   "status": "oczekuje (limit, OCO z #109)",
+   "status": "anulowane (OCO: wypełniony #109)",
    "sl": "3 986,4",
    "tp": "4 070,4 / 4 104"
   },
   "111": {
-   "status": "oczekuje (limit)",
+   "status": "anulowane (o 08:45 PL srebro 51,72 przeszło limit poza oknem; reguła ryzyko.md sekcja 4)",
    "sl": "52,68",
    "tp": "49,98 / 48,90"
   },
   "112": {
-   "status": "oczekuje (limit; okno 9–12 i 15–20:30)",
+   "status": "zamknięta SL",
    "sl": "89,70",
    "tp": "92,70 / 93,90"
   },
   "113": {
-   "status": "oczekuje (limit; bez wejść 15:15–15:45)",
+   "status": "zamknięta (stop czasowy 12:45 PL)",
    "sl": "27 428",
    "tp": "26 483 / 26 105"
   }
@@ -674,5 +674,5 @@
   "rano": "2026-11-06",
   "wieczor": "2026-11-05"
  },
- "zaktualizowano_utc": "2026-11-06T10:24:10Z"
+ "zaktualizowano_utc": "2026-11-06T13:52:04Z"
 }
