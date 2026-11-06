@@ -1,47 +1,47 @@
 {
  "sygnaly": {
   "nq": {
-   "kierunek": "LONG",
+   "kierunek": "SHORT",
    "pewnosc": 1,
    "setup": [
-    "LONG",
-    28290,
-    27970,
-    28770,
-    29090
+    "SHORT",
+    27050,
+    27428,
+    26483,
+    26105
    ]
   },
   "gold": {
-   "kierunek": "LONG",
+   "kierunek": "SHORT",
    "pewnosc": 1,
    "setup": [
-    "LONG",
-    4105,
-    4073.5,
-    4152.25,
-    4183.75
+    "SHORT",
+    4060,
+    4093.6,
+    4009.6,
+    3976
    ]
   },
   "silver": {
+   "kierunek": "SHORT",
+   "pewnosc": 1,
+   "setup": [
+    "SHORT",
+    51.6,
+    52.68,
+    49.98,
+    48.9
+   ]
+  },
+  "wti": {
    "kierunek": "LONG",
    "pewnosc": 1,
    "setup": [
     "LONG",
-    52.45,
-    51.49,
-    53.89,
-    54.85
-   ]
-  },
-  "wti": {
-   "kierunek": "NEUTRAL",
-   "pewnosc": 1,
-   "setup": [
-    "NEUTRAL",
-    88.8,
-    90.56,
-    86.17,
-    84.41
+    90.9,
+    89.7,
+    92.7,
+    93.9
    ]
   },
   "ng": {
@@ -618,12 +618,37 @@
    "status": "anulowane (OCO: wypełniony #107; szczyt 4 134,8)",
    "sl": "4 171,5",
    "tp": "4 092,75 / 4 061,25"
+  },
+  "109": {
+   "status": "oczekuje (limit, OCO z #110)",
+   "sl": "4 093,6",
+   "tp": "4 009,6 / 3 976"
+  },
+  "110": {
+   "status": "oczekuje (limit, OCO z #109)",
+   "sl": "3 986,4",
+   "tp": "4 070,4 / 4 104"
+  },
+  "111": {
+   "status": "oczekuje (limit)",
+   "sl": "52,68",
+   "tp": "49,98 / 48,90"
+  },
+  "112": {
+   "status": "oczekuje (limit; okno 9–12 i 15–20:30)",
+   "sl": "89,70",
+   "tp": "92,70 / 93,90"
+  },
+  "113": {
+   "status": "oczekuje (limit; bez wejść 15:15–15:45)",
+   "sl": "27 428",
+   "tp": "26 483 / 26 105"
   }
  },
  "automat": {},
  "podsumowanie": {
-  "rano": "2026-11-05",
+  "rano": "2026-11-06",
   "wieczor": "2026-11-05"
  },
- "zaktualizowano_utc": "2026-11-06T02:50:52Z"
+ "zaktualizowano_utc": "2026-11-06T07:41:58Z"
 }
