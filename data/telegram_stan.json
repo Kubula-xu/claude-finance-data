@@ -645,10 +645,34 @@
    "tp": "26 483 / 26 105"
   }
  },
- "automat": {},
+ "automat": {
+  "109": {
+   "stan": "otwarta",
+   "zdarzenia": [
+    "06.11 09:15 PL wejście 4060"
+   ]
+  },
+  "110": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "112": {
+   "stan": "zamknięta",
+   "zdarzenia": [
+    "06.11 09:00 PL wejście 90.9",
+    "06.11 09:30 PL SL 89.7"
+   ]
+  },
+  "113": {
+   "stan": "otwarta",
+   "zdarzenia": [
+    "06.11 09:30 PL wejście 27050"
+   ]
+  }
+ },
  "podsumowanie": {
   "rano": "2026-11-06",
   "wieczor": "2026-11-05"
  },
- "zaktualizowano_utc": "2026-11-06T07:41:58Z"
+ "zaktualizowano_utc": "2026-11-06T10:24:10Z"
 }
