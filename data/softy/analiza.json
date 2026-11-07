@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-06T23:56:19Z",
- "wygenerowano_pl": "2026-11-07 00:56 PL",
+ "wygenerowano_utc": "2026-11-07T02:10:34Z",
+ "wygenerowano_pl": "2026-11-07 03:10 PL",
  "kapital_usd": 10270437.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -18,7 +18,7 @@
     "czas_notowania_utc": "2026-11-06T18:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 10.23,
-    "atr_h1_sesja": 3.74,
+    "atr_h1_sesja": 3.73,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -257,12 +257,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.4%, wzrost w 54% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.1%, wzrost w 50% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 1.39,
-      "mediana_proc": 2.39,
-      "proc_lat_wzrost": 54
+      "srednia_proc": 1.25,
+      "mediana_proc": 0.12,
+      "proc_lat_wzrost": 50
      }
     }
    ],
@@ -366,14 +366,14 @@
     "cena": 5239.0,
     "czas_notowania_utc": "2026-11-06T18:15:00Z",
     "sesja_w_trakcie": false,
-    "atr_d1": 210.79,
-    "atr_h1_sesja": 81.93,
+    "atr_d1": 210.71,
+    "atr_h1_sesja": 81.51,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
      "data": "2026-11-06",
      "o": 5181.0,
-     "h": 5400.0,
+     "h": 5399.0,
      "l": 5192.0,
      "c": 5239.0
     },
@@ -401,13 +401,13 @@
    "poziomy": {
     "opory": [
      {
-      "poziom": 5277.0,
+      "poziom": 5276.67,
       "sila": 1,
       "zrodlo": "P",
       "odleglosc_atr": 0.18
      },
      {
-      "poziom": 5362.0,
+      "poziom": 5361.33,
       "sila": 1,
       "zrodlo": "R1",
       "odleglosc_atr": 0.58
@@ -415,15 +415,15 @@
      {
       "sila": 3,
       "ostatnio": "2026-11-06",
-      "poziom": 5418.67,
+      "poziom": 5418.33,
       "zrodlo": "swing D1 ×3, ostatnio 2026-11-06",
       "odleglosc_atr": 0.85
      },
      {
-      "poziom": 5485.0,
+      "poziom": 5483.67,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 1.17
+      "odleglosc_atr": 1.16
      },
      {
       "poziom": 5500,
@@ -448,7 +448,7 @@
       "odleglosc_atr": -0.17
      },
      {
-      "poziom": 5154.0,
+      "poziom": 5154.33,
       "sila": 1,
       "zrodlo": "S1",
       "odleglosc_atr": -0.4
@@ -467,10 +467,10 @@
       "odleglosc_atr": -0.72
      },
      {
-      "poziom": 5069.0,
+      "poziom": 5069.67,
       "sila": 1,
       "zrodlo": "S2",
-      "odleglosc_atr": -0.81
+      "odleglosc_atr": -0.8
      },
      {
       "poziom": 5000,
@@ -480,11 +480,11 @@
      }
     ],
     "pivoty": {
-     "P": 5277.0,
-     "R1": 5362.0,
-     "S1": 5154.0,
-     "R2": 5485.0,
-     "S2": 5069.0
+     "P": 5276.67,
+     "R1": 5361.33,
+     "S1": 5154.33,
+     "R2": 5483.67,
+     "S2": 5069.67
     },
     "baza_pivotow": "2026-11-06"
    },
@@ -602,12 +602,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.5,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +6.1%, wzrost w 73% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +5.1%, wzrost w 65% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 4.14,
-      "mediana_proc": 6.06,
-      "proc_lat_wzrost": 73
+      "srednia_proc": 4.37,
+      "mediana_proc": 5.12,
+      "proc_lat_wzrost": 65
      }
     }
    ],
@@ -623,11 +623,11 @@
       {
        "kierunek": "LONG",
        "typ": "limit",
-       "wejscie": 5164.08,
-       "sl": 4953.29,
-       "tp1": 5665.92,
-       "tp2": 5796.44,
-       "r_pkt": 210.79,
+       "wejscie": 5164.07,
+       "sl": 4953.36,
+       "tp1": 5665.93,
+       "tp2": 5796.21,
+       "r_pkt": 210.71,
        "r_atr": 1.0,
        "rr_tp1_netto": 1.69,
        "odleglosc_atr": -0.36,
@@ -635,17 +635,17 @@
        "ryzyko_usd": 25676,
        "uzasadnienie": "granica zakresu 5143.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
-        "silny poziom 5418.67 przed TP1: rozważyć częściowe wyjście przed nim"
+        "silny poziom 5418.33 przed TP1: rozważyć częściowe wyjście przed nim"
        ]
       },
       {
        "kierunek": "LONG",
        "typ": "stop",
-       "wejscie": 5708.08,
-       "sl": 5181.11,
-       "tp1": 6762.01,
-       "tp2": 7288.97,
-       "r_pkt": 526.96,
+       "wejscie": 5708.07,
+       "sl": 5181.29,
+       "tp1": 6761.64,
+       "tp2": 7288.43,
+       "r_pkt": 526.79,
        "r_atr": 2.5,
        "rr_tp1_netto": 1.72,
        "odleglosc_atr": 2.23,
@@ -666,11 +666,11 @@
       {
        "kierunek": "SHORT",
        "typ": "limit",
-       "wejscie": 5665.92,
-       "sl": 5876.71,
-       "tp1": 5164.08,
-       "tp2": 5033.56,
-       "r_pkt": 210.79,
+       "wejscie": 5665.93,
+       "sl": 5876.64,
+       "tp1": 5164.07,
+       "tp2": 5033.79,
+       "r_pkt": 210.71,
        "r_atr": 1.0,
        "rr_tp1_netto": 1.69,
        "odleglosc_atr": 2.03,
@@ -685,11 +685,11 @@
       {
        "kierunek": "SHORT",
        "typ": "stop",
-       "wejscie": 5121.92,
-       "sl": 5648.89,
-       "tp1": 4067.99,
-       "tp2": 3541.03,
-       "r_pkt": 526.96,
+       "wejscie": 5121.93,
+       "sl": 5648.71,
+       "tp1": 4068.36,
+       "tp2": 3541.57,
+       "r_pkt": 526.79,
        "r_atr": 2.5,
        "rr_tp1_netto": 1.72,
        "odleglosc_atr": -0.56,
@@ -706,25 +706,6 @@
   }
  },
  "kalendarz": [
-  {
-   "data": "2026-11-06",
-   "godzina_pl": "",
-   "rynek": "oba",
-   "wydarzenie": "Okno rolowania indeksów towarowych (GSCI/BCOM roll grudzień → marzec",
-   "waga": " 5.-9. dzień roboczy listopada)",
-   "uwagi": "średnia",
-   "null": [
-    "data orientacyjna"
-   ]
-  },
-  {
-   "data": "2026-11-06",
-   "godzina_pl": "21:30",
-   "rynek": "oba",
-   "wydarzenie": "CFTC COT (stan na wtorek)",
-   "waga": "średnia",
-   "uwagi": "cykliczne"
-  },
   {
    "data": "2026-11-09",
    "godzina_pl": "rano",

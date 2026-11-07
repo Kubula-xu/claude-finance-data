@@ -1,10 +1,10 @@
-# Softy: kawa i kakao, analiza z 2026-11-07 00:56 PL
+# Softy: kawa i kakao, analiza z 2026-11-07 03:10 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
 ## Kawa (Arabica KC): NEUTRAL 1/5 (suma +0.0)
 
-- Cena 280,15 c/lb (2026-11-06T18:15:00Z UTC). ATR D1 10,23, ATR H1 (sesja) 3,74. 5 sesji -2.5%, 20 sesji -2.4%.
+- Cena 280,15 c/lb (2026-11-06T18:15:00Z UTC). ATR D1 10,23, ATR H1 (sesja) 3,73. 5 sesji -2.5%, 20 sesji -2.4%.
 - Reżim: **zakres** (ADX 18, cena w zakresie 10 sesji 276.40-314.90; nieudane wybicie dołem (276.00 < 276.40, zamknięcie 280.15)). Zakres 10 sesji 276,40–314,90 (20 sesji 276,40–318,20), EMA20 291,43, EMA50 299,62, SMA200 303,72.
 
 | Czynnik | Wynik | Opis |
@@ -15,7 +15,7 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Krzywa | +0.5 | KCZ26.NYB vs KCH27.NYB: +3.22%, 5 dni temu +4.50%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
 | BRL | -0.5 | USD/BRL 5.496, 5 sesji +2.1%: real słabnie, sprzedaż z Brazylii tańsza |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.4%, wzrost w 54% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.1%, wzrost w 50% lat |
 
 Opory: 282,27 (swing D1 ×3, ostatnio 2026-11-06, +0.21 ATR), 283,10 (R1, +0.29 ATR), 286,05 (R2, +0.58 ATR), 287,00 (swing D1 ×1, ostatnio 2026-05-11, +0.67 ATR)
 
@@ -40,18 +40,18 @@ Wsparcia: 279,55 (P, -0.06 ATR), 277,20 (swing D1 ×2, ostatnio 2026-11-06, -0.2
 | Pogoda | +1.0 | opad 30 dni 203% normy, prognoza 16 dni 199% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
 | Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.29%, 5 dni temu -2.02%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
-| Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +6.1%, wzrost w 73% lat |
+| Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +5.1%, wzrost w 65% lat |
 
-Opory: 5 277 (P, +0.18 ATR), 5 362 (R1, +0.58 ATR), 5 419 (swing D1 ×3, ostatnio 2026-11-06, +0.85 ATR), 5 485 (R2, +1.17 ATR)
+Opory: 5 277 (P, +0.18 ATR), 5 361 (R1, +0.58 ATR), 5 418 (swing D1 ×3, ostatnio 2026-11-06, +0.85 ATR), 5 484 (R2, +1.16 ATR)
 
 Wsparcia: 5 204 (swing D1 ×2, ostatnio 2026-11-06, -0.17 ATR), 5 154 (S1, -0.40 ATR), 5 143 (dołek 5 sesji, -0.46 ATR), 5 087 (swing D1 ×3, ostatnio 2026-10-01, -0.72 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
-| LONG | limit: granica zakresu 5143.00 (10 sesji), TP1 przed przeciwną granicą | 5 164 | 4 953 | 5 666 / 5 796 | 1.69 | -0.36 ATR | 10 | silny poziom 5418.67 przed TP1: rozważyć częściowe wyjście przed nim |
-| LONG | stop: wybicie zakresu za 5687.00: zmiana reżimu, wejście z kontynuacji | 5 708 | 5 181 | 6 762 / 7 289 | 1.72 | +2.23 ATR | 4 | stop 2.23× ATR D1 od ceny: daleko, do przeliczenia po sesji |
+| LONG | limit: granica zakresu 5143.00 (10 sesji), TP1 przed przeciwną granicą | 5 164 | 4 953 | 5 666 / 5 796 | 1.69 | -0.36 ATR | 10 | silny poziom 5418.33 przed TP1: rozważyć częściowe wyjście przed nim |
+| LONG | stop: wybicie zakresu za 5687.00: zmiana reżimu, wejście z kontynuacji | 5 708 | 5 181 | 6 762 / 7 288 | 1.72 | +2.23 ATR | 4 | stop 2.23× ATR D1 od ceny: daleko, do przeliczenia po sesji |
 | SHORT | limit: granica zakresu 5687.00 (10 sesji), TP1 przed przeciwną granicą | 5 666 | 5 877 | 5 164 / 5 034 | 1.69 | +2.03 ATR | 10 | limit 2.03× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 5204.0 przed TP1: rozważyć częściowe wyjście przed nim |
-| SHORT | stop: wybicie zakresu za 5143.00: zmiana reżimu, wejście z kontynuacji | 5 122 | 5 649 | 4 068 / 3 541 | 1.72 | -0.56 ATR | 4 | ok |
+| SHORT | stop: wybicie zakresu za 5143.00: zmiana reżimu, wejście z kontynuacji | 5 122 | 5 649 | 4 068 / 3 542 | 1.72 | -0.56 ATR | 4 | ok |
 
 ## Alerty
 
@@ -61,8 +61,6 @@ Wsparcia: 5 204 (swing D1 ×2, ostatnio 2026-11-06, -0.17 ATR), 5 154 (S1, -0.40
 
 | Data | Godz. PL | Rynek | Wydarzenie | Waga |
 |---|---|---|---|---|
-| 2026-11-06 |  | oba | Okno rolowania indeksów towarowych (GSCI/BCOM roll grudzień → marzec |  5.-9. dzień roboczy listopada) |
-| 2026-11-06 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
 | 2026-11-09 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |
 | 2026-11-12 |  | kawa | Cecafé: eksport kawy z Brazylii za październik | średnia |
 | 2026-11-13 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
