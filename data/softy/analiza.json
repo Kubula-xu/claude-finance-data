@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-08T11:31:49Z",
- "wygenerowano_pl": "2026-11-08 12:31 PL",
+ "wygenerowano_utc": "2026-11-08T17:14:55Z",
+ "wygenerowano_pl": "2026-11-08 18:14 PL",
  "kapital_usd": 10270437.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -798,11 +798,6 @@
    "rynek": "kawa",
    "typ": "nieudane_wybicie",
    "opis": "nieudane wybicie dołem (276.00 < 276.40, zamknięcie 280.15)"
-  },
-  {
-   "rynek": "kakao",
-   "typ": "zmiana_rezimu",
-   "opis": "reżim zakres → wybicie_dol: przeliczyć plan i wiszące zlecenia"
   }
  ]
 }
