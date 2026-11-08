@@ -10,7 +10,7 @@
    "dzien": {
     "data": "2026-11-06",
     "open": 26640.25,
-    "high": 27425.0,
+    "high": 27424.5,
     "low": 26366.5
    }
   },
@@ -39,7 +39,7 @@
     "data": "2026-11-06",
     "open": 4098.5,
     "high": 4116.200195,
-    "low": 4035.100098
+    "low": 4035.600098
    }
   },
   "silver": {
@@ -51,9 +51,9 @@
    "zmiana_pct": -0.557,
    "dzien": {
     "data": "2026-11-06",
-    "open": 51.803001,
-    "high": 51.845001,
-    "low": 51.803001
+    "open": 51.724998,
+    "high": 52.369999,
+    "low": 51.200001
    }
   },
   "wti": {
@@ -67,7 +67,7 @@
     "data": "2026-11-06",
     "open": 91.199997,
     "high": 92.529999,
-    "low": 89.07
+    "low": 89.080002
    }
   },
   "ng": {
@@ -108,8 +108,8 @@
    "dzien": {
     "data": "2026-11-06",
     "open": 5181.0,
-    "high": 5287.0,
-    "low": 5072.0
+    "high": 5400.0,
+    "low": 5192.0
    }
   },
   "dxy": {
@@ -168,7 +168,7 @@
     "data": "2026-11-06",
     "open": 4089.3326,
     "high": 4107.0327,
-    "low": 4025.9326
+    "low": 4026.4326
    },
    "poprzednie_zamkniecie": 4104.3326,
    "zmiana_pct": -0.814
@@ -185,14 +185,14 @@
    "futures": "SI=F",
    "dzien": {
     "data": "2026-11-06",
-    "open": 51.7778,
-    "high": 51.9475,
-    "low": 51.7778
+    "open": 51.6997,
+    "high": 52.3447,
+    "low": 51.1748
    },
    "poprzednie_zamkniecie": 52.2078,
    "zmiana_pct": -0.498
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-11-08T04:30:39Z"
+ "zaktualizowano_utc": "2026-11-08T11:31:45Z"
 }
