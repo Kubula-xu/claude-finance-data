@@ -3,14 +3,14 @@
   "nq": {
    "symbol": "NQ=F",
    "opis": "Nasdaq 100 E-mini futures (CME)",
-   "cena": 27107.5,
+   "cena": 27085.25,
    "czas_notowania_utc": "2026-11-06T21:45:00Z",
    "poprzednie_zamkniecie": 26752.0,
-   "zmiana_pct": 1.329,
+   "zmiana_pct": 1.246,
    "dzien": {
     "data": "2026-11-06",
     "open": 26640.25,
-    "high": 27424.75,
+    "high": 27425.0,
     "low": 26366.5
    }
   },
@@ -23,46 +23,46 @@
    "zmiana_pct": 1.353,
    "dzien": {
     "data": "2026-11-06",
-    "open": 27045.255859,
-    "high": 27316.09375,
-    "low": 26887.693359
+    "open": 27045.259766,
+    "high": 27316.089844,
+    "low": 26887.689453
    }
   },
   "gold": {
    "symbol": "GC=F",
    "opis": "Złoto futures (COMEX)",
-   "cena": 4079.5,
+   "cena": 4074.899902,
    "czas_notowania_utc": "2026-11-06T21:45:00Z",
    "poprzednie_zamkniecie": 4113.5,
-   "zmiana_pct": -0.827,
+   "zmiana_pct": -0.938,
    "dzien": {
     "data": "2026-11-06",
     "open": 4098.5,
     "high": 4116.200195,
-    "low": 4037.0
+    "low": 4035.100098
    }
   },
   "silver": {
    "symbol": "SI=F",
    "opis": "Srebro futures (COMEX)",
-   "cena": 51.965,
+   "cena": 51.942001,
    "czas_notowania_utc": "2026-11-06T21:45:00Z",
    "poprzednie_zamkniecie": 52.233002,
-   "zmiana_pct": -0.513,
+   "zmiana_pct": -0.557,
    "dzien": {
     "data": "2026-11-06",
-    "open": 51.724998,
-    "high": 52.369999,
-    "low": 51.200001
+    "open": 51.803001,
+    "high": 51.845001,
+    "low": 51.803001
    }
   },
   "wti": {
    "symbol": "CL=F",
    "opis": "Ropa WTI futures (NYMEX)",
-   "cena": 90.339996,
+   "cena": 90.830002,
    "czas_notowania_utc": "2026-11-06T21:45:00Z",
    "poprzednie_zamkniecie": 90.519997,
-   "zmiana_pct": -0.199,
+   "zmiana_pct": 0.342,
    "dzien": {
     "data": "2026-11-06",
     "open": 91.199997,
@@ -73,10 +73,10 @@
   "ng": {
    "symbol": "NG=F",
    "opis": "Gaz ziemny futures (NYMEX)",
-   "cena": 3.003,
+   "cena": 2.998,
    "czas_notowania_utc": "2026-11-06T21:45:00Z",
    "poprzednie_zamkniecie": 2.947,
-   "zmiana_pct": 1.9,
+   "zmiana_pct": 1.731,
    "dzien": {
     "data": "2026-11-06",
     "open": 2.949,
@@ -101,15 +101,15 @@
   "cocoa": {
    "symbol": "CC=F",
    "opis": "Kakao futures (ICE US)",
-   "cena": 5239.0,
+   "cena": 5119.0,
    "czas_notowania_utc": "2026-11-06T18:15:00Z",
    "poprzednie_zamkniecie": 5181.0,
-   "zmiana_pct": 1.119,
+   "zmiana_pct": -1.197,
    "dzien": {
     "data": "2026-11-06",
     "open": 5181.0,
-    "high": 5399.0,
-    "low": 5192.0
+    "high": 5287.0,
+    "low": 5072.0
    }
   },
   "dxy": {
@@ -121,9 +121,9 @@
    "zmiana_pct": 0.718,
    "dzien": {
     "data": "2026-11-06",
-    "open": 101.494003,
-    "high": 102.358002,
-    "low": 101.553001
+    "open": 101.550003,
+    "high": 102.360001,
+    "low": 101.550003
    }
   },
   "us10y": {
@@ -162,16 +162,16 @@
    "ask": 4071.182,
    "czas_notowania_utc": "2026-11-06T22:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -9.942,
+   "baza_vs_futures": -9.167,
    "futures": "GC=F",
    "dzien": {
     "data": "2026-11-06",
-    "open": 4088.5576,
-    "high": 4106.2578,
-    "low": 4027.0576
+    "open": 4089.3326,
+    "high": 4107.0327,
+    "low": 4025.9326
    },
-   "poprzednie_zamkniecie": 4103.5576,
-   "zmiana_pct": -0.795
+   "poprzednie_zamkniecie": 4104.3326,
+   "zmiana_pct": -0.814
   },
   "xagusd": {
    "symbol": "XAG/USD spot",
@@ -181,18 +181,18 @@
    "ask": 51.974,
    "czas_notowania_utc": "2026-11-06T22:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -0.04,
+   "baza_vs_futures": -0.025,
    "futures": "SI=F",
    "dzien": {
     "data": "2026-11-06",
-    "open": 51.685,
-    "high": 52.33,
-    "low": 51.1601
+    "open": 51.7778,
+    "high": 51.9475,
+    "low": 51.7778
    },
-   "poprzednie_zamkniecie": 52.1931,
-   "zmiana_pct": -0.47
+   "poprzednie_zamkniecie": 52.2078,
+   "zmiana_pct": -0.498
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-11-07T02:10:29Z"
+ "zaktualizowano_utc": "2026-11-08T04:30:39Z"
 }
