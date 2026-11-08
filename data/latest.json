@@ -10,7 +10,7 @@
    "dzien": {
     "data": "2026-11-06",
     "open": 26640.25,
-    "high": 27424.5,
+    "high": 27425.0,
     "low": 26366.5
    }
   },
@@ -39,7 +39,7 @@
     "data": "2026-11-06",
     "open": 4098.5,
     "high": 4116.200195,
-    "low": 4035.600098
+    "low": 4035.100098
    }
   },
   "silver": {
@@ -52,7 +52,7 @@
    "dzien": {
     "data": "2026-11-06",
     "open": 51.724998,
-    "high": 52.369999,
+    "high": 52.375,
     "low": 51.200001
    }
   },
@@ -67,14 +67,14 @@
     "data": "2026-11-06",
     "open": 91.199997,
     "high": 92.529999,
-    "low": 89.080002
+    "low": 89.07
    }
   },
   "ng": {
    "symbol": "NG=F",
    "opis": "Gaz ziemny futures (NYMEX)",
    "cena": 2.998,
-   "czas_notowania_utc": "2026-11-06T21:45:00Z",
+   "czas_notowania_utc": "2026-10-15T20:00:00Z",
    "poprzednie_zamkniecie": 2.947,
    "zmiana_pct": 1.731,
    "dzien": {
@@ -108,7 +108,7 @@
    "dzien": {
     "data": "2026-11-06",
     "open": 5181.0,
-    "high": 5400.0,
+    "high": 5399.0,
     "low": 5192.0
    }
   },
@@ -162,16 +162,16 @@
    "ask": 4071.182,
    "czas_notowania_utc": "2026-11-06T22:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -8.57,
+   "baza_vs_futures": -6.27,
    "futures": "GC=F",
    "dzien": {
     "data": "2026-11-06",
-    "open": 4089.93,
-    "high": 4107.6302,
-    "low": 4027.0301
+    "open": 4092.2301,
+    "high": 4109.9302,
+    "low": 4028.8301
    },
-   "poprzednie_zamkniecie": 4104.93,
-   "zmiana_pct": -0.828
+   "poprzednie_zamkniecie": 4107.2301,
+   "zmiana_pct": -0.884
   },
   "xagusd": {
    "symbol": "XAG/USD spot",
@@ -181,18 +181,18 @@
    "ask": 51.974,
    "czas_notowania_utc": "2026-11-06T22:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": -0.018,
+   "baza_vs_futures": -0.006,
    "futures": "SI=F",
    "dzien": {
     "data": "2026-11-06",
-    "open": 51.7075,
-    "high": 52.3525,
-    "low": 51.1825
+    "open": 51.719,
+    "high": 52.369,
+    "low": 51.194
    },
-   "poprzednie_zamkniecie": 52.2155,
-   "zmiana_pct": -0.513
+   "poprzednie_zamkniecie": 52.227,
+   "zmiana_pct": -0.535
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-11-08T17:14:49Z"
+ "zaktualizowano_utc": "2026-11-08T21:13:26Z"
 }

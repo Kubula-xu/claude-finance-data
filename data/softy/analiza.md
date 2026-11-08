@@ -1,10 +1,10 @@
-# Softy: kawa i kakao, analiza z 2026-11-08 18:14 PL
+# Softy: kawa i kakao, analiza z 2026-11-08 22:13 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
 ## Kawa (Arabica KC): NEUTRAL 1/5 (suma +0.0)
 
-- Cena 280,15 c/lb (2026-11-06T18:15:00Z UTC). ATR D1 10,23, ATR H1 (sesja) 3,74. 5 sesji -2.5%, 20 sesji -2.4%.
+- Cena 280,15 c/lb (2026-11-06T18:15:00Z UTC). ATR D1 10,23, ATR H1 (sesja) 3,73. 5 sesji -2.5%, 20 sesji -2.4%.
 - Reżim: **zakres** (ADX 18, cena w zakresie 10 sesji 276.40-314.90; nieudane wybicie dołem (276.00 < 276.40, zamknięcie 280.15)). Zakres 10 sesji 276,40–314,90 (20 sesji 276,40–318,20), EMA20 291,43, EMA50 299,62, SMA200 303,72.
 
 | Czynnik | Wynik | Opis |
@@ -30,7 +30,7 @@ Wsparcia: 279,55 (P, -0.06 ATR), 277,20 (swing D1 ×2, ostatnio 2026-11-06, -0.2
 
 ## Kakao (NY CC): NEUTRAL 1/5 (suma +0.0)
 
-- Cena 5 119 USD/t (2026-11-06T18:15:00Z UTC). ATR D1 211, ATR H1 (sesja) 82. 5 sesji -6.1%, 20 sesji -9.6%.
+- Cena 5 119 USD/t (2026-11-06T18:15:00Z UTC). ATR D1 211, ATR H1 (sesja) 81. 5 sesji -6.1%, 20 sesji -9.6%.
 - Reżim: **wybicie dol** (zamknięcie/cena pod dołkiem 10 sesji 5143.00). Zakres 10 sesji 5 143–5 687 (20 sesji 5 143–6 023), EMA20 5 488, EMA50 5 569, SMA200 4 596.
 
 | Czynnik | Wynik | Opis |
@@ -44,14 +44,14 @@ Wsparcia: 279,55 (P, -0.06 ATR), 277,20 (swing D1 ×2, ostatnio 2026-11-06, -0.2
 
 Opory: 5 143 (dołek 5 sesji, +0.11 ATR), 5 204 (swing D1 ×2, ostatnio 2026-11-06, +0.40 ATR), 5 237 (P, +0.56 ATR), 5 250 (okrągły poziom, +0.62 ATR)
 
-Wsparcia: 5 087 (swing D1 ×3, ostatnio 2026-10-01, -0.15 ATR), 5 074 (S1, -0.21 ATR), 5 029 (S2, -0.43 ATR), 4 970 (swing D1 ×2, ostatnio 2026-07-28, -0.70 ATR)
+Wsparcia: 5 087 (swing D1 ×3, ostatnio 2026-10-01, -0.15 ATR), 5 074 (S1, -0.21 ATR), 5 030 (S2, -0.42 ATR), 4 970 (swing D1 ×2, ostatnio 2026-07-28, -0.70 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
-| LONG (pod prąd) | limit: cofnięcie do 4970.50 (swing D1 ×2, ostatnio 2026-07-28) | 4 992 | 4 465 | 6 046 / 6 572 | 1.72 | -0.60 ATR | 4 | silny poziom 5143.0 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
-| LONG (pod prąd) | stop: kontynuacja: przebicie szczytu ostatniej sesji 5400.00 | 5 421 | 4 894 | 6 475 / 7 002 | 1.72 | +1.43 ATR | 4 | stop 1.43× ATR D1 od ceny: daleko, do przeliczenia po sesji; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
-| SHORT | limit: cofnięcie do 5418.67 (swing D1 ×3, ostatnio 2026-11-06) | 5 398 | 5 925 | 4 344 / 3 817 | 1.72 | +1.32 ATR | 4 | limit 1.32× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 5087.33 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
-| SHORT | stop: kontynuacja: przebicie dołka ostatniej sesji 5119.00 | 5 098 | 5 625 | 4 044 / 3 517 | 1.72 | -0.10 ATR | 4 | silny poziom 4970.5 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
+| LONG (pod prąd) | limit: cofnięcie do 4970.50 (swing D1 ×2, ostatnio 2026-07-28) | 4 992 | 4 465 | 6 045 / 6 572 | 1.72 | -0.60 ATR | 4 | silny poziom 5143.0 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
+| LONG (pod prąd) | stop: kontynuacja: przebicie szczytu ostatniej sesji 5399.00 | 5 420 | 4 893 | 6 474 / 7 000 | 1.72 | +1.43 ATR | 4 | stop 1.43× ATR D1 od ceny: daleko, do przeliczenia po sesji; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
+| SHORT | limit: cofnięcie do 5418.33 (swing D1 ×3, ostatnio 2026-11-06) | 5 397 | 5 924 | 4 344 / 3 817 | 1.72 | +1.32 ATR | 4 | limit 1.32× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 5087.33 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
+| SHORT | stop: kontynuacja: przebicie dołka ostatniej sesji 5119.00 | 5 098 | 5 625 | 4 044 / 3 518 | 1.72 | -0.10 ATR | 4 | silny poziom 4970.5 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
 
 ## Alerty
 
