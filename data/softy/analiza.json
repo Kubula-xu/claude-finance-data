@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-09T00:57:06Z",
- "wygenerowano_pl": "2026-11-09 01:57 PL",
+ "wygenerowano_utc": "2026-11-09T07:44:05Z",
+ "wygenerowano_pl": "2026-11-09 08:44 PL",
  "kapital_usd": 10270437.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -26,19 +26,19 @@
      "o": 278.0,
      "h": 282.5,
      "l": 276.0,
-     "c": 280.149994
+     "c": 280.0
     },
-    "zmiana_5s_proc": -2.45,
-    "zmiana_20s_proc": -2.37
+    "zmiana_5s_proc": -2.51,
+    "zmiana_20s_proc": -2.42
    },
    "rezim": {
     "typ": "zakres",
     "kierunek": "NEUTRAL",
-    "opis": "ADX 18, cena w zakresie 10 sesji 276.40-314.90; nieudane wybicie dołem (276.00 < 276.40, zamknięcie 280.15)",
+    "opis": "ADX 18, cena w zakresie 10 sesji 276.40-314.90; nieudane wybicie dołem (276.00 < 276.40, zamknięcie 280.00)",
     "adx": 18.4,
     "di_plus": 16.4,
     "di_minus": 26.0,
-    "ema20": 291.43,
+    "ema20": 291.42,
     "ema50": 299.62,
     "sma100": 313.73,
     "sma200": 303.72,
@@ -59,16 +59,16 @@
       "odleglosc_atr": 0.21
      },
      {
-      "poziom": 283.1,
+      "poziom": 283.0,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.29
+      "odleglosc_atr": 0.28
      },
      {
-      "poziom": 286.05,
+      "poziom": 286.0,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 0.58
+      "odleglosc_atr": 0.57
      },
      {
       "sila": 1,
@@ -92,7 +92,7 @@
     ],
     "wsparcia": [
      {
-      "poziom": 279.55,
+      "poziom": 279.5,
       "sila": 1,
       "zrodlo": "P",
       "odleglosc_atr": -0.06
@@ -105,10 +105,10 @@
       "odleglosc_atr": -0.29
      },
      {
-      "poziom": 276.6,
+      "poziom": 276.5,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.35
+      "odleglosc_atr": -0.36
      },
      {
       "poziom": 276.0,
@@ -117,10 +117,10 @@
       "odleglosc_atr": -0.41
      },
      {
-      "poziom": 273.05,
+      "poziom": 273.0,
       "sila": 1,
       "zrodlo": "S2",
-      "odleglosc_atr": -0.69
+      "odleglosc_atr": -0.7
      },
      {
       "poziom": 270,
@@ -130,11 +130,11 @@
      }
     ],
     "pivoty": {
-     "P": 279.55,
-     "R1": 283.1,
-     "S1": 276.6,
-     "R2": 286.05,
-     "S2": 273.05
+     "P": 279.5,
+     "R1": 283.0,
+     "S1": 276.5,
+     "R2": 286.0,
+     "S2": 273.0
     },
     "baza_pivotow": "2026-11-06"
    },
@@ -142,7 +142,7 @@
     {
      "czynnik": "Technika (reżim)",
      "wynik": 0.0,
-     "opis": "ADX 18, cena w zakresie 10 sesji 276.40-314.90; nieudane wybicie dołem (276.00 < 276.40, zamknięcie 280.15)"
+     "opis": "ADX 18, cena w zakresie 10 sesji 276.40-314.90; nieudane wybicie dołem (276.00 < 276.40, zamknięcie 280.00)"
     },
     {
      "czynnik": "COT",
@@ -366,58 +366,45 @@
     "cena": 5119.0,
     "czas_notowania_utc": "2026-11-06T18:15:00Z",
     "sesja_w_trakcie": false,
-    "atr_d1": 210.79,
+    "atr_d1": 210.5,
     "atr_h1_sesja": 81.8,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
      "data": "2026-11-06",
      "o": 5181.0,
-     "h": 5400.0,
-     "l": 5192.0,
-     "c": 5119.0
+     "h": 5287.0,
+     "l": 5072.0,
+     "c": 5155.0
     },
-    "zmiana_5s_proc": -6.13,
-    "zmiana_20s_proc": -9.64
+    "zmiana_5s_proc": -5.46,
+    "zmiana_20s_proc": -9.0
    },
    "rezim": {
-    "typ": "wybicie_dol",
-    "kierunek": "SHORT",
-    "opis": "zamknięcie/cena pod dołkiem 10 sesji 5143.00",
-    "adx": 13.2,
+    "typ": "zakres",
+    "kierunek": "NEUTRAL",
+    "opis": "ADX 14, cena w zakresie 10 sesji 5143.00-5687.00; nieudane wybicie dołem (5072.00 < 5143.00, zamknięcie 5155.00)",
+    "adx": 13.6,
     "di_plus": 12.0,
-    "di_minus": 20.1,
-    "ema20": 5487.92,
-    "ema50": 5568.86,
-    "sma100": 5593.41,
-    "sma200": 4595.77,
+    "di_minus": 22.4,
+    "ema20": 5491.34,
+    "ema50": 5570.27,
+    "sma100": 5593.77,
+    "sma200": 4595.94,
     "zakres_gora": 5687.0,
     "zakres_dol": 5143.0,
     "zakres20_gora": 6023.0,
     "zakres20_dol": 5143.0,
     "pozycja_w_zakresie_proc": -4,
-    "zmiennosc_20d_roczna_proc": 31.7
+    "zmiennosc_20d_roczna_proc": 31.5
    },
    "poziomy": {
     "opory": [
      {
-      "poziom": 5143.0,
-      "sila": 2,
-      "zrodlo": "dołek 5 sesji",
-      "odleglosc_atr": 0.11
-     },
-     {
-      "sila": 2,
-      "ostatnio": "2026-11-06",
-      "poziom": 5204.0,
-      "zrodlo": "swing D1 ×2, ostatnio 2026-11-06",
-      "odleglosc_atr": 0.4
-     },
-     {
-      "poziom": 5237.0,
+      "poziom": 5171.33,
       "sila": 1,
       "zrodlo": "P",
-      "odleglosc_atr": 0.56
+      "odleglosc_atr": 0.25
      },
      {
       "poziom": 5250,
@@ -426,74 +413,87 @@
       "odleglosc_atr": 0.62
      },
      {
-      "poziom": 5282.0,
-      "sila": 1,
-      "zrodlo": "R1",
-      "odleglosc_atr": 0.77
+      "sila": 2,
+      "ostatnio": "2026-11-06",
+      "poziom": 5251.5,
+      "zrodlo": "swing D1 ×2, ostatnio 2026-11-06",
+      "odleglosc_atr": 0.63
      },
      {
-      "sila": 3,
-      "ostatnio": "2026-11-06",
-      "poziom": 5418.67,
-      "zrodlo": "swing D1 ×3, ostatnio 2026-11-06",
-      "odleglosc_atr": 1.42
+      "poziom": 5270.67,
+      "sila": 1,
+      "zrodlo": "R1",
+      "odleglosc_atr": 0.72
+     },
+     {
+      "poziom": 5386.33,
+      "sila": 1,
+      "zrodlo": "R2",
+      "odleglosc_atr": 1.27
+     },
+     {
+      "sila": 2,
+      "ostatnio": "2026-10-08",
+      "poziom": 5428.0,
+      "zrodlo": "swing D1 ×2, ostatnio 2026-10-08",
+      "odleglosc_atr": 1.47
      }
     ],
     "wsparcia": [
      {
-      "sila": 3,
-      "ostatnio": "2026-10-01",
-      "poziom": 5087.33,
-      "zrodlo": "swing D1 ×3, ostatnio 2026-10-01",
-      "odleglosc_atr": -0.15
+      "sila": 4,
+      "ostatnio": "2026-11-06",
+      "poziom": 5083.5,
+      "zrodlo": "swing D1 ×4, ostatnio 2026-11-06",
+      "odleglosc_atr": -0.17
      },
      {
-      "poziom": 5074.0,
+      "poziom": 5072.0,
+      "sila": 2,
+      "zrodlo": "dołek 5 sesji",
+      "odleglosc_atr": -0.22
+     },
+     {
+      "poziom": 5055.67,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": -0.21
-     },
-     {
-      "poziom": 5029.0,
-      "sila": 1,
-      "zrodlo": "S2",
-      "odleglosc_atr": -0.43
+      "odleglosc_atr": -0.3
      },
      {
       "sila": 2,
       "ostatnio": "2026-07-28",
       "poziom": 4970.5,
       "zrodlo": "swing D1 ×2, ostatnio 2026-07-28",
-      "odleglosc_atr": -0.7
+      "odleglosc_atr": -0.71
+     },
+     {
+      "poziom": 4956.33,
+      "sila": 1,
+      "zrodlo": "S2",
+      "odleglosc_atr": -0.77
      },
      {
       "sila": 1,
       "ostatnio": "2026-06-29",
       "poziom": 4800.0,
       "zrodlo": "swing D1 ×1, ostatnio 2026-06-29",
-      "odleglosc_atr": -1.51
-     },
-     {
-      "poziom": 4750,
-      "sila": 1,
-      "zrodlo": "okrągły poziom",
-      "odleglosc_atr": -1.75
+      "odleglosc_atr": -1.52
      }
     ],
     "pivoty": {
-     "P": 5237.0,
-     "R1": 5282.0,
-     "S1": 5074.0,
-     "R2": 5445.0,
-     "S2": 5029.0
+     "P": 5171.33,
+     "R1": 5270.67,
+     "S1": 5055.67,
+     "R2": 5386.33,
+     "S2": 4956.33
     },
     "baza_pivotow": "2026-11-06"
    },
    "czynniki": [
     {
      "czynnik": "Technika (reżim)",
-     "wynik": -1.5,
-     "opis": "zamknięcie/cena pod dołkiem 10 sesji 5143.00"
+     "wynik": 0.0,
+     "opis": "ADX 14, cena w zakresie 10 sesji 5143.00-5687.00; nieudane wybicie dołem (5072.00 < 5143.00, zamknięcie 5155.00)"
     },
     {
      "czynnik": "COT",
@@ -612,51 +612,49 @@
      }
     }
    ],
-   "suma": 0.0,
+   "suma": 1.5,
    "bias": "NEUTRAL",
-   "pewnosc": 1,
+   "pewnosc": 2,
    "brak_danych": [],
    "plan": [
     {
      "kierunek": "LONG",
-     "zgodny_z_rezimem": false,
+     "zgodny_z_rezimem": true,
      "nogi": [
       {
        "kierunek": "LONG",
        "typ": "limit",
-       "wejscie": 4991.58,
-       "sl": 4464.61,
-       "tp1": 6045.51,
-       "tp2": 6572.47,
-       "r_pkt": 526.96,
-       "r_atr": 2.5,
-       "rr_tp1_netto": 1.72,
-       "odleglosc_atr": -0.6,
-       "kontrakty": 4.4,
+       "wejscie": 5164.05,
+       "sl": 4953.55,
+       "tp1": 5665.95,
+       "tp2": 5795.55,
+       "r_pkt": 210.5,
+       "r_atr": 1.0,
+       "rr_tp1_netto": 1.69,
+       "odleglosc_atr": 0.21,
+       "kontrakty": 9.7,
        "ryzyko_usd": 25676,
-       "uzasadnienie": "cofnięcie do 4970.50 (swing D1 ×2, ostatnio 2026-07-28)",
+       "uzasadnienie": "granica zakresu 5143.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
-        "silny poziom 5143.0 przed TP1: rozważyć częściowe wyjście przed nim",
-        "R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać"
+        "silny poziom 5251.5 przed TP1: rozważyć częściowe wyjście przed nim"
        ]
       },
       {
        "kierunek": "LONG",
        "typ": "stop",
-       "wejscie": 5421.08,
-       "sl": 4894.11,
-       "tp1": 6475.01,
-       "tp2": 7001.97,
-       "r_pkt": 526.96,
+       "wejscie": 5708.05,
+       "sl": 5181.8,
+       "tp1": 6760.55,
+       "tp2": 7286.8,
+       "r_pkt": 526.25,
        "r_atr": 2.5,
        "rr_tp1_netto": 1.72,
-       "odleglosc_atr": 1.43,
+       "odleglosc_atr": 2.8,
        "kontrakty": 4.4,
        "ryzyko_usd": 25676,
-       "uzasadnienie": "kontynuacja: przebicie szczytu ostatniej sesji 5400.00",
+       "uzasadnienie": "wybicie zakresu za 5687.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
-        "stop 1.43× ATR D1 od ceny: daleko, do przeliczenia po sesji",
-        "R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać"
+        "stop 2.80× ATR D1 od ceny: daleko, do przeliczenia po sesji"
        ]
       }
      ],
@@ -669,40 +667,37 @@
       {
        "kierunek": "SHORT",
        "typ": "limit",
-       "wejscie": 5397.59,
-       "sl": 5924.56,
-       "tp1": 4343.66,
-       "tp2": 3816.7,
-       "r_pkt": 526.96,
-       "r_atr": 2.5,
-       "rr_tp1_netto": 1.72,
-       "odleglosc_atr": 1.32,
-       "kontrakty": 4.4,
+       "wejscie": 5665.95,
+       "sl": 5876.45,
+       "tp1": 5164.05,
+       "tp2": 5034.45,
+       "r_pkt": 210.5,
+       "r_atr": 1.0,
+       "rr_tp1_netto": 1.69,
+       "odleglosc_atr": 2.6,
+       "kontrakty": 9.7,
        "ryzyko_usd": 25676,
-       "uzasadnienie": "cofnięcie do 5418.67 (swing D1 ×3, ostatnio 2026-11-06)",
+       "uzasadnienie": "granica zakresu 5687.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
-        "limit 1.32× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
-        "silny poziom 5087.33 przed TP1: rozważyć częściowe wyjście przed nim",
-        "R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać"
+        "limit 2.60× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop"
        ]
       },
       {
        "kierunek": "SHORT",
        "typ": "stop",
-       "wejscie": 5097.92,
-       "sl": 5624.89,
-       "tp1": 4043.99,
-       "tp2": 3517.03,
-       "r_pkt": 526.96,
+       "wejscie": 5121.95,
+       "sl": 5648.2,
+       "tp1": 4069.45,
+       "tp2": 3543.2,
+       "r_pkt": 526.25,
        "r_atr": 2.5,
        "rr_tp1_netto": 1.72,
-       "odleglosc_atr": -0.1,
+       "odleglosc_atr": 0.01,
        "kontrakty": 4.4,
        "ryzyko_usd": 25676,
-       "uzasadnienie": "kontynuacja: przebicie dołka ostatniej sesji 5119.00",
+       "uzasadnienie": "wybicie zakresu za 5143.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
-        "silny poziom 4970.5 przed TP1: rozważyć częściowe wyjście przed nim",
-        "R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać"
+        "silny poziom 5072.0 przed TP1: rozważyć częściowe wyjście przed nim"
        ]
       }
      ],
@@ -805,7 +800,17 @@
   {
    "rynek": "kawa",
    "typ": "nieudane_wybicie",
-   "opis": "nieudane wybicie dołem (276.00 < 276.40, zamknięcie 280.15)"
+   "opis": "nieudane wybicie dołem (276.00 < 276.40, zamknięcie 280.00)"
+  },
+  {
+   "rynek": "kakao",
+   "typ": "zmiana_rezimu",
+   "opis": "reżim wybicie_dol → zakres: przeliczyć plan i wiszące zlecenia"
+  },
+  {
+   "rynek": "kakao",
+   "typ": "nieudane_wybicie",
+   "opis": "nieudane wybicie dołem (5072.00 < 5143.00, zamknięcie 5155.00)"
   }
  ]
 }

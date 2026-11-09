@@ -670,10 +670,27 @@
    "tp": "26 668 / 26 380"
   }
  },
- "automat": {},
+ "automat": {
+  "114": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "115": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "117": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "118": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  }
+ },
  "podsumowanie": {
   "rano": "2026-11-09",
   "wieczor": "2026-11-06"
  },
- "zaktualizowano_utc": "2026-11-09T07:42:16Z"
+ "zaktualizowano_utc": "2026-11-09T07:44:05Z"
 }

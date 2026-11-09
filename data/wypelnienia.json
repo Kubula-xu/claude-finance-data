@@ -1,5 +1,46 @@
 {
- "zaktualizowano_utc": "2026-11-09T00:57:06Z",
+ "zaktualizowano_utc": "2026-11-09T07:44:05Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
- "zlecenia": {}
+ "zlecenia": {
+  "114": {
+   "nr": "114",
+   "instrument": "Złoto (XAUUSD spot)",
+   "kierunek": 1,
+   "klucz_cen": "xauusd",
+   "zdarzenia": [],
+   "stan": "oczekuje",
+   "pozostalo": 1.0,
+   "sl_teraz": 4056.0
+  },
+  "115": {
+   "nr": "115",
+   "instrument": "Złoto (XAUUSD spot)",
+   "kierunek": -1,
+   "klucz_cen": "xauusd",
+   "zdarzenia": [],
+   "stan": "oczekuje",
+   "pozostalo": 1.0,
+   "sl_teraz": 4149.0
+  },
+  "117": {
+   "nr": "117",
+   "instrument": "Ropa WTI",
+   "kierunek": -1,
+   "klucz_cen": "wti",
+   "zdarzenia": [],
+   "stan": "oczekuje",
+   "pozostalo": 1.0,
+   "sl_teraz": 91.6
+  },
+  "118": {
+   "nr": "118",
+   "instrument": "Nasdaq 100",
+   "kierunek": -1,
+   "klucz_cen": "nq",
+   "zdarzenia": [],
+   "stan": "oczekuje",
+   "pozostalo": 1.0,
+   "sl_teraz": 27388.0
+  }
+ }
 }
