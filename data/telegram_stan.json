@@ -670,17 +670,17 @@
    "tp": "26 668 / 26 380"
   },
   "119": {
-   "status": "oczekuje (limit)",
+   "status": "zamknięta SL",
    "sl": "4 083",
    "tp": "4 155,5 / 4 184,5"
   },
   "120": {
-   "status": "oczekuje (limit)",
+   "status": "zamknięta (22:25 PL)",
    "sl": "51,59",
    "tp": "53,74 / 54,60"
   },
   "121": {
-   "status": "oczekuje (limit; od 15:00)",
+   "status": "zamknięta (TP1 50% + reszta 22:25 PL)",
    "sl": "89,20",
    "tp": "85,95 / 84,65"
   }
@@ -704,5 +704,5 @@
   "rano": "2026-11-09",
   "wieczor": "2026-11-06"
  },
- "zaktualizowano_utc": "2026-11-09T17:50:05Z"
+ "zaktualizowano_utc": "2026-11-09T21:26:47Z"
 }
