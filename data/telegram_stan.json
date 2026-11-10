@@ -710,17 +710,17 @@
    "tp": "28 210 / 28 450"
   },
   "127": {
-   "status": "oczekuje (limit)",
+   "status": "anulowane (szczyt po 14:50 PL 4 063, limit nietknięty; złoto spadło do 4 013)",
    "sl": "4 102",
    "tp": "4 027 / 3 997"
   },
   "128": {
-   "status": "oczekuje (limit)",
+   "status": "anulowane (szczyt 52,15, limit nietknięty)",
    "sl": "53,14",
    "tp": "51,04 / 50,20"
   },
   "129": {
-   "status": "oczekuje (limit; od 15:00)",
+   "status": "zamknięta SL",
    "sl": "86,47",
    "tp": "82,30 / 80,63"
   }
@@ -742,5 +742,5 @@
   "rano": "2026-11-10",
   "wieczor": "2026-11-09"
  },
- "zaktualizowano_utc": "2026-11-10T16:33:15Z"
+ "zaktualizowano_utc": "2026-11-10T21:26:49Z"
 }
