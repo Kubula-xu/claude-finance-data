@@ -725,22 +725,10 @@
    "tp": "82,30 / 80,63"
   }
  },
- "automat": {
-  "127": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  },
-  "129": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "10.11 15:30 PL wejście 84.8",
-    "10.11 17:15 PL SL 86.47"
-   ]
-  }
- },
+ "automat": {},
  "podsumowanie": {
   "rano": "2026-11-10",
   "wieczor": "2026-11-10"
  },
- "zaktualizowano_utc": "2026-11-10T21:41:50Z"
+ "zaktualizowano_utc": "2026-11-10T21:58:00Z"
 }
