@@ -685,24 +685,10 @@
    "tp": "85,95 / 84,65"
   }
  },
- "automat": {
-  "119": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "09.11 15:15 PL wejście 4112",
-    "09.11 15:15 PL SL 4083"
-   ]
-  },
-  "121": {
-   "stan": "otwarta",
-   "zdarzenia": [
-    "09.11 16:00 PL wejście 87.9"
-   ]
-  }
- },
+ "automat": {},
  "podsumowanie": {
   "rano": "2026-11-09",
   "wieczor": "2026-11-09"
  },
- "zaktualizowano_utc": "2026-11-09T21:41:38Z"
+ "zaktualizowano_utc": "2026-11-10T01:12:20Z"
 }
