@@ -710,10 +710,27 @@
    "tp": "28 210 / 28 450"
   }
  },
- "automat": {},
+ "automat": {
+  "122": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "123": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "125": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "126": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  }
+ },
  "podsumowanie": {
   "rano": "2026-11-10",
   "wieczor": "2026-11-09"
  },
- "zaktualizowano_utc": "2026-11-10T07:42:09Z"
+ "zaktualizowano_utc": "2026-11-10T08:26:40Z"
 }
