@@ -16,10 +16,10 @@
    "pewnosc": 1,
    "setup": [
     "SHORT",
-    4138,
-    4162.6,
-    4101.1,
-    4076.5
+    4072,
+    4102,
+    4027,
+    3997
    ]
   },
   "silver": {
@@ -27,10 +27,10 @@
    "pewnosc": 1,
    "setup": [
     "SHORT",
-    53.3,
-    54.08,
-    52.13,
-    51.35
+    52.3,
+    53.14,
+    51.04,
+    50.2
    ]
   },
   "wti": {
@@ -38,10 +38,10 @@
    "pewnosc": 1,
    "setup": [
     "SHORT",
-    86.4,
-    88.07,
-    83.9,
-    82.23
+    84.8,
+    86.47,
+    82.3,
+    80.63
    ]
   },
   "ng": {
@@ -685,29 +685,44 @@
    "tp": "85,95 / 84,65"
   },
   "122": {
-   "status": "oczekuje (limit, OCO z #123)",
+   "status": "anulowane (OCO: wypełniony #123; szczyt dnia 4 124)",
    "sl": "4 162,6",
    "tp": "4 101,1 / 4 076,5"
   },
   "123": {
-   "status": "oczekuje (limit, OCO z #122)",
+   "status": "zamknięta SL",
    "sl": "4 085,4",
    "tp": "4 146,9 / 4 171,5"
   },
   "124": {
-   "status": "oczekuje (limit)",
+   "status": "anulowane (szczyt 53,00, limit nietknięty; o 14:50 PL srebro 51,98)",
    "sl": "54,08",
    "tp": "52,13 / 51,35"
   },
   "125": {
-   "status": "oczekuje (limit; okno 9–12 i 15–20:30)",
+   "status": "anulowane (szczyt 85,93, limit nietknięty; o 14:50 PL ropa 84,10)",
    "sl": "88,07",
    "tp": "83,90 / 82,23"
   },
   "126": {
-   "status": "oczekuje (limit; bez wejść 15:15–15:45)",
+   "status": "zamknięta SL",
    "sl": "27 610",
    "tp": "28 210 / 28 450"
+  },
+  "127": {
+   "status": "oczekuje (limit)",
+   "sl": "4 102",
+   "tp": "4 027 / 3 997"
+  },
+  "128": {
+   "status": "oczekuje (limit)",
+   "sl": "53,14",
+   "tp": "51,04 / 50,20"
+  },
+  "129": {
+   "status": "oczekuje (limit; od 15:00)",
+   "sl": "86,47",
+   "tp": "82,30 / 80,63"
   }
  },
  "automat": {
@@ -732,5 +747,5 @@
   "rano": "2026-11-10",
   "wieczor": "2026-11-09"
  },
- "zaktualizowano_utc": "2026-11-10T08:26:40Z"
+ "zaktualizowano_utc": "2026-11-10T13:54:03Z"
 }
