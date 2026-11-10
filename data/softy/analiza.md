@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-11-10 02:12 PL
+# Softy: kawa i kakao, analiza z 2026-11-10 02:29 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -11,10 +11,10 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 |---|---|---|
 | Technika (reżim) | -1.5 | zamknięcie/cena pod dołkiem 10 sesji 276.00 |
 | COT | +1.0 | fundusze net +14,732, 2. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | +0.0 | opad 30 dni 114% normy, prognoza 16 dni 81% normy (średnia ważona regionów) |
-| Krzywa | +1.0 | KCZ26.NYB vs KCH27.NYB: +2.56%, 5 dni temu +3.14%, backwardation (ciasno w bieżącej dostawie) |
+| Pogoda | +0.0 | opad 30 dni 115% normy, prognoza 16 dni 90% normy (średnia ważona regionów) |
+| Krzywa | +1.0 | KCZ26.NYB vs KCH27.NYB: +2.38%, 5 dni temu +3.14%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
-| BRL | +0.0 | USD/BRL 5.515, 5 sesji +1.5% |
+| BRL | +0.0 | USD/BRL 5.503, 5 sesji +1.3% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana -1.1%, wzrost w 46% lat |
 
 Opory: 268,73 (swing D1 ×3, ostatnio 2026-11-09, +0.19 ATR), 268,78 (P, +0.20 ATR), 270,92 (R1, +0.40 ATR), 273,00 (swing D1 ×1, ostatnio 2026-11-09, +0.60 ATR)
@@ -37,8 +37,8 @@ Wsparcia: 264,57 (S1, -0.20 ATR), 262,85 (swing D1 ×1, ostatnio 2026-05-19, -0.
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 14, cena w zakresie 10 sesji 5072.00-5622.00 |
 | COT | +1.0 | fundusze net -12,253, 9. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | +1.0 | opad 30 dni 194% normy, prognoza 16 dni 186% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
-| Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.22%, 5 dni temu -1.92%, contango (zapasy wystarczają) |
+| Pogoda | +1.0 | opad 30 dni 200% normy, prognoza 16 dni 164% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
+| Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.21%, 5 dni temu -1.92%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +5.5%, wzrost w 65% lat |
 
