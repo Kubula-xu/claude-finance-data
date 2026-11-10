@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-10T07:45:00Z",
+ "aktualizacja": "2026-11-10T13:50:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -37,7 +37,7 @@
     "tp1": 28210,
     "tp2": 28450,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 10.11 (#126)",
+    "status": "zamknięta SL 10.11 (#126 −0,93R); bez nowego zlecenia",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -74,18 +74,18 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Noc w dół, short 4138 / long 4110 OCO."
+    "powod": "Trend w dół, short 4072."
    },
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 4138,
-    "sl": 4162.6,
-    "tp1": 4101.1,
-    "tp2": 4076.5,
+    "wejscie": 4072,
+    "sl": 4102,
+    "tp1": 4027,
+    "tp2": 3997,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "oczekuje limit 10.11 (#122, OCO z long 4110 #123)",
+    "status": "oczekuje limit 10.11 (#127); #123 SL",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -127,17 +127,17 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Short z retestu 53,30."
+    "powod": "Short z retestu 52,30."
    },
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 53.3,
-    "sl": 54.08,
-    "tp1": 52.13,
-    "tp2": 51.35,
+    "wejscie": 52.3,
+    "sl": 53.14,
+    "tp1": 51.04,
+    "tp2": 50.2,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 10.11 (#124)",
+    "status": "oczekuje limit 10.11 (#128)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -174,17 +174,17 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Trend spadkowy, short 86,40."
+    "powod": "Trend spadkowy, short 84,80."
    },
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 86.4,
-    "sl": 88.07,
-    "tp1": 83.9,
-    "tp2": 82.23,
+    "wejscie": 84.8,
+    "sl": 86.47,
+    "tp1": 82.3,
+    "tp2": 80.63,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 10.11 (#125)",
+    "status": "oczekuje limit 10.11 (#129)",
     "ksiega": "intraday",
     "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
    },
