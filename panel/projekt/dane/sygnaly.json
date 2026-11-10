@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-10T13:50:00Z",
+ "aktualizacja": "2026-11-10T21:25:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -85,7 +85,7 @@
     "tp2": 3997,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "oczekuje limit 10.11 (#127); #123 SL",
+    "status": "zamknięte 10.11 (#123 −1,00R); #127 anulowane",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -137,7 +137,7 @@
     "tp1": 51.04,
     "tp2": 50.2,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 10.11 (#128)",
+    "status": "anulowane 10.11 (#124, #128)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -184,7 +184,7 @@
     "tp1": 82.3,
     "tp2": 80.63,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 10.11 (#129)",
+    "status": "zamknięta SL 10.11 (#129 −1,00R)",
     "ksiega": "intraday",
     "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
    },
