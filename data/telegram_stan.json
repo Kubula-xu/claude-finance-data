@@ -761,19 +761,11 @@
   }
  },
  "automat": {
-  "130": {
+  "135": {
    "stan": "oczekuje",
    "zdarzenia": []
   },
-  "131": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  },
-  "133": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  },
-  "134": {
+  "136": {
    "stan": "oczekuje",
    "zdarzenia": []
   }
@@ -782,5 +774,5 @@
   "rano": "2026-11-11",
   "wieczor": "2026-11-10"
  },
- "zaktualizowano_utc": "2026-11-11T13:52:17Z"
+ "zaktualizowano_utc": "2026-11-11T14:35:07Z"
 }
