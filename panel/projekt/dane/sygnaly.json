@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-11T14:45:00Z",
+ "aktualizacja": "2026-11-11T14:52:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -37,7 +37,7 @@
     "tp1": 28646,
     "tp2": 28877,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 11.11 (#136)",
+    "status": "anulowane 11.11 (#136, przejście poziomu w oknie bez wejść)",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -56,19 +56,19 @@
    "jedn": "USD/oz",
    "dec": 1,
    "csv": "gold.csv",
-   "atr": 82.6,
+   "atr": 89.6,
    "agenci": {
     "technika": [
      "SHORT",
-     1
+     3
     ],
     "makro": [
-     "NEUTRAL",
-     1
+     "SHORT",
+     3
     ],
     "sentyment": [
      "SHORT",
-     1
+     2
     ]
    },
    "final": {
@@ -95,11 +95,6 @@
     "usd_na_jedn_ceny": 100,
     "usd_na_jedn_cfd": 1,
     "jedn_cfd": "oz"
-   },
-   "ostatnia_cena": {
-    "cena": 4170.39,
-    "czas": "2026-10-19 11:10 PL",
-    "zrodlo": "XTB GOLD (zrzut Kuby)"
    }
   },
   {
@@ -156,19 +151,19 @@
    "jedn": "USD/bbl",
    "dec": 2,
    "csv": "wti.csv",
-   "atr": 4.5,
+   "atr": 4.6,
    "agenci": {
     "technika": [
      "LONG",
-     1
+     2
     ],
     "makro": [
      "NEUTRAL",
-     1
+     2
     ],
     "sentyment": [
      "LONG",
-     1
+     2
     ]
    },
    "final": {
@@ -186,14 +181,15 @@
     "ryzyko_pct": 0.25,
     "status": "oczekuje limit 11.11 (#137)",
     "ksiega": "intraday",
-    "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
+    "uwagi": "EIA najpewniej przesunięte na czw 12.11 (Veterans Day). Grudniowy CL wygasa ok. 19–20.11."
    },
    "kontrakt": {
     "nazwa": "WTI Crude (CL), 1 000 bbl",
     "usd_na_jedn_ceny": 1000,
     "usd_na_jedn_cfd": 1,
     "jedn_cfd": "bbl"
-   }
+   },
+   "atr_h1": 1.1
   },
   {
    "id": "ng",
