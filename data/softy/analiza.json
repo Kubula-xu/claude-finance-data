@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-11T14:35:07Z",
- "wygenerowano_pl": "2026-11-11 15:35 PL",
+ "wygenerowano_utc": "2026-11-11T16:53:29Z",
+ "wygenerowano_pl": "2026-11-11 17:53 PL",
  "kapital_usd": 10231142.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -14,13 +14,13 @@
    "kontrakt": "KC (37 500 lb)",
    "sesja_ice_pl": "10:15-19:30",
    "kontekst": {
-    "cena": 262.700012,
-    "czas_notowania_utc": "2026-11-11T14:00:00Z",
+    "cena": 265.399994,
+    "czas_notowania_utc": "2026-11-11T16:30:00Z",
     "sesja_w_trakcie": true,
     "atr_d1": 9.83,
-    "atr_h1_sesja": 3.22,
-    "zakres_dzis_proc_atr": 39,
-    "vwap_dzis": 265.02,
+    "atr_h1_sesja": 3.26,
+    "zakres_dzis_proc_atr": 53,
+    "vwap_dzis": 264.96,
     "ostatnia_sesja": {
      "data": "2026-11-10",
      "o": 274.0,
@@ -46,7 +46,7 @@
     "zakres_dol": 272.8,
     "zakres20_gora": 318.2,
     "zakres20_dol": 272.8,
-    "pozycja_w_zakresie_proc": -31,
+    "pozycja_w_zakresie_proc": -23,
     "zmiennosc_20d_roczna_proc": 30.6
    },
    "poziomy": {
@@ -55,58 +55,65 @@
       "poziom": 267.57,
       "sila": 1,
       "zrodlo": "S2",
-      "odleglosc_atr": 0.5
+      "odleglosc_atr": 0.22
      },
      {
       "poziom": 269.48,
       "sila": 1,
       "zrodlo": "S1",
-      "odleglosc_atr": 0.69
-     },
-     {
-      "poziom": 270,
-      "sila": 1,
-      "zrodlo": "okrągły poziom",
-      "odleglosc_atr": 0.74
+      "odleglosc_atr": 0.42
      },
      {
       "sila": 3,
       "ostatnio": "2026-11-10",
       "poziom": 270.12,
       "zrodlo": "swing D1 ×3, ostatnio 2026-11-10",
-      "odleglosc_atr": 0.76
+      "odleglosc_atr": 0.48
      },
      {
       "poziom": 270.8,
       "sila": 2,
       "zrodlo": "dołek 5 sesji",
-      "odleglosc_atr": 0.82
+      "odleglosc_atr": 0.55
      },
      {
       "poziom": 272.72,
       "sila": 1,
       "zrodlo": "P",
-      "odleglosc_atr": 1.02
+      "odleglosc_atr": 0.75
+     },
+     {
+      "poziom": 274.63,
+      "sila": 1,
+      "zrodlo": "R1",
+      "odleglosc_atr": 0.94
      }
     ],
     "wsparcia": [
      {
+      "sila": 1,
+      "ostatnio": "2026-05-19",
+      "poziom": 262.85,
+      "zrodlo": "swing D1 ×1, ostatnio 2026-05-19",
+      "odleglosc_atr": -0.26
+     },
+     {
+      "poziom": 260,
+      "sila": 1,
+      "zrodlo": "okrągły poziom",
+      "odleglosc_atr": -0.55
+     },
+     {
       "poziom": 250,
       "sila": 1,
       "zrodlo": "okrągły poziom",
-      "odleglosc_atr": -1.29
+      "odleglosc_atr": -1.57
      },
      {
       "sila": 1,
       "ostatnio": "2026-06-09",
       "poziom": 242.7,
       "zrodlo": "swing D1 ×1, ostatnio 2026-06-09",
-      "odleglosc_atr": -2.04
-     },
-     {
-      "poziom": 240,
-      "sila": 1,
-      "zrodlo": "okrągły poziom",
       "odleglosc_atr": -2.31
      }
     ],
@@ -259,19 +266,18 @@
       {
        "kierunek": "LONG",
        "typ": "limit",
-       "wejscie": 250.98,
-       "sl": 231.33,
-       "tp1": 290.28,
-       "tp2": 309.93,
+       "wejscie": 260.98,
+       "sl": 241.33,
+       "tp1": 300.28,
+       "tp2": 319.93,
        "r_pkt": 19.65,
        "r_atr": 2.0,
        "rr_tp1_netto": 1.81,
-       "odleglosc_atr": -1.19,
+       "odleglosc_atr": -0.45,
        "kontrakty": 6.5,
        "ryzyko_usd": 51156,
-       "uzasadnienie": "cofnięcie do 250.00 (okrągły poziom)",
+       "uzasadnienie": "cofnięcie do 260.00 (okrągły poziom)",
        "uwagi": [
-        "limit 1.19× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
         "silny poziom 270.12 przed TP1: rozważyć częściowe wyjście przed nim",
         "R:R po kosztach 1.81 < 2.0: według ryzyko.md 10a nie składać"
        ]
@@ -286,12 +292,12 @@
        "r_pkt": 19.65,
        "r_atr": 2.0,
        "rr_tp1_netto": 1.81,
-       "odleglosc_atr": 1.45,
+       "odleglosc_atr": 1.17,
        "kontrakty": 6.5,
        "ryzyko_usd": 51156,
        "uzasadnienie": "kontynuacja: przebicie szczytu ostatniej sesji 275.95",
        "uwagi": [
-        "stop 1.45× ATR D1 od ceny: daleko, do przeliczenia po sesji",
+        "stop 1.17× ATR D1 od ceny: daleko, do przeliczenia po sesji",
         "R:R po kosztach 1.81 < 2.0: według ryzyko.md 10a nie składać"
        ]
       }
@@ -312,7 +318,7 @@
        "r_pkt": 19.65,
        "r_atr": 2.0,
        "rr_tp1_netto": 1.81,
-       "odleglosc_atr": 0.66,
+       "odleglosc_atr": 0.38,
        "kontrakty": 6.5,
        "ryzyko_usd": 51156,
        "uzasadnienie": "cofnięcie do 270.12 (swing D1 ×3, ostatnio 2026-11-10)",
@@ -323,17 +329,17 @@
       {
        "kierunek": "SHORT",
        "typ": "stop",
-       "wejscie": 261.72,
-       "sl": 281.37,
-       "tp1": 222.42,
-       "tp2": 202.77,
+       "wejscie": 264.42,
+       "sl": 284.07,
+       "tp1": 225.12,
+       "tp2": 205.47,
        "r_pkt": 19.65,
        "r_atr": 2.0,
        "rr_tp1_netto": 1.81,
        "odleglosc_atr": -0.1,
        "kontrakty": 6.5,
        "ryzyko_usd": 51156,
-       "uzasadnienie": "kontynuacja: przebicie dołka ostatniej sesji 262.70",
+       "uzasadnienie": "kontynuacja: przebicie dołka ostatniej sesji 265.40",
        "uwagi": [
         "R:R po kosztach 1.81 < 2.0: według ryzyko.md 10a nie składać"
        ]
@@ -349,13 +355,13 @@
    "kontrakt": "CC (10 t)",
    "sesja_ice_pl": "10:45-19:30",
    "kontekst": {
-    "cena": 5033.0,
-    "czas_notowania_utc": "2026-11-11T14:00:00Z",
+    "cena": 5044.0,
+    "czas_notowania_utc": "2026-11-11T16:30:00Z",
     "sesja_w_trakcie": true,
     "atr_d1": 220.43,
-    "atr_h1_sesja": 83.24,
-    "zakres_dzis_proc_atr": 105,
-    "vwap_dzis": 4889.07,
+    "atr_h1_sesja": 83.0,
+    "zakres_dzis_proc_atr": 126,
+    "vwap_dzis": 4942.86,
     "ostatnia_sesja": {
      "data": "2026-11-10",
      "o": 4941.0,
@@ -381,7 +387,7 @@
     "zakres_dol": 4978.0,
     "zakres20_gora": 6023.0,
     "zakres20_dol": 4978.0,
-    "pozycja_w_zakresie_proc": 9,
+    "pozycja_w_zakresie_proc": 10,
     "zmiennosc_20d_roczna_proc": 38.1
    },
    "poziomy": {
@@ -390,40 +396,40 @@
       "poziom": 5075.33,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 0.19
+      "odleglosc_atr": 0.14
      },
      {
       "sila": 3,
       "ostatnio": "2026-10-01",
       "poziom": 5087.33,
       "zrodlo": "swing D1 ×3, ostatnio 2026-10-01",
-      "odleglosc_atr": 0.25
+      "odleglosc_atr": 0.2
      },
      {
       "sila": 1,
       "ostatnio": "2026-07-16",
       "poziom": 5216.0,
       "zrodlo": "swing D1 ×1, ostatnio 2026-07-16",
-      "odleglosc_atr": 0.83
+      "odleglosc_atr": 0.78
      },
      {
       "poziom": 5250,
       "sila": 1,
       "zrodlo": "okrągły poziom",
-      "odleglosc_atr": 0.98
+      "odleglosc_atr": 0.93
      },
      {
       "sila": 2,
       "ostatnio": "2026-10-08",
       "poziom": 5428.0,
       "zrodlo": "swing D1 ×2, ostatnio 2026-10-08",
-      "odleglosc_atr": 1.79
+      "odleglosc_atr": 1.74
      },
      {
       "poziom": 5472.0,
       "sila": 2,
       "zrodlo": "szczyt 5 sesji",
-      "odleglosc_atr": 1.99
+      "odleglosc_atr": 1.94
      }
     ],
     "wsparcia": [
@@ -432,38 +438,38 @@
       "ostatnio": "2026-11-10",
       "poziom": 4960.67,
       "zrodlo": "swing D1 ×3, ostatnio 2026-11-10",
-      "odleglosc_atr": -0.33
+      "odleglosc_atr": -0.38
      },
      {
       "poziom": 4908.67,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": -0.56
+      "odleglosc_atr": -0.61
      },
      {
       "sila": 1,
       "ostatnio": "2026-06-29",
       "poziom": 4800.0,
       "zrodlo": "swing D1 ×1, ostatnio 2026-06-29",
-      "odleglosc_atr": -1.06
+      "odleglosc_atr": -1.11
      },
      {
       "poziom": 4774.33,
       "sila": 1,
       "zrodlo": "P",
-      "odleglosc_atr": -1.17
+      "odleglosc_atr": -1.22
      },
      {
       "poziom": 4750,
       "sila": 1,
       "zrodlo": "okrągły poziom",
-      "odleglosc_atr": -1.28
+      "odleglosc_atr": -1.33
      },
      {
       "poziom": 4640.0,
       "sila": 2,
       "zrodlo": "dołek 5 sesji",
-      "odleglosc_atr": -1.78
+      "odleglosc_atr": -1.83
      }
     ],
     "pivoty": {
@@ -617,7 +623,7 @@
        "r_pkt": 551.07,
        "r_atr": 2.5,
        "rr_tp1_netto": 1.73,
-       "odleglosc_atr": -0.23,
+       "odleglosc_atr": -0.28,
        "kontrakty": 4.2,
        "ryzyko_usd": 25578,
        "uzasadnienie": "cofnięcie do 4960.67 (swing D1 ×3, ostatnio 2026-11-10)",
@@ -629,17 +635,17 @@
       {
        "kierunek": "LONG",
        "typ": "stop",
-       "wejscie": 5055.04,
-       "sl": 4503.97,
-       "tp1": 6157.19,
-       "tp2": 6708.26,
+       "wejscie": 5066.04,
+       "sl": 4514.97,
+       "tp1": 6168.19,
+       "tp2": 6719.26,
        "r_pkt": 551.07,
        "r_atr": 2.5,
        "rr_tp1_netto": 1.73,
        "odleglosc_atr": 0.1,
        "kontrakty": 4.2,
        "ryzyko_usd": 25578,
-       "uzasadnienie": "kontynuacja: przebicie szczytu ostatniej sesji 5033.00",
+       "uzasadnienie": "kontynuacja: przebicie szczytu ostatniej sesji 5044.00",
        "uwagi": [
         "silny poziom 5428.0 przed TP1: rozważyć częściowe wyjście przed nim",
         "R:R po kosztach 1.73 < 2.0: według ryzyko.md 10a nie składać"
@@ -662,7 +668,7 @@
        "r_pkt": 551.07,
        "r_atr": 2.5,
        "rr_tp1_netto": 1.73,
-       "odleglosc_atr": 0.73,
+       "odleglosc_atr": 0.68,
        "kontrakty": 4.2,
        "ryzyko_usd": 25578,
        "uzasadnienie": "cofnięcie do 5216.00 (swing D1 ×1, ostatnio 2026-07-16)",
@@ -681,12 +687,12 @@
        "r_pkt": 551.07,
        "r_atr": 2.5,
        "rr_tp1_netto": 1.73,
-       "odleglosc_atr": -1.88,
+       "odleglosc_atr": -1.93,
        "kontrakty": 4.2,
        "ryzyko_usd": 25578,
        "uzasadnienie": "kontynuacja: przebicie dołka ostatniej sesji 4640.00",
        "uwagi": [
-        "stop 1.88× ATR D1 od ceny: daleko, do przeliczenia po sesji",
+        "stop 1.93× ATR D1 od ceny: daleko, do przeliczenia po sesji",
         "R:R po kosztach 1.73 < 2.0: według ryzyko.md 10a nie składać"
        ]
       }
@@ -778,11 +784,5 @@
    "ice": "2026-10-21T18:42:06Z"
   }
  },
- "alerty": [
-  {
-   "rynek": "kawa",
-   "typ": "zmiana_biasu",
-   "opis": "bias NEUTRAL → SHORT (3/5)"
-  }
- ]
+ "alerty": []
 }
