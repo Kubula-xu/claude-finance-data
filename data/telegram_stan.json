@@ -5,28 +5,28 @@
    "pewnosc": 1,
    "setup": [
     "LONG",
-    28100,
-    27869,
-    28446,
-    28677
+    28300,
+    28069,
+    28646,
+    28877
    ]
   },
   "gold": {
-   "kierunek": "LONG",
+   "kierunek": "SHORT",
    "pewnosc": 1,
    "setup": [
-    "LONG",
-    4048,
-    4023.4,
-    4084.9,
-    4109.5
+    "SHORT",
+    4045,
+    4069.6,
+    4008.1,
+    3983.5
    ]
   },
   "silver": {
-   "kierunek": "LONG",
+   "kierunek": "NEUTRAL",
    "pewnosc": 1,
    "setup": [
-    "LONG",
+    "NEUTRAL",
     52.75,
     51.97,
     53.92,
@@ -725,29 +725,39 @@
    "tp": "82,30 / 80,63"
   },
   "130": {
-   "status": "oczekuje (limit, OCO z #131)",
+   "status": "zamknięta (stop czasowy 13:15 PL)",
    "sl": "4 023,4",
    "tp": "4 084,9 / 4 109,5"
   },
   "131": {
-   "status": "oczekuje (limit, OCO z #130)",
+   "status": "anulowane (OCO: wypełniony #130)",
    "sl": "4 099,6",
    "tp": "4 038,1 / 4 013,5"
   },
   "132": {
-   "status": "oczekuje (limit)",
+   "status": "anulowane (o 12:45 PL srebro 52,70 przeszło limit poza oknem; reguła ryzyko.md sekcja 4)",
    "sl": "51,97",
    "tp": "53,92 / 54,70"
   },
   "133": {
-   "status": "oczekuje (limit; tylko okno 9–12)",
+   "status": "zamknięta (stop czasowy 13:15 PL)",
    "sl": "88,00",
    "tp": "85,00 / 83,80"
   },
   "134": {
-   "status": "oczekuje (limit; bez wejść 15:15–15:45)",
+   "status": "anulowane (dołek 28 178, limit nietknięty; o 14:50 PL NQ 28 369)",
    "sl": "27 869",
    "tp": "28 446 / 28 677"
+  },
+  "135": {
+   "status": "oczekuje (limit)",
+   "sl": "4 069,6",
+   "tp": "4 008,1 / 3 983,5"
+  },
+  "136": {
+   "status": "oczekuje (limit; bez wejść 15:15–15:45)",
+   "sl": "28 069",
+   "tp": "28 646 / 28 877"
   }
  },
  "automat": {
@@ -772,5 +782,5 @@
   "rano": "2026-11-11",
   "wieczor": "2026-11-10"
  },
- "zaktualizowano_utc": "2026-11-11T08:51:14Z"
+ "zaktualizowano_utc": "2026-11-11T13:52:17Z"
 }
