@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-11T07:45:00Z",
+ "aktualizacja": "2026-11-11T13:50:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -27,17 +27,17 @@
    "final": {
     "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Odbicie, long 28100."
+    "powod": "Trend wzrostowy, long 28300."
    },
    "setup": {
     "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 28100,
-    "sl": 27869,
-    "tp1": 28446,
-    "tp2": 28677,
+    "wejscie": 28300,
+    "sl": 28069,
+    "tp1": 28646,
+    "tp2": 28877,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 11.11 (#134)",
+    "status": "oczekuje limit 11.11 (#136)",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -59,7 +59,7 @@
    "atr": 82.6,
    "agenci": {
     "technika": [
-     "LONG",
+     "SHORT",
      1
     ],
     "makro": [
@@ -67,25 +67,25 @@
      1
     ],
     "sentyment": [
-     "LONG",
+     "SHORT",
      1
     ]
    },
    "final": {
-    "kierunek": "LONG",
+    "kierunek": "SHORT",
     "pewnosc": 1,
-    "powod": "Odbicie, long 4048 / short 4075 OCO."
+    "powod": "Spadek w ciągu dnia, short 4045."
    },
    "setup": {
-    "kierunek": "LONG",
+    "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 4048,
-    "sl": 4023.4,
-    "tp1": 4084.9,
-    "tp2": 4109.5,
+    "wejscie": 4045,
+    "sl": 4069.6,
+    "tp1": 4008.1,
+    "tp2": 3983.5,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "oczekuje limit 11.11 (#130, OCO z short 4075 #131)",
+    "status": "oczekuje limit 11.11 (#135); #130 −0,19R",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -112,7 +112,7 @@
    "atr": 2.06,
    "agenci": {
     "technika": [
-     "LONG",
+     "NEUTRAL",
      1
     ],
     "makro": [
@@ -120,24 +120,24 @@
      1
     ],
     "sentyment": [
-     "LONG",
+     "NEUTRAL",
      1
     ]
    },
    "final": {
-    "kierunek": "LONG",
+    "kierunek": "NEUTRAL",
     "pewnosc": 1,
-    "powod": "Mocne odbicie, long 52,75."
+    "powod": "Konsolidacja 52,6–53,2, bez setupu."
    },
    "setup": {
-    "kierunek": "LONG",
+    "kierunek": "NEUTRAL",
     "typ": "limit",
     "wejscie": 52.75,
     "sl": 51.97,
     "tp1": 53.92,
     "tp2": 54.7,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 11.11 (#132)",
+    "status": "anulowane 11.11 (#132)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -184,7 +184,7 @@
     "tp1": 85.0,
     "tp2": 83.8,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 11.11 (#133), tylko rano (EIA 16:30)",
+    "status": "zamknięta 11.11 (#133 −0,39R); EIA 16:30, bez zleceń po południu",
     "ksiega": "intraday",
     "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
    },
