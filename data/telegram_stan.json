@@ -755,7 +755,7 @@
    "tp": "3 997 / 3 975"
   },
   "136": {
-   "status": "oczekuje (limit; bez wejść 15:15–15:45)",
+   "status": "anulowane (cena przeszła 28 300 w oknie bez wejść 15:15–15:45 PL, otwarcie kasowe; o 15:49 PL 28 230)",
    "sl": "28 069",
    "tp": "28 646 / 28 877"
   },
@@ -779,5 +779,5 @@
   "rano": "2026-11-11",
   "wieczor": "2026-11-10"
  },
- "zaktualizowano_utc": "2026-11-11T14:42:35Z"
+ "zaktualizowano_utc": "2026-11-11T14:50:16Z"
 }
