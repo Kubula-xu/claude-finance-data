@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-10T23:15:07Z",
- "wygenerowano_pl": "2026-11-11 00:15 PL",
+ "wygenerowano_utc": "2026-11-11T01:47:34Z",
+ "wygenerowano_pl": "2026-11-11 02:47 PL",
  "kapital_usd": 10231142.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -18,7 +18,7 @@
     "czas_notowania_utc": "2026-11-10T18:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 10.05,
-    "atr_h1_sesja": 3.5,
+    "atr_h1_sesja": 3.49,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -258,12 +258,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana -1.1%, wzrost w 46% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +1.3%, wzrost w 50% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 1.57,
-      "mediana_proc": -1.07,
-      "proc_lat_wzrost": 46
+      "srednia_proc": 1.42,
+      "mediana_proc": 1.31,
+      "proc_lat_wzrost": 50
      }
     }
    ],
@@ -374,7 +374,7 @@
     "czas_notowania_utc": "2026-11-10T18:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 214.79,
-    "atr_h1_sesja": 83.22,
+    "atr_h1_sesja": 82.82,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -609,12 +609,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.5,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +5.5%, wzrost w 65% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +5.8%, wzrost w 69% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 4.49,
-      "mediana_proc": 5.53,
-      "proc_lat_wzrost": 65
+      "srednia_proc": 4.98,
+      "mediana_proc": 5.82,
+      "proc_lat_wzrost": 69
      }
     }
    ],
