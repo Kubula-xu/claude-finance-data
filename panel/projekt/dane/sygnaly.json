@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-11T13:50:00Z",
+ "aktualizacja": "2026-11-11T14:45:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -79,13 +79,13 @@
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 4045,
-    "sl": 4069.6,
-    "tp1": 4008.1,
-    "tp2": 3983.5,
+    "wejscie": 4030,
+    "sl": 4052,
+    "tp1": 3997,
+    "tp2": 3975,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "oczekuje limit 11.11 (#135); #130 −0,19R",
+    "status": "oczekuje limit 11.11 (#135, przesunięty 15:45 PL, ceny XTB)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -159,7 +159,7 @@
    "atr": 4.5,
    "agenci": {
     "technika": [
-     "SHORT",
+     "LONG",
      1
     ],
     "makro": [
@@ -167,24 +167,24 @@
      1
     ],
     "sentyment": [
-     "NEUTRAL",
+     "LONG",
      1
     ]
    },
    "final": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "pewnosc": 1,
-    "powod": "Short przy oporze 86,80, EIA po południu."
+    "powod": "Odbicie w ciągu dnia, long z cofnięcia 86,90. EIA jutro."
    },
    "setup": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 86.8,
-    "sl": 88.0,
-    "tp1": 85.0,
-    "tp2": 83.8,
+    "wejscie": 86.9,
+    "sl": 85.7,
+    "tp1": 88.7,
+    "tp2": 89.9,
     "ryzyko_pct": 0.25,
-    "status": "zamknięta 11.11 (#133 −0,39R); EIA 16:30, bez zleceń po południu",
+    "status": "oczekuje limit 11.11 (#137)",
     "ksiega": "intraday",
     "uwagi": "Unieważnienie: H1 pod 96,9 przed wejściem. Wygasa kontrakt listopadowy."
    },
