@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-11-10T23:14:11Z",
+ "zaktualizowano_utc": "2026-11-11T14:33:45Z",
  "opis": "spread_1_2_proc = (pierwszy/drugi - 1)*100; dodatni = backwardation (ciasny rynek bieżący)",
  "towary": {
   "kawa": {
@@ -7,68 +7,68 @@
     {
      "symbol": "KCZ26.NYB",
      "miesiac": "2026-12",
-     "cena": 272.2,
-     "data": "2026-11-10",
-     "cena_5d_temu": 287.2
+     "cena": 267.5,
+     "data": "2026-11-11",
+     "cena_5d_temu": 292.1
     },
     {
      "symbol": "KCH27.NYB",
      "miesiac": "2027-03",
-     "cena": 266.75,
-     "data": "2026-11-10",
-     "cena_5d_temu": 276.8
+     "cena": 262.6,
+     "data": "2026-11-11",
+     "cena_5d_temu": 280.55
     },
     {
      "symbol": "KCK27.NYB",
      "miesiac": "2027-05",
-     "cena": 262.2,
-     "data": "2026-11-10",
-     "cena_5d_temu": 272.75
+     "cena": 258.55,
+     "data": "2026-11-11",
+     "cena_5d_temu": 276.5
     },
     {
      "symbol": "KCN27.NYB",
      "miesiac": "2027-07",
-     "cena": 259.0,
-     "data": "2026-11-10",
-     "cena_5d_temu": 269.65
+     "cena": 255.6,
+     "data": "2026-11-11",
+     "cena_5d_temu": 273.5
     }
    ],
-   "spread_1_2_proc": 2.04,
-   "spread_1_2_proc_5d_temu": 3.76
+   "spread_1_2_proc": 1.87,
+   "spread_1_2_proc_5d_temu": 4.12
   },
   "kakao": {
    "kontrakty": [
     {
      "symbol": "CCZ26.NYB",
      "miesiac": "2026-12",
-     "cena": 4724.0,
-     "data": "2026-11-10",
-     "cena_5d_temu": 5453.0
+     "cena": 4903.0,
+     "data": "2026-11-11",
+     "cena_5d_temu": 5435.0
     },
     {
      "symbol": "CCH27.NYB",
      "miesiac": "2027-03",
-     "cena": 4852.0,
-     "data": "2026-11-10",
-     "cena_5d_temu": 5556.0
+     "cena": 5038.0,
+     "data": "2026-11-11",
+     "cena_5d_temu": 5533.0
     },
     {
      "symbol": "CCK27.NYB",
      "miesiac": "2027-05",
-     "cena": 4891.0,
-     "data": "2026-11-10",
-     "cena_5d_temu": 5616.0
+     "cena": 5079.0,
+     "data": "2026-11-11",
+     "cena_5d_temu": 5594.0
     },
     {
      "symbol": "CCN27.NYB",
      "miesiac": "2027-07",
-     "cena": 4937.0,
-     "data": "2026-11-10",
-     "cena_5d_temu": 5650.0
+     "cena": 5112.0,
+     "data": "2026-11-11",
+     "cena_5d_temu": 5625.0
     }
    ],
-   "spread_1_2_proc": -2.64,
-   "spread_1_2_proc_5d_temu": -1.85
+   "spread_1_2_proc": -2.68,
+   "spread_1_2_proc_5d_temu": -1.77
   }
  }
 }
