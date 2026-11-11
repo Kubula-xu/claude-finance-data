@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-11T14:52:00Z",
+ "aktualizacja": "2026-11-11T21:30:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -85,7 +85,7 @@
     "tp2": 3975,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "oczekuje limit 11.11 (#135, przesunięty 15:45 PL, ceny XTB)",
+    "status": "zamknięte 11.11 (#130 −0,19R); #135 anulowane",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -179,7 +179,7 @@
     "tp1": 88.7,
     "tp2": 89.9,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 11.11 (#137)",
+    "status": "zamknięta 11.11 (#133 −0,39R, #137 −0,49R)",
     "ksiega": "intraday",
     "uwagi": "EIA najpewniej przesunięte na czw 12.11 (Veterans Day). Grudniowy CL wygasa ok. 19–20.11."
    },
