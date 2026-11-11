@@ -5,32 +5,32 @@
    "pewnosc": 1,
    "setup": [
     "LONG",
-    27850,
-    27610,
-    28210,
-    28450
+    28100,
+    27869,
+    28446,
+    28677
    ]
   },
   "gold": {
-   "kierunek": "SHORT",
+   "kierunek": "LONG",
    "pewnosc": 1,
    "setup": [
-    "SHORT",
-    4072,
-    4102,
-    4027,
-    3997
+    "LONG",
+    4048,
+    4023.4,
+    4084.9,
+    4109.5
    ]
   },
   "silver": {
-   "kierunek": "SHORT",
+   "kierunek": "LONG",
    "pewnosc": 1,
    "setup": [
-    "SHORT",
-    52.3,
-    53.14,
-    51.04,
-    50.2
+    "LONG",
+    52.75,
+    51.97,
+    53.92,
+    54.7
    ]
   },
   "wti": {
@@ -38,10 +38,10 @@
    "pewnosc": 1,
    "setup": [
     "SHORT",
-    84.8,
-    86.47,
-    82.3,
-    80.63
+    86.8,
+    88.0,
+    85.0,
+    83.8
    ]
   },
   "ng": {
@@ -723,12 +723,37 @@
    "status": "zamknięta SL",
    "sl": "86,47",
    "tp": "82,30 / 80,63"
+  },
+  "130": {
+   "status": "oczekuje (limit, OCO z #131)",
+   "sl": "4 023,4",
+   "tp": "4 084,9 / 4 109,5"
+  },
+  "131": {
+   "status": "oczekuje (limit, OCO z #130)",
+   "sl": "4 099,6",
+   "tp": "4 038,1 / 4 013,5"
+  },
+  "132": {
+   "status": "oczekuje (limit)",
+   "sl": "51,97",
+   "tp": "53,92 / 54,70"
+  },
+  "133": {
+   "status": "oczekuje (limit; tylko okno 9–12)",
+   "sl": "88,00",
+   "tp": "85,00 / 83,80"
+  },
+  "134": {
+   "status": "oczekuje (limit; bez wejść 15:15–15:45)",
+   "sl": "27 869",
+   "tp": "28 446 / 28 677"
   }
  },
  "automat": {},
  "podsumowanie": {
-  "rano": "2026-11-10",
+  "rano": "2026-11-11",
   "wieczor": "2026-11-10"
  },
- "zaktualizowano_utc": "2026-11-11T01:47:34Z"
+ "zaktualizowano_utc": "2026-11-11T07:42:26Z"
 }
