@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-12T07:45:00Z",
+ "aktualizacja": "2026-11-12T13:50:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -79,13 +79,13 @@
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 3968,
-    "sl": 3987.1,
-    "tp1": 3939.4,
-    "tp2": 3920.2,
+    "wejscie": 3918,
+    "sl": 3940.5,
+    "tp1": 3884.25,
+    "tp2": 3861.75,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "oczekuje limit 12.11 (#138)",
+    "status": "oczekuje limit 12.11 (#141); #138 anulowane",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -127,12 +127,12 @@
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 51.35,
-    "sl": 51.97,
-    "tp1": 50.42,
-    "tp2": 49.8,
+    "wejscie": 50.65,
+    "sl": 51.35,
+    "tp1": 49.6,
+    "tp2": 48.9,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 12.11 (#139)",
+    "status": "oczekuje limit 12.11 (#142); #139 anulowane",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -154,32 +154,32 @@
    "atr": 4.6,
    "agenci": {
     "technika": [
-     "LONG",
-     2
+     "NEUTRAL",
+     1
     ],
     "makro": [
      "NEUTRAL",
      2
     ],
     "sentyment": [
-     "LONG",
-     2
+     "NEUTRAL",
+     1
     ]
    },
    "final": {
-    "kierunek": "LONG",
-    "pewnosc": 2,
-    "powod": "Odbicie, long 86,40. EIA dziś."
+    "kierunek": "NEUTRAL",
+    "pewnosc": 1,
+    "powod": "EIA ok. 18:00 PL, szpila 85,1–87,7, bez zleceń po południu."
    },
    "setup": {
-    "kierunek": "LONG",
+    "kierunek": "NEUTRAL",
     "typ": "limit",
     "wejscie": 86.4,
     "sl": 85.48,
     "tp1": 87.78,
     "tp2": 88.7,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 12.11 (#140), tylko rano (EIA ok. 18:00)",
+    "status": "zamknięta 12.11 (#140 −0,65R); bez zleceń przed EIA",
     "ksiega": "intraday",
     "uwagi": "EIA najpewniej przesunięte na czw 12.11 (Veterans Day). Grudniowy CL wygasa ok. 19–20.11."
    },
