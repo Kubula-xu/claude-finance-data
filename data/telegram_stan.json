@@ -780,12 +780,12 @@
    "tp": "87,78 / 88,70"
   },
   "141": {
-   "status": "oczekuje (limit)",
+   "status": "anulowane (szczyt po 14:50 PL 3 905, retest nie przyszedł; złoto spadło do 3 848)",
    "sl": "3 940,5",
    "tp": "3 884,25 / 3 861,75"
   },
   "142": {
-   "status": "oczekuje (limit)",
+   "status": "anulowane (szczyt 50,44, retest nie przyszedł; srebro do 49,59)",
    "sl": "51,35",
    "tp": "49,60 / 48,90"
   }
@@ -800,5 +800,5 @@
   "rano": "2026-11-12",
   "wieczor": "2026-11-11"
  },
- "zaktualizowano_utc": "2026-11-12T20:28:48Z"
+ "zaktualizowano_utc": "2026-11-12T21:26:15Z"
 }
