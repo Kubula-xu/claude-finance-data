@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-12T13:50:00Z",
+ "aktualizacja": "2026-11-12T21:25:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -85,7 +85,7 @@
     "tp2": 3861.75,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "oczekuje limit 12.11 (#141); #138 anulowane",
+    "status": "anulowane 12.11 (#138, #141)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -132,7 +132,7 @@
     "tp1": 49.6,
     "tp2": 48.9,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 12.11 (#142); #139 anulowane",
+    "status": "anulowane 12.11 (#139, #142)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
