@@ -780,10 +780,21 @@
    "tp": "87,78 / 88,70"
   }
  },
- "automat": {},
+ "automat": {
+  "138": {
+   "stan": "oczekuje",
+   "zdarzenia": []
+  },
+  "140": {
+   "stan": "otwarta",
+   "zdarzenia": [
+    "12.11 10:15 PL wejście 86.4"
+   ]
+  }
+ },
  "podsumowanie": {
   "rano": "2026-11-12",
   "wieczor": "2026-11-11"
  },
- "zaktualizowano_utc": "2026-11-12T07:42:15Z"
+ "zaktualizowano_utc": "2026-11-12T12:42:07Z"
 }
