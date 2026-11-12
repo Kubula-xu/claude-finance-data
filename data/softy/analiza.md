@@ -1,8 +1,8 @@
-# Softy: kawa i kakao, analiza z 2026-11-12 00:17 PL
+# Softy: kawa i kakao, analiza z 2026-11-12 01:35 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
-## Kawa (Arabica KC): SHORT 3/5 (suma -2.0)
+## Kawa (Arabica KC): SHORT 3/5 (suma -2.5)
 
 - Cena 265,45 c/lb (2026-11-11T18:15:00Z UTC). ATR D1 9,49, ATR H1 (sesja) 3,22. 5 sesji -5.1%, 20 sesji -10.9%.
 - Reżim: **wybicie dol** (zamknięcie/cena pod dołkiem 10 sesji 270.80). Zakres 10 sesji 270,80–297,35 (20 sesji 270,80–318,20), EMA20 285,83, EMA50 296,27, SMA200 302,40.
@@ -11,11 +11,11 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 |---|---|---|
 | Technika (reżim) | -1.5 | zamknięcie/cena pod dołkiem 10 sesji 270.80 |
 | COT | +1.0 | fundusze net +14,732, 2. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | -1.0 | opad 30 dni 113% normy, prognoza 16 dni 124% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
-| Krzywa | -0.5 | KCZ26.NYB vs KCH27.NYB: +1.87%, 5 dni temu +4.12%, backwardation (ciasno w bieżącej dostawie) |
+| Pogoda | -1.0 | opad 30 dni 107% normy, prognoza 16 dni 118% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
+| Krzywa | -0.5 | KCZ26.NYB vs KCH27.NYB: +1.53%, 5 dni temu +4.12%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
-| BRL | +0.0 | USD/BRL 5.565, 5 sesji +1.4% |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +1.3%, wzrost w 50% lat |
+| BRL | -0.5 | USD/BRL 5.583, 5 sesji +1.7%: real słabnie, sprzedaż z Brazylii tańsza |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.4%, wzrost w 58% lat |
 
 Opory: 267,85 (R1, +0.25 ATR), 268,98 (swing D1 ×3, ostatnio 2026-11-11, +0.37 ATR), 270,25 (R2, +0.51 ATR), 279,60 (swing D1 ×2, ostatnio 2026-10-29, +1.49 ATR)
 
@@ -37,10 +37,10 @@ Wsparcia: 262,60 (S1, -0.30 ATR), 262,50 (swing D1 ×2, ostatnio 2026-11-11, -0.
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 19, cena w zakresie 10 sesji 4640.00-5614.00 |
 | COT | +1.0 | fundusze net -12,253, 9. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | +1.0 | opad 30 dni 207% normy, prognoza 16 dni 161% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
-| Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.68%, 5 dni temu -1.77%, contango (zapasy wystarczają) |
+| Pogoda | +1.0 | opad 30 dni 200% normy, prognoza 16 dni 148% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
+| Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.73%, 5 dni temu -1.77%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
-| Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +5.8%, wzrost w 69% lat |
+| Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +6.1%, wzrost w 73% lat |
 
 Opory: 5 086 (swing D1 ×4, ostatnio 2026-11-11, +0.11 ATR), 5 161 (R1, +0.45 ATR), 5 216 (swing D1 ×1, ostatnio 2026-07-16, +0.69 ATR), 5 250 (okrągły poziom, +0.84 ATR)
 
@@ -52,10 +52,6 @@ Wsparcia: 4 984 (P, -0.34 ATR), 4 970 (swing D1 ×2, ostatnio 2026-07-28, -0.40 
 | LONG | stop: wybicie zakresu za 5614.00: zmiana reżimu, wejście z kontynuacji | 5 636 | 5 077 | 6 755 / 7 314 | 1.74 | +2.57 ATR | 4 | stop 2.57× ATR D1 od ceny: daleko, do przeliczenia po sesji |
 | SHORT | limit: granica zakresu 5614.00 (10 sesji), TP1 przed przeciwną granicą | 5 592 | 5 815 | 4 662 / 4 551 | 3.15 | +2.37 ATR | 9 | limit 2.37× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 4970.5 przed TP1: rozważyć częściowe wyjście przed nim |
 | SHORT | stop: wybicie zakresu za 4640.00: zmiana reżimu, wejście z kontynuacji | 4 618 | 5 177 | 3 499 / 2 940 | 1.74 | -1.98 ATR | 4 | stop 1.98× ATR D1 od ceny: daleko, do przeliczenia po sesji |
-
-## Alerty
-
-- kakao: reżim wybicie_dol → zakres: przeliczyć plan i wiszące zlecenia
 
 ## Kalendarz (14 dni)
 
