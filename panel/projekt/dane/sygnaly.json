@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-12T21:25:00Z",
+ "aktualizacja": "2026-11-13T14:20:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -27,7 +27,7 @@
    "final": {
     "kierunek": "NEUTRAL",
     "pewnosc": 1,
-    "powod": "Zakres 28 120–28 360 po wczorajszym złamaniu trendu, bez kierunku."
+    "powod": "Zakres 28 250–28 600, bez kierunku."
    },
    "setup": {
     "kierunek": "NEUTRAL",
@@ -37,7 +37,7 @@
     "tp1": 28646,
     "tp2": 28877,
     "ryzyko_pct": 0.25,
-    "status": "brak setupu 12.11",
+    "status": "brak setupu 13.11",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -74,18 +74,18 @@
    "final": {
     "kierunek": "SHORT",
     "pewnosc": 3,
-    "powod": "Trend w dół, short z retestu 3968."
+    "powod": "Trend w dół, short blisko ceny lub na wybiciu."
    },
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 3918,
-    "sl": 3940.5,
-    "tp1": 3884.25,
-    "tp2": 3861.75,
+    "wejscie": 3890,
+    "sl": 3918.8,
+    "tp1": 3846.8,
+    "tp2": 3818,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "anulowane 12.11 (#138, #141)",
+    "status": "oczekuje 13.11 (#146 limit 3890 / #147 stop 3866, OCO)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -108,7 +108,7 @@
    "agenci": {
     "technika": [
      "SHORT",
-     1
+     2
     ],
     "makro": [
      "NEUTRAL",
@@ -116,23 +116,23 @@
     ],
     "sentyment": [
      "SHORT",
-     1
+     2
     ]
    },
    "final": {
     "kierunek": "SHORT",
-    "pewnosc": 1,
-    "powod": "Za złotem w dół, short 51,35."
+    "pewnosc": 2,
+    "powod": "Wybicie dołka 49,50."
    },
    "setup": {
     "kierunek": "SHORT",
-    "typ": "limit",
-    "wejscie": 50.65,
-    "sl": 51.35,
-    "tp1": 49.6,
-    "tp2": 48.9,
+    "typ": "stop",
+    "wejscie": 49.45,
+    "sl": 50.23,
+    "tp1": 48.28,
+    "tp2": 47.5,
     "ryzyko_pct": 0.25,
-    "status": "anulowane 12.11 (#139, #142)",
+    "status": "oczekuje sell stop 13.11 (#148)",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -154,32 +154,32 @@
    "atr": 4.6,
    "agenci": {
     "technika": [
-     "NEUTRAL",
-     1
+     "LONG",
+     2
     ],
     "makro": [
      "NEUTRAL",
      2
     ],
     "sentyment": [
-     "NEUTRAL",
-     1
+     "LONG",
+     2
     ]
    },
    "final": {
-    "kierunek": "NEUTRAL",
-    "pewnosc": 1,
-    "powod": "EIA ok. 18:00 PL, szpila 85,1–87,7, bez zleceń po południu."
+    "kierunek": "LONG",
+    "pewnosc": 2,
+    "powod": "Odbicie po PPI, long 88,85."
    },
    "setup": {
-    "kierunek": "NEUTRAL",
+    "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 86.4,
-    "sl": 85.48,
-    "tp1": 87.78,
-    "tp2": 88.7,
+    "wejscie": 88.85,
+    "sl": 87.83,
+    "tp1": 90.38,
+    "tp2": 91.4,
     "ryzyko_pct": 0.25,
-    "status": "zamknięta 12.11 (#140 −0,65R); bez zleceń przed EIA",
+    "status": "oczekuje limit 13.11 (#149)",
     "ksiega": "intraday",
     "uwagi": "EIA najpewniej przesunięte na czw 12.11 (Veterans Day). Grudniowy CL wygasa ok. 19–20.11."
    },
