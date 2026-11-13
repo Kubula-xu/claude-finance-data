@@ -855,17 +855,10 @@
    "tp": "88,20 / 87,95"
   }
  },
- "automat": {
-  "149": {
-   "stan": "otwarta",
-   "zdarzenia": [
-    "13.11 16:30 PL wejście 88.85"
-   ]
-  }
- },
+ "automat": {},
  "podsumowanie": {
   "rano": "2026-11-13",
   "wieczor": "2026-11-13"
  },
- "zaktualizowano_utc": "2026-11-13T21:42:00Z"
+ "zaktualizowano_utc": "2026-11-13T22:12:42Z"
 }
