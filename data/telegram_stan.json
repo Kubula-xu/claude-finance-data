@@ -805,24 +805,54 @@
    "tp": "88,75 / 89,00"
   },
   "146": {
-   "status": "oczekuje (OCO z #147)",
+   "status": "zamknięta (piątek 21:00 PL)",
    "sl": "3 918,8",
    "tp": "3 846,8 / 3 818"
   },
   "147": {
-   "status": "oczekuje (sell stop, OCO z #146)",
+   "status": "anulowane (OCO: wypełniony #146)",
    "sl": "3 894,8",
    "tp": "3 822,8 / 3 794"
   },
   "148": {
-   "status": "oczekuje (sell stop)",
+   "status": "zamknięta (piątek 21:00 PL)",
    "sl": "50,23",
    "tp": "48,28 / 47,50"
   },
   "149": {
-   "status": "oczekuje (limit; do 20:30 PL)",
+   "status": "zamknięta (stop czasowy 19:30 PL)",
    "sl": "87,83",
    "tp": "90,38 / 91,40"
+  },
+  "150": {
+   "status": "zamknięta SL (odczyt ze zrzutu XTB 17:26)",
+   "sl": "3 896",
+   "tp": "3 872 / 3 866"
+  },
+  "151": {
+   "status": "zamknięta (TP1 50% + BE; wypełnienie niepewne, ze zrzutu)",
+   "sl": "88,60",
+   "tp": "89,55 / 89,80"
+  },
+  "152": {
+   "status": "anulowane 18:20 (szczyt po 17:30 ok. 3 886, limit nietknięty; przesunięty jako #154)",
+   "sl": "3 897",
+   "tp": "3 874 / 3 868"
+  },
+  "153": {
+   "status": "anulowane (cena przeszła 88,62 o ok. 17:45 PL poza oknem, dołek 88,20; reguła ryzyko.md sekcja 4)",
+   "sl": "88,25",
+   "tp": "89,15 / 89,45"
+  },
+  "154": {
+   "status": "zamknięta (TP1 50% + reszta 21:00 PL)",
+   "sl": "3 894",
+   "tp": "3 872 / 3 868"
+  },
+  "155": {
+   "status": "zamknięta (piątek 21:00 PL)",
+   "sl": "88,95",
+   "tp": "88,20 / 87,95"
   }
  },
  "automat": {
@@ -837,5 +867,5 @@
   "rano": "2026-11-13",
   "wieczor": "2026-11-12"
  },
- "zaktualizowano_utc": "2026-11-13T16:42:04Z"
+ "zaktualizowano_utc": "2026-11-13T21:26:44Z"
 }
