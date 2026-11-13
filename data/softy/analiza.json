@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-12T23:33:20Z",
- "wygenerowano_pl": "2026-11-13 00:33 PL",
+ "wygenerowano_utc": "2026-11-13T01:25:04Z",
+ "wygenerowano_pl": "2026-11-13 02:25 PL",
  "kapital_usd": 10187142.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -258,12 +258,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.4%, wzrost w 58% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.6%, wzrost w 50% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 2.26,
-      "mediana_proc": 2.43,
-      "proc_lat_wzrost": 58
+      "srednia_proc": 1.68,
+      "mediana_proc": 0.57,
+      "proc_lat_wzrost": 50
      }
     }
    ],
@@ -370,7 +370,7 @@
     "czas_notowania_utc": "2026-11-12T18:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 232.5,
-    "atr_h1_sesja": 81.0,
+    "atr_h1_sesja": 81.58,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -605,12 +605,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.5,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +6.1%, wzrost w 73% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +5.5%, wzrost w 69% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 6.0,
-      "mediana_proc": 6.06,
-      "proc_lat_wzrost": 73
+      "srednia_proc": 5.93,
+      "mediana_proc": 5.47,
+      "proc_lat_wzrost": 69
      }
     }
    ],
@@ -713,14 +713,6 @@
  },
  "kalendarz": [
   {
-   "data": "2026-11-12",
-   "godzina_pl": "",
-   "rynek": "kawa",
-   "wydarzenie": "Cecafé: eksport kawy z Brazylii za październik",
-   "waga": "średnia",
-   "uwagi": "data orientacyjna (zwykle około połowy miesiąca)"
-  },
-  {
    "data": "2026-11-13",
    "godzina_pl": "21:30",
    "rynek": "oba",
@@ -766,6 +758,14 @@
    "rynek": "kakao",
    "wydarzenie": "przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów)",
    "waga": "średnia-wysoka",
+   "uwagi": "cykliczne"
+  },
+  {
+   "data": "2026-11-27",
+   "godzina_pl": "21:30",
+   "rynek": "oba",
+   "wydarzenie": "CFTC COT (stan na wtorek)",
+   "waga": "średnia",
    "uwagi": "cykliczne"
   }
  ],

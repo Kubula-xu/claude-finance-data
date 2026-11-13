@@ -790,15 +790,10 @@
    "tp": "49,60 / 48,90"
   }
  },
- "automat": {
-  "141": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  }
- },
+ "automat": {},
  "podsumowanie": {
   "rano": "2026-11-12",
   "wieczor": "2026-11-12"
  },
- "zaktualizowano_utc": "2026-11-12T21:41:30Z"
+ "zaktualizowano_utc": "2026-11-13T01:25:04Z"
 }

@@ -1,16 +1,5 @@
 {
- "zaktualizowano_utc": "2026-11-12T20:28:48Z",
+ "zaktualizowano_utc": "2026-11-13T01:25:04Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
- "zlecenia": {
-  "141": {
-   "nr": "141",
-   "instrument": "Złoto (XAUUSD spot)",
-   "kierunek": -1,
-   "klucz_cen": "xauusd",
-   "zdarzenia": [],
-   "stan": "oczekuje",
-   "pozostalo": 1.0,
-   "sl_teraz": 3940.5
-  }
- }
+ "zlecenia": {}
 }

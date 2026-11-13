@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-11-13 00:33 PL
+# Softy: kawa i kakao, analiza z 2026-11-13 02:25 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -15,7 +15,7 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Krzywa | -0.5 | KCZ26.NYB vs KCH27.NYB: +2.00%, 5 dni temu +4.12%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
 | BRL | -0.5 | USD/BRL 5.645, 5 sesji +3.4%: real słabnie, sprzedaż z Brazylii tańsza |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.4%, wzrost w 58% lat |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.6%, wzrost w 50% lat |
 
 Opory: 279,60 (swing D1 ×2, ostatnio 2026-10-29, +0.47 ATR), 282,37 (R1, +0.76 ATR), 282,50 (szczyt 5 sesji, +0.77 ATR), 282,65 (swing D1 ×2, ostatnio 2026-11-12, +0.79 ATR)
 
@@ -30,7 +30,7 @@ Wsparcia: 274,53 (P, -0.06 ATR), 270,00 (okrągły poziom, -0.53 ATR), 268,75 (s
 
 ## Kakao (NY CC): NEUTRAL 2/5 (suma +1.5)
 
-- Cena 5 187 USD/t (2026-11-12T18:15:00Z UTC). ATR D1 232, ATR H1 (sesja) 81. 5 sesji +0.1%, 20 sesji -11.0%.
+- Cena 5 187 USD/t (2026-11-12T18:15:00Z UTC). ATR D1 232, ATR H1 (sesja) 82. 5 sesji +0.1%, 20 sesji -11.0%.
 - Reżim: **zakres** (ADX 20, cena w zakresie 10 sesji 4640.00-5600.00). Zakres 10 sesji 4 640–5 600 (20 sesji 4 640–5 993), EMA20 5 319, EMA50 5 481, SMA200 4 609.
 
 | Czynnik | Wynik | Opis |
@@ -40,7 +40,7 @@ Wsparcia: 274,53 (P, -0.06 ATR), 270,00 (okrągły poziom, -0.53 ATR), 268,75 (s
 | Pogoda | +1.0 | opad 30 dni 200% normy, prognoza 16 dni 142% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
 | Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.62%, 5 dni temu -1.77%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
-| Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +6.1%, wzrost w 73% lat |
+| Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +5.5%, wzrost w 69% lat |
 
 Opory: 5 242 (swing D1 ×2, ostatnio 2026-11-12, +0.24 ATR), 5 287 (szczyt 5 sesji, +0.43 ATR), 5 301 (R1, +0.49 ATR), 5 416 (R2, +0.98 ATR)
 
@@ -61,10 +61,10 @@ Wsparcia: 5 155 (P, -0.14 ATR), 5 087 (swing D1 ×3, ostatnio 2026-10-01, -0.43 
 
 | Data | Godz. PL | Rynek | Wydarzenie | Waga |
 |---|---|---|---|---|
-| 2026-11-12 |  | kawa | Cecafé: eksport kawy z Brazylii za październik | średnia |
 | 2026-11-13 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
 | 2026-11-16 |  | kakao | First Notice Day kakao XII (CCZ26) wg reguły ICE (10 dni rob. przed 1. dniem rob. miesiąca) | średnia |
 | 2026-11-16 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |
 | 2026-11-19 |  | kawa | First Notice Day kawy XII (KCZ26) wg reguły ICE (7 dni rob. przed 1. dniem rob. miesiąca) | średnia |
 | 2026-11-20 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
 | 2026-11-23 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |
+| 2026-11-27 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
