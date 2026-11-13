@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-11-13 23:12 PL
+# Softy: kawa i kakao, analiza z 2026-11-14 00:29 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -11,10 +11,10 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 20, cena w zakresie 10 sesji 266.70-297.35 |
 | COT | +1.0 | fundusze net +14,732, 2. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | -1.0 | opad 30 dni 109% normy, prognoza 16 dni 128% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
-| Krzywa | -0.5 | KCZ26.NYB vs KCH27.NYB: +1.90%, 5 dni temu +3.40%, backwardation (ciasno w bieżącej dostawie) |
+| Pogoda | -1.0 | opad 30 dni 109% normy, prognoza 16 dni 119% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
+| Krzywa | -0.5 | KCZ26.NYB vs KCH27.NYB: +1.92%, 5 dni temu +3.40%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
-| BRL | -0.5 | USD/BRL 5.647, 5 sesji +2.6%: real słabnie, sprzedaż z Brazylii tańsza |
+| BRL | -0.5 | USD/BRL 5.667, 5 sesji +3.0%: real słabnie, sprzedaż z Brazylii tańsza |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.6%, wzrost w 50% lat |
 
 Opory: 275,18 (P, +0.13 ATR), 278,02 (R1, +0.43 ATR), 279,47 (swing D1 ×3, ostatnio 2026-11-13, +0.59 ATR), 280,00 (okrągły poziom, +0.65 ATR)
@@ -28,7 +28,7 @@ Wsparcia: 271,17 (S1, -0.31 ATR), 270,63 (swing D1 ×3, ostatnio 2026-11-13, -0.
 | SHORT | limit: granica zakresu 297.35 (10 sesji), TP1 przed przeciwną granicą | 296,42 | 305,68 | 267,63 / 263,00 | 2.59 | +2.42 ATR | 13 | limit 2.42× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 270.63 przed TP1: rozważyć częściowe wyjście przed nim |
 | SHORT | stop: wybicie zakresu za 266.70: zmiana reżimu, wejście z kontynuacji | 265,77 | 284,28 | 228,77 / 210,27 | 1.80 | -0.89 ATR | 7 | ok |
 
-## Kakao (NY CC): NEUTRAL 2/5 (suma +1.5)
+## Kakao (NY CC): NEUTRAL 1/5 (suma +1.0)
 
 - Cena 5 267 USD/t (2026-11-13T18:15:00Z UTC). ATR D1 234, ATR H1 (sesja) 79. 5 sesji +2.2%, 20 sesji -6.7%.
 - Reżim: **zakres** (ADX 20, cena w zakresie 10 sesji 4640.00-5600.00). Zakres 10 sesji 4 640–5 600 (20 sesji 4 640–5 903), EMA20 5 304, EMA50 5 468, SMA200 4 614.
@@ -37,8 +37,8 @@ Wsparcia: 271,17 (S1, -0.31 ATR), 270,63 (swing D1 ×3, ostatnio 2026-11-13, -0.
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 20, cena w zakresie 10 sesji 4640.00-5600.00 |
 | COT | +1.0 | fundusze net -12,253, 9. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | +1.0 | opad 30 dni 208% normy, prognoza 16 dni 139% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
-| Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.64%, 5 dni temu -1.67%, contango (zapasy wystarczają) |
+| Pogoda | +1.0 | opad 30 dni 208% normy, prognoza 16 dni 166% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
+| Krzywa | -1.5 | CCZ26.NYB vs CCH27.NYB: -2.73%, 5 dni temu -1.67%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +5.5%, wzrost w 69% lat |
 
