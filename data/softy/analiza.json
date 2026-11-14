@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-13T23:29:38Z",
- "wygenerowano_pl": "2026-11-14 00:29 PL",
+ "wygenerowano_utc": "2026-11-14T00:37:29Z",
+ "wygenerowano_pl": "2026-11-14 01:37 PL",
  "kapital_usd": 10242909.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -160,31 +160,31 @@
     {
      "czynnik": "Pogoda",
      "wynik": -1.0,
-     "opis": "opad 30 dni 109% normy, prognoza 16 dni 119% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027",
+     "opis": "opad 30 dni 105% normy, prognoza 16 dni 112% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027",
      "dane": {
-      "proc_normy_30d": 109,
-      "proc_normy_16d": 119,
-      "aktualizacja": "2026-11-13T23:29:26Z",
+      "proc_normy_30d": 105,
+      "proc_normy_16d": 112,
+      "aktualizacja": "2026-11-14T00:37:04Z",
       "regiony": {
        "sul_de_minas": [
-        130,
-        124
+        125,
+        119
        ],
        "cerrado": [
-        132,
-        98
+        126,
+        94
        ],
        "mogiana": [
-        121,
-        121
+        111,
+        114
        ],
        "espirito_santo": [
-        119,
-        250
+        120,
+        243
        ],
        "wietnam": [
-        36,
-        34
+        38,
+        18
        ]
       }
      }
@@ -248,21 +248,21 @@
     {
      "czynnik": "BRL",
      "wynik": -0.5,
-     "opis": "USD/BRL 5.667, 5 sesji +3.0%: real słabnie, sprzedaż z Brazylii tańsza",
+     "opis": "USD/BRL 5.641, 5 sesji +2.5%: real słabnie, sprzedaż z Brazylii tańsza",
      "dane": {
-      "usdbrl": 5.6666,
-      "zmiana_5d_proc": 2.96
+      "usdbrl": 5.6407,
+      "zmiana_5d_proc": 2.49
      }
     },
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.6%, wzrost w 50% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +0.8%, wzrost w 54% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 1.68,
-      "mediana_proc": 0.57,
-      "proc_lat_wzrost": 50
+      "srednia_proc": 0.74,
+      "mediana_proc": 0.84,
+      "proc_lat_wzrost": 54
      }
     }
    ],
@@ -512,35 +512,35 @@
     {
      "czynnik": "Pogoda",
      "wynik": 1.0,
-     "opis": "opad 30 dni 208% normy, prognoza 16 dni 166% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie)",
+     "opis": "opad 30 dni 210% normy, prognoza 16 dni 150% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie)",
      "dane": {
-      "proc_normy_30d": 208,
-      "proc_normy_16d": 166,
-      "aktualizacja": "2026-11-13T23:29:26Z",
+      "proc_normy_30d": 210,
+      "proc_normy_16d": 150,
+      "aktualizacja": "2026-11-14T00:37:04Z",
       "regiony": {
        "soubre": [
-        105,
-        112
+        95,
+        110
        ],
        "daloa": [
-        102,
-        65
+        93,
+        64
        ],
        "san_pedro": [
         44,
-        59
+        58
        ],
        "ashanti": [
         127,
-        39
+        36
        ],
        "western_north": [
-        111,
-        52
+        112,
+        39
        ],
        "los_rios": [
-        809,
-        680
+        854,
+        591
        ]
       }
      }
@@ -604,12 +604,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.5,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +5.5%, wzrost w 69% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +5.1%, wzrost w 65% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 5.93,
-      "mediana_proc": 5.47,
-      "proc_lat_wzrost": 69
+      "srednia_proc": 5.62,
+      "mediana_proc": 5.13,
+      "proc_lat_wzrost": 65
      }
     }
    ],
@@ -712,14 +712,6 @@
  },
  "kalendarz": [
   {
-   "data": "2026-11-13",
-   "godzina_pl": "21:30",
-   "rynek": "oba",
-   "wydarzenie": "CFTC COT (stan na wtorek)",
-   "waga": "średnia",
-   "uwagi": "cykliczne"
-  },
-  {
    "data": "2026-11-16",
    "godzina_pl": "",
    "rynek": "kakao",
@@ -769,7 +761,7 @@
   }
  ],
  "status_danych": {
-  "uruchomiono_utc": "2026-11-13T23:29:26Z",
+  "uruchomiono_utc": "2026-11-14T00:37:04Z",
   "bledy": {
    "ice_parse_kawa": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
    "ice_parse_kakao": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
@@ -783,11 +775,11 @@
    "dlugie": "coffee (świeże), cocoa (świeże)"
   },
   "ostatni_sukces_utc": {
-   "cot": "2026-11-13T23:29:26Z",
-   "pogoda": "2026-11-13T23:29:26Z",
-   "krzywa": "2026-11-13T23:29:26Z",
-   "fx": "2026-11-13T23:29:26Z",
-   "dlugie": "2026-11-13T23:29:26Z",
+   "cot": "2026-11-14T00:37:04Z",
+   "pogoda": "2026-11-14T00:37:04Z",
+   "krzywa": "2026-11-14T00:37:04Z",
+   "fx": "2026-11-14T00:37:04Z",
+   "dlugie": "2026-11-14T00:37:04Z",
    "ice": "2026-10-21T18:42:06Z"
   }
  },
