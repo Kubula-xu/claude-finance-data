@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-11-14 01:37 PL
+# Softy: kawa i kakao, analiza z 2026-11-14 03:27 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -17,16 +17,16 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | BRL | -0.5 | USD/BRL 5.641, 5 sesji +2.5%: real słabnie, sprzedaż z Brazylii tańsza |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +0.8%, wzrost w 54% lat |
 
-Opory: 275,18 (P, +0.13 ATR), 278,02 (R1, +0.43 ATR), 279,47 (swing D1 ×3, ostatnio 2026-11-13, +0.59 ATR), 280,00 (okrągły poziom, +0.65 ATR)
+Opory: 275,20 (P, +0.13 ATR), 278,00 (R1, +0.43 ATR), 279,47 (swing D1 ×3, ostatnio 2026-11-13, +0.59 ATR), 280,00 (okrągły poziom, +0.65 ATR)
 
-Wsparcia: 271,17 (S1, -0.31 ATR), 270,63 (swing D1 ×3, ostatnio 2026-11-13, -0.36 ATR), 268,33 (S2, -0.61 ATR), 266,70 (dołek 5 sesji, -0.79 ATR)
+Wsparcia: 271,20 (S1, -0.30 ATR), 270,65 (swing D1 ×3, ostatnio 2026-11-13, -0.36 ATR), 268,40 (S2, -0.61 ATR), 266,70 (dołek 5 sesji, -0.79 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
-| LONG | limit: granica zakresu 266.70 (10 sesji), TP1 przed przeciwną granicą | 267,63 | 258,37 | 296,42 / 301,05 | 2.59 | -0.69 ATR | 13 | silny poziom 279.47 przed TP1: rozważyć częściowe wyjście przed nim |
-| LONG | stop: wybicie zakresu za 297.35: zmiana reżimu, wejście z kontynuacji | 298,28 | 279,77 | 335,28 / 353,78 | 1.80 | +2.62 ATR | 7 | stop 2.62× ATR D1 od ceny: daleko, do przeliczenia po sesji |
-| SHORT | limit: granica zakresu 297.35 (10 sesji), TP1 przed przeciwną granicą | 296,42 | 305,68 | 267,63 / 263,00 | 2.59 | +2.42 ATR | 13 | limit 2.42× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 270.63 przed TP1: rozważyć częściowe wyjście przed nim |
-| SHORT | stop: wybicie zakresu za 266.70: zmiana reżimu, wejście z kontynuacji | 265,77 | 284,28 | 228,77 / 210,27 | 1.80 | -0.89 ATR | 7 | ok |
+| LONG | limit: granica zakresu 266.70 (10 sesji), TP1 przed przeciwną granicą | 267,62 | 258,38 | 296,43 / 301,05 | 2.59 | -0.69 ATR | 13 | silny poziom 279.47 przed TP1: rozważyć częściowe wyjście przed nim |
+| LONG | stop: wybicie zakresu za 297.35: zmiana reżimu, wejście z kontynuacji | 298,27 | 279,78 | 335,26 / 353,75 | 1.80 | +2.63 ATR | 7 | stop 2.63× ATR D1 od ceny: daleko, do przeliczenia po sesji |
+| SHORT | limit: granica zakresu 297.35 (10 sesji), TP1 przed przeciwną granicą | 296,43 | 305,67 | 267,62 / 263,00 | 2.59 | +2.43 ATR | 13 | limit 2.43× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 270.65 przed TP1: rozważyć częściowe wyjście przed nim |
+| SHORT | stop: wybicie zakresu za 266.70: zmiana reżimu, wejście z kontynuacji | 265,78 | 284,27 | 228,79 / 210,30 | 1.80 | -0.89 ATR | 7 | ok |
 
 ## Kakao (NY CC): NEUTRAL 1/5 (suma +1.0)
 
