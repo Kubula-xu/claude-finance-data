@@ -51,9 +51,9 @@
    "zmiana_pct": -1.703,
    "dzien": {
     "data": "2026-11-13",
-    "open": 49.674999,
-    "high": 49.674999,
-    "low": 48.360001
+    "open": 50.005001,
+    "high": 50.724998,
+    "low": 48.404999
    }
   },
   "wti": {
@@ -94,22 +94,22 @@
    "dzien": {
     "data": "2026-11-13",
     "open": 280.200012,
-    "high": 285.75,
-    "low": 277.5
+    "high": 279.200012,
+    "low": 272.350006
    }
   },
   "cocoa": {
    "symbol": "CC=F",
    "opis": "Kakao futures (ICE US)",
-   "cena": 5267.0,
+   "cena": 5123.0,
    "czas_notowania_utc": "2026-11-13T18:15:00Z",
    "poprzednie_zamkniecie": 5066.0,
-   "zmiana_pct": 3.968,
+   "zmiana_pct": 1.125,
    "dzien": {
     "data": "2026-11-13",
     "open": 5083.0,
-    "high": 5191.0,
-    "low": 5033.0
+    "high": 5330.0,
+    "low": 5169.0
    }
   },
   "dxy": {
@@ -185,14 +185,14 @@
    "futures": "SI=F",
    "dzien": {
     "data": "2026-11-13",
-    "open": 49.6935,
-    "high": 49.6935,
-    "low": 48.3786
+    "open": 50.0236,
+    "high": 50.7435,
+    "low": 48.4235
    },
    "poprzednie_zamkniecie": 49.9905,
    "zmiana_pct": -2.572
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-11-15T04:52:17Z"
+ "zaktualizowano_utc": "2026-11-15T12:29:49Z"
 }
