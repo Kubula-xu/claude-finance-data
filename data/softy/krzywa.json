@@ -1,5 +1,5 @@
 {
- "zaktualizowano_utc": "2026-11-14T00:37:04Z",
+ "zaktualizowano_utc": "2026-11-16T00:31:51Z",
  "opis": "spread_1_2_proc = (pierwszy/drugi - 1)*100; dodatni = backwardation (ciasny rynek bieżący)",
  "towary": {
   "kawa": {
@@ -9,32 +9,32 @@
      "miesiac": "2026-12",
      "cena": 279.25,
      "data": "2026-11-13",
-     "cena_5d_temu": 283.95
+     "cena_5d_temu": 279.75
     },
     {
      "symbol": "KCH27.NYB",
      "miesiac": "2027-03",
      "cena": 274.0,
      "data": "2026-11-13",
-     "cena_5d_temu": 274.6
+     "cena_5d_temu": 270.9
     },
     {
      "symbol": "KCK27.NYB",
      "miesiac": "2027-05",
      "cena": 269.9,
      "data": "2026-11-13",
-     "cena_5d_temu": 270.95
+     "cena_5d_temu": 267.15
     },
     {
      "symbol": "KCN27.NYB",
      "miesiac": "2027-07",
      "cena": 266.75,
      "data": "2026-11-13",
-     "cena_5d_temu": 268.4
+     "cena_5d_temu": 264.75
     }
    ],
    "spread_1_2_proc": 1.92,
-   "spread_1_2_proc_5d_temu": 3.4
+   "spread_1_2_proc_5d_temu": 3.27
   },
   "kakao": {
    "kontrakty": [
@@ -43,32 +43,32 @@
      "miesiac": "2026-12",
      "cena": 5123.0,
      "data": "2026-11-13",
-     "cena_5d_temu": 5414.0
+     "cena_5d_temu": 5456.0
     },
     {
      "symbol": "CCH27.NYB",
      "miesiac": "2027-03",
      "cena": 5267.0,
      "data": "2026-11-13",
-     "cena_5d_temu": 5506.0
+     "cena_5d_temu": 5556.0
     },
     {
      "symbol": "CCK27.NYB",
      "miesiac": "2027-05",
      "cena": 5334.0,
      "data": "2026-11-13",
-     "cena_5d_temu": 5561.0
+     "cena_5d_temu": 5602.0
     },
     {
      "symbol": "CCN27.NYB",
      "miesiac": "2027-07",
      "cena": 5374.0,
      "data": "2026-11-13",
-     "cena_5d_temu": 5595.0
+     "cena_5d_temu": 5635.0
     }
    ],
    "spread_1_2_proc": -2.73,
-   "spread_1_2_proc_5d_temu": -1.67
+   "spread_1_2_proc_5d_temu": -1.8
   }
  }
 }
