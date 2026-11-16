@@ -5,10 +5,10 @@
    "pewnosc": 2,
    "setup": [
     "SHORT",
-    27880,
-    28128,
-    27508,
-    27260
+    27760,
+    28008,
+    27388,
+    27140
    ]
   },
   "gold": {
@@ -16,10 +16,10 @@
    "pewnosc": 3,
    "setup": [
     "SHORT",
-    3866,
-    3891.1,
-    3828.4,
-    3803.3
+    3873,
+    3898.1,
+    3835.4,
+    3810.3
    ]
   },
   "silver": {
@@ -34,10 +34,10 @@
    ]
   },
   "wti": {
-   "kierunek": "LONG",
-   "pewnosc": 2,
+   "kierunek": "NEUTRAL",
+   "pewnosc": 1,
    "setup": [
-    "LONG",
+    "NEUTRAL",
     88.55,
     87.69,
     89.84,
@@ -855,29 +855,44 @@
    "tp": "88,20 / 87,95"
   },
   "156": {
-   "status": "oczekuje (OCO z #157)",
+   "status": "zamknięta (stop czasowy 14:30 PL)",
    "sl": "3 891,1",
    "tp": "3 828,4 / 3 803,3"
   },
   "157": {
-   "status": "oczekuje (sell stop, OCO z #156)",
+   "status": "anulowane (OCO: wypełniony #156)",
    "sl": "3 853,1",
    "tp": "3 790,4 / 3 765,3"
   },
   "158": {
-   "status": "oczekuje (limit)",
+   "status": "zamknięta (stop czasowy 14:30 PL)",
    "sl": "48,46",
    "tp": "46,31 / 45,45"
   },
   "159": {
-   "status": "oczekuje (limit; okno 9–12 i 15–20:30)",
+   "status": "zamknięta (stop czasowy 12:30 PL)",
    "sl": "87,69",
    "tp": "89,84 / 90,70"
   },
   "160": {
-   "status": "oczekuje (limit; bez wejść 15:15–15:45)",
+   "status": "anulowane (szczyt 27 855, limit nietknięty; o 14:50 PL NQ 27 650)",
    "sl": "28 128",
    "tp": "27 508 / 27 260"
+  },
+  "161": {
+   "status": "oczekuje (OCO z #162)",
+   "sl": "3 898,1",
+   "tp": "3 835,4 / 3 810,3"
+  },
+  "162": {
+   "status": "oczekuje (sell stop, OCO z #161)",
+   "sl": "3 871,1",
+   "tp": "3 808,4 / 3 783,3"
+  },
+  "163": {
+   "status": "oczekuje (limit; bez wejść 15:15–15:45)",
+   "sl": "28 008",
+   "tp": "27 388 / 27 140"
   }
  },
  "automat": {
@@ -896,5 +911,5 @@
   "rano": "2026-11-16",
   "wieczor": "2026-11-13"
  },
- "zaktualizowano_utc": "2026-11-16T10:45:03Z"
+ "zaktualizowano_utc": "2026-11-16T13:53:47Z"
 }
