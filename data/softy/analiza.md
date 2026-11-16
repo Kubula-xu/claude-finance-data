@@ -1,8 +1,8 @@
-# Softy: kawa i kakao, analiza z 2026-11-16 11:45 PL
+# Softy: kawa i kakao, analiza z 2026-11-16 17:07 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
-## Kawa (Arabica KC): NEUTRAL 1/5 (suma -1.0)
+## Kawa (Arabica KC): NEUTRAL 1/5 (suma +0.5)
 
 - Cena 275,85 c/lb (2026-11-16T10:15:00Z UTC), sesja w trakcie. ATR D1 9,28, ATR H1 (sesja) 3,49. 5 sesji -0.5%, 20 sesji -8.8%.
 - Reżim: **zakres** (ADX 19, cena w zakresie 10 sesji 266.70-297.35). Zakres 10 sesji 266,70–297,35 (20 sesji 266,70–318,20), EMA20 284,94, EMA50 295,10, SMA200 301,73.
@@ -12,9 +12,9 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | Technika (reżim) | +0.0 | ADX 19, cena w zakresie 10 sesji 266.70-297.35 |
 | COT | +1.0 | fundusze net +14,732, 2. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
 | Pogoda | -1.0 | opad 30 dni 98% normy, prognoza 16 dni 127% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
-| Krzywa | -0.5 | KCZ26.NYB vs KCH27.NYB: +1.92%, 5 dni temu +3.27%, backwardation (ciasno w bieżącej dostawie) |
+| Krzywa | +1.0 | KCZ26.NYB vs KCH27.NYB: +2.20%, 5 dni temu +2.93%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
-| BRL | -0.5 | USD/BRL 5.667, 5 sesji +3.0%: real słabnie, sprzedaż z Brazylii tańsza |
+| BRL | -0.5 | USD/BRL 5.766, 5 sesji +4.8%: real słabnie, sprzedaż z Brazylii tańsza |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +3.2%, wzrost w 54% lat |
 
 Opory: 277,95 (swing D1 ×2, ostatnio 2026-11-13, +0.23 ATR), 280,63 (P, +0.52 ATR), 282,15 (swing D1 ×2, ostatnio 2026-10-29, +0.68 ATR), 283,77 (R1, +0.85 ATR)
@@ -38,7 +38,7 @@ Wsparcia: 272,38 (S2, -0.37 ATR), 270,00 (okrągły poziom, -0.63 ATR), 269,77 (
 | Technika (reżim) | +0.0 | ADX 21, cena w zakresie 10 sesji 4640.00-5600.00 |
 | COT | +1.0 | fundusze net -12,253, 9. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
 | Pogoda | +1.0 | opad 30 dni 211% normy, prognoza 16 dni 115% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
-| Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.73%, 5 dni temu -1.80%, contango (zapasy wystarczają) |
+| Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.75%, 5 dni temu -2.06%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +3.6%, wzrost w 69% lat |
 
