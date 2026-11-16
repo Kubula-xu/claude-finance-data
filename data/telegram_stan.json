@@ -880,19 +880,24 @@
    "tp": "27 508 / 27 260"
   },
   "161": {
-   "status": "oczekuje (OCO z #162)",
+   "status": "zamknięta (22:25 PL, SL na BE)",
    "sl": "3 898,1",
    "tp": "3 835,4 / 3 810,3"
   },
   "162": {
-   "status": "oczekuje (sell stop, OCO z #161)",
+   "status": "anulowane (OCO: wypełniony #161)",
    "sl": "3 871,1",
    "tp": "3 808,4 / 3 783,3"
   },
   "163": {
-   "status": "oczekuje (limit; bez wejść 15:15–15:45)",
+   "status": "anulowane 16:55 PL (OCO z #164: WTI wypełnione jako 5. transakcja dnia; NQ szczyt 27 716, limit nietknięty)",
    "sl": "28 008",
    "tp": "27 388 / 27 140"
+  },
+  "164": {
+   "status": "zamknięta TP1 + TP2",
+   "sl": "87,80",
+   "tp": "86,05 / 85,85"
   }
  },
  "automat": {
@@ -905,5 +910,5 @@
   "rano": "2026-11-16",
   "wieczor": "2026-11-13"
  },
- "zaktualizowano_utc": "2026-11-16T20:41:45Z"
+ "zaktualizowano_utc": "2026-11-16T21:26:22Z"
 }
