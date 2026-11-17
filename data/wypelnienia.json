@@ -1,5 +1,32 @@
 {
- "zaktualizowano_utc": "2026-11-17T03:12:06Z",
+ "zaktualizowano_utc": "2026-11-17T11:54:37Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
- "zlecenia": {}
+ "zlecenia": {
+  "168": {
+   "nr": "168",
+   "instrument": "Ropa WTI",
+   "kierunek": -1,
+   "klucz_cen": "wti",
+   "zdarzenia": [
+    "17.11 09:15 PL wejście 85.45"
+   ],
+   "stan": "otwarta",
+   "pozostalo": 1.0,
+   "sl_teraz": 86.35,
+   "czas_wejscia": "2026-11-17T08:15Z"
+  },
+  "169": {
+   "nr": "169",
+   "instrument": "Nasdaq 100",
+   "kierunek": -1,
+   "klucz_cen": "nq",
+   "zdarzenia": [
+    "17.11 12:30 PL wejście 27420"
+   ],
+   "stan": "otwarta",
+   "pozostalo": 1.0,
+   "sl_teraz": 27620.0,
+   "czas_wejscia": "2026-11-17T11:30Z"
+  }
+ }
 }
