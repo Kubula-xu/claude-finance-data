@@ -920,22 +920,22 @@
    "tp": "84,10 / 83,20"
   },
   "169": {
-   "status": "otwarta (wypełniona 12:30 PL)",
+   "status": "zamknięta (TP1 + TP2)",
    "sl": "27 620",
    "tp": "27 120 / 26 920"
   },
   "170": {
-   "status": "oczekuje (limit)",
+   "status": "zamknięta (SL)",
    "sl": "3 874,5",
    "tp": "3 813,25 / 3 788,75"
   },
   "171": {
-   "status": "oczekuje (limit)",
+   "status": "zamknięta (stop czasowy 18:00 PL)",
    "sl": "48,27",
    "tp": "46,47 / 45,75"
   },
   "172": {
-   "status": "oczekuje (limit; od 15:00)",
+   "status": "zamknięta (SL)",
    "sl": "85,65",
    "tp": "87,90 / 88,80"
   }
@@ -969,5 +969,5 @@
   "rano": "2026-11-17",
   "wieczor": "2026-11-16"
  },
- "zaktualizowano_utc": "2026-11-17T20:28:58Z"
+ "zaktualizowano_utc": "2026-11-17T21:27:49Z"
 }
