@@ -1,5 +1,5 @@
 {
- "aktualizacja": "2026-11-17T07:45:00Z",
+ "aktualizacja": "2026-11-17T13:50:00Z",
  "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
  "instrumenty": [
   {
@@ -37,7 +37,7 @@
     "tp1": 27120,
     "tp2": 26920,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 17.11 (#169)",
+    "status": "otwarta 17.11 (#169 short 27420, stop czasowy 15:30 PL)",
     "ksiega": "intraday",
     "uwagi": ""
    },
@@ -79,13 +79,13 @@
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 3882,
-    "sl": 3906.5,
-    "tp1": 3845.25,
-    "tp2": 3820.75,
+    "wejscie": 3850,
+    "sl": 3874.5,
+    "tp1": 3813.25,
+    "tp2": 3788.75,
     "ryzyko_pct": 0.25,
     "koszt": 0.6,
-    "status": "oczekuje 17.11 (#165 limit 3882 / #166 stop 3858, OCO)",
+    "status": "oczekuje limit 17.11 (#170); #166 +0,05R",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Okna 09:00–12:00 i 14:00–20:00."
@@ -127,12 +127,12 @@
    "setup": {
     "kierunek": "SHORT",
     "typ": "limit",
-    "wejscie": 47.75,
-    "sl": 48.47,
-    "tp1": 46.67,
-    "tp2": 45.95,
+    "wejscie": 47.55,
+    "sl": 48.27,
+    "tp1": 46.47,
+    "tp2": 45.75,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 17.11 (#167)",
+    "status": "oczekuje limit 17.11 (#171); #167 anulowane",
     "ksiega": "intraday",
     "ceny": "spot",
     "uwagi": "Grupa metali z poz. 41: 0,75%."
@@ -154,7 +154,7 @@
    "atr": 4.6,
    "agenci": {
     "technika": [
-     "SHORT",
+     "LONG",
      2
     ],
     "makro": [
@@ -162,24 +162,24 @@
      2
     ],
     "sentyment": [
-     "SHORT",
+     "LONG",
      1
     ]
    },
    "final": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "pewnosc": 2,
-    "powod": "Trend spadkowy, short 85,45."
+    "powod": "Odwrócenie 84,9 → 87,0, long z cofnięcia 86,55."
    },
    "setup": {
-    "kierunek": "SHORT",
+    "kierunek": "LONG",
     "typ": "limit",
-    "wejscie": 85.45,
-    "sl": 86.35,
-    "tp1": 84.1,
-    "tp2": 83.2,
+    "wejscie": 86.55,
+    "sl": 85.65,
+    "tp1": 87.9,
+    "tp2": 88.8,
     "ryzyko_pct": 0.25,
-    "status": "oczekuje limit 17.11 (#168)",
+    "status": "oczekuje limit 17.11 (#172); #168 anulowane",
     "ksiega": "intraday",
     "uwagi": "EIA najpewniej przesunięte na czw 12.11 (Veterans Day). Grudniowy CL wygasa ok. 19–20.11."
    },
