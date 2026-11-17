@@ -16,10 +16,10 @@
    "pewnosc": 2,
    "setup": [
     "SHORT",
-    3882,
-    3906.5,
-    3845.25,
-    3820.75
+    3850,
+    3874.5,
+    3813.25,
+    3788.75
    ]
   },
   "silver": {
@@ -27,21 +27,21 @@
    "pewnosc": 2,
    "setup": [
     "SHORT",
-    47.75,
-    48.47,
-    46.67,
-    45.95
+    47.55,
+    48.27,
+    46.47,
+    45.75
    ]
   },
   "wti": {
-   "kierunek": "SHORT",
+   "kierunek": "LONG",
    "pewnosc": 2,
    "setup": [
-    "SHORT",
-    85.45,
-    86.35,
-    84.1,
-    83.2
+    "LONG",
+    86.55,
+    85.65,
+    87.9,
+    88.8
    ]
   },
   "ng": {
@@ -900,29 +900,44 @@
    "tp": "86,05 / 85,85"
   },
   "165": {
-   "status": "oczekuje (OCO z #166)",
+   "status": "anulowane (OCO: wypełniony #166; szczyt dnia 3 874)",
    "sl": "3 906,5",
    "tp": "3 845,25 / 3 820,75"
   },
   "166": {
-   "status": "oczekuje (sell stop, OCO z #165)",
+   "status": "zamknięta (stop czasowy 13:15 PL)",
    "sl": "3 882,5",
    "tp": "3 821,25 / 3 796,75"
   },
   "167": {
-   "status": "oczekuje (limit)",
+   "status": "anulowane (o 13:30–13:45 PL srebro 47,91 przeszło limit poza oknem; reguła ryzyko.md sekcja 4)",
    "sl": "48,47",
    "tp": "46,67 / 45,95"
   },
   "168": {
-   "status": "oczekuje (limit; okno 9–12 i 15–20:30)",
+   "status": "anulowane (o 08:30 PL ropa 85,46 przeszła limit przed oknem; reguła ryzyko.md sekcja 4); potem ropa do 87",
    "sl": "86,35",
    "tp": "84,10 / 83,20"
   },
   "169": {
-   "status": "oczekuje (limit; bez wejść 15:15–15:45)",
+   "status": "otwarta (wypełniona 12:30 PL)",
    "sl": "27 620",
    "tp": "27 120 / 26 920"
+  },
+  "170": {
+   "status": "oczekuje (limit)",
+   "sl": "3 874,5",
+   "tp": "3 813,25 / 3 788,75"
+  },
+  "171": {
+   "status": "oczekuje (limit)",
+   "sl": "48,27",
+   "tp": "46,47 / 45,75"
+  },
+  "172": {
+   "status": "oczekuje (limit; od 15:00)",
+   "sl": "85,65",
+   "tp": "87,90 / 88,80"
   }
  },
  "automat": {
@@ -943,5 +958,5 @@
   "rano": "2026-11-17",
   "wieczor": "2026-11-16"
  },
- "zaktualizowano_utc": "2026-11-17T11:54:39Z"
+ "zaktualizowano_utc": "2026-11-17T13:52:26Z"
 }
