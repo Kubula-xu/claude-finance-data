@@ -900,15 +900,10 @@
    "tp": "86,05 / 85,85"
   }
  },
- "automat": {
-  "163": {
-   "stan": "oczekuje",
-   "zdarzenia": []
-  }
- },
+ "automat": {},
  "podsumowanie": {
   "rano": "2026-11-16",
   "wieczor": "2026-11-16"
  },
- "zaktualizowano_utc": "2026-11-16T21:41:37Z"
+ "zaktualizowano_utc": "2026-11-17T03:12:06Z"
 }

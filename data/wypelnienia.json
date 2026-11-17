@@ -1,16 +1,5 @@
 {
- "zaktualizowano_utc": "2026-11-16T20:41:45Z",
+ "zaktualizowano_utc": "2026-11-17T03:12:06Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
- "zlecenia": {
-  "163": {
-   "nr": "163",
-   "instrument": "Nasdaq 100",
-   "kierunek": -1,
-   "klucz_cen": "nq",
-   "zdarzenia": [],
-   "stan": "oczekuje",
-   "pozostalo": 1.0,
-   "sl_teraz": 28008.0
-  }
- }
+ "zlecenia": {}
 }

@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-11-17 02:53 PL
+# Softy: kawa i kakao, analiza z 2026-11-17 04:12 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -42,9 +42,9 @@ Wsparcia: 270,63 (S1, -0.43 ATR), 270,10 (swing D1 ×3, ostatnio 2026-11-16, -0.
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.8%, wzrost w 65% lat |
 
-Opory: 5 234 (P, +0.15 ATR), 5 306 (R1, +0.46 ATR), 5 340 (swing D1 ×1, ostatnio 2026-11-16, +0.61 ATR), 5 340 (szczyt 5 sesji, +0.61 ATR)
+Opory: 5 236 (P, +0.16 ATR), 5 304 (R1, +0.46 ATR), 5 340 (swing D1 ×1, ostatnio 2026-11-16, +0.61 ATR), 5 340 (szczyt 5 sesji, +0.61 ATR)
 
-Wsparcia: 5 128 (S1, -0.31 ATR), 5 087 (swing D1 ×3, ostatnio 2026-10-01, -0.49 ATR), 5 056 (S2, -0.63 ATR), 5 000 (okrągły poziom, -0.87 ATR)
+Wsparcia: 5 131 (S1, -0.30 ATR), 5 087 (swing D1 ×3, ostatnio 2026-10-01, -0.49 ATR), 5 063 (S2, -0.60 ATR), 5 000 (okrągły poziom, -0.87 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
