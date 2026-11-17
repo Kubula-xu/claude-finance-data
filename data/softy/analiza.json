@@ -1,7 +1,7 @@
 {
- "wygenerowano_utc": "2026-11-16T20:41:45Z",
- "wygenerowano_pl": "2026-11-16 21:41 PL",
- "kapital_usd": 10242909.0,
+ "wygenerowano_utc": "2026-11-17T01:53:02Z",
+ "wygenerowano_pl": "2026-11-17 02:53 PL",
+ "kapital_usd": 10312456.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
   "FRONTRUN_ATR": 0.1,
@@ -149,14 +149,14 @@
     {
      "czynnik": "COT",
      "wynik": 1.0,
-     "opis": "fundusze net +14,732, 2. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze",
+     "opis": "fundusze net +10,932, 1. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze",
      "dane": {
-      "raport": "2026-11-03",
-      "mm_net": 14732,
-      "zmiana_1t": -5372,
-      "zmiana_4t": -4304,
-      "percentyl_3l": 2,
-      "oi": 166984.0
+      "raport": "2026-11-10",
+      "mm_net": 10932,
+      "zmiana_1t": -3800,
+      "zmiana_4t": -4338,
+      "percentyl_3l": 1,
+      "oi": 154019.0
      }
     },
     {
@@ -194,36 +194,36 @@
     {
      "czynnik": "Krzywa",
      "wynik": 1.0,
-     "opis": "KCZ26.NYB vs KCH27.NYB: +2.20%, 5 dni temu +2.93%, backwardation (ciasno w bieżącej dostawie)",
+     "opis": "KCZ26.NYB vs KCH27.NYB: +2.19%, 5 dni temu +2.93%, backwardation (ciasno w bieżącej dostawie)",
      "dane": {
-      "spread_proc": 2.2,
+      "spread_proc": 2.19,
       "spread_proc_5d": 2.93,
       "kontrakty": [
        {
         "symbol": "KCZ26.NYB",
         "miesiac": "2026-12",
-        "cena": 283.0,
+        "cena": 280.4,
         "data": "2026-11-16",
         "cena_5d_temu": 277.15
        },
        {
         "symbol": "KCH27.NYB",
         "miesiac": "2027-03",
-        "cena": 276.9,
+        "cena": 274.4,
         "data": "2026-11-16",
         "cena_5d_temu": 269.25
        },
        {
         "symbol": "KCK27.NYB",
         "miesiac": "2027-05",
-        "cena": 272.4,
+        "cena": 269.95,
         "data": "2026-11-16",
         "cena_5d_temu": 265.65
        },
        {
         "symbol": "KCN27.NYB",
         "miesiac": "2027-07",
-        "cena": 268.9,
+        "cena": 266.75,
         "data": "2026-11-16",
         "cena_5d_temu": 263.15
        }
@@ -250,21 +250,21 @@
     {
      "czynnik": "BRL",
      "wynik": -0.5,
-     "opis": "USD/BRL 5.766, 5 sesji +4.8%: real słabnie, sprzedaż z Brazylii tańsza",
+     "opis": "USD/BRL 5.784, 5 sesji +5.0%: real słabnie, sprzedaż z Brazylii tańsza",
      "dane": {
-      "usdbrl": 5.766,
-      "zmiana_5d_proc": 4.77
+      "usdbrl": 5.7838,
+      "zmiana_5d_proc": 5.0
      }
     },
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +3.2%, wzrost w 54% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +3.2%, wzrost w 62% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 1.38,
+      "srednia_proc": 2.81,
       "mediana_proc": 3.21,
-      "proc_lat_wzrost": 54
+      "proc_lat_wzrost": 62
      }
     }
    ],
@@ -288,8 +288,8 @@
        "r_atr": 1.0,
        "rr_tp1_netto": 2.74,
        "odleglosc_atr": -0.78,
-       "kontrakty": 13.6,
-       "ryzyko_usd": 51215,
+       "kontrakty": 13.7,
+       "ryzyko_usd": 51562,
        "uzasadnienie": "granica zakresu 266.70 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 0.78× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -308,7 +308,7 @@
        "rr_tp1_netto": 1.78,
        "odleglosc_atr": 2.73,
        "kontrakty": 7.3,
-       "ryzyko_usd": 51215,
+       "ryzyko_usd": 51562,
        "uzasadnienie": "wybicie zakresu za 297.35: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 2.73× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -332,8 +332,8 @@
        "r_atr": 1.0,
        "rr_tp1_netto": 2.74,
        "odleglosc_atr": 2.53,
-       "kontrakty": 13.6,
-       "ryzyko_usd": 51215,
+       "kontrakty": 13.7,
+       "ryzyko_usd": 51562,
        "uzasadnienie": "granica zakresu 297.35 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 2.53× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -352,7 +352,7 @@
        "rr_tp1_netto": 1.78,
        "odleglosc_atr": -0.98,
        "kontrakty": 7.3,
-       "ryzyko_usd": 51215,
+       "ryzyko_usd": 51562,
        "uzasadnienie": "wybicie zakresu za 266.70: zmiana reżimu, wejście z kontynuacji",
        "uwagi": []
       }
@@ -502,14 +502,14 @@
     {
      "czynnik": "COT",
      "wynik": 1.0,
-     "opis": "fundusze net -12,253, 9. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze",
+     "opis": "fundusze net -18,845, 2. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze",
      "dane": {
-      "raport": "2026-11-03",
-      "mm_net": -12253,
-      "zmiana_1t": -1313,
-      "zmiana_4t": -1201,
-      "percentyl_3l": 9,
-      "oi": 179866.0
+      "raport": "2026-11-10",
+      "mm_net": -18845,
+      "zmiana_1t": -6592,
+      "zmiana_4t": -6924,
+      "percentyl_3l": 2,
+      "oi": 182266.0
      }
     },
     {
@@ -551,36 +551,36 @@
     {
      "czynnik": "Krzywa",
      "wynik": -1.0,
-     "opis": "CCZ26.NYB vs CCH27.NYB: -2.75%, 5 dni temu -2.06%, contango (zapasy wystarczają)",
+     "opis": "CCZ26.NYB vs CCH27.NYB: -2.67%, 5 dni temu -2.06%, contango (zapasy wystarczają)",
      "dane": {
-      "spread_proc": -2.75,
+      "spread_proc": -2.67,
       "spread_proc_5d": -2.06,
       "kontrakty": [
        {
         "symbol": "CCZ26.NYB",
         "miesiac": "2026-12",
-        "cena": 5064.0,
+        "cena": 5061.0,
         "data": "2026-11-16",
         "cena_5d_temu": 5181.0
        },
        {
         "symbol": "CCH27.NYB",
         "miesiac": "2027-03",
-        "cena": 5207.0,
+        "cena": 5200.0,
         "data": "2026-11-16",
         "cena_5d_temu": 5290.0
        },
        {
         "symbol": "CCK27.NYB",
         "miesiac": "2027-05",
-        "cena": 5273.0,
+        "cena": 5265.0,
         "data": "2026-11-16",
         "cena_5d_temu": 5343.0
        },
        {
         "symbol": "CCN27.NYB",
         "miesiac": "2027-07",
-        "cena": 5319.0,
+        "cena": 5321.0,
         "data": "2026-11-16",
         "cena_5d_temu": 5380.0
        }
@@ -607,12 +607,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.5,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +3.6%, wzrost w 69% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.8%, wzrost w 65% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 4.89,
-      "mediana_proc": 3.56,
-      "proc_lat_wzrost": 69
+      "srednia_proc": 5.0,
+      "mediana_proc": 2.75,
+      "proc_lat_wzrost": 65
      }
     }
    ],
@@ -636,8 +636,8 @@
        "r_atr": 1.0,
        "rr_tp1_netto": 3.04,
        "odleglosc_atr": -2.34,
-       "kontrakty": 9.0,
-       "ryzyko_usd": 25607,
+       "kontrakty": 9.1,
+       "ryzyko_usd": 25781,
        "uzasadnienie": "granica zakresu 4640.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 2.34× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -656,7 +656,7 @@
        "rr_tp1_netto": 1.74,
        "odleglosc_atr": 1.85,
        "kontrakty": 4.1,
-       "ryzyko_usd": 25607,
+       "ryzyko_usd": 25781,
        "uzasadnienie": "wybicie zakresu za 5600.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 1.85× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -680,8 +680,8 @@
        "r_atr": 1.0,
        "rr_tp1_netto": 3.04,
        "odleglosc_atr": 1.65,
-       "kontrakty": 9.0,
-       "ryzyko_usd": 25607,
+       "kontrakty": 9.1,
+       "ryzyko_usd": 25781,
        "uzasadnienie": "granica zakresu 5600.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 1.65× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -700,7 +700,7 @@
        "rr_tp1_netto": 1.74,
        "odleglosc_atr": -2.54,
        "kontrakty": 4.1,
-       "ryzyko_usd": 25607,
+       "ryzyko_usd": 25781,
        "uzasadnienie": "wybicie zakresu za 4640.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 2.54× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -714,22 +714,6 @@
   }
  },
  "kalendarz": [
-  {
-   "data": "2026-11-16",
-   "godzina_pl": "",
-   "rynek": "kakao",
-   "wydarzenie": "First Notice Day kakao XII (CCZ26) wg reguły ICE (10 dni rob. przed 1. dniem rob. miesiąca)",
-   "waga": "średnia",
-   "uwagi": "sprawdzić w kalendarzu ICE; przejście na marzec"
-  },
-  {
-   "data": "2026-11-16",
-   "godzina_pl": "rano",
-   "rynek": "kakao",
-   "wydarzenie": "przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów)",
-   "waga": "średnia-wysoka",
-   "uwagi": "cykliczne"
-  },
   {
    "data": "2026-11-19",
    "godzina_pl": "",
@@ -780,7 +764,7 @@
   }
  ],
  "status_danych": {
-  "uruchomiono_utc": "2026-11-16T16:04:43Z",
+  "uruchomiono_utc": "2026-11-17T01:50:37Z",
   "bledy": {
    "pogoda": "RuntimeError: URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
    "ice_parse_kawa": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
@@ -788,17 +772,17 @@
    "ice": "RuntimeError: nie pobrano nowego raportu ICE (adres mógł się zmienić albo raport jeszcze nie wyszedł)"
   },
   "ok": {
-   "cot": "416 wierszy, ostatni raport 2026-11-03, źródło publicreporting.cftc.gov (72hh-3qpy)",
+   "cot": "418 wierszy, ostatni raport 2026-11-10, źródło publicreporting.cftc.gov (72hh-3qpy)",
    "krzywa": "kawa: 4 kontr., kakao: 4 kontr.",
    "fx": "brl, gbp, eur",
    "dlugie": "coffee (świeże), cocoa (świeże)"
   },
   "ostatni_sukces_utc": {
-   "cot": "2026-11-16T16:04:43Z",
+   "cot": "2026-11-17T01:50:37Z",
    "pogoda": "2026-11-16T00:31:51Z",
-   "krzywa": "2026-11-16T16:04:43Z",
-   "fx": "2026-11-16T16:04:43Z",
-   "dlugie": "2026-11-16T16:04:43Z",
+   "krzywa": "2026-11-17T01:50:37Z",
+   "fx": "2026-11-17T01:50:37Z",
+   "dlugie": "2026-11-17T01:50:37Z",
    "ice": "2026-10-21T18:42:06Z"
   }
  },
