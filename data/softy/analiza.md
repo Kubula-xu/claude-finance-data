@@ -1,15 +1,15 @@
-# Softy: kawa i kakao, analiza z 2026-11-18 03:33 PL
+# Softy: kawa i kakao, analiza z 2026-11-18 11:45 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
 ## Kawa (Arabica KC): NEUTRAL 1/5 (suma -1.0)
 
-- Cena 279,95 c/lb (2026-11-17T18:15:00Z UTC). ATR D1 8,64, ATR H1 (sesja) 3,52. 5 sesji +3.1%, 20 sesji -10.1%.
-- Reżim: **zakres** (ADX 18, cena w zakresie 10 sesji 266.70-297.35). Zakres 10 sesji 266,70–297,35 (20 sesji 266,70–318,20), EMA20 284,10, EMA50 293,97, SMA200 301,20.
+- Cena 277,80 c/lb (2026-11-18T10:15:00Z UTC), sesja w trakcie. ATR D1 8,59, ATR H1 (sesja) 3,69. 5 sesji +5.6%, 20 sesji -7.9%.
+- Reżim: **zakres** (ADX 17, cena w zakresie 10 sesji 266.70-297.35). Zakres 10 sesji 266,70–297,35 (20 sesji 266,70–318,20), EMA20 284,73, EMA50 294,23, SMA200 301,24.
 
 | Czynnik | Wynik | Opis |
 |---|---|---|
-| Technika (reżim) | +0.0 | ADX 18, cena w zakresie 10 sesji 266.70-297.35 |
+| Technika (reżim) | +0.0 | ADX 17, cena w zakresie 10 sesji 266.70-297.35 |
 | COT | +1.0 | fundusze net +10,932, 1. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
 | Pogoda | -1.0 | opad 30 dni 96% normy, prognoza 16 dni 149% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
 | Krzywa | -0.5 | KCZ26.NYB vs KCH27.NYB: +1.80%, 5 dni temu +3.07%, backwardation (ciasno w bieżącej dostawie) |
@@ -17,41 +17,45 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 | BRL | -0.5 | USD/BRL 5.778, 5 sesji +3.5%: real słabnie, sprzedaż z Brazylii tańsza |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +5.8%, wzrost w 62% lat |
 
-Opory: 282,88 (swing D1 ×2, ostatnio 2026-11-17, +0.34 ATR), 283,62 (R1, +0.42 ATR), 285,75 (swing D1 ×1, ostatnio 2026-11-13, +0.67 ATR), 285,75 (szczyt 5 sesji, +0.67 ATR)
+Opory: 279,83 (swing D1 ×3, ostatnio 2026-11-17, +0.24 ATR), 281,83 (S1, +0.47 ATR), 283,50 (swing D1 ×1, ostatnio 2026-10-12, +0.66 ATR), 285,07 (P, +0.85 ATR)
 
-Wsparcia: 278,58 (P, -0.16 ATR), 274,92 (S1, -0.58 ATR), 273,55 (swing D1 ×1, ostatnio 2026-11-17, -0.74 ATR), 270,00 (okrągły poziom, -1.15 ATR)
+Wsparcia: 277,07 (S2, -0.08 ATR), 270,00 (okrągły poziom, -0.91 ATR), 269,77 (swing D1 ×2, ostatnio 2026-09-23, -0.93 ATR), 266,70 (swing D1 ×1, ostatnio 2026-11-12, -1.29 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
-| LONG | limit: granica zakresu 266.70 (10 sesji), TP1 przed przeciwną granicą | 267,56 | 258,92 | 296,49 / 300,81 | 2.76 | -1.43 ATR | 14 | limit 1.43× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 282.88 przed TP1: rozważyć częściowe wyjście przed nim |
-| LONG | stop: wybicie zakresu za 297.35: zmiana reżimu, wejście z kontynuacji | 298,21 | 280,93 | 332,79 / 350,07 | 1.78 | +2.11 ATR | 7 | stop 2.11× ATR D1 od ceny: daleko, do przeliczenia po sesji |
-| SHORT | limit: granica zakresu 297.35 (10 sesji), TP1 przed przeciwną granicą | 296,49 | 305,13 | 267,56 / 263,24 | 2.76 | +1.91 ATR | 14 | limit 1.91× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 269.77 przed TP1: rozważyć częściowe wyjście przed nim |
-| SHORT | stop: wybicie zakresu za 266.70: zmiana reżimu, wejście z kontynuacji | 265,84 | 283,12 | 231,26 / 213,98 | 1.78 | -1.63 ATR | 7 | stop 1.63× ATR D1 od ceny: daleko, do przeliczenia po sesji |
+| LONG | limit: granica zakresu 266.70 (10 sesji), TP1 przed przeciwną granicą | 267,56 | 258,97 | 296,49 / 300,79 | 2.77 | -1.19 ATR | 14 | limit 1.19× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 279.83 przed TP1: rozważyć częściowe wyjście przed nim |
+| LONG | stop: wybicie zakresu za 297.35: zmiana reżimu, wejście z kontynuacji | 298,21 | 281,02 | 332,58 / 349,77 | 1.78 | +2.38 ATR | 7 | stop 2.38× ATR D1 od ceny: daleko, do przeliczenia po sesji |
+| SHORT | limit: granica zakresu 297.35 (10 sesji), TP1 przed przeciwną granicą | 296,49 | 305,08 | 267,56 / 263,26 | 2.77 | +2.18 ATR | 14 | limit 2.18× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 269.77 przed TP1: rozważyć częściowe wyjście przed nim |
+| SHORT | stop: wybicie zakresu za 266.70: zmiana reżimu, wejście z kontynuacji | 265,84 | 283,03 | 231,47 / 214,28 | 1.78 | -1.39 ATR | 7 | stop 1.39× ATR D1 od ceny: daleko, do przeliczenia po sesji |
 
-## Kakao (NY CC): NEUTRAL 1/5 (suma +1.0)
+## Kakao (NY CC): NEUTRAL 1/5 (suma +0.0)
 
-- Cena 5 184 USD/t (2026-11-17T18:15:00Z UTC). ATR D1 225, ATR H1 (sesja) 75. 5 sesji +9.3%, 20 sesji -10.6%.
-- Reżim: **zakres** (ADX 21, cena w zakresie 10 sesji 4640.00-5481.00). Zakres 10 sesji 4 640–5 481 (20 sesji 4 640–5 903), EMA20 5 258, EMA50 5 435, SMA200 4 623.
+- Cena 5 147 USD/t (2026-11-18T10:15:00Z UTC), sesja w trakcie. ATR D1 219, ATR H1 (sesja) 76. 5 sesji +6.1%, 20 sesji -13.3%.
+- Reżim: **trend spadkowy** (ADX 22, EMA20 < EMA50, cena pod EMA20). Zakres 10 sesji 4 640–5 481 (20 sesji 4 640–5 903), EMA20 5 244, EMA50 5 429, SMA200 4 622.
 
 | Czynnik | Wynik | Opis |
 |---|---|---|
-| Technika (reżim) | +0.0 | ADX 21, cena w zakresie 10 sesji 4640.00-5481.00 |
+| Technika (reżim) | -1.0 | ADX 22, EMA20 < EMA50, cena pod EMA20 |
 | COT | +1.0 | fundusze net -18,845, 2. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
 | Pogoda | +1.0 | opad 30 dni 217% normy, prognoza 16 dni 135% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
 | Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.89%, 5 dni temu -2.13%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.5%, wzrost w 58% lat |
 
-Opory: 5 239 (swing D1 ×2, ostatnio 2026-11-17, +0.24 ATR), 5 256 (R1, +0.32 ATR), 5 262 (szczyt 5 sesji, +0.35 ATR), 5 327 (R2, +0.64 ATR)
+Opory: 5 175 (R2, +0.13 ATR), 5 197 (szczyt 5 sesji, +0.23 ATR), 5 216 (swing D1 ×1, ostatnio 2026-07-16, +0.32 ATR), 5 428 (swing D1 ×2, ostatnio 2026-10-08, +1.29 ATR)
 
-Wsparcia: 5 119 (S1, -0.29 ATR), 5 097 (swing D1 ×4, ostatnio 2026-11-17, -0.39 ATR), 5 053 (S2, -0.58 ATR), 5 000 (okrągły poziom, -0.82 ATR)
+Wsparcia: 5 102 (R1, -0.20 ATR), 5 094 (swing D1 ×4, ostatnio 2026-11-17, -0.24 ATR), 5 042 (P, -0.48 ATR), 5 000 (okrągły poziom, -0.67 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
-| LONG | limit: granica zakresu 4640.00 (10 sesji), TP1 przed przeciwną granicą | 4 662 | 4 438 | 5 459 / 5 571 | 2.66 | -2.32 ATR | 9 | limit 2.32× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 5239.0 przed TP1: rozważyć częściowe wyjście przed nim |
-| LONG | stop: wybicie zakresu za 5481.00: zmiana reżimu, wejście z kontynuacji | 5 503 | 4 942 | 6 627 / 7 189 | 1.74 | +1.42 ATR | 4 | stop 1.42× ATR D1 od ceny: daleko, do przeliczenia po sesji |
-| SHORT | limit: granica zakresu 5481.00 (10 sesji), TP1 przed przeciwną granicą | 5 459 | 5 683 | 4 662 / 4 550 | 2.66 | +1.22 ATR | 9 | limit 1.22× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 5096.75 przed TP1: rozważyć częściowe wyjście przed nim |
-| SHORT | stop: wybicie zakresu za 4640.00: zmiana reżimu, wejście z kontynuacji | 4 618 | 5 179 | 3 494 / 2 932 | 1.74 | -2.52 ATR | 4 | stop 2.52× ATR D1 od ceny: daleko, do przeliczenia po sesji |
+| LONG (pod prąd) | limit: cofnięcie do 4974.00 (swing D1 ×3, ostatnio 2026-11-17) | 4 996 | 4 449 | 6 089 / 6 635 | 1.73 | -0.69 ATR | 4 | silny poziom 5197.0 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.73 < 2.0: według ryzyko.md 10a nie składać |
+| LONG (pod prąd) | stop: kontynuacja: przebicie szczytu ostatniej sesji 5147.00 | 5 169 | 4 622 | 6 262 / 6 808 | 1.73 | +0.10 ATR | 4 | silny poziom 5428.0 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.73 < 2.0: według ryzyko.md 10a nie składać |
+| SHORT | limit: cofnięcie do 5428.00 (swing D1 ×2, ostatnio 2026-10-08) | 5 406 | 5 953 | 4 313 / 3 767 | 1.73 | +1.19 ATR | 4 | limit 1.19× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 5094.0 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.73 < 2.0: według ryzyko.md 10a nie składać |
+| SHORT | stop: kontynuacja: przebicie dołka ostatniej sesji 4981.00 | 4 959 | 5 506 | 3 866 / 3 320 | 1.73 | -0.86 ATR | 4 | R:R po kosztach 1.73 < 2.0: według ryzyko.md 10a nie składać |
+
+## Alerty
+
+- kakao: reżim zakres → trend_spadkowy: przeliczyć plan i wiszące zlecenia
 
 ## Kalendarz (14 dni)
 
