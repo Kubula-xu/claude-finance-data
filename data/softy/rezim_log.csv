@@ -22,3 +22,4 @@ czas_utc,rynek,z,na,cena,opis
 2026-11-11T23:17:50Z,kakao,wybicie_dol,zakres,5061.0,"ADX 19, cena w zakresie 10 sesji 4640.00-5614.00"
 2026-11-12T20:28:48Z,kawa,wybicie_dol,zakres,275.100006,"ADX 20, cena w zakresie 10 sesji 266.90-297.35; nieudane wybicie dołem (266.70 < 266.90, zamknięcie 275.10)"
 2026-11-18T10:45:00Z,kakao,zakres,trend_spadkowy,5147.0,"ADX 22, EMA20 < EMA50, cena pod EMA20"
+2026-11-18T19:08:04Z,kakao,trend_spadkowy,zakres,5027.0,"ADX 22, cena w zakresie 10 sesji 4640.00-5472.00"
