@@ -1,7 +1,7 @@
 {
- "wygenerowano_utc": "2026-11-17T20:28:55Z",
- "wygenerowano_pl": "2026-11-17 21:28 PL",
- "kapital_usd": 10312456.0,
+ "wygenerowano_utc": "2026-11-18T00:55:30Z",
+ "wygenerowano_pl": "2026-11-18 01:55 PL",
+ "kapital_usd": 10307759.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
   "FRONTRUN_ATR": 0.1,
@@ -160,69 +160,69 @@
     },
     {
      "czynnik": "Pogoda",
-     "wynik": 0.0,
-     "opis": "opad 30 dni 98% normy, prognoza 16 dni 100% normy (średnia ważona regionów)",
+     "wynik": -1.0,
+     "opis": "opad 30 dni 96% normy, prognoza 16 dni 149% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027",
      "dane": {
-      "proc_normy_30d": 98,
-      "proc_normy_16d": 100,
-      "aktualizacja": "2026-11-17T16:14:18Z",
+      "proc_normy_30d": 96,
+      "proc_normy_16d": 149,
+      "aktualizacja": "2026-11-18T00:55:15Z",
       "regiony": {
        "sul_de_minas": [
-        122,
-        126
+        119,
+        198
        ],
        "cerrado": [
-        107,
-        102
+        109,
+        155
        ],
        "mogiana": [
         98,
-        133
+        182
        ],
        "espirito_santo": [
         115,
-        108
+        173
        ],
        "wietnam": [
-        38,
-        27
+        35,
+        26
        ]
       }
      }
     },
     {
      "czynnik": "Krzywa",
-     "wynik": 1.0,
-     "opis": "KCZ26.NYB vs KCH27.NYB: +2.14%, 5 dni temu +3.07%, backwardation (ciasno w bieżącej dostawie)",
+     "wynik": -0.5,
+     "opis": "KCZ26.NYB vs KCH27.NYB: +1.80%, 5 dni temu +3.07%, backwardation (ciasno w bieżącej dostawie)",
      "dane": {
-      "spread_proc": 2.14,
+      "spread_proc": 1.8,
       "spread_proc_5d": 3.07,
       "kontrakty": [
        {
         "symbol": "KCZ26.NYB",
         "miesiac": "2026-12",
-        "cena": 284.3,
+        "cena": 285.0,
         "data": "2026-11-17",
         "cena_5d_temu": 280.0
        },
        {
         "symbol": "KCH27.NYB",
         "miesiac": "2027-03",
-        "cena": 278.35,
+        "cena": 279.95,
         "data": "2026-11-17",
         "cena_5d_temu": 271.65
        },
        {
         "symbol": "KCK27.NYB",
         "miesiac": "2027-05",
-        "cena": 273.0,
+        "cena": 273.35,
         "data": "2026-11-17",
         "cena_5d_temu": 267.7
        },
        {
         "symbol": "KCN27.NYB",
         "miesiac": "2027-07",
-        "cena": 269.25,
+        "cena": 269.0,
         "data": "2026-11-17",
         "cena_5d_temu": 264.75
        }
@@ -249,27 +249,27 @@
     {
      "czynnik": "BRL",
      "wynik": -0.5,
-     "opis": "USD/BRL 5.777, 5 sesji +4.9%: real słabnie, sprzedaż z Brazylii tańsza",
+     "opis": "USD/BRL 5.778, 5 sesji +3.5%: real słabnie, sprzedaż z Brazylii tańsza",
      "dane": {
-      "usdbrl": 5.7771,
-      "zmiana_5d_proc": 4.87
+      "usdbrl": 5.7778,
+      "zmiana_5d_proc": 3.49
      }
     },
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +3.2%, wzrost w 62% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +5.8%, wzrost w 62% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 2.81,
-      "mediana_proc": 3.21,
+      "srednia_proc": 2.88,
+      "mediana_proc": 5.76,
       "proc_lat_wzrost": 62
      }
     }
    ],
-   "suma": 1.5,
+   "suma": -1.0,
    "bias": "NEUTRAL",
-   "pewnosc": 2,
+   "pewnosc": 1,
    "brak_danych": [],
    "plan": [
     {
@@ -288,7 +288,7 @@
        "rr_tp1_netto": 2.76,
        "odleglosc_atr": -1.43,
        "kontrakty": 13.8,
-       "ryzyko_usd": 51562,
+       "ryzyko_usd": 51539,
        "uzasadnienie": "granica zakresu 266.70 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 1.43× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -307,7 +307,7 @@
        "rr_tp1_netto": 1.78,
        "odleglosc_atr": 2.11,
        "kontrakty": 7.4,
-       "ryzyko_usd": 51562,
+       "ryzyko_usd": 51539,
        "uzasadnienie": "wybicie zakresu za 297.35: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 2.11× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -332,7 +332,7 @@
        "rr_tp1_netto": 2.76,
        "odleglosc_atr": 1.91,
        "kontrakty": 13.8,
-       "ryzyko_usd": 51562,
+       "ryzyko_usd": 51539,
        "uzasadnienie": "granica zakresu 297.35 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 1.91× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -351,7 +351,7 @@
        "rr_tp1_netto": 1.78,
        "odleglosc_atr": -1.63,
        "kontrakty": 7.4,
-       "ryzyko_usd": 51562,
+       "ryzyko_usd": 51539,
        "uzasadnienie": "wybicie zakresu za 266.70: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 1.63× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -516,35 +516,35 @@
     {
      "czynnik": "Pogoda",
      "wynik": 1.0,
-     "opis": "opad 30 dni 212% normy, prognoza 16 dni 127% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie)",
+     "opis": "opad 30 dni 217% normy, prognoza 16 dni 135% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie)",
      "dane": {
-      "proc_normy_30d": 212,
-      "proc_normy_16d": 127,
-      "aktualizacja": "2026-11-17T16:14:18Z",
+      "proc_normy_30d": 217,
+      "proc_normy_16d": 135,
+      "aktualizacja": "2026-11-18T00:55:15Z",
       "regiony": {
        "soubre": [
-        88,
+        90,
         76
        ],
        "daloa": [
-        74,
-        23
+        75,
+        73
        ],
        "san_pedro": [
         47,
-        40
+        56
        ],
        "ashanti": [
-        124,
-        41
+        123,
+        30
        ],
        "western_north": [
-        103,
-        37
+        102,
+        34
        ],
        "los_rios": [
-        914,
-        570
+        946,
+        563
        ]
       }
      }
@@ -552,36 +552,36 @@
     {
      "czynnik": "Krzywa",
      "wynik": -1.0,
-     "opis": "CCZ26.NYB vs CCH27.NYB: -2.81%, 5 dni temu -2.13%, contango (zapasy wystarczają)",
+     "opis": "CCZ26.NYB vs CCH27.NYB: -2.89%, 5 dni temu -2.13%, contango (zapasy wystarczają)",
      "dane": {
-      "spread_proc": -2.81,
+      "spread_proc": -2.89,
       "spread_proc_5d": -2.13,
       "kontrakty": [
        {
         "symbol": "CCZ26.NYB",
         "miesiac": "2026-12",
-        "cena": 4987.0,
+        "cena": 5034.0,
         "data": "2026-11-17",
         "cena_5d_temu": 5155.0
        },
        {
         "symbol": "CCH27.NYB",
         "miesiac": "2027-03",
-        "cena": 5131.0,
+        "cena": 5184.0,
         "data": "2026-11-17",
         "cena_5d_temu": 5267.0
        },
        {
         "symbol": "CCK27.NYB",
         "miesiac": "2027-05",
-        "cena": 5195.0,
+        "cena": 5245.0,
         "data": "2026-11-17",
         "cena_5d_temu": 5317.0
        },
        {
         "symbol": "CCN27.NYB",
         "miesiac": "2027-07",
-        "cena": 5244.0,
+        "cena": 5301.0,
         "data": "2026-11-17",
         "cena_5d_temu": 5352.0
        }
@@ -607,19 +607,19 @@
     },
     {
      "czynnik": "Sezonowość",
-     "wynik": 0.5,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.8%, wzrost w 65% lat",
+     "wynik": 0.0,
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.5%, wzrost w 58% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 5.0,
-      "mediana_proc": 2.75,
-      "proc_lat_wzrost": 65
+      "srednia_proc": 3.9,
+      "mediana_proc": 2.46,
+      "proc_lat_wzrost": 58
      }
     }
    ],
-   "suma": 1.5,
+   "suma": 1.0,
    "bias": "NEUTRAL",
-   "pewnosc": 2,
+   "pewnosc": 1,
    "brak_danych": [],
    "plan": [
     {
@@ -638,7 +638,7 @@
        "rr_tp1_netto": 2.66,
        "odleglosc_atr": -2.32,
        "kontrakty": 9.2,
-       "ryzyko_usd": 25781,
+       "ryzyko_usd": 25769,
        "uzasadnienie": "granica zakresu 4640.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 2.32× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -657,7 +657,7 @@
        "rr_tp1_netto": 1.74,
        "odleglosc_atr": 1.42,
        "kontrakty": 4.2,
-       "ryzyko_usd": 25781,
+       "ryzyko_usd": 25769,
        "uzasadnienie": "wybicie zakresu za 5481.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 1.42× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -682,7 +682,7 @@
        "rr_tp1_netto": 2.66,
        "odleglosc_atr": 1.22,
        "kontrakty": 9.2,
-       "ryzyko_usd": 25781,
+       "ryzyko_usd": 25769,
        "uzasadnienie": "granica zakresu 5481.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
         "limit 1.22× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
@@ -701,7 +701,7 @@
        "rr_tp1_netto": 1.74,
        "odleglosc_atr": -2.52,
        "kontrakty": 4.2,
-       "ryzyko_usd": 25781,
+       "ryzyko_usd": 25769,
        "uzasadnienie": "wybicie zakresu za 4640.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
         "stop 2.52× ATR D1 od ceny: daleko, do przeliczenia po sesji"
@@ -765,7 +765,7 @@
   }
  ],
  "status_danych": {
-  "uruchomiono_utc": "2026-11-17T16:14:18Z",
+  "uruchomiono_utc": "2026-11-18T00:55:15Z",
   "bledy": {
    "ice_parse_kawa": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
    "ice_parse_kakao": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
@@ -779,11 +779,11 @@
    "dlugie": "coffee (świeże), cocoa (świeże)"
   },
   "ostatni_sukces_utc": {
-   "cot": "2026-11-17T16:14:18Z",
-   "pogoda": "2026-11-17T16:14:18Z",
-   "krzywa": "2026-11-17T16:14:18Z",
-   "fx": "2026-11-17T16:14:18Z",
-   "dlugie": "2026-11-17T16:14:18Z",
+   "cot": "2026-11-18T00:55:15Z",
+   "pogoda": "2026-11-18T00:55:15Z",
+   "krzywa": "2026-11-18T00:55:15Z",
+   "fx": "2026-11-18T00:55:15Z",
+   "dlugie": "2026-11-18T00:55:15Z",
    "ice": "2026-10-21T18:42:06Z"
   }
  },
