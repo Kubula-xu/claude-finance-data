@@ -970,17 +970,17 @@
    "tp": "82,50 / 81,72"
   },
   "179": {
-   "status": "oczekuje (limit; do 20:00 PL)",
+   "status": "anulowane (limit nieosiągnięty; szczyt GC po 14:50 PL 3 792,9)",
    "sl": "3 818,4",
    "tp": "3 759,9 / 3 736,5"
   },
   "180": {
-   "status": "oczekuje (OCO z #181; od 15:45 PL)",
+   "status": "anulowane (szczyt NQ 27 325, wybicie w górę nie przyszło)",
    "sl": "27 150",
    "tp": "27 862 / 28 147"
   },
   "181": {
-   "status": "oczekuje (OCO z #180; od 15:45 PL)",
+   "status": "anulowane (o 15:30 PL NQ 27 005 przeszło poziom przed oknem 15:45; reguła ryzyko.md sekcja 4)",
    "sl": "27 445",
    "tp": "26 733 / 26 448"
   }
@@ -990,5 +990,5 @@
   "rano": "2026-11-18",
   "wieczor": "2026-11-17"
  },
- "zaktualizowano_utc": "2026-11-18T19:08:04Z"
+ "zaktualizowano_utc": "2026-11-18T21:26:45Z"
 }
