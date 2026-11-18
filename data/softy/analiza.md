@@ -1,8 +1,8 @@
-# Softy: kawa i kakao, analiza z 2026-11-18 11:45 PL
+# Softy: kawa i kakao, analiza z 2026-11-18 16:50 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
-## Kawa (Arabica KC): NEUTRAL 1/5 (suma -1.0)
+## Kawa (Arabica KC): NEUTRAL 1/5 (suma -0.5)
 
 - Cena 277,80 c/lb (2026-11-18T10:15:00Z UTC), sesja w trakcie. ATR D1 8,59, ATR H1 (sesja) 3,69. 5 sesji +5.6%, 20 sesji -7.9%.
 - Reżim: **zakres** (ADX 17, cena w zakresie 10 sesji 266.70-297.35). Zakres 10 sesji 266,70–297,35 (20 sesji 266,70–318,20), EMA20 284,73, EMA50 294,23, SMA200 301,24.
@@ -11,10 +11,10 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 17, cena w zakresie 10 sesji 266.70-297.35 |
 | COT | +1.0 | fundusze net +10,932, 1. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | -1.0 | opad 30 dni 96% normy, prognoza 16 dni 149% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
-| Krzywa | -0.5 | KCZ26.NYB vs KCH27.NYB: +1.80%, 5 dni temu +3.07%, backwardation (ciasno w bieżącej dostawie) |
+| Pogoda | -1.0 | opad 30 dni 96% normy, prognoza 16 dni 141% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
+| Krzywa | +0.0 | KCZ26.NYB vs KCH27.NYB: +1.43%, 5 dni temu +2.38%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
-| BRL | -0.5 | USD/BRL 5.778, 5 sesji +3.5%: real słabnie, sprzedaż z Brazylii tańsza |
+| BRL | -0.5 | USD/BRL 5.812, 5 sesji +4.1%: real słabnie, sprzedaż z Brazylii tańsza |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +5.8%, wzrost w 62% lat |
 
 Opory: 279,83 (swing D1 ×3, ostatnio 2026-11-17, +0.24 ATR), 281,83 (S1, +0.47 ATR), 283,50 (swing D1 ×1, ostatnio 2026-10-12, +0.66 ATR), 285,07 (P, +0.85 ATR)
@@ -37,8 +37,8 @@ Wsparcia: 277,07 (S2, -0.08 ATR), 270,00 (okrągły poziom, -0.91 ATR), 269,77 (
 |---|---|---|
 | Technika (reżim) | -1.0 | ADX 22, EMA20 < EMA50, cena pod EMA20 |
 | COT | +1.0 | fundusze net -18,845, 2. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | +1.0 | opad 30 dni 217% normy, prognoza 16 dni 135% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
-| Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.89%, 5 dni temu -2.13%, contango (zapasy wystarczają) |
+| Pogoda | +1.0 | opad 30 dni 217% normy, prognoza 16 dni 114% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
+| Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -3.09%, 5 dni temu -2.27%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.5%, wzrost w 58% lat |
 
@@ -52,10 +52,6 @@ Wsparcia: 5 102 (R1, -0.20 ATR), 5 094 (swing D1 ×4, ostatnio 2026-11-17, -0.24
 | LONG (pod prąd) | stop: kontynuacja: przebicie szczytu ostatniej sesji 5147.00 | 5 169 | 4 622 | 6 262 / 6 808 | 1.73 | +0.10 ATR | 4 | silny poziom 5428.0 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.73 < 2.0: według ryzyko.md 10a nie składać |
 | SHORT | limit: cofnięcie do 5428.00 (swing D1 ×2, ostatnio 2026-10-08) | 5 406 | 5 953 | 4 313 / 3 767 | 1.73 | +1.19 ATR | 4 | limit 1.19× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop; silny poziom 5094.0 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.73 < 2.0: według ryzyko.md 10a nie składać |
 | SHORT | stop: kontynuacja: przebicie dołka ostatniej sesji 4981.00 | 4 959 | 5 506 | 3 866 / 3 320 | 1.73 | -0.86 ATR | 4 | R:R po kosztach 1.73 < 2.0: według ryzyko.md 10a nie składać |
-
-## Alerty
-
-- kakao: reżim zakres → trend_spadkowy: przeliczyć plan i wiszące zlecenia
 
 ## Kalendarz (14 dni)
 
