@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-18T00:55:30Z",
- "wygenerowano_pl": "2026-11-18 01:55 PL",
+ "wygenerowano_utc": "2026-11-18T02:33:46Z",
+ "wygenerowano_pl": "2026-11-18 03:33 PL",
  "kapital_usd": 10307759.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -372,7 +372,7 @@
     "czas_notowania_utc": "2026-11-17T18:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 224.79,
-    "atr_h1_sesja": 74.8,
+    "atr_h1_sesja": 75.4,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {

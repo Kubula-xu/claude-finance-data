@@ -1,56 +1,5 @@
 {
- "zaktualizowano_utc": "2026-11-17T20:28:55Z",
+ "zaktualizowano_utc": "2026-11-18T02:33:46Z",
  "opis": "Automatyczne pilnowanie zleceń z dziennika na świecach 15m (panel/wypelnienia.py)",
- "zlecenia": {
-  "169": {
-   "nr": "169",
-   "instrument": "Nasdaq 100",
-   "kierunek": -1,
-   "klucz_cen": "nq",
-   "zdarzenia": [
-    "17.11 12:30 PL wejście 27420",
-    "17.11 15:30 PL +1R, SL na BE 27420",
-    "17.11 16:30 PL TP1 27120, zamknięte 50%",
-    "17.11 16:30 PL TP2 26920"
-   ],
-   "stan": "zamknięta",
-   "pozostalo": 0,
-   "sl_teraz": 27420.0,
-   "czas_wejscia": "2026-11-17T11:30Z",
-   "cena_wyjscia_srednia": 27020.0,
-   "wynik_pkt_zrealizowany": 400.0
-  },
-  "170": {
-   "nr": "170",
-   "instrument": "Złoto (XAUUSD spot)",
-   "kierunek": -1,
-   "klucz_cen": "xauusd",
-   "zdarzenia": [
-    "17.11 15:00 PL wejście 3850",
-    "17.11 15:45 PL SL 3874.5"
-   ],
-   "stan": "zamknięta",
-   "pozostalo": 0,
-   "sl_teraz": 3874.5,
-   "czas_wejscia": "2026-11-17T14:00Z",
-   "cena_wyjscia_srednia": 3874.5,
-   "wynik_pkt_zrealizowany": -24.5
-  },
-  "172": {
-   "nr": "172",
-   "instrument": "Ropa WTI",
-   "kierunek": 1,
-   "klucz_cen": "wti",
-   "zdarzenia": [
-    "17.11 16:15 PL wejście 86.55",
-    "17.11 20:45 PL SL 85.65"
-   ],
-   "stan": "zamknięta",
-   "pozostalo": 0,
-   "sl_teraz": 85.65,
-   "czas_wejscia": "2026-11-17T15:15Z",
-   "cena_wyjscia_srednia": 85.65,
-   "wynik_pkt_zrealizowany": -0.9
-  }
- }
+ "zlecenia": {}
 }

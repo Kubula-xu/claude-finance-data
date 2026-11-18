@@ -940,34 +940,10 @@
    "tp": "87,90 / 88,80"
   }
  },
- "automat": {
-  "169": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "17.11 12:30 PL wejście 27420",
-    "17.11 15:30 PL +1R, SL na BE 27420",
-    "17.11 16:30 PL TP1 27120, zamknięte 50%",
-    "17.11 16:30 PL TP2 26920"
-   ]
-  },
-  "170": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "17.11 15:00 PL wejście 3850",
-    "17.11 15:45 PL SL 3874.5"
-   ]
-  },
-  "172": {
-   "stan": "zamknięta",
-   "zdarzenia": [
-    "17.11 16:15 PL wejście 86.55",
-    "17.11 20:45 PL SL 85.65"
-   ]
-  }
- },
+ "automat": {},
  "podsumowanie": {
   "rano": "2026-11-17",
   "wieczor": "2026-11-17"
  },
- "zaktualizowano_utc": "2026-11-17T21:41:34Z"
+ "zaktualizowano_utc": "2026-11-18T02:33:46Z"
 }
