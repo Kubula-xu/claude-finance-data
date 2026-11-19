@@ -4,11 +4,11 @@
    "kierunek": "NEUTRAL",
    "pewnosc": 1,
    "setup": [
-    "NEUTRAL",
-    27435,
-    27150,
-    27862,
-    28147
+    "OCO",
+    27600,
+    27870,
+    27195,
+    26925
    ]
   },
   "gold": {
@@ -16,17 +16,17 @@
    "pewnosc": 3,
    "setup": [
     "SHORT",
-    3752,
-    3780.5,
-    3709.25,
-    3680.75
+    3730,
+    3758.5,
+    3687.25,
+    3658.75
    ]
   },
   "silver": {
-   "kierunek": "SHORT",
-   "pewnosc": 2,
+   "kierunek": "NEUTRAL",
+   "pewnosc": 1,
    "setup": [
-    "SHORT",
+    "NEUTRAL",
     45.85,
     46.73,
     44.53,
@@ -34,10 +34,10 @@
    ]
   },
   "wti": {
-   "kierunek": "SHORT",
-   "pewnosc": 2,
+   "kierunek": "NEUTRAL",
+   "pewnosc": 1,
    "setup": [
-    "SHORT",
+    "NEUTRAL",
     82.8,
     83.55,
     81.68,
@@ -985,34 +985,54 @@
    "tp": "26 733 / 26 448"
   },
   "182": {
-   "status": "oczekuje (OCO z #183)",
+   "status": "anulowane (limit nieosiągnięty; o 14:50 PL ponad 1× ATR od ceny)",
    "sl": "3 780,5",
    "tp": "3 709,25 / 3 680,75"
   },
   "183": {
-   "status": "oczekuje (OCO z #182)",
+   "status": "anulowane (o 12:45 PL złoto 3 715,7 spot przeszło poziom poza oknem; reguła ryzyko.md sekcja 4)",
    "sl": "3 746,5",
    "tp": "3 675,25 / 3 646,75"
   },
   "184": {
-   "status": "oczekuje (OCO z #185)",
+   "status": "anulowane (OCO: wypełniony #185)",
    "sl": "46,73",
    "tp": "44,53 / 43,65"
   },
   "185": {
-   "status": "oczekuje (OCO z #184)",
+   "status": "zamknięta (stop czasowy 12:30 PL)",
    "sl": "45,93",
    "tp": "43,73 / 42,85"
   },
   "186": {
-   "status": "oczekuje (OCO z #187)",
+   "status": "zamknięta (BE)",
    "sl": "83,55",
    "tp": "81,68 / 80,93"
   },
   "187": {
-   "status": "oczekuje (OCO z #186)",
+   "status": "anulowane (OCO: wypełniony #186)",
    "sl": "82,35",
    "tp": "80,48 / 79,73"
+  },
+  "188": {
+   "status": "oczekuje (OCO z #189; do 20:00 PL)",
+   "sl": "3 758,5",
+   "tp": "3 687,25 / 3 658,75"
+  },
+  "189": {
+   "status": "oczekuje (OCO z #188)",
+   "sl": "3 733,5",
+   "tp": "3 662,25 / 3 633,75"
+  },
+  "190": {
+   "status": "oczekuje (OCO z #191; od 15:45 PL)",
+   "sl": "27 870",
+   "tp": "27 195 / 26 925"
+  },
+  "191": {
+   "status": "oczekuje (OCO z #190; od 15:45 PL)",
+   "sl": "27 575",
+   "tp": "28 250 / 28 520"
   }
  },
  "automat": {},
@@ -1020,5 +1040,5 @@
   "rano": "2026-11-19",
   "wieczor": "2026-11-18"
  },
- "zaktualizowano_utc": "2026-11-19T08:50:23Z"
+ "zaktualizowano_utc": "2026-11-19T13:52:28Z"
 }
