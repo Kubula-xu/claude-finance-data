@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-11-19T13:55:00Z",
+  "aktualizacja": "2026-11-19T21:30:00Z",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -37,7 +37,7 @@
         "tp1": 27195,
         "tp2": 26925,
         "ryzyko_pct": 0.25,
-        "status": "oczekuje (#190/#191)",
+        "status": "zamknięta TP1+TP2 (#190, +2,00R)",
         "ksiega": "intraday",
         "uwagi": "Druga noga: buy stop 27 845, SL 27 575, TP 28 250 / 28 520. Poziomy NQ=F."
       },
@@ -85,7 +85,7 @@
         "tp2": 3658.75,
         "ryzyko_pct": 0.25,
         "koszt": 0.6,
-        "status": "oczekuje (#188/#189)",
+        "status": "zamknięta TP1 + 22:25 (#189, +1,56R)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "OCO z sell stop 3 705 (SL 3 733,5, TP 3 662,25 / 3 633,75). Spot = GC − 4,2. Okno do 20:00 PL."
