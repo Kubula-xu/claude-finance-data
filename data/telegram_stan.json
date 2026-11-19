@@ -1015,22 +1015,22 @@
    "tp": "80,48 / 79,73"
   },
   "188": {
-   "status": "oczekuje (OCO z #189; do 20:00 PL)",
+   "status": "anulowane (OCO: wypełniony #189)",
    "sl": "3 758,5",
    "tp": "3 687,25 / 3 658,75"
   },
   "189": {
-   "status": "oczekuje (OCO z #188)",
+   "status": "zamknięta (TP1 + zamknięcie 22:25 PL)",
    "sl": "3 733,5",
    "tp": "3 662,25 / 3 633,75"
   },
   "190": {
-   "status": "oczekuje (OCO z #191; od 15:45 PL)",
+   "status": "zamknięta (TP1 + TP2)",
    "sl": "27 870",
    "tp": "27 195 / 26 925"
   },
   "191": {
-   "status": "oczekuje (OCO z #190; od 15:45 PL)",
+   "status": "anulowane (OCO: wypełniony #190)",
    "sl": "27 575",
    "tp": "28 250 / 28 520"
   }
@@ -1040,5 +1040,5 @@
   "rano": "2026-11-19",
   "wieczor": "2026-11-18"
  },
- "zaktualizowano_utc": "2026-11-19T17:58:11Z"
+ "zaktualizowano_utc": "2026-11-19T21:26:31Z"
 }
