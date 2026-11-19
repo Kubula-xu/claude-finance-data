@@ -4,7 +4,7 @@
    "kierunek": "NEUTRAL",
    "pewnosc": 1,
    "setup": [
-    "OCO",
+    "NEUTRAL",
     27435,
     27150,
     27862,
@@ -13,24 +13,24 @@
   },
   "gold": {
    "kierunek": "SHORT",
-   "pewnosc": 2,
+   "pewnosc": 3,
    "setup": [
     "SHORT",
-    3795,
-    3818.4,
-    3759.9,
-    3736.5
+    3752,
+    3780.5,
+    3709.25,
+    3680.75
    ]
   },
   "silver": {
-   "kierunek": "NEUTRAL",
-   "pewnosc": 1,
+   "kierunek": "SHORT",
+   "pewnosc": 2,
    "setup": [
-    "NEUTRAL",
-    46.45,
-    47.25,
-    45.25,
-    44.45
+    "SHORT",
+    45.85,
+    46.73,
+    44.53,
+    43.65
    ]
   },
   "wti": {
@@ -38,10 +38,10 @@
    "pewnosc": 2,
    "setup": [
     "SHORT",
-    84.4,
-    85.17,
-    83.25,
-    82.47
+    82.8,
+    83.55,
+    81.68,
+    80.93
    ]
   },
   "ng": {
@@ -983,12 +983,42 @@
    "status": "anulowane (o 15:30 PL NQ 27 005 przeszło poziom przed oknem 15:45; reguła ryzyko.md sekcja 4)",
    "sl": "27 445",
    "tp": "26 733 / 26 448"
+  },
+  "182": {
+   "status": "oczekuje (OCO z #183)",
+   "sl": "3 780,5",
+   "tp": "3 709,25 / 3 680,75"
+  },
+  "183": {
+   "status": "oczekuje (OCO z #182)",
+   "sl": "3 746,5",
+   "tp": "3 675,25 / 3 646,75"
+  },
+  "184": {
+   "status": "oczekuje (OCO z #185)",
+   "sl": "46,73",
+   "tp": "44,53 / 43,65"
+  },
+  "185": {
+   "status": "oczekuje (OCO z #184)",
+   "sl": "45,93",
+   "tp": "43,73 / 42,85"
+  },
+  "186": {
+   "status": "oczekuje (OCO z #187)",
+   "sl": "83,55",
+   "tp": "81,68 / 80,93"
+  },
+  "187": {
+   "status": "oczekuje (OCO z #186)",
+   "sl": "82,35",
+   "tp": "80,48 / 79,73"
   }
  },
  "automat": {},
  "podsumowanie": {
-  "rano": "2026-11-18",
+  "rano": "2026-11-19",
   "wieczor": "2026-11-18"
  },
- "zaktualizowano_utc": "2026-11-19T01:12:59Z"
+ "zaktualizowano_utc": "2026-11-19T07:41:40Z"
 }
