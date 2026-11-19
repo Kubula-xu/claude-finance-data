@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-19T00:18:17Z",
- "wygenerowano_pl": "2026-11-19 01:18 PL",
+ "wygenerowano_utc": "2026-11-19T01:12:58Z",
+ "wygenerowano_pl": "2026-11-19 02:12 PL",
  "kapital_usd": 10354068.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -18,7 +18,7 @@
     "czas_notowania_utc": "2026-11-18T18:15:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 9.07,
-    "atr_h1_sesja": 3.7,
+    "atr_h1_sesja": 3.69,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -371,15 +371,15 @@
     "cena": 5027.0,
     "czas_notowania_utc": "2026-11-18T18:15:00Z",
     "sesja_w_trakcie": false,
-    "atr_d1": 223.07,
-    "atr_h1_sesja": 76.0,
+    "atr_d1": 223.0,
+    "atr_h1_sesja": 76.16,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
      "data": "2026-11-18",
      "o": 5019.0,
      "h": 5206.0,
-     "l": 4986.0,
+     "l": 4987.0,
      "c": 5027.0
     },
     "zmiana_5s_proc": 2.45,
@@ -390,7 +390,7 @@
     "kierunek": "NEUTRAL",
     "opis": "ADX 22, cena w zakresie 10 sesji 4640.00-5472.00",
     "adx": 21.7,
-    "di_plus": 15.6,
+    "di_plus": 15.7,
     "di_minus": 22.7,
     "ema20": 5223.01,
     "ema50": 5413.28,
@@ -406,7 +406,7 @@
    "poziomy": {
     "opory": [
      {
-      "poziom": 5073.0,
+      "poziom": 5073.33,
       "sila": 1,
       "zrodlo": "P",
       "odleglosc_atr": 0.21
@@ -419,10 +419,10 @@
       "odleglosc_atr": 0.27
      },
      {
-      "poziom": 5160.0,
+      "poziom": 5159.67,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.6
+      "odleglosc_atr": 0.59
      },
      {
       "poziom": 5206.0,
@@ -435,7 +435,7 @@
       "ostatnio": "2026-11-18",
       "poziom": 5211.0,
       "zrodlo": "swing D1 ×2, ostatnio 2026-11-18",
-      "odleglosc_atr": 0.82
+      "odleglosc_atr": 0.83
      },
      {
       "poziom": 5250,
@@ -448,12 +448,12 @@
      {
       "sila": 3,
       "ostatnio": "2026-11-18",
-      "poziom": 4975.67,
+      "poziom": 4976.0,
       "zrodlo": "swing D1 ×3, ostatnio 2026-11-18",
       "odleglosc_atr": -0.23
      },
      {
-      "poziom": 4940.0,
+      "poziom": 4940.67,
       "sila": 1,
       "zrodlo": "S1",
       "odleglosc_atr": -0.39
@@ -465,10 +465,10 @@
       "odleglosc_atr": -0.7
      },
      {
-      "poziom": 4853.0,
+      "poziom": 4854.33,
       "sila": 1,
       "zrodlo": "S2",
-      "odleglosc_atr": -0.78
+      "odleglosc_atr": -0.77
      },
      {
       "sila": 1,
@@ -485,11 +485,11 @@
      }
     ],
     "pivoty": {
-     "P": 5073.0,
-     "R1": 5160.0,
-     "S1": 4940.0,
-     "R2": 5293.0,
-     "S2": 4853.0
+     "P": 5073.33,
+     "R1": 5159.67,
+     "S1": 4940.67,
+     "R2": 5292.33,
+     "S2": 4854.33
     },
     "baza_pivotow": "2026-11-18"
    },
@@ -628,38 +628,38 @@
       {
        "kierunek": "LONG",
        "typ": "limit",
-       "wejscie": 4662.31,
-       "sl": 4439.24,
-       "tp1": 5449.69,
-       "tp2": 5561.23,
-       "r_pkt": 223.07,
+       "wejscie": 4662.3,
+       "sl": 4439.3,
+       "tp1": 5449.7,
+       "tp2": 5561.2,
+       "r_pkt": 223.0,
        "r_atr": 1.0,
        "rr_tp1_netto": 2.65,
-       "odleglosc_atr": -1.63,
+       "odleglosc_atr": -1.64,
        "kontrakty": 9.3,
        "ryzyko_usd": 25885,
        "uzasadnienie": "granica zakresu 4640.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
-        "limit 1.63× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
+        "limit 1.64× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
         "silny poziom 5087.33 przed TP1: rozważyć częściowe wyjście przed nim"
        ]
       },
       {
        "kierunek": "LONG",
        "typ": "stop",
-       "wejscie": 5494.31,
-       "sl": 4936.63,
-       "tp1": 6609.66,
-       "tp2": 7167.34,
-       "r_pkt": 557.68,
+       "wejscie": 5494.3,
+       "sl": 4936.8,
+       "tp1": 6609.3,
+       "tp2": 7166.8,
+       "r_pkt": 557.5,
        "r_atr": 2.5,
        "rr_tp1_netto": 1.74,
-       "odleglosc_atr": 2.09,
+       "odleglosc_atr": 2.1,
        "kontrakty": 4.2,
        "ryzyko_usd": 25885,
        "uzasadnienie": "wybicie zakresu za 5472.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
-        "stop 2.09× ATR D1 od ceny: daleko, do przeliczenia po sesji"
+        "stop 2.10× ATR D1 od ceny: daleko, do przeliczenia po sesji"
        ]
       }
      ],
@@ -672,38 +672,38 @@
       {
        "kierunek": "SHORT",
        "typ": "limit",
-       "wejscie": 5449.69,
-       "sl": 5672.76,
-       "tp1": 4662.31,
-       "tp2": 4550.77,
-       "r_pkt": 223.07,
+       "wejscie": 5449.7,
+       "sl": 5672.7,
+       "tp1": 4662.3,
+       "tp2": 4550.8,
+       "r_pkt": 223.0,
        "r_atr": 1.0,
        "rr_tp1_netto": 2.65,
-       "odleglosc_atr": 1.89,
+       "odleglosc_atr": 1.9,
        "kontrakty": 9.3,
        "ryzyko_usd": 25885,
        "uzasadnienie": "granica zakresu 5472.00 (10 sesji), TP1 przed przeciwną granicą",
        "uwagi": [
-        "limit 1.89× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
-        "silny poziom 4975.67 przed TP1: rozważyć częściowe wyjście przed nim"
+        "limit 1.90× ATR D1 od ceny: w 1-2 sesje mało realny, liczy się noga stop",
+        "silny poziom 4976.0 przed TP1: rozważyć częściowe wyjście przed nim"
        ]
       },
       {
        "kierunek": "SHORT",
        "typ": "stop",
-       "wejscie": 4617.69,
-       "sl": 5175.37,
-       "tp1": 3502.34,
-       "tp2": 2944.66,
-       "r_pkt": 557.68,
+       "wejscie": 4617.7,
+       "sl": 5175.2,
+       "tp1": 3502.7,
+       "tp2": 2945.2,
+       "r_pkt": 557.5,
        "r_atr": 2.5,
        "rr_tp1_netto": 1.74,
-       "odleglosc_atr": -1.83,
+       "odleglosc_atr": -1.84,
        "kontrakty": 4.2,
        "ryzyko_usd": 25885,
        "uzasadnienie": "wybicie zakresu za 4640.00: zmiana reżimu, wejście z kontynuacji",
        "uwagi": [
-        "stop 1.83× ATR D1 od ceny: daleko, do przeliczenia po sesji"
+        "stop 1.84× ATR D1 od ceny: daleko, do przeliczenia po sesji"
        ]
       }
      ],
