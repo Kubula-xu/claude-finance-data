@@ -13,24 +13,24 @@
   },
   "gold": {
    "kierunek": "SHORT",
-   "pewnosc": 3,
+   "pewnosc": 2,
    "setup": [
     "SHORT",
-    3570,
-    3612.75,
-    3505.9,
-    3463.1
+    3578,
+    3620.75,
+    3513.9,
+    3471.1
    ]
   },
   "silver": {
    "kierunek": "SHORT",
-   "pewnosc": 3,
+   "pewnosc": 2,
    "setup": [
     "SHORT",
-    42.3,
-    43.68,
-    40.23,
-    38.85
+    42.45,
+    43.83,
+    40.38,
+    39.0
    ]
   },
   "wti": {
@@ -1035,34 +1035,44 @@
    "tp": "28 250 / 28 520"
   },
   "192": {
-   "status": "oczekuje (OCO z #193)",
+   "status": "anulowane (o 08:45 PL złoto 3 577 spot przeszło limit przed oknem; reguła ryzyko.md sekcja 4)",
    "sl": "3 612,75",
    "tp": "3 505,9 / 3 463,1"
   },
   "193": {
-   "status": "oczekuje (OCO z #192)",
+   "status": "oczekuje (OCO z #198; do 20:00 PL)",
    "sl": "3 542,75",
    "tp": "3 435,9 / 3 393,1"
   },
   "194": {
-   "status": "oczekuje (OCO z #195)",
+   "status": "anulowane (o 08:45 PL srebro 42,62 spot przeszło limit przed oknem)",
    "sl": "43,68",
    "tp": "40,23 / 38,85"
   },
   "195": {
-   "status": "oczekuje (OCO z #194)",
+   "status": "oczekuje (OCO z #199; do 20:00 PL)",
    "sl": "42,18",
    "tp": "38,73 / 37,35"
   },
   "196": {
-   "status": "oczekuje (OCO z #197)",
+   "status": "otwarta (wypełniona 09:00 PL; SL na BE 26 420)",
    "sl": "26 720",
    "tp": "25 970 / 25 670"
   },
   "197": {
-   "status": "oczekuje (OCO z #196)",
+   "status": "anulowane (OCO: wypełniony #196)",
    "sl": "26 500",
    "tp": "25 750 / 25 450"
+  },
+  "198": {
+   "status": "oczekuje (OCO z #193; do 20:00 PL)",
+   "sl": "3 620,75",
+   "tp": "3 513,9 / 3 471,1"
+  },
+  "199": {
+   "status": "oczekuje (OCO z #195; do 20:00 PL)",
+   "sl": "43,83",
+   "tp": "40,38 / 39,00"
   }
  },
  "automat": {},
@@ -1070,5 +1080,5 @@
   "rano": "2026-11-20",
   "wieczor": "2026-11-19"
  },
- "zaktualizowano_utc": "2026-11-20T07:41:40Z"
+ "zaktualizowano_utc": "2026-11-20T13:52:29Z"
 }
