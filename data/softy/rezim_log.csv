@@ -24,3 +24,4 @@ czas_utc,rynek,z,na,cena,opis
 2026-11-18T10:45:00Z,kakao,zakres,trend_spadkowy,5147.0,"ADX 22, EMA20 < EMA50, cena pod EMA20"
 2026-11-18T19:08:04Z,kakao,trend_spadkowy,zakres,5027.0,"ADX 22, cena w zakresie 10 sesji 4640.00-5472.00"
 2026-11-19T08:50:23Z,kakao,zakres,trend_spadkowy,5027.0,"ADX 23, EMA20 < EMA50, cena pod EMA20"
+2026-11-20T16:23:23Z,kakao,trend_spadkowy,zakres,5278.0,"ADX 23, cena w zakresie 10 sesji 4640.00-5434.00"
