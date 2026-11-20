@@ -1,14 +1,14 @@
 {
  "sygnaly": {
   "nq": {
-   "kierunek": "NEUTRAL",
-   "pewnosc": 1,
+   "kierunek": "SHORT",
+   "pewnosc": 2,
    "setup": [
-    "OCO",
-    27600,
-    27870,
-    27195,
-    26925
+    "SHORT",
+    26420,
+    26720,
+    25970,
+    25670
    ]
   },
   "gold": {
@@ -16,21 +16,21 @@
    "pewnosc": 3,
    "setup": [
     "SHORT",
-    3730,
-    3758.5,
-    3687.25,
-    3658.75
+    3570,
+    3612.75,
+    3505.9,
+    3463.1
    ]
   },
   "silver": {
-   "kierunek": "NEUTRAL",
-   "pewnosc": 1,
+   "kierunek": "SHORT",
+   "pewnosc": 3,
    "setup": [
-    "NEUTRAL",
-    45.85,
-    46.73,
-    44.53,
-    43.65
+    "SHORT",
+    42.3,
+    43.68,
+    40.23,
+    38.85
    ]
   },
   "wti": {
@@ -1033,6 +1033,36 @@
    "status": "anulowane (OCO: wypełniony #190)",
    "sl": "27 575",
    "tp": "28 250 / 28 520"
+  },
+  "192": {
+   "status": "oczekuje (OCO z #193)",
+   "sl": "3 612,75",
+   "tp": "3 505,9 / 3 463,1"
+  },
+  "193": {
+   "status": "oczekuje (OCO z #192)",
+   "sl": "3 542,75",
+   "tp": "3 435,9 / 3 393,1"
+  },
+  "194": {
+   "status": "oczekuje (OCO z #195)",
+   "sl": "43,68",
+   "tp": "40,23 / 38,85"
+  },
+  "195": {
+   "status": "oczekuje (OCO z #194)",
+   "sl": "42,18",
+   "tp": "38,73 / 37,35"
+  },
+  "196": {
+   "status": "oczekuje (OCO z #197)",
+   "sl": "26 720",
+   "tp": "25 970 / 25 670"
+  },
+  "197": {
+   "status": "oczekuje (OCO z #196)",
+   "sl": "26 500",
+   "tp": "25 750 / 25 450"
   }
  },
  "automat": {},
@@ -1040,5 +1070,5 @@
   "rano": "2026-11-20",
   "wieczor": "2026-11-19"
  },
- "zaktualizowano_utc": "2026-11-20T07:41:02Z"
+ "zaktualizowano_utc": "2026-11-20T07:41:40Z"
 }
