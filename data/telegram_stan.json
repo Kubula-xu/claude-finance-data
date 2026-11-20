@@ -1040,7 +1040,7 @@
    "tp": "3 505,9 / 3 463,1"
   },
   "193": {
-   "status": "oczekuje (OCO z #198; do 20:00 PL)",
+   "status": "zamknięta (piątek 21:00 PL)",
    "sl": "3 542,75",
    "tp": "3 435,9 / 3 393,1"
   },
@@ -1050,12 +1050,12 @@
    "tp": "40,23 / 38,85"
   },
   "195": {
-   "status": "oczekuje (OCO z #199; do 20:00 PL)",
+   "status": "zamknięta (piątek 21:00 PL)",
    "sl": "42,18",
    "tp": "38,73 / 37,35"
   },
   "196": {
-   "status": "otwarta (wypełniona 09:00 PL; SL na BE 26 420)",
+   "status": "zamknięta (BE)",
    "sl": "26 720",
    "tp": "25 970 / 25 670"
   },
@@ -1065,12 +1065,12 @@
    "tp": "25 750 / 25 450"
   },
   "198": {
-   "status": "oczekuje (OCO z #193; do 20:00 PL)",
+   "status": "anulowane (OCO: wypełniony #193; limit nieosiągnięty przy bazie −12 wg spot_log 16:23 UTC)",
    "sl": "3 620,75",
    "tp": "3 513,9 / 3 471,1"
   },
   "199": {
-   "status": "oczekuje (OCO z #195; do 20:00 PL)",
+   "status": "anulowane (OCO: wypełniony #195)",
    "sl": "43,83",
    "tp": "40,38 / 39,00"
   }
@@ -1080,5 +1080,5 @@
   "rano": "2026-11-20",
   "wieczor": "2026-11-19"
  },
- "zaktualizowano_utc": "2026-11-20T16:23:23Z"
+ "zaktualizowano_utc": "2026-11-20T21:26:22Z"
 }
