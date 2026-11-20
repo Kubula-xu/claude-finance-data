@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-11-20T13:55:00Z",
+  "aktualizacja": "2026-11-20T21:30:00Z",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -37,7 +37,7 @@
         "tp1": 25970,
         "tp2": 25670,
         "ryzyko_pct": 0.25,
-        "status": "otwarta (#196, SL na BE 26 420)",
+        "status": "zamknięta BE (#196, 0R)",
         "ksiega": "intraday",
         "uwagi": "OCO z sell stop 26 200 (SL 26 500, TP 25 750 / 25 450). Bez wejść 15:15–15:45 PL."
       },
@@ -85,7 +85,7 @@
         "tp2": 3471.1,
         "ryzyko_pct": 0.25,
         "koszt": 0.6,
-        "status": "oczekuje (#198/#193)",
+        "status": "zamknięta 21:00 (#193, −0,30R)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "Spot = GC + 0,8 (spot_log 07:40). Okno do 20:00, zamknięcie 21:00 PL."
@@ -132,7 +132,7 @@
         "tp1": 40.38,
         "tp2": 39.0,
         "ryzyko_pct": 0.25,
-        "status": "oczekuje (#199/#195)",
+        "status": "zamknięta 21:00 (#195, −0,05R)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "Spot = SI + 0,29."
