@@ -50,6 +50,9 @@ def pivots():
     import glob
     files = sorted(glob.glob(f"{ROOT}/dane/intraday_poziomy_*.csv"))
     if not files: return out, None
+    # pivoty starsze niż 3 dni nie są „pivotami dnia” (rozciągały wykres i myliły); pokaż tylko świeże
+    d = os.path.basename(files[-1])[17:27]
+    if (datetime.date.today() - datetime.date.fromisoformat(d)).days > 3: return out, None
     for r in csv.DictReader(open(files[-1])):
         k = PIV.get(r["instrument"])
         if k: out[k] = {c: (float(v) if c not in ("instrument","baza_dnia","ATR_H1_zrodlo") else v) for c, v in r.items() if v != ""}

@@ -1,13 +1,23 @@
 name: Ceny Yahoo
 
+# GitHub dławi harmonogram */15: w listopadzie przebiegi startowały co 4-8 h zamiast co 15 min.
+# Dlatego jeden przebieg robi teraz pętlę: cykl (ceny, softy, pilnowanie zleceń, Telegram, commit)
+# co 15 min przez ok. 5 h 40 min. Kolejny start z harmonogramu czeka w kolejce (concurrency)
+# i przejmuje pętlę, gdy ta się skończy. Ręczne uruchomienie z wejściem petla=false robi jeden cykl.
 on:
   schedule:
-    # co 15 min, niedziela-piątek (futures stoją w sobotę). GitHub może opóźnić start o kilka-kilkanaście minut.
+    # niedziela-piątek (futures stoją w sobotę). GitHub może opóźnić start nawet o kilka godzin.
     - cron: "*/15 * * * 0-5"
   workflow_dispatch:
+    inputs:
+      petla:
+        description: "Pętla co 15 min przez ok. 5 h 40 min (false = jeden cykl)"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
+  actions: write   # uruchamianie pulpitu (pages.yml) po każdym cyklu
 
 concurrency:
   group: prices
@@ -16,7 +26,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,23 +34,36 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - run: python fetch_prices.py
-      - name: Analiza kawy i kakao
-        run: python softy/analiza.py || echo "analiza softów nie zadziałała"
-      - name: Pilnowanie zleceń z dziennika
-        run: python panel/wypelnienia.py || echo "pilnowanie zleceń nie zadziałało"
-      - name: Powiadomienia Telegram
+      - name: Cykle co 15 min
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_TRYB: ${{ vars.TELEGRAM_TRYB }}
-        run: python panel/telegram.py || echo "powiadomienia Telegram nie zadziałały"
-      - name: Commit
+          GH_TOKEN: ${{ github.token }}
+          PETLA: ${{ github.event_name == 'schedule' || inputs.petla }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
-          git diff --cached --quiet && exit 0
-          git commit -m "ceny $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3; do git pull --rebase -X theirs && git push && exit 0; sleep 5; done
-          exit 1
+          koniec=$(( $(date +%s) + 340*60 ))
+          while :; do
+            start=$(date +%s)
+            # najnowszy dziennik i sygnały (pilnowanie zleceń czyta panel/projekt/)
+            git pull -q --rebase -X theirs || echo "pull nie zadziałał"
+            python fetch_prices.py || echo "pobieranie cen nie zadziałało"
+            python softy/analiza.py || echo "analiza softów nie zadziałała"
+            python panel/wypelnienia.py || echo "pilnowanie zleceń nie zadziałało"
+            python panel/telegram.py || echo "powiadomienia Telegram nie zadziałały"
+            git add data
+            if ! git diff --cached --quiet; then
+              git commit -q -m "ceny $(date -u +%Y-%m-%dT%H:%MZ)"
+              for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep 5; done
+              # push z GITHUB_TOKEN nie uruchamia innych workflowów, więc pulpit odpalamy ręcznie
+              gh workflow run pages.yml --ref main || echo "nie udało się uruchomić pulpitu"
+            fi
+            [ "$PETLA" = "true" ] || break
+            nastepny=$(( start + 15*60 ))
+            [ $nastepny -lt $koniec ] || break
+            # w sobotę (UTC) futures stoją: kończymy pętlę
+            [ "$(date -u +%u)" = "6" ] && break
+            sleep $(( nastepny - $(date +%s) > 0 ? nastepny - $(date +%s) : 0 ))
+          done
