@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-21T01:03:04Z",
- "wygenerowano_pl": "2026-11-21 02:03 PL",
+ "wygenerowano_utc": "2026-11-21T03:32:56Z",
+ "wygenerowano_pl": "2026-11-21 04:32 PL",
  "kapital_usd": 10428084.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -23,7 +23,7 @@
     "vwap_dzis": null,
     "ostatnia_sesja": {
      "data": "2026-11-20",
-     "o": 278.299988,
+     "o": 273.899994,
      "h": 275.899994,
      "l": 268.0,
      "c": 268.700012
@@ -373,7 +373,7 @@
     "vwap_dzis": null,
     "ostatnia_sesja": {
      "data": "2026-11-20",
-     "o": 5057.0,
+     "o": 5164.0,
      "h": 5393.0,
      "l": 5124.0,
      "c": 5294.0

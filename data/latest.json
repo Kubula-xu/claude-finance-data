@@ -11,7 +11,7 @@
     "data": "2026-11-20",
     "open": 26600.0,
     "high": 26603.5,
-    "low": 24976.5
+    "low": 24979.0
    }
   },
   "ndx": {
@@ -39,7 +39,7 @@
     "data": "2026-11-20",
     "open": 3633.800049,
     "high": 3638.100098,
-    "low": 3502.899902
+    "low": 3503.199951
    }
   },
   "silver": {
@@ -93,7 +93,7 @@
    "zmiana_pct": -4.733,
    "dzien": {
     "data": "2026-11-20",
-    "open": 278.299988,
+    "open": 273.899994,
     "high": 275.899994,
     "low": 268.0
    }
@@ -107,7 +107,7 @@
    "zmiana_pct": 4.563,
    "dzien": {
     "data": "2026-11-20",
-    "open": 5057.0,
+    "open": 5164.0,
     "high": 5393.0,
     "low": 5124.0
    }
@@ -144,7 +144,7 @@
    "symbol": "^VIX",
    "opis": "VIX",
    "cena": 35.889999,
-   "czas_notowania_utc": "2026-11-20T21:15:00Z",
+   "czas_notowania_utc": "2026-11-20T21:00:00Z",
    "poprzednie_zamkniecie": 28.440001,
    "zmiana_pct": 26.195,
    "dzien": {
@@ -168,7 +168,7 @@
     "data": "2026-11-20",
     "open": 3629.4125,
     "high": 3633.7125,
-    "low": 3498.5124
+    "low": 3498.8124
    },
    "poprzednie_zamkniecie": 3681.1125,
    "zmiana_pct": -3.985
@@ -181,18 +181,18 @@
    "ask": 41.229,
    "czas_notowania_utc": "2026-11-20T22:00:00Z",
    "zrodlo": "Swissquote (bid/ask)",
-   "baza_vs_futures": 0.012,
+   "baza_vs_futures": 0.087,
    "futures": "SI=F",
    "dzien": {
     "data": "2026-11-20",
-    "open": 42.8721,
-    "high": 43.1921,
-    "low": 40.6271
+    "open": 42.9474,
+    "high": 43.2674,
+    "low": 40.7024
    },
-   "poprzednie_zamkniecie": 44.3301,
-   "zmiana_pct": -7.055
+   "poprzednie_zamkniecie": 44.4054,
+   "zmiana_pct": -7.213
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-11-20T22:45:17Z"
+ "zaktualizowano_utc": "2026-11-21T03:32:53Z"
 }
