@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-22T05:09:36Z",
- "wygenerowano_pl": "2026-11-22 06:09 PL",
+ "wygenerowano_utc": "2026-11-22T13:20:50Z",
+ "wygenerowano_pl": "2026-11-22 14:20 PL",
  "kapital_usd": 10428084.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -782,18 +782,8 @@
  "alerty": [
   {
    "rynek": "kakao",
-   "typ": "zmiana_rezimu",
-   "opis": "reżim wybicie_gora → trend_spadkowy: przeliczyć plan i wiszące zlecenia"
-  },
-  {
-   "rynek": "kakao",
    "typ": "nieudane_wybicie",
    "opis": "nieudane wybicie górą (5393.00 > 5287.00, zamknięcie 5150.00): uwaga na pułapkę albo drugie podejście"
-  },
-  {
-   "rynek": "kakao",
-   "typ": "zmiana_biasu",
-   "opis": "bias LONG → NEUTRAL (1/5)"
   }
  ]
 }
