@@ -1085,32 +1085,32 @@
    "tp": "3 708,6 / 3 754,4"
   },
   "202": {
-   "status": "oczekuje (OCO z #203; do 20:00 PL)",
+   "status": "zamknięta (BE)",
    "sl": "3 594,25",
    "tp": "3 708,6 / 3 754,4"
   },
   "203": {
-   "status": "oczekuje (OCO z #202)",
+   "status": "anulowane (OCO: wypełniony #202)",
    "sl": "3 641,75",
    "tp": "3 527,4 / 3 481,6"
   },
   "204": {
-   "status": "oczekuje (OCO z #205; od 15:00 PL)",
+   "status": "zamknięta (TP1 + zamknięcie 22:25 PL)",
    "sl": "83,09",
    "tp": "80,49 / 79,45"
   },
   "205": {
-   "status": "oczekuje (OCO z #204)",
+   "status": "anulowane (o 14:45 PL ropa 80,55 przeszła poziom przed oknem 15:00; potem OCO z #204)",
    "sl": "82,44",
    "tp": "79,84 / 78,80"
   },
   "206": {
-   "status": "oczekuje (OCO z #207; od 15:45 PL)",
+   "status": "anulowane (o 14:45 PL NQ 26 682 przeszło poziom przed oknem 15:45; reguła ryzyko.md sekcja 4)",
    "sl": "25 718",
    "tp": "26 698 / 27 090"
   },
   "207": {
-   "status": "oczekuje (OCO z #206; od 15:45 PL)",
+   "status": "anulowane (OCO; poziom nieosiągnięty)",
    "sl": "26 207",
    "tp": "25 227 / 24 835"
   }
@@ -1120,5 +1120,5 @@
   "rano": "2026-11-23",
   "wieczor": "2026-11-20"
  },
- "zaktualizowano_utc": "2026-11-23T21:23:08Z"
+ "zaktualizowano_utc": "2026-11-23T21:26:36Z"
 }
