@@ -1,10 +1,10 @@
 {
  "sygnaly": {
   "nq": {
-   "kierunek": "SHORT",
-   "pewnosc": 2,
+   "kierunek": "NEUTRAL",
+   "pewnosc": 1,
    "setup": [
-    "SHORT",
+    "NEUTRAL",
     26420,
     26720,
     25970,
@@ -12,21 +12,21 @@
    ]
   },
   "gold": {
-   "kierunek": "SHORT",
+   "kierunek": "LONG",
    "pewnosc": 2,
    "setup": [
-    "SHORT",
-    3578,
-    3620.75,
-    3513.9,
-    3471.1
+    "LONG",
+    3612,
+    3566.25,
+    3680.6,
+    3726.4
    ]
   },
   "silver": {
-   "kierunek": "SHORT",
-   "pewnosc": 2,
+   "kierunek": "NEUTRAL",
+   "pewnosc": 1,
    "setup": [
-    "SHORT",
+    "NEUTRAL",
     42.45,
     43.83,
     40.38,
@@ -1040,7 +1040,7 @@
    "tp": "3 505,9 / 3 463,1"
   },
   "193": {
-   "status": "zamknięta (piątek 21:00 PL)",
+   "status": "anulowane (OCO: wypełniony #198; korekta 23.11)",
    "sl": "3 542,75",
    "tp": "3 435,9 / 3 393,1"
   },
@@ -1050,7 +1050,7 @@
    "tp": "40,23 / 38,85"
   },
   "195": {
-   "status": "zamknięta (piątek 21:00 PL)",
+   "status": "anulowane (OCO: wypełniony #199; korekta 23.11)",
    "sl": "42,18",
    "tp": "38,73 / 37,35"
   },
@@ -1065,20 +1065,30 @@
    "tp": "25 750 / 25 450"
   },
   "198": {
-   "status": "anulowane (OCO: wypełniony #193; limit nieosiągnięty przy bazie −12 wg spot_log 16:23 UTC)",
+   "status": "zamknięta (TP1 + zamknięcie piątek 21:00 PL)",
    "sl": "3 620,75",
    "tp": "3 513,9 / 3 471,1"
   },
   "199": {
-   "status": "anulowane (OCO: wypełniony #195)",
+   "status": "zamknięta (BE na SL nie wróciło; zamknięcie piątek 21:00 PL)",
    "sl": "43,83",
    "tp": "40,38 / 39,00"
+  },
+  "200": {
+   "status": "oczekuje (OCO z #201)",
+   "sl": "3 566,25",
+   "tp": "3 680,6 / 3 726,4"
+  },
+  "201": {
+   "status": "oczekuje (OCO z #200)",
+   "sl": "3 594,25",
+   "tp": "3 708,6 / 3 754,4"
   }
  },
  "automat": {},
  "podsumowanie": {
-  "rano": "2026-11-20",
+  "rano": "2026-11-23",
   "wieczor": "2026-11-20"
  },
- "zaktualizowano_utc": "2026-11-23T01:03:38Z"
+ "zaktualizowano_utc": "2026-11-23T07:42:21Z"
 }
