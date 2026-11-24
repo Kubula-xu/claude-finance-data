@@ -1,4 +1,4 @@
-# Softy: kawa i kakao, analiza z 2026-11-23 22:23 PL
+# Softy: kawa i kakao, analiza z 2026-11-24 04:57 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
@@ -11,11 +11,11 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 17, cena w zakresie 10 sesji 266.70-288.30; nieudane wybicie dołem (265.55 < 266.70, zamknięcie 267.35) |
 | COT | +1.0 | fundusze net +9,023, 1. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | -1.0 | opad 30 dni 99% normy, prognoza 16 dni 159% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
-| Krzywa | +1.0 | KCZ26.NYB vs KCH27.NYB: +2.75%, 5 dni temu +2.06%, backwardation (ciasno w bieżącej dostawie) |
+| Pogoda | -1.0 | opad 30 dni 100% normy, prognoza 16 dni 194% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
+| Krzywa | +1.0 | KCZ26.NYB vs KCH27.NYB: +2.82%, 5 dni temu +2.06%, backwardation (ciasno w bieżącej dostawie) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
-| BRL | -0.5 | USD/BRL 5.957, 5 sesji +5.2%: real słabnie, sprzedaż z Brazylii tańsza |
-| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +4.5%, wzrost w 58% lat |
+| BRL | -0.5 | USD/BRL 5.929, 5 sesji +2.5%: real słabnie, sprzedaż z Brazylii tańsza |
+| Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +4.9%, wzrost w 58% lat |
 
 Opory: 269,45 (P, +0.26 ATR), 269,77 (swing D1 ×2, ostatnio 2026-09-23, +0.30 ATR), 273,35 (R1, +0.73 ATR), 275,45 (swing D1 ×1, ostatnio 2026-11-23, +0.99 ATR)
 
@@ -37,8 +37,8 @@ Wsparcia: 266,12 (swing D1 ×2, ostatnio 2026-11-23, -0.15 ATR), 265,55 (dołek 
 |---|---|---|
 | Technika (reżim) | +1.5 | zamknięcie/cena nad szczytem 10 sesji 5250.00 |
 | COT | +1.0 | fundusze net -19,213, 2. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | +1.0 | opad 30 dni 216% normy, prognoza 16 dni 119% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
-| Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.76%, 5 dni temu -2.65%, contango (zapasy wystarczają) |
+| Pogoda | +1.0 | opad 30 dni 219% normy, prognoza 16 dni 126% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
+| Krzywa | +0.0 | CCZ26.NYB vs CCH27.NYB: -1.70%, 5 dni temu -2.65%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.5 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.2%, wzrost w 65% lat |
 
@@ -56,14 +56,11 @@ Wsparcia: 5 196 (swing D1 ×3, ostatnio 2026-11-23, -0.36 ATR), 5 185 (S1, -0.40
 ## Alerty
 
 - kawa: nieudane wybicie dołem (265.55 < 266.70, zamknięcie 267.35)
-- kakao: reżim trend_spadkowy → wybicie_gora: przeliczyć plan i wiszące zlecenia
-- kakao: bias NEUTRAL → LONG (5/5)
 
 ## Kalendarz (14 dni)
 
 | Data | Godz. PL | Rynek | Wydarzenie | Waga |
 |---|---|---|---|---|
-| 2026-11-23 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |
 | 2026-11-27 | 21:30 | oba | CFTC COT (stan na wtorek) | średnia |
 | 2026-11-30 |  | kakao | ICCO Quarterly Bulletin of Cocoa Statistics (rewizja bilansu 2025/26 i 2026/27) | średnia |
 | 2026-11-30 | rano | kakao | przybycia kakao do portów CIV (Reuters/Bloomberg, szacunki eksporterów) | średnia-wysoka |
