@@ -28,3 +28,4 @@ czas_utc,rynek,z,na,cena,opis
 2026-11-20T22:45:23Z,kakao,zakres,wybicie_gora,5294.0,zamknięcie/cena nad szczytem 10 sesji 5287.00
 2026-11-22T05:09:36Z,kakao,wybicie_gora,trend_spadkowy,5150.0,"ADX 22, EMA20 < EMA50, cena pod EMA20; nieudane wybicie górą (5393.00 > 5287.00, zamknięcie 5150.00): uwaga na pułapkę albo drugie podejście"
 2026-11-23T21:23:08Z,kakao,trend_spadkowy,wybicie_gora,5281.0,zamknięcie/cena nad szczytem 10 sesji 5250.00
+2026-11-24T05:25:52Z,kakao,wybicie_gora,zakres,5281.0,"ADX 22, cena w zakresie 10 sesji 4640.00-5250.00; nieudane wybicie górą (5252.00 > 5250.00, zamknięcie 5186.00): uwaga na pułapkę albo drugie podejście"
