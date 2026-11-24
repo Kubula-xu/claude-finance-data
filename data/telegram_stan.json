@@ -1115,32 +1115,32 @@
    "tp": "25 227 / 24 835"
   },
   "208": {
-   "status": "oczekuje (OCO z #209)",
+   "status": "anulowane (OCO: wypełniony #209)",
    "sl": "3 660,3",
    "tp": "3 589,55 / 3 561,25"
   },
   "209": {
-   "status": "oczekuje (OCO z #208)",
+   "status": "zamknięta (stop czasowy 12:15 PL)",
    "sl": "3 636,3",
    "tp": "3 565,55 / 3 537,25"
   },
   "210": {
-   "status": "oczekuje (OCO z #211)",
+   "status": "anulowane (OCO: wypełniony #211)",
    "sl": "43,39",
    "tp": "41,29 / 40,45"
   },
   "211": {
-   "status": "oczekuje (OCO z #210)",
+   "status": "zamknięta (stop czasowy 12:15 PL)",
    "sl": "42,69",
    "tp": "40,59 / 39,75"
   },
   "212": {
-   "status": "oczekuje (OCO z #213)",
+   "status": "anulowane (OCO: wypełniony #213)",
    "sl": "81,41",
    "tp": "79,39 / 78,58"
   },
   "213": {
-   "status": "oczekuje (OCO z #212)",
+   "status": "zamknięta (SL)",
    "sl": "79,96",
    "tp": "77,94 / 77,13"
   }
@@ -1150,5 +1150,5 @@
   "rano": "2026-11-24",
   "wieczor": "2026-11-23"
  },
- "zaktualizowano_utc": "2026-11-24T07:42:12Z"
+ "zaktualizowano_utc": "2026-11-24T13:51:49Z"
 }
