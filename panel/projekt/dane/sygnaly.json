@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-11-24T07:45:00Z",
+  "aktualizacja": "2026-11-24T13:55:00Z",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -27,7 +27,7 @@
       "final": {
         "kierunek": "NEUTRAL",
         "pewnosc": 1,
-        "powod": "Po wczorajszym wystrzale zakres 26 684–27 036. Plan o 14:50 PL."
+        "powod": "Trzy straty z rzędu: zgodnie z ryzyko.md koniec handlu na dziś."
       },
       "setup": {
         "kierunek": "NEUTRAL",
@@ -37,7 +37,7 @@
         "tp1": 26698,
         "tp2": 27090,
         "ryzyko_pct": 0,
-        "status": "brak setupu rano 24.11",
+        "status": "brak (3 straty z rzędu: koniec dnia)",
         "ksiega": "intraday",
         "uwagi": ""
       },
@@ -74,7 +74,7 @@
       "final": {
         "kierunek": "SHORT",
         "pewnosc": 2,
-        "powod": "Sprzedaż nocnego odbicia 3 676 → 3 613. OCO: limit 3 632 albo stop 3 608."
+        "powod": "Trzy straty z rzędu: zgodnie z ryzyko.md koniec handlu na dziś."
       },
       "setup": {
         "kierunek": "SHORT",
@@ -85,7 +85,7 @@
         "tp2": 3561.25,
         "ryzyko_pct": 0.25,
         "koszt": 0.6,
-        "status": "oczekuje (#208/#209)",
+        "status": "zamknięta stop czasowy (#209, −0,56R)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "OCO z sell stop 3 608 (SL 3 636,3, TP 3 565,55 / 3 537,25)."
@@ -122,7 +122,7 @@
       "final": {
         "kierunek": "SHORT",
         "pewnosc": 2,
-        "powod": "43,8 → 41,9. OCO: limit 42,55 albo stop 41,85."
+        "powod": "Trzy straty z rzędu: zgodnie z ryzyko.md koniec handlu na dziś."
       },
       "setup": {
         "kierunek": "SHORT",
@@ -132,7 +132,7 @@
         "tp1": 41.29,
         "tp2": 40.45,
         "ryzyko_pct": 0.25,
-        "status": "oczekuje (#210/#211)",
+        "status": "zamknięta stop czasowy (#211, −0,12R)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "OCO z sell stop 41,85 (SL 42,69, TP 40,59 / 39,75)."
@@ -169,7 +169,7 @@
       "final": {
         "kierunek": "SHORT",
         "pewnosc": 2,
-        "powod": "Trend w dół, dołek 79,20. OCO: limit 80,60 albo stop 79,15."
+        "powod": "Trzy straty z rzędu: zgodnie z ryzyko.md koniec handlu na dziś."
       },
       "setup": {
         "kierunek": "SHORT",
@@ -179,7 +179,7 @@
         "tp1": 79.39,
         "tp2": 78.58,
         "ryzyko_pct": 0.25,
-        "status": "oczekuje (#212/#213)",
+        "status": "zamknięta SL (#213, −1,00R)",
         "ksiega": "intraday",
         "uwagi": "OCO z sell stop 79,15 (SL 79,96, TP 77,94 / 77,13)."
       },
