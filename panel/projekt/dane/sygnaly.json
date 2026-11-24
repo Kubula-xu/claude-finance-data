@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-11-23T21:30:00Z",
+  "aktualizacja": "2026-11-24T07:45:00Z",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -12,11 +12,11 @@
       "atr": 443,
       "agenci": {
         "technika": [
-          "NEUTRAL",
+          "LONG",
           1
         ],
         "makro": [
-          "SHORT",
+          "NEUTRAL",
           1
         ],
         "sentyment": [
@@ -27,19 +27,19 @@
       "final": {
         "kierunek": "NEUTRAL",
         "pewnosc": 1,
-        "powod": "Zakres 25 824–26 102; OCO na wybicie od 15:45 PL."
+        "powod": "Po wczorajszym wystrzale zakres 26 684–27 036. Plan o 14:50 PL."
       },
       "setup": {
-        "kierunek": "OCO",
-        "typ": "stop/stop",
+        "kierunek": "NEUTRAL",
+        "typ": "brak",
         "wejscie": 26110,
         "sl": 25718,
         "tp1": 26698,
         "tp2": 27090,
-        "ryzyko_pct": 0.25,
-        "status": "anulowane (#206/#207)",
+        "ryzyko_pct": 0,
+        "status": "brak setupu rano 24.11",
         "ksiega": "intraday",
-        "uwagi": "Druga noga: sell stop 25 815, SL 26 207, TP 25 227 / 24 835."
+        "uwagi": ""
       },
       "kontrakt": {
         "nazwa": "E-mini Nasdaq 100 (NQ)",
@@ -59,36 +59,36 @@
       "atr": 89.6,
       "agenci": {
         "technika": [
-          "NEUTRAL",
-          1
+          "SHORT",
+          2
         ],
         "makro": [
           "NEUTRAL",
           1
         ],
         "sentyment": [
-          "LONG",
-          1
+          "SHORT",
+          2
         ]
       },
       "final": {
-        "kierunek": "NEUTRAL",
-        "pewnosc": 1,
-        "powod": "Zakres 3 600–3 633; OCO na wybicie."
+        "kierunek": "SHORT",
+        "pewnosc": 2,
+        "powod": "Sprzedaż nocnego odbicia 3 676 → 3 613. OCO: limit 3 632 albo stop 3 608."
       },
       "setup": {
-        "kierunek": "OCO",
-        "typ": "stop/stop",
-        "wejscie": 3640,
-        "sl": 3594.25,
-        "tp1": 3708.6,
-        "tp2": 3754.4,
+        "kierunek": "SHORT",
+        "typ": "OCO limit/stop",
+        "wejscie": 3632,
+        "sl": 3660.3,
+        "tp1": 3589.55,
+        "tp2": 3561.25,
         "ryzyko_pct": 0.25,
         "koszt": 0.6,
-        "status": "zamknięta BE (#202); dzień #200 +0,28R",
+        "status": "oczekuje (#208/#209)",
         "ksiega": "intraday",
         "ceny": "spot",
-        "uwagi": "Druga noga: sell stop 3 596, SL 3 641,75, TP 3 527,4 / 3 481,6."
+        "uwagi": "OCO z sell stop 3 608 (SL 3 636,3, TP 3 565,55 / 3 537,25)."
       },
       "kontrakt": {
         "nazwa": "Gold (GC), 100 oz",
@@ -107,35 +107,35 @@
       "atr": 2.06,
       "agenci": {
         "technika": [
-          "NEUTRAL",
-          1
+          "SHORT",
+          3
         ],
         "makro": [
           "NEUTRAL",
           1
         ],
         "sentyment": [
-          "LONG",
-          1
+          "SHORT",
+          2
         ]
       },
       "final": {
-        "kierunek": "NEUTRAL",
-        "pewnosc": 1,
-        "powod": "Zakres 41,4–42,8, słabsze od złota."
+        "kierunek": "SHORT",
+        "pewnosc": 2,
+        "powod": "43,8 → 41,9. OCO: limit 42,55 albo stop 41,85."
       },
       "setup": {
-        "kierunek": "NEUTRAL",
-        "typ": "brak",
-        "wejscie": 42.45,
-        "sl": 43.83,
-        "tp1": 40.38,
-        "tp2": 39.0,
-        "ryzyko_pct": 0,
-        "status": "brak setupu rano 23.11",
+        "kierunek": "SHORT",
+        "typ": "OCO limit/stop",
+        "wejscie": 42.55,
+        "sl": 43.39,
+        "tp1": 41.29,
+        "tp2": 40.45,
+        "ryzyko_pct": 0.25,
+        "status": "oczekuje (#210/#211)",
         "ksiega": "intraday",
         "ceny": "spot",
-        "uwagi": "Spot = SI + 0,28."
+        "uwagi": "OCO z sell stop 41,85 (SL 42,69, TP 40,59 / 39,75)."
       },
       "kontrakt": {
         "nazwa": "Silver (SI), 5 000 oz",
@@ -169,19 +169,19 @@
       "final": {
         "kierunek": "SHORT",
         "pewnosc": 2,
-        "powod": "Nowy dołek 81,54. OCO: limit 82,05 albo stop 81,40."
+        "powod": "Trend w dół, dołek 79,20. OCO: limit 80,60 albo stop 79,15."
       },
       "setup": {
         "kierunek": "SHORT",
         "typ": "OCO limit/stop",
-        "wejscie": 82.05,
-        "sl": 83.09,
-        "tp1": 80.49,
-        "tp2": 79.45,
+        "wejscie": 80.6,
+        "sl": 81.41,
+        "tp1": 79.39,
+        "tp2": 78.58,
         "ryzyko_pct": 0.25,
-        "status": "zamknięta TP1 + 22:25 (#204, +1,61R)",
+        "status": "oczekuje (#212/#213)",
         "ksiega": "intraday",
-        "uwagi": "OCO z sell stop 81,40 (SL 82,44, TP 79,84 / 78,80). Okno 15:00–20:30 PL."
+        "uwagi": "OCO z sell stop 79,15 (SL 79,96, TP 77,94 / 77,13)."
       },
       "kontrakt": {
         "nazwa": "WTI Crude (CL), 1 000 bbl",

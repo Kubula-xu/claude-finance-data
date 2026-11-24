@@ -214,6 +214,12 @@ Panel czyta tę tabelę, więc nie zmieniaj kolejności kolumn.
 | 205 | 2026-11-23 13:50 | Ropa WTI | SHORT | 81,40 (stop) | 82,44 | 79,84 / 78,80 | 0,25 | 25 250 bbl / 25 CL | jw. | anulowane (o 14:45 PL ropa 80,55 przeszła poziom przed oknem 15:00; potem OCO z #204) | | | | Kontynuacja spadku. |
 | 206 | 2026-11-23 13:50 | Nasdaq 100 | LONG | 26 110 (stop) | 25 718 | 26 698 / 27 090 | 0,25 | 3 NQ | NQ=F 13:30 UTC 25 954; zakres dnia 25 824–26 102; ATR H1 261 | anulowane (o 14:45 PL NQ 26 682 przeszło poziom przed oknem 15:45; reguła ryzyko.md sekcja 4) | | | | Wybicie zakresu w górę. |
 | 207 | 2026-11-23 13:50 | Nasdaq 100 | SHORT | 25 815 (stop) | 26 207 | 25 227 / 24 835 | 0,25 | 3 NQ | jw. | anulowane (OCO; poziom nieosiągnięty) | | | | Wybicie zakresu w dół. Piąta transakcja dnia. |
+| 208 | 2026-11-24 07:45 | Złoto (XAUUSD spot) | SHORT | 3 632 (limit) | 3 660,3 | 3 589,55 / 3 561,25 | 0,25 | 931 oz | spot ok. 3 615 (GC=F 07:30 UTC 3 615,5; baza ok. 0 ±4); ATR H1 18,85 | oczekuje (OCO z #209) | | | | Noc: 3 676 → 3 613, sprzedaż odbicia. Short z retestu. |
+| 209 | 2026-11-24 07:45 | Złoto (XAUUSD spot) | SHORT | 3 608 (stop) | 3 636,3 | 3 565,55 / 3 537,25 | 0,25 | 931 oz | jw. | oczekuje (OCO z #208) | | | | Wybicie nocnego dołka 3 612,6. |
+| 210 | 2026-11-24 07:45 | Srebro (XAGUSD spot) | SHORT | 42,55 (limit) | 43,39 | 41,29 / 40,45 | 0,25 | 31 380 oz | spot ok. 42,20 (SI=F 42,11 plus 0,1); ATR H1 0,42 | oczekuje (OCO z #211) | | | | Noc: 43,8 → 41,9. Grupa metali 0,50%. |
+| 211 | 2026-11-24 07:45 | Srebro (XAGUSD spot) | SHORT | 41,85 (stop) | 42,69 | 40,59 / 39,75 | 0,25 | 31 380 oz | jw. | oczekuje (OCO z #210) | | | | Wybicie nocnego dołka. |
+| 212 | 2026-11-24 07:45 | Ropa WTI | SHORT | 80,60 (limit) | 81,41 | 79,39 / 78,58 | 0,25 | 32 545 bbl / 33 CL | CL=F 07:30 UTC 80,18; ATR H1 0,54 | oczekuje (OCO z #213) | | | | Trend w dół (dołek 79,20). Short z odbicia. |
+| 213 | 2026-11-24 07:45 | Ropa WTI | SHORT | 79,15 (stop) | 79,96 | 77,94 / 77,13 | 0,25 | 32 545 bbl / 33 CL | jw. | oczekuje (OCO z #212) | | | | Wybicie nocnego dołka. |
 
 Status: oczekuje (limit) / otwarta / zamknięta TP / zamknięta SL / zamknięta ręcznie / anulowana
 Pozycje 1–5 (swing D1) anulowane po zmianie horyzontu. Pozycje intraday: ważność w kolumnie Status, wszystko zamknięte do 22:30 PL, bez trzymania na noc (ryzyko.md, sekcje 4–5).
