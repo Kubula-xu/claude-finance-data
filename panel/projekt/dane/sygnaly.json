@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-11-24T13:55:00Z",
+  "aktualizacja": "2026-11-25T07:45:00Z",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -12,34 +12,34 @@
       "atr": 443,
       "agenci": {
         "technika": [
-          "LONG",
-          1
+          "SHORT",
+          3
         ],
         "makro": [
-          "NEUTRAL",
+          "SHORT",
           1
         ],
         "sentyment": [
-          "NEUTRAL",
-          1
+          "SHORT",
+          2
         ]
       },
       "final": {
-        "kierunek": "NEUTRAL",
-        "pewnosc": 1,
-        "powod": "Trzy straty z rzędu: zgodnie z ryzyko.md koniec handlu na dziś."
+        "kierunek": "SHORT",
+        "pewnosc": 2,
+        "powod": "Trend w dół 26 510 → 25 710. OCO: limit 25 850 albo stop 25 640."
       },
       "setup": {
-        "kierunek": "NEUTRAL",
-        "typ": "brak",
-        "wejscie": 26110,
-        "sl": 25718,
-        "tp1": 26698,
-        "tp2": 27090,
-        "ryzyko_pct": 0,
-        "status": "brak (3 straty z rzędu: koniec dnia)",
+        "kierunek": "SHORT",
+        "typ": "OCO limit/stop",
+        "wejscie": 25850,
+        "sl": 26103,
+        "tp1": 25470,
+        "tp2": 25217,
+        "ryzyko_pct": 0.25,
+        "status": "oczekuje (#218/#219)",
         "ksiega": "intraday",
-        "uwagi": ""
+        "uwagi": "OCO z sell stop 25 640 (SL 25 893, TP 25 260 / 25 007). Bez wejść 15:15–15:45 PL."
       },
       "kontrakt": {
         "nazwa": "E-mini Nasdaq 100 (NQ)",
@@ -60,11 +60,11 @@
       "agenci": {
         "technika": [
           "SHORT",
-          2
+          3
         ],
         "makro": [
-          "NEUTRAL",
-          1
+          "SHORT",
+          2
         ],
         "sentyment": [
           "SHORT",
@@ -73,22 +73,22 @@
       },
       "final": {
         "kierunek": "SHORT",
-        "pewnosc": 2,
-        "powod": "Trzy straty z rzędu: zgodnie z ryzyko.md koniec handlu na dziś."
+        "pewnosc": 3,
+        "powod": "3 631 → 3 511. OCO: limit 3 534 albo stop 3 505."
       },
       "setup": {
         "kierunek": "SHORT",
         "typ": "OCO limit/stop",
-        "wejscie": 3632,
-        "sl": 3660.3,
-        "tp1": 3589.55,
-        "tp2": 3561.25,
+        "wejscie": 3534,
+        "sl": 3558.75,
+        "tp1": 3496.9,
+        "tp2": 3472.1,
         "ryzyko_pct": 0.25,
         "koszt": 0.6,
-        "status": "zamknięta stop czasowy (#209, −0,56R)",
+        "status": "oczekuje (#214/#215)",
         "ksiega": "intraday",
         "ceny": "spot",
-        "uwagi": "OCO z sell stop 3 608 (SL 3 636,3, TP 3 565,55 / 3 537,25)."
+        "uwagi": "OCO z sell stop 3 505 (SL 3 529,75, TP 3 467,9 / 3 443,1)."
       },
       "kontrakt": {
         "nazwa": "Gold (GC), 100 oz",
@@ -111,8 +111,8 @@
           3
         ],
         "makro": [
-          "NEUTRAL",
-          1
+          "SHORT",
+          2
         ],
         "sentyment": [
           "SHORT",
@@ -121,21 +121,21 @@
       },
       "final": {
         "kierunek": "SHORT",
-        "pewnosc": 2,
-        "powod": "Trzy straty z rzędu: zgodnie z ryzyko.md koniec handlu na dziś."
+        "pewnosc": 3,
+        "powod": "Trend w dół. OCO: limit 40,40 albo stop 39,80."
       },
       "setup": {
         "kierunek": "SHORT",
         "typ": "OCO limit/stop",
-        "wejscie": 42.55,
-        "sl": 43.39,
-        "tp1": 41.29,
-        "tp2": 40.45,
+        "wejscie": 40.4,
+        "sl": 41.18,
+        "tp1": 39.23,
+        "tp2": 38.45,
         "ryzyko_pct": 0.25,
-        "status": "zamknięta stop czasowy (#211, −0,12R)",
+        "status": "oczekuje (#216/#217)",
         "ksiega": "intraday",
         "ceny": "spot",
-        "uwagi": "OCO z sell stop 41,85 (SL 42,69, TP 40,59 / 39,75)."
+        "uwagi": "OCO z sell stop 39,80 (SL 40,58, TP 38,63 / 37,85)."
       },
       "kontrakt": {
         "nazwa": "Silver (SI), 5 000 oz",
@@ -154,12 +154,12 @@
       "atr": 4.6,
       "agenci": {
         "technika": [
-          "SHORT",
-          3
+          "NEUTRAL",
+          1
         ],
         "makro": [
           "SHORT",
-          2
+          1
         ],
         "sentyment": [
           "NEUTRAL",
@@ -167,21 +167,21 @@
         ]
       },
       "final": {
-        "kierunek": "SHORT",
-        "pewnosc": 2,
-        "powod": "Trzy straty z rzędu: zgodnie z ryzyko.md koniec handlu na dziś."
+        "kierunek": "NEUTRAL",
+        "pewnosc": 1,
+        "powod": "Zakres 79,5–82,1; EIA 16:30 PL."
       },
       "setup": {
-        "kierunek": "SHORT",
-        "typ": "OCO limit/stop",
+        "kierunek": "NEUTRAL",
+        "typ": "brak",
         "wejscie": 80.6,
         "sl": 81.41,
         "tp1": 79.39,
         "tp2": 78.58,
-        "ryzyko_pct": 0.25,
-        "status": "zamknięta SL (#213, −1,00R)",
+        "ryzyko_pct": 0,
+        "status": "brak setupu rano 25.11",
         "ksiega": "intraday",
-        "uwagi": "OCO z sell stop 79,15 (SL 79,96, TP 77,94 / 77,13)."
+        "uwagi": "EIA 16:30 PL; jutro Święto Dziękczynienia w USA."
       },
       "kontrakt": {
         "nazwa": "WTI Crude (CL), 1 000 bbl",
