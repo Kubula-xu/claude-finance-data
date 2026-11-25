@@ -1,8 +1,8 @@
-# Softy: kawa i kakao, analiza z 2026-11-25 10:14 PL
+# Softy: kawa i kakao, analiza z 2026-11-25 18:25 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
-## Kawa (Arabica KC): NEUTRAL 1/5 (suma +0.5)
+## Kawa (Arabica KC): NEUTRAL 1/5 (suma -0.5)
 
 - Cena 267,60 c/lb (2026-11-24T17:30:00Z UTC). ATR D1 7,45, ATR H1 (sesja) 3,28. 5 sesji -6.3%, 20 sesji -8.6%.
 - Reżim: **zakres** (ADX 17, cena w zakresie 10 sesji 266.70-288.30). Zakres 10 sesji 266,70–288,30 (20 sesji 266,70–304,90), EMA20 281,10, EMA50 290,90, SMA200 300,49.
@@ -11,10 +11,10 @@ Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocz
 |---|---|---|
 | Technika (reżim) | +0.0 | ADX 17, cena w zakresie 10 sesji 266.70-288.30 |
 | COT | +1.0 | fundusze net +9,023, 1. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | -1.0 | opad 30 dni 96% normy, prognoza 16 dni 165% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
-| Krzywa | +1.0 | KCZ26.NYB vs KCH27.NYB: +2.76%, 5 dni temu +1.88%, backwardation (ciasno w bieżącej dostawie) |
+| Pogoda | -1.0 | opad 30 dni 96% normy, prognoza 16 dni 192% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027 |
+| Krzywa | -0.5 | KCZ26.NYB vs KCH27.NYB: -1.21%, 5 dni temu +2.11%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 239,748 (2026-10-21), zmiana od 2026-10-13: -2.9% |
-| BRL | -0.5 | USD/BRL 5.905, 5 sesji +2.2%: real słabnie, sprzedaż z Brazylii tańsza |
+| BRL | +0.0 | USD/BRL 5.814, 5 sesji +0.6% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +5.1%, wzrost w 58% lat |
 
 Opory: 269,05 (P, +0.19 ATR), 270,18 (swing D1 ×3, ostatnio 2026-11-24, +0.35 ATR), 270,50 (R1, +0.39 ATR), 272,45 (R2, +0.65 ATR)
@@ -37,8 +37,8 @@ Wsparcia: 267,15 (swing D1 ×2, ostatnio 2026-11-24, -0.06 ATR), 267,10 (S1, -0.
 |---|---|---|
 | Technika (reżim) | +1.5 | zamknięcie/cena nad szczytem 10 sesji 5252.00 |
 | COT | +1.0 | fundusze net -19,213, 2. percentyl 3 lat: pozycja funduszy najniższa od lat, mało do likwidacji, paliwo do odbicia/squeeze |
-| Pogoda | +1.0 | opad 30 dni 221% normy, prognoza 16 dni 105% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
-| Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.99%, 5 dni temu -2.68%, contango (zapasy wystarczają) |
+| Pogoda | +1.0 | opad 30 dni 221% normy, prognoza 16 dni 116% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie) |
+| Krzywa | -1.0 | CCZ26.NYB vs CCH27.NYB: -2.78%, 5 dni temu -2.74%, contango (zapasy wystarczają) |
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +3.5%, wzrost w 62% lat |
 
@@ -52,10 +52,6 @@ Wsparcia: 5 087 (swing D1 ×3, ostatnio 2026-10-01, -0.46 ATR), 5 000 (okrągły
 | LONG | stop: kontynuacja: przebicie szczytu ostatniej sesji 5281.00 | 5 304 | 4 738 | 6 434 / 6 999 | 1.74 | +0.50 ATR | 4 | R:R po kosztach 1.74 < 2.0: według ryzyko.md 10a nie składać |
 | SHORT (pod prąd) | limit: cofnięcie do 5281.00 (swing D1 ×2, ostatnio 2026-11-24) | 5 258 | 5 824 | 4 128 / 3 563 | 1.74 | +0.30 ATR | 4 | silny poziom 5087.33 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.74 < 2.0: według ryzyko.md 10a nie składać |
 | SHORT (pod prąd) | stop: kontynuacja: przebicie dołka ostatniej sesji 5191.00 | 5 168 | 5 734 | 4 038 / 3 473 | 1.74 | -0.10 ATR | 4 | silny poziom 5087.33 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.74 < 2.0: według ryzyko.md 10a nie składać |
-
-## Alerty
-
-- kawa: reżim wybicie_dol → zakres: przeliczyć plan i wiszące zlecenia
 
 ## Kalendarz (14 dni)
 
