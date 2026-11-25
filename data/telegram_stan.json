@@ -16,15 +16,15 @@
    "pewnosc": 3,
    "setup": [
     "SHORT",
-    3534,
-    3558.75,
-    3496.9,
-    3472.1
+    3490,
+    3514.75,
+    3452.9,
+    3428.1
    ]
   },
   "silver": {
    "kierunek": "SHORT",
-   "pewnosc": 3,
+   "pewnosc": 2,
    "setup": [
     "SHORT",
     40.4,
@@ -1145,34 +1145,39 @@
    "tp": "77,94 / 77,13"
   },
   "214": {
-   "status": "oczekuje (OCO z #215)",
+   "status": "zamknięta (TP1 + TP2)",
    "sl": "3 558,75",
    "tp": "3 496,9 / 3 472,1"
   },
   "215": {
-   "status": "oczekuje (OCO z #214)",
+   "status": "anulowane (OCO: wypełniony #214)",
    "sl": "3 529,75",
    "tp": "3 467,9 / 3 443,1"
   },
   "216": {
-   "status": "oczekuje (OCO z #217)",
+   "status": "zamknięta (stop czasowy 12:30 PL)",
    "sl": "41,18",
    "tp": "39,23 / 38,45"
   },
   "217": {
-   "status": "oczekuje (OCO z #216)",
+   "status": "anulowane (OCO: wypełniony #216)",
    "sl": "40,58",
    "tp": "38,63 / 37,85"
   },
   "218": {
-   "status": "oczekuje (OCO z #219)",
+   "status": "otwarta 50% (TP1 25 470 o 14:00 PL; SL na BE 25 850)",
    "sl": "26 103",
    "tp": "25 470 / 25 217"
   },
   "219": {
-   "status": "oczekuje (OCO z #218)",
+   "status": "anulowane (OCO: wypełniony #218)",
    "sl": "25 893",
    "tp": "25 260 / 25 007"
+  },
+  "220": {
+   "status": "oczekuje (limit; do 20:00 PL)",
+   "sl": "3 514,75",
+   "tp": "3 452,9 / 3 428,1"
   }
  },
  "automat": {},
@@ -1180,5 +1185,5 @@
   "rano": "2026-11-25",
   "wieczor": "2026-11-23"
  },
- "zaktualizowano_utc": "2026-11-25T09:14:44Z"
+ "zaktualizowano_utc": "2026-11-25T13:52:22Z"
 }
