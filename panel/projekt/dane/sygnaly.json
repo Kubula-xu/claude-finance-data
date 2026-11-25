@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-11-25T13:55:00Z",
+  "aktualizacja": "2026-11-25T21:30:00Z",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -37,7 +37,7 @@
         "tp1": 25470,
         "tp2": 25217,
         "ryzyko_pct": 0.25,
-        "status": "otwarta 50% (#218, SL BE 25 850, TP2 25 217)",
+        "status": "zamknięta TP1+TP2 (#218, +2,00R)",
         "ksiega": "intraday",
         "uwagi": "OCO z sell stop 25 640 (SL 25 893, TP 25 260 / 25 007). Bez wejść 15:15–15:45 PL."
       },
@@ -85,7 +85,7 @@
         "tp2": 3428.1,
         "ryzyko_pct": 0.25,
         "koszt": 0.6,
-        "status": "oczekuje (#220); rano #214 +2,00R",
+        "status": "zamknięta SL (#220, −1,00R); rano #214 +2,00R",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "Ceny: GCZ26.CMX (+1,5 do spotu). GC=F w yfinance to od 25.11 luty (+28,7)."
