@@ -1165,7 +1165,7 @@
    "tp": "38,63 / 37,85"
   },
   "218": {
-   "status": "otwarta 50% (TP1 25 470 o 14:00 PL; SL na BE 25 850)",
+   "status": "zamknięta (TP1 + TP2)",
    "sl": "26 103",
    "tp": "25 470 / 25 217"
   },
@@ -1175,7 +1175,7 @@
    "tp": "25 260 / 25 007"
   },
   "220": {
-   "status": "oczekuje (limit; do 20:00 PL)",
+   "status": "zamknięta (SL)",
    "sl": "3 514,75",
    "tp": "3 452,9 / 3 428,1"
   }
@@ -1185,5 +1185,5 @@
   "rano": "2026-11-25",
   "wieczor": "2026-11-23"
  },
- "zaktualizowano_utc": "2026-11-25T19:22:55Z"
+ "zaktualizowano_utc": "2026-11-25T21:26:15Z"
 }
