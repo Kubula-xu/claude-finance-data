@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-11-25T07:45:00Z",
+  "aktualizacja": "2026-11-25T13:55:00Z",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -27,7 +27,7 @@
       "final": {
         "kierunek": "SHORT",
         "pewnosc": 2,
-        "powod": "Trend w dół 26 510 → 25 710. OCO: limit 25 850 albo stop 25 640."
+        "powod": "#218 w zysku, połowa na TP1."
       },
       "setup": {
         "kierunek": "SHORT",
@@ -37,7 +37,7 @@
         "tp1": 25470,
         "tp2": 25217,
         "ryzyko_pct": 0.25,
-        "status": "oczekuje (#218/#219)",
+        "status": "otwarta 50% (#218, SL BE 25 850, TP2 25 217)",
         "ksiega": "intraday",
         "uwagi": "OCO z sell stop 25 640 (SL 25 893, TP 25 260 / 25 007). Bez wejść 15:15–15:45 PL."
       },
@@ -68,27 +68,27 @@
         ],
         "sentyment": [
           "SHORT",
-          2
+          3
         ]
       },
       "final": {
         "kierunek": "SHORT",
         "pewnosc": 3,
-        "powod": "3 631 → 3 511. OCO: limit 3 534 albo stop 3 505."
+        "powod": "Po danych zjazd do 3 469. Short z retestu 3 490."
       },
       "setup": {
         "kierunek": "SHORT",
-        "typ": "OCO limit/stop",
-        "wejscie": 3534,
-        "sl": 3558.75,
-        "tp1": 3496.9,
-        "tp2": 3472.1,
+        "typ": "limit",
+        "wejscie": 3490,
+        "sl": 3514.75,
+        "tp1": 3452.9,
+        "tp2": 3428.1,
         "ryzyko_pct": 0.25,
         "koszt": 0.6,
-        "status": "oczekuje (#214/#215)",
+        "status": "oczekuje (#220); rano #214 +2,00R",
         "ksiega": "intraday",
         "ceny": "spot",
-        "uwagi": "OCO z sell stop 3 505 (SL 3 529,75, TP 3 467,9 / 3 443,1)."
+        "uwagi": "Ceny: GCZ26.CMX (+1,5 do spotu). GC=F w yfinance to od 25.11 luty (+28,7)."
       },
       "kontrakt": {
         "nazwa": "Gold (GC), 100 oz",
@@ -108,7 +108,7 @@
       "agenci": {
         "technika": [
           "SHORT",
-          3
+          2
         ],
         "makro": [
           "SHORT",
@@ -121,21 +121,21 @@
       },
       "final": {
         "kierunek": "SHORT",
-        "pewnosc": 3,
-        "powod": "Trend w dół. OCO: limit 40,40 albo stop 39,80."
+        "pewnosc": 2,
+        "powod": "Rano #216 +0,41R; bez nowego wejścia."
       },
       "setup": {
         "kierunek": "SHORT",
-        "typ": "OCO limit/stop",
+        "typ": "brak",
         "wejscie": 40.4,
         "sl": 41.18,
         "tp1": 39.23,
         "tp2": 38.45,
-        "ryzyko_pct": 0.25,
-        "status": "oczekuje (#216/#217)",
+        "ryzyko_pct": 0,
+        "status": "rano #216 +0,41R",
         "ksiega": "intraday",
         "ceny": "spot",
-        "uwagi": "OCO z sell stop 39,80 (SL 40,58, TP 38,63 / 37,85)."
+        "uwagi": "Ceny: SIZ26.CMX (+0,17 do spotu). SI=F to od 25.11 marzec (+0,48)."
       },
       "kontrakt": {
         "nazwa": "Silver (SI), 5 000 oz",
@@ -158,7 +158,7 @@
           1
         ],
         "makro": [
-          "SHORT",
+          "NEUTRAL",
           1
         ],
         "sentyment": [
@@ -169,7 +169,7 @@
       "final": {
         "kierunek": "NEUTRAL",
         "pewnosc": 1,
-        "powod": "Zakres 79,5–82,1; EIA 16:30 PL."
+        "powod": "Odbicie do 82,8 przed EIA 16:30 PL."
       },
       "setup": {
         "kierunek": "NEUTRAL",
@@ -179,7 +179,7 @@
         "tp1": 79.39,
         "tp2": 78.58,
         "ryzyko_pct": 0,
-        "status": "brak setupu rano 25.11",
+        "status": "brak setupu 25.11",
         "ksiega": "intraday",
         "uwagi": "EIA 16:30 PL; jutro Święto Dziękczynienia w USA."
       },
