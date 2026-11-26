@@ -1,10 +1,10 @@
 {
  "sygnaly": {
   "nq": {
-   "kierunek": "SHORT",
-   "pewnosc": 2,
+   "kierunek": "NEUTRAL",
+   "pewnosc": 1,
    "setup": [
-    "SHORT",
+    "NEUTRAL",
     25850,
     26103,
     25470,
@@ -12,21 +12,21 @@
    ]
   },
   "gold": {
-   "kierunek": "SHORT",
-   "pewnosc": 3,
+   "kierunek": "NEUTRAL",
+   "pewnosc": 1,
    "setup": [
-    "SHORT",
-    3490,
-    3514.75,
-    3452.9,
-    3428.1
+    "OCO",
+    3612,
+    3563.5,
+    3684.75,
+    3733.25
    ]
   },
   "silver": {
-   "kierunek": "SHORT",
-   "pewnosc": 2,
+   "kierunek": "NEUTRAL",
+   "pewnosc": 1,
    "setup": [
-    "SHORT",
+    "NEUTRAL",
     40.4,
     41.18,
     39.23,
@@ -1178,12 +1178,22 @@
    "status": "zamknięta (SL)",
    "sl": "3 514,75",
    "tp": "3 452,9 / 3 428,1"
+  },
+  "221": {
+   "status": "oczekuje (OCO z #222; tylko 09:00–12:00 PL)",
+   "sl": "3 563,5",
+   "tp": "3 684,75 / 3 733,25"
+  },
+  "222": {
+   "status": "oczekuje (OCO z #221; tylko 09:00–12:00 PL)",
+   "sl": "3 593,5",
+   "tp": "3 472,25 / 3 423,75"
   }
  },
  "automat": {},
  "podsumowanie": {
-  "rano": "2026-11-25",
+  "rano": "2026-11-26",
   "wieczor": "2026-11-25"
  },
- "zaktualizowano_utc": "2026-11-26T02:22:09Z"
+ "zaktualizowano_utc": "2026-11-26T07:42:00Z"
 }
