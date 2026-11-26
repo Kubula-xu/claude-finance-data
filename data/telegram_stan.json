@@ -1180,12 +1180,12 @@
    "tp": "3 452,9 / 3 428,1"
   },
   "221": {
-   "status": "oczekuje (OCO z #222; tylko 09:00–12:00 PL)",
+   "status": "do weryfikacji (brak świec 15m z Yahoo od 05:45 PL; okno minęło o 12:00 PL)",
    "sl": "3 563,5",
    "tp": "3 684,75 / 3 733,25"
   },
   "222": {
-   "status": "oczekuje (OCO z #221; tylko 09:00–12:00 PL)",
+   "status": "do weryfikacji (brak świec 15m z Yahoo od 05:45 PL; okno minęło o 12:00 PL)",
    "sl": "3 593,5",
    "tp": "3 472,25 / 3 423,75"
   }
@@ -1195,5 +1195,5 @@
   "rano": "2026-11-26",
   "wieczor": "2026-11-25"
  },
- "zaktualizowano_utc": "2026-11-26T11:17:42Z"
+ "zaktualizowano_utc": "2026-11-26T13:51:03Z"
 }
