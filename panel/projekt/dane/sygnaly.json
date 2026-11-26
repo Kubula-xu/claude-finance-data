@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-11-25T21:30:00Z",
+  "aktualizacja": "2026-11-26T07:45:00Z",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -12,34 +12,34 @@
       "atr": 443,
       "agenci": {
         "technika": [
-          "SHORT",
-          3
+          "NEUTRAL",
+          1
         ],
         "makro": [
-          "SHORT",
+          "NEUTRAL",
           1
         ],
         "sentyment": [
-          "SHORT",
-          2
+          "NEUTRAL",
+          1
         ]
       },
       "final": {
-        "kierunek": "SHORT",
-        "pewnosc": 2,
-        "powod": "#218 w zysku, połowa na TP1."
+        "kierunek": "NEUTRAL",
+        "pewnosc": 1,
+        "powod": "Święto w USA, bez setupu."
       },
       "setup": {
-        "kierunek": "SHORT",
-        "typ": "OCO limit/stop",
+        "kierunek": "NEUTRAL",
+        "typ": "brak",
         "wejscie": 25850,
         "sl": 26103,
         "tp1": 25470,
         "tp2": 25217,
-        "ryzyko_pct": 0.25,
-        "status": "zamknięta TP1+TP2 (#218, +2,00R)",
+        "ryzyko_pct": 0,
+        "status": "brak (Thanksgiving)",
         "ksiega": "intraday",
-        "uwagi": "OCO z sell stop 25 640 (SL 25 893, TP 25 260 / 25 007). Bez wejść 15:15–15:45 PL."
+        "uwagi": ""
       },
       "kontrakt": {
         "nazwa": "E-mini Nasdaq 100 (NQ)",
@@ -59,36 +59,36 @@
       "atr": 89.6,
       "agenci": {
         "technika": [
-          "SHORT",
-          3
+          "NEUTRAL",
+          1
         ],
         "makro": [
-          "SHORT",
-          2
+          "NEUTRAL",
+          1
         ],
         "sentyment": [
-          "SHORT",
-          3
+          "LONG",
+          1
         ]
       },
       "final": {
-        "kierunek": "SHORT",
-        "pewnosc": 3,
-        "powod": "Po danych zjazd do 3 469. Short z retestu 3 490."
+        "kierunek": "NEUTRAL",
+        "pewnosc": 1,
+        "powod": "Po V 3 425 → 3 605 kierunek niejasny; OCO na wybicie tylko w sesji londyńskiej."
       },
       "setup": {
-        "kierunek": "SHORT",
-        "typ": "limit",
-        "wejscie": 3490,
-        "sl": 3514.75,
-        "tp1": 3452.9,
-        "tp2": 3428.1,
+        "kierunek": "OCO",
+        "typ": "stop/stop",
+        "wejscie": 3612,
+        "sl": 3563.5,
+        "tp1": 3684.75,
+        "tp2": 3733.25,
         "ryzyko_pct": 0.25,
         "koszt": 0.6,
-        "status": "zamknięta SL (#220, −1,00R); rano #214 +2,00R",
+        "status": "oczekuje (#221/#222)",
         "ksiega": "intraday",
         "ceny": "spot",
-        "uwagi": "Ceny: GCZ26.CMX (+1,5 do spotu). GC=F w yfinance to od 25.11 luty (+28,7)."
+        "uwagi": "Druga noga: sell stop 3 545, SL 3 593,5, TP 3 472,25 / 3 423,75. Tylko 09–12 PL (Thanksgiving)."
       },
       "kontrakt": {
         "nazwa": "Gold (GC), 100 oz",
@@ -107,35 +107,35 @@
       "atr": 2.06,
       "agenci": {
         "technika": [
-          "SHORT",
-          2
+          "NEUTRAL",
+          1
         ],
         "makro": [
-          "SHORT",
-          2
+          "NEUTRAL",
+          1
         ],
         "sentyment": [
-          "SHORT",
-          2
+          "NEUTRAL",
+          1
         ]
       },
       "final": {
-        "kierunek": "SHORT",
-        "pewnosc": 2,
-        "powod": "Rano #216 +0,41R; bez nowego wejścia."
+        "kierunek": "NEUTRAL",
+        "pewnosc": 1,
+        "powod": "Święto w USA, bez setupu."
       },
       "setup": {
-        "kierunek": "SHORT",
+        "kierunek": "NEUTRAL",
         "typ": "brak",
         "wejscie": 40.4,
         "sl": 41.18,
         "tp1": 39.23,
         "tp2": 38.45,
         "ryzyko_pct": 0,
-        "status": "rano #216 +0,41R",
+        "status": "brak (Thanksgiving)",
         "ksiega": "intraday",
         "ceny": "spot",
-        "uwagi": "Ceny: SIZ26.CMX (+0,17 do spotu). SI=F to od 25.11 marzec (+0,48)."
+        "uwagi": ""
       },
       "kontrakt": {
         "nazwa": "Silver (SI), 5 000 oz",
@@ -169,7 +169,7 @@
       "final": {
         "kierunek": "NEUTRAL",
         "pewnosc": 1,
-        "powod": "Odbicie do 82,8 przed EIA 16:30 PL."
+        "powod": "Święto w USA, bez setupu."
       },
       "setup": {
         "kierunek": "NEUTRAL",
@@ -179,9 +179,9 @@
         "tp1": 79.39,
         "tp2": 78.58,
         "ryzyko_pct": 0,
-        "status": "brak setupu 25.11",
+        "status": "brak (Thanksgiving)",
         "ksiega": "intraday",
-        "uwagi": "EIA 16:30 PL; jutro Święto Dziękczynienia w USA."
+        "uwagi": ""
       },
       "kontrakt": {
         "nazwa": "WTI Crude (CL), 1 000 bbl",
