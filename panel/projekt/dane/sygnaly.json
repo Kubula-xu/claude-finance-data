@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-11-26T07:45:00Z",
+  "aktualizacja": "2026-11-26T13:55:00Z",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -85,7 +85,7 @@
         "tp2": 3733.25,
         "ryzyko_pct": 0.25,
         "koszt": 0.6,
-        "status": "oczekuje (#221/#222)",
+        "status": "do weryfikacji (#221/#222, brak danych)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "Druga noga: sell stop 3 545, SL 3 593,5, TP 3 472,25 / 3 423,75. Tylko 09–12 PL (Thanksgiving)."
