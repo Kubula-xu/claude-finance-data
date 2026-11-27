@@ -1,5 +1,5 @@
 {
-  "aktualizacja": "2026-11-26T13:55:00Z",
+  "aktualizacja": "2026-11-27T07:45:00Z",
   "uwaga": "Plik zbiorczy dla panelu. Agenci aktualizują swoje wiersze, koordynator pole 'final'. Po zmianie uruchom: python3 /mnt/project-files/dane/build_panel.py",
   "instrumenty": [
     {
@@ -27,7 +27,7 @@
       "final": {
         "kierunek": "NEUTRAL",
         "pewnosc": 1,
-        "powod": "Święto w USA, bez setupu."
+        "powod": "Weto ryzyka: brak świec intraday z Yahoo od 26.11 05:45 PL (błąd 429), piątek po Święcie Dziękczynienia, skrócona sesja."
       },
       "setup": {
         "kierunek": "NEUTRAL",
@@ -37,7 +37,7 @@
         "tp1": 25470,
         "tp2": 25217,
         "ryzyko_pct": 0,
-        "status": "brak (Thanksgiving)",
+        "status": "brak setupu 27.11 (brak danych)",
         "ksiega": "intraday",
         "uwagi": ""
       },
@@ -67,25 +67,25 @@
           1
         ],
         "sentyment": [
-          "LONG",
+          "NEUTRAL",
           1
         ]
       },
       "final": {
         "kierunek": "NEUTRAL",
         "pewnosc": 1,
-        "powod": "Po V 3 425 → 3 605 kierunek niejasny; OCO na wybicie tylko w sesji londyńskiej."
+        "powod": "Weto ryzyka: brak świec intraday z Yahoo od 26.11 05:45 PL (błąd 429), piątek po Święcie Dziękczynienia, skrócona sesja."
       },
       "setup": {
-        "kierunek": "OCO",
-        "typ": "stop/stop",
+        "kierunek": "NEUTRAL",
+        "typ": "brak",
         "wejscie": 3612,
         "sl": 3563.5,
         "tp1": 3684.75,
         "tp2": 3733.25,
-        "ryzyko_pct": 0.25,
+        "ryzyko_pct": 0,
         "koszt": 0.6,
-        "status": "do weryfikacji (#221/#222, brak danych)",
+        "status": "brak setupu 27.11 (brak danych)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": "Druga noga: sell stop 3 545, SL 3 593,5, TP 3 472,25 / 3 423,75. Tylko 09–12 PL (Thanksgiving)."
@@ -122,7 +122,7 @@
       "final": {
         "kierunek": "NEUTRAL",
         "pewnosc": 1,
-        "powod": "Święto w USA, bez setupu."
+        "powod": "Weto ryzyka: brak świec intraday z Yahoo od 26.11 05:45 PL (błąd 429), piątek po Święcie Dziękczynienia, skrócona sesja."
       },
       "setup": {
         "kierunek": "NEUTRAL",
@@ -132,7 +132,7 @@
         "tp1": 39.23,
         "tp2": 38.45,
         "ryzyko_pct": 0,
-        "status": "brak (Thanksgiving)",
+        "status": "brak setupu 27.11 (brak danych)",
         "ksiega": "intraday",
         "ceny": "spot",
         "uwagi": ""
@@ -169,7 +169,7 @@
       "final": {
         "kierunek": "NEUTRAL",
         "pewnosc": 1,
-        "powod": "Święto w USA, bez setupu."
+        "powod": "Weto ryzyka: brak świec intraday z Yahoo od 26.11 05:45 PL (błąd 429), piątek po Święcie Dziękczynienia, skrócona sesja."
       },
       "setup": {
         "kierunek": "NEUTRAL",
@@ -179,7 +179,7 @@
         "tp1": 79.39,
         "tp2": 78.58,
         "ryzyko_pct": 0,
-        "status": "brak (Thanksgiving)",
+        "status": "brak setupu 27.11 (brak danych)",
         "ksiega": "intraday",
         "uwagi": ""
       },
