@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-27T03:03:52Z",
- "wygenerowano_pl": "2026-11-27 04:03 PL",
+ "wygenerowano_utc": "2026-11-27T12:17:28Z",
+ "wygenerowano_pl": "2026-11-27 13:17 PL",
  "kapital_usd": 10587679.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -16,10 +16,10 @@
    "kontekst": {
     "cena": 268.549988,
     "czas_notowania_utc": "2026-11-25T18:15:00Z",
-    "sesja_w_trakcie": false,
+    "sesja_w_trakcie": true,
     "atr_d1": 7.13,
     "atr_h1_sesja": 3.03,
-    "zakres_dzis_proc_atr": null,
+    "zakres_dzis_proc_atr": 278,
     "vwap_dzis": null,
     "ostatnia_sesja": {
      "data": "2026-11-25",
@@ -366,10 +366,10 @@
    "kontekst": {
     "cena": 5421.0,
     "czas_notowania_utc": "2026-11-25T18:15:00Z",
-    "sesja_w_trakcie": false,
+    "sesja_w_trakcie": true,
     "atr_d1": 205.21,
     "atr_h1_sesja": 81.43,
-    "zakres_dzis_proc_atr": null,
+    "zakres_dzis_proc_atr": 67,
     "vwap_dzis": null,
     "ostatnia_sesja": {
      "data": "2026-11-25",

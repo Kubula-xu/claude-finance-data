@@ -1,10 +1,10 @@
-# Softy: kawa i kakao, analiza z 2026-11-27 04:03 PL
+# Softy: kawa i kakao, analiza z 2026-11-27 13:17 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
 ## Kawa (Arabica KC): NEUTRAL 1/5 (suma +1.0)
 
-- Cena 268,55 c/lb (2026-11-25T18:15:00Z UTC). ATR D1 7,13, ATR H1 (sesja) 3,03. 5 sesji -1.9%, 20 sesji -3.9%.
+- Cena 268,55 c/lb (2026-11-25T18:15:00Z UTC), sesja w trakcie. ATR D1 7,13, ATR H1 (sesja) 3,03. 5 sesji -1.9%, 20 sesji -3.9%.
 - Reżim: **zakres** (ADX 18, cena w zakresie 10 sesji 266.70-288.30; nieudane wybicie dołem (265.00 < 266.70, zamknięcie 275.65)). Zakres 10 sesji 266,70–288,30 (20 sesji 266,70–297,35), EMA20 280,58, EMA50 290,31, SMA200 300,39.
 
 | Czynnik | Wynik | Opis |
@@ -30,7 +30,7 @@ Wsparcia: 268,12 (S2, -0.06 ATR), 265,78 (swing D1 ×3, ostatnio 2026-11-25, -0.
 
 ## Kakao (NY CC): LONG 3/5 (suma +2.5)
 
-- Cena 5 421 USD/t (2026-11-25T18:15:00Z UTC). ATR D1 205, ATR H1 (sesja) 81. 5 sesji +9.4%, 20 sesji -2.8%.
+- Cena 5 421 USD/t (2026-11-25T18:15:00Z UTC), sesja w trakcie. ATR D1 205, ATR H1 (sesja) 81. 5 sesji +9.4%, 20 sesji -2.8%.
 - Reżim: **wybicie gora** (zamknięcie/cena nad szczytem 10 sesji 5281.00). Zakres 10 sesji 4 673–5 281 (20 sesji 4 640–5 614), EMA20 5 205, EMA50 5 368, SMA200 4 653.
 
 | Czynnik | Wynik | Opis |
