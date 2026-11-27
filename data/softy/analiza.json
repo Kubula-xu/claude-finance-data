@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-26T20:22:58Z",
- "wygenerowano_pl": "2026-11-26 21:22 PL",
+ "wygenerowano_utc": "2026-11-27T01:42:06Z",
+ "wygenerowano_pl": "2026-11-27 02:42 PL",
  "kapital_usd": 10587679.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -161,31 +161,31 @@
     {
      "czynnik": "Pogoda",
      "wynik": -1.0,
-     "opis": "opad 30 dni 98% normy, prognoza 16 dni 175% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027",
+     "opis": "opad 30 dni 98% normy, prognoza 16 dni 208% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027",
      "dane": {
       "proc_normy_30d": 98,
-      "proc_normy_16d": 175,
-      "aktualizacja": "2026-11-26T17:05:34Z",
+      "proc_normy_16d": 208,
+      "aktualizacja": "2026-11-27T01:41:48Z",
       "regiony": {
        "sul_de_minas": [
         111,
-        177
+        217
        ],
        "cerrado": [
-        113,
-        146
+        112,
+        141
        ],
        "mogiana": [
-        101,
-        196
+        102,
+        204
        ],
        "espirito_santo": [
-        133,
-        78
+        131,
+        151
        ],
        "wietnam": [
-        34,
-        260
+        36,
+        306
        ]
       }
      }
@@ -248,11 +248,11 @@
     },
     {
      "czynnik": "BRL",
-     "wynik": 0.5,
-     "opis": "USD/BRL 5.737, 5 sesji -2.5%: real mocnieje, rolnicy mniej sprzedają",
+     "wynik": 0.0,
+     "opis": "USD/BRL 5.822, 5 sesji -1.0%",
      "dane": {
-      "usdbrl": 5.7373,
-      "zmiana_5d_proc": -2.46
+      "usdbrl": 5.8219,
+      "zmiana_5d_proc": -1.02
      }
     },
     {
@@ -261,15 +261,15 @@
      "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +3.9%, wzrost w 54% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 2.04,
+      "srednia_proc": 1.8,
       "mediana_proc": 3.92,
       "proc_lat_wzrost": 54
      }
     }
    ],
-   "suma": 1.5,
+   "suma": 1.0,
    "bias": "NEUTRAL",
-   "pewnosc": 2,
+   "pewnosc": 1,
    "brak_danych": [],
    "plan": [
     {
@@ -512,35 +512,35 @@
     {
      "czynnik": "Pogoda",
      "wynik": 1.0,
-     "opis": "opad 30 dni 214% normy, prognoza 16 dni 103% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie)",
+     "opis": "opad 30 dni 213% normy, prognoza 16 dni 125% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie)",
      "dane": {
-      "proc_normy_30d": 214,
-      "proc_normy_16d": 103,
-      "aktualizacja": "2026-11-26T17:05:34Z",
+      "proc_normy_30d": 213,
+      "proc_normy_16d": 125,
+      "aktualizacja": "2026-11-27T01:41:48Z",
       "regiony": {
        "soubre": [
-        97,
-        57
+        100,
+        97
        ],
        "daloa": [
-        84,
-        31
+        85,
+        51
        ],
        "san_pedro": [
-        74,
-        87
+        75,
+        76
        ],
        "ashanti": [
-        115,
-        15
+        100,
+        10
        ],
        "western_north": [
-        107,
-        43
+        109,
+        27
        ],
        "los_rios": [
-        885,
-        428
+        887,
+        493
        ]
       }
      }
@@ -607,7 +607,7 @@
      "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.6%, wzrost w 62% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 4.28,
+      "srednia_proc": 3.6,
       "mediana_proc": 2.56,
       "proc_lat_wzrost": 62
      }
@@ -759,10 +759,18 @@
    "wydarzenie": "CONAB: 4. szacunek zbiorów kawy w Brazylii 2026",
    "waga": "wysoka",
    "uwagi": "data orientacyjna"
+  },
+  {
+   "data": "2026-12-11",
+   "godzina_pl": "21:30",
+   "rynek": "oba",
+   "wydarzenie": "CFTC COT (stan na wtorek)",
+   "waga": "średnia",
+   "uwagi": "cykliczne"
   }
  ],
  "status_danych": {
-  "uruchomiono_utc": "2026-11-26T17:05:34Z",
+  "uruchomiono_utc": "2026-11-27T01:41:48Z",
   "bledy": {
    "ice_parse_kawa": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
    "ice_parse_kakao": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
@@ -776,11 +784,11 @@
    "dlugie": "coffee (świeże), cocoa (świeże)"
   },
   "ostatni_sukces_utc": {
-   "cot": "2026-11-26T17:05:34Z",
-   "pogoda": "2026-11-26T17:05:34Z",
-   "krzywa": "2026-11-26T17:05:34Z",
-   "fx": "2026-11-26T17:05:34Z",
-   "dlugie": "2026-11-26T17:05:34Z",
+   "cot": "2026-11-27T01:41:48Z",
+   "pogoda": "2026-11-27T01:41:48Z",
+   "krzywa": "2026-11-27T01:41:48Z",
+   "fx": "2026-11-27T01:41:48Z",
+   "dlugie": "2026-11-27T01:41:48Z",
    "ice": "2026-10-21T18:42:06Z"
   }
  },
