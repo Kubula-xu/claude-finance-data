@@ -10,7 +10,7 @@
    "dzien": {
     "data": "2026-11-26",
     "open": 26068.5,
-    "high": 26436.0,
+    "high": 26713.0,
     "low": 25997.5
    }
   },
@@ -38,7 +38,7 @@
    "dzien": {
     "data": "2026-11-26",
     "open": 3619.800049,
-    "high": 3634.699951,
+    "high": 3664.199951,
     "low": 3578.800049
    }
   },
@@ -52,7 +52,7 @@
    "dzien": {
     "data": "2026-11-26",
     "open": 41.705002,
-    "high": 42.514999,
+    "high": 43.974998,
     "low": 41.075001
    }
   },
@@ -66,7 +66,7 @@
    "dzien": {
     "data": "2026-11-26",
     "open": 84.089996,
-    "high": 85.230003,
+    "high": 85.790001,
     "low": 83.160004
    }
   },
@@ -81,7 +81,7 @@
     "data": "2026-11-26",
     "open": 3.675,
     "high": 3.696,
-    "low": 3.577
+    "low": 3.565
    }
   },
   "coffee": {
@@ -121,9 +121,9 @@
    "zmiana_pct": 0.135,
    "dzien": {
     "data": "2026-11-26",
-    "open": 103.725998,
-    "high": 103.839996,
-    "low": 103.625
+    "open": 103.829002,
+    "high": 103.856003,
+    "low": 103.643997
    }
   },
   "us10y": {
@@ -157,42 +157,42 @@
   "xauusd": {
    "symbol": "XAU/USD spot",
    "opis": "Złoto spot XAU/USD (jak XAUUSD w TradingView)",
-   "cena": 3567.36,
-   "bid": 3566.513,
-   "ask": 3568.207,
-   "czas_notowania_utc": "2026-11-26T20:18:24Z",
+   "cena": 3632.99,
+   "bid": 3632.738,
+   "ask": 3633.242,
+   "czas_notowania_utc": "2026-11-27T03:03:51Z",
    "zrodlo": "Swissquote (bid/ask)",
    "baza_vs_futures": -20.893,
    "futures": "GC=F",
    "dzien": {
     "data": "2026-11-26",
     "open": 3598.9075,
-    "high": 3613.8074,
+    "high": 3643.3074,
     "low": 3557.9075
    },
    "poprzednie_zamkniecie": 3514.9075,
-   "zmiana_pct": 1.492
+   "zmiana_pct": 3.359
   },
   "xagusd": {
    "symbol": "XAG/USD spot",
    "opis": "Srebro spot XAG/USD (jak XAGUSD w TradingView)",
-   "cena": 41.5435,
-   "bid": 41.4931,
-   "ask": 41.594,
-   "czas_notowania_utc": "2026-11-26T19:30:00Z",
+   "cena": 43.5755,
+   "bid": 43.5506,
+   "ask": 43.6005,
+   "czas_notowania_utc": "2026-11-27T03:03:52Z",
    "zrodlo": "Swissquote (bid/ask)",
    "baza_vs_futures": -0.133,
    "futures": "SI=F",
    "dzien": {
     "data": "2026-11-26",
     "open": 41.5725,
-    "high": 42.3824,
+    "high": 43.8424,
     "low": 40.9425
    },
    "poprzednie_zamkniecie": 39.9194,
-   "zmiana_pct": 4.068
+   "zmiana_pct": 9.159
   }
  },
  "zrodlo": "Yahoo Finance przez yfinance; futures z opóźnieniem do ~10-15 min, ceny CFD u brokera mogą się różnić",
- "zaktualizowano_utc": "2026-11-26T20:22:53Z"
+ "zaktualizowano_utc": "2026-11-27T03:03:48Z"
 }
