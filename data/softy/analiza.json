@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-28T02:27:12Z",
- "wygenerowano_pl": "2026-11-28 03:27 PL",
+ "wygenerowano_utc": "2026-11-28T03:31:42Z",
+ "wygenerowano_pl": "2026-11-28 04:31 PL",
  "kapital_usd": 10587679.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -18,7 +18,7 @@
     "czas_notowania_utc": "2026-11-27T18:00:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 8.3,
-    "atr_h1_sesja": 2.92,
+    "atr_h1_sesja": 2.96,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
@@ -373,14 +373,14 @@
     "czas_notowania_utc": "2026-11-27T18:00:00Z",
     "sesja_w_trakcie": false,
     "atr_d1": 209.36,
-    "atr_h1_sesja": 72.73,
+    "atr_h1_sesja": 74.42,
     "zakres_dzis_proc_atr": null,
     "vwap_dzis": null,
     "ostatnia_sesja": {
      "data": "2026-11-27",
      "o": 5164.0,
      "h": 5575.0,
-     "l": 5397.0,
+     "l": 5395.0,
      "c": 5499.0
     },
     "zmiana_5s_proc": 8.61,
@@ -420,16 +420,16 @@
       "odleglosc_atr": 0.36
      },
      {
-      "poziom": 5583.67,
+      "poziom": 5584.33,
       "sila": 1,
       "zrodlo": "R1",
-      "odleglosc_atr": 0.4
+      "odleglosc_atr": 0.41
      },
      {
-      "poziom": 5668.33,
+      "poziom": 5669.67,
       "sila": 1,
       "zrodlo": "R2",
-      "odleglosc_atr": 0.81
+      "odleglosc_atr": 0.82
      },
      {
       "sila": 2,
@@ -449,21 +449,21 @@
      {
       "sila": 3,
       "ostatnio": "2026-11-27",
-      "poziom": 5417.67,
+      "poziom": 5417.0,
       "zrodlo": "swing D1 ×3, ostatnio 2026-11-27",
       "odleglosc_atr": -0.39
      },
      {
-      "poziom": 5405.67,
+      "poziom": 5404.33,
       "sila": 1,
       "zrodlo": "S1",
       "odleglosc_atr": -0.45
      },
      {
-      "poziom": 5312.33,
+      "poziom": 5309.67,
       "sila": 1,
       "zrodlo": "S2",
-      "odleglosc_atr": -0.89
+      "odleglosc_atr": -0.9
      },
      {
       "poziom": 5250,
@@ -487,11 +487,11 @@
      }
     ],
     "pivoty": {
-     "P": 5490.33,
-     "R1": 5583.67,
-     "S1": 5405.67,
-     "R2": 5668.33,
-     "S2": 5312.33
+     "P": 5489.67,
+     "R1": 5584.33,
+     "S1": 5404.33,
+     "R2": 5669.67,
+     "S2": 5309.67
     },
     "baza_pivotow": "2026-11-27"
    },
@@ -630,17 +630,17 @@
       {
        "kierunek": "LONG",
        "typ": "limit",
-       "wejscie": 5438.61,
-       "sl": 4915.21,
-       "tp1": 6485.39,
-       "tp2": 7008.78,
+       "wejscie": 5437.94,
+       "sl": 4914.54,
+       "tp1": 6484.72,
+       "tp2": 7008.11,
        "r_pkt": 523.39,
        "r_atr": 2.5,
        "rr_tp1_netto": 1.72,
        "odleglosc_atr": -0.29,
        "kontrakty": 4.6,
        "ryzyko_usd": 26469,
-       "uzasadnienie": "cofnięcie do 5417.67 (swing D1 ×3, ostatnio 2026-11-27)",
+       "uzasadnienie": "cofnięcie do 5417.00 (swing D1 ×3, ostatnio 2026-11-27)",
        "uwagi": [
         "silny poziom 5572.0 przed TP1: rozważyć częściowe wyjście przed nim",
         "R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać"
@@ -687,24 +687,24 @@
        "ryzyko_usd": 26469,
        "uzasadnienie": "cofnięcie do 5572.00 (swing D1 ×5, ostatnio 2026-11-27)",
        "uwagi": [
-        "silny poziom 5417.67 przed TP1: rozważyć częściowe wyjście przed nim",
+        "silny poziom 5417.0 przed TP1: rozważyć częściowe wyjście przed nim",
         "R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać"
        ]
       },
       {
        "kierunek": "SHORT",
        "typ": "stop",
-       "wejscie": 5376.06,
-       "sl": 5899.46,
-       "tp1": 4329.28,
-       "tp2": 3805.89,
+       "wejscie": 5374.06,
+       "sl": 5897.46,
+       "tp1": 4327.28,
+       "tp2": 3803.89,
        "r_pkt": 523.39,
        "r_atr": 2.5,
        "rr_tp1_netto": 1.72,
-       "odleglosc_atr": -0.59,
+       "odleglosc_atr": -0.6,
        "kontrakty": 4.6,
        "ryzyko_usd": 26469,
-       "uzasadnienie": "kontynuacja: przebicie dołka ostatniej sesji 5397.00",
+       "uzasadnienie": "kontynuacja: przebicie dołka ostatniej sesji 5395.00",
        "uwagi": [
         "silny poziom 5206.5 przed TP1: rozważyć częściowe wyjście przed nim",
         "R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać"

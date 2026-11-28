@@ -1,10 +1,10 @@
-# Softy: kawa i kakao, analiza z 2026-11-28 03:27 PL
+# Softy: kawa i kakao, analiza z 2026-11-28 04:31 PL
 
 Automat (softy/analiza.py). Bias to suma czynników z jawnymi wagami, nie wyrocznia: agent softów weryfikuje go newsami.
 
 ## Kawa (Arabica KC): NEUTRAL 1/5 (suma +0.5)
 
-- Cena 275,55 c/lb (2026-11-27T18:00:00Z UTC). ATR D1 8,30, ATR H1 (sesja) 2,92. 5 sesji -2.3%, 20 sesji -3.5%.
+- Cena 275,55 c/lb (2026-11-27T18:00:00Z UTC). ATR D1 8,30, ATR H1 (sesja) 2,96. 5 sesji -2.3%, 20 sesji -3.5%.
 - Reżim: **zakres** (ADX 17, cena w zakresie 10 sesji 265.00-288.30; nieudane wybicie dołem (258.65 < 265.00, zamknięcie 275.55)). Zakres 10 sesji 265,00–288,30 (20 sesji 265,00–297,35), EMA20 280,10, EMA50 289,73, SMA200 300,30.
 
 | Czynnik | Wynik | Opis |
@@ -30,7 +30,7 @@ Wsparcia: 271,88 (P, -0.44 ATR), 270,00 (okrągły poziom, -0.67 ATR), 269,77 (s
 
 ## Kakao (NY CC): LONG 3/5 (suma +2.5)
 
-- Cena 5 499 USD/t (2026-11-27T18:00:00Z UTC). ATR D1 209, ATR H1 (sesja) 73. 5 sesji +8.6%, 20 sesji +0.8%.
+- Cena 5 499 USD/t (2026-11-27T18:00:00Z UTC). ATR D1 209, ATR H1 (sesja) 74. 5 sesji +8.6%, 20 sesji +0.8%.
 - Reżim: **wybicie gora** (zamknięcie/cena nad szczytem 10 sesji 5302.00). Zakres 10 sesji 4 833–5 302 (20 sesji 4 640–5 600), EMA20 5 233, EMA50 5 373, SMA200 4 661.
 
 | Czynnik | Wynik | Opis |
@@ -42,16 +42,16 @@ Wsparcia: 271,88 (P, -0.44 ATR), 270,00 (okrągły poziom, -0.67 ATR), 269,77 (s
 | Zapasy ICE | +0.0 | 3,635,354 (2026-10-21), zmiana od 2026-10-13: +1.6% |
 | Sezonowość | +0.0 | kolejne 20 sesji od tej daty w 26 latach: mediana +2.6%, wzrost w 54% lat |
 
-Opory: 5 572 (swing D1 ×5, ostatnio 2026-11-27, +0.35 ATR), 5 575 (szczyt 5 sesji, +0.36 ATR), 5 584 (R1, +0.40 ATR), 5 668 (R2, +0.81 ATR)
+Opory: 5 572 (swing D1 ×5, ostatnio 2026-11-27, +0.35 ATR), 5 575 (szczyt 5 sesji, +0.36 ATR), 5 584 (R1, +0.41 ATR), 5 670 (R2, +0.82 ATR)
 
-Wsparcia: 5 418 (swing D1 ×3, ostatnio 2026-11-27, -0.39 ATR), 5 406 (S1, -0.45 ATR), 5 312 (S2, -0.89 ATR), 5 250 (okrągły poziom, -1.19 ATR)
+Wsparcia: 5 417 (swing D1 ×3, ostatnio 2026-11-27, -0.39 ATR), 5 404 (S1, -0.45 ATR), 5 310 (S2, -0.90 ATR), 5 250 (okrągły poziom, -1.19 ATR)
 
 | Kierunek | Noga | Wejście | SL | TP1 / TP2 | R:R netto | Od ceny | Kontrakty | Uwagi |
 |---|---|---|---|---|---|---|---|---|
-| LONG | limit: cofnięcie do 5417.67 (swing D1 ×3, ostatnio 2026-11-27) | 5 439 | 4 915 | 6 485 / 7 009 | 1.72 | -0.29 ATR | 5 | silny poziom 5572.0 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
+| LONG | limit: cofnięcie do 5417.00 (swing D1 ×3, ostatnio 2026-11-27) | 5 438 | 4 915 | 6 485 / 7 008 | 1.72 | -0.29 ATR | 5 | silny poziom 5572.0 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
 | LONG | stop: kontynuacja: przebicie szczytu ostatniej sesji 5575.00 | 5 596 | 5 073 | 6 643 / 7 166 | 1.72 | +0.46 ATR | 5 | silny poziom 5715.0 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
-| SHORT (pod prąd) | limit: cofnięcie do 5572.00 (swing D1 ×5, ostatnio 2026-11-27) | 5 551 | 6 074 | 4 504 / 3 981 | 1.72 | +0.25 ATR | 5 | silny poziom 5417.67 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
-| SHORT (pod prąd) | stop: kontynuacja: przebicie dołka ostatniej sesji 5397.00 | 5 376 | 5 899 | 4 329 / 3 806 | 1.72 | -0.59 ATR | 5 | silny poziom 5206.5 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
+| SHORT (pod prąd) | limit: cofnięcie do 5572.00 (swing D1 ×5, ostatnio 2026-11-27) | 5 551 | 6 074 | 4 504 / 3 981 | 1.72 | +0.25 ATR | 5 | silny poziom 5417.0 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
+| SHORT (pod prąd) | stop: kontynuacja: przebicie dołka ostatniej sesji 5395.00 | 5 374 | 5 897 | 4 327 / 3 804 | 1.72 | -0.60 ATR | 5 | silny poziom 5206.5 przed TP1: rozważyć częściowe wyjście przed nim; R:R po kosztach 1.72 < 2.0: według ryzyko.md 10a nie składać |
 
 ## Alerty
 
