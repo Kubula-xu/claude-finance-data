@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-28T01:25:57Z",
- "wygenerowano_pl": "2026-11-28 02:25 PL",
+ "wygenerowano_utc": "2026-11-28T02:27:12Z",
+ "wygenerowano_pl": "2026-11-28 03:27 PL",
  "kapital_usd": 10587679.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -166,7 +166,7 @@
      "dane": {
       "proc_normy_30d": 102,
       "proc_normy_16d": 151,
-      "aktualizacja": "2026-11-28T01:25:43Z",
+      "aktualizacja": "2026-11-28T02:27:02Z",
       "regiony": {
        "sul_de_minas": [
         111,
@@ -521,7 +521,7 @@
      "dane": {
       "proc_normy_30d": 218,
       "proc_normy_16d": 82,
-      "aktualizacja": "2026-11-28T01:25:43Z",
+      "aktualizacja": "2026-11-28T02:27:02Z",
       "regiony": {
        "soubre": [
         99,
@@ -768,7 +768,7 @@
   }
  ],
  "status_danych": {
-  "uruchomiono_utc": "2026-11-28T01:25:43Z",
+  "uruchomiono_utc": "2026-11-28T02:27:02Z",
   "bledy": {
    "ice_parse_kawa": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
    "ice_parse_kakao": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
@@ -782,11 +782,11 @@
    "dlugie": "coffee (świeże), cocoa (świeże)"
   },
   "ostatni_sukces_utc": {
-   "cot": "2026-11-28T01:25:43Z",
-   "pogoda": "2026-11-28T01:25:43Z",
-   "krzywa": "2026-11-28T01:25:43Z",
-   "fx": "2026-11-28T01:25:43Z",
-   "dlugie": "2026-11-28T01:25:43Z",
+   "cot": "2026-11-28T02:27:02Z",
+   "pogoda": "2026-11-28T02:27:02Z",
+   "krzywa": "2026-11-28T02:27:02Z",
+   "fx": "2026-11-28T02:27:02Z",
+   "dlugie": "2026-11-28T02:27:02Z",
    "ice": "2026-10-21T18:42:06Z"
   }
  },
