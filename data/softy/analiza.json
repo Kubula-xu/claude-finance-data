@@ -1,6 +1,6 @@
 {
- "wygenerowano_utc": "2026-11-27T21:31:24Z",
- "wygenerowano_pl": "2026-11-27 22:31 PL",
+ "wygenerowano_utc": "2026-11-28T01:25:57Z",
+ "wygenerowano_pl": "2026-11-28 02:25 PL",
  "kapital_usd": 10587679.0,
  "parametry": {
   "MAX_LIMIT_ATR": 0.75,
@@ -162,68 +162,68 @@
     {
      "czynnik": "Pogoda",
      "wynik": -1.0,
-     "opis": "opad 30 dni 98% normy, prognoza 16 dni 162% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027",
+     "opis": "opad 30 dni 102% normy, prognoza 16 dni 151% normy (średnia ważona regionów); deszcze kwitnienia dopisują: dobre perspektywy zbiorów 2027",
      "dane": {
-      "proc_normy_30d": 98,
-      "proc_normy_16d": 162,
-      "aktualizacja": "2026-11-27T16:49:25Z",
+      "proc_normy_30d": 102,
+      "proc_normy_16d": 151,
+      "aktualizacja": "2026-11-28T01:25:43Z",
       "regiony": {
        "sul_de_minas": [
         111,
-        217
+        174
        ],
        "cerrado": [
-        112,
-        89
+        114,
+        181
        ],
        "mogiana": [
-        102,
-        198
+        104,
+        227
        ],
        "espirito_santo": [
-        131,
-        107
+        139,
+        76
        ],
        "wietnam": [
-        36,
-        165
+        46,
+        86
        ]
       }
      }
     },
     {
      "czynnik": "Krzywa",
-     "wynik": -1.5,
-     "opis": "KCZ26.NYB vs KCH27.NYB: -3.66%, 5 dni temu +2.11%, contango (zapasy wystarczają)",
+     "wynik": 0.0,
+     "opis": "KCZ26.NYB vs KCH27.NYB: +1.92%, 5 dni temu +2.11%, backwardation (ciasno w bieżącej dostawie)",
      "dane": {
-      "spread_proc": -3.66,
+      "spread_proc": 1.92,
       "spread_proc_5d": 2.11,
       "kontrakty": [
        {
         "symbol": "KCZ26.NYB",
         "miesiac": "2026-12",
-        "cena": 265.65,
-        "data": "2026-11-25",
+        "cena": 280.85,
+        "data": "2026-11-27",
         "cena_5d_temu": 280.7
        },
        {
         "symbol": "KCH27.NYB",
         "miesiac": "2027-03",
-        "cena": 275.75,
+        "cena": 275.55,
         "data": "2026-11-27",
         "cena_5d_temu": 274.9
        },
        {
         "symbol": "KCK27.NYB",
         "miesiac": "2027-05",
-        "cena": 269.15,
+        "cena": 268.85,
         "data": "2026-11-27",
         "cena_5d_temu": 270.55
        },
        {
         "symbol": "KCN27.NYB",
         "miesiac": "2027-07",
-        "cena": 263.9,
+        "cena": 263.7,
         "data": "2026-11-27",
         "cena_5d_temu": 267.3
        }
@@ -250,10 +250,10 @@
     {
      "czynnik": "BRL",
      "wynik": 0.5,
-     "opis": "USD/BRL 5.535, 5 sesji -6.7%: real mocnieje, rolnicy mniej sprzedają",
+     "opis": "USD/BRL 5.650, 5 sesji -4.8%: real mocnieje, rolnicy mniej sprzedają",
      "dane": {
-      "usdbrl": 5.5355,
-      "zmiana_5d_proc": -6.71
+      "usdbrl": 5.6503,
+      "zmiana_5d_proc": -4.77
      }
     },
     {
@@ -262,13 +262,13 @@
      "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +3.9%, wzrost w 54% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 1.8,
-      "mediana_proc": 3.92,
+      "srednia_proc": 1.36,
+      "mediana_proc": 3.89,
       "proc_lat_wzrost": 54
      }
     }
    ],
-   "suma": -1.0,
+   "suma": 0.5,
    "bias": "NEUTRAL",
    "pewnosc": 1,
    "brak_danych": [],
@@ -517,35 +517,35 @@
     {
      "czynnik": "Pogoda",
      "wynik": 1.0,
-     "opis": "opad 30 dni 213% normy, prognoza 16 dni 136% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie)",
+     "opis": "opad 30 dni 218% normy, prognoza 16 dni 82% normy (średnia ważona regionów); bardzo mokro: ryzyko czarnej zgnilizy strąków i problemy z suszeniem; Ekwador bardzo mokro (powodzie)",
      "dane": {
-      "proc_normy_30d": 213,
-      "proc_normy_16d": 136,
-      "aktualizacja": "2026-11-27T16:49:25Z",
+      "proc_normy_30d": 218,
+      "proc_normy_16d": 82,
+      "aktualizacja": "2026-11-28T01:25:43Z",
       "regiony": {
        "soubre": [
-        100,
-        110
+        99,
+        74
        ],
        "daloa": [
-        85,
-        76
+        86,
+        23
        ],
        "san_pedro": [
-        75,
-        60
+        74,
+        114
        ],
        "ashanti": [
-        100,
-        44
+        104,
+        7
        ],
        "western_north": [
-        109,
-        84
+        111,
+        26
        ],
        "los_rios": [
-        887,
-        446
+        911,
+        266
        ]
       }
      }
@@ -553,36 +553,36 @@
     {
      "czynnik": "Krzywa",
      "wynik": -1.0,
-     "opis": "CCZ26.NYB vs CCH27.NYB: -3.64%, 5 dni temu -2.74%, contango (zapasy wystarczają)",
+     "opis": "CCZ26.NYB vs CCH27.NYB: -2.07%, 5 dni temu -2.74%, contango (zapasy wystarczają)",
      "dane": {
-      "spread_proc": -3.64,
+      "spread_proc": -2.07,
       "spread_proc_5d": -2.74,
       "kontrakty": [
        {
         "symbol": "CCZ26.NYB",
         "miesiac": "2026-12",
-        "cena": 5302.0,
-        "data": "2026-11-25",
+        "cena": 5385.0,
+        "data": "2026-11-27",
         "cena_5d_temu": 5042.0
        },
        {
         "symbol": "CCH27.NYB",
         "miesiac": "2027-03",
-        "cena": 5502.0,
+        "cena": 5499.0,
         "data": "2026-11-27",
         "cena_5d_temu": 5184.0
        },
        {
         "symbol": "CCK27.NYB",
         "miesiac": "2027-05",
-        "cena": 5568.0,
+        "cena": 5562.0,
         "data": "2026-11-27",
         "cena_5d_temu": 5249.0
        },
        {
         "symbol": "CCN27.NYB",
         "miesiac": "2027-07",
-        "cena": 5611.0,
+        "cena": 5606.0,
         "data": "2026-11-27",
         "cena_5d_temu": 5297.0
        }
@@ -609,12 +609,12 @@
     {
      "czynnik": "Sezonowość",
      "wynik": 0.0,
-     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.6%, wzrost w 62% lat",
+     "opis": "kolejne 20 sesji od tej daty w 26 latach: mediana +2.6%, wzrost w 54% lat",
      "dane": {
       "lata": 26,
-      "srednia_proc": 3.6,
+      "srednia_proc": 2.99,
       "mediana_proc": 2.56,
-      "proc_lat_wzrost": 62
+      "proc_lat_wzrost": 54
      }
     }
    ],
@@ -719,14 +719,6 @@
  },
  "kalendarz": [
   {
-   "data": "2026-11-27",
-   "godzina_pl": "21:30",
-   "rynek": "oba",
-   "wydarzenie": "CFTC COT (stan na wtorek)",
-   "waga": "średnia",
-   "uwagi": "cykliczne"
-  },
-  {
    "data": "2026-11-30",
    "godzina_pl": "",
    "rynek": "kakao",
@@ -776,7 +768,7 @@
   }
  ],
  "status_danych": {
-  "uruchomiono_utc": "2026-11-27T16:49:25Z",
+  "uruchomiono_utc": "2026-11-28T01:25:43Z",
   "bledy": {
    "ice_parse_kawa": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
    "ice_parse_kakao": "`Import python-calamine` failed.  Use pip, conda, or your preferred package management tool to install the python-calamine package.",
@@ -790,11 +782,11 @@
    "dlugie": "coffee (świeże), cocoa (świeże)"
   },
   "ostatni_sukces_utc": {
-   "cot": "2026-11-27T16:49:25Z",
-   "pogoda": "2026-11-27T16:49:25Z",
-   "krzywa": "2026-11-27T16:49:25Z",
-   "fx": "2026-11-27T16:49:25Z",
-   "dlugie": "2026-11-27T16:49:25Z",
+   "cot": "2026-11-28T01:25:43Z",
+   "pogoda": "2026-11-28T01:25:43Z",
+   "krzywa": "2026-11-28T01:25:43Z",
+   "fx": "2026-11-28T01:25:43Z",
+   "dlugie": "2026-11-28T01:25:43Z",
    "ice": "2026-10-21T18:42:06Z"
   }
  },
